@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Idol Factory",
+    "description": "FreenBecky所属の大手GLプロダクション。Saint Suppapong CEO",
+    "talents_works": "FreenBecky（GAP, The Loyal Pin）/ 4 Elements共同"
+  },
+  {
+    "name": "Channel 3 / BEC World",
+    "description": "タイ大手地上波。BEC Studioが自社GL制作。LenaMiu所属",
+    "talents_works": "LenaMiu（My Safe Zone）/ The Secret of Us, Only You / Roller Coaster共同"
+  },
+  {
+    "name": "GMMTV",
+    "description": "タイ大手エンタメ。GMM Grammy傘下",
+    "talents_works": "MilkLove（23.5）/ NamtanFilm（Pluto）/ EmiBonnie（Us）"
+  },
+  {
+    "name": "Domundi",
+    "description": "Tee Bundit監督系。シリアス系GL",
+    "talents_works": "FayeYoko（Blank）"
+  },
+  {
+    "name": "CHANGE2561",
+    "description": "GMM Grammy傘下。LMSY発掘",
+    "talents_works": "LMSY（Affair, Harmony Secret, Hometown Romance）/ LillyBelle（I Wanna Be Sup'tar）"
+  },
+  {
+    "name": "North Star Entertainment",
+    "description": "Tik CEO。4 Elementsシリーズ共同制作",
+    "talents_works": "AppleMimu（The Earth）/ GinJay（Poisonous Love）"
+  },
+  {
+    "name": "Motion Minds Entertainment",
+    "description": "BEC Worldと協業した中堅プロダクション",
+    "talents_works": "Roller Coaster"
+  },
+  {
+    "name": "S.NUR Entertainment",
+    "description": "Nur Desoraya CEO兼主演",
+    "talents_works": "TKNur（Dangerous Queen）"
+  },
+  {
+    "name": "Zense Entertainment",
+    "description": "GL系小説原作の映像化に強い",
+    "talents_works": "GraceOaey（Mate）"
+  },
+  {
+    "name": "VelCurve Studio",
+    "description": "Fuse監督系の高品質GLスタジオ。Kao&Janeは個人事務所",
+    "talents_works": "KaoJane（Love Design）"
+  },
+  {
+    "name": "SiamSi Studio",
+    "description": "Reverse Universeシリーズ制作。PitchaNattは個人事務所",
+    "talents_works": "PitchaNatt（Reverse With Me）"
+  },
+  {
+    "name": "GMMTV × Nar-ra-tor",
+    "description": "Usの共同制作",
+    "talents_works": "EmiBonnie（Us）"
+  },
+  {
+    "name": "GMMTV × Snap25",
+    "description": "Plutoの共同制作",
+    "talents_works": "NamtanFilm（Pluto）"
+  },
+  {
+    "name": "Idol Factory × North Star",
+    "description": "4 Elementsシリーズ共同制作",
+    "talents_works": "AppleMimu（The Earth）/ EngLot（The Water）"
+  },
+  {
+    "name": "BEC World Original / Channel 3",
+    "description": "Only You制作元",
+    "talents_works": "LingOrm（Only You）"
+  }
+]

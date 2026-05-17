@@ -84,5 +84,5 @@ export function getFeaturedCompletedDramas(limit = 6): Drama[] {
 
 // Watching list serves as homepage "currently airing pickup"
 export function getCurrentPickup(): WatchingDrama[] {
-  return watching.slice(0, 3);
+  return watching.slice(0, 4);
 }

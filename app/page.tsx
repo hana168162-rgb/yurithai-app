@@ -47,8 +47,10 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-          {pickup.map((d) => (
-            <WatchingCard key={d.slug} drama={d} cover={d.cover_image} />
+          {pickup.map((d, i) => (
+            <div key={d.slug} className={i === 3 ? "md:hidden" : ""}>
+              <WatchingCard drama={d} cover={d.cover_image} />
+            </div>
           ))}
         </div>
       </section>
@@ -91,8 +93,10 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            {upcoming.slice(0, 3).map((d) => (
-              <UpcomingCard key={d.slug} drama={d} />
+            {upcoming.slice(0, 4).map((d, i) => (
+              <div key={d.slug} className={i === 3 ? "md:hidden" : ""}>
+                <UpcomingCard drama={d} />
+              </div>
             ))}
           </div>
         </section>

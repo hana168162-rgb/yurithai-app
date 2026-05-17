@@ -12,6 +12,7 @@ import type {
   Drama,
   WatchingDrama,
   UpcomingDrama,
+  AnyDrama,
   Actress,
   Company,
   Taxonomy,
@@ -38,8 +39,6 @@ export function getActressesForPair(shipName: string): Actress[] {
     .map((id) => getActressById(id))
     .filter((a): a is Actress => Boolean(a));
 }
-
-export type AnyDrama = Drama | WatchingDrama | UpcomingDrama;
 
 export function getDramaBySlug(slug: string): Drama | undefined {
   return dramas.find((d) => d.slug === slug);

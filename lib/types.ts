@@ -57,6 +57,8 @@ export interface WatchingDrama {
   youtube_teaser: string | null;
 }
 
+export type AnyDrama = Drama | WatchingDrama | UpcomingDrama;
+
 export interface UpcomingDrama {
   id: number;
   slug: string;

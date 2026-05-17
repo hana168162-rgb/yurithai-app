@@ -4,7 +4,7 @@
     "name_ja": "フリーン",
     "name_en": "Freen Sarocha Chankimha",
     "agency": "Idol Factory",
-    "height_cm": 170,
+    "height_cm": null,
     "birthplace": "タイ・バンコク",
     "mixed_heritage": null,
     "instagram": "srchafreen"
@@ -14,10 +14,10 @@
     "name_ja": "ベッキー",
     "name_en": "Becky Rebecca Patricia Armstrong",
     "agency": "Idol Factory",
-    "height_cm": 162,
+    "height_cm": null,
     "birthplace": "タイ・バンコク",
     "mixed_heritage": "タイ × イギリス",
-    "instagram": "ang_armstrong"
+    "instagram": "beccca"
   },
   {
     "id": "ling",
@@ -25,86 +25,86 @@
     "name_en": "Lingling Sirilak Kwong",
     "agency": "Channel 3 / BEC World",
     "height_cm": 168,
-    "birthplace": "タイ",
-    "mixed_heritage": "タイ × 中国",
-    "instagram": "lingling_sirilakk"
+    "birthplace": "香港（5歳まで居住、17歳でタイへ）",
+    "mixed_heritage": "タイ × 香港",
+    "instagram": "linglingkwong"
   },
   {
     "id": "orm",
     "name_ja": "オーム",
     "name_en": "Orm Kornnaphat Sethratanapong",
     "agency": "Channel 3 / BEC World",
-    "height_cm": 165,
+    "height_cm": 173,
     "birthplace": "タイ",
     "mixed_heritage": null,
-    "instagram": "ormkornnaphat"
+    "instagram": "orm.kornnaphat"
   },
   {
     "id": "milk",
     "name_ja": "ミルク",
-    "name_en": "Milk Pansa Vajiraseni",
+    "name_en": "Milk Pansa Vosbein",
     "agency": "GMMTV",
-    "height_cm": 165,
+    "height_cm": 170,
     "birthplace": "タイ",
-    "mixed_heritage": null,
-    "instagram": "milkpansa"
+    "mixed_heritage": "タイ × 中国 × モン × デンマーク",
+    "instagram": "panly.v"
   },
   {
     "id": "love",
     "name_ja": "ラブ",
     "name_en": "Love Pattranite Limpatiyakorn",
     "agency": "GMMTV",
-    "height_cm": 162,
+    "height_cm": null,
     "birthplace": "タイ",
     "mixed_heritage": null,
-    "instagram": "love_pattranite"
+    "instagram": "loverrukk"
   },
   {
     "id": "namtan",
     "name_ja": "ナムターン",
     "name_en": "Namtan Tipnaree Weerawatnodom",
     "agency": "GMMTV",
-    "height_cm": 169,
-    "birthplace": "タイ",
+    "height_cm": null,
+    "birthplace": "タイ・アユタヤ",
     "mixed_heritage": null,
-    "instagram": "namtan_tipnaree"
+    "instagram": "namtan.tipnaree"
   },
   {
     "id": "film",
     "name_ja": "フィルム",
     "name_en": "Film Rachanun Mahawan",
     "agency": "GMMTV",
-    "height_cm": 166,
+    "height_cm": null,
     "birthplace": "タイ",
     "mixed_heritage": null,
-    "instagram": "film_rchnn"
+    "instagram": "fr.racha"
   },
   {
     "id": "faye",
     "name_ja": "フェイ",
     "name_en": "Faye Peraya Malisorn",
     "agency": "Domundi / 個人",
-    "height_cm": 168,
-    "birthplace": "タイ",
-    "mixed_heritage": null,
-    "instagram": "faye_peraya"
+    "height_cm": 175,
+    "birthplace": "タイ・プラチーンブリー",
+    "mixed_heritage": "タイ × インド",
+    "instagram": "faye"
   },
   {
     "id": "yoko",
     "name_ja": "ヨーコ",
     "name_en": "Yoko Apasra Lertprasert",
     "agency": "Domundi / 個人",
-    "height_cm": 170,
+    "height_cm": null,
     "birthplace": "タイ",
-    "mixed_heritage": "タイ × 日本",
-    "instagram": "apasralert"
+    "mixed_heritage": "タイ × 中国 × ベトナム",
+    "instagram": "yoko"
   },
   {
     "id": "lookmhee",
     "name_ja": "ルックミー",
     "name_en": "Lookmhee Punyapat Wangpongsathaporn",
     "agency": "CHANGE2561",
-    "height_cm": null,
+    "height_cm": 170,
     "birthplace": "タイ",
     "mixed_heritage": null,
     "instagram": "lmlookmhee"
@@ -117,35 +117,35 @@
     "height_cm": null,
     "birthplace": "タイ",
     "mixed_heritage": "タイ × デンマーク",
-    "instagram": "sonya_saranphat"
+    "instagram": "sonyasarann"
   },
   {
     "id": "engfa",
     "name_ja": "エンファー",
     "name_en": "Engfa Waraha",
     "agency": "個人",
-    "height_cm": 168,
-    "birthplace": "タイ",
+    "height_cm": 170,
+    "birthplace": "タイ・ウタイターニー",
     "mixed_heritage": null,
-    "instagram": "engfa_waraha"
+    "instagram": "fa_engfa8"
   },
   {
     "id": "charlotte",
     "name_ja": "シャーロット",
     "name_en": "Charlotte Austin",
     "agency": "個人",
-    "height_cm": 169,
-    "birthplace": "タイ",
+    "height_cm": 170,
+    "birthplace": "タイ・プーケット",
     "mixed_heritage": "タイ × イギリス",
-    "instagram": "charlotteaustin"
+    "instagram": "itscharlotty"
   },
   {
     "id": "kao",
     "name_ja": "カオ",
     "name_en": "Supassara Thanachat（Kao）",
     "agency": "個人",
-    "height_cm": 168,
-    "birthplace": "タイ",
+    "height_cm": null,
+    "birthplace": "タイ・バンコク",
     "mixed_heritage": null,
     "instagram": "supassra_sp"
   },
@@ -154,40 +154,40 @@
     "name_ja": "ジェーン",
     "name_en": "Methika Jiranorraphat（Jane）",
     "agency": "個人",
-    "height_cm": 167,
-    "birthplace": "タイ",
-    "mixed_heritage": null,
+    "height_cm": null,
+    "birthplace": "タイ・バンコク",
+    "mixed_heritage": "タイ × 台湾",
     "instagram": "janeeyeh"
   },
   {
     "id": "grace",
     "name_ja": "グレース",
-    "name_en": "Grace Budsarin",
-    "agency": "Zense Entertainment",
+    "name_en": "Grace Budsarin Wonglelanont",
+    "agency": "NEZT Media",
     "height_cm": null,
     "birthplace": "タイ",
     "mixed_heritage": null,
-    "instagram": "grace_budsarin"
+    "instagram": "gracebudsarin"
   },
   {
     "id": "oaey",
     "name_ja": "オーイー",
     "name_en": "Oaey Ponchanok",
-    "agency": "Zense Entertainment",
+    "agency": "NEZT Media",
     "height_cm": null,
     "birthplace": "タイ",
     "mixed_heritage": null,
-    "instagram": "oaey_ponchanok"
+    "instagram": "oaey.ponchanok"
   },
   {
     "id": "lena",
     "name_ja": "レナ",
     "name_en": "Lena Lorena Schuett",
     "agency": "Channel 3 / BEC World",
-    "height_cm": 170,
-    "birthplace": "タイ",
-    "mixed_heritage": "タイ × ドイツ",
-    "instagram": "lenalorena"
+    "height_cm": null,
+    "birthplace": "タイ・チェンマイ",
+    "mixed_heritage": "タイ × カナダ",
+    "instagram": "lalinalena"
   },
   {
     "id": "miu",
@@ -195,9 +195,9 @@
     "name_en": "Miu Natsha Taechamongkalapiwat",
     "agency": "Channel 3 / BEC World",
     "height_cm": null,
-    "birthplace": "タイ",
+    "birthplace": "タイ・バンコク",
     "mixed_heritage": null,
-    "instagram": "miu_natsha"
+    "instagram": "mmiunatshaa"
   },
   {
     "id": "lilly",
@@ -214,7 +214,7 @@
     "name_ja": "ベル",
     "name_en": "Belle Jiratchaya Kittavornsakul",
     "agency": "CHANGE2561",
-    "height_cm": null,
+    "height_cm": 160,
     "birthplace": "タイ",
     "mixed_heritage": null,
     "instagram": "bellejirat"

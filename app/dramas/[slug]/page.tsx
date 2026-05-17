@@ -7,6 +7,7 @@ import {
   getActressesForPair,
 } from "@/lib/content";
 import { gradientForSlug } from "@/lib/style";
+import { inferStreamingPlatforms } from "@/lib/streaming";
 import { AgeBadge } from "@/components/AgeBadge";
 import { StatusBadge } from "@/components/StatusBadge";
 import { TagBadge, TagPillDark } from "@/components/TagBadge";
@@ -41,19 +42,16 @@ export default function DramaDetailPage({
   const full = asFullDrama(drama);
   const upcoming = asUpcoming(drama);
 
-  // Common fields
   const titleTh = upcoming?.title_th ?? null;
   const youtubeTeaser =
     "youtube_teaser" in drama ? drama.youtube_teaser : null;
   const note = "note" in drama ? drama.note : "";
   const synopsis = full?.synopsis ?? "";
 
-  // Drama-only fields
   const year = full?.year ?? null;
   const episodes = full?.episodes ?? null;
   const ageRating = full?.age_rating ?? null;
 
-  // Tag sections (only for full Drama)
   const tagSections = full
     ? [
         { label: "ジャンル", tags: full.tags.genre },
@@ -68,9 +66,13 @@ export default function DramaDetailPage({
       ].filter((s) => s.tags && s.tags.length > 0)
     : [];
 
-  // Actresses for this pair
   const pairName = extractPairName(drama.cast_pair);
   const actressList = pairName ? getActressesForPair(pairName) : [];
+
+  const streamingPlatforms = inferStreamingPlatforms(
+    drama.production,
+    note
+  );
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-10">
@@ -87,216 +89,250 @@ export default function DramaDetailPage({
         <span>{drama.title_ja}</span>
       </nav>
 
-      {/* Hero */}
-      <div className="flex gap-6 mb-8 flex-col md:flex-row">
-        <div
-          className="w-full md:w-56 aspect-[3/4] rounded-lg relative shrink-0 bg-cover bg-center overflow-hidden"
-          style={
-            drama.cover_image
-              ? { backgroundImage: `url(${drama.cover_image})` }
-              : { background: gradientForSlug(drama.slug) }
-          }
-        >
-          {ageRating && (
-            <div className="absolute top-2 right-2">
-              <AgeBadge rating={ageRating} />
-            </div>
-          )}
-          <div className="absolute bottom-2 left-2">
-            {drama.status === "upcoming" ? (
-              <span
-                className="text-[10px] font-medium px-2 py-0.5 rounded text-yuri-cream"
-                style={{ background: "rgba(165,197,212,0.92)" }}
-              >
-                {upcoming?.announced_for ?? "公開予定"}
-              </span>
-            ) : (
-              <StatusBadge status={drama.status} episodes={episodes} />
-            )}
-          </div>
-        </div>
-        <div className="flex-1">
-          <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-            {drama.title_ja}
-          </h1>
-          {titleTh && (
-            <p className="text-sm text-yuri-muted mb-2">{titleTh}</p>
-          )}
-          <p className="text-sm text-yuri-muted mb-4">
-            {year ?? "未発表"}
-            {drama.production && (
-              <>
-                <span className="mx-1">·</span>
-                {drama.production}
-              </>
-            )}
-            {episodes && (
-              <>
-                <span className="mx-1">·</span>
-                {episodes}話
-              </>
-            )}
-          </p>
-
-          {drama.cast_pair && (
-            <div className="mb-4 text-sm">
-              <span className="text-yuri-muted">出演ペア: </span>
-              <span className="text-yuri-ink">{drama.cast_pair}</span>
-            </div>
-          )}
-
-          {synopsis && (
-            <p className="text-sm leading-relaxed text-yuri-ink/80">
-              {synopsis}
-            </p>
-          )}
-          {!synopsis && note && (
-            <p className="text-sm leading-relaxed text-yuri-ink/80">
-              {note}
-            </p>
-          )}
-        </div>
-      </div>
-
-      {/* YouTube teaser */}
-      {getYouTubeId(youtubeTeaser) ? (
-        <section className="mb-8">
-          <h2 className="text-base font-medium text-yuri-navy mb-3">
-            ティザー映像
-          </h2>
-          <YouTubeEmbed src={youtubeTeaser} />
-        </section>
-      ) : (
-        <section className="mb-8">
-          <h2 className="text-base font-medium text-yuri-navy mb-3">
-            ティザー映像
-          </h2>
-          <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 text-sm text-yuri-muted">
-            ティザー映像は準備中です。
-          </div>
-        </section>
-      )}
-
-      {/* Tags */}
-      {tagSections.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-base font-medium text-yuri-navy mb-3">
-            作品タグ
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {tagSections.map((sec, i) => (
-              <div
-                key={sec.label}
-                className="bg-yuri-surface border border-yuri-edge rounded-lg p-3"
-              >
-                <p className="text-[11px] text-yuri-muted mb-2 tracking-wider">
-                  {sec.label}
-                </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {sec.tags.map((t, j) => (
-                    <TagBadge
-                      key={t}
-                      label={t}
-                      idx={(i + j) % 5}
-                      size="md"
-                    />
-                  ))}
-                </div>
+      <div className="flex flex-col">
+        {/* 1. Hero — order-1 (mobile & PC same) */}
+        <section className="order-1 flex gap-6 mb-8 flex-col md:flex-row">
+          <div
+            className="w-full md:w-56 aspect-[3/4] rounded-lg relative shrink-0 bg-cover bg-center overflow-hidden"
+            style={
+              drama.cover_image
+                ? { backgroundImage: `url(${drama.cover_image})` }
+                : { background: gradientForSlug(drama.slug) }
+            }
+          >
+            {ageRating && (
+              <div className="absolute top-2 right-2">
+                <AgeBadge rating={ageRating} />
               </div>
-            ))}
+            )}
+            <div className="absolute bottom-2 left-2">
+              {drama.status === "upcoming" ? (
+                <span
+                  className="text-[10px] font-medium px-2 py-0.5 rounded text-yuri-cream"
+                  style={{ background: "rgba(165,197,212,0.92)" }}
+                >
+                  {upcoming?.announced_for ?? "公開予定"}
+                </span>
+              ) : (
+                <StatusBadge status={drama.status} episodes={episodes} />
+              )}
+            </div>
+          </div>
+          <div className="flex-1">
+            <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
+              {drama.title_ja}
+            </h1>
+            {titleTh && (
+              <p className="text-sm text-yuri-muted mb-2">{titleTh}</p>
+            )}
+            <p className="text-sm text-yuri-muted mb-4">
+              {year ?? "未発表"}
+              {drama.production && (
+                <>
+                  <span className="mx-1">·</span>
+                  {drama.production}
+                </>
+              )}
+              {episodes && (
+                <>
+                  <span className="mx-1">·</span>
+                  {episodes}話
+                </>
+              )}
+            </p>
+
+            {drama.cast_pair && (
+              <div className="mb-4 text-sm">
+                <span className="text-yuri-muted">出演ペア: </span>
+                <span className="text-yuri-ink">{drama.cast_pair}</span>
+              </div>
+            )}
+
+            {synopsis && (
+              <p className="text-sm leading-relaxed text-yuri-ink/80">
+                {synopsis}
+              </p>
+            )}
+            {!synopsis && note && (
+              <p className="text-sm leading-relaxed text-yuri-ink/80">
+                {note}
+              </p>
+            )}
           </div>
         </section>
-      )}
 
-      {/* Review */}
-      {full?.review &&
-        (full.review.highlights.length > 0 ||
-          full.review.recommend_for.length > 0 ||
-          full.review.caution_for.length > 0 ||
-          full.review.body_ja) && (
-          <section className="mb-8">
+        {/* 2. Teaser — order-2 (mobile & PC same) */}
+        <section className="order-2 mb-8">
+          <h2 className="text-base font-medium text-yuri-navy mb-3">
+            ティザー映像
+          </h2>
+          {getYouTubeId(youtubeTeaser) ? (
+            <YouTubeEmbed src={youtubeTeaser} />
+          ) : (
+            <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 text-sm text-yuri-muted">
+              ティザー映像は準備中です。
+            </div>
+          )}
+        </section>
+
+        {/* 3. Where-to-watch — mobile: order-3 / PC: order-6 */}
+        <section className="order-3 md:order-6 mb-8">
+          <h2 className="text-base font-medium text-yuri-navy mb-3">
+            どこで見れる？
+          </h2>
+          {streamingPlatforms.length > 0 ? (
+            <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
+              <p className="text-xs text-yuri-muted mb-2">
+                配信されている可能性のあるプラットフォーム ※リンクは順次対応
+              </p>
+              <div className="flex flex-wrap gap-1.5">
+                {streamingPlatforms.map((p) => (
+                  <span
+                    key={p}
+                    className="px-3 py-1 rounded-full bg-yuri-pink text-yuri-navy text-xs"
+                  >
+                    {p}
+                  </span>
+                ))}
+              </div>
+              {note && (
+                <p className="mt-3 text-xs text-yuri-ink/70">{note}</p>
+              )}
+            </div>
+          ) : (
+            <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 text-sm text-yuri-muted">
+              配信先情報は準備中です。
+              {note && (
+                <p className="mt-2 text-xs text-yuri-ink/70">{note}</p>
+              )}
+            </div>
+          )}
+        </section>
+
+        {/* 4. Tags — mobile: order-4 / PC: order-3 */}
+        {tagSections.length > 0 && (
+          <section className="order-4 md:order-3 mb-8">
             <h2 className="text-base font-medium text-yuri-navy mb-3">
-              管理者レビュー
+              作品タグ
             </h2>
-            <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 border-l-4 border-l-yuri-rose">
-              {full.review.body_ja ? (
-                <p className="text-sm leading-relaxed text-yuri-ink/80 mb-4 whitespace-pre-line">
-                  {full.review.body_ja}
-                </p>
-              ) : (
-                <p className="text-xs text-yuri-muted italic mb-4">
-                  レビュー本文は準備中
-                </p>
-              )}
-
-              {full.review.highlights.length > 0 && (
-                <div className="mb-2">
-                  <span className="text-[10px] text-yuri-muted mr-2">
-                    ここが良かった
-                  </span>
-                  <span className="inline-flex flex-wrap gap-1 align-middle">
-                    {full.review.highlights.map((t) => (
-                      <TagPillDark key={t} label={t} variant="navy" />
+            {/* PC: 2-col card grid (kept). Mobile: compact rows */}
+            <div className="hidden md:grid grid-cols-2 gap-3">
+              {tagSections.map((sec, i) => (
+                <div
+                  key={sec.label}
+                  className="bg-yuri-surface border border-yuri-edge rounded-lg p-3"
+                >
+                  <p className="text-[11px] text-yuri-muted mb-2 tracking-wider">
+                    {sec.label}
+                  </p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {sec.tags.map((t, j) => (
+                      <TagBadge
+                        key={t}
+                        label={t}
+                        idx={(i + j) % 5}
+                        size="md"
+                      />
                     ))}
-                  </span>
+                  </div>
                 </div>
-              )}
-              {full.review.recommend_for.length > 0 && (
-                <div className="mb-2">
-                  <span className="text-[10px] text-yuri-muted mr-2">
-                    こんな人におすすめ
+              ))}
+            </div>
+            <div className="md:hidden bg-yuri-surface border border-yuri-edge rounded-lg p-3 space-y-2">
+              {tagSections.map((sec, i) => (
+                <div
+                  key={sec.label}
+                  className="flex items-start gap-2 text-xs"
+                >
+                  <span className="w-20 shrink-0 text-yuri-muted pt-1">
+                    {sec.label}
                   </span>
-                  <span className="inline-flex flex-wrap gap-1 align-middle">
-                    {full.review.recommend_for.map((t) => (
-                      <TagPillDark key={t} label={t} variant="rose" />
+                  <div className="flex flex-wrap gap-1">
+                    {sec.tags.map((t, j) => (
+                      <TagBadge key={t} label={t} idx={(i + j) % 5} />
                     ))}
-                  </span>
+                  </div>
                 </div>
-              )}
-              {full.review.caution_for.length > 0 && (
-                <div>
-                  <span className="text-[10px] text-yuri-muted mr-2">
-                    こんな人は注意
-                  </span>
-                  <span className="inline-flex flex-wrap gap-1 align-middle">
-                    {full.review.caution_for.map((t) => (
-                      <TagPillDark key={t} label={t} variant="navy" />
-                    ))}
-                  </span>
-                </div>
-              )}
+              ))}
             </div>
           </section>
         )}
 
-      {/* Actress profiles */}
-      {actressList.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-base font-medium text-yuri-navy mb-3">
-            出演女優
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {actressList.map((a) => (
-              <ActressProfile key={a.id} actress={a} />
-            ))}
-          </div>
-        </section>
-      )}
+        {/* 5. Review — mobile: order-5 / PC: order-4 */}
+        {full?.review &&
+          (full.review.highlights.length > 0 ||
+            full.review.recommend_for.length > 0 ||
+            full.review.caution_for.length > 0 ||
+            full.review.body_ja) && (
+            <section className="order-5 md:order-4 mb-8">
+              <h2 className="text-base font-medium text-yuri-navy mb-3">
+                管理者レビュー
+              </h2>
+              <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 border-l-4 border-l-yuri-rose">
+                {full.review.body_ja ? (
+                  <p className="text-sm leading-relaxed text-yuri-ink/80 mb-4 whitespace-pre-line">
+                    {full.review.body_ja}
+                  </p>
+                ) : (
+                  <p className="text-xs text-yuri-muted italic mb-4">
+                    レビュー本文は準備中
+                  </p>
+                )}
 
-      {/* Where to watch placeholder */}
-      {full && (
-        <section className="mb-8">
-          <h2 className="text-base font-medium text-yuri-navy mb-3">
-            どこで見れる？
-          </h2>
-          <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 text-sm text-yuri-muted">
-            配信先情報は準備中です。
-            {full.note && (
-              <p className="mt-2 text-xs text-yuri-ink/70">{full.note}</p>
-            )}
-          </div>
-        </section>
-      )}
+                {full.review.highlights.length > 0 && (
+                  <div className="mb-2">
+                    <span className="text-[10px] text-yuri-muted mr-2">
+                      ここが良かった
+                    </span>
+                    <span className="inline-flex flex-wrap gap-1 align-middle">
+                      {full.review.highlights.map((t) => (
+                        <TagPillDark key={t} label={t} variant="navy" />
+                      ))}
+                    </span>
+                  </div>
+                )}
+                {full.review.recommend_for.length > 0 && (
+                  <div className="mb-2">
+                    <span className="text-[10px] text-yuri-muted mr-2">
+                      こんな人におすすめ
+                    </span>
+                    <span className="inline-flex flex-wrap gap-1 align-middle">
+                      {full.review.recommend_for.map((t) => (
+                        <TagPillDark key={t} label={t} variant="rose" />
+                      ))}
+                    </span>
+                  </div>
+                )}
+                {full.review.caution_for.length > 0 && (
+                  <div>
+                    <span className="text-[10px] text-yuri-muted mr-2">
+                      こんな人は注意
+                    </span>
+                    <span className="inline-flex flex-wrap gap-1 align-middle">
+                      {full.review.caution_for.map((t) => (
+                        <TagPillDark key={t} label={t} variant="navy" />
+                      ))}
+                    </span>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
+
+        {/* 6. Actress profiles — mobile: order-6 / PC: order-5 */}
+        {actressList.length > 0 && (
+          <section className="order-6 md:order-5 mb-8">
+            <h2 className="text-base font-medium text-yuri-navy mb-3">
+              出演女優
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {actressList.map((a) => (
+                <ActressProfile key={a.id} actress={a} />
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
     </div>
   );
 }

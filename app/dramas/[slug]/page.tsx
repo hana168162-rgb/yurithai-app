@@ -5,6 +5,7 @@ import { gradientForSlug } from "@/lib/style";
 import { AgeBadge } from "@/components/AgeBadge";
 import { StatusBadge } from "@/components/StatusBadge";
 import { TagBadge, TagPillDark } from "@/components/TagBadge";
+import { YouTubeEmbed, getYouTubeId } from "@/components/YouTubeEmbed";
 
 export function generateStaticParams() {
   return dramas.map((d) => ({ slug: d.slug }));
@@ -44,8 +45,12 @@ export default function DramaDetailPage({
       {/* Hero */}
       <div className="flex gap-6 mb-8 flex-col md:flex-row">
         <div
-          className="w-full md:w-56 aspect-[3/4] rounded-lg relative shrink-0"
-          style={{ background: gradientForSlug(drama.slug) }}
+          className="w-full md:w-56 aspect-[3/4] rounded-lg relative shrink-0 bg-cover bg-center overflow-hidden"
+          style={
+            drama.cover_image
+              ? { backgroundImage: `url(${drama.cover_image})` }
+              : { background: gradientForSlug(drama.slug) }
+          }
         >
           <div className="absolute top-2 right-2">
             <AgeBadge rating={drama.age_rating} />
@@ -178,6 +183,16 @@ export default function DramaDetailPage({
               </div>
             )}
           </div>
+        </section>
+      )}
+
+      {/* YouTube teaser */}
+      {getYouTubeId(drama.youtube_teaser) && (
+        <section className="mb-8">
+          <h2 className="text-base font-medium text-yuri-navy mb-3">
+            ティザー映像
+          </h2>
+          <YouTubeEmbed src={drama.youtube_teaser} />
         </section>
       )}
 

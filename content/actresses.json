@@ -1,0 +1,332 @@
+[
+  {
+    "id": "freen",
+    "name_ja": "フリーン",
+    "name_en": "Freen Sarocha Chankimha",
+    "agency": "Idol Factory",
+    "height_cm": 170,
+    "birthplace": "タイ・バンコク",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "srchafreen",
+      "x": "srchafreen",
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "becky",
+    "name_ja": "ベッキー",
+    "name_en": "Becky Rebecca Patricia Armstrong",
+    "agency": "Idol Factory",
+    "height_cm": 162,
+    "birthplace": "タイ・バンコク",
+    "mixed_heritage": "タイ × イギリス",
+    "social": {
+      "instagram": "ang_armstrong",
+      "x": "ang_armstrong",
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "ling",
+    "name_ja": "リンリン",
+    "name_en": "Lingling Sirilak Kwong",
+    "agency": "Channel 3 / BEC World",
+    "height_cm": 168,
+    "birthplace": "タイ",
+    "mixed_heritage": "タイ × 中国",
+    "social": {
+      "instagram": "lingling_sirilakk",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "orm",
+    "name_ja": "オーム",
+    "name_en": "Orm Kornnaphat Sethratanapong",
+    "agency": "Channel 3 / BEC World",
+    "height_cm": 165,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "ormkornnaphat",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "milk",
+    "name_ja": "ミルク",
+    "name_en": "Milk Pansa Vajiraseni",
+    "agency": "GMMTV",
+    "height_cm": 165,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "milkpansa",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "love",
+    "name_ja": "ラブ",
+    "name_en": "Love Pattranite Limpatiyakorn",
+    "agency": "GMMTV",
+    "height_cm": 162,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "love_pattranite",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "namtan",
+    "name_ja": "ナムターン",
+    "name_en": "Namtan Tipnaree Weerawatnodom",
+    "agency": "GMMTV",
+    "height_cm": 169,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "namtan_tipnaree",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "film",
+    "name_ja": "フィルム",
+    "name_en": "Film Rachanun Mahawan",
+    "agency": "GMMTV",
+    "height_cm": 166,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "film_rchnn",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "faye",
+    "name_ja": "フェイ",
+    "name_en": "Faye Peraya Malisorn",
+    "agency": "Domundi / 個人",
+    "height_cm": 168,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "faye_peraya",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "yoko",
+    "name_ja": "ヨーコ",
+    "name_en": "Yoko Apasra Lertprasert",
+    "agency": "Domundi / 個人",
+    "height_cm": 170,
+    "birthplace": "タイ",
+    "mixed_heritage": "タイ × 日本",
+    "social": {
+      "instagram": "apasralert",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "lookmhee",
+    "name_ja": "ルックミー",
+    "name_en": "Lookmhee Punyapat Wangpongsathaporn",
+    "agency": "CHANGE2561",
+    "height_cm": null,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "lmlookmhee",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "sonya",
+    "name_ja": "ソニア",
+    "name_en": "Sonya Saranphat Pedersen",
+    "agency": "CHANGE2561",
+    "height_cm": null,
+    "birthplace": "タイ",
+    "mixed_heritage": "タイ × デンマーク",
+    "social": {
+      "instagram": "sonya_saranphat",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "engfa",
+    "name_ja": "エンファー",
+    "name_en": "Engfa Waraha",
+    "agency": "個人",
+    "height_cm": 168,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "engfa_waraha",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "charlotte",
+    "name_ja": "シャーロット",
+    "name_en": "Charlotte Austin",
+    "agency": "個人",
+    "height_cm": 169,
+    "birthplace": "タイ",
+    "mixed_heritage": "タイ × イギリス",
+    "social": {
+      "instagram": "charlotteaustin",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "kao",
+    "name_ja": "カオ",
+    "name_en": "Supassara Thanachat（Kao）",
+    "agency": "個人",
+    "height_cm": 168,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "supassra_sp",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "jane",
+    "name_ja": "ジェーン",
+    "name_en": "Methika Jiranorraphat（Jane）",
+    "agency": "個人",
+    "height_cm": 167,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "janeeyeh",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "grace",
+    "name_ja": "グレース",
+    "name_en": "Grace Budsarin",
+    "agency": "Zense Entertainment",
+    "height_cm": null,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "grace_budsarin",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "oaey",
+    "name_ja": "オーイー",
+    "name_en": "Oaey Ponchanok",
+    "agency": "Zense Entertainment",
+    "height_cm": null,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "oaey_ponchanok",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "lena",
+    "name_ja": "レナ",
+    "name_en": "Lena Lorena Schuett",
+    "agency": "Channel 3 / BEC World",
+    "height_cm": 170,
+    "birthplace": "タイ",
+    "mixed_heritage": "タイ × ドイツ",
+    "social": {
+      "instagram": "lenalorena",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "miu",
+    "name_ja": "ミュー",
+    "name_en": "Miu Natsha Taechamongkalapiwat",
+    "agency": "Channel 3 / BEC World",
+    "height_cm": null,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "miu_natsha",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "lilly",
+    "name_ja": "リリー",
+    "name_en": "Lilly Nichapalak Thongkham",
+    "agency": "CHANGE2561",
+    "height_cm": null,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "lilly_nicha",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  },
+  {
+    "id": "belle",
+    "name_ja": "ベル",
+    "name_en": "Belle Jiratchaya Kittavornsakul",
+    "agency": "CHANGE2561",
+    "height_cm": null,
+    "birthplace": "タイ",
+    "mixed_heritage": null,
+    "social": {
+      "instagram": "bellejirat",
+      "x": null,
+      "tiktok": null,
+      "youtube": null
+    }
+  }
+]

@@ -16,7 +16,7 @@ export function Header() {
             ドラマ
           </Link>
           <Link href="/cast" className="text-yuri-ink hover:text-yuri-rose">
-            女優
+            ペア一覧
           </Link>
           <Link
             href="/recommend"

@@ -2,9 +2,11 @@ import Link from "next/link";
 import {
   getCurrentPickup,
   getFeaturedCompletedDramas,
+  upcoming,
 } from "@/lib/content";
 import { DramaCard } from "@/components/DramaCard";
 import { WatchingCard } from "@/components/WatchingCard";
+import { UpcomingCard } from "@/components/UpcomingCard";
 
 export default function HomePage() {
   const pickup = getCurrentPickup();
@@ -56,7 +58,7 @@ export default function HomePage() {
         <div className="flex items-baseline justify-between mb-3">
           <div>
             <h2 className="text-base font-medium text-yuri-navy">作品一覧</h2>
-            <p className="text-xs text-yuri-muted">20作品から探す</p>
+            <p className="text-xs text-yuri-muted">完結作品から探す</p>
           </div>
           <Link href="/dramas" className="text-xs text-yuri-rose">
             すべて見る →
@@ -68,6 +70,33 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* 今後公開予定 */}
+      {upcoming.length > 0 && (
+        <section className="mb-10">
+          <div className="flex items-baseline justify-between mb-3">
+            <div>
+              <h2 className="text-base font-medium text-yuri-navy">
+                今後公開予定
+              </h2>
+              <p className="text-xs text-yuri-muted">
+                公開が発表されている作品
+              </p>
+            </div>
+            <Link
+              href="/dramas/upcoming"
+              className="text-xs text-yuri-rose"
+            >
+              すべて見る →
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {upcoming.slice(0, 3).map((d) => (
+              <UpcomingCard key={d.slug} drama={d} />
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

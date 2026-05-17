@@ -2,12 +2,17 @@
 
 import dramasData from "@/content/dramas.json";
 import watchingData from "@/content/watching.json";
+import upcomingData from "@/content/upcoming.json";
+import actressesData from "@/content/actresses.json";
+import pairsData from "@/content/pairs.json";
 import companiesData from "@/content/companies.json";
 import taxonomyData from "@/content/taxonomy.json";
 import questionsData from "@/content/diagnostic/questions.json";
 import type {
   Drama,
   WatchingDrama,
+  UpcomingDrama,
+  Actress,
   Company,
   Taxonomy,
   QuestionsFile,
@@ -15,9 +20,24 @@ import type {
 
 export const dramas = dramasData as unknown as Drama[];
 export const watching = watchingData as unknown as WatchingDrama[];
+export const upcoming = upcomingData as unknown as UpcomingDrama[];
+export const actresses = actressesData as unknown as Actress[];
 export const companies = companiesData as unknown as Company[];
 export const taxonomy = taxonomyData as unknown as Taxonomy;
 export const questionsFile = questionsData as unknown as QuestionsFile;
+
+export function getActressById(id: string): Actress | undefined {
+  return actresses.find((a) => a.id === id);
+}
+
+export const pairs = pairsData as Record<string, string[]>;
+
+export function getActressesForPair(shipName: string): Actress[] {
+  const ids = pairs[shipName] ?? [];
+  return ids
+    .map((id) => getActressById(id))
+    .filter((a): a is Actress => Boolean(a));
+}
 
 export function getDramaBySlug(slug: string): Drama | undefined {
   return dramas.find((d) => d.slug === slug);

@@ -40,6 +40,7 @@ export interface Drama {
   cover_image: string | null;       // 例: "/images/dramas/gap.jpg"
   cover_credit: string | null;      // 出典明記用 例: "© IDOLFACTORY @idolfactoryth"
   instagram_post: string | null;    // 詳細ページ埋め込み用
+  youtube_teaser: string | null;    // 例: "https://www.youtube.com/watch?v=XXXX" or ID "XXXX"
 }
 
 export interface WatchingDrama {
@@ -53,6 +54,22 @@ export interface WatchingDrama {
   note: string;
   cover_image: string | null;
   cover_credit: string | null;
+}
+
+export interface UpcomingDrama {
+  id: number;
+  slug: string;
+  title_ja: string;
+  title_en: string;
+  title_th: string | null;
+  production: string | null;
+  cast_pair: string | null;
+  status: "upcoming";
+  announced_for: string | null;     // 例: "2026年内予定", "未発表"
+  note: string;
+  cover_image: string | null;
+  cover_credit: string | null;
+  youtube_teaser: string | null;
 }
 
 export interface Company {
@@ -93,3 +110,21 @@ export interface QuestionsFile {
 }
 
 export type Answers = Record<string, string[]>; // questionId -> optionIds
+
+export interface ActressSocial {
+  instagram: string | null;
+  x: string | null;
+  tiktok: string | null;
+  youtube: string | null;
+}
+
+export interface Actress {
+  id: string;
+  name_ja: string;
+  name_en: string;
+  agency: string | null;
+  height_cm: number | null;
+  birthplace: string | null;
+  mixed_heritage: string | null;
+  social: ActressSocial;
+}

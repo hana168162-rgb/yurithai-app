@@ -1,19 +1,5 @@
 import type { Actress } from "@/lib/types";
 
-const SOCIAL_LABELS: Record<string, string> = {
-  instagram: "Instagram",
-  x: "X",
-  tiktok: "TikTok",
-  youtube: "YouTube",
-};
-
-const SOCIAL_PREFIXES: Record<string, string> = {
-  instagram: "https://instagram.com/",
-  x: "https://x.com/",
-  tiktok: "https://tiktok.com/@",
-  youtube: "https://youtube.com/@",
-};
-
 export function ActressProfile({ actress }: { actress: Actress }) {
   return (
     <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
@@ -49,24 +35,17 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         )}
       </dl>
 
-      <div className="flex flex-wrap gap-1.5 text-[10px]">
-        {Object.entries(actress.social).map(([key, value]) => {
-          if (!value) return null;
-          const label = SOCIAL_LABELS[key] ?? key;
-          const url = `${SOCIAL_PREFIXES[key] ?? ""}${value}`;
-          return (
-            <a
-              key={key}
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-2 py-0.5 rounded-full bg-yuri-pink text-yuri-navy hover:opacity-80"
-            >
-              {label} @{value}
-            </a>
-          );
-        })}
-      </div>
+      {actress.instagram && (
+        <a
+          href={`https://instagram.com/${actress.instagram}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-yuri-pink text-yuri-navy text-xs hover:opacity-80"
+        >
+          <span aria-hidden>📷</span>
+          Instagram @{actress.instagram}
+        </a>
+      )}
     </div>
   );
 }

@@ -54,6 +54,7 @@ export interface WatchingDrama {
   note: string;
   cover_image: string | null;
   cover_credit: string | null;
+  youtube_teaser: string | null;
 }
 
 export interface UpcomingDrama {
@@ -111,13 +112,6 @@ export interface QuestionsFile {
 
 export type Answers = Record<string, string[]>; // questionId -> optionIds
 
-export interface ActressSocial {
-  instagram: string | null;
-  x: string | null;
-  tiktok: string | null;
-  youtube: string | null;
-}
-
 export interface Actress {
   id: string;
   name_ja: string;
@@ -126,5 +120,5 @@ export interface Actress {
   height_cm: number | null;
   birthplace: string | null;
   mixed_heritage: string | null;
-  social: ActressSocial;
+  instagram: string | null;
 }

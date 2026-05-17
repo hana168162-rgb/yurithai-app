@@ -1,11 +1,15 @@
 // Card for upcoming dramas — no rating/status overlay
 
+import Link from "next/link";
 import type { UpcomingDrama } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 
 export function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
   return (
-    <div className="block bg-yuri-surface rounded-lg overflow-hidden border border-yuri-edge">
+    <Link
+      href={`/dramas/${drama.slug}`}
+      className="block bg-yuri-surface rounded-lg overflow-hidden border border-yuri-edge hover:border-yuri-rose/40 transition-colors"
+    >
       <div
         className="relative aspect-[3/4] bg-cover bg-center"
         style={
@@ -40,6 +44,6 @@ export function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
           </p>
         )}
       </div>
-    </div>
+    </Link>
   );
 }

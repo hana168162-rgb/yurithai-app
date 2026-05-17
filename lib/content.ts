@@ -39,8 +39,33 @@ export function getActressesForPair(shipName: string): Actress[] {
     .filter((a): a is Actress => Boolean(a));
 }
 
+export type AnyDrama = Drama | WatchingDrama | UpcomingDrama;
+
 export function getDramaBySlug(slug: string): Drama | undefined {
   return dramas.find((d) => d.slug === slug);
+}
+
+export function getAnyDramaBySlug(slug: string): AnyDrama | undefined {
+  return (
+    dramas.find((d) => d.slug === slug) ??
+    watching.find((d) => d.slug === slug) ??
+    upcoming.find((d) => d.slug === slug)
+  );
+}
+
+export function allDramaSlugs(): string[] {
+  return [
+    ...dramas.map((d) => d.slug),
+    ...watching.map((d) => d.slug),
+    ...upcoming.map((d) => d.slug),
+  ];
+}
+
+// Extract pair short name like "FreenBecky" from cast_pair string
+export function extractPairName(castPair: string | null): string | null {
+  if (!castPair) return null;
+  const m = castPair.match(/（([^）]+)）/);
+  return m ? m[1] : null;
 }
 
 export function getAiringDramas(): Drama[] {

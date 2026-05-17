@@ -1,5 +1,6 @@
 // Card for "currently watching" pickup — minimal info (no tags yet)
 
+import Link from "next/link";
 import type { WatchingDrama } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 import { StatusBadge } from "./StatusBadge";
@@ -12,7 +13,10 @@ export function WatchingCard({
   cover?: string | null;
 }) {
   return (
-    <div className="block bg-yuri-surface rounded-lg overflow-hidden border border-yuri-edge">
+    <Link
+      href={`/dramas/${drama.slug}`}
+      className="block bg-yuri-surface rounded-lg overflow-hidden border border-yuri-edge hover:border-yuri-rose/40 transition-colors"
+    >
       <div
         className="relative aspect-[3/4] bg-cover bg-center"
         style={
@@ -31,6 +35,6 @@ export function WatchingCard({
           {drama.production ?? "制作元未確認"}
         </p>
       </div>
-    </div>
+    </Link>
   );
 }

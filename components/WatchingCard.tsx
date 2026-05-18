@@ -2,6 +2,7 @@
 // statusOverride: end_date 過ぎた作品を "completed" として表示するときに使う
 
 import Link from "next/link";
+import Image from "next/image";
 import type { WatchingDrama, DramaStatus } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 import { StatusBadge } from "./StatusBadge";
@@ -21,15 +22,24 @@ export function WatchingCard({
       href={`/dramas/${drama.slug}`}
       className="block bg-yuri-surface rounded-lg overflow-hidden border border-yuri-edge hover:border-yuri-rose/40 transition-colors"
     >
-      <div
-        className="relative aspect-[3/4] bg-cover bg-center"
-        style={
-          cover
-            ? { backgroundImage: `url(${cover})` }
-            : { background: gradientForSlug(drama.slug) }
-        }
-      >
-        <div className="absolute bottom-2 left-2">
+      <div className="relative aspect-[3/4] overflow-hidden">
+        {cover ? (
+          <Image
+            src={cover}
+            alt={drama.title_ja}
+            fill
+            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className="object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div
+            className="absolute inset-0"
+            style={{ background: gradientForSlug(drama.slug) }}
+            aria-hidden
+          />
+        )}
+        <div className="absolute bottom-2 left-2 z-10">
           <StatusBadge
             status={displayStatus}
             episodes={drama.episodes ?? null}

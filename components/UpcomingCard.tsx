@@ -1,6 +1,7 @@
 // Card for upcoming dramas — no rating/status overlay
 
 import Link from "next/link";
+import Image from "next/image";
 import type { UpcomingDrama } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 
@@ -10,17 +11,26 @@ export function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
       href={`/dramas/${drama.slug}`}
       className="block bg-yuri-surface rounded-lg overflow-hidden border border-yuri-edge hover:border-yuri-rose/40 transition-colors"
     >
-      <div
-        className="relative aspect-[3/4] bg-cover bg-center"
-        style={
-          drama.cover_image
-            ? { backgroundImage: `url(${drama.cover_image})` }
-            : { background: gradientForSlug(drama.slug) }
-        }
-      >
+      <div className="relative aspect-[3/4] overflow-hidden">
+        {drama.cover_image ? (
+          <Image
+            src={drama.cover_image}
+            alt={drama.title_ja}
+            fill
+            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className="object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div
+            className="absolute inset-0"
+            style={{ background: gradientForSlug(drama.slug) }}
+            aria-hidden
+          />
+        )}
         {drama.announced_for && (
           <div
-            className="absolute bottom-2 left-2 text-[10px] font-medium px-2 py-0.5 rounded text-yuri-cream"
+            className="absolute bottom-2 left-2 z-10 text-[10px] font-medium px-2 py-0.5 rounded text-yuri-cream"
             style={{ background: "rgba(165,197,212,0.92)" }}
           >
             {drama.announced_for}

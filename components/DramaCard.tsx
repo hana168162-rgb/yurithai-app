@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Drama } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 import { AgeBadge } from "./AgeBadge";
@@ -24,18 +25,27 @@ export function DramaCard({ drama }: { drama: Drama }) {
       href={`/dramas/${drama.slug}`}
       className="block bg-yuri-surface rounded-lg overflow-hidden border border-yuri-edge hover:border-yuri-rose/40 transition-colors"
     >
-      <div
-        className="relative aspect-[3/4] bg-cover bg-center"
-        style={
-          drama.cover_image
-            ? { backgroundImage: `url(${drama.cover_image})` }
-            : { background: gradientForSlug(drama.slug) }
-        }
-      >
-        <div className="absolute top-1.5 right-1.5">
+      <div className="relative aspect-[3/4] overflow-hidden">
+        {drama.cover_image ? (
+          <Image
+            src={drama.cover_image}
+            alt={drama.title_ja}
+            fill
+            sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className="object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div
+            className="absolute inset-0"
+            style={{ background: gradientForSlug(drama.slug) }}
+            aria-hidden
+          />
+        )}
+        <div className="absolute top-1.5 right-1.5 z-10">
           <AgeBadge rating={drama.age_rating} />
         </div>
-        <div className="absolute bottom-2 left-2">
+        <div className="absolute bottom-2 left-2 z-10">
           <StatusBadge status={drama.status} episodes={drama.episodes} />
         </div>
       </div>

@@ -45,16 +45,16 @@ const config: Config = {
       },
       fontFamily: {
         sans: [
-          "Plus Jakarta Sans",
-          "Noto Sans JP",
+          "var(--font-plus-jakarta)",
+          "var(--font-noto-sans-jp)",
           "system-ui",
           "sans-serif",
         ],
         display: [
-          "Quicksand",
+          "var(--font-quicksand)",
           "M PLUS Rounded 1c",
-          "Plus Jakarta Sans",
-          "Noto Sans JP",
+          "var(--font-plus-jakarta)",
+          "var(--font-noto-sans-jp)",
           "sans-serif",
         ],
       },

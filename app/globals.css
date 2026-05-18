@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Quicksand:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&display=swap");
+/* next/font (layout.tsx で読み込み済み) のCSS変数を使う */
 
 :root {
   --color-cream: #faf6ee;
@@ -21,7 +21,7 @@ body {
 
 body {
   font-family:
-    "Plus Jakarta Sans", "Noto Sans JP", system-ui, sans-serif;
+    var(--font-plus-jakarta), var(--font-noto-sans-jp), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -30,8 +30,8 @@ h2,
 h3,
 .font-display {
   font-family:
-    "Quicksand", "M PLUS Rounded 1c", "Plus Jakarta Sans", "Noto Sans JP",
-    sans-serif;
+    var(--font-quicksand), "M PLUS Rounded 1c", var(--font-plus-jakarta),
+    var(--font-noto-sans-jp), sans-serif;
   letter-spacing: -0.01em;
 }
 
@@ -43,8 +43,8 @@ a {
 /* ブログ記事本文用スタイル（marked からのHTML出力に適用） */
 .prose-yuri h2 {
   font-family:
-    "Quicksand", "M PLUS Rounded 1c", "Plus Jakarta Sans", "Noto Sans JP",
-    sans-serif;
+    var(--font-quicksand), "M PLUS Rounded 1c", var(--font-plus-jakarta),
+    var(--font-noto-sans-jp), sans-serif;
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--color-navy);
@@ -55,8 +55,8 @@ a {
 }
 .prose-yuri h3 {
   font-family:
-    "Quicksand", "M PLUS Rounded 1c", "Plus Jakarta Sans", "Noto Sans JP",
-    sans-serif;
+    var(--font-quicksand), "M PLUS Rounded 1c", var(--font-plus-jakarta),
+    var(--font-noto-sans-jp), sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--color-navy);

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import {
   getAnyDramaBySlug,
@@ -203,20 +204,29 @@ export default function DramaDetailPage({
       <div className="flex flex-col">
         {/* 1. Hero — order-1 (mobile & PC same) */}
         <section className="order-1 flex gap-6 mb-8 flex-col md:flex-row">
-          <div
-            className="w-full md:w-56 aspect-[3/4] rounded-lg relative shrink-0 bg-cover bg-center overflow-hidden"
-            style={
-              drama.cover_image
-                ? { backgroundImage: `url(${drama.cover_image})` }
-                : { background: gradientForSlug(drama.slug) }
-            }
-          >
+          <div className="w-full md:w-56 aspect-[3/4] rounded-lg relative shrink-0 overflow-hidden">
+            {drama.cover_image ? (
+              <Image
+                src={drama.cover_image}
+                alt={drama.title_ja}
+                fill
+                sizes="(max-width: 768px) 100vw, 224px"
+                className="object-cover"
+                priority
+              />
+            ) : (
+              <div
+                className="absolute inset-0"
+                style={{ background: gradientForSlug(drama.slug) }}
+                aria-hidden
+              />
+            )}
             {ageRating && (
-              <div className="absolute top-2 right-2">
+              <div className="absolute top-2 right-2 z-10">
                 <AgeBadge rating={ageRating} />
               </div>
             )}
-            <div className="absolute bottom-2 left-2">
+            <div className="absolute bottom-2 left-2 z-10">
               {drama.status === "upcoming" ? (
                 <span
                   className="text-[10px] font-medium px-2 py-0.5 rounded text-yuri-cream"

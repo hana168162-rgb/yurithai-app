@@ -1,11 +1,42 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import {
+  Plus_Jakarta_Sans,
+  Noto_Sans_JP,
+  Quicksand,
+} from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Header } from "@/components/Header";
 import { CampaignBanner } from "@/components/CampaignBanner";
 import { Footer } from "@/components/Footer";
 import { JsonLd, buildWebSiteJsonLd } from "@/components/JsonLd";
+
+// next/font: ビルド時にフォントをセルフホストし、CSS変数で配信する。
+// この方式だと「ブラウザがGoogle Fontsを取りに行くときのレイアウト崩れ（CLS）」を解消できる。
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+  variable: "--font-plus-jakarta",
+  preload: true,
+});
+
+const notoSansJp = Noto_Sans_JP({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+  variable: "--font-noto-sans-jp",
+  preload: false, // 日本語フォントは重いので preload は false
+});
+
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+  variable: "--font-quicksand",
+  preload: true,
+});
 
 export const metadata: Metadata = {
   title: {
@@ -80,7 +111,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja">
+    <html
+      lang="ja"
+      className={`${plusJakarta.variable} ${notoSansJp.variable} ${quicksand.variable}`}
+    >
       <body className="min-h-screen flex flex-col">
         <JsonLd data={buildWebSiteJsonLd()} />
         <Header />

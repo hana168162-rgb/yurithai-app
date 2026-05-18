@@ -9,7 +9,7 @@ import { JsonLd, buildWebSiteJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: {
-    default: "YuriThai（ユリタイ）| 日本人のためのタイGLドラマ案内所",
+    default: "YuriThai・タイGLドラマ",
     template: "%s | YuriThai",
   },
   description:
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://yurithai.jp"),
   alternates: { canonical: "https://yurithai.jp" },
   openGraph: {
-    title: "YuriThai（ユリタイ）| 日本人のためのタイGLドラマ案内所",
+    title: "YuriThai・タイGLドラマ",
     description:
       "推しの一作を、見つけよう。タイGLドラマのレビュー・配信先・女優情報を日本語でまとめたガイド。",
     url: "https://yurithai.jp",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         url: "/og-default.png",
         width: 1200,
         height: 630,
-        alt: "YuriThai（ユリタイ）| 日本人のためのタイGLドラマ案内所",
+        alt: "YuriThai・タイGLドラマ",
       },
     ],
     locale: "ja_JP",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "YuriThai（ユリタイ）",
+    title: "YuriThai・タイGLドラマ",
     description: "推しの一作を、見つけよう。",
     images: ["/og-default.png"],
   },

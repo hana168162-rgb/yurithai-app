@@ -11,12 +11,18 @@ export function Header() {
           <span className="text-yuri-navy">Yuri</span>
           <span className="text-yuri-rose">Thai</span>
         </Link>
-        <nav className="flex items-center gap-6 text-sm">
+        <nav className="flex items-center gap-4 md:gap-6 text-sm">
           <Link href="/dramas" className="text-yuri-ink hover:text-yuri-rose">
             ドラマ
           </Link>
           <Link href="/cast" className="text-yuri-ink hover:text-yuri-rose">
             ペア一覧
+          </Link>
+          <Link
+            href="/tags"
+            className="hidden md:inline text-yuri-ink hover:text-yuri-rose"
+          >
+            タグ
           </Link>
           <Link
             href="/recommend"

@@ -1,4 +1,9 @@
-export const metadata = { title: "About | YuriThai" };
+export const metadata = {
+  title: "Aboutページ・運営者情報",
+  description:
+    "YuriThai（ユリタイ）は、日本人ファンのためにタイGLドラマの情報を整理・紹介する非営利メディアです。運営者情報・サイトの方針について。",
+  alternates: { canonical: "https://yurithai.jp/about" },
+};
 
 export default function AboutPage() {
   return (

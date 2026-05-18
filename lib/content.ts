@@ -31,6 +31,55 @@ export function getActressById(id: string): Actress | undefined {
   return actresses.find((a) => a.id === id);
 }
 
+export function allActressIds(): string[] {
+  return actresses.map((a) => a.id);
+}
+
+/**
+ * 女優IDから出演作品（dramas + watching + upcoming）を返す
+ * 1) pairs.json で女優が紐付くペアを取得
+ * 2) そのペアが含まれる作品 + 個別 filmography に含まれる作品名で逆引き
+ */
+export function getDramasForActress(
+  actressId: string
+): { drama: AnyDrama; title_ja: string }[] {
+  const actress = getActressById(actressId);
+  if (!actress) return [];
+
+  // この女優が含まれるペア名を全て取得
+  const myPairs = Object.entries(pairsData as Record<string, string[]>)
+    .filter(([, ids]) => ids.includes(actressId))
+    .map(([name]) => name);
+
+  const allWorks = [...dramas, ...watching, ...upcoming];
+  const result: { drama: AnyDrama; title_ja: string }[] = [];
+  const seen = new Set<string>();
+
+  // 1) ペア名で逆引き
+  for (const w of allWorks) {
+    const cp = w.cast_pair ?? "";
+    if (myPairs.some((p) => cp.includes(p))) {
+      if (!seen.has(w.slug)) {
+        seen.add(w.slug);
+        result.push({ drama: w, title_ja: w.title_ja });
+      }
+    }
+  }
+
+  // 2) filmography のタイトル文字列で逆引き（補完用）
+  const fm = actress.filmography ?? [];
+  for (const w of allWorks) {
+    if (seen.has(w.slug)) continue;
+    const candidate = [w.title_ja, w.title_en].filter(Boolean) as string[];
+    if (fm.some((f) => candidate.some((c) => c.includes(f) || f.includes(c)))) {
+      seen.add(w.slug);
+      result.push({ drama: w, title_ja: w.title_ja });
+    }
+  }
+
+  return result;
+}
+
 export const pairs = pairsData as Record<string, string[]>;
 
 export function getActressesForPair(shipName: string): Actress[] {
@@ -85,4 +134,97 @@ export function getFeaturedCompletedDramas(limit = 6): Drama[] {
 // Watching list serves as homepage "currently airing pickup"
 export function getCurrentPickup(): WatchingDrama[] {
   return watching.slice(0, 4);
+}
+
+// =============================================
+//  Tag-related helpers
+// =============================================
+
+export type TagCategoryKey =
+  | "genre"
+  | "relationship"
+  | "tone"
+  | "pacing"
+  | "intimacy"
+  | "production_quality"
+  | "warnings";
+
+export const TAG_CATEGORY_LABELS: Record<TagCategoryKey, string> = {
+  genre: "ジャンル",
+  relationship: "関係性",
+  tone: "トーン",
+  pacing: "ペース",
+  intimacy: "描写の濃さ",
+  production_quality: "プロダクション",
+  warnings: "注意点",
+};
+
+export interface TagSummary {
+  tag: string;
+  category: TagCategoryKey;
+  count: number;
+}
+
+/**
+ * 全タグを集計（カテゴリ別 / 件数付き）
+ */
+export function allTags(): TagSummary[] {
+  const map = new Map<string, TagSummary>();
+
+  for (const d of dramas) {
+    if (!d.tags) continue;
+    for (const cat of Object.keys(TAG_CATEGORY_LABELS) as TagCategoryKey[]) {
+      const tagsInCat = (d.tags as Record<string, string[]>)[cat] ?? [];
+      for (const t of tagsInCat) {
+        const key = `${cat}::${t}`;
+        if (!map.has(key)) {
+          map.set(key, { tag: t, category: cat, count: 0 });
+        }
+        map.get(key)!.count += 1;
+      }
+    }
+  }
+  return Array.from(map.values()).sort((a, b) => b.count - a.count);
+}
+
+/**
+ * 指定タグを含む完結作品を返す
+ */
+export function getDramasByTag(tag: string): Drama[] {
+  return dramas.filter((d) => {
+    if (!d.tags) return false;
+    return Object.values(d.tags).some(
+      (arr) => Array.isArray(arr) && arr.includes(tag)
+    );
+  });
+}
+
+/**
+ * タグからカテゴリを推定（最初に見つかったもの）
+ */
+export function getCategoryForTag(tag: string): TagCategoryKey | null {
+  for (const cat of Object.keys(TAG_CATEGORY_LABELS) as TagCategoryKey[]) {
+    if (dramas.some((d) => (d.tags as Record<string, string[]>)[cat]?.includes(tag))) {
+      return cat;
+    }
+  }
+  return null;
+}
+
+/**
+ * タグから URL safe slug を生成（日本語そのまま encoded）
+ */
+export function tagToSlug(tag: string): string {
+  return encodeURIComponent(tag);
+}
+
+export function slugToTag(slug: string): string {
+  return decodeURIComponent(slug);
+}
+
+/**
+ * sitemap で全タグの URL を出力するためのリスト
+ */
+export function allTagSlugs(): string[] {
+  return allTags().map((t) => tagToSlug(t.tag));
 }

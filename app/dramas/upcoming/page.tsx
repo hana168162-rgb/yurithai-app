@@ -3,7 +3,15 @@ import { UpcomingCard } from "@/components/UpcomingCard";
 import { DramaListNav } from "@/components/DramaListNav";
 
 export const metadata = {
-  title: "公開予定 | YuriThai",
+  title: "公開予定のタイGLドラマ一覧",
+  description:
+    "2026年以降に放送・配信予定のタイGLドラマ最新ラインナップ。Cranium、Moonshadow、Her、Ditto、Love's Echoes、Wish upon a star など主要ペアの新作情報を日本語で。",
+  alternates: { canonical: "https://yurithai.jp/dramas/upcoming" },
+  openGraph: {
+    title: "公開予定のタイGLドラマ一覧 | YuriThai",
+    url: "https://yurithai.jp/dramas/upcoming",
+    type: "website",
+  },
 };
 
 export default function UpcomingPage() {

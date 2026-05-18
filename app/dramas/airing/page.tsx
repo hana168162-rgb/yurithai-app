@@ -3,7 +3,15 @@ import { WatchingCard } from "@/components/WatchingCard";
 import { DramaListNav } from "@/components/DramaListNav";
 
 export const metadata = {
-  title: "放送中の作品 | YuriThai",
+  title: "現在放送中・配信中のタイGLドラマ一覧",
+  description:
+    "現在タイで放送中・配信中のGLドラマ最新作を一覧で。Fulfill、Hometown Romance、Love beyond Dreams など最新情報を日本語で。",
+  alternates: { canonical: "https://yurithai.jp/dramas/airing" },
+  openGraph: {
+    title: "現在放送中・配信中のタイGLドラマ一覧 | YuriThai",
+    url: "https://yurithai.jp/dramas/airing",
+    type: "website",
+  },
 };
 
 export default function AiringPage() {

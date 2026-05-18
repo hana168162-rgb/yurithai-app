@@ -1,10 +1,16 @@
+import Link from "next/link";
 import type { Actress } from "@/lib/types";
 
 export function ActressProfile({ actress }: { actress: Actress }) {
   return (
     <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
       <div className="mb-3">
-        <p className="text-sm font-medium text-yuri-navy">{actress.name_ja}</p>
+        <Link
+          href={`/cast/${actress.id}`}
+          className="text-sm font-medium text-yuri-navy hover:text-yuri-rose"
+        >
+          {actress.name_ja}
+        </Link>
         <p className="text-xs text-yuri-muted">{actress.real_name}</p>
       </div>
 

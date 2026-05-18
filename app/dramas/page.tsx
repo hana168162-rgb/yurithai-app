@@ -3,7 +3,15 @@ import { DramaCard } from "@/components/DramaCard";
 import { DramaListNav } from "@/components/DramaListNav";
 
 export const metadata = {
-  title: "完結作品一覧 | YuriThai",
+  title: "完結作品一覧（タイGLドラマ）",
+  description:
+    "完結したタイGLドラマを一覧で。GAP / The Loyal Pin / Pluto / 23.5 / The Secret of Us / Affair / Mate / Love Design / Harmony Secret / My Safe Zone など23作品の作品情報・配信先・レビュー・出演ペアを日本語で。",
+  alternates: { canonical: "https://yurithai.jp/dramas" },
+  openGraph: {
+    title: "完結作品一覧（タイGLドラマ） | YuriThai",
+    url: "https://yurithai.jp/dramas",
+    type: "website",
+  },
 };
 
 export default function DramasPage() {

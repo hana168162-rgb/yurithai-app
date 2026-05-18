@@ -1,4 +1,8 @@
 // Compact tag pill used on drama cards
+// クリック可能: 該当タグの作品一覧ページに遷移
+
+import Link from "next/link";
+import { tagToSlug } from "@/lib/content";
 
 const PALETTE_BG = ["#F5C5D5", "#C9B8DD", "#A5C5D4", "#D4B589", "#FAEEDA"];
 
@@ -6,18 +10,31 @@ export function TagBadge({
   label,
   idx = 0,
   size = "sm",
+  linkable = true,
 }: {
   label: string;
   idx?: number;
   size?: "sm" | "md";
+  linkable?: boolean;
 }) {
   const bg = PALETTE_BG[idx % PALETTE_BG.length];
   const px = size === "md" ? "px-2.5 py-1 text-xs" : "px-2 py-0.5 text-[10px]";
+  const className = `${px} rounded-full text-yuri-navy whitespace-nowrap`;
+
+  if (linkable) {
+    return (
+      <Link
+        href={`/tags/${tagToSlug(label)}`}
+        className={`${className} hover:opacity-80 transition-opacity inline-block`}
+        style={{ background: bg }}
+      >
+        {label}
+      </Link>
+    );
+  }
+
   return (
-    <span
-      className={`${px} rounded-full text-yuri-navy whitespace-nowrap`}
-      style={{ background: bg }}
-    >
+    <span className={className} style={{ background: bg }}>
       {label}
     </span>
   );

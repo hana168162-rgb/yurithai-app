@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
 import {
   getAnyDramaBySlug,
   allDramaSlugs,
@@ -13,14 +14,73 @@ import { TagBadge, TagPillDark } from "@/components/TagBadge";
 import { YouTubeEmbed, getYouTubeId } from "@/components/YouTubeEmbed";
 import { ActressProfile } from "@/components/ActressProfile";
 import { WhereToWatch } from "@/components/WhereToWatch";
+import {
+  JsonLd,
+  buildTVSeriesJsonLd,
+  buildBreadcrumbJsonLd,
+} from "@/components/JsonLd";
 import type {
   Drama,
   UpcomingDrama,
   AnyDrama,
 } from "@/lib/types";
 
+const SITE_URL = "https://yurithai.jp";
+
 export function generateStaticParams() {
   return allDramaSlugs().map((slug) => ({ slug }));
+}
+
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
+  const drama = getAnyDramaBySlug(params.slug);
+  if (!drama) return { title: "作品が見つかりません | YuriThai" };
+
+  const full = "tags" in drama && "review" in drama ? (drama as Drama) : null;
+  const titleTh = "title_th" in drama ? drama.title_th : null;
+
+  const title = `${drama.title_ja}（${drama.title_en}）| YuriThai`;
+  const description = full?.synopsis
+    ? full.synopsis.slice(0, 150)
+    : `タイGLドラマ「${drama.title_ja}」の作品情報、出演ペア、配信先、レビュー、関連動画を日本語でまとめたガイド。${drama.cast_pair ? `主演: ${drama.cast_pair}` : ""}`;
+
+  const url = `${SITE_URL}/dramas/${drama.slug}`;
+  const image = drama.cover_image
+    ? `${SITE_URL}${drama.cover_image}`
+    : `${SITE_URL}/og-default.png`;
+
+  return {
+    title,
+    description,
+    keywords: [
+      "タイGL",
+      "タイドラマ",
+      drama.title_ja,
+      drama.title_en,
+      ...(titleTh ? [titleTh] : []),
+      ...(drama.production ? [drama.production] : []),
+      "百合",
+    ],
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${drama.title_ja}（${drama.title_en}）`,
+      description,
+      url,
+      siteName: "YuriThai",
+      images: [{ url: image, width: 1200, height: 630, alt: drama.title_ja }],
+      locale: "ja_JP",
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: drama.title_ja,
+      description,
+      images: [image],
+    },
+  };
 }
 
 function asFullDrama(d: AnyDrama): Drama | null {
@@ -74,8 +134,18 @@ export default function DramaDetailPage({
       ? drama.streaming
       : undefined;
 
+  // 構造化データ
+  const tvSeriesData = buildTVSeriesJsonLd({ drama, actresses: actressList });
+  const breadcrumbData = buildBreadcrumbJsonLd([
+    { name: "トップ", url: `${SITE_URL}/` },
+    { name: "ドラマ", url: `${SITE_URL}/dramas` },
+    { name: drama.title_ja, url: `${SITE_URL}/dramas/${drama.slug}` },
+  ]);
+
   return (
     <div className="mx-auto max-w-4xl px-6 py-10">
+      <JsonLd data={tvSeriesData} />
+      <JsonLd data={breadcrumbData} />
       {/* Breadcrumb */}
       <nav className="text-xs text-yuri-muted mb-4">
         <Link href="/" className="hover:text-yuri-rose">

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Header } from "@/components/Header";
+import { CampaignBanner } from "@/components/CampaignBanner";
 import { Footer } from "@/components/Footer";
 import { JsonLd, buildWebSiteJsonLd } from "@/components/JsonLd";
 
@@ -73,6 +74,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col">
         <JsonLd data={buildWebSiteJsonLd()} />
         <Header />
+        <CampaignBanner />
         <main className="flex-1">{children}</main>
         <Footer />
         <Analytics />

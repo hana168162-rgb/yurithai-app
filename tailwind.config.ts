@@ -5,6 +5,21 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    // CampaignBanner の bg は content/banners.json に外出ししているので
+    // Tailwind のスキャン対象外。動的グラデーション用に safelist しておく。
+    "from-yuri-rose",
+    "to-yuri-pink",
+    "from-yuri-navy",
+    "to-yuri-lilac",
+    "from-yuri-pink",
+    "to-yuri-lilac",
+    "from-yuri-gold",
+    "from-yuri-teal",
+    "to-yuri-cream",
+    "text-yuri-cream",
+    "text-yuri-ink",
+  ],
   theme: {
     extend: {
       colors: {

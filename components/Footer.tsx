@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="bg-yuri-navy text-yuri-cream mt-16">
-      <div className="mx-auto max-w-6xl px-6 py-10">
-        <div className="text-xl font-display font-medium mb-6">
+    <footer className="bg-yuri-navy text-yuri-cream mt-8">
+      <div className="mx-auto max-w-6xl px-6 py-6">
+        <div className="text-lg font-display font-medium mb-4">
           <span className="text-yuri-pink">Yuri</span>
           <span className="text-yuri-lilac">Thai</span>
         </div>
 
-        <div className="grid grid-cols-2 gap-8 mb-6 text-sm">
+        <div className="grid grid-cols-2 gap-8 mb-4 text-sm">
           <div>
             <p className="text-xs opacity-60 mb-2 tracking-wider">サイト案内</p>
             <ul className="space-y-1.5 opacity-90">
@@ -55,7 +55,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-yuri-cream/15 pt-4 text-xs opacity-70 text-center">
+        <div className="border-t border-yuri-cream/15 pt-3 text-xs opacity-70 text-center">
           © 2026 YuriThai · yurithai.jp
         </div>
       </div>

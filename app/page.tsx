@@ -15,9 +15,9 @@ export default function HomePage() {
   return (
     <div className="mx-auto max-w-6xl px-6">
       {/* Hero */}
-      <section className="py-16 text-center">
+      <section className="py-8 md:py-12 text-center">
         <div className="text-yuri-gold mb-2 text-sm">✦  ✦  ✦</div>
-        <h1 className="text-3xl md:text-4xl font-display font-medium text-yuri-ink mb-8">
+        <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-6 tracking-tight leading-tight">
           推しの一作を、見つけよう。
         </h1>
         <Link
@@ -75,7 +75,7 @@ export default function HomePage() {
 
       {/* 公開予定 */}
       {upcoming.length > 0 && (
-        <section className="mb-10">
+        <section className="mb-4">
           <div className="flex items-baseline justify-between mb-3">
             <div>
               <h2 className="text-base font-medium text-yuri-navy">

@@ -73,16 +73,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 今後公開予定 */}
+      {/* 公開予定 */}
       {upcoming.length > 0 && (
         <section className="mb-10">
           <div className="flex items-baseline justify-between mb-3">
             <div>
               <h2 className="text-base font-medium text-yuri-navy">
-                今後公開予定
+                公開予定
               </h2>
               <p className="text-xs text-yuri-muted">
-                公開が発表されている作品
+                全{upcoming.length}作品
               </p>
             </div>
             <Link

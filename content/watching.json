@@ -16,7 +16,8 @@
         "platform": "iQIYI",
         "url": "https://www.iq.com/"
       }
-    ]
+    ],
+    "title_th": "เสน่หาวาโย"
   },
   {
     "id": 102,
@@ -35,7 +36,8 @@
         "platform": "RakutenTV",
         "url": "https://tv.rakuten.co.jp/"
       }
-    ]
+    ],
+    "title_th": "กฎหลัก ห้ามรักเธอ"
   },
   {
     "id": 103,
@@ -54,7 +56,8 @@
         "platform": "iQIYI",
         "url": "https://www.iq.com/"
       }
-    ]
+    ],
+    "title_th": "คุณแฟนบ้านนอก"
   },
   {
     "id": 104,
@@ -73,7 +76,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/0EPN_IlU2gU"
       }
-    ]
+    ],
+    "title_th": "ลัลล์ไม่ชอบไวน์"
   },
   {
     "id": 105,
@@ -93,6 +97,7 @@
         "url": "https://www.netflix.com/jp/",
         "note": "VPN必要"
       }
-    ]
+    ],
+    "title_th": "Fulfill The Series"
   }
 ]

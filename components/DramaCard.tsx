@@ -41,10 +41,21 @@ export function DramaCard({ drama }: { drama: Drama }) {
       </div>
       <div className="p-2.5">
         <p className="text-sm font-medium mb-0.5 truncate">{drama.title_ja}</p>
-        <p className="text-[10px] text-yuri-muted mb-2">
+        {drama.title_th && (
+          <p className="text-[10px] text-yuri-muted/80 mb-0.5 truncate">
+            {drama.title_th}
+          </p>
+        )}
+        <p className="text-[10px] text-yuri-muted mb-1">
           {drama.year ?? "—"}
           {drama.production ? ` · ${drama.production.split(" × ")[0]}` : ""}
         </p>
+        {drama.cast_pair && (
+          <p className="text-[10px] text-yuri-rose/90 mb-2 truncate">
+            {drama.cast_pair.split("（")[1]?.replace("）", "") ??
+              drama.cast_pair}
+          </p>
+        )}
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {tags.map((t, i) => (

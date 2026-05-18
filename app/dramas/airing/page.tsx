@@ -14,7 +14,7 @@ export default function AiringPage() {
           放送中の作品
         </h1>
         <p className="text-sm text-yuri-muted">
-          全{watching.length}作品 · 現在放送中・配信中のタイGL
+          全{watching.length}作品 · 現在放送中・配信中
         </p>
       </header>
 

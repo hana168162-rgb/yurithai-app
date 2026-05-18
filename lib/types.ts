@@ -31,6 +31,7 @@ export interface Drama {
   slug: string;
   title_ja: string;
   title_en: string;
+  title_th: string | null;
   year: number | null;
   production: string | null;
   episodes: number | null;
@@ -55,6 +56,7 @@ export interface WatchingDrama {
   slug: string;
   title_ja: string;
   title_en: string;
+  title_th: string | null;
   production: string | null;
   cast_pair: string | null;
   status: DramaStatus;

@@ -64,7 +64,8 @@
         "platform": "TELASA",
         "url": "https://www.telasa.jp/"
       }
-    ]
+    ],
+    "title_th": "ทฤษฎีสีชมพู"
   },
   {
     "id": 2,
@@ -137,7 +138,8 @@
         "platform": "TELASA",
         "url": "https://www.telasa.jp/"
       }
-    ]
+    ],
+    "title_th": "ปิ่นภักดิ์"
   },
   {
     "id": 3,
@@ -214,7 +216,8 @@
         "url": "https://www.netflix.com/jp/",
         "note": "VPN必要"
       }
-    ]
+    ],
+    "title_th": "เพียงเธอ"
   },
   {
     "id": 4,
@@ -285,7 +288,8 @@
         "url": "https://www.netflix.com/jp/",
         "note": "VPN必要"
       }
-    ]
+    ],
+    "title_th": "ใจซ่อนรัก"
   },
   {
     "id": 5,
@@ -352,7 +356,8 @@
         "platform": "TELASA",
         "url": "https://www.telasa.jp/"
       }
-    ]
+    ],
+    "title_th": "23.5 องศาที่โลกเอียง"
   },
   {
     "id": 6,
@@ -420,7 +425,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/dObc3WRi6TU"
       }
-    ]
+    ],
+    "title_th": "พลูโต"
   },
   {
     "id": 7,
@@ -490,7 +496,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/1EauB0mRMGo"
       }
-    ]
+    ],
+    "title_th": "Us รักของเรา"
   },
   {
     "id": 8,
@@ -560,7 +567,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/aw6l3ABHWyk"
       }
-    ]
+    ],
+    "title_th": "รักขบวนนี้ หัวใจเกือบวาย"
   },
   {
     "id": 9,
@@ -569,7 +577,7 @@
     "title_en": "Poisonous Love",
     "year": null,
     "production": "North Star Entertainment",
-    "episodes": null,
+    "episodes": 8,
     "status": "completed",
     "age_rating": null,
     "cast_pair": "Ginny Natnicha × Jayna Stevens（GinJay）",
@@ -627,7 +635,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/6CO8mBhPrv8"
       }
-    ]
+    ],
+    "title_th": "พิษรัก"
   },
   {
     "id": 10,
@@ -692,7 +701,8 @@
         "platform": "iQIYI",
         "url": "https://www.iq.com/"
       }
-    ]
+    ],
+    "title_th": "วิวาห์ปฐพี"
   },
   {
     "id": 11,
@@ -765,7 +775,8 @@
         "url": "https://www.netflix.com/jp/",
         "note": "VPN必要"
       }
-    ]
+    ],
+    "title_th": "รับ(รัก)ออกแบบ"
   },
   {
     "id": 12,
@@ -841,7 +852,8 @@
         "platform": "Netflix",
         "url": "https://www.netflix.com/jp/"
       }
-    ]
+    ],
+    "title_th": "รักเล่นกล"
   },
   {
     "id": 13,
@@ -850,32 +862,56 @@
     "title_en": "Harmony Secret",
     "year": 2025,
     "production": "CHANGE2561",
-    "episodes": null,
+    "episodes": 8,
     "status": "completed",
-    "age_rating": null,
+    "age_rating": "18+",
     "cast_pair": "Lookmhee Punyapat Wangpongsathaporn × Sonya Saranphat Pedersen（LMSY）",
     "tags": {
-      "genre": [],
-      "relationship": [],
-      "tone": [],
-      "pacing": [],
-      "intimacy": [],
+      "genre": [
+        "オフィス・社会人",
+        "業界もの（企業）"
+      ],
+      "relationship": [
+        "ライバル→恋人",
+        "元同級生"
+      ],
+      "tone": [
+        "シリアス",
+        "ドラマチック",
+        "王道ロマンス"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "濃厚描写あり"
+      ],
       "production_quality": [
         "ケミがすごい",
         "演技力"
       ],
-      "warnings": []
+      "warnings": [
+        "暴力描写",
+        "強い言葉遣い"
+      ]
     },
-    "synopsis": "AiとMaevikaの関係を描く。",
+    "synopsis": "デパートグループ相続人マエヴィカと、ホテルグループ相続人アイワリン。学生時代からのライバル同士が、数十億バーツのデューティーフリー利権を巡る企業競争で再会する。",
     "review": {
       "highlights": [
-        "LMSYケミ"
+        "LMSYケミ",
+        "コーポレートドラマ展開",
+        "演技力"
       ],
       "recommend_for": [
         "LMSY好き",
-        "LMSY3部作追ってる人"
+        "LMSY3部作追ってる人",
+        "ライバル→恋人好き",
+        "企業ドラマ好き"
       ],
-      "caution_for": [],
+      "caution_for": [
+        "ライトコメディ希望者",
+        "濃厚描写苦手"
+      ],
       "body_ja": "",
       "reviewer": "yurithai-editor"
     },
@@ -896,7 +932,8 @@
         "url": "https://www.netflix.com/jp/",
         "note": "VPN必要"
       }
-    ]
+    ],
+    "title_th": "ดีลลับฉบับเล่นเล่ห์"
   },
   {
     "id": 14,
@@ -967,7 +1004,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/nF7Tqhe6y2Y"
       }
-    ]
+    ],
+    "title_th": "เมท เดอะ ซีรีส์"
   },
   {
     "id": 15,
@@ -1034,7 +1072,8 @@
         "platform": "iQIYI",
         "url": "https://www.iq.com/"
       }
-    ]
+    ],
+    "title_th": "นทีร้อยเล่ห์"
   },
   {
     "id": 16,
@@ -1043,7 +1082,7 @@
     "title_en": "Dangerous Queen",
     "year": 2025,
     "production": "S.NUR Entertainment",
-    "episodes": null,
+    "episodes": 8,
     "status": "completed",
     "age_rating": null,
     "cast_pair": "Tangkwa Phinyanech × Nur Desoraya Techapaibul（TKNur）",
@@ -1100,7 +1139,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/bOazhToD33A"
       }
-    ]
+    ],
+    "title_th": "คนโปรดของควีน"
   },
   {
     "id": 17,
@@ -1167,7 +1207,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/B1FbhclzkcE"
       }
-    ]
+    ],
+    "title_th": "วันหนึ่งจะเป็นซุปตาร์"
   },
   {
     "id": 18,
@@ -1235,7 +1276,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/iZ0uHlR7muw"
       }
-    ]
+    ],
+    "title_th": "เติมคำว่า(รัก)ลงในช่องว่าง"
   },
   {
     "id": 19,
@@ -1244,7 +1286,7 @@
     "title_en": "My Safe Zone",
     "year": 2025,
     "production": "BEC Studio（Channel 3）",
-    "episodes": null,
+    "episodes": 8,
     "status": "completed",
     "age_rating": null,
     "cast_pair": "Lena Lorena Schuett × Miu Natsha Taechamongkalapiwat（LenaMiu）",
@@ -1303,7 +1345,8 @@
         "url": "https://www.netflix.com/jp/",
         "note": "VPN必要"
       }
-    ]
+    ],
+    "title_th": "รักสุดท้าย"
   },
   {
     "id": 20,
@@ -1312,7 +1355,7 @@
     "title_en": "Reverse With Me",
     "year": 2025,
     "production": "SiamSi Studio",
-    "episodes": null,
+    "episodes": 8,
     "status": "completed",
     "age_rating": null,
     "cast_pair": "Pitcha Pitchatorn Santinatornkul × Natt Nattamon Chokejindachai（PitchaNatt）",
@@ -1369,7 +1412,8 @@
         "platform": "iQIYI",
         "url": "https://www.iq.com/"
       }
-    ]
+    ],
+    "title_th": "ล้านวงโคจร"
   },
   {
     "id": 21,
@@ -1437,7 +1481,8 @@
         "url": "https://www.netflix.com/jp/",
         "note": "VPN必要"
       }
-    ]
+    ],
+    "title_th": "Play Park The Series"
   },
   {
     "id": 22,
@@ -1510,7 +1555,8 @@
         "platform": "YouTube",
         "url": "https://youtu.be/T6h6tDomGQM"
       }
-    ]
+    ],
+    "title_th": "หัวใจช้ำรัก"
   },
   {
     "id": 23,
@@ -1578,6 +1624,7 @@
         "platform": "YouTube",
         "url": "https://youtu.be/w8x8AedJzbY"
       }
-    ]
+    ],
+    "title_th": "คุณวาฬร้านชำ"
   }
 ]

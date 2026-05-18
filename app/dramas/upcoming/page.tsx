@@ -3,7 +3,7 @@ import { UpcomingCard } from "@/components/UpcomingCard";
 import { DramaListNav } from "@/components/DramaListNav";
 
 export const metadata = {
-  title: "今後の公開予定 | YuriThai",
+  title: "公開予定 | YuriThai",
 };
 
 export default function UpcomingPage() {
@@ -11,11 +11,9 @@ export default function UpcomingPage() {
     <div className="mx-auto max-w-6xl px-6 py-10">
       <header className="mb-6">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-          今後公開予定
+          公開予定
         </h1>
-        <p className="text-sm text-yuri-muted">
-          全{upcoming.length}作品 · 公開が発表されているタイGL
-        </p>
+        <p className="text-sm text-yuri-muted">全{upcoming.length}作品</p>
       </header>
 
       <DramaListNav current="upcoming" />

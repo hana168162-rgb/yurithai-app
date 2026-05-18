@@ -31,9 +31,20 @@ export function WatchingCard({
       </div>
       <div className="p-2.5">
         <p className="text-sm font-medium mb-0.5 truncate">{drama.title_ja}</p>
-        <p className="text-[10px] text-yuri-muted">
+        {drama.title_th && (
+          <p className="text-[10px] text-yuri-muted/80 mb-0.5 truncate">
+            {drama.title_th}
+          </p>
+        )}
+        <p className="text-[10px] text-yuri-muted mb-1">
           {drama.production ?? "制作元未確認"}
         </p>
+        {drama.cast_pair && (
+          <p className="text-[10px] text-yuri-rose/90 truncate">
+            {drama.cast_pair.split("（")[1]?.replace("）", "") ??
+              drama.cast_pair}
+          </p>
+        )}
       </div>
     </Link>
   );

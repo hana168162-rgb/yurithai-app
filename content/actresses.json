@@ -831,5 +831,35 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "khunmewwww"
+  },
+  {
+    "id": "namneung",
+    "name_ja": "ナムヌン",
+    "real_name": "Milin \"Namneung\" Dokthian",
+    "birth_date": null,
+    "age": null,
+    "nationality": "タイ",
+    "height_cm": null,
+    "filmography": [
+      "The Fire"
+    ],
+    "agency": "Idol Factory × North Star Entertainment",
+    "instagram": null,
+    "notes": "元BNK48 1期生"
+  },
+  {
+    "id": "noey",
+    "name_ja": "ヌイ",
+    "real_name": "Kanteera \"Noey\" Wadcharathadsanakul",
+    "birth_date": null,
+    "age": null,
+    "nationality": "タイ",
+    "height_cm": null,
+    "filmography": [
+      "The Fire"
+    ],
+    "agency": "Idol Factory × North Star Entertainment",
+    "instagram": null,
+    "notes": "元BNK48 1期生"
   }
 ]

@@ -138,6 +138,7 @@ export interface Actress {
   filmography: string[];        // 出演作品
   agency: string | null;        // 所属
   instagram: string | null;
+  notes?: string | null;        // 補足情報（例：元BNK48、ハーフ、特技 等）
 }
 
 // =============================================

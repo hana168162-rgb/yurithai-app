@@ -575,9 +575,9 @@
     "slug": "poisonous-love",
     "title_ja": "Poisonous Love",
     "title_en": "Poisonous Love",
-    "year": null,
+    "year": 2025,
     "production": "North Star Entertainment",
-    "episodes": 8,
+    "episodes": 10,
     "status": "completed",
     "age_rating": null,
     "cast_pair": "Ginny Natnicha × Jayna Stevens（GinJay）",
@@ -624,13 +624,17 @@
       "reviewer": "yurithai-editor"
     },
     "confidence": "H 高",
-    "note": "North Star Entertainment制作（CEO: Tik）",
+    "note": "North Star Entertainment制作（CEO: Tik）/ 2025年9月20日初放送 / 10話完結 / Channel One 31（タイ本国） / NORTH STAR ENTERTAINMENT公式YouTube（Uncut版）",
     "cover_gradient": null,
     "cover_image": "/images/dramas/poisonous-love.jpg",
     "cover_credit": null,
     "instagram_post": null,
     "youtube_teaser": "https://youtu.be/0x4DayIIpDM",
     "streaming": [
+      {
+        "platform": "Channel One 31",
+        "url": "https://www.one31.net/"
+      },
       {
         "platform": "YouTube",
         "url": "https://youtu.be/6CO8mBhPrv8"
@@ -690,7 +694,7 @@
       "reviewer": "yurithai-editor"
     },
     "confidence": "H 高",
-    "note": "4 Elementsシリーズ第1弾 / Idol Factory × North Star共同制作 / EP1はタイ国内1位・世界2位トレンド入り",
+    "note": "4 Elementsシリーズ第1弾 / Idol Factory × North Star共同制作 / 2026年1月24日〜3月14日 / 8話完結 / EP1はタイ国内1位・世界2位トレンド入り",
     "cover_gradient": null,
     "cover_image": "/images/dramas/the-earth.jpg",
     "cover_credit": null,
@@ -1061,7 +1065,7 @@
       "reviewer": "yurithai-editor"
     },
     "confidence": "H 高",
-    "note": "4 Elementsシリーズ第2弾 / Idol Factory × North Star共同制作",
+    "note": "4 Elementsシリーズ第2弾 / Idol Factory × North Star共同制作 / 2026年3月21日〜5月9日 / 8話完結",
     "cover_gradient": null,
     "cover_image": "/images/dramas/the-water.jpg",
     "cover_credit": null,

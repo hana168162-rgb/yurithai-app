@@ -39,6 +39,7 @@ export function CampaignBanner() {
   const [paused, setPaused] = useState(false);
   const [dragDx, setDragDx] = useState(0); // ドラッグ中の指追従用 px
   const startX = useRef<number | null>(null);
+  const wasSwiped = useRef(false); // クリック抑制判定用（同期refで状態保持）
   const pauseTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // 自動回転
@@ -75,6 +76,7 @@ export function CampaignBanner() {
   function onPointerDown(e: React.PointerEvent<HTMLDivElement>) {
     startX.current = e.clientX;
     setDragDx(0);
+    wasSwiped.current = false;
     try {
       e.currentTarget.setPointerCapture(e.pointerId);
     } catch {
@@ -83,7 +85,9 @@ export function CampaignBanner() {
   }
   function onPointerMove(e: React.PointerEvent<HTMLDivElement>) {
     if (startX.current === null) return;
-    setDragDx(e.clientX - startX.current);
+    const dx = e.clientX - startX.current;
+    setDragDx(dx);
+    if (Math.abs(dx) >= SWIPE_THRESHOLD) wasSwiped.current = true;
   }
   function onPointerUp(e: React.PointerEvent<HTMLDivElement>) {
     if (startX.current === null) return;
@@ -132,8 +136,12 @@ export function CampaignBanner() {
               href={b.href}
               draggable={false}
               onClick={(e) => {
-                // ドラッグ後の意図しないクリックを抑制
-                if (Math.abs(dragDx) > 5) e.preventDefault();
+                // スワイプ（>= SWIPE_THRESHOLD px のドラッグ）の直後だけクリックを抑制。
+                // 通常のクリック（数px未満の微小なマウス移動）は素通しでナビゲートさせる。
+                if (wasSwiped.current) {
+                  e.preventDefault();
+                  wasSwiped.current = false;
+                }
               }}
               className={`shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-4 md:py-5 flex items-center gap-4`}
             >

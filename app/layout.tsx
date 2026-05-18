@@ -62,6 +62,16 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  // Search Console / Bing 等のサイト所有権確認用 meta タグ
+  // Vercel の環境変数で設定する（コード変更なしで切り替え可能）
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+      ? {
+          "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION,
+        }
+      : undefined,
+  },
 };
 
 export default function RootLayout({

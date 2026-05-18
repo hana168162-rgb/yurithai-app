@@ -305,12 +305,32 @@ export function getCategoryForTag(tag: string): TagCategoryKey | null {
 
 /**
  * タグから URL safe slug を生成（日本語そのまま encoded）
+ * 長すぎる場合（>120バイト）は短縮 + ハッシュで衝突回避
  */
+const SLUG_BYTE_LIMIT = 120;
+
+function simpleHash(s: string): string {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h).toString(36);
+}
+
 export function tagToSlug(tag: string): string {
-  return encodeURIComponent(tag);
+  const enc = encodeURIComponent(tag);
+  if (enc.length <= SLUG_BYTE_LIMIT) return enc;
+  // 長すぎる場合: ハッシュ形式（_h_xxxx）に
+  return `_h_${simpleHash(tag)}`;
 }
 
 export function slugToTag(slug: string): string {
+  // ハッシュ形式の場合は全タグから逆引き
+  if (slug.startsWith("_h_")) {
+    for (const t of allTags()) {
+      if (tagToSlug(t.tag) === slug) return t.tag;
+    }
+  }
   return decodeURIComponent(slug);
 }
 

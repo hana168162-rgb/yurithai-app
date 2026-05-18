@@ -293,7 +293,7 @@ export default function DramaDetailPage({
           {/* 海外配信向け：NordVPN®公式バナー（アフィリエイト広告） */}
           <div className="mt-5">
             <NordVpnBannerResponsive
-              mobileBanner="borderless_300x300"
+              mobileBanner="borderless_1200x628"
               desktopBanner="borderless_728x90"
             />
             <p className="text-[11px] text-yuri-muted mt-1.5 text-center md:text-left">

@@ -54,76 +54,76 @@ export const NORDVPN = {
   banners: {
     // ---- 白背景「国境のない…」シリーズ ----
     borderless_728x90: {
-      src: "/affiliate/nordvpn/borderless-728x90.png",
+      src: "/affiliate/nordvpn/generic-banners-explore-the-internet-v2-ja-728x90.png",
       width: 728,
       height: 90,
       alt: "国境のないインターネットを探検しよう — NordVPN®公式",
     },
-    borderless_1500x180: {
-      src: "/affiliate/nordvpn/borderless-1500x180.png",
+    borderless_1500x300: {
+      src: "/affiliate/nordvpn/generic-banners-explore-the-internet-v2-ja-1500x300.png",
       width: 1500,
-      height: 180,
-      alt: "国境のないインターネットを探検しよう — NordVPN®公式",
-    },
-    borderless_300x300: {
-      src: "/affiliate/nordvpn/borderless-300x300.png",
-      width: 300,
       height: 300,
       alt: "国境のないインターネットを探検しよう — NordVPN®公式",
     },
+    borderless_1200x628: {
+      src: "/affiliate/nordvpn/generic-banners-explore-the-internet-v2-ja-1200x628.png",
+      width: 1200,
+      height: 628,
+      alt: "国境のないインターネットを探検しよう — NordVPN®公式",
+    },
+    borderless_1200x1200: {
+      src: "/affiliate/nordvpn/generic-banners-explore-the-internet-v2-ja-1200x1200.png",
+      width: 1200,
+      height: 1200,
+      alt: "国境のないインターネットを探検しよう — NordVPN®公式",
+    },
     borderless_160x600: {
-      src: "/affiliate/nordvpn/borderless-160x600.png",
+      src: "/affiliate/nordvpn/generic-banners-explore-the-internet-v2-ja-160x600.png",
       width: 160,
       height: 600,
       alt: "国境のないインターネットを探検しよう — NordVPN®公式",
     },
     borderless_300x600: {
-      src: "/affiliate/nordvpn/borderless-300x600.png",
+      src: "/affiliate/nordvpn/generic-banners-explore-the-internet-v2-ja-300x600.png",
       width: 300,
       height: 600,
-      alt: "国境のないインターネットを探検しよう — NordVPN®公式",
-    },
-    borderless_1200x630: {
-      src: "/affiliate/nordvpn/borderless-1200x630.png",
-      width: 1200,
-      height: 630,
       alt: "国境のないインターネットを探検しよう — NordVPN®公式",
     },
     // ---- 青背景「サイバー脅威…」シリーズ ----
     cybersec_728x90: {
-      src: "/affiliate/nordvpn/cybersec-728x90.png",
+      src: "/affiliate/nordvpn/generic-banners-protect-digital-life-v1-ja-728x90.png",
       width: 728,
       height: 90,
       alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
     },
-    cybersec_1500x180: {
-      src: "/affiliate/nordvpn/cybersec-1500x180.png",
+    cybersec_1500x300: {
+      src: "/affiliate/nordvpn/generic-banners-protect-digital-life-v1-ja-1500x300.png",
       width: 1500,
-      height: 180,
+      height: 300,
       alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
     },
-    cybersec_300x600: {
-      src: "/affiliate/nordvpn/cybersec-300x600.png",
-      width: 300,
-      height: 600,
-      alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
-    },
-    cybersec_180x600: {
-      src: "/affiliate/nordvpn/cybersec-180x600.png",
-      width: 180,
-      height: 600,
-      alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
-    },
-    cybersec_1200x630: {
-      src: "/affiliate/nordvpn/cybersec-1200x630.png",
+    cybersec_1200x628: {
+      src: "/affiliate/nordvpn/generic-banners-protect-digital-life-v1-ja-1200x628.png",
       width: 1200,
-      height: 630,
+      height: 628,
       alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
     },
     cybersec_1200x1200: {
-      src: "/affiliate/nordvpn/cybersec-1200x1200.png",
+      src: "/affiliate/nordvpn/generic-banners-protect-digital-life-v1-ja-1200x1200.png",
       width: 1200,
       height: 1200,
+      alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
+    },
+    cybersec_160x600: {
+      src: "/affiliate/nordvpn/generic-banners-protect-digital-life-v1-ja-160x600.png",
+      width: 160,
+      height: 600,
+      alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
+    },
+    cybersec_300x600: {
+      src: "/affiliate/nordvpn/generic-banners-protect-digital-life-v1-ja-300x600.png",
+      width: 300,
+      height: 600,
       alt: "サイバー脅威からデジタルライフを守る — NordVPN®公式",
     },
   },

@@ -169,8 +169,8 @@ export default function VpnGuidePage() {
       {/* メインCTA — 「国境のないインターネット」バナー（タイGL文脈に最も合う） */}
       <div className="my-4">
         <NordVpnBannerResponsive
-          mobileBanner="borderless_300x300"
-          desktopBanner="borderless_1200x630"
+          mobileBanner="borderless_1200x628"
+          desktopBanner="borderless_1200x628"
           priority
         />
       </div>
@@ -190,8 +190,8 @@ export default function VpnGuidePage() {
       {/* 中段バナー — セキュリティ訴求 */}
       <div className="my-8">
         <NordVpnBannerResponsive
-          mobileBanner="borderless_300x300"
-          desktopBanner="cybersec_1500x180"
+          mobileBanner="cybersec_1200x628"
+          desktopBanner="cybersec_1500x300"
         />
       </div>
 
@@ -230,8 +230,8 @@ export default function VpnGuidePage() {
       {/* 最終 CTA — 「国境のないインターネット」で締める */}
       <div className="mt-10 mb-2">
         <NordVpnBannerResponsive
-          mobileBanner="borderless_300x300"
-          desktopBanner="borderless_1500x180"
+          mobileBanner="borderless_1200x628"
+          desktopBanner="borderless_1500x300"
         />
       </div>
 

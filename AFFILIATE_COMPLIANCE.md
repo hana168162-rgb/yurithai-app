@@ -70,11 +70,11 @@ NordVPN 公式から新しいバナー画像を受け取ったら:
 ## 設置箇所
 
 - `/dramas/[slug]` — 各作品詳細「どこで見れる？」セクション直下に公式バナー
-  - モバイル: `borderless_300x300`
+  - モバイル: `borderless_1200x628`
   - PC: `borderless_728x90`
 - `/guide/vpn` — 「VPNとタイGL」ガイドページに3箇所
-  - ファーストビュー（NordVPN®紹介セクション直後）: モバイル `borderless_300x300` / PC `borderless_1200x630`
-  - 中段（注意点とFAQの間）: モバイル `borderless_300x300` / PC `cybersec_1500x180`
-  - 最終CTA（末尾）: モバイル `borderless_300x300` / PC `borderless_1500x180`
+  - ファーストビュー（NordVPN®紹介セクション直後）: `borderless_1200x628`
+  - 中段（注意点とFAQの間）: モバイル `cybersec_1200x628` / PC `cybersec_1500x300`
+  - 最終CTA（末尾）: モバイル `borderless_1200x628` / PC `borderless_1500x300`
 
 ガイドページはサイトマップにも追加済み。

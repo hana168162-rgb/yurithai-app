@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import bannersData from "@/content/banners.json";
 
 type Banner = {
@@ -18,7 +19,20 @@ type Banner = {
 const banners = bannersData as Banner[];
 const ROTATE_MS = 5500;
 
+// バナーを表示しないパス（作品詳細ページなど、コンテンツに集中させたい場所）
+function shouldHide(pathname: string | null): boolean {
+  if (!pathname) return false;
+  // /dramas/[slug] の詳細ページでは非表示。
+  // /dramas, /dramas/airing, /dramas/upcoming はトップ階層なので表示する。
+  if (/^\/dramas\/[^/]+$/.test(pathname)) {
+    const seg = pathname.split("/")[2];
+    if (seg !== "airing" && seg !== "upcoming") return true;
+  }
+  return false;
+}
+
 export function CampaignBanner() {
+  const pathname = usePathname();
   const [idx, setIdx] = useState(0);
   const [paused, setPaused] = useState(false);
 
@@ -31,6 +45,7 @@ export function CampaignBanner() {
   }, [paused]);
 
   if (banners.length === 0) return null;
+  if (shouldHide(pathname)) return null;
 
   return (
     <div

@@ -152,9 +152,25 @@ export default function DramaDetailPage({
 
   // 構造化データ
   const tvSeriesData = buildTVSeriesJsonLd({ drama, actresses: actressList });
+
+  // 状態セグメント（PCパンくず & 構造化データ用）
+  const statusLabel =
+    displayStatus === "airing"
+      ? "放送中"
+      : displayStatus === "upcoming"
+        ? "公開予定"
+        : "完結済み";
+  const statusHref =
+    displayStatus === "airing"
+      ? "/dramas/airing"
+      : displayStatus === "upcoming"
+        ? "/dramas/upcoming"
+        : "/dramas";
+
   const breadcrumbData = buildBreadcrumbJsonLd([
     { name: "トップ", url: `${SITE_URL}/` },
     { name: "ドラマ", url: `${SITE_URL}/dramas` },
+    { name: statusLabel, url: `${SITE_URL}${statusHref}` },
     { name: drama.title_ja, url: `${SITE_URL}/dramas/${drama.slug}` },
   ]);
 
@@ -162,8 +178,10 @@ export default function DramaDetailPage({
     <div className="mx-auto max-w-4xl px-6 py-10">
       <JsonLd data={tvSeriesData} />
       <JsonLd data={breadcrumbData} />
-      {/* Breadcrumb */}
-      <nav className="text-xs text-yuri-muted mb-4">
+      {/* Breadcrumb
+          モバイル: トップ / ドラマ / 作品名
+          PC      : トップ / ドラマ / [放送中/完結済み/公開予定] / 作品名 */}
+      <nav className="text-xs text-yuri-muted mb-4" aria-label="パンくず">
         <Link href="/" className="hover:text-yuri-rose">
           トップ
         </Link>
@@ -171,6 +189,12 @@ export default function DramaDetailPage({
         <Link href="/dramas" className="hover:text-yuri-rose">
           ドラマ
         </Link>
+        <span className="hidden md:inline">
+          <span className="mx-1.5">/</span>
+          <Link href={statusHref} className="hover:text-yuri-rose">
+            {statusLabel}
+          </Link>
+        </span>
         <span className="mx-1.5">/</span>
         <span>{drama.title_ja}</span>
       </nav>

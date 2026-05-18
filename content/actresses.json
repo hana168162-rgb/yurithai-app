@@ -559,10 +559,10 @@
     "id": "bam",
     "name_ja": "バム",
     "real_name": "Bam Saralee Prasitdumrong",
-    "birth_date": null,
+    "birth_date": "1998-10-08",
     "age": 27,
     "nationality": "Thai",
-    "height_cm": null,
+    "height_cm": 166,
     "filmography": [
       "Dhevaprom: Kwanruetai",
       "Fulfill"
@@ -577,7 +577,7 @@
     "birth_date": "1995-01-05",
     "age": 31,
     "nationality": "Thai",
-    "height_cm": null,
+    "height_cm": 170,
     "filmography": [
       "SOTUS",
       "Peaceful Property",
@@ -778,10 +778,10 @@
     "id": "view",
     "name_ja": "ビュー",
     "real_name": "Benyapa \"View\" Jeenprasom",
-    "birth_date": null,
-    "age": null,
-    "nationality": null,
-    "height_cm": null,
+    "birth_date": "2002-06-04",
+    "age": 23,
+    "nationality": "Thai",
+    "height_cm": 172,
     "filmography": [
       "Girl Rules",
       "Bake Love Feeling"
@@ -793,10 +793,10 @@
     "id": "mim-r",
     "name_ja": "ミム",
     "real_name": "Rattanawadee \"Mim\" Wongthong",
-    "birth_date": null,
-    "age": null,
-    "nationality": null,
-    "height_cm": null,
+    "birth_date": "2004-05-22",
+    "age": 21,
+    "nationality": "Thai",
+    "height_cm": 160,
     "filmography": [
       "Girl Rules",
       "Bake Love Feeling"
@@ -809,8 +809,8 @@
     "name_ja": "レネ",
     "real_name": "Renee Veronica",
     "birth_date": null,
-    "age": null,
-    "nationality": null,
+    "age": 27,
+    "nationality": "タイ×イタリア",
     "height_cm": null,
     "filmography": [
       "Beauty & The Bike"
@@ -836,30 +836,30 @@
     "id": "namneung",
     "name_ja": "ナムヌン",
     "real_name": "Milin \"Namneung\" Dokthian",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1996-11-11",
+    "age": 29,
     "nationality": "タイ",
-    "height_cm": null,
+    "height_cm": 161,
     "filmography": [
       "The Fire"
     ],
     "agency": "Idol Factory × North Star Entertainment",
-    "instagram": null,
+    "instagram": "milin.dokthian",
     "notes": "元BNK48 1期生"
   },
   {
     "id": "noey",
     "name_ja": "ヌイ",
     "real_name": "Kanteera \"Noey\" Wadcharathadsanakul",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1997-04-09",
+    "age": 29,
     "nationality": "タイ",
-    "height_cm": null,
+    "height_cm": 158,
     "filmography": [
       "The Fire"
     ],
     "agency": "Idol Factory × North Star Entertainment",
-    "instagram": null,
+    "instagram": "noeyyyy.kw",
     "notes": "元BNK48 1期生"
   }
 ]

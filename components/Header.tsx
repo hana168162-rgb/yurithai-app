@@ -7,7 +7,6 @@ import { usePathname } from "next/navigation";
 const NAV_LINKS: { href: string; label: string }[] = [
   { href: "/dramas", label: "ドラマ" },
   { href: "/cast", label: "ペア一覧" },
-  { href: "/tags", label: "タグ" },
   { href: "/events", label: "イベント" },
   { href: "/blog", label: "ブログ" },
   { href: "/search", label: "検索" },

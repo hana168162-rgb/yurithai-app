@@ -47,16 +47,9 @@ export default function HomePage() {
       {/* Hero */}
       <section className="py-8 md:py-12 text-center">
         <div className="text-yuri-gold mb-2 text-sm">✦  ✦  ✦</div>
-        <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-3 tracking-tight leading-tight">
-          タイGLドラマを、日本語で。
+        <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-6 tracking-tight leading-tight">
+          タイGLドラマを、日本で楽しむ。
         </h1>
-        <p className="text-sm md:text-base text-yuri-muted mb-6 leading-relaxed max-w-xl mx-auto">
-          推しの一作を見つけよう。完結・放送中・公開予定のタイGLドラマを
-          {" "}
-          <strong className="text-yuri-ink/85 font-normal">レビュー / 配信先 / 出演ペア</strong>
-          {" "}
-          で横断検索。
-        </p>
         <Link
           href="/recommend"
           className="inline-flex items-center gap-2 bg-yuri-navy text-yuri-cream px-6 py-3 rounded-full text-sm font-medium hover:opacity-90"

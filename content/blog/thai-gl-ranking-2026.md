@@ -139,17 +139,17 @@ LMSYというペアを瞬く間に定着させました。
 
 ---
 
-## 第7位：23.5（2023）
+## 第7位：23.5（2024）
 
 **ジャンル**: 校園 / 青春
-**主演**: [LingOrm](/cast/ling)
+**主演**: [MilkLove](/cast/milk)
 **話数**: 全12話
 
 [作品ページ →](/dramas/23-5)
 
 GMMTV初の本格GLシリーズ。高校・大学を舞台にした青春ロマンス。
 タイGLが「大手スタジオで作られる時代」を切り開いた重要作。
-LingOrmという主演ペアが、タイGL第2世代の代表として定着するきっかけになりました。
+MilkLoveという主演ペアが、GMMTV第1のGLペアとして定着するきっかけになりました。
 
 **こんな人におすすめ:**
 - 爽やかな青春ストーリーが好きな人
@@ -219,7 +219,7 @@ IDOLFACTORY × North Star Entertainment 共同制作の話題作。
 
 選から漏れましたが、これも観てほしい数本:
 
-- **[NamtanFilm × Girl Rules](/dramas/girl-rules)**（2026・放送中）— GMMTVの女子高生3組共演エンサンブル
+- **[NamtanFilm × Girl Rules](/dramas/girl-rules)**（2026・放送中）— GMMTVの3組共演アンサンブル
 - **[Bake Love Feeling](/dramas/bake-love-feeling)**（2026・放送中）— ViewMim主演、職場 × カフェの王道
 - **[Uranus 2324](/dramas/uranus-2324)**（2024）— SF映画GL、月面に取り残された二人
 - **[Moonshadow](/dramas/moonshadow)**（公開予定）— EmiBonnieの第2作

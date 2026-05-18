@@ -164,7 +164,7 @@ LMSY のファンダム名は **「Besties」**。
 - **南寧（中国）Fan Meeting**
 - **East China、Vietnam、Philippines** に専属ファン組織
 
-LMSY 用に立ち上げられた Instagram **@usedbylmsy**（クロージング・ブランドの予定）まである、
+LMSY 用に立ち上げられた Instagram **@usedbylmsy**（アパレルブランドの予定）まである、
 **ビジネスとしても評価される稀有なペア**。
 
 ---

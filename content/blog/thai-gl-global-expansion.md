@@ -88,7 +88,7 @@ Paris Fashion Week に立ったという事実は、業界に衝撃を与えま�
 - **マカオ Fan Meeting**
 - **南寧（中国）Fan Meeting**
 - **East China・Vietnam・Philippines** に専属ファン組織
-- Instagram **@usedbylmsy** によるクロージング・ブランド展開予定
+- Instagram **@usedbylmsy** によるアパレルブランド展開予定
 
 LMSYは、Cannes・Parisよりも**アジア市場の深耕**に注力する形で、独自のグローバル戦略を取っています。
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { OPERATOR } from "@/lib/operator";
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
           <span className="text-yuri-lilac">Thai</span>
         </div>
 
-        <div className="grid grid-cols-2 gap-8 mb-4 text-sm">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mb-4 text-sm">
           <div>
             <p className="text-xs opacity-60 mb-2 tracking-wider">サイト案内</p>
             <ul className="space-y-1.5 opacity-90">
@@ -19,8 +20,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/reviews" className="hover:opacity-100">
-                  レビュー一覧
+                <Link href="/blog" className="hover:opacity-100">
+                  ブログ
                 </Link>
               </li>
               <li>
@@ -31,6 +32,26 @@ export function Footer() {
             </ul>
           </div>
           <div>
+            <p className="text-xs opacity-60 mb-2 tracking-wider">ガイド</p>
+            <ul className="space-y-1.5 opacity-90">
+              <li>
+                <Link href="/recommend" className="hover:opacity-100">
+                  タイGLおすすめ診断
+                </Link>
+              </li>
+              <li>
+                <Link href="/guide/vpn" className="hover:opacity-100">
+                  VPNとタイGL
+                </Link>
+              </li>
+              <li>
+                <Link href="/legal/advertising" className="hover:opacity-100">
+                  広告掲載ポリシー
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-span-2 md:col-span-1">
             <p className="text-xs opacity-60 mb-2 tracking-wider">法的情報</p>
             <ul className="space-y-1.5 opacity-90">
               <li>
@@ -55,8 +76,13 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-yuri-cream/15 pt-3 text-xs opacity-70 text-center">
-          © 2026 YuriThai · yurithai.jp
+        <div className="border-t border-yuri-cream/15 pt-3 text-[11px] opacity-70">
+          <p className="text-center mb-1">
+            運営: {OPERATOR.companyName} · {OPERATOR.siteUrl.replace(/^https?:\/\//, "")}
+          </p>
+          <p className="text-center opacity-80">
+            © 2026 {OPERATOR.companyName}. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

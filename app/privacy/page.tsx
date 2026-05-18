@@ -1,39 +1,100 @@
-export const metadata = { title: "プライバシーポリシー | YuriThai" };
+import Link from "next/link";
+import { OPERATOR } from "@/lib/operator";
+
+export const metadata = {
+  title: "プライバシーポリシー | YuriThai",
+  description:
+    "YuriThai（運営: 合同会社FUMOMERU）の個人情報の取り扱い・Cookie・アフィリエイトに関する方針。",
+  alternates: { canonical: `${OPERATOR.siteUrl}/privacy` },
+};
 
 export default function PrivacyPage() {
   return (
-    <div className="mx-auto max-w-2xl px-6 py-12">
-      <h1 className="text-2xl font-display font-medium text-yuri-ink mb-4">
+    <div className="mx-auto max-w-2xl px-5 md:px-6 py-12 prose-yuri">
+      <h1 className="text-2xl font-medium text-yuri-ink mb-2 !font-sans">
         プライバシーポリシー
       </h1>
-      <div className="text-sm text-yuri-ink/85 space-y-4">
+      <p className="text-xs text-yuri-muted mb-8">
+        制定日: 2026年5月 / 改定日: —
+      </p>
+
+      <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-1">
         <p>
-          YuriThai（以下「当サイト」）は、利用者のプライバシーを尊重し、
-          以下のとおり個人情報の取り扱い方針を定めます。
+          {OPERATOR.companyName}（以下「当社」）は、当社が運営する{" "}
+          <strong className="font-medium">YuriThai</strong>（以下「当サイト」）における
+          個人情報の取り扱いについて、以下のとおり方針を定めます。
         </p>
-        <h2 className="text-base font-medium text-yuri-navy mt-6">
-          1. 収集する情報
-        </h2>
+
+        <h2>1. 取得する情報</h2>
+        <p>当サイトでは、以下の情報を取得することがあります。</p>
+        <ul>
+          <li>お問い合わせフォームから送信された氏名・メールアドレス・電話番号・会社名・本文の内容</li>
+          <li>アクセス解析ツール（Vercel Analytics）による匿名のアクセスログ（ページビュー、リファラ、デバイス種別、概算地域 等）</li>
+          <li>診断機能などのユーザー操作状態（ブラウザの LocalStorage に保存）</li>
+        </ul>
+
+        <h2>2. 利用目的</h2>
+        <ul>
+          <li>お問い合わせへの返信および対応のため</li>
+          <li>当サイトのコンテンツ改善および利用状況の把握のため</li>
+          <li>不正利用・ボット投稿の防止のため</li>
+        </ul>
+
+        <h2>3. Cookie・LocalStorage の利用</h2>
         <p>
-          当サイトは、お問い合わせフォームからの送信内容、
-          アクセス解析ツール（Vercel Analytics または Plausible）による
-          匿名のアクセスログを取得することがあります。
+          当サイトは、サイト機能の維持・アクセス解析・診断機能の状態保持のため、
+          Cookie および LocalStorage を使用する場合があります。
+          ブラウザの設定でこれらを無効化することができますが、その場合、
+          一部の機能が正常に動作しない可能性があります。
         </p>
-        <h2 className="text-base font-medium text-yuri-navy mt-6">
-          2. Cookie等の利用
-        </h2>
+
+        <h2>4. アフィリエイト広告と第三者 Cookie</h2>
         <p>
-          当サイトは、アクセス解析および診断機能の状態保持のために
-          Cookie・LocalStorageを使用する場合があります。
+          当サイトは <strong className="font-medium">NordVPN®</strong> をはじめとする
+          第三者のアフィリエイト広告プログラムに参加しています。
+          これらの広告リンクをクリックして広告主のサイトに遷移した際、
+          広告主または広告ネットワーク（Impact 等）が、成果計測のために
+          訪問者のブラウザに Cookie を設定することがあります。
         </p>
-        <h2 className="text-base font-medium text-yuri-navy mt-6">
-          3. 第三者提供
-        </h2>
         <p>
-          法令に基づく場合を除き、収集した情報を第三者に提供することはありません。
+          これらの第三者 Cookie の取得・利用は、各広告主または広告ネットワークの
+          プライバシーポリシーに基づき、当社の管理外で行われます。
+          当社は個別の訪問者の閲覧履歴を取得・保持しません。
         </p>
-        <p className="text-xs text-yuri-muted mt-8">
-          制定日：2026年X月X日 / 改定日：—
+        <p>
+          第三者 Cookie の無効化は、お使いのブラウザの設定または各広告ネットワークの
+          オプトアウトページから行うことができます。
+        </p>
+
+        <h2>5. 第三者提供</h2>
+        <p>
+          当社は、法令に基づく場合および本人の同意がある場合を除き、
+          取得した個人情報を第三者に提供することはありません。
+        </p>
+
+        <h2>6. 個人情報の開示・訂正・削除</h2>
+        <p>
+          ご本人からの開示・訂正・削除のご請求があった場合は、
+          ご本人確認のうえ、合理的な範囲で速やかに対応いたします。
+          下記の問い合わせ窓口までご連絡ください。
+        </p>
+
+        <h2>7. 改定</h2>
+        <p>
+          本ポリシーは法令の改正やサービス内容の変更に応じて改定する場合があります。
+          改定後の内容は当ページに掲載した時点で効力を生じます。
+        </p>
+
+        <h2>8. 問い合わせ窓口</h2>
+        <p>
+          {OPERATOR.companyName}（代表者: {OPERATOR.representativeName}）
+          <br />
+          所在地: 〒{OPERATOR.postalCode} {OPERATOR.address}
+          <br />
+          連絡先: <span>{OPERATOR.contactEmailDisplay}</span>
+          <span className="text-xs text-yuri-muted ml-1">（@を半角に変換してご利用ください）</span>
+          {" / "}
+          <Link href={OPERATOR.contactPath} className="text-yuri-rose hover:opacity-80">お問い合わせフォーム</Link>
         </p>
       </div>
     </div>

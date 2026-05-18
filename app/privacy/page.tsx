@@ -4,7 +4,7 @@ import { OPERATOR } from "@/lib/operator";
 export const metadata = {
   title: "プライバシーポリシー | YuriThai",
   description:
-    "YuriThai（運営: 合同会社FUMOMERU）の個人情報の取り扱い・Cookie・アフィリエイトに関する方針。",
+    "YuriThai における個人情報の取り扱い・Cookie・アフィリエイトに関する方針。",
   alternates: { canonical: `${OPERATOR.siteUrl}/privacy` },
 };
 
@@ -20,9 +20,13 @@ export default function PrivacyPage() {
 
       <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-1">
         <p>
-          {OPERATOR.companyName}（以下「当社」）は、当社が運営する{" "}
-          <strong className="font-medium">YuriThai</strong>（以下「当サイト」）における
-          個人情報の取り扱いについて、以下のとおり方針を定めます。
+          <strong className="font-medium">YuriThai</strong>（以下「当サイト」）の運営者
+          （以下「当社」、{" "}
+          <Link href="/about" className="text-yuri-rose hover:opacity-80 underline">
+            運営者情報
+          </Link>
+          に記載）は、当サイトにおける個人情報の取り扱いについて、
+          以下のとおり方針を定めます。
         </p>
 
         <h2>1. 取得する情報</h2>
@@ -87,14 +91,15 @@ export default function PrivacyPage() {
 
         <h2>8. 問い合わせ窓口</h2>
         <p>
-          {OPERATOR.companyName}（代表者: {OPERATOR.representativeName}）
-          <br />
-          所在地: 〒{OPERATOR.postalCode} {OPERATOR.address}
-          <br />
-          連絡先: <span>{OPERATOR.contactEmailDisplay}</span>
-          <span className="text-xs text-yuri-muted ml-1">（@を半角に変換してご利用ください）</span>
-          {" / "}
-          <Link href={OPERATOR.contactPath} className="text-yuri-rose hover:opacity-80">お問い合わせフォーム</Link>
+          運営者の名称・住所等は{" "}
+          <Link href="/about" className="text-yuri-rose hover:opacity-80 underline">
+            運営者情報
+          </Link>
+          に記載しています。お問い合わせは{" "}
+          <Link href={OPERATOR.contactPath} className="text-yuri-rose hover:opacity-80 underline">
+            お問い合わせフォーム
+          </Link>
+          より承ります。
         </p>
       </div>
     </div>

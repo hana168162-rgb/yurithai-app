@@ -4,7 +4,7 @@ import { OPERATOR } from "@/lib/operator";
 export const metadata = {
   title: "広告掲載ポリシー | YuriThai",
   description:
-    "YuriThai（運営: 合同会社FUMOMERU）の広告・アフィリエイトに関する方針。掲載基準、編集方針、利益相反の取り扱いについて。",
+    "YuriThai の広告・アフィリエイトに関する方針。掲載基準、編集方針、利益相反の取り扱いについて。",
   alternates: { canonical: `${OPERATOR.siteUrl}/legal/advertising` },
 };
 
@@ -20,9 +20,13 @@ export default function AdvertisingPolicyPage() {
 
       <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-1">
         <p>
-          {OPERATOR.companyName}（以下「当社」）は、当社が運営する
-          <strong className="font-medium">YuriThai</strong>（以下「当サイト」）における
-          広告・アフィリエイトの掲載について、以下の方針を定めています。
+          <strong className="font-medium">YuriThai</strong>（以下「当サイト」）の運営者
+          （以下「当社」、{" "}
+          <Link href="/about" className="text-yuri-rose hover:opacity-80 underline">
+            運営者情報
+          </Link>
+          に記載）は、当サイトにおける広告・アフィリエイトの掲載について、
+          以下の方針を定めています。
         </p>
 
         <h2>1. アフィリエイト広告の掲載</h2>
@@ -111,12 +115,11 @@ export default function AdvertisingPolicyPage() {
 
         <h2>9. 運営者</h2>
         <p>
-          {OPERATOR.companyName}（代表者: {OPERATOR.representativeName}）
-          <br />
-          所在地: 〒{OPERATOR.postalCode} {OPERATOR.address}
-          <br />
-          連絡先: <span>{OPERATOR.contactEmailDisplay}</span>
-          <span className="text-xs text-yuri-muted ml-1">（@を半角に変換してご利用ください）</span>
+          運営者の名称・代表者・所在地・連絡先等は{" "}
+          <Link href="/about" className="text-yuri-rose hover:opacity-80 underline">
+            運営者情報
+          </Link>
+          に記載しています。
         </p>
       </div>
 

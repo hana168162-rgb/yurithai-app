@@ -4,7 +4,7 @@ import { OPERATOR, formatOperatorAddress } from "@/lib/operator";
 export const metadata = {
   title: "特定商取引法に基づく表記 | YuriThai",
   description:
-    "YuriThai（運営: 合同会社FUMOMERU）の特定商取引法に基づく表記。",
+    "YuriThai 運営者の特定商取引法に基づく表記。",
   alternates: { canonical: `${OPERATOR.siteUrl}/legal/tokushoho` },
 };
 

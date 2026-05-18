@@ -4,7 +4,7 @@ import { OPERATOR } from "@/lib/operator";
 export const metadata = {
   title: "利用規約 | YuriThai",
   description:
-    "YuriThai（運営: 合同会社FUMOMERU）の利用規約。著作権、禁止事項、免責、アフィリエイト広告の取り扱いについて。",
+    "YuriThai の利用規約。著作権、禁止事項、免責、アフィリエイト広告の取り扱いについて。",
   alternates: { canonical: `${OPERATOR.siteUrl}/terms` },
 };
 
@@ -20,8 +20,13 @@ export default function TermsPage() {
 
       <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-1">
         <p>
-          本利用規約（以下「本規約」）は、{OPERATOR.companyName}（以下「当社」）が運営する
-          <strong className="font-medium">YuriThai</strong>（以下「当サイト」）の利用条件を定めるものです。
+          本利用規約（以下「本規約」）は、
+          <strong className="font-medium">YuriThai</strong>（以下「当サイト」）の運営者
+          （以下「当社」、{" "}
+          <Link href="/about" className="text-yuri-rose hover:opacity-80 underline">
+            運営者情報
+          </Link>
+          に記載）が、当サイトの利用条件を定めるものです。
           利用者は本規約に同意のうえ当サイトを利用するものとします。
         </p>
 
@@ -93,12 +98,11 @@ export default function TermsPage() {
 
         <h2>第8条（運営者）</h2>
         <p>
-          {OPERATOR.companyName}（代表者: {OPERATOR.representativeName}）
-          <br />
-          所在地: 〒{OPERATOR.postalCode} {OPERATOR.address}
-          <br />
-          連絡先: <span>{OPERATOR.contactEmailDisplay}</span>
-          <span className="text-xs text-yuri-muted ml-1">（@を半角に変換してご利用ください）</span>
+          当社の名称・代表者・所在地・連絡先等は{" "}
+          <Link href="/about" className="text-yuri-rose hover:opacity-80 underline">
+            運営者情報
+          </Link>
+          に記載しています。
         </p>
       </div>
     </div>

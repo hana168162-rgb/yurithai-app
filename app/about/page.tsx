@@ -4,7 +4,7 @@ import { OPERATOR } from "@/lib/operator";
 export const metadata = {
   title: "About / 運営者情報 | YuriThai",
   description:
-    "YuriThai（ユリタイ）は、合同会社FUMOMERUが運営する、日本人ファンのためのタイGLドラマ情報メディア。レビュー・配信先・女優情報・診断機能を日本語でまとめて提供しています。",
+    "YuriThai（ユリタイ）は、日本人ファンに向けてタイGLドラマの情報を整理・紹介する日本語特化メディア。レビュー・配信先・女優情報・診断機能を日本語で。",
   alternates: { canonical: `${OPERATOR.siteUrl}/about` },
 };
 
@@ -28,10 +28,7 @@ export default function AboutPage() {
           日本人ファンがタイGLを楽しむためのハブとなることを目指しています。
         </p>
         <p>
-          運営は{" "}
-          <strong className="font-medium">{OPERATOR.companyName}</strong>{" "}
-          が行っています。サイトの運営費・記事制作費は、
-          一部アフィリエイト広告による収益で賄っています。
+          サイトの運営費・記事制作費は、一部アフィリエイト広告による収益で賄っています。
           広告掲載に関する方針は{" "}
           <Link
             href="/legal/advertising"
@@ -39,7 +36,7 @@ export default function AboutPage() {
           >
             広告掲載ポリシー
           </Link>
-          をご覧ください。
+          をご覧ください。運営者の詳細は下記の表をご参照ください。
         </p>
         <p className="text-xs text-yuri-muted">
           ※ 作品の画像・映像・タイトルロゴ等の著作権は各制作会社・権利者に帰属します。

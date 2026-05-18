@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { OPERATOR } from "@/lib/operator";
 
 export function Footer() {
   return (
@@ -76,13 +75,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-yuri-cream/15 pt-3 text-[11px] opacity-70">
-          <p className="text-center mb-1">
-            運営: {OPERATOR.companyName} · {OPERATOR.siteUrl.replace(/^https?:\/\//, "")}
-          </p>
-          <p className="text-center opacity-80">
-            © 2026 {OPERATOR.companyName}. All rights reserved.
-          </p>
+        <div className="border-t border-yuri-cream/15 pt-3 text-[11px] opacity-70 text-center">
+          © 2026 YuriThai · yurithai.jp
         </div>
       </div>
     </footer>

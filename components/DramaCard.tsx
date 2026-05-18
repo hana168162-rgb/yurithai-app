@@ -59,7 +59,7 @@ export function DramaCard({ drama }: { drama: Drama }) {
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {tags.map((t, i) => (
-              <TagBadge key={t} label={t} idx={i} />
+              <TagBadge key={t} label={t} idx={i} linkable={false} />
             ))}
           </div>
         )}

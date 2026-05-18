@@ -25,6 +25,13 @@ export function Header() {
             タグ
           </Link>
           <Link
+            href="/search"
+            aria-label="検索"
+            className="text-yuri-ink hover:text-yuri-rose"
+          >
+            <span aria-hidden>🔍</span>
+          </Link>
+          <Link
             href="/recommend"
             className="text-yuri-rose hover:opacity-80 flex items-center gap-1"
           >

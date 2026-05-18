@@ -137,6 +137,98 @@ export function getCurrentPickup(): WatchingDrama[] {
 }
 
 // =============================================
+//  Related dramas
+// =============================================
+
+export interface RelatedGroup {
+  label: string;
+  reason: string;
+  dramas: AnyDrama[];
+}
+
+/**
+ * 関連作品を3つのグループで返す
+ * 1) 同じペア（cast_pair に含まれるペア名で逆引き）
+ * 2) 同じ制作会社/シリーズ
+ * 3) 同じジャンルの作品（フォールバック）
+ */
+export function getRelatedDramas(current: AnyDrama, limit = 4): RelatedGroup[] {
+  const all = [...dramas, ...watching, ...upcoming].filter(
+    (d) => d.slug !== current.slug
+  );
+  const groups: RelatedGroup[] = [];
+  const used = new Set<string>([current.slug]);
+
+  // 1) 同じペア
+  const currentPair = extractPairName(current.cast_pair);
+  const pairsObj = pairsData as Record<string, string[]>;
+  const knownPairs = Object.keys(pairsObj);
+  const currentPairNames = currentPair
+    ? [currentPair]
+    : knownPairs.filter((p) =>
+        (current.cast_pair ?? "").includes(p)
+      );
+
+  if (currentPairNames.length > 0) {
+    const samePair = all.filter((d) =>
+      currentPairNames.some((p) => (d.cast_pair ?? "").includes(p))
+    );
+    if (samePair.length > 0) {
+      groups.push({
+        label: "同じペアの他作品",
+        reason: currentPairNames.join(" / "),
+        dramas: samePair.slice(0, limit),
+      });
+      samePair.forEach((d) => used.add(d.slug));
+    }
+  }
+
+  // 2) 同じ制作会社（部分一致）
+  if (current.production) {
+    const studios = current.production.split(/\s*[×x]\s*|\s*\/\s*/);
+    const sameStudio = all.filter((d) => {
+      if (used.has(d.slug)) return false;
+      if (!d.production) return false;
+      return studios.some((s) => s && d.production!.includes(s));
+    });
+    if (sameStudio.length > 0) {
+      groups.push({
+        label: "同じ制作・シリーズ",
+        reason: current.production,
+        dramas: sameStudio.slice(0, limit),
+      });
+      sameStudio.forEach((d) => used.add(d.slug));
+    }
+  }
+
+  // 3) 同じジャンル（完結作品のみ）
+  const currentFull =
+    "tags" in current && "review" in current ? (current as Drama) : null;
+  if (currentFull && currentFull.tags) {
+    const myGenres = currentFull.tags.genre ?? [];
+    const myTones = currentFull.tags.tone ?? [];
+    const sameGenre = dramas.filter((d) => {
+      if (used.has(d.slug)) return false;
+      const gs = d.tags?.genre ?? [];
+      const ts = d.tags?.tone ?? [];
+      return (
+        myGenres.some((g) => gs.includes(g)) ||
+        myTones.some((t) => ts.includes(t))
+      );
+    });
+    if (sameGenre.length > 0) {
+      groups.push({
+        label: "似た雰囲気の作品",
+        reason: [...myGenres.slice(0, 1), ...myTones.slice(0, 1)].join(" / "),
+        dramas: sameGenre.slice(0, limit),
+      });
+    }
+  }
+
+  return groups;
+}
+
+// =============================================
 //  Tag-related helpers
 // =============================================
 
@@ -174,7 +266,7 @@ export function allTags(): TagSummary[] {
   for (const d of dramas) {
     if (!d.tags) continue;
     for (const cat of Object.keys(TAG_CATEGORY_LABELS) as TagCategoryKey[]) {
-      const tagsInCat = (d.tags as Record<string, string[]>)[cat] ?? [];
+      const tagsInCat = d.tags[cat] ?? [];
       for (const t of tagsInCat) {
         const key = `${cat}::${t}`;
         if (!map.has(key)) {
@@ -204,7 +296,7 @@ export function getDramasByTag(tag: string): Drama[] {
  */
 export function getCategoryForTag(tag: string): TagCategoryKey | null {
   for (const cat of Object.keys(TAG_CATEGORY_LABELS) as TagCategoryKey[]) {
-    if (dramas.some((d) => (d.tags as Record<string, string[]>)[cat]?.includes(tag))) {
+    if (dramas.some((d) => d.tags?.[cat]?.includes(tag))) {
       return cat;
     }
   }

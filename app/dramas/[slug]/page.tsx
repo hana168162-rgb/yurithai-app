@@ -6,6 +6,7 @@ import {
   allDramaSlugs,
   extractPairName,
   getActressesForPair,
+  getRelatedDramas,
 } from "@/lib/content";
 import { gradientForSlug } from "@/lib/style";
 import { AgeBadge } from "@/components/AgeBadge";
@@ -14,6 +15,7 @@ import { TagBadge, TagPillDark } from "@/components/TagBadge";
 import { YouTubeEmbed, getYouTubeId } from "@/components/YouTubeEmbed";
 import { ActressProfile } from "@/components/ActressProfile";
 import { WhereToWatch } from "@/components/WhereToWatch";
+import { RelatedDramas } from "@/components/RelatedDramas";
 import {
   JsonLd,
   buildTVSeriesJsonLd,
@@ -133,6 +135,8 @@ export default function DramaDetailPage({
     "streaming" in drama && drama.streaming && drama.streaming.length > 0
       ? drama.streaming
       : undefined;
+
+  const relatedGroups = getRelatedDramas(drama, 4);
 
   // 構造化データ
   const tvSeriesData = buildTVSeriesJsonLd({ drama, actresses: actressList });
@@ -394,6 +398,16 @@ export default function DramaDetailPage({
                 <ActressProfile key={a.id} actress={a} />
               ))}
             </div>
+          </section>
+        )}
+
+        {/* 関連作品 — mobile: order-8 / PC: order-8 */}
+        {relatedGroups.length > 0 && (
+          <section className="order-8 md:order-8 mb-8">
+            <h2 className="text-base font-medium text-yuri-navy mb-3">
+              関連作品
+            </h2>
+            <RelatedDramas groups={relatedGroups} />
           </section>
         )}
       </div>

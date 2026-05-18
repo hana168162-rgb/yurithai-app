@@ -402,33 +402,46 @@ function simpleHash(s: string): string {
 
 /**
  * タグをURLスラッグに変換。
- * Next.jsの動的ルーティングは slug をUTF-8文字列としてそのまま扱える
- * （URLエンコード/デコードはフレームワーク側で自動処理される）ので、
- * 通常は生のタグ文字列を返す。
+ * Next.js App Router では params.slug が URL エンコード形のまま渡るケースがあるため、
+ * tagToSlug は encodeURIComponent 済みの値を返し、ルートと整合させる。
  *
- * ただし URLエンコード後のバイト数が長すぎると、Vercel側のファイルシステム
- * パス長制限に引っかかるため、その場合のみハッシュ化する。
+ * 長すぎる場合（>120バイト）はファイルシステム制限回避のためハッシュ化。
  */
 export function tagToSlug(tag: string): string {
   const enc = encodeURIComponent(tag);
-  if (enc.length <= SLUG_BYTE_LIMIT) return tag;
+  if (enc.length <= SLUG_BYTE_LIMIT) return enc;
   return `_h_${simpleHash(tag)}`;
 }
 
+/**
+ * slug → tag への逆変換。
+ * params.slug が URL エンコードされて来ても、URL デコード済みでも、両方対応する。
+ */
 export function slugToTag(slug: string): string {
   // ハッシュ形式の場合は全タグから逆引き
   if (slug.startsWith("_h_")) {
     for (const t of allTags()) {
       if (tagToSlug(t.tag) === slug) return t.tag;
     }
+    return slug; // 該当なし
   }
-  // Next.js が既に URL デコード済みの slug を渡してくる
-  return slug;
+  // %xx を含むかで分岐
+  try {
+    return decodeURIComponent(slug);
+  } catch {
+    // 不正なエスケープシーケンスがある場合はそのまま返す
+    return slug;
+  }
 }
 
 /**
  * sitemap で全タグの URL を出力するためのリスト
+ * 同じタグが複数カテゴリに存在する可能性があるため Set で重複排除
  */
 export function allTagSlugs(): string[] {
-  return allTags().map((t) => tagToSlug(t.tag));
+  const set = new Set<string>();
+  for (const t of allTags()) {
+    set.add(tagToSlug(t.tag));
+  }
+  return Array.from(set);
 }

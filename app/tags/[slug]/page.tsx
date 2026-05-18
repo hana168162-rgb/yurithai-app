@@ -16,9 +16,16 @@ import {
 
 const SITE_URL = "https://yurithai.jp";
 
+// 静的生成のセーフリスト。ビルド時に主要タグを事前生成しておく。
 export function generateStaticParams() {
   return allTagSlugs().map((slug) => ({ slug }));
 }
+
+// generateStaticParams に含まれない slug が来ても、
+// ランタイムで動的に生成して 200 を返す（404 防止）。
+export const dynamicParams = true;
+// 念のため revalidate も指定（1日キャッシュ）
+export const revalidate = 86400;
 
 export function generateMetadata({
   params,

@@ -117,10 +117,12 @@ export type Answers = Record<string, string[]>; // questionId -> optionIds
 export interface Actress {
   id: string;
   name_ja: string;
-  name_en: string;
-  agency: string | null;
-  height_cm: number | null;
-  birthplace: string | null;
-  mixed_heritage: string | null;
+  real_name: string;            // 本名（例：Sarocha "Freen" Chankimha）
+  birth_date: string | null;    // 生年月日（例：1998-08-08）
+  age: number | null;            // 年齢
+  nationality: string | null;   // 国籍（例：Thai, Thai-British）
+  height_cm: number | null;     // 身長 cm
+  filmography: string[];        // 出演作品
+  agency: string | null;        // 所属
   instagram: string | null;
 }

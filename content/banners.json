@@ -1,37 +1,7 @@
 [
   {
-    "id": "senil-ad",
-    "title": "推しの誕生日、ユリタイで祝いませんか？",
-    "subtitle": "センイル広告・特設ページ募集中",
-    "cta": "詳しく見る",
-    "href": "/contact?topic=senil",
-    "bg": "from-yuri-rose to-yuri-pink",
-    "fg": "text-yuri-cream",
-    "icon": "🎂"
-  },
-  {
-    "id": "sponsor",
-    "title": "スポンサー・タイアップ募集中",
-    "subtitle": "タイGLファンに届く、日本語特化メディア",
-    "cta": "お問い合わせ",
-    "href": "/contact?topic=sponsor",
-    "bg": "from-yuri-navy to-yuri-lilac",
-    "fg": "text-yuri-cream",
-    "icon": "✦"
-  },
-  {
-    "id": "blog-feature",
-    "title": "新ブログ：FreenBecky の歴史",
-    "subtitle": "GAP前夜から Cranium まで、ペアの全軌跡を辿る",
-    "cta": "読む",
-    "href": "/blog/freenbecky-history",
-    "bg": "from-yuri-pink to-yuri-lilac",
-    "fg": "text-yuri-ink",
-    "icon": "📖"
-  },
-  {
     "id": "recommend",
-    "title": "10問で、あなたに合う1作を",
+    "title": "5問で、あなたに合う1作を",
     "subtitle": "タイGLおすすめ診断、好評公開中",
     "cta": "診断する",
     "href": "/recommend",
@@ -48,5 +18,25 @@
     "bg": "from-yuri-teal to-yuri-cream",
     "fg": "text-yuri-ink",
     "icon": "🌙"
+  },
+  {
+    "id": "blog-emibonnie",
+    "title": "新ブログ：EmiBonnieという「日常」",
+    "subtitle": "Us で華々しくデビューした新世代ペアの魅力",
+    "cta": "読む",
+    "href": "/blog/emibonnie-feature",
+    "bg": "from-yuri-pink to-yuri-lilac",
+    "fg": "text-yuri-ink",
+    "icon": "📖"
+  },
+  {
+    "id": "sponsor",
+    "title": "スポンサー・タイアップ募集中",
+    "subtitle": "タイGLファンに届く、日本語特化メディア",
+    "cta": "お問い合わせ",
+    "href": "/contact?topic=sponsor",
+    "bg": "from-yuri-navy to-yuri-lilac",
+    "fg": "text-yuri-cream",
+    "icon": "✦"
   }
 ]

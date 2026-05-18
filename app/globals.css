@@ -16,6 +16,9 @@ body {
   background-color: var(--color-cream);
   color: var(--color-ink);
   font-feature-settings: "palt";
+  /* overflow-x: clip は overflow-x: hidden と違って position: sticky を壊さない。
+     ドロワーや一部のレイアウトが横方向にはみ出してもドキュメント幅を広げない用。 */
+  overflow-x: clip;
 }
 
 body {

@@ -122,13 +122,15 @@ export function buildBreadcrumbJsonLd(
 
 /**
  * WebSite Schema（トップページ用）
+ * alternateName を配列にして「ユリタイ」「ゆりたい」の両表記を
+ * 検索エンジンに伝える（カタカナ・ひらがな検索からの流入対策）。
  */
 export function buildWebSiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "YuriThai（ユリタイ）",
-    alternateName: "ユリタイ",
+    name: "YuriThai",
+    alternateName: ["ユリタイ", "ゆりたい", "YuriThai（ユリタイ）"],
     url: SITE_URL,
     description:
       "日本人のためのタイGLドラマ情報プラットフォーム。レビュー・配信先・女優情報を日本語で。",
@@ -136,6 +138,7 @@ export function buildWebSiteJsonLd() {
     publisher: {
       "@type": "Organization",
       name: "YuriThai",
+      alternateName: ["ユリタイ", "ゆりたい"],
       url: SITE_URL,
     },
   };

@@ -7,12 +7,12 @@ import {
   getActressesForPair,
 } from "@/lib/content";
 import { gradientForSlug } from "@/lib/style";
-import { inferStreamingPlatforms } from "@/lib/streaming";
 import { AgeBadge } from "@/components/AgeBadge";
 import { StatusBadge } from "@/components/StatusBadge";
 import { TagBadge, TagPillDark } from "@/components/TagBadge";
 import { YouTubeEmbed, getYouTubeId } from "@/components/YouTubeEmbed";
 import { ActressProfile } from "@/components/ActressProfile";
+import { WhereToWatch } from "@/components/WhereToWatch";
 import type {
   Drama,
   UpcomingDrama,
@@ -69,10 +69,10 @@ export default function DramaDetailPage({
   const pairName = extractPairName(drama.cast_pair);
   const actressList = pairName ? getActressesForPair(pairName) : [];
 
-  const streamingPlatforms = inferStreamingPlatforms(
-    drama.production,
-    note
-  );
+  const streamingLinks =
+    "streaming" in drama && drama.streaming && drama.streaming.length > 0
+      ? drama.streaming
+      : undefined;
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-10">
@@ -180,33 +180,7 @@ export default function DramaDetailPage({
           <h2 className="text-base font-medium text-yuri-navy mb-3">
             どこで見れる？
           </h2>
-          {streamingPlatforms.length > 0 ? (
-            <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
-              <p className="text-xs text-yuri-muted mb-2">
-                配信されている可能性のあるプラットフォーム ※リンクは順次対応
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                {streamingPlatforms.map((p) => (
-                  <span
-                    key={p}
-                    className="px-3 py-1 rounded-full bg-yuri-pink text-yuri-navy text-xs"
-                  >
-                    {p}
-                  </span>
-                ))}
-              </div>
-              {note && (
-                <p className="mt-3 text-xs text-yuri-ink/70">{note}</p>
-              )}
-            </div>
-          ) : (
-            <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 text-sm text-yuri-muted">
-              配信先情報は準備中です。
-              {note && (
-                <p className="mt-2 text-xs text-yuri-ink/70">{note}</p>
-              )}
-            </div>
-          )}
+          <WhereToWatch streaming={streamingLinks} fallbackNote={note} />
         </section>
 
         {/* 4. Tags — mobile: order-4 / PC: order-3 */}

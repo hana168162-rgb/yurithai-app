@@ -20,6 +20,12 @@ export interface DramaReview {
   reviewer: string;
 }
 
+export interface StreamingLink {
+  platform: string;          // "YouTube" | "Netflix" | "TELASA" | "iQIYI" | "RakutenTV" | "WeTV" | "Viu" など
+  url: string;               // 公式作品ページ or YouTube 1話のURL
+  note?: string | null;      // 例: "VPN必要", "1話のみ無料", "字幕あり" など
+}
+
 export interface Drama {
   id: number;
   slug: string;
@@ -41,6 +47,7 @@ export interface Drama {
   cover_credit: string | null;      // 出典明記用 例: "© IDOLFACTORY @idolfactoryth"
   instagram_post: string | null;    // 詳細ページ埋め込み用
   youtube_teaser: string | null;    // 例: "https://www.youtube.com/watch?v=XXXX" or ID "XXXX"
+  streaming?: StreamingLink[];      // 配信先（日本から視聴可能なものを優先）
 }
 
 export interface WatchingDrama {
@@ -55,6 +62,7 @@ export interface WatchingDrama {
   cover_image: string | null;
   cover_credit: string | null;
   youtube_teaser: string | null;
+  streaming?: StreamingLink[];      // 配信先
 }
 
 export type AnyDrama = Drama | WatchingDrama | UpcomingDrama;
@@ -73,6 +81,7 @@ export interface UpcomingDrama {
   cover_image: string | null;
   cover_credit: string | null;
   youtube_teaser: string | null;
+  streaming?: StreamingLink[];      // 配信先（決定後）
 }
 
 export interface Company {

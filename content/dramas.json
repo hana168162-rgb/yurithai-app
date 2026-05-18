@@ -58,7 +58,13 @@
     "cover_image": "/images/dramas/gap.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/f7Kso0QOaiE"
+    "youtube_teaser": "https://youtu.be/f7Kso0QOaiE",
+    "streaming": [
+      {
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/"
+      }
+    ]
   },
   {
     "id": 2,
@@ -125,7 +131,13 @@
     "cover_image": "/images/dramas/the-loyal-pin.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/T8n6oqyaLqU"
+    "youtube_teaser": "https://youtu.be/T8n6oqyaLqU",
+    "streaming": [
+      {
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/"
+      }
+    ]
   },
   {
     "id": 3,
@@ -191,7 +203,18 @@
     "cover_image": "/images/dramas/only-you.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/lYoA6jBl4Vk"
+    "youtube_teaser": "https://youtu.be/lYoA6jBl4Vk",
+    "streaming": [
+      {
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/"
+      },
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/",
+        "note": "VPN必要"
+      }
+    ]
   },
   {
     "id": 4,
@@ -251,7 +274,18 @@
     "cover_image": "/images/dramas/the-secret-of-us.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/UvIsfte-G-4"
+    "youtube_teaser": "https://youtu.be/UvIsfte-G-4",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/csSYDNh4b5w"
+      },
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/",
+        "note": "VPN必要"
+      }
+    ]
   },
   {
     "id": 5,
@@ -312,7 +346,13 @@
     "cover_image": "/images/dramas/23-5.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/mdOlxH11WnQ"
+    "youtube_teaser": "https://youtu.be/mdOlxH11WnQ",
+    "streaming": [
+      {
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/"
+      }
+    ]
   },
   {
     "id": 6,
@@ -374,7 +414,13 @@
     "cover_image": "/images/dramas/pluto.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/cBq6p5lMxvg"
+    "youtube_teaser": "https://youtu.be/cBq6p5lMxvg",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/dObc3WRi6TU"
+      }
+    ]
   },
   {
     "id": 7,
@@ -438,7 +484,13 @@
     "cover_image": "/images/dramas/us.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/E2KFC2etiWc"
+    "youtube_teaser": "https://youtu.be/E2KFC2etiWc",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/1EauB0mRMGo"
+      }
+    ]
   },
   {
     "id": 8,
@@ -502,7 +554,13 @@
     "cover_image": "/images/dramas/roller-coaster.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/WgVWizbGUZM"
+    "youtube_teaser": "https://youtu.be/WgVWizbGUZM",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/aw6l3ABHWyk"
+      }
+    ]
   },
   {
     "id": 9,
@@ -563,7 +621,13 @@
     "cover_image": "/images/dramas/poisonous-love.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/0x4DayIIpDM"
+    "youtube_teaser": "https://youtu.be/0x4DayIIpDM",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/6CO8mBhPrv8"
+      }
+    ]
   },
   {
     "id": 10,
@@ -622,7 +686,13 @@
     "cover_image": "/images/dramas/the-earth.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/8ZEzEJQ3yqU"
+    "youtube_teaser": "https://youtu.be/8ZEzEJQ3yqU",
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ]
   },
   {
     "id": 11,
@@ -688,7 +758,14 @@
     "cover_image": "/images/dramas/love-design.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/EtnRGdLsgOU"
+    "youtube_teaser": "https://youtu.be/EtnRGdLsgOU",
+    "streaming": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/",
+        "note": "VPN必要"
+      }
+    ]
   },
   {
     "id": 12,
@@ -754,7 +831,17 @@
     "cover_image": "/images/dramas/affair.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/jYg7FL4yqmo"
+    "youtube_teaser": "https://youtu.be/jYg7FL4yqmo",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/EMxZVIaYktU"
+      },
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/"
+      }
+    ]
   },
   {
     "id": 13,
@@ -798,7 +885,18 @@
     "cover_image": "/images/dramas/harmony-secret.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/k2KvTabErXk"
+    "youtube_teaser": "https://youtu.be/k2KvTabErXk",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/yqIl8eod0Kk"
+      },
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/",
+        "note": "VPN必要"
+      }
+    ]
   },
   {
     "id": 14,
@@ -863,7 +961,13 @@
     "cover_image": "/images/dramas/mate.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/geaToaLds0c"
+    "youtube_teaser": "https://youtu.be/geaToaLds0c",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/nF7Tqhe6y2Y"
+      }
+    ]
   },
   {
     "id": 15,
@@ -924,7 +1028,13 @@
     "cover_image": "/images/dramas/the-water.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/h4yDoN8J1WQ"
+    "youtube_teaser": "https://youtu.be/h4yDoN8J1WQ",
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ]
   },
   {
     "id": 16,
@@ -984,7 +1094,13 @@
     "cover_image": "/images/dramas/dangerous-queen.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/x6IqPR45ugo"
+    "youtube_teaser": "https://youtu.be/x6IqPR45ugo",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/bOazhToD33A"
+      }
+    ]
   },
   {
     "id": 17,
@@ -1045,7 +1161,13 @@
     "cover_image": "/images/dramas/i-wanna-be-suptar.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/nVOlVrf2aa0"
+    "youtube_teaser": "https://youtu.be/nVOlVrf2aa0",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/B1FbhclzkcE"
+      }
+    ]
   },
   {
     "id": 18,
@@ -1107,7 +1229,13 @@
     "cover_image": "/images/dramas/blank.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/bQSU74hRedU"
+    "youtube_teaser": "https://youtu.be/bQSU74hRedU",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/iZ0uHlR7muw"
+      }
+    ]
   },
   {
     "id": 19,
@@ -1168,7 +1296,14 @@
     "cover_image": "/images/dramas/my-safe-zone.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/6b4UnDCGYsI"
+    "youtube_teaser": "https://youtu.be/6b4UnDCGYsI",
+    "streaming": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/",
+        "note": "VPN必要"
+      }
+    ]
   },
   {
     "id": 20,
@@ -1228,7 +1363,13 @@
     "cover_image": "/images/dramas/reverse-with-me.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/bbx54tKBPn8"
+    "youtube_teaser": "https://youtu.be/bbx54tKBPn8",
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ]
   },
   {
     "id": 21,
@@ -1289,7 +1430,14 @@
     "cover_image": "/images/dramas/play-park.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/y15ZuMleTKk"
+    "youtube_teaser": "https://youtu.be/y15ZuMleTKk",
+    "streaming": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/",
+        "note": "VPN必要"
+      }
+    ]
   },
   {
     "id": 22,
@@ -1356,7 +1504,13 @@
     "cover_image": "/images/dramas/broken-of-love.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/etMeg6DbjgE"
+    "youtube_teaser": "https://youtu.be/etMeg6DbjgE",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/T6h6tDomGQM"
+      }
+    ]
   },
   {
     "id": 23,
@@ -1418,6 +1572,12 @@
     "cover_image": "/images/dramas/whale-store-xoxo.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": "https://youtu.be/P2YZ7d1aI6k"
+    "youtube_teaser": "https://youtu.be/P2YZ7d1aI6k",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/w8x8AedJzbY"
+      }
+    ]
   }
 ]

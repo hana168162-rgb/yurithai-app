@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import bannersData from "@/content/banners.json";
 
@@ -17,7 +17,9 @@ type Banner = {
 };
 
 const banners = bannersData as Banner[];
-const ROTATE_MS = 5500;
+const ROTATE_MS = 4000;            // 自動回転の間隔
+const SWIPE_THRESHOLD = 40;        // この距離以上ドラッグしたらスライドを進める/戻す
+const PAUSE_AFTER_SWIPE_MS = 6000; // 手動操作後しばらく自動回転を停止
 
 // バナーを表示しないパス（作品詳細ページなど、コンテンツに集中させたい場所）
 function shouldHide(pathname: string | null): boolean {
@@ -35,7 +37,11 @@ export function CampaignBanner() {
   const pathname = usePathname();
   const [idx, setIdx] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [dragDx, setDragDx] = useState(0); // ドラッグ中の指追従用 px
+  const startX = useRef<number | null>(null);
+  const pauseTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // 自動回転
   useEffect(() => {
     if (paused || banners.length <= 1) return;
     const t = setInterval(() => {
@@ -43,6 +49,46 @@ export function CampaignBanner() {
     }, ROTATE_MS);
     return () => clearInterval(t);
   }, [paused]);
+
+  // 手動操作後の一時停止タイマー
+  function tempPause() {
+    setPaused(true);
+    if (pauseTimer.current) clearTimeout(pauseTimer.current);
+    pauseTimer.current = setTimeout(() => setPaused(false), PAUSE_AFTER_SWIPE_MS);
+  }
+
+  function goPrev() {
+    setIdx((i) => (i - 1 + banners.length) % banners.length);
+    tempPause();
+  }
+  function goNext() {
+    setIdx((i) => (i + 1) % banners.length);
+    tempPause();
+  }
+  function goTo(i: number) {
+    setIdx(i);
+    tempPause();
+  }
+
+  // Pointer Events: マウスもタッチも両方拾える
+  function onPointerDown(e: React.PointerEvent) {
+    startX.current = e.clientX;
+    setDragDx(0);
+  }
+  function onPointerMove(e: React.PointerEvent) {
+    if (startX.current === null) return;
+    setDragDx(e.clientX - startX.current);
+  }
+  function onPointerUp() {
+    if (startX.current === null) return;
+    const dx = dragDx;
+    startX.current = null;
+    setDragDx(0);
+    if (Math.abs(dx) >= SWIPE_THRESHOLD) {
+      if (dx < 0) goNext();
+      else goPrev();
+    }
+  }
 
   if (banners.length === 0) return null;
   if (shouldHide(pathname)) return null;
@@ -52,20 +98,30 @@ export function CampaignBanner() {
       className="mx-auto max-w-6xl px-4 md:px-6 mt-3 md:mt-4"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
-      onTouchStart={() => setPaused(true)}
-      onTouchEnd={() => setPaused(false)}
     >
-      <div className="relative overflow-hidden rounded-xl shadow-sm">
+      <div className="relative overflow-hidden rounded-xl shadow-sm select-none">
         {/* スライド本体 */}
         <div
-          className="flex transition-transform duration-500 ease-out"
-          style={{ transform: `translateX(-${idx * 100}%)` }}
+          className="flex touch-pan-y"
+          style={{
+            transform: `translateX(calc(-${idx * 100}% + ${dragDx}px))`,
+            transition: startX.current === null ? "transform 500ms ease-out" : "none",
+          }}
           aria-live="polite"
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={onPointerUp}
+          onPointerCancel={onPointerUp}
         >
           {banners.map((b) => (
             <Link
               key={b.id}
               href={b.href}
+              draggable={false}
+              onClick={(e) => {
+                // ドラッグ後の意図しないクリックを抑制
+                if (Math.abs(dragDx) > 5) e.preventDefault();
+              }}
               className={`shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-4 md:py-5 flex items-center gap-4`}
             >
               {b.icon && (
@@ -89,6 +145,28 @@ export function CampaignBanner() {
           ))}
         </div>
 
+        {/* 左右矢印（PC・タブレット表示） */}
+        {banners.length > 1 && (
+          <>
+            <button
+              type="button"
+              aria-label="前のスライドへ"
+              onClick={goPrev}
+              className="hidden md:flex absolute top-1/2 -translate-y-1/2 left-2 w-8 h-8 items-center justify-center rounded-full bg-white/85 hover:bg-white text-yuri-ink shadow-sm z-10"
+            >
+              ‹
+            </button>
+            <button
+              type="button"
+              aria-label="次のスライドへ"
+              onClick={goNext}
+              className="hidden md:flex absolute top-1/2 -translate-y-1/2 right-2 w-8 h-8 items-center justify-center rounded-full bg-white/85 hover:bg-white text-yuri-ink shadow-sm z-10"
+            >
+              ›
+            </button>
+          </>
+        )}
+
         {/* インジケーター */}
         {banners.length > 1 && (
           <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
@@ -99,7 +177,7 @@ export function CampaignBanner() {
                 aria-label={`スライド ${i + 1} へ`}
                 onClick={(e) => {
                   e.preventDefault();
-                  setIdx(i);
+                  goTo(i);
                 }}
                 className={`h-1.5 rounded-full transition-all ${
                   i === idx ? "w-6 bg-white/90" : "w-1.5 bg-white/50"

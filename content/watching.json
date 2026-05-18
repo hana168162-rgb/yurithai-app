@@ -99,5 +99,30 @@
       }
     ],
     "title_th": "Fulfill The Series"
+  },
+  {
+    "id": 106,
+    "slug": "love-beyond-dreams",
+    "title_ja": "Love beyond Dreams",
+    "title_en": "Love beyond Dreams",
+    "production": "ME MIND Y",
+    "cast_pair": "Enya Aornpan × Miphat Phatthranan",
+    "status": "airing",
+    "note": "ME MIND Y制作（GL初参入 / More Than Her Projectシリーズ）/ 全7話 / 2026年5月6日〜6月17日 / 毎週水曜日 / YouTube MeMindY Official 20:00 / iQIYI UNCUT版 21:00 / プロデューサーOrawan Wichayawannakun / 監督Thanyaphisit Jiradechakul",
+    "cover_image": "/images/dramas/love-beyond-dreams.jpg",
+    "cover_credit": "© ME MIND Y / iQIYI",
+    "youtube_teaser": "https://youtu.be/YXBdhxza8Es",
+    "title_th": "เพื่อเธออีกครั้ง",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@MeMindYofficial"
+      },
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "UNCUT版"
+      }
+    ]
   }
 ]

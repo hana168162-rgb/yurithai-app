@@ -50,11 +50,20 @@ export function generateMetadata({
       url: `${SITE_URL}/cast/${actress.id}`,
       siteName: "YuriThai",
       type: "profile",
+      images: [
+        {
+          url: `${SITE_URL}/api/og/actress/${actress.id}`,
+          width: 1200,
+          height: 630,
+          alt: `${actress.name_ja}（${actress.real_name}）`,
+        },
+      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: `${actress.name_ja}（${actress.real_name}）| YuriThai`,
       description,
+      images: [`${SITE_URL}/api/og/actress/${actress.id}`],
     },
   };
 }

@@ -50,9 +50,8 @@ export function generateMetadata({
     : `タイGLドラマ「${drama.title_ja}」の作品情報、出演ペア、配信先、レビュー、関連動画を日本語でまとめたガイド。${drama.cast_pair ? `主演: ${drama.cast_pair}` : ""}`;
 
   const url = `${SITE_URL}/dramas/${drama.slug}`;
-  const image = drama.cover_image
-    ? `${SITE_URL}${drama.cover_image}`
-    : `${SITE_URL}/og-default.png`;
+  // 動的OG画像（Edge生成） — 各作品ごとに固有のブランドカード
+  const image = `${SITE_URL}/api/og/drama/${drama.slug}`;
 
   return {
     title,

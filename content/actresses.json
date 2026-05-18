@@ -769,5 +769,33 @@
     "filmography": [],
     "agency": "GMMTV",
     "instagram": "fondnatticha"
+  },
+  {
+    "id": "view",
+    "name_ja": "ビュー",
+    "real_name": "Benyapa \"View\" Jeenprasom",
+    "birth_date": null,
+    "age": null,
+    "nationality": null,
+    "height_cm": null,
+    "filmography": [
+      "Girl Rules"
+    ],
+    "agency": "GMMTV",
+    "instagram": null
+  },
+  {
+    "id": "mim-r",
+    "name_ja": "ミム",
+    "real_name": "Rattanawadee \"Mim\" Wongthong",
+    "birth_date": null,
+    "age": null,
+    "nationality": null,
+    "height_cm": null,
+    "filmography": [
+      "Girl Rules"
+    ],
+    "agency": "GMMTV",
+    "instagram": null
   }
 ]

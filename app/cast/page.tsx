@@ -1,4 +1,4 @@
-import { dramas, watching, getActressesForPair } from "@/lib/content";
+import { dramas, watching, getActressesForPair, pairs } from "@/lib/content";
 import { ActressProfile } from "@/components/ActressProfile";
 
 export const metadata = { title: "ペア一覧 | YuriThai" };
@@ -11,9 +11,25 @@ interface PairEntry {
 
 function getPairs(): PairEntry[] {
   const map = new Map<string, PairEntry>();
+  const knownPairs = Object.keys(pairs); // pairs.json から既知ペア名
 
   const addDrama = (castPair: string | null, title: string) => {
     if (!castPair) return;
+
+    // cast_pair に含まれる既知ペア名をすべて抽出（複数主演に対応）
+    const foundPairs = knownPairs.filter((p) => castPair.includes(p));
+
+    if (foundPairs.length > 0) {
+      for (const key of foundPairs) {
+        if (!map.has(key)) {
+          map.set(key, { short: key, full: castPair, dramas: [] });
+        }
+        map.get(key)!.dramas.push(title);
+      }
+      return;
+    }
+
+    // fallback: 既知ペアが見つからない場合は カッコ内 or cast_pair そのもの
     const match = castPair.match(/（([^）]+)）/);
     const key = match ? match[1] : castPair;
     if (!map.has(key)) {

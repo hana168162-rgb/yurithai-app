@@ -71,19 +71,30 @@ export function CampaignBanner() {
   }
 
   // Pointer Events: マウスもタッチも両方拾える
-  function onPointerDown(e: React.PointerEvent) {
+  // setPointerCapture でポインターが要素外に出ても追従させる（PCドラッグでも正常動作）
+  function onPointerDown(e: React.PointerEvent<HTMLDivElement>) {
     startX.current = e.clientX;
     setDragDx(0);
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId);
+    } catch {
+      /* noop */
+    }
   }
-  function onPointerMove(e: React.PointerEvent) {
+  function onPointerMove(e: React.PointerEvent<HTMLDivElement>) {
     if (startX.current === null) return;
     setDragDx(e.clientX - startX.current);
   }
-  function onPointerUp() {
+  function onPointerUp(e: React.PointerEvent<HTMLDivElement>) {
     if (startX.current === null) return;
     const dx = dragDx;
     startX.current = null;
     setDragDx(0);
+    try {
+      e.currentTarget.releasePointerCapture(e.pointerId);
+    } catch {
+      /* noop */
+    }
     if (Math.abs(dx) >= SWIPE_THRESHOLD) {
       if (dx < 0) goNext();
       else goPrev();
@@ -102,7 +113,9 @@ export function CampaignBanner() {
       <div className="relative overflow-hidden rounded-xl shadow-sm select-none">
         {/* スライド本体 */}
         <div
-          className="flex touch-pan-y"
+          className={`flex touch-pan-y ${
+            startX.current !== null ? "cursor-grabbing" : "cursor-grab"
+          }`}
           style={{
             transform: `translateX(calc(-${idx * 100}% + ${dragDx}px))`,
             transition: startX.current === null ? "transform 500ms ease-out" : "none",

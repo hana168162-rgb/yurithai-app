@@ -16,7 +16,6 @@ body {
   background-color: var(--color-cream);
   color: var(--color-ink);
   font-feature-settings: "palt";
-  overflow-x: hidden;
 }
 
 body {

@@ -48,7 +48,7 @@ export default function HomePage() {
       <section className="py-8 md:py-12 text-center">
         <div className="text-yuri-gold mb-2 text-sm">✦  ✦  ✦</div>
         <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-6 tracking-tight leading-tight">
-          タイGLドラマを、日本で楽しむ。
+          タイGLを、日本で楽しむ。
         </h1>
         <Link
           href="/recommend"

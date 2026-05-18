@@ -7,6 +7,35 @@ import {
 import { DramaCard } from "@/components/DramaCard";
 import { WatchingCard } from "@/components/WatchingCard";
 import { UpcomingCard } from "@/components/UpcomingCard";
+import { JsonLd, buildFaqJsonLd } from "@/components/JsonLd";
+
+const HOME_FAQ = [
+  {
+    question: "タイGLとは何ですか？",
+    answer:
+      "タイGL（タイ百合ドラマ）は、タイで制作される女性同士のロマンスを描いたドラマ・映画の総称です。2022年放送の「GAP: The Series」を起点に急成長し、現在では年間20〜30本ペースで新作が公開されるジャンルへと拡大しています。",
+  },
+  {
+    question: "タイGLはどこで観られますか？",
+    answer:
+      "作品によりますが、TELASA・U-NEXT・Netflix日本・iQIYI日本・YouTube公式チャンネル等で視聴できる作品があります。YuriThaiの各作品ページの「どこで見れる？」セクションで、作品ごとの配信先を確認できます。",
+  },
+  {
+    question: "タイGL初心者は何から観ればいいですか？",
+    answer:
+      "入門編としては、GAP（2022）、23.5（2023）、Pluto（2024）あたりが定番です。YuriThaiの「おすすめ診断」を使えば、5問で自分に合う1作が見つかります。",
+  },
+  {
+    question: "タイGLには日本語字幕がありますか？",
+    answer:
+      "日本配信されている作品は基本的に日本語字幕付きで観られます。YouTube公式配信については作品により英語字幕のみの場合もあるため、各作品ページの配信先情報をご確認ください。",
+  },
+  {
+    question: "「ペア」とはなんですか？",
+    answer:
+      "タイGL（およびタイBL）の文脈では、複数作品にわたって主演する固定の俳優コンビをペアと呼びます。FreenBecky、LMSY、NamtanFilm などのシップネームが付き、ファンダムも独自に形成されます。",
+  },
+];
 
 export default function HomePage() {
   const pickup = getCurrentPickup();
@@ -14,12 +43,20 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto max-w-6xl px-6">
+      <JsonLd data={buildFaqJsonLd(HOME_FAQ)} />
       {/* Hero */}
       <section className="py-8 md:py-12 text-center">
         <div className="text-yuri-gold mb-2 text-sm">✦  ✦  ✦</div>
-        <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-6 tracking-tight leading-tight">
-          推しの一作を、見つけよう。
+        <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-3 tracking-tight leading-tight">
+          タイGLドラマを、日本語で。
         </h1>
+        <p className="text-sm md:text-base text-yuri-muted mb-6 leading-relaxed max-w-xl mx-auto">
+          推しの一作を見つけよう。完結・放送中・公開予定のタイGLドラマを
+          {" "}
+          <strong className="text-yuri-ink/85 font-normal">レビュー / 配信先 / 出演ペア</strong>
+          {" "}
+          で横断検索。
+        </p>
         <Link
           href="/recommend"
           className="inline-flex items-center gap-2 bg-yuri-navy text-yuri-cream px-6 py-3 rounded-full text-sm font-medium hover:opacity-90"
@@ -101,6 +138,50 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      {/* FAQ — SEO目的（FAQPage JSON-LD と対応） */}
+      <section className="mb-12 mt-8">
+        <div className="mb-4">
+          <h2 className="text-lg font-medium text-yuri-navy">
+            タイGLについてよくある質問
+          </h2>
+        </div>
+        <div className="space-y-3">
+          {HOME_FAQ.map((qa, i) => (
+            <details
+              key={i}
+              className="group bg-yuri-surface border border-yuri-edge rounded-md"
+            >
+              <summary className="cursor-pointer list-none flex items-start gap-3 px-4 py-3 text-sm font-medium text-yuri-ink hover:bg-yuri-cream/60">
+                <span className="text-yuri-rose mt-0.5" aria-hidden>
+                  Q.
+                </span>
+                <span className="flex-1">{qa.question}</span>
+                <span
+                  className="text-yuri-muted text-xs mt-1 group-open:rotate-180 transition-transform"
+                  aria-hidden
+                >
+                  ▼
+                </span>
+              </summary>
+              <div className="px-4 pb-3 pt-1 text-sm text-yuri-ink/85 leading-[1.85] flex gap-3">
+                <span className="text-yuri-rose font-medium" aria-hidden>
+                  A.
+                </span>
+                <span>{qa.answer}</span>
+              </div>
+            </details>
+          ))}
+        </div>
+        <p className="text-xs text-yuri-muted mt-4 text-right">
+          <Link
+            href="/guide/what-is-thai-gl"
+            className="text-yuri-rose hover:opacity-80"
+          >
+            タイGLについてもっと知る →
+          </Link>
+        </p>
+      </section>
     </div>
   );
 }

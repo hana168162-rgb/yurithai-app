@@ -142,6 +142,26 @@ export function buildWebSiteJsonLd() {
 }
 
 /**
+ * FAQPage Schema — トップページなどのFAQ用
+ */
+export function buildFaqJsonLd(
+  items: { question: string; answer: string }[],
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((it) => ({
+      "@type": "Question",
+      name: it.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: it.answer,
+      },
+    })),
+  };
+}
+
+/**
  * <script type="application/ld+json"> として埋め込むコンポーネント
  */
 export function JsonLd({ data }: { data: object }) {

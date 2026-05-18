@@ -325,6 +325,20 @@
     "instagram": "lilly_nicha"
   },
   {
+    "id": "atom",
+    "name_ja": "アトム",
+    "real_name": "Pariya \"Atom\" Piyapanopas",
+    "birth_date": "2001-11-13",
+    "age": 24,
+    "nationality": "Thai",
+    "height_cm": 165,
+    "filmography": [
+      "Broken of Love"
+    ],
+    "agency": "Fabel Entertainment（2026年2月加入）",
+    "instagram": "atomprys"
+  },
+  {
     "id": "belle",
     "name_ja": "ベル",
     "real_name": "Jiratchaya \"Belle\" Kittavornsakul",
@@ -337,5 +351,423 @@
     ],
     "agency": "CHANGE2561",
     "instagram": "bellejirat"
+  },
+  {
+    "id": "emi",
+    "name_ja": "エミ",
+    "real_name": "Thasorn \"Emi\" Klinnium",
+    "birth_date": "1998-04-25",
+    "age": 27,
+    "nationality": "Thai",
+    "height_cm": 165,
+    "filmography": [
+      "Why R U? (2020)",
+      "Girl from Nowhere Season 2 (2021)",
+      "The Whole Truth (2021)",
+      "School Tales the Series (2022)",
+      "609 Bedtime Story (2022-2023)",
+      "Hoon Payon (2023)",
+      "Delete (2023)",
+      "One Night Stand (2023)",
+      "Last Twilight (2023)",
+      "Intern in My Heart (2024)",
+      "Beauty Newbie (2024)",
+      "Wandee Goodday (2024)",
+      "The Rebound (2024)",
+      "The Trainee (2024)",
+      "Perfect 10 Liners (2024)",
+      "Us (2025)",
+      "Break Up Service (2025)",
+      "Friendshit Forever (2025)",
+      "Mouse (2025)",
+      "Burnout Syndrome (2025-2026)",
+      "Moonshadow (2026)"
+    ],
+    "agency": "GMMTV",
+    "instagram": "emiamily"
+  },
+  {
+    "id": "bonnie",
+    "name_ja": "ボニー",
+    "real_name": "Pattraphus \"Bonnie\" Borattasuwan",
+    "birth_date": "2004-01-27",
+    "age": 21,
+    "nationality": "Thai",
+    "height_cm": 161,
+    "filmography": [
+      "High School Frenemy (2024)",
+      "Us (2025)",
+      "Me and Thee (2025-2026)",
+      "Moonshadow (2026)"
+    ],
+    "agency": "GMMTV",
+    "instagram": "beonnnie"
+  },
+  {
+    "id": "apple",
+    "name_ja": "アップル",
+    "real_name": "Lapisara \"Apple\" Intarasut",
+    "birth_date": "1994-09-01",
+    "age": 31,
+    "nationality": "Thai",
+    "height_cm": 170,
+    "filmography": [
+      "Club Friday 10 (2018)",
+      "Dark Blue Kiss (2019)",
+      "YYY (2020)",
+      "Who Are You (2020)",
+      "I'm Tee, Me Too (2020)",
+      "Friend Zone 2: Dangerous Area (2020-2021)",
+      "Golden Blood (2021)",
+      "Payu Sai (2021)",
+      "You're My Sky (2022)",
+      "Finding the Rainbow (2022)",
+      "Cooking Crush (2023)",
+      "Law-less (2024)",
+      "Rearrange (2025)",
+      "4 Elements: The Earth (2025-2026)"
+    ],
+    "agency": "NorthStar Entertainment",
+    "instagram": "applelapisara"
+  },
+  {
+    "id": "mim",
+    "name_ja": "ミム",
+    "real_name": "Panthita \"Mim\" Jencharoentham",
+    "birth_date": "2000-07-04",
+    "age": 25,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Fellow Fellow - The Duty of Tears (Music Video)",
+      "Slur - Meanwhile (Music Video)",
+      "4 Elements: The Earth (2026)"
+    ],
+    "agency": "NorthStar Entertainment",
+    "instagram": "mimu.p"
+  },
+  {
+    "id": "ginny",
+    "name_ja": "ジニー",
+    "real_name": "Natnicha \"Ginny\" Pratipnatsiri",
+    "birth_date": "2000-12-17",
+    "age": 24,
+    "nationality": "Thai",
+    "height_cm": 161,
+    "filmography": [
+      "Poisonous Love (2025)"
+    ],
+    "agency": "NorthStar Entertainment",
+    "instagram": "ginnynatnicha"
+  },
+  {
+    "id": "jayna",
+    "name_ja": "ジェイナ",
+    "real_name": "Angelina \"Jayna\" Stevens",
+    "birth_date": "2006-02-17",
+    "age": 19,
+    "nationality": "Thai (Thai/American ethnicity)",
+    "height_cm": 170,
+    "filmography": [
+      "Poisonous Love (2025)"
+    ],
+    "agency": "NorthStar Entertainment",
+    "instagram": "aangelinaa.ss"
+  },
+  {
+    "id": "tangkwa",
+    "name_ja": "テンクワ",
+    "real_name": "Phinyanech \"Tangkwa\" Aungsuwan",
+    "birth_date": "2003-11-13",
+    "age": 22,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Dangerous Queen (2025)"
+    ],
+    "agency": "S.nur Entertainment",
+    "instagram": "phinyanech.h"
+  },
+  {
+    "id": "nur",
+    "name_ja": "ヌア",
+    "real_name": "Desoraya \"Nur\" Techapaibul",
+    "birth_date": "2000-12-09",
+    "age": 25,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Song Tranong (2024)",
+      "Dangerous Queen (2025)"
+    ],
+    "agency": "S.nur Entertainment (Founder & CEO)",
+    "instagram": "nurdesoraya"
+  },
+  {
+    "id": "tan",
+    "name_ja": "タン",
+    "real_name": "Tan Duangkaew Piyaoui",
+    "birth_date": null,
+    "age": 25,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Play Park (2026)"
+    ],
+    "agency": null,
+    "instagram": "tanytannn"
+  },
+  {
+    "id": "yada",
+    "name_ja": "ヤダ",
+    "real_name": "Yada Narilya Gulmongkolpech",
+    "birth_date": "2000-03-26",
+    "age": 25,
+    "nationality": "Thai",
+    "height_cm": 163,
+    "filmography": [
+      "The Medium (2021)",
+      "Love Sick",
+      "Duangjai Dhevaprom series",
+      "Play Park (2026)"
+    ],
+    "agency": null,
+    "instagram": "yadarilya"
+  },
+  {
+    "id": "oom",
+    "name_ja": "オム",
+    "real_name": "Oom Eisaya Hosuwan",
+    "birth_date": "1996-07-04",
+    "age": 29,
+    "nationality": "Thai",
+    "height_cm": 166,
+    "filmography": [
+      "Bad Genius (2017)",
+      "Siam Square",
+      "Duangjai Dhevaprom: Jai Pisut",
+      "Fulfill (2026)"
+    ],
+    "agency": null,
+    "instagram": "oomeisaya"
+  },
+  {
+    "id": "bam",
+    "name_ja": "バム",
+    "real_name": "Bam Saralee Prasitdumrong",
+    "birth_date": null,
+    "age": 27,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Dhevaprom: Kwanruetai (2024)",
+      "Fulfill (2026)"
+    ],
+    "agency": null,
+    "instagram": "bbam_s"
+  },
+  {
+    "id": "jan",
+    "name_ja": "ジャン",
+    "real_name": "Jan Ployshompoo Supasap",
+    "birth_date": "1995-01-05",
+    "age": 31,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SOTUS",
+      "Peaceful Property",
+      "P.S. I Hate You",
+      "Cupid's Last Wish",
+      "Enemies with Benefits (2026)"
+    ],
+    "agency": "GMMTV",
+    "instagram": "janhae"
+  },
+  {
+    "id": "jingjing",
+    "name_ja": "ジンジン",
+    "real_name": "JingJing Prariyapit Yu",
+    "birth_date": "1997-04-01",
+    "age": 28,
+    "nationality": "Thai (Thai-Chinese)",
+    "height_cm": 173,
+    "filmography": [
+      "App War (2018)",
+      "Sleepless Society: Insomnia (2019)",
+      "Hide & Sis (2025)",
+      "Mu-Te-Luv (2025)",
+      "Enemies with Benefits (2026)"
+    ],
+    "agency": "GMMTV",
+    "instagram": "jingjingyu36"
+  },
+  {
+    "id": "pundao",
+    "name_ja": "プンダオ",
+    "real_name": "Pundao \"Aom\" Panyabaramee",
+    "birth_date": "1999-06-18",
+    "age": 26,
+    "nationality": "Thai (born in Thailand, 100% Chinese ethnicity)",
+    "height_cm": 168,
+    "filmography": [
+      "Roller Coaster The Series (2025)",
+      "By Your Side (2026)"
+    ],
+    "agency": "Motion Minds Entertainment",
+    "instagram": "_pundao"
+  },
+  {
+    "id": "neko",
+    "name_ja": "ネコ",
+    "real_name": "Naerunchara \"Neko\" Lertprasert",
+    "birth_date": "1997-11-18",
+    "age": 27,
+    "nationality": "Thai",
+    "height_cm": 157,
+    "filmography": [
+      "Sming (2014)",
+      "Wela Nai Kued Kaew (2015)",
+      "O-Negative (2016)",
+      "Girl From Nowhere (2018)",
+      "Beguine (2018)",
+      "2Brothers (2019)",
+      "4 Kings (2021)",
+      "Faces of Anne (2022)",
+      "Saneha Stories Season 4 (2022)",
+      "Dalah: Death and the Flowers (2025)",
+      "Roller Coaster the Series (2025)"
+    ],
+    "agency": "Motion Minds Entertainment",
+    "instagram": "nekonaerun"
+  },
+  {
+    "id": "shelly",
+    "name_ja": "シェリー",
+    "real_name": "Phetsai \"Shelly\" Chanrueng-Benda",
+    "birth_date": "2003-07-21",
+    "age": 22,
+    "nationality": "Thai (with Israeli from father)",
+    "height_cm": 166,
+    "filmography": [
+      "Roller Coaster The Series (2025)",
+      "By Your Side (2026)"
+    ],
+    "agency": "Motion Minds Entertainment",
+    "instagram": "shellybenda"
+  },
+  {
+    "id": "pitcha",
+    "name_ja": "ピチャ",
+    "real_name": "Pitchatorn \"Noon\" / \"Pitcha\" Santinatornkul",
+    "birth_date": "1998-02-09",
+    "age": 27,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Every Beat Matters (Short Film)",
+      "My Dream: The Series (2018)",
+      "The One You Love (2019)",
+      "Bangkok Breaking (2021)",
+      "School Tales the Series (2022)",
+      "Love Destiny: The Movie (2022)",
+      "My Undercover Chef (2023-2024)",
+      "Dear My Secretary (2025)",
+      "Reverse with Me (2025)"
+    ],
+    "agency": "Siblings (family-managed)",
+    "instagram": "pitchaaaa_s"
+  },
+  {
+    "id": "natt",
+    "name_ja": "ナット",
+    "real_name": "Nattamon \"Natt\" Chokejindachai",
+    "birth_date": "1995-12-11",
+    "age": 29,
+    "nationality": "Thai",
+    "height_cm": 163,
+    "filmography": [
+      "Ethereal Creature (2017)",
+      "Haunted Universities 2nd Semester (2022)",
+      "Reverse with Me (2025)"
+    ],
+    "agency": "Artist Manager Kedsavara_kob",
+    "instagram": "nkww"
+  },
+  {
+    "id": "enya",
+    "name_ja": "エンヤ",
+    "real_name": "Enya Aornpan",
+    "birth_date": null,
+    "age": null,
+    "nationality": null,
+    "height_cm": null,
+    "filmography": [
+      "Love beyond Dreams"
+    ],
+    "agency": "ME MIND Y",
+    "instagram": null
+  },
+  {
+    "id": "miphat",
+    "name_ja": "ミーパット",
+    "real_name": "Miphat Phatthranan",
+    "birth_date": null,
+    "age": null,
+    "nationality": null,
+    "height_cm": null,
+    "filmography": [
+      "Love beyond Dreams"
+    ],
+    "agency": "ME MIND Y",
+    "instagram": null
+  },
+  {
+    "id": "june",
+    "name_ja": "ジューン",
+    "real_name": "Wanwimol \"June\" Jaenasavamethee",
+    "birth_date": "2000-04-19",
+    "age": 25,
+    "nationality": "Thai",
+    "height_cm": 163,
+    "filmography": [],
+    "agency": "GMMTV",
+    "instagram": "junewanwimol19"
+  },
+  {
+    "id": "mewnich",
+    "name_ja": "ミューニッチ",
+    "real_name": "Nannaphas \"Mewnich\" Loetnamchoetsakun",
+    "birth_date": "2002-03-11",
+    "age": 24,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [],
+    "agency": "GMMTV",
+    "instagram": "mewnich.nannaphas"
+  },
+  {
+    "id": "pahn",
+    "name_ja": "パーン",
+    "real_name": "Pathitta \"Pahn\" Pornchumroenrut",
+    "birth_date": "2004-06-01",
+    "age": 21,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [],
+    "agency": "GMMTV",
+    "instagram": "pahnthitta"
+  },
+  {
+    "id": "fond",
+    "name_ja": "フォンド",
+    "real_name": "Natticha \"Fond\" Chantaravareelekha",
+    "birth_date": "2002-12-03",
+    "age": 23,
+    "nationality": "Thai",
+    "height_cm": 158,
+    "filmography": [],
+    "agency": "GMMTV",
+    "instagram": "fondnatticha"
   }
 ]

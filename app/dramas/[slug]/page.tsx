@@ -153,24 +153,19 @@ export default function DramaDetailPage({
                 {synopsis}
               </p>
             )}
-            {!synopsis && note && (
-              <p className="text-sm leading-relaxed text-yuri-ink/80">
-                {note}
-              </p>
-            )}
           </div>
         </section>
 
         {/* 2. Teaser — order-2 (mobile & PC same) */}
         <section className="order-2 mb-8">
           <h2 className="text-base font-medium text-yuri-navy mb-3">
-            ティザー映像
+            予告
           </h2>
           {getYouTubeId(youtubeTeaser) ? (
             <YouTubeEmbed src={youtubeTeaser} />
           ) : (
             <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 text-sm text-yuri-muted">
-              ティザー映像は準備中です。
+              予告は準備中です。
             </div>
           )}
         </section>
@@ -180,8 +175,33 @@ export default function DramaDetailPage({
           <h2 className="text-base font-medium text-yuri-navy mb-3">
             どこで見れる？
           </h2>
-          <WhereToWatch streaming={streamingLinks} fallbackNote={note} />
+          <WhereToWatch streaming={streamingLinks} fallbackNote={null} />
         </section>
+
+        {/* 制作・放送情報 — mobile: order-7 / PC: order-7 (一番下) */}
+        {note && (
+          <section className="order-7 md:order-7 mb-8">
+            <h2 className="text-base font-medium text-yuri-navy mb-3">
+              制作・放送情報
+            </h2>
+            <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
+              <div className="flex flex-wrap gap-1.5">
+                {note
+                  .split("/")
+                  .map((s) => s.trim())
+                  .filter((s) => s.length > 0)
+                  .map((item, i) => (
+                    <span
+                      key={`${item}-${i}`}
+                      className="inline-flex items-center px-2.5 py-1 rounded bg-yuri-cream border border-yuri-edge text-yuri-ink text-xs"
+                    >
+                      {item}
+                    </span>
+                  ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* 4. Tags — mobile: order-4 / PC: order-3 */}
         {tagSections.length > 0 && (

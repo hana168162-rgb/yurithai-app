@@ -1,21 +1,99 @@
 {
-  "FreenBecky": ["freen", "becky"],
-  "LingOrm": ["ling", "orm"],
-  "MilkLove": ["milk", "love"],
-  "NamtanFilm": ["namtan", "film"],
-  "EmiBonnie": [],
-  "FayeYoko": ["faye", "yoko"],
-  "LMSY": ["lookmhee", "sonya"],
-  "EngLot": ["engfa", "charlotte"],
-  "KaoJane": ["kao", "jane"],
-  "GraceOaey": ["grace", "oaey"],
-  "LenaMiu": ["lena", "miu"],
-  "LillyBelle": ["lilly", "belle"],
-  "AppleMimu": [],
-  "GinJay": [],
-  "TKNur": [],
-  "FayeAtom": ["faye"],
-  "TanYada": [],
-  "OomBam": [],
-  "JanJingJing": []
+  "FreenBecky": [
+    "freen",
+    "becky"
+  ],
+  "LingOrm": [
+    "ling",
+    "orm"
+  ],
+  "MilkLove": [
+    "milk",
+    "love"
+  ],
+  "NamtanFilm": [
+    "namtan",
+    "film"
+  ],
+  "EmiBonnie": [
+    "emi",
+    "bonnie"
+  ],
+  "FayeYoko": [
+    "faye",
+    "yoko"
+  ],
+  "LMSY": [
+    "lookmhee",
+    "sonya"
+  ],
+  "EngLot": [
+    "engfa",
+    "charlotte"
+  ],
+  "KaoJane": [
+    "kao",
+    "jane"
+  ],
+  "GraceOaey": [
+    "grace",
+    "oaey"
+  ],
+  "LenaMiu": [
+    "lena",
+    "miu"
+  ],
+  "LillyBelle": [
+    "lilly",
+    "belle"
+  ],
+  "AppleMimu": [
+    "apple",
+    "mim"
+  ],
+  "GinJay": [
+    "ginny",
+    "jayna"
+  ],
+  "TKNur": [
+    "tangkwa",
+    "nur"
+  ],
+  "FayeAtom": [
+    "faye",
+    "atom"
+  ],
+  "TanYada": [
+    "tan",
+    "yada"
+  ],
+  "OomBam": [
+    "oom",
+    "bam"
+  ],
+  "JanJingJing": [
+    "jan",
+    "jingjing"
+  ],
+  "PitchaNatt": [
+    "pitcha",
+    "natt"
+  ],
+  "RollerCoaster": [
+    "pundao",
+    "neko",
+    "shelly"
+  ],
+  "EnyaMiphat": [
+    "enya",
+    "miphat"
+  ],
+  "JuneMewnich": [
+    "june",
+    "mewnich"
+  ],
+  "PahnFond": [
+    "pahn",
+    "fond"
+  ]
 }

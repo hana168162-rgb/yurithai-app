@@ -400,10 +400,18 @@ function simpleHash(s: string): string {
   return Math.abs(h).toString(36);
 }
 
+/**
+ * タグをURLスラッグに変換。
+ * Next.jsの動的ルーティングは slug をUTF-8文字列としてそのまま扱える
+ * （URLエンコード/デコードはフレームワーク側で自動処理される）ので、
+ * 通常は生のタグ文字列を返す。
+ *
+ * ただし URLエンコード後のバイト数が長すぎると、Vercel側のファイルシステム
+ * パス長制限に引っかかるため、その場合のみハッシュ化する。
+ */
 export function tagToSlug(tag: string): string {
   const enc = encodeURIComponent(tag);
-  if (enc.length <= SLUG_BYTE_LIMIT) return enc;
-  // 長すぎる場合: ハッシュ形式（_h_xxxx）に
+  if (enc.length <= SLUG_BYTE_LIMIT) return tag;
   return `_h_${simpleHash(tag)}`;
 }
 
@@ -414,7 +422,8 @@ export function slugToTag(slug: string): string {
       if (tagToSlug(t.tag) === slug) return t.tag;
     }
   }
-  return decodeURIComponent(slug);
+  // Next.js が既に URL デコード済みの slug を渡してくる
+  return slug;
 }
 
 /**

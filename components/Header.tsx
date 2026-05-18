@@ -33,7 +33,7 @@ export function Header() {
   }, [open]);
 
   return (
-    <header className="border-b border-yuri-edge bg-yuri-cream relative z-40">
+    <header className="border-b border-yuri-edge bg-yuri-cream sticky top-0 z-40">
       <div className="mx-auto max-w-6xl px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
         {/* モバイル：ハンバーガー */}
         <button

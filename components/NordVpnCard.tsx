@@ -3,14 +3,19 @@ import {
   NORDVPN,
   AFFILIATE_DISCLOSURE_SHORT,
   AFFILIATE_DISCLOSURE_LONG,
+  NORD_TRADEMARK_ATTRIBUTION,
 } from "@/lib/affiliate";
 
 type Variant = "compact" | "wide";
 
 /**
- * YuriThai ブランドに合わせた NordVPN アフィリカード。
- * - compact: 作品詳細「どこで見れる？」下に挿入する用
- * - wide:    /guide/vpn の CTA 用、より大きく目立つ
+ * NordVPN アフィリエイト紹介カード。
+ * - NordVPN 提供のロゴ・バナー画像は使用せず、当サイト独自のデザイン要素のみで構成
+ *   （Nord Trademark Policy: 商標を自社商標と結合させたり、改変したりしない方針に準拠）
+ * - 商標帰属表記・PR表記・rel="sponsored" を含む
+ *
+ * compact: 作品詳細の「どこで見れる？」下に挿入する小カード
+ * wide:    /guide/vpn の本文 CTA 用
  */
 export function NordVpnCard({ variant = "compact" }: { variant?: Variant }) {
   const isWide = variant === "wide";
@@ -21,16 +26,16 @@ export function NordVpnCard({ variant = "compact" }: { variant?: Variant }) {
         isWide ? "p-5 md:p-6" : "p-4"
       } mt-4`}
     >
-      {/* PRラベル */}
+      {/* 広告ラベル（景品表示法ステマ規制対応） */}
       <span
-        className="absolute top-2 right-2 text-[9px] font-medium px-1.5 py-0.5 rounded bg-yuri-muted/15 text-yuri-muted tracking-wider"
+        className="absolute top-2 right-2 text-[10px] font-medium px-1.5 py-0.5 rounded bg-yuri-muted/15 text-yuri-muted tracking-wider"
         aria-label="アフィリエイト広告"
       >
         {AFFILIATE_DISCLOSURE_SHORT}
       </span>
 
       <div className={`flex ${isWide ? "flex-col md:flex-row gap-5" : "gap-3"} items-start`}>
-        {/* アイコン */}
+        {/* アイコン（NordVPN のロゴは使わず、汎用アイコンで代用） */}
         <div
           className={`shrink-0 ${
             isWide ? "w-16 h-16" : "w-11 h-11"
@@ -73,15 +78,20 @@ export function NordVpnCard({ variant = "compact" }: { variant?: Variant }) {
                 href="/guide/vpn"
                 className="text-xs text-yuri-rose hover:opacity-80"
               >
-                詳しいガイドを読む →
+                詳しく見る →
               </Link>
             )}
           </div>
 
           {isWide && (
-            <p className="text-[11px] text-yuri-muted mt-3 leading-relaxed">
-              {AFFILIATE_DISCLOSURE_LONG}
-            </p>
+            <>
+              <p className="text-[11px] text-yuri-muted mt-3 leading-relaxed">
+                {AFFILIATE_DISCLOSURE_LONG}
+              </p>
+              <p className="text-[10px] text-yuri-muted/80 mt-2 leading-relaxed">
+                {NORD_TRADEMARK_ATTRIBUTION}
+              </p>
+            </>
           )}
         </div>
       </div>

@@ -16,7 +16,7 @@ import { TagBadge, TagPillDark } from "@/components/TagBadge";
 import { YouTubeEmbed, getYouTubeId } from "@/components/YouTubeEmbed";
 import { ActressProfile } from "@/components/ActressProfile";
 import { WhereToWatch } from "@/components/WhereToWatch";
-import { NordVpnCard } from "@/components/NordVpnCard";
+import { NordVpnBannerResponsive } from "@/components/NordVpnBanner";
 import { RelatedDramas } from "@/components/RelatedDramas";
 import {
   JsonLd,
@@ -290,8 +290,19 @@ export default function DramaDetailPage({
             どこで見れる？
           </h2>
           <WhereToWatch streaming={streamingLinks} fallbackNote={null} />
-          {/* ジオ制限の作品向け：VPNの紹介（アフィリ） */}
-          <NordVpnCard variant="compact" />
+          {/* 海外配信向け：NordVPN®公式バナー（アフィリエイト広告） */}
+          <div className="mt-5">
+            <NordVpnBannerResponsive
+              mobileBanner="borderless_300x300"
+              desktopBanner="borderless_728x90"
+            />
+            <p className="text-[11px] text-yuri-muted mt-1.5 text-center md:text-left">
+              海外配信サービスの視聴を検討する方向け ·{" "}
+              <Link href="/guide/vpn" className="text-yuri-rose hover:opacity-80">
+                VPNとタイGLについて詳しく →
+              </Link>
+            </p>
+          </div>
         </section>
 
         {/* 制作・放送情報 — mobile: order-7 / PC: order-7 (一番下) */}

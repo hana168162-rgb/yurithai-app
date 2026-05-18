@@ -1,17 +1,21 @@
 // Card for "currently watching" pickup — minimal info (no tags yet)
+// statusOverride: end_date 過ぎた作品を "completed" として表示するときに使う
 
 import Link from "next/link";
-import type { WatchingDrama } from "@/lib/types";
+import type { WatchingDrama, DramaStatus } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 import { StatusBadge } from "./StatusBadge";
 
 export function WatchingCard({
   drama,
   cover,
+  statusOverride,
 }: {
   drama: WatchingDrama;
   cover?: string | null;
+  statusOverride?: DramaStatus;
 }) {
+  const displayStatus: DramaStatus = statusOverride ?? "airing";
   return (
     <Link
       href={`/dramas/${drama.slug}`}
@@ -26,7 +30,10 @@ export function WatchingCard({
         }
       >
         <div className="absolute bottom-2 left-2">
-          <StatusBadge status="airing" />
+          <StatusBadge
+            status={displayStatus}
+            episodes={drama.episodes ?? null}
+          />
         </div>
       </div>
       <div className="p-2.5">

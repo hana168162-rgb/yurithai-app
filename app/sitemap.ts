@@ -6,6 +6,7 @@ import {
   actresses,
   allTagSlugs,
 } from "@/lib/content";
+import { allBlogSlugs, getAllBlogPosts } from "@/lib/blog";
 
 const SITE_URL = "https://yurithai.jp";
 
@@ -49,6 +50,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/events`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/blog`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
     },
     {
       url: `${SITE_URL}/about`,
@@ -102,11 +115,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // ブログ記事
+  const blogPages: MetadataRoute.Sitemap = getAllBlogPosts().map((post) => ({
+    url: `${SITE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     ...staticPages,
     ...tagsIndex,
     ...dramaPages,
     ...actressPages,
     ...tagPages,
+    ...blogPages,
   ];
 }

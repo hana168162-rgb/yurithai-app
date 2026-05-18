@@ -8,6 +8,7 @@ import pairsData from "@/content/pairs.json";
 import companiesData from "@/content/companies.json";
 import taxonomyData from "@/content/taxonomy.json";
 import questionsData from "@/content/diagnostic/questions.json";
+import eventsData from "@/content/events.json";
 import type {
   Drama,
   WatchingDrama,
@@ -17,6 +18,7 @@ import type {
   Company,
   Taxonomy,
   QuestionsFile,
+  GLEvent,
 } from "./types";
 
 export const dramas = dramasData as unknown as Drama[];
@@ -26,6 +28,56 @@ export const actresses = actressesData as unknown as Actress[];
 export const companies = companiesData as unknown as Company[];
 export const taxonomy = taxonomyData as unknown as Taxonomy;
 export const questionsFile = questionsData as unknown as QuestionsFile;
+export const events = eventsData as unknown as GLEvent[];
+
+// =============================================
+//  Event helpers
+// =============================================
+
+export const EVENT_CATEGORY_LABELS: Record<string, string> = {
+  "fan-meeting": "ファンミ",
+  concert: "コンサート",
+  premiere: "プレミア",
+  press: "プレス",
+  release: "リリース",
+  fashion: "ファッション",
+  other: "その他",
+};
+
+/**
+ * 未来イベント（本日以降）/ 過去イベントを分けて返す
+ */
+export function getUpcomingEvents(): GLEvent[] {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return events
+    .filter((e) => new Date(e.date) >= today)
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+export function getPastEvents(): GLEvent[] {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return events
+    .filter((e) => new Date(e.date) < today)
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/**
+ * 全イベントから絞り込み用のオプションを抽出
+ */
+export function getEventFilterOptions() {
+  const pairs = new Set<string>();
+  const agencies = new Set<string>();
+  for (const e of events) {
+    if (e.pair) pairs.add(e.pair);
+    if (e.agency) agencies.add(e.agency);
+  }
+  return {
+    pairs: Array.from(pairs).sort(),
+    agencies: Array.from(agencies).sort(),
+  };
+}
 
 export function getActressById(id: string): Actress | undefined {
   return actresses.find((a) => a.id === id);
@@ -133,7 +185,38 @@ export function getFeaturedCompletedDramas(limit = 6): Drama[] {
 
 // Watching list serves as homepage "currently airing pickup"
 export function getCurrentPickup(): WatchingDrama[] {
-  return watching.slice(0, 4);
+  return getActiveWatching().slice(0, 4);
+}
+
+// =============================================
+//  end_date によるステータス判定
+// =============================================
+
+/**
+ * end_date が過去（または本日含む過去）かどうか
+ * end_date が無い場合は false（放送中扱い）
+ */
+export function hasEnded(d: WatchingDrama): boolean {
+  if (!d.end_date) return false;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const endDate = new Date(d.end_date);
+  if (Number.isNaN(endDate.getTime())) return false;
+  return endDate < today;
+}
+
+/**
+ * 放送中の watching 作品（end_date 未到来 or 不明）
+ */
+export function getActiveWatching(): WatchingDrama[] {
+  return watching.filter((d) => !hasEnded(d));
+}
+
+/**
+ * 既に最終話放送日が過ぎた watching 作品（自動完結扱い）
+ */
+export function getRecentlyEndedWatching(): WatchingDrama[] {
+  return watching.filter((d) => hasEnded(d));
 }
 
 // =============================================

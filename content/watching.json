@@ -17,7 +17,9 @@
         "url": "https://www.iq.com/"
       }
     ],
-    "title_th": "เสน่หาวาโย"
+    "title_th": "เสน่หาวาโย",
+    "end_date": null,
+    "episodes": null
   },
   {
     "id": 102,
@@ -37,7 +39,9 @@
         "url": "https://tv.rakuten.co.jp/"
       }
     ],
-    "title_th": "กฎหลัก ห้ามรักเธอ"
+    "title_th": "กฎหลัก ห้ามรักเธอ",
+    "end_date": "2026-06-01",
+    "episodes": null
   },
   {
     "id": 103,
@@ -57,7 +61,9 @@
         "url": "https://www.iq.com/"
       }
     ],
-    "title_th": "คุณแฟนบ้านนอก"
+    "title_th": "คุณแฟนบ้านนอก",
+    "end_date": "2026-05-23",
+    "episodes": null
   },
   {
     "id": 104,
@@ -77,7 +83,9 @@
         "url": "https://youtu.be/0EPN_IlU2gU"
       }
     ],
-    "title_th": "ลัลล์ไม่ชอบไวน์"
+    "title_th": "ลัลล์ไม่ชอบไวน์",
+    "end_date": null,
+    "episodes": null
   },
   {
     "id": 105,
@@ -98,7 +106,9 @@
         "note": "VPN必要"
       }
     ],
-    "title_th": "Fulfill The Series"
+    "title_th": "Fulfill The Series",
+    "end_date": "2026-06-12",
+    "episodes": 8
   },
   {
     "id": 106,
@@ -123,6 +133,8 @@
         "url": "https://www.iq.com/",
         "note": "UNCUT版"
       }
-    ]
+    ],
+    "end_date": "2026-06-17",
+    "episodes": 7
   }
 ]

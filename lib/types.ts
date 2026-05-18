@@ -65,6 +65,8 @@ export interface WatchingDrama {
   cover_credit: string | null;
   youtube_teaser: string | null;
   streaming?: StreamingLink[];      // 配信先
+  end_date?: string | null;         // 最終話放送日（"YYYY-MM-DD"）。これを過ぎたら自動的に完結扱いに
+  episodes?: number | null;          // 全話数（StatusBadge "N話完結" 表示用）
 }
 
 export type AnyDrama = Drama | WatchingDrama | UpcomingDrama;
@@ -136,4 +138,34 @@ export interface Actress {
   filmography: string[];        // 出演作品
   agency: string | null;        // 所属
   instagram: string | null;
+}
+
+// =============================================
+//  Events
+// =============================================
+export type EventCategory =
+  | "fan-meeting"  // ファンミーティング
+  | "concert"      // コンサート・ライブ
+  | "premiere"     // プレミア・上映会
+  | "press"        // 記者会見・プレス発表
+  | "release"      // リリースイベント
+  | "fashion"      // ファッションイベント
+  | "other";       // その他
+
+export interface GLEvent {
+  id: string;                  // ユニークID（slug風）
+  title: string;               // 例: "FreenBecky Fan Meeting in Tokyo"
+  title_th?: string | null;    // タイ語タイトル
+  date: string;                // 開始日 "YYYY-MM-DD"
+  end_date?: string | null;    // 複数日の場合の終了日
+  time?: string | null;        // 例: "18:00" / "13:00 / 18:00（2回公演）"
+  venue?: string | null;       // 会場名
+  city?: string | null;        // 都市
+  country?: string | null;     // "日本" / "タイ" 等
+  category: EventCategory;
+  pair?: string | null;        // pairs.json のキー（例: "FreenBecky"）
+  agency?: string | null;      // 主催/関連事務所
+  description?: string | null;
+  link?: string | null;        // 公式URL
+  cover_image?: string | null;
 }

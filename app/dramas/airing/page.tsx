@@ -1,4 +1,4 @@
-import { watching } from "@/lib/content";
+import { getActiveWatching } from "@/lib/content";
 import { WatchingCard } from "@/components/WatchingCard";
 import { DramaListNav } from "@/components/DramaListNav";
 
@@ -15,6 +15,7 @@ export const metadata = {
 };
 
 export default function AiringPage() {
+  const active = getActiveWatching();
   return (
     <div className="mx-auto max-w-6xl px-6 py-10">
       <header className="mb-6">
@@ -22,14 +23,14 @@ export default function AiringPage() {
           放送中の作品
         </h1>
         <p className="text-sm text-yuri-muted">
-          全{watching.length}作品 · 現在放送中・配信中
+          全{active.length}作品 · 現在放送中・配信中
         </p>
       </header>
 
       <DramaListNav current="airing" />
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-        {watching.map((d) => (
+        {active.map((d) => (
           <WatchingCard key={d.slug} drama={d} cover={d.cover_image} />
         ))}
       </div>

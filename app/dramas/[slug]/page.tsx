@@ -7,6 +7,7 @@ import {
   extractPairName,
   getActressesForPair,
   getRelatedDramas,
+  hasEnded,
 } from "@/lib/content";
 import { gradientForSlug } from "@/lib/style";
 import { AgeBadge } from "@/components/AgeBadge";
@@ -137,6 +138,18 @@ export default function DramaDetailPage({
 
   const relatedGroups = getRelatedDramas(drama, 4);
 
+  // end_date 過ぎた watching は表示上「完結」扱い
+  const displayStatus =
+    drama.status === "airing" &&
+    "end_date" in drama &&
+    hasEnded(drama as import("@/lib/types").WatchingDrama)
+      ? "completed"
+      : drama.status;
+  const displayEpisodes =
+    "episodes" in drama && typeof drama.episodes === "number"
+      ? drama.episodes
+      : episodes;
+
   // 構造化データ
   const tvSeriesData = buildTVSeriesJsonLd({ drama, actresses: actressList });
   const breadcrumbData = buildBreadcrumbJsonLd([
@@ -187,7 +200,10 @@ export default function DramaDetailPage({
                   {upcoming?.announced_for ?? "公開予定"}
                 </span>
               ) : (
-                <StatusBadge status={drama.status} episodes={episodes} />
+                <StatusBadge
+                  status={displayStatus}
+                  episodes={displayEpisodes}
+                />
               )}
             </div>
           </div>

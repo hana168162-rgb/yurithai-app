@@ -25,6 +25,18 @@ export function Header() {
             タグ
           </Link>
           <Link
+            href="/events"
+            className="text-yuri-ink hover:text-yuri-rose"
+          >
+            イベント
+          </Link>
+          <Link
+            href="/blog"
+            className="hidden md:inline text-yuri-ink hover:text-yuri-rose"
+          >
+            ブログ
+          </Link>
+          <Link
             href="/search"
             aria-label="検索"
             className="text-yuri-ink hover:text-yuri-rose"

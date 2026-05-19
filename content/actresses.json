@@ -1245,5 +1245,37 @@
     "agency": "GMM Music / COSMOS",
     "instagram": null,
     "notes": "タイ・ガールズグループ COSMOS メンバー。Love SeniorでGLデビュー。"
+  },
+  {
+    "id": "mook",
+    "name_ja": "ムック",
+    "real_name": "Napapach \"Mook\" Thitakawin",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "I Am Devil",
+      "I Am Devil Season 2"
+    ],
+    "agency": "フリー",
+    "instagram": "mookyyy_napapach",
+    "notes": "I Am Devil で悪役女優ムックマニー役を演じ、MookPinkyペアでブレイク。"
+  },
+  {
+    "id": "pinky",
+    "name_ja": "ピンキー",
+    "real_name": "Subhisara \"Pinky\" Suksathan",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "I Am Devil",
+      "I Am Devil Season 2"
+    ],
+    "agency": "フリー",
+    "instagram": "prangdao",
+    "notes": "I Am Devil でプランダオ役。MookPinky ペア。"
   }
 ]

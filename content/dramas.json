@@ -2609,5 +2609,79 @@
       }
     ],
     "title_th": "Unlock Your Love รักได้ไหม? ยัยตัวร้าย"
+  },
+  {
+    "id": 39,
+    "slug": "i-am-devil",
+    "title_ja": "I Am Devil",
+    "title_en": "I Am Devil",
+    "year": 2024,
+    "production": "インディーズ系（YouTube/TikTok配信）",
+    "episodes": 7,
+    "status": "completed",
+    "age_rating": "R-15相当",
+    "cast_pair": "Mook Napapach Thitakawin × Pinky Subhisara Suksathan（MookPinky）",
+    "tags": {
+      "genre": [
+        "ロマンス",
+        "業界もの",
+        "芸能"
+      ],
+      "relationship": [
+        "禁断の恋",
+        "義姉妹"
+      ],
+      "tone": [
+        "セクシー",
+        "ダーク",
+        "ドラマチック"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "情熱的"
+      ],
+      "production_quality": [
+        "演技力"
+      ],
+      "warnings": [
+        "大人向け描写あり",
+        "成人向けクラブシーン"
+      ]
+    },
+    "synopsis": "悪役を演じることで有名な女優ムックマニーは、恋愛に対して冷めきっていた。彼女が常連となっていたサファイアン・クラブ「Hera Club」で、義理の姉プランダオと出会ったことから関係が複雑化していく。",
+    "review": {
+      "highlights": [
+        "MookPinky 主演",
+        "タイGLのブレイクスルー作",
+        "Season 2 (2025) あり"
+      ],
+      "recommend_for": [
+        "ダーク系GL好き",
+        "セクシーなロマンス好き",
+        "業界もの好き"
+      ],
+      "caution_for": [
+        "大人向け描写が苦手な人",
+        "ライトな日常系希望者"
+      ],
+      "body_ja": "タイGLジャンルにおけるブレイクスルー作品の一つ。\n\n悪役女優ムックマニーと義理の姉プランダオの禁断のロマンスを、サファイアン・クラブを背景に描く挑発的な作品。MookPinky（Mook × Pinky）のケミストリーが評価され、Season 2（2025年）も制作された。\n\n配信は3バージョン: YouTube版（全7話）、TikTok版（全80話）、Director's Cut版（全4話）。Director's Cutは再編集・カラーグレーディング・音響を一新したTV仕様。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "2024年12月18日公開 / 全7話（YouTube版）/ TikTok版80話・Director's Cut版4話の3バージョンあり / Season 2 (2025) 制作済 / MookPinky主演",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/Zq5DEoM6g00",
+    "streaming": [
+      {
+        "platform": "YouTube (EP1)",
+        "url": "https://youtu.be/-dMEdB_9c8g"
+      }
+    ],
+    "title_th": "เตือนแล้วนะ ว่าฉันร้าย"
   }
 ]

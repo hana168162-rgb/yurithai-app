@@ -4,7 +4,7 @@ description: "GMMTV × Nar-ra-tor 「Us」でデビューしたEmiBonnie。年�
 date: "2026-05-18"
 category: "pair-feature"
 tags: ["EmiBonnie", "Emi", "Bonnie", "GMMTV", "Us", "Moonshadow", "日常系GL"]
-cover_image: null
+cover_image: "/images/dramas/us.jpg"
 ---
 
 タイGLにおいて「**演技が上手いペア**」「**ケミが強いペア**」は数あれど、

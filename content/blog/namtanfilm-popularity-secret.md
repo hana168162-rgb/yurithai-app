@@ -4,7 +4,7 @@ description: "Pluto（2024）でブレイクし、Cannes・Paris Fashion Weekへ
 date: "2026-05-18"
 category: "pair-feature"
 tags: ["NamtanFilm", "Namtan", "Film", "GMMTV", "Pluto", "LUNARs", "Cannes"]
-cover_image: null
+cover_image: "/images/dramas/girl-rules.jpg"
 ---
 
 タイGLのペアは数あれど、**「観るたびに二人の関係性に泣ける」** という声が

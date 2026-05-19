@@ -4,7 +4,7 @@ description: "CHANGE2561が打ち出した「1ペアを長期プロジェクト�
 date: "2026-05-19"
 category: "studio-feature"
 tags: ["CHANGE2561", "LMSY", "Lookmhee", "Sonya", "LillyBelle", "Affair", "Harmony Secret", "Hometown Romance", "I Wanna Be Sup'tar"]
-cover_image: null
+cover_image: "/images/dramas/harmony-secret.jpg"
 ---
 
 タイGL業界において、いまもっとも独自路線を貫いているスタジオが **CHANGE2561**。

@@ -4,7 +4,7 @@ description: "LingLing Sirilak Kwong × Orm Kornnaphat Sethratanapong。Channel 
 date: "2026-05-19"
 category: "pair-feature"
 tags: ["LingOrm", "LingLing", "Orm", "LingLing Kwong", "Orm Kornnaphat", "Channel 3", "BEC World", "The Secret of Us", "Only You"]
-cover_image: null
+cover_image: "/images/dramas/only-you.jpg"
 ---
 
 タイGL第2世代を語るとき、絶対に外せないペアがいます。

@@ -4,7 +4,7 @@ description: "S.NUR Entertainment を起業し、主演女優兼CEOとしてDang
 date: "2026-05-18"
 category: "pair-feature"
 tags: ["TKNur", "Tangkwa", "Nur", "S.NUR Entertainment", "Dangerous Queen", "インディーズGL"]
-cover_image: null
+cover_image: "/images/dramas/dangerous-queen.jpg"
 ---
 
 タイGLの世界には、大手スタジオの看板を背負って登場するペアもあれば、

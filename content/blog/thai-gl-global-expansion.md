@@ -4,7 +4,7 @@ description: "タイGL女優たちがCannes Film Festival、Paris Fashion Week�
 date: "2026-05-19"
 category: "industry-feature"
 tags: ["タイGL", "グローバル", "Cannes", "Paris Fashion Week", "Vogue", "FreenBecky", "NamtanFilm", "LMSY", "Riyadh", "Red Sea Film Festival"]
-cover_image: null
+cover_image: "/images/dramas/the-air.jpg"
 ---
 
 ほんの3〜4年前まで、「タイGL」という言葉は**タイ国内のニッチジャンル**でした。

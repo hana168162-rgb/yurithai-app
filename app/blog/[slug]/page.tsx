@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import {
   getBlogPostBySlug,
@@ -126,6 +127,20 @@ export default function BlogPostPage({
             </div>
           )}
         </header>
+
+        {/* カバー画像（cover_image が指定されていれば表示） */}
+        {post.cover_image && (
+          <div className="relative w-full aspect-[16/9] mb-8 rounded-lg overflow-hidden border border-yuri-edge">
+            <Image
+              src={post.cover_image}
+              alt={post.title}
+              fill
+              sizes="(max-width: 768px) 100vw, 672px"
+              className="object-cover"
+              priority
+            />
+          </div>
+        )}
 
         <div
           className="prose-yuri text-sm leading-relaxed text-yuri-ink/90"

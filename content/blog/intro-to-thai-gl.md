@@ -4,7 +4,7 @@ description: "タイGL（Girls Love）ドラマを初めて観る方に向けて
 date: "2026-05-18"
 category: "guide"
 tags: ["タイGL", "入門", "おすすめ"]
-cover_image: null
+cover_image: "/images/dramas/gap.jpg"
 ---
 
 「タイGL」という言葉を最近よく耳にするけど、何から観ればいいか分からない——

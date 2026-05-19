@@ -4,7 +4,7 @@ description: "タイGLファンのためのバンコク聖地巡礼の完全ガ�
 date: "2026-05-19"
 category: "guide"
 tags: ["タイGL", "聖地巡礼", "バンコク", "推し活", "ファンミ", "GMMTV", "Centerpoint Studio", "Siam Pic-Ganesha", "推し活カフェ"]
-cover_image: null
+cover_image: "/images/dramas/gap.jpg"
 ---
 
 タイGLの推しに会いたい——

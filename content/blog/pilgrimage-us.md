@@ -4,7 +4,7 @@ description: "EmiBonnie主演GMMTV作品「Us」のロケ地と関連スポッ�
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["Us", "EmiBonnie", "Emi", "Bonnie", "聖地巡礼", "GMMTV", "カフェ", "日常系GL"]
-cover_image: null
+cover_image: "/images/dramas/us.jpg"
 ---
 
 タイGL の **「日常系」サブジャンル** を確立した記念碑的作品、

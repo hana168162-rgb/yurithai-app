@@ -4,7 +4,7 @@ description: "タイ最大の制作会社GMMTVが、BLで世界市場を制し�
 date: "2026-05-18"
 category: "studio-feature"
 tags: ["GMMTV", "23.5", "Pluto", "Us", "Girl Rules", "Whale Store xoxo", "Enemies with Benefits", "Bake Love Feeling", "Ditto", "Her", "Moonshadow", "MilkLove", "NamtanFilm", "LingOrm", "EmiBonnie", "ViewMim"]
-cover_image: null
+cover_image: "/images/dramas/girl-rules.jpg"
 ---
 
 タイGLを語る上で、いま絶対に外せない名前が **GMMTV**。

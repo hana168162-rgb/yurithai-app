@@ -4,7 +4,7 @@ description: "2026年5月時点のタイGLおすすめ作品をランキング�
 date: "2026-05-18"
 category: "guide"
 tags: ["タイGL おすすめ", "タイGL ランキング", "タイGL 一覧", "2026"]
-cover_image: null
+cover_image: "/images/dramas/gap.jpg"
 ---
 
 タイGLは2022年「GAP」以降に急成長し、2026年現在では年間20〜30本ペースで新作が公開される一大ジャンルへと成長しました。

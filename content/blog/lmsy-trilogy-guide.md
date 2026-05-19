@@ -4,7 +4,7 @@ description: "Lookmhee Punyapat と Sonya Saranphat による LMSY。CHANGE2561 
 date: "2026-05-18"
 category: "pair-feature"
 tags: ["LMSY", "Lookmhee", "Sonya", "CHANGE2561", "Affair", "Harmony Secret", "Hometown Romance", "Besties"]
-cover_image: null
+cover_image: "/images/dramas/affair.jpg"
 ---
 
 タイGLには「**3年連続で主演する**」ことを許されたペアがほとんどいません。

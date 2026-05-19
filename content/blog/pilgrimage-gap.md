@@ -4,7 +4,7 @@ description: "FreenBecky主演「GAP: The Series」のロケ地と関連スポ�
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["GAP", "FreenBecky", "聖地巡礼", "バンコク", "IDOLFACTORY", "Freen", "Becky"]
-cover_image: null
+cover_image: "/images/dramas/gap.jpg"
 ---
 
 タイGLというジャンルそのものを誕生させた作品、**[GAP: The Series](/dramas/gap)**。

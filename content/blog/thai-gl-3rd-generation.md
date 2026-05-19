@@ -4,7 +4,7 @@ description: "FreenBecky・LingOrmの第1〜第2世代から、ViewMim・JanJing
 date: "2026-05-19"
 category: "industry-feature"
 tags: ["タイGL", "第3世代", "ViewMim", "JanJingJing", "PahnFond", "JuneMewnich", "AppleMimu", "OomBam", "TanYada", "LillyBelle", "MewRenee"]
-cover_image: null
+cover_image: "/images/dramas/us.jpg"
 ---
 
 タイGL が「ジャンルが定着した」段階に入った今、業界は**世代交代の時期**を迎えています。

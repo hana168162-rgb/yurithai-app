@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { getAllBlogPosts } from "@/lib/blog";
 
@@ -53,37 +54,54 @@ export default function BlogIndexPage() {
           {posts.map((post) => (
             <article
               key={post.slug}
-              className="bg-yuri-surface border border-yuri-edge rounded-lg p-5 hover:border-yuri-rose/40 transition-colors"
+              className="bg-yuri-surface border border-yuri-edge rounded-lg overflow-hidden hover:border-yuri-rose/40 transition-colors"
             >
-              <Link href={`/blog/${post.slug}`}>
-                <div className="flex items-baseline justify-between mb-1.5">
-                  <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-yuri-navy text-yuri-cream">
-                    {CATEGORY_LABELS[post.category] ?? post.category}
-                  </span>
-                  <span className="text-[11px] text-yuri-muted">
-                    {formatDate(post.date)}
-                  </span>
-                </div>
-                <h2 className="text-base md:text-lg font-medium text-yuri-navy mb-2 hover:text-yuri-rose">
-                  {post.title}
-                </h2>
-                {post.description && (
-                  <p className="text-sm text-yuri-ink/80 mb-3 leading-relaxed">
-                    {post.description}
-                  </p>
-                )}
-                {post.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5">
-                    {post.tags.map((t) => (
-                      <span
-                        key={t}
-                        className="text-[10px] text-yuri-muted bg-yuri-cream px-1.5 py-0.5 rounded"
-                      >
-                        #{t}
-                      </span>
-                    ))}
+              <Link href={`/blog/${post.slug}`} className="flex flex-col sm:flex-row">
+                {/* サムネ */}
+                {post.cover_image && (
+                  <div className="relative w-full sm:w-40 aspect-[16/9] sm:aspect-square shrink-0 bg-yuri-cream">
+                    <Image
+                      src={post.cover_image}
+                      alt={post.title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 160px"
+                      className="object-cover"
+                      loading="lazy"
+                    />
                   </div>
                 )}
+
+                {/* 記事メタ + 本文プレビュー */}
+                <div className="p-5 flex-1 min-w-0">
+                  <div className="flex items-baseline justify-between mb-1.5">
+                    <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-yuri-navy text-yuri-cream">
+                      {CATEGORY_LABELS[post.category] ?? post.category}
+                    </span>
+                    <span className="text-[11px] text-yuri-muted">
+                      {formatDate(post.date)}
+                    </span>
+                  </div>
+                  <h2 className="text-base md:text-lg font-medium text-yuri-navy mb-2 hover:text-yuri-rose">
+                    {post.title}
+                  </h2>
+                  {post.description && (
+                    <p className="text-sm text-yuri-ink/80 mb-3 leading-relaxed line-clamp-3">
+                      {post.description}
+                    </p>
+                  )}
+                  {post.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5">
+                      {post.tags.slice(0, 4).map((t) => (
+                        <span
+                          key={t}
+                          className="text-[10px] text-yuri-muted bg-yuri-cream px-1.5 py-0.5 rounded"
+                        >
+                          #{t}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
               </Link>
             </article>
           ))}

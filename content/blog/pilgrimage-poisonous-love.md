@@ -4,7 +4,7 @@ description: "GinJay主演North Star Entertainment作品「Poisonous Love」の�
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["Poisonous Love", "GinJay", "Ginny", "Jayna", "聖地巡礼", "North Star Entertainment", "バンコク", "メロドラマGL"]
-cover_image: null
+cover_image: "/images/dramas/poisonous-love.jpg"
 ---
 
 タイGL に「**重めの大人のメロドラマ**」 という新領域を開いた作品、

@@ -4,7 +4,7 @@ description: "LMSY主演CHANGE2561作品「Affair」のロケ地と関連スポ�
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["Affair", "LMSY", "Lookmhee", "Sonya", "CHANGE2561", "聖地巡礼", "バンコク"]
-cover_image: null
+cover_image: "/images/dramas/affair.jpg"
 ---
 
 CHANGE2561 が世に送り出した **[Affair（รักเล่นกล）](/dramas/affair)** は、

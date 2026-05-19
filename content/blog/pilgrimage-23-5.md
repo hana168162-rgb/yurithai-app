@@ -4,7 +4,7 @@ description: "MilkLove主演GMMTV作品「23.5」のロケ地と関連スポッ�
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["23.5", "MilkLove", "聖地巡礼", "GMMTV", "Milk", "Love", "校園GL"]
-cover_image: null
+cover_image: "/images/dramas/23-5.jpg"
 ---
 
 GMMTV が初めて手がけた本格GL **[23.5](/dramas/23-5)**。

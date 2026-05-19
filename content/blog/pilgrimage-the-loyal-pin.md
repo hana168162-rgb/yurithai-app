@@ -4,7 +4,7 @@ description: "FreenBecky主演の時代劇GL「The Loyal Pin」のロケ地と�
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["The Loyal Pin", "FreenBecky", "聖地巡礼", "時代劇", "Wat Phra Kaew", "Grand Palace", "バンコク"]
-cover_image: null
+cover_image: "/images/dramas/the-loyal-pin.jpg"
 ---
 
 タイGL史上初の本格時代劇 **[The Loyal Pin（ปิ่นภักดิ์）](/dramas/the-loyal-pin)**。

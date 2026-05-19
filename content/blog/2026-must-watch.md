@@ -4,7 +4,7 @@ description: "2026年に放送中・公開予定のタイGL作品から、特に
 date: "2026-05-18"
 category: "annual-feature"
 tags: ["2026", "注目作", "新作", "タイGL"]
-cover_image: null
+cover_image: "/images/dramas/the-air.jpg"
 ---
 
 2025年から2026年にかけて、タイGLは黄金期に突入しました。

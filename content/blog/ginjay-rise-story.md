@@ -4,7 +4,7 @@ description: "Ginny Natnicha × Jayna Stevens（GinJay）。North Star Entertain
 date: "2026-05-18"
 category: "pair-feature"
 tags: ["GinJay", "Ginny", "Jayna", "Ginny Natnicha", "Jayna Stevens", "Poisonous Love", "Lunar Secret", "North Star Entertainment"]
-cover_image: null
+cover_image: "/images/dramas/poisonous-love.jpg"
 ---
 
 タイGLが本格的にジャンルとして拡大していく中、

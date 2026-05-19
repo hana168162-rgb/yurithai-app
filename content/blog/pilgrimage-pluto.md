@@ -4,7 +4,7 @@ description: "NamtanFilm主演GMMTV作品「Pluto」のロケ地と関連スポ�
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["Pluto", "NamtanFilm", "聖地巡礼", "GMMTV", "Namtan", "Film", "校園", "ファンタジー"]
-cover_image: null
+cover_image: "/images/dramas/pluto.jpg"
 ---
 
 タイGLが**「演技で勝負できる」**ことを世界に示した名作、

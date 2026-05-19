@@ -4,7 +4,7 @@ description: "GAPでタイGLジャンルを切り拓き、FreenBeckyを世界に
 date: "2026-05-19"
 category: "studio-feature"
 tags: ["IDOLFACTORY", "FreenBecky", "GAP", "The Loyal Pin", "The Air", "Uranus 2324", "Cranium", "Freen Chankimha", "Becky Armstrong", "Tik"]
-cover_image: null
+cover_image: "/images/dramas/the-air.jpg"
 ---
 
 タイGLの歴史を語る上で、絶対に外せない名前があります。

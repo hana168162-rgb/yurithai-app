@@ -4,7 +4,7 @@ description: "Freen Sarocha と Becky Armstrong、GAP前夜からCranium まで�
 date: "2026-05-18"
 category: "pair-feature"
 tags: ["FreenBecky", "Freen Chankimha", "Becky Armstrong", "IDOLFACTORY", "GAP", "Cranium"]
-cover_image: null
+cover_image: "/images/dramas/gap.jpg"
 ---
 
 「**タイGL**」というジャンルを、世界の人々が知る名前にした——

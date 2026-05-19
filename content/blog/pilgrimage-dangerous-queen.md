@@ -4,7 +4,7 @@ description: "TKNur主演S.NUR Entertainment作品「Dangerous Queen」のロケ
 date: "2026-05-19"
 category: "pilgrimage"
 tags: ["Dangerous Queen", "TKNur", "Tangkwa", "Nur", "聖地巡礼", "S.NUR Entertainment", "バンコク", "ダーク系GL"]
-cover_image: null
+cover_image: "/images/dramas/dangerous-queen.jpg"
 ---
 
 タイGL の **「インディーズGL」** という新領域を切り拓いた、

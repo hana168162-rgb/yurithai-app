@@ -9,6 +9,7 @@ import {
   getActressesForPair,
   getRelatedDramas,
   hasEnded,
+  pilgrimageBlogSlugForDrama,
 } from "@/lib/content";
 import { gradientForSlug } from "@/lib/style";
 import { AgeBadge } from "@/components/AgeBadge";
@@ -473,6 +474,46 @@ export default function DramaDetailPage({
             <RelatedDramas groups={relatedGroups} />
           </section>
         )}
+
+        {/* 聖地巡礼ガイドへの導線 — mobile: order-9 / PC: order-9 */}
+        <section className="order-9 mb-8">
+          <h2 className="text-base font-medium text-yuri-navy mb-3">
+            聖地巡礼ガイド
+          </h2>
+          {(() => {
+            const pilSlug = pilgrimageBlogSlugForDrama(drama.slug);
+            return (
+              <div className="bg-yuri-pink/10 border border-yuri-pink/30 rounded-lg p-4">
+                {pilSlug ? (
+                  <>
+                    <p className="text-sm text-yuri-ink/85 mb-2 leading-relaxed">
+                      <strong className="font-medium">{drama.title_ja}</strong>{" "}
+                      のロケ地・関連スポットや、バンコクで楽しむ推し活情報をまとめました。
+                    </p>
+                    <Link
+                      href={`/blog/${pilSlug}`}
+                      className="inline-flex items-center gap-1 text-sm font-medium text-yuri-rose hover:opacity-80"
+                    >
+                      {drama.title_ja} の聖地巡礼ガイドを読む →
+                    </Link>
+                  </>
+                ) : (
+                  <>
+                    <p className="text-sm text-yuri-ink/85 mb-2 leading-relaxed">
+                      バンコクで楽しむタイGL推し活のガイドはこちら。
+                    </p>
+                    <Link
+                      href="/blog/thai-gl-pilgrimage-guide"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-yuri-rose hover:opacity-80"
+                    >
+                      タイGL聖地巡礼ガイド（全作品共通） →
+                    </Link>
+                  </>
+                )}
+              </div>
+            );
+          })()}
+        </section>
       </div>
     </div>
   );

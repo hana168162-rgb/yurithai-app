@@ -154,7 +154,7 @@ export default function TravelGuidePage() {
         ファンミ以外でも楽しめる、タイGLゆかりのスポット:
       </p>
 
-      <h3 className="text-base font-medium text-yuri-navy mt-6 mb-2">サイアム・パラゴン / Siam Center</h3>
+      <h3 className="text-base font-medium text-yuri-navy mt-6 mb-2">サイアム・パラゴン / Siam Paragon</h3>
       <p className="text-[15px] leading-[1.9] text-yuri-ink/85 mb-4">
         バンコク最大級の百貨店。タイ俳優・アイドルのキャンペーン会場としてよく使われる。
         グッズショップやファッションブランドのコラボ商品が並ぶこともあります。

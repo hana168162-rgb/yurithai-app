@@ -445,3 +445,22 @@ export function allTagSlugs(): string[] {
   }
   return Array.from(set);
 }
+
+/**
+ * 作品ごとの聖地巡礼ブログ記事スラッグ。
+ * 作品詳細ページからこのマップを参照し、該当記事がなければ一般ガイドへフォールバック。
+ */
+const PILGRIMAGE_BLOG_SLUGS: Record<string, string> = {
+  gap: "pilgrimage-gap",
+  "the-loyal-pin": "pilgrimage-the-loyal-pin",
+  pluto: "pilgrimage-pluto",
+  "23-5": "pilgrimage-23-5",
+  affair: "pilgrimage-affair",
+  us: "pilgrimage-us",
+  "dangerous-queen": "pilgrimage-dangerous-queen",
+  "poisonous-love": "pilgrimage-poisonous-love",
+};
+
+export function pilgrimageBlogSlugForDrama(slug: string): string | null {
+  return PILGRIMAGE_BLOG_SLUGS[slug] ?? null;
+}

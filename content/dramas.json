@@ -1831,7 +1831,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/sua4POkli0M",
     "streaming": [],
     "title_th": "Show Me Love"
   },
@@ -1892,7 +1892,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/v8iVDopd7B0",
     "streaming": [
       {
         "platform": "TELASA",
@@ -1958,7 +1958,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/ZUotNR6SSsM",
     "streaming": [],
     "title_th": "Somewhere Somehow"
   },
@@ -2023,7 +2023,7 @@
     "title_ja": "PLAYER",
     "title_en": "PLAYER",
     "year": 2025,
-    "production": "Tonboriday Production",
+    "production": "Heart Pop Studio",
     "episodes": 8,
     "status": "completed",
     "age_rating": null,
@@ -2070,7 +2070,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/YOxVl4F5bf4",
     "streaming": [],
     "title_th": "Player ไม่อาจห้ามรัก"
   },
@@ -2198,7 +2198,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/ThWo_Kf41DQ",
     "streaming": [
       {
         "platform": "Netflix",
@@ -2269,7 +2269,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/8_2YiYGvkR8",
     "streaming": [
       {
         "platform": "iQIYI",
@@ -2338,7 +2338,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/_s14syADEbA",
     "streaming": [
       {
         "platform": "WeTV",
@@ -2406,7 +2406,7 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/j-sUaX2b6lw",
     "streaming": [
       {
         "platform": "iQIYI",
@@ -2477,8 +2477,137 @@
     "cover_image": null,
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/Bu1KwZJ2Ux0",
     "streaming": [],
     "title_th": "ซ่อนเงารัก"
+  },
+  {
+    "id": 37,
+    "slug": "love-senior",
+    "title_ja": "Love Senior",
+    "title_en": "Love Senior",
+    "year": 2023,
+    "production": "GMM 25 × WeTV",
+    "episodes": 10,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Anda Anunta Teavirat × Lookkaew Kamollak Sangsubsin（AndaLookkaew）",
+    "tags": {
+      "genre": [
+        "校園",
+        "ロマンチックコメディ"
+      ],
+      "relationship": [
+        "先輩後輩",
+        "恋する後輩"
+      ],
+      "tone": [
+        "ほっこり",
+        "コメディ",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "ライトなスキンシップ"
+      ],
+      "production_quality": [
+        "ケミがすごい"
+      ],
+      "warnings": []
+    },
+    "synopsis": "新入生マナオは、悪名高い先輩ギョーザの一言にうっかり恋に落ちてしまう。フレッシーコンテストに学科代表として出場することになったマナオが、「悪い先輩」とのつもりだったギョーザに翻弄されるうちに、ギョーザの本当の姿を知っていく校園GL。",
+    "review": {
+      "highlights": [
+        "AndaLookkaew 主演",
+        "NoonPraewa サブカップル",
+        "校園GL代表作"
+      ],
+      "recommend_for": [
+        "校園 × 先輩後輩好き",
+        "コメディGL好き",
+        "サブカップルも楽しみたい人"
+      ],
+      "caution_for": [],
+      "body_ja": "GMM 25 × WeTV制作。タイ・ガールズグループ COSMOSのAndaとLookkaewが主演を務めた校園GL。\n\nメインカップルはAndaLookkaew（Anda Anunta × Lookkaew Kamollak）、サブカップルにNoonPraewa（Noon Thunyaphat × Praewa Putticha）を配した二重構造。後者は後にHidden Heartの主演ペアに発展する。\n\n2023年11月8日〜2024年1月10日にGMM 25とWeTVで全10話放送。続編としてSpecial Episodes（2024）もWeTVで配信。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "GMM 25 × WeTV / 2023年11月8日〜2024年1月10日 / 全10話 / Special Episodes（2024）あり / メイン: AndaLookkaew、サブ: NoonPraewa",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/pRwnrbPJFRU",
+    "streaming": [
+      {
+        "platform": "WeTV",
+        "url": "https://wetv.vip/en/play/ksjsvesg7brzbn5"
+      }
+    ],
+    "title_th": "พี่ว้ากคะ รักหนูได้ไหม"
+  },
+  {
+    "id": 38,
+    "slug": "unlock-your-love",
+    "title_ja": "Unlock Your Love",
+    "title_en": "Unlock Your Love",
+    "year": 2024,
+    "production": "GagaOOLala配信",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "B Mine Jiratchaya Komontut × Near Inthira Thammajaroen（BMineNear）",
+    "tags": {
+      "genre": [
+        "ロマンス"
+      ],
+      "relationship": [
+        "再起の恋"
+      ],
+      "tone": [
+        "切ない",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "ケミがすごい"
+      ],
+      "warnings": []
+    },
+    "synopsis": "過去の恋愛で傷ついて心を閉ざしたレインの前に、ラブが現れる。サブカップルはディーン（Chacha）とパット（Cake）。傷ついた二人が再び心を開いていく、再起のロマンス。",
+    "review": {
+      "highlights": [
+        "BMineNear 再共演（Lucky My Love以来）",
+        "サブカップルにChachaCake"
+      ],
+      "recommend_for": [
+        "切ないロマンス好き",
+        "再起の恋好き"
+      ],
+      "caution_for": [],
+      "body_ja": "GagaOOLalaで配信。BMineNear（B Mine × Near）の再共演作で、Lucky My Loveに続くロマンス。\n\nサブカップルにはChacha Rita × Cake Nawapornを迎え、ダブルカップル構成。傷ついた心を癒していくスロウバーンロマンス。2024年公開。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "M 中",
+    "note": "GagaOOLala配信 / BMineNear主演（Lucky My Love再共演）/ サブカップル: ChachaCake / 2024年",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/f7jwJWvgE5M",
+    "streaming": [
+      {
+        "platform": "GagaOOLala",
+        "url": "https://www.gagaoolala.com/en/videos/4735/unlock-your-love-2024"
+      }
+    ],
+    "title_th": "Unlock Your Love รักได้ไหม? ยัยตัวร้าย"
   }
 ]

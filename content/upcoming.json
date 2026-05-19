@@ -212,7 +212,7 @@
     "note": "CHANGE2561制作 / 原作Peony / 2026年5月29日〜放送 / 全8話 / 新ペアNileNamwanデビュー作 / 3組のカップルの群像劇",
     "cover_image": null,
     "cover_credit": null,
-    "youtube_teaser": null
+    "youtube_teaser": "https://youtu.be/YVECcuW7swA"
   },
   {
     "id": 215,
@@ -228,7 +228,22 @@
     "note": "原作: Flower of Memory『รักพรางใจ（Hidden Heart）』/ Praewa × Noon主演 / 詳細未発表",
     "cover_image": null,
     "cover_credit": null,
-    "youtube_teaser": null,
-    "pending": true
+    "youtube_teaser": "https://youtu.be/DBfacLBfsrA"
+  },
+  {
+    "id": 216,
+    "slug": "khom-khlang",
+    "title_ja": "khom khlang",
+    "title_en": "Khom Khlang (Formidable Eyes)",
+    "title_th": "ข่มขลัง",
+    "production": "Star Hunter Entertainment",
+    "cast_pair": "Bint × Pui × Noon（BintPuiNoon）",
+    "status": "upcoming",
+    "announced_for": "2026年内予定",
+    "synopsis": "理性的な警察官ピーム（Pui）と、古代の儀式と信仰を司る霊媒師ブラン（Bint）が、ある事件の捜査のため対立しながら協力していく。聖なる文字、神秘的なシンボル、オカルトの世界を背景に、二人の間に否応なく芽生える絆を描く。",
+    "note": "Star Hunter Entertainment制作 / 原作: Luxurious.W『ข่มขลัง（Formidable Eyes）』/ STH PROJECT LINE UP 2026 発表作 / BintPuiNoonの3人主演",
+    "cover_image": null,
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/II86VoZ6v3A"
   }
 ]

@@ -1165,6 +1165,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Love Senior",
       "Hidden Heart"
     ],
     "agency": "フリー",
@@ -1179,6 +1180,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Love Senior",
       "Hidden Heart"
     ],
     "agency": "フリー",
@@ -1213,5 +1215,35 @@
     "agency": "iQIYI / フリー",
     "instagram": null,
     "notes": "ラグジュアリーカー幹部ラファー役。"
+  },
+  {
+    "id": "anda",
+    "name_ja": "アンダ",
+    "real_name": "Anunta \"Anda\" Teavirat",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Senior"
+    ],
+    "agency": "GMM Music / COSMOS",
+    "instagram": null,
+    "notes": "タイ・ガールズグループ COSMOS メンバー。Love SeniorでGLデビュー。"
+  },
+  {
+    "id": "lookkaew",
+    "name_ja": "ルックケオ",
+    "real_name": "Kamollak \"Lookkaew\" Sangsubsin",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Senior"
+    ],
+    "agency": "GMM Music / COSMOS",
+    "instagram": null,
+    "notes": "タイ・ガールズグループ COSMOS メンバー。Love SeniorでGLデビュー。"
   }
 ]

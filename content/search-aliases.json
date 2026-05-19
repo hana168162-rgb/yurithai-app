@@ -1,117 +1,586 @@
 {
   "_note": "検索エイリアス辞書。各キーに対する別名（ファン略称・カタカナ・ひらがな表記など）を配列で。検索時に元のテキストと同等にヒットさせる。",
-
   "pairs": {
-    "FreenBecky": ["フリベキ", "フリベ", "フリベッキー", "ふりべき", "フリーンベッキー", "freenbecky", "Freenbecky"],
-    "LMSY": ["リムシー", "りむしー", "エルエムエスワイ", "lmsy"],
-    "NamtanFilm": ["ナムフィル", "ナムタンフィルム", "ナムターンフィルム", "ナムタフィル", "namtanfilm", "namfilm"],
-    "LingOrm": ["リンオム", "リンオーム", "リンリンオーム", "りんおーむ", "lingorm", "lingo"],
-    "MilkLove": ["ミルラブ", "ミラブ", "ミルラ", "みるらぶ", "milklove", "milklov"],
-    "EmiBonnie": ["エミボニー", "エミボニ", "えみぼに", "emibonnie"],
-    "GinJay": ["ジンジェイ", "ジンジェ", "じんじぇい", "ginjay"],
-    "TKNur": ["ティーケーヌア", "ティーケー", "テクヌア", "てくぬあ", "tknur"],
-    "ViewMim": ["ビューミム", "びゅーみむ", "viewmim"],
-    "LillyBelle": ["リリベル", "りりべる", "lillybelle"],
-    "KaoJane": ["カオジェーン", "カオジェイン", "かおじぇーん", "kaojane"],
-    "GraceOaey": ["グレースオーイー", "グレオエ", "graceoaey"],
-    "AppleMimu": ["アップルミム", "applemimu", "applemim"],
-    "FayeYoko": ["フェイヨーコ", "フェイヨコ", "fayeyoko"],
-    "FayeAtom": ["フェイアトム", "fayeatom"],
-    "LenaMiu": ["レナミュー", "レナミウ", "lenamiu"],
-    "PitchaNatt": ["ピチャナット", "ピチャナト", "pitchanatt"],
-    "TanYada": ["タンヤダ", "tanyada"],
-    "OomBam": ["オームバム", "oombam"],
-    "EngLot": ["エンファロット", "エンフロット", "エンロト", "englot"],
-    "JanJingJing": ["ジャンジンジン", "ジャンジン", "janjingjing"],
-    "PahnFond": ["パーンフォンド", "パンフォンド", "pahnfond"],
-    "JuneMewnich": ["ジューンミューニッチ", "ジュンミューニッチ", "junemewnich"],
-    "MewRenee": ["ミューレネ", "ミューレニー", "mewrenee"],
-    "NamneungNoey": ["ナムノイ", "ナムヌンノイ", "namneungnoey"],
-    "ShellyPundao": ["シェリーパンダオ", "シェリパン", "しぇりーぱんだお", "shellypundao", "パンダオシェリー", "ぱんだおしぇりー", "pundaoshelly", "PundaoShelly"],
-    "BleJie": ["ブルージー", "ぶるーじー", "blejie", "MablePangjie", "PangjieMable", "メイブルパンジー"],
-    "EnjoyJune": ["エンジョイジューン", "えんじょいじゅーん", "enjoyjune", "JuneEnjoy", "ジューンエンジョイ"],
-    "FayMay": ["フェイメイ", "ふぇいめい", "faymay", "MayFay"],
-    "OrmFolk": ["オームフォーク", "オームフォク", "おーむふぉーく", "ormfolk"],
-    "IceMemi": ["アイスメミ", "あいすめみ", "icememi"],
-    "TungpangJessie": ["タンパンジェシー", "たんぱんじぇしー", "tungpangjessie"],
-    "ArhoungPam": ["アハンパム", "あはんぱむ", "arhoungpam"],
-    "PlaifahBebell": ["プライファベベル", "ぷらいふぁべべる", "plaifahbebell"],
-    "NileNamwan": ["ナイルナムワン", "ないるなむわん", "nilenamwan"]
+    "FreenBecky": [
+      "フリベキ",
+      "フリベ",
+      "フリベッキー",
+      "ふりべき",
+      "フリーンベッキー",
+      "freenbecky",
+      "Freenbecky"
+    ],
+    "LMSY": [
+      "リムシー",
+      "りむしー",
+      "エルエムエスワイ",
+      "lmsy"
+    ],
+    "NamtanFilm": [
+      "ナムフィル",
+      "ナムタンフィルム",
+      "ナムターンフィルム",
+      "ナムタフィル",
+      "namtanfilm",
+      "namfilm"
+    ],
+    "LingOrm": [
+      "リンオム",
+      "リンオーム",
+      "リンリンオーム",
+      "りんおーむ",
+      "lingorm",
+      "lingo"
+    ],
+    "MilkLove": [
+      "ミルラブ",
+      "ミラブ",
+      "ミルラ",
+      "みるらぶ",
+      "milklove",
+      "milklov"
+    ],
+    "EmiBonnie": [
+      "エミボニー",
+      "エミボニ",
+      "えみぼに",
+      "emibonnie"
+    ],
+    "GinJay": [
+      "ジンジェイ",
+      "ジンジェ",
+      "じんじぇい",
+      "ginjay"
+    ],
+    "TKNur": [
+      "ティーケーヌア",
+      "ティーケー",
+      "テクヌア",
+      "てくぬあ",
+      "tknur"
+    ],
+    "ViewMim": [
+      "ビューミム",
+      "びゅーみむ",
+      "viewmim"
+    ],
+    "LillyBelle": [
+      "リリベル",
+      "りりべる",
+      "lillybelle"
+    ],
+    "KaoJane": [
+      "カオジェーン",
+      "カオジェイン",
+      "かおじぇーん",
+      "kaojane"
+    ],
+    "GraceOaey": [
+      "グレースオーイー",
+      "グレオエ",
+      "graceoaey"
+    ],
+    "AppleMimu": [
+      "アップルミム",
+      "applemimu",
+      "applemim"
+    ],
+    "FayeYoko": [
+      "フェイヨーコ",
+      "フェイヨコ",
+      "fayeyoko"
+    ],
+    "FayeAtom": [
+      "フェイアトム",
+      "fayeatom"
+    ],
+    "LenaMiu": [
+      "レナミュー",
+      "レナミウ",
+      "lenamiu"
+    ],
+    "PitchaNatt": [
+      "ピチャナット",
+      "ピチャナト",
+      "pitchanatt"
+    ],
+    "TanYada": [
+      "タンヤダ",
+      "tanyada"
+    ],
+    "OomBam": [
+      "オームバム",
+      "oombam"
+    ],
+    "EngLot": [
+      "エンファロット",
+      "エンフロット",
+      "エンロト",
+      "englot"
+    ],
+    "JanJingJing": [
+      "ジャンジンジン",
+      "ジャンジン",
+      "janjingjing"
+    ],
+    "PahnFond": [
+      "パーンフォンド",
+      "パンフォンド",
+      "pahnfond"
+    ],
+    "JuneMewnich": [
+      "ジューンミューニッチ",
+      "ジュンミューニッチ",
+      "junemewnich"
+    ],
+    "MewRenee": [
+      "ミューレネ",
+      "ミューレニー",
+      "mewrenee"
+    ],
+    "NamneungNoey": [
+      "ナムノイ",
+      "ナムヌンノイ",
+      "namneungnoey"
+    ],
+    "ShellyPundao": [
+      "シェリーパンダオ",
+      "シェリパン",
+      "しぇりーぱんだお",
+      "shellypundao",
+      "パンダオシェリー",
+      "ぱんだおしぇりー",
+      "pundaoshelly",
+      "PundaoShelly"
+    ],
+    "BleJie": [
+      "ブルージー",
+      "ぶるーじー",
+      "blejie",
+      "MablePangjie",
+      "PangjieMable",
+      "メイブルパンジー"
+    ],
+    "EnjoyJune": [
+      "エンジョイジューン",
+      "えんじょいじゅーん",
+      "enjoyjune",
+      "JuneEnjoy",
+      "ジューンエンジョイ"
+    ],
+    "FayMay": [
+      "フェイメイ",
+      "ふぇいめい",
+      "faymay",
+      "MayFay"
+    ],
+    "OrmFolk": [
+      "オームフォーク",
+      "オームフォク",
+      "おーむふぉーく",
+      "ormfolk"
+    ],
+    "IceMemi": [
+      "アイスメミ",
+      "あいすめみ",
+      "icememi"
+    ],
+    "TungpangJessie": [
+      "タンパンジェシー",
+      "たんぱんじぇしー",
+      "tungpangjessie"
+    ],
+    "ArhoungPam": [
+      "アハンパム",
+      "あはんぱむ",
+      "arhoungpam"
+    ],
+    "PlaifahBebell": [
+      "プライファベベル",
+      "ぷらいふぁべべる",
+      "plaifahbebell"
+    ],
+    "NileNamwan": [
+      "ナイルナムワン",
+      "ないるなむわん",
+      "nilenamwan"
+    ],
+    "AndaLookkaew": [
+      "アンダルックケオ",
+      "あんだるっくけお",
+      "andalookkaew"
+    ],
+    "PraewaNoon": [
+      "プレワヌーン",
+      "ぷれわぬーん",
+      "praewanoon",
+      "NoonPraewa",
+      "ヌーンプレワ",
+      "noonpraewa"
+    ],
+    "BMineNear": [
+      "ビーマインニア",
+      "びーまいんにあ",
+      "bminenear",
+      "BNear"
+    ],
+    "BintPuiNoon": [
+      "ビントプイヌーン",
+      "びんとぷいぬーん",
+      "bintpuinoon"
+    ]
   },
-
   "actresses": {
-    "freen": ["フリーン", "ふりーん", "freen"],
-    "becky": ["ベッキー", "べっきー", "becky"],
-    "ling": ["リンリン", "リン", "りんりん", "lingling", "ling"],
-    "orm": ["オーム", "オム", "おーむ", "orm"],
-    "milk": ["ミルク", "みるく", "milk"],
-    "love": ["ラブ", "ラヴ", "らぶ", "love"],
-    "namtan": ["ナムタン", "ナムターン", "なむたん", "namtan"],
-    "film": ["フィルム", "ふぃるむ", "film"],
-    "emi": ["エミ", "えみ", "emi"],
-    "bonnie": ["ボニー", "ぼにー", "bonnie"],
-    "lookmhee": ["ルックミー", "ルックミ", "るっくみー", "lookmhee"],
-    "sonya": ["ソニア", "ソーニャ", "そにあ", "sonya"],
-    "tangkwa": ["テンクワ", "タンクワ", "てんくわ", "tangkwa"],
-    "nur": ["ヌア", "ヌル", "ぬあ", "nur"],
-    "ginny": ["ジニー", "じにー", "ginny"],
-    "jayna": ["ジェイナ", "ジェナ", "じぇいな", "jayna"],
-    "lilly": ["リリー", "りりー", "lilly"],
-    "belle": ["ベル", "べる", "belle"],
-    "engfa": ["エンファ", "エンファー", "えんふぁ", "engfa"],
-    "charlotte": ["シャーロット", "シャロット", "しゃーろっと", "charlotte"],
-    "namneung": ["ナムヌン", "ナムノン", "なむぬん", "namneung"],
-    "noey": ["ヌイ", "ノイ", "ぬい", "noey"],
-    "faye": ["フェイ", "フェイ", "ふぇい", "faye"],
-    "yoko": ["ヨーコ", "ヨコ", "よーこ", "yoko"],
-    "kao": ["カオ", "かお", "kao"],
-    "jane": ["ジェーン", "ジェイン", "じぇーん", "jane"],
-    "grace": ["グレース", "ぐれーす", "grace"],
-    "oaey": ["オーイー", "おーいー", "oaey"],
-    "view": ["ビュー", "びゅー", "view"],
-    "mim-r": ["ミム", "みむ", "mim"],
-    "renee": ["レネ", "レニー", "れね", "renee"],
-    "mew": ["ミュー", "みゅー", "mew"],
-    "atom": ["アトム", "あとむ", "atom"],
-    "miphat": ["ミーパット", "ミパット", "みーぱっと", "miphat"],
-    "enya": ["エンヤ", "えんや", "enya"],
-    "lena": ["レナ", "れな", "lena"],
-    "miu": ["ミウ", "みう", "miu"],
-    "jan": ["ジャン", "じゃん", "jan"],
-    "jingjing": ["ジンジン", "ジンジ", "じんじん", "jingjing"]
+    "freen": [
+      "フリーン",
+      "ふりーん",
+      "freen"
+    ],
+    "becky": [
+      "ベッキー",
+      "べっきー",
+      "becky"
+    ],
+    "ling": [
+      "リンリン",
+      "リン",
+      "りんりん",
+      "lingling",
+      "ling"
+    ],
+    "orm": [
+      "オーム",
+      "オム",
+      "おーむ",
+      "orm"
+    ],
+    "milk": [
+      "ミルク",
+      "みるく",
+      "milk"
+    ],
+    "love": [
+      "ラブ",
+      "ラヴ",
+      "らぶ",
+      "love"
+    ],
+    "namtan": [
+      "ナムタン",
+      "ナムターン",
+      "なむたん",
+      "namtan"
+    ],
+    "film": [
+      "フィルム",
+      "ふぃるむ",
+      "film"
+    ],
+    "emi": [
+      "エミ",
+      "えみ",
+      "emi"
+    ],
+    "bonnie": [
+      "ボニー",
+      "ぼにー",
+      "bonnie"
+    ],
+    "lookmhee": [
+      "ルックミー",
+      "ルックミ",
+      "るっくみー",
+      "lookmhee"
+    ],
+    "sonya": [
+      "ソニア",
+      "ソーニャ",
+      "そにあ",
+      "sonya"
+    ],
+    "tangkwa": [
+      "テンクワ",
+      "タンクワ",
+      "てんくわ",
+      "tangkwa"
+    ],
+    "nur": [
+      "ヌア",
+      "ヌル",
+      "ぬあ",
+      "nur"
+    ],
+    "ginny": [
+      "ジニー",
+      "じにー",
+      "ginny"
+    ],
+    "jayna": [
+      "ジェイナ",
+      "ジェナ",
+      "じぇいな",
+      "jayna"
+    ],
+    "lilly": [
+      "リリー",
+      "りりー",
+      "lilly"
+    ],
+    "belle": [
+      "ベル",
+      "べる",
+      "belle"
+    ],
+    "engfa": [
+      "エンファ",
+      "エンファー",
+      "えんふぁ",
+      "engfa"
+    ],
+    "charlotte": [
+      "シャーロット",
+      "シャロット",
+      "しゃーろっと",
+      "charlotte"
+    ],
+    "namneung": [
+      "ナムヌン",
+      "ナムノン",
+      "なむぬん",
+      "namneung"
+    ],
+    "noey": [
+      "ヌイ",
+      "ノイ",
+      "ぬい",
+      "noey"
+    ],
+    "faye": [
+      "フェイ",
+      "フェイ",
+      "ふぇい",
+      "faye"
+    ],
+    "yoko": [
+      "ヨーコ",
+      "ヨコ",
+      "よーこ",
+      "yoko"
+    ],
+    "kao": [
+      "カオ",
+      "かお",
+      "kao"
+    ],
+    "jane": [
+      "ジェーン",
+      "ジェイン",
+      "じぇーん",
+      "jane"
+    ],
+    "grace": [
+      "グレース",
+      "ぐれーす",
+      "grace"
+    ],
+    "oaey": [
+      "オーイー",
+      "おーいー",
+      "oaey"
+    ],
+    "view": [
+      "ビュー",
+      "びゅー",
+      "view"
+    ],
+    "mim-r": [
+      "ミム",
+      "みむ",
+      "mim"
+    ],
+    "renee": [
+      "レネ",
+      "レニー",
+      "れね",
+      "renee"
+    ],
+    "mew": [
+      "ミュー",
+      "みゅー",
+      "mew"
+    ],
+    "atom": [
+      "アトム",
+      "あとむ",
+      "atom"
+    ],
+    "miphat": [
+      "ミーパット",
+      "ミパット",
+      "みーぱっと",
+      "miphat"
+    ],
+    "enya": [
+      "エンヤ",
+      "えんや",
+      "enya"
+    ],
+    "lena": [
+      "レナ",
+      "れな",
+      "lena"
+    ],
+    "miu": [
+      "ミウ",
+      "みう",
+      "miu"
+    ],
+    "jan": [
+      "ジャン",
+      "じゃん",
+      "jan"
+    ],
+    "jingjing": [
+      "ジンジン",
+      "ジンジ",
+      "じんじん",
+      "jingjing"
+    ]
   },
-
   "dramas": {
-    "gap": ["ギャップ", "ぎゃっぷ", "gap"],
-    "the-loyal-pin": ["ロイヤルピン", "ロイヤル ピン", "ロイヤルピン", "ろいやるぴん", "loyal pin"],
-    "pluto": ["プルート", "ぷるーと", "pluto"],
-    "23-5": ["23.5", "二十三点五", "にじゅうさんてんご", "23ten5"],
-    "us": ["アス", "アスドラマ", "あす", "us drama"],
-    "affair": ["アフェア", "あふぇあ", "affair"],
-    "harmony-secret": ["ハーモニーシークレット", "harmonysecret"],
-    "hometown-romance": ["ホームタウンロマンス", "hometownromance"],
-    "dangerous-queen": ["デンジャラスクイーン", "だんじゃらすくいーん", "dangerousqueen"],
-    "poisonous-love": ["ポイズナスラブ", "ポイズナスラヴ", "poisonouslove", "poison love"],
-    "only-you": ["オンリーユー", "onlyyou"],
-    "the-secret-of-us": ["シークレットオブアス", "secretofus"],
-    "the-loyal-pin": ["ロイヤルピン"],
-    "the-air": ["ジエア", "エアー", "theair"],
-    "the-earth": ["ジアース", "アース", "theearth"],
-    "the-water": ["ザウォーター", "ウォーター", "thewater"],
-    "the-fire": ["ザファイア", "ファイア", "thefire"],
-    "cranium": ["クラニウム", "くらにうむ"],
-    "girl-rules": ["ガールルールズ", "girlrules"],
-    "fulfill": ["フルフィル", "fulfill"],
-    "love-beyond-dreams": ["ラブビヨンドドリームズ", "lovebeyonddreams"],
-    "enemies-with-benefits": ["エネミーズウィズベネフィッツ", "enemieswithbenefits"],
-    "i-wanna-be-suptar": ["スプター", "アイワナビースプター", "iwannabesuptar"],
-    "broken-of-love": ["ブロークンオブラブ", "brokenoflove"],
-    "play-park": ["プレイパーク", "playpark"],
-    "love-design": ["ラブデザイン", "lovedesign"],
-    "moonshadow": ["ムーンシャドウ", "moonshadow"],
-    "her": ["ハー", "her"],
-    "ditto": ["ディット", "ditto"],
-    "bake-love-feeling": ["ベイクラブフィーリング", "bakelovefeeling"],
-    "lunar-secret": ["ルナシークレット", "lunarsecret"]
+    "gap": [
+      "ギャップ",
+      "ぎゃっぷ",
+      "gap"
+    ],
+    "the-loyal-pin": [
+      "ロイヤルピン"
+    ],
+    "pluto": [
+      "プルート",
+      "ぷるーと",
+      "pluto"
+    ],
+    "23-5": [
+      "23.5",
+      "二十三点五",
+      "にじゅうさんてんご",
+      "23ten5"
+    ],
+    "us": [
+      "アス",
+      "アスドラマ",
+      "あす",
+      "us drama"
+    ],
+    "affair": [
+      "アフェア",
+      "あふぇあ",
+      "affair"
+    ],
+    "harmony-secret": [
+      "ハーモニーシークレット",
+      "harmonysecret"
+    ],
+    "hometown-romance": [
+      "ホームタウンロマンス",
+      "hometownromance"
+    ],
+    "dangerous-queen": [
+      "デンジャラスクイーン",
+      "だんじゃらすくいーん",
+      "dangerousqueen"
+    ],
+    "poisonous-love": [
+      "ポイズナスラブ",
+      "ポイズナスラヴ",
+      "poisonouslove",
+      "poison love"
+    ],
+    "only-you": [
+      "オンリーユー",
+      "onlyyou"
+    ],
+    "the-secret-of-us": [
+      "シークレットオブアス",
+      "secretofus"
+    ],
+    "the-air": [
+      "ジエア",
+      "エアー",
+      "theair"
+    ],
+    "the-earth": [
+      "ジアース",
+      "アース",
+      "theearth"
+    ],
+    "the-water": [
+      "ザウォーター",
+      "ウォーター",
+      "thewater"
+    ],
+    "the-fire": [
+      "ザファイア",
+      "ファイア",
+      "thefire"
+    ],
+    "cranium": [
+      "クラニウム",
+      "くらにうむ"
+    ],
+    "girl-rules": [
+      "ガールルールズ",
+      "girlrules"
+    ],
+    "fulfill": [
+      "フルフィル",
+      "fulfill"
+    ],
+    "love-beyond-dreams": [
+      "ラブビヨンドドリームズ",
+      "lovebeyonddreams"
+    ],
+    "enemies-with-benefits": [
+      "エネミーズウィズベネフィッツ",
+      "enemieswithbenefits"
+    ],
+    "i-wanna-be-suptar": [
+      "スプター",
+      "アイワナビースプター",
+      "iwannabesuptar"
+    ],
+    "broken-of-love": [
+      "ブロークンオブラブ",
+      "brokenoflove"
+    ],
+    "play-park": [
+      "プレイパーク",
+      "playpark"
+    ],
+    "love-design": [
+      "ラブデザイン",
+      "lovedesign"
+    ],
+    "moonshadow": [
+      "ムーンシャドウ",
+      "moonshadow"
+    ],
+    "her": [
+      "ハー",
+      "her"
+    ],
+    "ditto": [
+      "ディット",
+      "ditto"
+    ],
+    "bake-love-feeling": [
+      "ベイクラブフィーリング",
+      "bakelovefeeling"
+    ],
+    "lunar-secret": [
+      "ルナシークレット",
+      "lunarsecret"
+    ]
   }
 }

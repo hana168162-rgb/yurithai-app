@@ -1,6 +1,6 @@
-import { upcoming } from "@/lib/content";
-import { UpcomingCard } from "@/components/UpcomingCard";
+import { upcoming, actresses } from "@/lib/content";
 import { DramaListNav } from "@/components/DramaListNav";
+import { DramaFilterBar } from "@/components/DramaFilterBar";
 
 export const metadata = {
   title: "公開予定のタイGLドラマ一覧",
@@ -21,7 +21,6 @@ export default function UpcomingPage() {
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
           公開予定
         </h1>
-        <p className="text-sm text-yuri-muted">全{upcoming.length}作品</p>
       </header>
 
       <DramaListNav current="upcoming" />
@@ -31,11 +30,11 @@ export default function UpcomingPage() {
           まだ追加情報がありません
         </div>
       ) : (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-          {upcoming.map((d) => (
-            <UpcomingCard key={d.slug} drama={d} />
-          ))}
-        </div>
+        <DramaFilterBar
+          dramas={upcoming}
+          actresses={actresses}
+          cardType="upcoming"
+        />
       )}
     </div>
   );

@@ -1,6 +1,6 @@
-import { getActiveWatching } from "@/lib/content";
-import { WatchingCard } from "@/components/WatchingCard";
+import { getActiveWatching, actresses } from "@/lib/content";
 import { DramaListNav } from "@/components/DramaListNav";
+import { DramaFilterBar } from "@/components/DramaFilterBar";
 
 export const metadata = {
   title: "現在放送中・配信中のタイGLドラマ一覧",
@@ -22,16 +22,15 @@ export default function AiringPage() {
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
           放送中の作品
         </h1>
-        <p className="text-sm text-yuri-muted">全{active.length}作品</p>
       </header>
 
       <DramaListNav current="airing" />
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-        {active.map((d) => (
-          <WatchingCard key={d.slug} drama={d} cover={d.cover_image} />
-        ))}
-      </div>
+      <DramaFilterBar
+        dramas={active}
+        actresses={actresses}
+        cardType="watching"
+      />
     </div>
   );
 }

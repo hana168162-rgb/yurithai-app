@@ -30,6 +30,16 @@
     "icon": "📖"
   },
   {
+    "id": "tripcom-bangkok",
+    "title": "推しに会いに、バンコクへ ✈",
+    "subtitle": "東京〜バンコク 航空券＋ホテル｜PR",
+    "cta": "Trip.com で見る",
+    "href": "/guide/travel-to-thailand",
+    "bg": "from-yuri-teal to-yuri-pink",
+    "fg": "text-yuri-ink",
+    "icon": "✈"
+  },
+  {
     "id": "sponsor",
     "title": "スポンサー・タイアップ募集中",
     "subtitle": "タイGLファンに届く、日本語特化メディア",

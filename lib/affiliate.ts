@@ -131,6 +131,23 @@ export const NORDVPN = {
 
 export type NordVpnBannerKey = keyof typeof NORDVPN.banners;
 
+// ====== Trip.com ======
+// 東京→バンコク パッケージ向けの計測URL
+// Allianceid=8247863 / SID=312714424 が紐づく
+const TRIPCOM_DEFAULT_URL =
+  "https://jp.trip.com/packages/list/tokyo-to-bangkok/tyo-to-bkk?dCity=tyo&aCity=bkk&Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=D17134231";
+
+export const TRIPCOM = {
+  /** 計測付きアフィリエイトURL（東京→バンコク パッケージ）。 */
+  url: process.env.NEXT_PUBLIC_TRIPCOM_AFF_URL || TRIPCOM_DEFAULT_URL,
+
+  /** カード見出し */
+  cardTitle: "東京〜バンコク 航空券＋ホテル",
+  cardSubtitle:
+    "推しのファンミ・聖地巡礼でバンコクへ行くなら。Trip.com で航空券＋ホテルをまとめて検索・予約。",
+  cta: "Trip.com で検索",
+} as const;
+
 /** PR表記（短） */
 export const AFFILIATE_DISCLOSURE_SHORT = "広告";
 

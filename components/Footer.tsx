@@ -44,6 +44,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/guide/travel-to-thailand" className="hover:opacity-100">
+                  バンコク旅行ガイド
+                </Link>
+              </li>
+              <li>
                 <Link href="/legal/advertising" className="hover:opacity-100">
                   広告掲載ポリシー
                 </Link>

@@ -8,6 +8,7 @@ import {
   getEventFilterOptions,
 } from "@/lib/content";
 import type { GLEvent } from "@/lib/types";
+import { TripcomCard } from "@/components/TripcomCard";
 
 function formatDate(d: string): string {
   // "2026-08-15" → "8月15日（土）"
@@ -161,6 +162,9 @@ export default function EventsPage() {
           タイGL関連のファンミーティング、コンサート、プレミア、リリースイベント情報
         </p>
       </header>
+
+      {/* バンコク行きのアフィリ（イベント参加導線） */}
+      <TripcomCard variant="compact" />
 
       {/* フィルタ */}
       <div className="mb-6 bg-yuri-cream border border-yuri-edge rounded-lg p-4 flex flex-wrap items-center gap-3">

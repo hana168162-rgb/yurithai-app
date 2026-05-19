@@ -3,6 +3,15 @@
 
 import { dramas, watching, upcoming, actresses } from "./content";
 import type { AnyDrama, Actress } from "./types";
+import aliasesData from "@/content/search-aliases.json";
+
+type AliasMap = Record<string, string[]>;
+type AliasesFile = {
+  pairs: AliasMap;
+  actresses: AliasMap;
+  dramas: AliasMap;
+};
+const ALIASES = aliasesData as unknown as AliasesFile;
 
 export type SearchResultType = "drama" | "actress" | "tag";
 
@@ -17,6 +26,32 @@ export interface SearchResult {
 function normalize(s: string | null | undefined): string {
   if (!s) return "";
   return s.toLowerCase().normalize("NFKC");
+}
+
+/** cast_pair 文字列からペア名（"FreenBecky" 等）を抽出 */
+function extractPairKey(castPair: string | null | undefined): string | null {
+  if (!castPair) return null;
+  // 例: "Sarocha Chankimha × Becky Armstrong（FreenBecky）"
+  const m = castPair.match(/[（(]([A-Za-z]+)[）)]/);
+  if (m) return m[1];
+  // 例: "FreenBecky" 単独
+  const trimmed = castPair.trim();
+  if (/^[A-Za-z]+$/.test(trimmed)) return trimmed;
+  return null;
+}
+
+function aliasesForPair(castPair: string | null | undefined): string[] {
+  const key = extractPairKey(castPair);
+  if (!key) return [];
+  return ALIASES.pairs[key] ?? [];
+}
+
+function aliasesForDrama(slug: string): string[] {
+  return ALIASES.dramas[slug] ?? [];
+}
+
+function aliasesForActress(id: string): string[] {
+  return ALIASES.actresses[id] ?? [];
 }
 
 function dramaToText(d: AnyDrama): string {
@@ -34,21 +69,22 @@ function dramaToText(d: AnyDrama): string {
       if (Array.isArray(arr)) parts.push(arr.join(" "));
     }
   }
+  // エイリアス（作品スラッグ・主演ペア由来）
+  parts.push(...aliasesForDrama(d.slug));
+  parts.push(...aliasesForPair(d.cast_pair));
   return normalize(parts.filter(Boolean).join(" | "));
 }
 
 function actressToText(a: Actress): string {
-  return normalize(
-    [
-      a.name_ja,
-      a.real_name,
-      a.agency,
-      a.instagram,
-      a.filmography?.join(" "),
-    ]
-      .filter(Boolean)
-      .join(" | ")
-  );
+  const parts: (string | null | undefined)[] = [
+    a.name_ja,
+    a.real_name,
+    a.agency,
+    a.instagram,
+    a.filmography?.join(" "),
+  ];
+  parts.push(...aliasesForActress(a.id));
+  return normalize(parts.filter(Boolean).join(" | "));
 }
 
 export function searchAll(query: string): SearchResult[] {

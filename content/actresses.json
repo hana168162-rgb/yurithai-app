@@ -867,5 +867,351 @@
     "agency": "Idol Factory × North Star Entertainment",
     "instagram": "noeyyyy.kw",
     "notes": "元BNK48 1期生"
+  },
+  {
+    "id": "mable",
+    "name_ja": "メイブル",
+    "real_name": "Siriwalee \"Mable\" Siriwibool",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "ClaireBell"
+    ],
+    "agency": "Mine Media Production",
+    "instagram": "mable_siriwalee"
+  },
+  {
+    "id": "pangjie",
+    "name_ja": "パンジー",
+    "real_name": "Paphavarin \"Pangjie\" Sawasdiwech",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "ClaireBell"
+    ],
+    "agency": "Mine Media Production",
+    "instagram": "pangjiewr"
+  },
+  {
+    "id": "enjoy",
+    "name_ja": "エンジョイ",
+    "real_name": "Thidarut \"Enjoy\" Pruethong",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Denied Love"
+    ],
+    "agency": "WeTV / フリー",
+    "instagram": "enjoyyotdr"
+  },
+  {
+    "id": "june-n",
+    "name_ja": "ジューン (Nannirin)",
+    "real_name": "June Nannirin Varokornwatcharakool",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Denied Love"
+    ],
+    "agency": "WeTV / フリー",
+    "instagram": "june_nannirin",
+    "notes": "EnjoyJune ペアのジューン。JuneMewnich の June Wanwimol とは別人。"
+  },
+  {
+    "id": "fay",
+    "name_ja": "フェイ",
+    "real_name": "Fay Kanyaphat Na Nakhon",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "My Marvellous Dream is You",
+      "Somewhere Somehow"
+    ],
+    "agency": "IDOLFACTORY",
+    "instagram": null
+  },
+  {
+    "id": "may",
+    "name_ja": "メイ",
+    "real_name": "May Yada Watcharamusik",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "My Marvellous Dream is You",
+      "Somewhere Somehow"
+    ],
+    "agency": "IDOLFACTORY",
+    "instagram": null
+  },
+  {
+    "id": "ormsin",
+    "name_ja": "オームシン",
+    "real_name": "Ormsin Supitcha Limsommut",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Apple My Love",
+      "(Your) Apple"
+    ],
+    "agency": "Two Worlds Production",
+    "instagram": null,
+    "notes": "OrmFolk ペアの Orm。LingOrm の Orm とは別人。"
+  },
+  {
+    "id": "folk",
+    "name_ja": "フォーク",
+    "real_name": "Folk Sutima Korkiatvanich",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Apple My Love",
+      "(Your) Apple"
+    ],
+    "agency": "Two Worlds Production",
+    "instagram": null
+  },
+  {
+    "id": "ice",
+    "name_ja": "アイス",
+    "real_name": "Ice Amena",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "PLAYER"
+    ],
+    "agency": "フリー",
+    "instagram": null,
+    "notes": "PLAYER で GL デビュー。"
+  },
+  {
+    "id": "memi",
+    "name_ja": "メミ",
+    "real_name": "Memi",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "PLAYER"
+    ],
+    "agency": "フリー",
+    "instagram": null
+  },
+  {
+    "id": "tungpang",
+    "name_ja": "タンパン",
+    "real_name": "Tungpang Pattaravadee Laosa",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Heart Code"
+    ],
+    "agency": "Monomax",
+    "instagram": null
+  },
+  {
+    "id": "jessie",
+    "name_ja": "ジェシー",
+    "real_name": "Jessie Natsiya Prommart",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Heart Code"
+    ],
+    "agency": "Monomax",
+    "instagram": null
+  },
+  {
+    "id": "christine",
+    "name_ja": "クリスティン",
+    "real_name": "Christine Gulasatree Michalsky",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Reverse 4 You"
+    ],
+    "agency": "Kantana / Channel 3",
+    "instagram": null
+  },
+  {
+    "id": "mae",
+    "name_ja": "メイ (Methakarn)",
+    "real_name": "Mae Methakarn Anektanasuwan",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Reverse 4 You"
+    ],
+    "agency": "Kantana / Channel 3",
+    "instagram": null,
+    "notes": "Reverse 4 You の Mae。FayMay の May とは別人。"
+  },
+  {
+    "id": "arhoung",
+    "name_ja": "アホン",
+    "real_name": "Arhoung Nattawadee Pipobpornchai",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Queendom"
+    ],
+    "agency": "WeTV / フリー",
+    "instagram": null
+  },
+  {
+    "id": "pam",
+    "name_ja": "パム",
+    "real_name": "Pam Tarradee Watancharoen",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Queendom"
+    ],
+    "agency": "WeTV / フリー",
+    "instagram": null
+  },
+  {
+    "id": "plaifah",
+    "name_ja": "プライファ",
+    "real_name": "Plaifah Penpat Kairapee",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Shadow of Love"
+    ],
+    "agency": "Kongthup Production",
+    "instagram": null
+  },
+  {
+    "id": "bebell",
+    "name_ja": "ベベル",
+    "real_name": "Bebell Patthanarat Ketkaew",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Shadow of Love"
+    ],
+    "agency": "Kongthup Production",
+    "instagram": null
+  },
+  {
+    "id": "nile",
+    "name_ja": "ナイル",
+    "real_name": "Nile Chanidapa Sommitthanakul",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Chasing Love"
+    ],
+    "agency": "CHANGE2561",
+    "instagram": null
+  },
+  {
+    "id": "namwan",
+    "name_ja": "ナムワン",
+    "real_name": "Namwan Natchaya Vongbut",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Chasing Love"
+    ],
+    "agency": "CHANGE2561",
+    "instagram": null
+  },
+  {
+    "id": "praewa",
+    "name_ja": "プレワ",
+    "real_name": "Praewa Putticha Boonyamas",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Hidden Heart"
+    ],
+    "agency": "フリー",
+    "instagram": null
+  },
+  {
+    "id": "noon",
+    "name_ja": "ヌーン",
+    "real_name": "Noon Thunyaphat Inyawilert",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Hidden Heart"
+    ],
+    "agency": "フリー",
+    "instagram": null
+  },
+  {
+    "id": "aphichaya",
+    "name_ja": "アピチャヤ",
+    "real_name": "Aphichaya Kamnoetsirikun",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "My Only Sunshine"
+    ],
+    "agency": "iQIYI / フリー",
+    "instagram": null,
+    "notes": "新進女優サン役。"
+  },
+  {
+    "id": "mersedes",
+    "name_ja": "メルセデス",
+    "real_name": "Mersedes Sirapath Sarakune",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "My Only Sunshine"
+    ],
+    "agency": "iQIYI / フリー",
+    "instagram": null,
+    "notes": "ラグジュアリーカー幹部ラファー役。"
   }
 ]

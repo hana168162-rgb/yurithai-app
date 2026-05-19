@@ -79,11 +79,6 @@
     "pitcha",
     "natt"
   ],
-  "RollerCoaster": [
-    "pundao",
-    "neko",
-    "shelly"
-  ],
   "EnyaMiphat": [
     "enya",
     "miphat"
@@ -107,5 +102,53 @@
   "NamneungNoey": [
     "namneung",
     "noey"
+  ],
+  "ShellyPundao": [
+    "shelly",
+    "pundao"
+  ],
+  "BleJie": [
+    "mable",
+    "pangjie"
+  ],
+  "EnjoyJune": [
+    "enjoy",
+    "june-n"
+  ],
+  "FayMay": [
+    "fay",
+    "may"
+  ],
+  "OrmFolk": [
+    "ormsin",
+    "folk"
+  ],
+  "IceMemi": [
+    "ice",
+    "memi"
+  ],
+  "TungpangJessie": [
+    "tungpang",
+    "jessie"
+  ],
+  "ChristineMae": [
+    "christine",
+    "mae"
+  ],
+  "ArhoungPam": [
+    "arhoung",
+    "pam"
+  ],
+  "PlaifahBebell": [
+    "plaifah",
+    "bebell"
+  ],
+  "NileNamwan": [
+    "nile",
+    "namwan"
+  ],
+  "PraewaNoon": [
+    "praewa",
+    "noon"
   ]
 }

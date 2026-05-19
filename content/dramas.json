@@ -1777,5 +1777,708 @@
       }
     ],
     "title_th": "ริน ไม่มีวันรัก"
+  },
+  {
+    "id": 26,
+    "slug": "show-me-love",
+    "title_ja": "Show Me Love",
+    "title_en": "Show Me Love",
+    "year": 2023,
+    "production": "Sun-D Production",
+    "episodes": 6,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Engfa Waraha × Charlotte Austin（EngLot）",
+    "tags": {
+      "genre": [
+        "ペーガント"
+      ],
+      "relationship": [
+        "敵対から恋へ"
+      ],
+      "tone": [
+        "シリアス",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "ライトなスキンシップ"
+      ],
+      "production_quality": [
+        "演技力"
+      ],
+      "warnings": []
+    },
+    "synopsis": "ミスタイランド・ペーガントの舞台で出会ったミーナとシェレン。緊張から優しさへと変わっていく、二人のサファイア・ロマンス。",
+    "review": {
+      "highlights": [
+        "EngLot 最初の主演GL",
+        "ペーガント世界観"
+      ],
+      "recommend_for": [
+        "EngLot好き",
+        "ペーガント・コンペ系好き"
+      ],
+      "caution_for": [],
+      "body_ja": "EngLot（Engfa Waraha × Charlotte Austin）が初めて主演を務めたGL作品。ミスタイランドというリアルなペーガント業界の世界観を背景に、緊張関係から始まる二人の関係性を描く。\n\nこの作品の成功がEngLotを「タイGLの主役級ペア」として確立した起点。後続のPetrichorへと続く成長物語の始まり。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "EngLot初の主演GL / 2023年10月〜放送 / ミスタイランド・ペーガント世界観 / Engfa/Charlotte をスターダムへ押し上げた起点",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [],
+    "title_th": "Show Me Love"
+  },
+  {
+    "id": 27,
+    "slug": "my-marvellous-dream-is-you",
+    "title_ja": "My Marvellous Dream is You",
+    "title_en": "My Marvellous Dream is You",
+    "year": 2024,
+    "production": "Channel 3 / IDOLFACTORY",
+    "episodes": 12,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Fay Kanyaphat Na Nakhon × May Yada Watcharamusik（FayMay）",
+    "tags": {
+      "genre": [
+        "ファンタジー",
+        "業界もの",
+        "芸能"
+      ],
+      "relationship": [
+        "共演者"
+      ],
+      "tone": [
+        "切ない",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力"
+      ],
+      "warnings": []
+    },
+    "synopsis": "新人女優ダワンとベテラン女優キムハン。共演を通して芽生える感情と、業界の裏で揺れる二人の関係を描くファンタジック・ロマンス。",
+    "review": {
+      "highlights": [
+        "FayMay 初主演GL",
+        "12話の長編",
+        "TELASA 日本配信"
+      ],
+      "recommend_for": [
+        "業界もの好き",
+        "ファンタジー × GL好き",
+        "Fay/May 推し"
+      ],
+      "caution_for": [],
+      "body_ja": "Channel 3 × IDOLFACTORY制作。FayMay（Fay Kanyaphat × May Yada）の初主演GL作品で、芸能界の表と裏を背景にしたファンタジック・ロマンス。\n\n12話の長尺ぶん、関係性の積み上げをじっくり描く構成。日本ではTELASAで配信中。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "Channel 3 × IDOLFACTORY共同制作 / FayMay初主演 / 2024年5月8日〜7月24日 / 全12話 / TELASA配信",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/series/15261"
+      }
+    ],
+    "title_th": "My Marvellous Dream is You"
+  },
+  {
+    "id": 28,
+    "slug": "somewhere-somehow",
+    "title_ja": "Somewhere Somehow",
+    "title_en": "Somewhere Somehow",
+    "year": 2025,
+    "production": "IDOLFACTORY",
+    "episodes": 13,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Fay Kanyaphat Na Nakhon × May Yada Watcharamusik（FayMay）",
+    "tags": {
+      "genre": [
+        "オフィスロマンス",
+        "コメディ"
+      ],
+      "relationship": [
+        "同僚"
+      ],
+      "tone": [
+        "ロマンチック",
+        "コメディ"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力",
+        "ケミがすごい"
+      ],
+      "warnings": []
+    },
+    "synopsis": "厳格なエンジニア・キーと、明るい役員アシスタント・ピーム。性格は正反対の二人が一つのプロジェクトを通して惹かれ合う、オフィスロマンス。",
+    "review": {
+      "highlights": [
+        "FayMay 再共演",
+        "オフィスロマコメ",
+        "13話の長編"
+      ],
+      "recommend_for": [
+        "オフィスロマンス好き",
+        "FayMay 続編希望者",
+        "ロマコメ好き"
+      ],
+      "caution_for": [],
+      "body_ja": "IDOLFACTORY制作。FayMay（Fay × May）が『My Marvellous Dream is You』以来の再共演を果たした、オフィスロマンス作品。\n\n厳格エンジニア × 明るい役員アシスタントという王道の正反対カップル構図で、コメディ要素も交えてじっくり関係性を描く。監督は Nuttapong Wongkaveepairoj。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "IDOLFACTORY制作 / FayMay再共演 / 2025年8月8日〜10月26日 / 全13話 / 監督Nuttapong Wongkaveepairoj / 脚本Tinna Simapaisal",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [],
+    "title_th": "Somewhere Somehow"
+  },
+  {
+    "id": 29,
+    "slug": "apple-my-love",
+    "title_ja": "Apple My Love",
+    "title_en": "Apple My Love",
+    "year": 2024,
+    "production": "Two Worlds Production",
+    "episodes": 6,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Ormsin Supitcha Limsommut × Folk Sutima Korkiatvanich（OrmFolk）",
+    "tags": {
+      "genre": [
+        "ロマンチックコメディ"
+      ],
+      "relationship": [
+        "王道ロマンス"
+      ],
+      "tone": [
+        "ほっこり",
+        "コメディ"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "ライトなスキンシップ"
+      ],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "クリスとカーン、性格の異なる二人が惹かれ合うほっこりロマンチックコメディ。続編『(Your) Apple』にも繋がる。",
+    "review": {
+      "highlights": [
+        "OrmFolk ペア",
+        "短尺で気軽に観れる"
+      ],
+      "recommend_for": [
+        "ロマコメ好き",
+        "ほっこり系GL希望者"
+      ],
+      "caution_for": [],
+      "body_ja": "Two Worlds Production制作。OrmFolk（Ormsin Supitcha × Folk Sutima）が主演を務めたほっこり系GLロマコメ。\n\n2024年10月12日〜11月16日に第1シーズン放送。2025年4月には続編『(Your) Apple』も配信開始。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "M 中",
+    "note": "Two Worlds Production制作 / OrmFolk主演 / 2024年10月12日〜11月16日 / 全6話 / 続編『(Your) Apple』(2025/4) あり",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [],
+    "title_th": "Apple My Love"
+  },
+  {
+    "id": 30,
+    "slug": "player",
+    "title_ja": "PLAYER",
+    "title_en": "PLAYER",
+    "year": 2025,
+    "production": "Tonboriday Production",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Ice Amena × Memi（IceMemi）",
+    "tags": {
+      "genre": [
+        "ロマンス"
+      ],
+      "relationship": [
+        "禁断の恋"
+      ],
+      "tone": [
+        "ドラマチック",
+        "セクシー"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "情熱的"
+      ],
+      "production_quality": [
+        "演技力"
+      ],
+      "warnings": []
+    },
+    "synopsis": "鋭い知性を持つ女優プロイを軸に展開する、IceとMemiが演じる挑発的なロマンス。",
+    "review": {
+      "highlights": [
+        "Ice Amena GLデビュー",
+        "2025年GL注目作の一つ"
+      ],
+      "recommend_for": [
+        "重め × セクシー系GL好き",
+        "新ペア開拓したい人"
+      ],
+      "caution_for": [],
+      "body_ja": "2025年公開。SIIX原作小説『Player（Player ไม่อาจห้ามรัก）』のドラマ化。Ice AmenaがGLデビューを果たした作品で、Ice × Memiの強いケミストリーが評価された。\n\n2025年のタイGL注目作の一つに挙げられる、挑発的でドラマチックなロマンス。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "M 中",
+    "note": "原作: SIIX『Player ไม่อาจห้ามรัก』/ Ice Amena GLデビュー / 2025年公開 / IceMemiペア",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [],
+    "title_th": "Player ไม่อาจห้ามรัก"
+  },
+  {
+    "id": 31,
+    "slug": "heart-code",
+    "title_ja": "Heart Code",
+    "title_en": "Heart Code",
+    "year": 2026,
+    "production": "Monomax Original",
+    "episodes": 7,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Tungpang Pattaravadee Laosa × Jessie Natsiya Prommart（TungpangJessie）",
+    "tags": {
+      "genre": [
+        "アクション",
+        "サスペンス",
+        "捜査もの"
+      ],
+      "relationship": [
+        "同僚"
+      ],
+      "tone": [
+        "シリアス",
+        "アクション",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力"
+      ],
+      "warnings": [
+        "アクション描写あり"
+      ]
+    },
+    "synopsis": "警察幹部の娘ヴィッキーは、命を狙われ続けた末にエリート訓練プログラムへ。そこで出会ったのは規律と鋭い直感を持つ将校ターラ。同室を強いられた二人の間に、緊張と化学反応が芽生える。",
+    "review": {
+      "highlights": [
+        "アクション × GL",
+        "Monomax独占",
+        "7話の中尺"
+      ],
+      "recommend_for": [
+        "アクション系GL好き",
+        "捜査・刑事もの好き",
+        "新ペア開拓したい人"
+      ],
+      "caution_for": [],
+      "body_ja": "Monomax Original作品。アクション × ロマンス × サスペンスを融合したタイGL作品で、警察エリート訓練を舞台にした緊張感ある作劇が特徴。\n\nTungpangJessie（Tungpang Pattaravadee × Jessie Natsiya）の主演。2026年2月12日〜3月13日に全7話で放送。Monomaxで独占配信。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "Monomax Original / Tungpang × Jessie主演 / 2026年2月12日〜3月13日 / 全7話 / 別名『สืบลับจับใจ』",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "Monomax",
+        "url": "https://www.monomax.me"
+      }
+    ],
+    "title_th": "สืบลับจับใจ"
+  },
+  {
+    "id": 32,
+    "slug": "reverse-4-you",
+    "title_ja": "Reverse 4 You",
+    "title_en": "Reverse 4 You",
+    "year": 2024,
+    "production": "Kantana Motion Pictures × Channel 3",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Christine Gulasatree Michalsky × Mae Methakarn Anektanasuwan",
+    "tags": {
+      "genre": [
+        "ファンタジー",
+        "ドラマ"
+      ],
+      "relationship": [
+        "運命の恋"
+      ],
+      "tone": [
+        "切ない",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "原作あり"
+      ],
+      "warnings": []
+    },
+    "synopsis": "未来を見通せる姉ヴィヴィと、時間をコントロールできる妹ジャッタワー。約束された愛が悲劇に向かうことを知った姉妹は、運命そのものを変えようと動き出す。",
+    "review": {
+      "highlights": [
+        "超能力ファンタジー",
+        "Netflix配信",
+        "原作小説あり"
+      ],
+      "recommend_for": [
+        "ファンタジー × GL好き",
+        "切ない運命もの好き"
+      ],
+      "caution_for": [],
+      "body_ja": "Kantana Motion Pictures × Channel 3制作。Zezeho原作小説『Reverse 4 You』のドラマ化で、時を操る妹と未来を見る姉のファンタジック・ロマンス。\n\nChristine × Mae の主演。2024年9月3日〜10月22日にChannel 3とNetflixで配信。Kantanaの公式YouTubeでも配信あり。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "Kantana Motion Pictures × Channel 3 / 監督Vathanyu Ingkawiwat / 原作Zezeho『Reverse 4 You』/ 2024年9月3日〜10月22日 / 全8話 / Netflix配信",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/title/81925635"
+      }
+    ],
+    "title_th": "Reverse 4 You"
+  },
+  {
+    "id": 33,
+    "slug": "petrichor",
+    "title_ja": "Petrichor",
+    "title_en": "Petrichor",
+    "year": 2024,
+    "production": "iQIYI Original × One31",
+    "episodes": 10,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Engfa Waraha × Charlotte Austin（EngLot）",
+    "tags": {
+      "genre": [
+        "ミステリー",
+        "サスペンス",
+        "捜査もの"
+      ],
+      "relationship": [
+        "同僚"
+      ],
+      "tone": [
+        "シリアス",
+        "ダーク"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力",
+        "原作あり"
+      ],
+      "warnings": [
+        "連続殺人モチーフ"
+      ]
+    },
+    "synopsis": "犯罪捜査局の新人警官トゥル中尉と、法医学研究所の医師シェラン。仕事のスタイルが対照的な二人だが、共に証拠を分析するうちに信頼を築いていく。18年前の連続殺人と酷似する事件が起き、コピーキャットか模倣犯かを追う。",
+    "review": {
+      "highlights": [
+        "EngLot主演級GL",
+        "監督Sammon（4MINUTES）",
+        "重厚なミステリー"
+      ],
+      "recommend_for": [
+        "ダーク系GL好き",
+        "捜査・推理もの好き",
+        "EngLot追っかけ"
+      ],
+      "caution_for": [
+        "殺人モチーフ苦手な人"
+      ],
+      "body_ja": "iQIYI Original × One31制作。SixTeenSeven原作小説『Petrichor — Rust in the Rain』のドラマ化で、刑事と法医学医のミステリーロマンス。\n\nEngLot（Engfa × Charlotte）が再共演で挑む重厚作。監督は『4MINUTES』『Manner of Death』のSammon。\n\n2024年11月23日〜2025年2月1日にiQIYIとOne31で放送。全10話 × 45分。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "iQIYI Original × One31 / 監督Sammon / 原作SixTeenSeven『Petrichor — Rust in the Rain』/ 2024年11月23日〜2025年2月1日 / 全10話",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/album/petrichor-2024-ar002mup45"
+      }
+    ],
+    "title_th": "Petrichor"
+  },
+  {
+    "id": 34,
+    "slug": "queendom",
+    "title_ja": "Queendom",
+    "title_en": "Queendom",
+    "year": 2025,
+    "production": "WeTV Original",
+    "episodes": 12,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Arhoung Nattawadee Pipobpornchai × Pam Tarradee Watancharoen（ArhoungPam）",
+    "tags": {
+      "genre": [
+        "ロマンチックコメディ",
+        "ファンタジー",
+        "業界もの",
+        "芸能"
+      ],
+      "relationship": [
+        "元同級生",
+        "ライバル"
+      ],
+      "tone": [
+        "コメディ",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力",
+        "原作あり"
+      ],
+      "warnings": []
+    },
+    "synopsis": "学生時代からのライバル、レイとプリント。再会した時にはともに最も期待されるドラマの主演に。だが撮影開始1週間前、二人の魂は入れ替わってしまう。",
+    "review": {
+      "highlights": [
+        "体入れ替えファンタジー",
+        "12話の長編",
+        "WeTV独占"
+      ],
+      "recommend_for": [
+        "ロマコメ好き",
+        "業界もの好き",
+        "原作ファン"
+      ],
+      "caution_for": [],
+      "body_ja": "WeTV Original作品。Salmon原作小説のドラマ化で、ライバル同士の魂入れ替えファンタジーロマンス。\n\nArhoung × Pamの主演。スーパーナチュラル・コメディとスロウバーン・ロマンスを融合した構成。2025年8月14日〜10月23日に全12話でWeTV独占配信。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "WeTV Original / 原作Salmon / 2025年8月14日〜10月23日 / 全12話 / WeTV独占",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "WeTV",
+        "url": "https://wetv.vip"
+      }
+    ],
+    "title_th": "Queendom"
+  },
+  {
+    "id": 35,
+    "slug": "my-only-sunshine",
+    "title_ja": "My Only Sunshine",
+    "title_en": "My Only Sunshine",
+    "year": 2026,
+    "production": "iQIYI Original",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Aphichaya Kamnoetsirikun × Mersedes Sirapath Sarakune",
+    "tags": {
+      "genre": [
+        "業界もの",
+        "芸能",
+        "ロマンス"
+      ],
+      "relationship": [
+        "年の差",
+        "片想い"
+      ],
+      "tone": [
+        "切ない",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力",
+        "原作あり"
+      ],
+      "warnings": []
+    },
+    "synopsis": "新進女優サンは、親友の姉でラグジュアリーカーの幹部ラファーの心を何年も追い続けてきた。だがサンと新人男優の共演がSNSで「カップルか」と噂になると、ラファーの埋もれた感情が嫉妬として爆発する。",
+    "review": {
+      "highlights": [
+        "年の差GL",
+        "業界 × ラグジュアリー",
+        "iQIYI独占"
+      ],
+      "recommend_for": [
+        "年の差ロマンス好き",
+        "嫉妬モチーフ好き",
+        "業界もの好き"
+      ],
+      "caution_for": [],
+      "body_ja": "iQIYI Original作品。Flower of Memory原作小説『My Only Sunshine（ตะวันระฟ้า）』のドラマ化。新進女優と高級車エグゼクティブの年の差ロマンスで、嫉妬と再発見をテーマにした切ないGL。\n\n2026年2月25日〜4月22日にiQIYIで全8話配信。監督はYing Manassanun Su。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "iQIYI Original / 監督Ying Manassanun Su / 原作Flower of Memory『My Only Sunshine（ตะวันระฟ้า）』/ 2026年2月25日〜4月22日 / 全8話",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/album/my-only-sunshine-2026-1e2grren3yh"
+      }
+    ],
+    "title_th": "ตะวันระฟ้า"
+  },
+  {
+    "id": 36,
+    "slug": "shadow-of-love",
+    "title_ja": "Shadow of Love",
+    "title_en": "Shadow of Love",
+    "year": 2026,
+    "production": "Kongthup Production",
+    "episodes": 24,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Plaifah Penpat Kairapee × Bebell Patthanarat Ketkaew（PlaifahBebell）",
+    "tags": {
+      "genre": [
+        "メロドラマ",
+        "家族劇"
+      ],
+      "relationship": [
+        "禁断の恋",
+        "義姉妹"
+      ],
+      "tone": [
+        "切ない",
+        "シリアス",
+        "重め"
+      ],
+      "pacing": [
+        "山あり谷あり"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力"
+      ],
+      "warnings": [
+        "重い家族関係描写"
+      ]
+    },
+    "synopsis": "母を失ったチャットの家に迎え入れられた同居人ラニャ。反発から信頼へと変わる二人だが、チャットの父親が偽のDNA鑑定結果で二人を「異母姉妹」に仕立て上げ、愛をライバル関係に変える残酷な計略を仕掛ける。",
+    "review": {
+      "highlights": [
+        "PlaifahBebell 初主演GL",
+        "24話の超大作",
+        "重厚なメロドラマ"
+      ],
+      "recommend_for": [
+        "重めの家族劇好き",
+        "メロドラマ好き",
+        "新ペア開拓したい人"
+      ],
+      "caution_for": [
+        "重い家族関係描写が苦手な人"
+      ],
+      "body_ja": "Kongthup Production制作。Plaifah × Bebell（PlaifahBebell）の初主演GLで、家族の秘密と運命に翻弄される二人を描く重厚なメロドラマ。\n\n2026年3月24日〜5月12日に全24話で完結。キャラクター駆動の静かな葛藤に重きを置いた作劇が特徴。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "Kongthup Production / PlaifahBebell初主演 / 2026年3月24日〜5月12日 / 全24話 / 家族メロドラマ",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [],
+    "title_th": "ซ่อนเงารัก"
   }
 ]

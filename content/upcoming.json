@@ -197,5 +197,38 @@
     "cover_image": "/images/dramas/pls-love.jpg",
     "cover_credit": null,
     "youtube_teaser": null
+  },
+  {
+    "id": 214,
+    "slug": "chasing-love",
+    "title_ja": "Chasing Love",
+    "title_en": "Chasing Love",
+    "title_th": "ตามล่าหารัก",
+    "production": "CHANGE2561",
+    "cast_pair": "Nile Chanidapa Sommitthanakul × Namwan Natchaya Vongbut（NileNamwan）",
+    "status": "upcoming",
+    "announced_for": "2026年5月29日〜",
+    "synopsis": "CHANGE2561が送る新世代GLペアNileNamwanの初主演作。3組のカップルが織りなす群像劇で、Nile × Namwanがメイン、Fay × Gene、Gift × Aomsinがサイドの物語として展開する。",
+    "note": "CHANGE2561制作 / 原作Peony / 2026年5月29日〜放送 / 全8話 / 新ペアNileNamwanデビュー作 / 3組のカップルの群像劇",
+    "cover_image": null,
+    "cover_credit": null,
+    "youtube_teaser": null
+  },
+  {
+    "id": 215,
+    "slug": "hidden-heart",
+    "title_ja": "Hidden Heart",
+    "title_en": "Hidden Heart",
+    "title_th": "รักพรางใจ",
+    "production": "（制作社未公表）",
+    "cast_pair": "Praewa Putticha Boonyamas × Noon Thunyaphat Inyawilert",
+    "status": "upcoming",
+    "announced_for": "未発表",
+    "synopsis": "ワとアイ、運命のタイミングを誤って出会った二人。心に秘めた想いの重みと、声に出せない感情を描く、静かで切ないロマンス。",
+    "note": "原作: Flower of Memory『รักพรางใจ（Hidden Heart）』/ Praewa × Noon主演 / 詳細未発表",
+    "cover_image": null,
+    "cover_credit": null,
+    "youtube_teaser": null,
+    "pending": true
   }
 ]

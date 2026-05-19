@@ -22,9 +22,7 @@ export default function AiringPage() {
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
           放送中の作品
         </h1>
-        <p className="text-sm text-yuri-muted">
-          全{active.length}作品 · 現在放送中・配信中
-        </p>
+        <p className="text-sm text-yuri-muted">全{active.length}作品</p>
       </header>
 
       <DramaListNav current="airing" />

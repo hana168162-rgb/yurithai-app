@@ -23,7 +23,14 @@ import type {
 
 export const dramas = dramasData as unknown as Drama[];
 export const watching = watchingData as unknown as WatchingDrama[];
-export const upcoming = upcomingData as unknown as UpcomingDrama[];
+
+// `pending: true` の作品は一覧上で末尾にまわす。
+// 公式が放送日程・キャストをペンディング扱いの作品が、確定作品より上に出てしまうのを防ぐ。
+const upcomingRaw = upcomingData as unknown as UpcomingDrama[];
+export const upcoming: UpcomingDrama[] = [
+  ...upcomingRaw.filter((d) => !d.pending),
+  ...upcomingRaw.filter((d) => d.pending),
+];
 export const actresses = actressesData as unknown as Actress[];
 export const companies = companiesData as unknown as Company[];
 export const taxonomy = taxonomyData as unknown as Taxonomy;

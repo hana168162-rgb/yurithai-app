@@ -81,11 +81,15 @@ export interface UpcomingDrama {
   cast_pair: string | null;
   status: "upcoming";
   announced_for: string | null;     // 例: "2026年内予定", "未発表"
+  synopsis?: string;
   note: string;
   cover_image: string | null;
   cover_credit: string | null;
   youtube_teaser: string | null;
   streaming?: StreamingLink[];      // 配信先（決定後）
+  /** 公式が放送日程・キャスト等の詳細をペンディングにしている作品。
+   *  一覧表示時に末尾へ送るためのフラグ。 */
+  pending?: boolean;
 }
 
 export interface Company {

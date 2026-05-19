@@ -72,20 +72,30 @@ export function CampaignBanner() {
   }
 
   // Pointer Events: マウスもタッチも両方拾える
-  // setPointerCapture でポインターが要素外に出ても追従させる（PCドラッグでも正常動作）
+  // 5px未満の微小な動きはクリックとして通す（Link の navigation を妨げない）。
+  // 5px以上動いて初めて setPointerCapture でドラッグ確定 → スワイプ判定。
+  const DRAG_START_PX = 5;
   function onPointerDown(e: React.PointerEvent<HTMLDivElement>) {
     startX.current = e.clientX;
     setDragDx(0);
     wasSwiped.current = false;
-    try {
-      e.currentTarget.setPointerCapture(e.pointerId);
-    } catch {
-      /* noop */
-    }
+    // ここでは setPointerCapture を呼ばない（クリックイベントを妨げない）。
   }
   function onPointerMove(e: React.PointerEvent<HTMLDivElement>) {
     if (startX.current === null) return;
     const dx = e.clientX - startX.current;
+
+    // 一定量動いて初めて「ドラッグ」として扱い、ポインター捕獲を開始
+    if (
+      Math.abs(dx) >= DRAG_START_PX &&
+      !e.currentTarget.hasPointerCapture(e.pointerId)
+    ) {
+      try {
+        e.currentTarget.setPointerCapture(e.pointerId);
+      } catch {
+        /* noop */
+      }
+    }
     setDragDx(dx);
     if (Math.abs(dx) >= SWIPE_THRESHOLD) wasSwiped.current = true;
   }
@@ -94,10 +104,12 @@ export function CampaignBanner() {
     const dx = dragDx;
     startX.current = null;
     setDragDx(0);
-    try {
-      e.currentTarget.releasePointerCapture(e.pointerId);
-    } catch {
-      /* noop */
+    if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+      try {
+        e.currentTarget.releasePointerCapture(e.pointerId);
+      } catch {
+        /* noop */
+      }
     }
     if (Math.abs(dx) >= SWIPE_THRESHOLD) {
       if (dx < 0) goNext();
@@ -143,7 +155,7 @@ export function CampaignBanner() {
                   wasSwiped.current = false;
                 }
               }}
-              className={`shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-4 md:py-5 flex items-center gap-4`}
+              className={`shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-4 md:py-5 flex items-center gap-4 cursor-pointer hover:opacity-95`}
             >
               {b.icon && (
                 <div className="text-2xl md:text-3xl shrink-0" aria-hidden>

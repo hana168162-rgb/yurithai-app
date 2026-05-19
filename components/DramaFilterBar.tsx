@@ -17,15 +17,11 @@ import { UpcomingCard } from "./UpcomingCard";
  *
  * 仕様:
  *   - 「女優 / 事務所 / 公開年」の3軸で絞り込み
- *   - 各 selectは「すべて」をデフォルトに、選択でリアクティブに絞られる
- *   - URLは変えない（共有性より軽さを優先。SSR時は全件レンダリングできる）
- *   - 1件もマッチしない場合はメッセージ表示
+ *   - 女優表示はニックネーム（英語）。fanの呼び名と一致させる。
+ *   - 事務所は actresses.json の `agency` 値を使う（dramas.json の `production` は制作会社で別物）
+ *   - 各 select は「すべて」をデフォルトに、選択でリアクティブに絞られる
+ *   - URLは変えない
  *   - cardType でレンダリングするカードを切り替え（完結・放送中・公開予定）
- *
- * 注意:
- *   - 女優→作品マッチングは actresses.json の filmography（出演作タイトル文字列）を逆引きする。
- *     したがって actresses.json 側のタイトル表記が drama.title_en/title_ja のいずれかと
- *     一致している必要がある。表記揺れ（コロン、ハイフン）は両側を正規化して吸収。
  */
 
 type CardType = "drama" | "watching" | "upcoming";
@@ -46,7 +42,6 @@ interface Props {
 
 function norm(s: string | null | undefined): string {
   if (!s) return "";
-  // 区切り記号・空白・引用符は全て除去して、表記揺れを吸収
   return s
     .toLowerCase()
     .replace(/[\s:：・\-_'"‘’“”()（）「」『』]/g, "")
@@ -56,9 +51,6 @@ function norm(s: string | null | undefined): string {
 /**
  * 女優のfilmographyタイトルとドラマタイトルが「同じ作品を指している」かどうかを判定する。
  * 表記揺れを吸収するため、正規化後に「片方がもう片方の部分文字列」のケースも一致とみなす。
- * 例: "4 Elements: The Earth (2025-2026)" と "The Earth" → match
- *     "GAP: The Series" と "GAP" → match
- * 短すぎるタイトル（< 4文字）は誤マッチを避けるため exact match のみ。
  */
 function titleMatches(work: string, drama: AnyDrama): boolean {
   const w = norm(work);
@@ -69,7 +61,6 @@ function titleMatches(work: string, drama: AnyDrama): boolean {
     if (w === c) return true;
     const shorter = Math.min(w.length, c.length);
     if (shorter < 3) continue;
-    // 短いタイトル（3〜4文字）は prefix 一致のみ、長いタイトルは substring 一致を許可
     if (shorter < 5) {
       if (w.startsWith(c) || c.startsWith(w)) return true;
     } else {
@@ -79,20 +70,58 @@ function titleMatches(work: string, drama: AnyDrama): boolean {
   return false;
 }
 
+/**
+ * 女優の表示名（英語ニックネーム）を抽出する。
+ *   - real_name の引用符内が原則ニックネーム（例: Sarocha "Freen" Chankimha → "Freen"）
+ *   - ただし id が先頭の単語と一致する場合は、その単語をステージ名として優先する
+ *     （例: id="engfa", real_name="Engfa \"Mook\" Waraha" → "Engfa"）
+ *   - フォールバックは id を Title Case 化
+ */
+function nickName(a: Actress): string {
+  const real = a.real_name || "";
+  const m = real.match(/^(\S+)\s+"([^"]+)"/);
+  if (m) {
+    const [, first, nick] = m;
+    if (first.toLowerCase() === a.id.toLowerCase()) return first;
+    return nick;
+  }
+  return a.id.charAt(0).toUpperCase() + a.id.slice(1);
+}
+
+function familyName(a: Actress): string {
+  const real = a.real_name || "";
+  const parts = real.replace(/"[^"]*"/g, "").trim().split(/\s+/);
+  return parts[parts.length - 1] || "";
+}
+
+/**
+ * 同じ nickname のactressが複数いる場合、family nameを併記して区別する。
+ */
+function displayName(a: Actress, all: Actress[]): string {
+  const nick = nickName(a);
+  const sharing = all.filter((x) => nickName(x) === nick);
+  if (sharing.length > 1) {
+    const fam = familyName(a);
+    if (fam && fam.toLowerCase() !== nick.toLowerCase()) {
+      return `${nick} ${fam}`;
+    }
+  }
+  return nick;
+}
+
 export function DramaFilterBar({
   dramas,
   actresses,
   cardType,
   recentlyEnded = [],
 }: Props) {
-  const [actress, setActress] = useState("");
+  const [actressId, setActressId] = useState("");
   const [agency, setAgency] = useState("");
   const [year, setYear] = useState("");
 
   const allList: AnyDrama[] = [...recentlyEnded, ...dramas];
 
   // 作品slug → 出演女優IDのSet
-  // この一覧に登場する作品分だけ計算してメモ化（O(dramas × actresses) だが、いずれも小規模）
   const dramaToActressIds = useMemo(() => {
     const map = new Map<string, Set<string>>();
     for (const d of allList) {
@@ -110,24 +139,31 @@ export function DramaFilterBar({
     return map;
   }, [allList, actresses]);
 
-  // 「この一覧に登場する作品の出演女優」だけを選択肢にする
+  // この一覧に登場する作品の出演女優だけを選択肢に
   const actressOptions = useMemo(() => {
     const ids = new Set<string>();
     for (const set of dramaToActressIds.values()) {
       set.forEach((id) => ids.add(id));
     }
-    return actresses
-      .filter((a) => ids.has(a.id))
-      .sort((a, b) => a.name_ja.localeCompare(b.name_ja, "ja"));
+    const matched = actresses.filter((a) => ids.has(a.id));
+    return matched
+      .map((a) => ({ id: a.id, label: displayName(a, matched) }))
+      .sort((a, b) => a.label.localeCompare(b.label, "en"));
   }, [dramaToActressIds, actresses]);
 
+  // 事務所は出演女優の agency 集合
   const agencyOptions = useMemo(() => {
+    const ids = new Set<string>();
+    for (const set of dramaToActressIds.values()) {
+      set.forEach((id) => ids.add(id));
+    }
     const set = new Set<string>();
-    for (const d of allList) {
-      if (d.production && d.production.trim()) set.add(d.production.trim());
+    for (const a of actresses) {
+      if (!ids.has(a.id)) continue;
+      if (a.agency && a.agency.trim()) set.add(a.agency.trim());
     }
     return Array.from(set).sort((a, b) => a.localeCompare(b, "ja"));
-  }, [allList]);
+  }, [dramaToActressIds, actresses]);
 
   const yearOptions = useMemo(() => {
     const set = new Set<number>();
@@ -137,16 +173,35 @@ export function DramaFilterBar({
     return Array.from(set).sort((a, b) => b - a);
   }, [allList]);
 
-  // 女優→作品マッチング
-  const matchesActress = (d: AnyDrama, actressId: string): boolean => {
-    return dramaToActressIds.get(d.slug)?.has(actressId) ?? false;
+  // マッチング関数群
+  const matchesActress = (d: AnyDrama, id: string) =>
+    dramaToActressIds.get(d.slug)?.has(id) ?? false;
+
+  const actressIdsByAgency = useMemo(() => {
+    const map = new Map<string, Set<string>>();
+    for (const a of actresses) {
+      if (!a.agency) continue;
+      const key = a.agency.trim();
+      if (!map.has(key)) map.set(key, new Set());
+      map.get(key)!.add(a.id);
+    }
+    return map;
+  }, [actresses]);
+
+  const matchesAgency = (d: AnyDrama, agencyName: string) => {
+    const dramaActresses = dramaToActressIds.get(d.slug);
+    const agencyActresses = actressIdsByAgency.get(agencyName);
+    if (!dramaActresses || !agencyActresses) return false;
+    for (const id of dramaActresses) {
+      if (agencyActresses.has(id)) return true;
+    }
+    return false;
   };
 
-  // フィルタ適用
   const applyFilters = <T extends AnyDrama>(list: T[]): T[] => {
     return list.filter((d) => {
-      if (actress && !matchesActress(d, actress)) return false;
-      if (agency && d.production !== agency) return false;
+      if (actressId && !matchesActress(d, actressId)) return false;
+      if (agency && !matchesAgency(d, agency)) return false;
       if (year) {
         if (!("year" in d) || (d as Drama).year !== Number(year)) return false;
       }
@@ -159,7 +214,7 @@ export function DramaFilterBar({
 
   const totalAll = dramas.length + recentlyEnded.length;
   const totalFiltered = filteredDramas.length + filteredEnded.length;
-  const isFiltered = !!(actress || agency || year);
+  const isFiltered = !!(actressId || agency || year);
 
   const renderCard = (d: AnyDrama): ReactNode => {
     switch (cardType) {
@@ -179,19 +234,18 @@ export function DramaFilterBar({
 
   return (
     <>
-      {/* 絞り込みバー */}
       <div className="mb-5 flex flex-wrap items-center gap-2 md:gap-3">
         <div className="flex flex-wrap items-center gap-2 md:gap-3 flex-1 min-w-0">
           <select
             aria-label="女優で絞り込み"
-            value={actress}
-            onChange={(e) => setActress(e.target.value)}
+            value={actressId}
+            onChange={(e) => setActressId(e.target.value)}
             className={selectClassName}
           >
-            <option value="">女優：すべて</option>
-            {actressOptions.map((a) => (
-              <option key={a.id} value={a.id}>
-                {a.name_ja}
+            <option value="">Actress: All</option>
+            {actressOptions.map((opt) => (
+              <option key={opt.id} value={opt.id}>
+                {opt.label}
               </option>
             ))}
           </select>
@@ -230,7 +284,7 @@ export function DramaFilterBar({
             <button
               type="button"
               onClick={() => {
-                setActress("");
+                setActressId("");
                 setAgency("");
                 setYear("");
               }}
@@ -246,7 +300,6 @@ export function DramaFilterBar({
         </div>
       </div>
 
-      {/* 作品グリッド */}
       {totalFiltered === 0 ? (
         <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-8 text-center text-sm text-yuri-muted">
           条件に一致する作品はありませんでした。

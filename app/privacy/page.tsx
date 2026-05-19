@@ -33,7 +33,7 @@ export default function PrivacyPage() {
         <p>当サイトでは、以下の情報を取得することがあります。</p>
         <ul>
           <li>お問い合わせフォームから送信された氏名・メールアドレス・電話番号・会社名・本文の内容</li>
-          <li>アクセス解析ツール（Vercel Analytics）による匿名のアクセスログ（ページビュー、リファラ、デバイス種別、概算地域 等）</li>
+          <li>アクセス解析ツール（Vercel Analytics、Google Analytics 4）による匿名のアクセスログ（ページビュー、リファラ、デバイス種別、概算地域 等）。IPアドレスは Google Analytics 側で匿名化されます。</li>
           <li>診断機能などのユーザー操作状態（ブラウザの LocalStorage に保存）</li>
         </ul>
 

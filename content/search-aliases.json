@@ -26,7 +26,10 @@
     "PahnFond": ["パーンフォンド", "パンフォンド", "pahnfond"],
     "JuneMewnich": ["ジューンミューニッチ", "ジュンミューニッチ", "junemewnich"],
     "MewRenee": ["ミューレネ", "ミューレニー", "mewrenee"],
-    "NamneungNoey": ["ナムノイ", "ナムヌンノイ", "namneungnoey"]
+    "NamneungNoey": ["ナムノイ", "ナムヌンノイ", "namneungnoey"],
+    "ShellyPundao": ["シェリーパンダオ", "シェリパン", "しぇりーぱんだお", "shellypundao", "パンダオシェリー", "ぱんだおしぇりー", "pundaoshelly", "PundaoShelly"],
+    "BleJie": ["ブルージー", "ぶるーじー", "blejie", "MablePangjie", "PangjieMable", "メイブルパンジー"],
+    "EnjoyJune": ["エンジョイジューン", "えんじょいじゅーん", "enjoyjune", "JuneEnjoy", "ジューンエンジョイ"]
   },
 
   "actresses": {

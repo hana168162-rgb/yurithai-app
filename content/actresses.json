@@ -758,7 +758,9 @@
     "age": 21,
     "nationality": "Thai",
     "height_cm": null,
-    "filmography": [],
+    "filmography": [
+      "Wish Upon a Star"
+    ],
     "agency": "GMMTV",
     "instagram": "pahnthitta"
   },
@@ -770,7 +772,9 @@
     "age": 23,
     "nationality": "Thai",
     "height_cm": 158,
-    "filmography": [],
+    "filmography": [
+      "Wish Upon a Star"
+    ],
     "agency": "GMMTV",
     "instagram": "fondnatticha"
   },

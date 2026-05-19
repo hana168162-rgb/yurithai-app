@@ -2683,5 +2683,130 @@
       }
     ],
     "title_th": "เตือนแล้วนะ ว่าฉันร้าย"
+  },
+  {
+    "id": 40,
+    "slug": "losing-control",
+    "title_ja": "Losing Control",
+    "title_en": "Music Story: Losing Control",
+    "year": 2025,
+    "production": "K11D HOUSE",
+    "episodes": 3,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "B Mine Jiratchaya Komontut × Mashi Pornthiphat Lertwuthanon（BMineMashi）",
+    "tags": {
+      "genre": [
+        "ロマンス",
+        "ミニドラマ"
+      ],
+      "relationship": [
+        "コンパニオン",
+        "孤独"
+      ],
+      "tone": [
+        "切ない",
+        "ロマンチック"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "裕福だが感情的に孤立した若い女性クイーン。意味のある繋がりを求めて、コンパニオン・アプリで Sean と Bam に出会う。",
+    "review": {
+      "highlights": [
+        "BMine主演",
+        "3話のミニドラマ",
+        "Season 2あり"
+      ],
+      "recommend_for": [
+        "短尺GL好き",
+        "孤独テーマ好き"
+      ],
+      "caution_for": [],
+      "body_ja": "K11D HOUSE制作のミニドラマGL。「Music Story」シリーズの一環として展開。\n\n2025年4月23日プレミア、3話 × 27分のコンパクトな構成。BMine（Unlock Your Love、Lucky My Love）× Mashi の共演。Season 2も2025年に制作済。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "M 中",
+    "note": "K11D HOUSE制作 / Music Storyシリーズ / BMine × Mashi主演 / 2025年4月23日〜 / 全3話 × 27分 / Season 2 (2025) あり",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "YouTube (EP1)",
+        "url": "https://youtu.be/spp7NL6btcY"
+      }
+    ],
+    "title_th": "Music Story: Losing Control"
+  },
+  {
+    "id": 41,
+    "slug": "remain",
+    "title_ja": "Remain",
+    "title_en": "Remain",
+    "year": 2025,
+    "production": "（制作社未確認）",
+    "episodes": null,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Anda Anunta Teavirat × Praewa Putticha Boonyamas（AndaPraewa）",
+    "tags": {
+      "genre": [
+        "ロマンス",
+        "ファンタジー"
+      ],
+      "relationship": [
+        "記憶喪失",
+        "運命の出会い"
+      ],
+      "tone": [
+        "切ない",
+        "ドラマチック"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力",
+        "原作あり"
+      ],
+      "warnings": []
+    },
+    "synopsis": "悲劇的な事故の後、若い女性は記憶喪失の状態で目覚める。過去の自分を探す中で、思いやり深い鉱山主と出会い、新たな生活を始める。だが断片的に記憶が戻るにつれ、家族の確執と社会的プレッシャーも蘇る。閉ざされた想いと記憶の狭間で、心を信じるか愛から立ち去るかの選択を迫られる。",
+    "review": {
+      "highlights": [
+        "AndaPraewa主演",
+        "Love Senior再共演",
+        "記憶喪失ファンタジー"
+      ],
+      "recommend_for": [
+        "AndaPraewa推し",
+        "記憶喪失ものが好き",
+        "切ないファンタジー好き"
+      ],
+      "caution_for": [],
+      "body_ja": "原作Flower of Memory『REMAIN สิ่งที่เหลืออยู่』のドラマ化。Love Seniorで共演したAnda × Praewaが再びペアを組んだ作品。\n\n2025年12月プレミア。記憶喪失の女性と鉱山主の出会いから始まる、運命と家族の確執を描く切ないGLファンタジー。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "M 中",
+    "note": "原作: Flower of Memory『REMAIN สิ่งที่เหลืออยู่』/ Anda × Praewa主演 / 2025年12月プレミア / Love Senior サブカップル再共演",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/jAQ-I2HmJ8I",
+    "streaming": [],
+    "title_th": "สิ่งที่เหลืออยู่"
   }
 ]

@@ -158,5 +158,21 @@
   "MookPinky": [
     "mook",
     "pinky"
+  ],
+  "BMineMashi": [
+    "bmine",
+    "mashi"
+  ],
+  "BMineNear": [
+    "bmine",
+    "near"
+  ],
+  "AndaPraewa": [
+    "anda",
+    "praewa"
+  ],
+  "MookShu": [
+    "mook-w",
+    "shu"
   ]
 }

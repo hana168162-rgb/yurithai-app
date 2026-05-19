@@ -245,5 +245,21 @@
     "cover_image": null,
     "cover_credit": null,
     "youtube_teaser": "https://youtu.be/II86VoZ6v3A"
+  },
+  {
+    "id": 217,
+    "slug": "rental-love",
+    "title_ja": "Rental Love",
+    "title_en": "Rental Love",
+    "title_th": null,
+    "production": "（制作社未公表）",
+    "cast_pair": null,
+    "status": "upcoming",
+    "announced_for": "未発表",
+    "note": "公式トレーラー公開済。詳細キャスト・配信日程は未確認。",
+    "cover_image": null,
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/CufGfB9ylDw",
+    "pending": true
   }
 ]

@@ -1173,6 +1173,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Remain",
       "Love Senior",
       "Hidden Heart"
     ],
@@ -1233,6 +1234,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Remain",
       "Love Senior"
     ],
     "agency": "GMM Music / COSMOS",
@@ -1285,5 +1287,83 @@
     "agency": "フリー",
     "instagram": "prangdao",
     "notes": "I Am Devil でプランダオ役。MookPinky ペア。"
+  },
+  {
+    "id": "bmine",
+    "name_ja": "ビーマイン",
+    "real_name": "B Mine Jiratchaya Komontut",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Lucky My Love",
+      "Unlock Your Love",
+      "Music Story: Losing Control"
+    ],
+    "agency": "フリー",
+    "instagram": null,
+    "notes": "Lucky My Love、Unlock Your Love、Losing Controlで主演級。"
+  },
+  {
+    "id": "near",
+    "name_ja": "ニア",
+    "real_name": "Near Inthira Thammajaroen",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Lucky My Love",
+      "Unlock Your Love"
+    ],
+    "agency": "フリー",
+    "instagram": null,
+    "notes": "BMineNearペアの相方。"
+  },
+  {
+    "id": "mashi",
+    "name_ja": "マシ",
+    "real_name": "Mashi Pornthiphat Lertwuthanon",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Music Story: Losing Control"
+    ],
+    "agency": "K11D HOUSE",
+    "instagram": null,
+    "notes": "BMineMashiペアでLosing Controlに出演。"
+  },
+  {
+    "id": "mook-w",
+    "name_ja": "ムック (Worranit)",
+    "real_name": "Mook Worranit Thawornwong",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": null,
+    "notes": "SHADESでナリン役。MookPinkyのMookとは別人。"
+  },
+  {
+    "id": "shu",
+    "name_ja": "シュー",
+    "real_name": "Shu Nunnicha Saehuang",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": null,
+    "notes": "SHADESでミンク役。"
   }
 ]

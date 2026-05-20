@@ -13,7 +13,7 @@ T-popガールズグループ「COSMOS」を擁するこの会社は、ドラマ
 
 ## Star Hunter Entertainment とは
 
-Star Hunter Entertainmentは、もともと**T-popアイドルの育成・マネジメント**を主軸としていたタイの芸能事務所だ。同社の看板グループ「**COSMOS**」は2022年デビューの12人組ガールズグループで、サブユニット「Cosmos Sun」なども展開している。
+Star Hunter Entertainmentは、もともと**T-popアイドルの育成・マネジメント**を主軸としていたタイの芸能事務所だ。同社の看板グループ「**COSMOS**」は2023年5月デビューの12人組ガールズグループで、サブユニット「Cosmos Sun」なども展開している。
 
 注目すべきは、Star Hunter Entertainmentが**「アイドル → 女優 → GLメイン主演」というキャリアパス**を体系的に構築している点にある。
 
@@ -29,7 +29,7 @@ GMMTVが「俳優事務所→ドラマ制作」のロイヤルパターンを完
 
 ### My Only Sunshine（2026年 — iQIYI Original）
 
-2026年2月25日〜4月22日、iQIYIで放送された『**My Only Sunshine**』は、Star HunterとiQIYIの共同制作。**Aphichaya Kamnoetsirikun × Mersedes Sirapath Sarakune**が主演し、新進女優サンと高級車エグゼクティブのラファーという**年の差ロマンス**を描いた。
+2026年2月25日〜4月22日、iQIYIで放送された『**My Only Sunshine**』は、Star HunterとiQIYIの共同制作。**Mersedes Sirapath Sarakune × Aphichaya Kamnoetsirikun**が主演し、Mersedes演じる新進女優サン（Sun Atita）と、Aphichaya演じる高級車エグゼクティブのフリント・ラファ（Flint Rafa）の**年の差ロマンス**を描いた。
 
 監督は『Love Senior』と同じ**Ying Manassanun Su**。Star Hunterは特定の監督と継続関係を結ぶことで、作品トーンの一貫性を担保している。
 

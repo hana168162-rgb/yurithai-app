@@ -102,16 +102,16 @@ FreenBeckyはタイGLの代名詞として圧倒的な存在感。
 **「大手の量産だけがコンテンツ産業の未来ではない」**という、
 インディーズ系の可能性を世に示した世代です。
 
-### 3. BL出身俳優のGL進出
+### 3. ティーン作品や他ジャンル出身俳優のGL進出
 
-第3世代の特徴のひとつは、**BL作品で活動してきた俳優のGL参入**です。
+第3世代の特徴のひとつは、**ティーン作品や他ジャンルで活動してきた俳優のGL参入**です。
 
-- **Bonnie**：High School Frenemy（2024）でBL系作品の経験あり
-- **Emi**：Why R U?、Last Twilight、Beauty Newbie等BL作品の脇役多数
+- **Bonnie**：High School Frenemy（2024）などGMMTVティーン作品から
+- **Emi**：Why R U?、Last Twilightなど多様な作品で出演経験を積んだのち主演GLへ
 - **Faye Peraya**：Blank（GL）以降、Broken of Love（GL）に主演
 
-BLジャンルの俳優がGLに「**降りる**」のではなく、
-**両方を行き来できる**柔軟なキャリアパスが定着しつつあります。
+異なる作品系統で経験を積んだ俳優がGLに進出することで、
+**演技の幅広さを持ち込める**柔軟なキャリアパスが定着しつつあります。
 
 ### 4. 国際的なケミの多様化
 
@@ -186,8 +186,8 @@ GL主演として再デビューする——これは第3世代ならではの�
 
 **GMMTV若手の旗手**
 
-- **View**（Benyapa "View" Jeenprasom、2002年生・172cm）
-- **Mim**（Rattanawadee "Mim" Wongthong、2004年生・160cm）
+- **View**（Benyapa "View" Jeenprasom、2002年生）
+- **Mim**（Panthita "Mim" Jencharoentham、2000年生）
 
 GMMTV所属の若手ペアで、[Girl Rules](/dramas/girl-rules)（2026・放送中）で
 **NamtanFilm × MilkLove と並ぶ3組共演**として華々しくデビュー。

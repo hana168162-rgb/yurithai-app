@@ -33,7 +33,7 @@ cover_image: "/images/dramas/gap.jpg"
 [作品ページ →](/dramas/gap)
 
 タイGLというジャンルそのものを世に知らしめた金字塔。
-お嬢様の上司 Mon（Freen）と、彼女の会社に入社した部下 Sam（Becky）の禁断のロマンス。
+御曹司CEO Sam（Freen）と、彼女の会社にインターンとしてやってきた Mon（Becky）の禁断のロマンス。
 タイGL初心者が最初に観るべき1本として、誰もが推薦する作品です。
 
 **こんな人におすすめ:**
@@ -45,14 +45,14 @@ cover_image: "/images/dramas/gap.jpg"
 
 ## 第2位：Pluto（2024）
 
-**ジャンル**: 校園ファンタジー / SF
+**ジャンル**: ドラマ / ファンタジー
 **主演**: [NamtanFilm](/cast/namtan)
 **話数**: 全12話
 
 [作品ページ →](/dramas/pluto)
 
 タイGLが「演技で勝負できる」と世界に示した名作。
-盲目の弁護士 May（Film）と双子の姉妹 Ai-oon / Oaboom（Namtan）の物語。
+盲目の女性 May（Film）と、双子の姉妹 Ai-oon / Ob-oom（Namtan 一人二役）の物語。
 Film の視覚障害者役の演技は、業界外からも高い評価を受けました。
 
 **こんな人におすすめ:**
@@ -220,7 +220,7 @@ IDOLFACTORY × North Star Entertainment 共同制作の話題作。
 選から漏れましたが、これも観てほしい数本:
 
 - **[NamtanFilm × Girl Rules](/dramas/girl-rules)**（2026・放送中）— GMMTVの3組共演アンサンブル
-- **[Bake Love Feeling](/dramas/bake-love-feeling)**（2026・放送中）— ViewMim主演、職場 × カフェの王道
+- **[Bake Love Feeling](/dramas/bake-love-feeling)**（2026・公開予定）— ViewMim主演、職場 × カフェの王道
 - **[Uranus 2324](/dramas/uranus-2324)**（2024）— SF映画GL、月面に取り残された二人
 - **[Moonshadow](/dramas/moonshadow)**（公開予定）— EmiBonnieの第2作
 

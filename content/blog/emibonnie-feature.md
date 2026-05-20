@@ -65,16 +65,14 @@ Doklak は Z世代らしい言葉遣い、Pam はミレニアル世代の真面�
 ## 二人それぞれの個性
 
 ### Emi Thasorn Klinnium
-GMMTV のベテラン女優として、Why R U?、Last Twilight、
-Beauty Newbie 等で実績を積んできた27歳。
-**Bright Vachirawit や Win Metawin など多くのBL作品で脇役を演じ、**
-画面に呼吸を吹き込む技を身につけた "アンサンブル型女優"。
-Us で初の主演GLとなり、その繊細な演技力に世界が驚いた。
+GMMTV所属の27歳。Why R U?、Last Twilightなどに出演しキャリアを積んできたあと、
+Us で初の主演GLを務め、その繊細な演技力に世界が驚いた。
+**「同じ場面の空気を変える」抑制の効いた演技** が持ち味。
 
 ### Bonnie Pattraphus Borattasuwan
 22歳の新世代女優。
-High School Frenemy（2024）で頭角を現し、
-Us でその才能を一気に開花させました。
+High School Frenemy（2024）などのGMMTVティーン作品に出演し、
+Us で主演GLを務めて才能を一気に開花させました。
 若さに似合わぬ表現力と、**Z世代を体現するナチュラルさ** が同居する希少な存在。
 2025-2026年放送の「Me and Thee」にも出演中。
 

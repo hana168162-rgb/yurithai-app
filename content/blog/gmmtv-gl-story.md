@@ -56,7 +56,7 @@ GAPの成功は、それまで「BLに比べてマーケットが小さい」と
 ## 2024年 — 「23.5」での参入
 
 GMMTVが**初の本格GLシリーズ**として2024年に放送開始したのが、
-**「23.5: The Series」**（GMMTV × Nadao Bangkok 共同制作）。
+**「23.5: The Series」**（GMMTV制作）。
 
 主演は **MilkLove**（ミルク・ラブ）。MilkはBL作品で脇役を経験していたタレントで、
 GMMTV所属の若手。LoveはGMMTVの研修プログラム出身の新人で、
@@ -79,13 +79,13 @@ GMMTVのGL参入は、こうして成功裏に始まったのです。
 
 主演は **NamtanFilm**（ナムターン・フィルム）。
 **Namtan**（Tipnaree "Namtan" Weerawatnodom、1996年生）は長年GMMTVに所属する女優、
-**Film**（Rachanun "Film" Mahawan、2000年生）は2gether 等で頭角を現した若手。
+**Film**（Rachanun "Film" Mahawan、2000年生）は GMMTV 作品で頭角を現した若手。
 2人の年齢差は4歳で、共演経験は Last Twilight など限定的でしたが、
 撮影現場でのケミの良さを制作陣が察知し、GLメイン主演に抜擢したと言われます。
 
-Plutoの何が革新的だったか。Film が演じる **May Methawi は盲目の弁護士**で、
+Plutoの何が革新的だったか。Film が演じる **May は盲目の女性**で、
 **実際に視覚障害者の方への取材**を重ねて演技を構築したと公言されています。
-Namtan は **双子の姉妹 Ai-oon / Oaboom** という難役を演じ分け、
+Namtan は **双子の姉妹 Ai-oon / Ob-oom** という難役を演じ分け、
 姉妹それぞれの「May への愛し方」を細部の表情で描き分けました。
 
 **MyDramaList 評価 8.5/10** を獲得し、批評家から「タイGLが演技で勝負できる」と高く評価されました。
@@ -201,7 +201,7 @@ GMMTV のGL作品を理解するには、彼らが育てている**主要ペア*
 
 ### 新世代ペア
 
-- **JanJingJing** — Enemies with Benefits 主演。Jan は SOTUS・Cupid's Last Wish などGMMTVベテラン。
+- **JanJingJing** — Enemies with Benefits 主演。Jan は GMMTV 作品で経験を積んだ実力派。
 - **PahnFond** — Wish upon a star 主演予定。
 - **JuneMewnich** — Love's Echoes 主演予定。
 
@@ -235,8 +235,8 @@ NamtanFilm の Pluto → Girl Rules → Her の流れがその好例です。
 
 ### 5. BLとのクロスオーバー要素
 
-Bonnie は High School Frenemy（BL/GL混在）に出演経験あり、
-Emi は2gether・Bad Buddy などBL作品の脇役経験あり。
+Bonnie は High School Frenemy などGMMTVの群像ティーン作品に出演し、
+Emi も Why R U?・Last Twilight 等のBL作品で支援的なキャストとして経験を積みました。
 **BL文化との連続性** が、GMMTV GLの大きな特徴です。
 
 ---

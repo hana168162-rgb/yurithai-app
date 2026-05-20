@@ -27,7 +27,7 @@ Miss Grand Internationalグループは、このファンの熱量を見逃さ�
 
 監督は**Cheewin Thanamin Wongskulphat** × **Tee Bundit Sintanaparadee**。プロデューサーはBoss Anuson Limprasert。Engfaは「ミーナ」、Charlotteは「シェレン」を演じた。
 
-物語の舞台はもちろんペーガント界。EngfaとCharlotteの**実話に着想を得た**シナリオは、ファンに「シッピングの公式化」を提供する画期的な体験となった。8話 + 1スペシャル構成で、Filmarks評点 6.6。
+物語の舞台はもちろんペーガント界。EngfaとCharlotteの**実話に着想を得た**シナリオは、ファンに「シッピングの公式化」を提供する画期的な体験となった。全9話構成。
 
 Show Me Loveは爆発的なヒットではなかったが、**「EngLotという主演級ペア」の認知**を確立する重要な一歩だった。ここから二人の本格的な俳優キャリアが始まる。
 
@@ -41,7 +41,7 @@ Show Me Loveは爆発的なヒットではなかったが、**「EngLotという
 
 監督は『4MINUTES』『Manner of Death』の**Sammon**。これは重要な意味を持つ。SammonはタイBL界のヒットメーカーで、ダーク・サスペンス・心理描写の名手として知られる。EngLotがコメディタッチな『Show Me Love』から一転して、**ミステリー × サスペンス × 重厚なロマンス**に踏み込んだのだ。
 
-物語はSixTeenSeventeenの原作小説『Petrichor — Rust in the Rain』を原作とする本格捜査もの。Engfa演じる新人警官トゥル中尉と、Charlotte演じる法医学医シェランが、18年前の連続殺人犯のコピーキャットを追いながら関係を深めていく。
+物語はSixTeenSevenの原作小説『Petrichor — Rust in the Rain』を原作とする本格捜査もの。Engfa演じる新人警官トゥル中尉と、Charlotte演じる法医学医Cherranが、18年前の連続殺人犯のコピーキャットを追いながら関係を深めていく。
 
 **演技力が問われる作品で、EngLotは見事に応えた**。10話 × 45分のエピソード構成、各話の濃密な伏線と感情の揺れ。ペーガント出身のアイドルから、**シリアスドラマを背負える俳優ペア**へとイメージを刷新した瞬間である。
 
@@ -49,19 +49,19 @@ Show Me Loveは爆発的なヒットではなかったが、**「EngLotという
 
 『Petrichor』の重厚な世界観の後、EngLotは『**Unlimited Love**』で再びライトなロマンスに戻る。重さと軽さの両方を演じ分けられるペアであることを証明する一作。この多面性こそ、EngLotが「主役級」と呼ばれる所以だ。
 
-## 第5作：4 Elements: The Water（2025年）— シリーズへの参加
+## 第5作：4 Elements: The Water（2026年）— シリーズへの参加
 
-そして2025年、EngLotは**Idol Factory × North Star Entertainment制作の大型シリーズ『4 Elements』**の第2弾**『The Water』**への参加を発表する。
+そして2026年、EngLotは**Idol Factory × North Star Entertainment制作の大型シリーズ『4 Elements』**の第2弾**『The Water』**への参加を発表する。
 
 『4 Elements』は元々 IDOLFACTORY系の企画で、FreenBeckyの『The Air』（第3弾）を中心に据えたシリーズ。第1弾の『The Earth』（AppleMimu主演）、第2弾の『The Water』（EngLot主演）、第3弾の『The Air』（FreenBecky主演）、最終章『The Fire』（NamneungNoey主演）と続く一大プロジェクトだ。
 
-EngLotが『The Water』で参加するという事実は重要だ。Idol Factoryのフラッグシップシリーズに**外部ペアとして招かれた**ことを意味し、業界における彼女たちの存在感を改めて示した。物語は**高級ラグジュアリー・リゾートを舞台にした経営者とスパイの受付嬢のロマンス**。
+EngLotが『The Water』で参加するという事実は重要だ。Idol Factoryのフラッグシップシリーズに**外部ペアとして招かれた**ことを意味し、業界における彼女たちの存在感を改めて示した。物語は、対立する二つの家系の後継者である **Apo（Engfa）と Chonlada（Charlotte）** が、利害が絡み合う中でお互いに惹かれていくロマンス。
 
 ## EngLotの魅力 — 業界が評価する3つの理由
 
 ### ① 演技の幅
 
-『Show Me Love』のコメディ寄りのトーンから、『Petrichor』のサスペンス、『4 Elements: The Water』のラグジュアリーロマンスまで、**異なるジャンルを跨いで作品を成立させる演技力**。
+『Show Me Love』のコメディ寄りのトーンから、『Petrichor』のサスペンス、『4 Elements: The Water』の後継者ロマンスまで、**異なるジャンルを跨いで作品を成立させる演技力**。
 
 ### ② リアルな関係性
 

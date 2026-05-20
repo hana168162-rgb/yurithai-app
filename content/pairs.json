@@ -147,10 +147,6 @@
     "nile",
     "namwan"
   ],
-  "PraewaNoon": [
-    "praewa",
-    "noon"
-  ],
   "AndaLookkaew": [
     "anda",
     "lookkaew"
@@ -178,5 +174,9 @@
   "MookPink": [
     "mook",
     "pinky"
+  ],
+  "NoonPraewa": [
+    "praewa",
+    "noon"
   ]
 }

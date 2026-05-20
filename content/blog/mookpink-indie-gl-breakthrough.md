@@ -1,6 +1,6 @@
 ---
 title: "MookPink × インディーズGLの躍進 — YouTube/TikTokからMCOT HD地上波へ"
-description: "Mooky Napapach × Pinky Subhisara（MookPink）主演『I Am Devil』が、YouTube/TikTokの自主配信から MCOT HD Channel 9 の地上波TV進出を果たした衝撃。タイGL業界における「インディーズ→メジャー」という新しい成功パターンを解き明かす。"
+description: "Mooky Napapach × Pinky Subhisara（MookPink）主演『I Am Devil』が、YouTube/TikTokの自主配信から MCOT HD 30 の地上波TV進出を果たした衝撃。タイGL業界における「インディーズ→メジャー」という新しい成功パターンを解き明かす。"
 date: "2026-05-20"
 category: "industry-feature"
 tags: ["MookPink", "I Am Devil", "MaxLive TV", "MCOT HD", "CMO Public", "インディーズGL", "TikTok", "YouTube"]
@@ -9,13 +9,13 @@ cover_image: "/images/dramas/i-am-devil.jpg"
 
 2024年12月、ある一本のGL作品が**インディーズGL業界の常識を塗り替える出来事**を起こした。
 
-タイトルは『**I Am Devil**（เตือนแล้วนะ ว่าฉันร้าย）』。主演は新進ペア **MookPink**（Mooky Napapach × Pinky Subhisara）。当初はYouTubeとTikTokだけの自主配信から始まったこの作品が、わずか8ヶ月後にタイの地上波テレビ局**MCOT HD Channel 9**で全国放送されることになった。
+タイトルは『**I Am Devil**（เตือนแล้วนะ ว่าฉันร้าย）』。主演は新進ペア **MookPink**（Mooky Napapach × Pinky Subhisara）。当初はYouTubeとTikTokだけの自主配信から始まったこの作品が、わずか8ヶ月後にタイの地上波テレビ局**MCOT HD 30**で全国放送されることになった。
 
 これは何を意味するのか。本記事では、MookPink × I Am Devilが切り拓いた**「インディーズGL→メジャー化」という新しい成功パターン**を、ビジネス・配信戦略・社会的意義の3軸で読み解く。
 
 ## I Am Devilとは — 3バージョン戦略の天才性
 
-『I Am Devil』は2024年12月18日、CMO Public Co.制作で公開された。あらすじは、悪役女優ムックマニー（Mook演）と義姉プランダオ（Pink演）の、サファイアン・クラブ「Hera Club」を舞台にした禁断のロマンス。
+『I Am Devil』は2024年12月25日、CMO Public Co.制作で公開された。あらすじは、悪役女優ムックマニー（Mook演）と義姉プランダオ（Pink演）の、サファイアン・クラブ「Hera Club」を舞台にした禁断のロマンス。
 
 特筆すべきは、この作品が**3つの異なるバージョン**で公開されたことだ。
 
@@ -63,7 +63,7 @@ MookPinkペアは、わずか半年でタイGLシーンに「次の波」とし�
 
 そして2025年8月23日、衝撃的な発表が行われる。
 
-**「Season 1とSeason 2を再編集・新サウンドトラック・カラーグレーディング新規でつないだ統合版（全8話）を、MCOT HD Channel 9（30）で全国放送する」**
+**「Season 1とSeason 2を再編集・新サウンドトラック・カラーグレーディング新規でつないだ統合版（全8話）を、MCOT HD 30で全国放送する」**
 
 これは何を意味するのか。
 
@@ -78,7 +78,7 @@ MookPinkペアは、わずか半年でタイGLシーンに「次の波」とし�
 
 ## MCOT HD放送の意義 — タイ社会への影響
 
-タイの「Channel 9 (MCOT HD)」は、**国営放送系のメジャー局**である。日本でいえば NHK や TBS に近い立ち位置だ。
+タイの「MCOT HD 30」は、**国営放送系のメジャー局**である。日本でいえば NHK や TBS に近い立ち位置だ。
 
 そこでGLドラマが、**ゴールデンタイム（23時台）に放送される**——これは単なる一作品の放送ではなく、タイ社会全体の**「同性愛コンテンツのメインストリーム化」**を象徴する出来事である。
 

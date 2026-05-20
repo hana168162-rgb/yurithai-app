@@ -210,14 +210,6 @@
       "あんだるっくけお",
       "andalookkaew"
     ],
-    "PraewaNoon": [
-      "プレワヌーン",
-      "ぷれわぬーん",
-      "praewanoon",
-      "NoonPraewa",
-      "ヌーンプレワ",
-      "noonpraewa"
-    ],
     "BMineNear": [
       "ビーマインニア",
       "びーまいんにあ",
@@ -255,6 +247,14 @@
       "mookpink",
       "MookPinky",
       "mookpinky"
+    ],
+    "NoonPraewa": [
+      "ヌーンプレワ",
+      "ぬーんぷれわ",
+      "noonpraewa",
+      "PraewaNoon",
+      "praewanoon",
+      "プレワヌーン"
     ]
   },
   "actresses": {

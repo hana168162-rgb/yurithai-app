@@ -51,7 +51,7 @@ export function buildTVSeriesJsonLd({ drama, actresses }: TVSeriesData) {
     data.actor = actresses.map((a) => ({
       "@type": "Person",
       name: a.real_name,
-      alternateName: a.name_ja,
+      alternateName: [a.name_en, a.name_ja],
       url: a.instagram
         ? `https://instagram.com/${a.instagram}`
         : undefined,
@@ -70,7 +70,7 @@ export function buildPersonJsonLd(actress: Actress, dramaTitles: string[]) {
     "@context": "https://schema.org",
     "@type": "Person",
     name: actress.real_name,
-    alternateName: actress.name_ja,
+    alternateName: [actress.name_en, actress.name_ja],
     url: `${SITE_URL}/cast/${actress.id}`,
     jobTitle: "Actress",
   };

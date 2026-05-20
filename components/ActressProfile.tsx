@@ -5,13 +5,16 @@ export function ActressProfile({ actress }: { actress: Actress }) {
   return (
     <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
       <div className="mb-3">
+        <p className="text-[10px] text-yuri-muted leading-tight">
+          {actress.name_ja}
+        </p>
         <Link
           href={`/cast/${actress.id}`}
-          className="text-sm font-medium text-yuri-navy hover:text-yuri-rose"
+          className="text-base font-medium text-yuri-navy hover:text-yuri-rose leading-tight block"
         >
-          {actress.name_ja}
+          {actress.name_en}
         </Link>
-        <p className="text-xs text-yuri-muted">{actress.real_name}</p>
+        <p className="text-xs text-yuri-muted mt-1">{actress.real_name}</p>
       </div>
 
       <dl className="text-xs space-y-1 mb-3">

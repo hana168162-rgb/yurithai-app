@@ -72,12 +72,11 @@ function titleMatches(work: string, drama: AnyDrama): boolean {
 
 /**
  * 女優の表示名（英語ニックネーム）を抽出する。
- *   - real_name の引用符内が原則ニックネーム（例: Sarocha "Freen" Chankimha → "Freen"）
- *   - ただし id が先頭の単語と一致する場合は、その単語をステージ名として優先する
- *     （例: id="engfa", real_name="Engfa \"Mook\" Waraha" → "Engfa"）
- *   - フォールバックは id を Title Case 化
+ *   - actresses.json の name_en が公式ニックネーム
+ *   - フォールバックは real_name の引用符内 → id を Title Case 化
  */
 function nickName(a: Actress): string {
+  if (a.name_en) return a.name_en;
   const real = a.real_name || "";
   const m = real.match(/^(\S+)\s+"([^"]+)"/);
   if (m) {

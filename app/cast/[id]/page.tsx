@@ -23,9 +23,10 @@ export function generateMetadata({
   const actress = getActressById(params.id);
   if (!actress) return { title: "女優が見つかりません" };
 
-  const title = `${actress.name_ja}（${actress.real_name}）プロフィール・出演作品`;
+  const displayName = `${actress.name_en}（${actress.name_ja}）`;
+  const title = `${displayName} ${actress.real_name} プロフィール・出演作品`;
   const desc_parts = [
-    `タイGL女優${actress.name_ja}（${actress.real_name}）`,
+    `タイGL女優${displayName}（${actress.real_name}）`,
     actress.agency ? `所属: ${actress.agency}` : "",
     actress.nationality ? `国籍: ${actress.nationality}` : "",
     actress.birth_date ? `生年月日: ${actress.birth_date}` : "",
@@ -39,6 +40,7 @@ export function generateMetadata({
     keywords: [
       "タイGL",
       "タイGL女優",
+      actress.name_en,
       actress.name_ja,
       actress.real_name,
       ...(actress.agency ? [actress.agency] : []),
@@ -55,13 +57,13 @@ export function generateMetadata({
           url: `${SITE_URL}/api/og/actress/${actress.id}`,
           width: 1200,
           height: 630,
-          alt: `${actress.name_ja}（${actress.real_name}）`,
+          alt: `${displayName}（${actress.real_name}）`,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${actress.name_ja}（${actress.real_name}）| YuriThai`,
+      title: `${displayName} | YuriThai`,
       description,
       images: [`${SITE_URL}/api/og/actress/${actress.id}`],
     },
@@ -83,7 +85,7 @@ export default function ActressDetailPage({
   const breadcrumbJsonLd = buildBreadcrumbJsonLd([
     { name: "トップ", url: `${SITE_URL}/` },
     { name: "女優", url: `${SITE_URL}/cast` },
-    { name: actress.name_ja, url: `${SITE_URL}/cast/${actress.id}` },
+    { name: actress.name_en, url: `${SITE_URL}/cast/${actress.id}` },
   ]);
 
   return (
@@ -101,13 +103,16 @@ export default function ActressDetailPage({
           女優
         </Link>
         <span className="mx-1.5">/</span>
-        <span>{actress.name_ja}</span>
+        <span>{actress.name_en}</span>
       </nav>
 
       {/* Hero */}
       <header className="mb-8 bg-yuri-cream border border-yuri-edge rounded-lg p-6">
-        <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
+        <p className="text-xs text-yuri-muted mb-0.5 leading-tight">
           {actress.name_ja}
+        </p>
+        <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1 leading-tight">
+          {actress.name_en}
         </h1>
         <p className="text-sm text-yuri-muted mb-4">{actress.real_name}</p>
 

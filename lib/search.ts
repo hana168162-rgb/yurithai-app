@@ -77,6 +77,7 @@ function dramaToText(d: AnyDrama): string {
 
 function actressToText(a: Actress): string {
   const parts: (string | null | undefined)[] = [
+    a.name_en,
     a.name_ja,
     a.real_name,
     a.agency,
@@ -120,8 +121,8 @@ export function searchAll(query: string): SearchResult[] {
     if (text.includes(q)) {
       results.push({
         type: "actress",
-        title: a.name_ja,
-        subtitle: `${a.real_name}${a.agency ? ` · ${a.agency}` : ""}`,
+        title: a.name_en,
+        subtitle: `${a.name_ja} · ${a.real_name}${a.agency ? ` · ${a.agency}` : ""}`,
         href: `/cast/${a.id}`,
         matchText: text,
       });

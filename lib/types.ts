@@ -134,6 +134,7 @@ export type Answers = Record<string, string[]>; // questionId -> optionIds
 export interface Actress {
   id: string;
   name_ja: string;
+  name_en: string;              // 公式英字ニックネーム（メイン表示用、例：Freen, LingLing）
   real_name: string;            // 本名（例：Sarocha "Freen" Chankimha）
   birth_date: string | null;    // 生年月日（例：1998-08-08）
   age: number | null;            // 年齢

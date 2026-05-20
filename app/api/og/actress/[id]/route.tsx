@@ -86,7 +86,20 @@ export async function GET(
               タイGL女優
             </div>
 
-            {/* 名前（日本語） */}
+            {/* カタカナ表記（小） */}
+            <div
+              style={{
+                fontSize: 28,
+                color: COLORS.muted,
+                lineHeight: 1.0,
+                marginBottom: 8,
+                display: "flex",
+              }}
+            >
+              {actress.name_ja}
+            </div>
+
+            {/* 名前（英字ニックネーム） */}
             <div
               style={{
                 fontSize: 92,
@@ -97,7 +110,7 @@ export async function GET(
                 display: "flex",
               }}
             >
-              {actress.name_ja}
+              {actress.name_en}
             </div>
 
             {/* 本名 */}

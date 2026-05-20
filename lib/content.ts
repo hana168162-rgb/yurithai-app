@@ -148,11 +148,17 @@ export function getDramasForActress(
   }
 
   // 2) filmography のタイトル文字列で逆引き（補完用）
-  const fm = actress.filmography ?? [];
+  //    年表記などのサフィックスを除去した上で「完全一致」のみ採用する。
+  //    例：filmography に "Us" がある女優を "The Secret of Us" にマッチさせない。
+  const normalize = (t: string): string =>
+    t.replace(/\s*\([^)]*\)\s*$/g, "").trim().toLowerCase();
+  const fm = (actress.filmography ?? []).map(normalize);
   for (const w of allWorks) {
     if (seen.has(w.slug)) continue;
-    const candidate = [w.title_ja, w.title_en].filter(Boolean) as string[];
-    if (fm.some((f) => candidate.some((c) => c.includes(f) || f.includes(c)))) {
+    const candidates = [w.title_ja, w.title_en]
+      .filter(Boolean)
+      .map((c) => normalize(c as string));
+    if (fm.some((f) => candidates.includes(f))) {
       seen.add(w.slug);
       result.push({ drama: w, title_ja: w.title_ja });
     }

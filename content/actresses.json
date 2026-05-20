@@ -1237,29 +1237,29 @@
       "Remain",
       "Love Senior"
     ],
-    "agency": "GMM Music / COSMOS",
+    "agency": "Star Hunter Entertainment",
     "instagram": null,
-    "notes": "タイ・ガールズグループ COSMOS メンバー。Love SeniorでGLデビュー。"
+    "notes": "タイ・ガールズグループ COSMOS（Star Hunter Entertainment所属）メンバー。Love SeniorでGLデビュー。"
   },
   {
     "id": "lookkaew",
     "name_ja": "ルックケオ",
     "real_name": "Kamollak \"Lookkaew\" Sangsubsin",
-    "birth_date": null,
+    "birth_date": "2000-04-27",
     "age": null,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
       "Love Senior"
     ],
-    "agency": "GMM Music / COSMOS",
+    "agency": "Star Hunter Entertainment",
     "instagram": null,
-    "notes": "タイ・ガールズグループ COSMOS メンバー。Love SeniorでGLデビュー。"
+    "notes": "タイ・ガールズグループ COSMOS（Star Hunter Entertainment所属）メンバー。Love SeniorでGLデビュー。"
   },
   {
     "id": "mook",
-    "name_ja": "ムック",
-    "real_name": "Napapach \"Mook\" Thitakawin",
+    "name_ja": "ムーキー",
+    "real_name": "Napapach \"Mooky\" Thitakawin",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1270,7 +1270,7 @@
     ],
     "agency": "フリー",
     "instagram": "mookyyy_napapach",
-    "notes": "I Am Devil で悪役女優ムックマニー役を演じ、MookPinkyペアでブレイク。"
+    "notes": "I Am Devil で悪役女優ムックマニー役を演じ、MookPinkペアでブレイク。"
   },
   {
     "id": "pinky",
@@ -1285,8 +1285,8 @@
       "I Am Devil Season 2"
     ],
     "agency": "フリー",
-    "instagram": "prangdao",
-    "notes": "I Am Devil でプランダオ役。MookPinky ペア。"
+    "instagram": "kyky_gggggggg",
+    "notes": "I Am Devil でプランダオ役。MookPinkペア。"
   },
   {
     "id": "bmine",
@@ -1365,5 +1365,35 @@
     "agency": "FRT Entertainment",
     "instagram": null,
     "notes": "SHADESでミンク役。"
+  },
+  {
+    "id": "kitty",
+    "name_ja": "キティ",
+    "real_name": "Nunthaphuck \"Kitty\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Rental Love Lab"
+    ],
+    "agency": "K11D HOUSE",
+    "instagram": null,
+    "notes": "KittyPunchペア。K11D HOUSE所属。"
+  },
+  {
+    "id": "punch",
+    "name_ja": "パンチ",
+    "real_name": "Naphassanan \"Punch\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Rental Love Lab"
+    ],
+    "agency": "K11D HOUSE",
+    "instagram": null,
+    "notes": "KittyPunchペア。K11D HOUSE所属。"
   }
 ]

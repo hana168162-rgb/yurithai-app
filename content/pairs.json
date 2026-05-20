@@ -155,10 +155,6 @@
     "anda",
     "lookkaew"
   ],
-  "MookPinky": [
-    "mook",
-    "pinky"
-  ],
   "BMineMashi": [
     "bmine",
     "mashi"
@@ -174,5 +170,13 @@
   "MookShu": [
     "mook-w",
     "shu"
+  ],
+  "KittyPunch": [
+    "kitty",
+    "punch"
+  ],
+  "MookPink": [
+    "mook",
+    "pinky"
   ]
 }

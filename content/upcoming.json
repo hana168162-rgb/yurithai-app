@@ -248,18 +248,17 @@
   },
   {
     "id": 217,
-    "slug": "rental-love",
-    "title_ja": "Rental Love",
-    "title_en": "Rental Love",
-    "title_th": null,
-    "production": "（制作社未公表）",
-    "cast_pair": null,
+    "slug": "rental-love-lab",
+    "title_ja": "Rental Love Lab",
+    "title_en": "Rental Love Lab",
+    "title_th": "ชั่วโมงทดลองรัก",
+    "production": "K11D HOUSE",
+    "cast_pair": "Kitty Nunthaphuck × Punch Naphassanan（KittyPunch）",
     "status": "upcoming",
     "announced_for": "未発表",
-    "note": "公式トレーラー公開済。詳細キャスト・配信日程は未確認。",
-    "cover_image": null,
+    "note": "K11D HOUSE制作 / KittyPunch主演 / YouTube配信予定 / Vibeberry Studio協力",
+    "cover_image": "/images/dramas/rental-love-lab.jpg",
     "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/CufGfB9ylDw",
-    "pending": true
+    "youtube_teaser": "https://youtu.be/CufGfB9ylDw"
   }
 ]

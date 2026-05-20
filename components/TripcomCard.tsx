@@ -1,19 +1,31 @@
 import Link from "next/link";
 import {
   TRIPCOM,
+  TRIPCOM_TOP,
   AFFILIATE_DISCLOSURE_SHORT,
   AFFILIATE_DISCLOSURE_LONG,
 } from "@/lib/affiliate";
 
 type Variant = "compact" | "wide";
+type LinkType = "package" | "top";
 
 /**
- * Trip.com（東京→バンコク パッケージ）アフィリリンクのカード。
+ * Trip.com アフィリリンクのカード。
  * compact: イベントページ等の挿入用
  * wide:    /guide/travel-to-thailand のCTA用
+ * linkType:
+ *   - "package" (default): 東京→バンコク パッケージ
+ *   - "top": Trip.com トップページ（任意のルート・都市を検索したい読者向け）
  */
-export function TripcomCard({ variant = "compact" }: { variant?: Variant }) {
+export function TripcomCard({
+  variant = "compact",
+  linkType = "package",
+}: {
+  variant?: Variant;
+  linkType?: LinkType;
+}) {
   const isWide = variant === "wide";
+  const cfg = linkType === "top" ? TRIPCOM_TOP : TRIPCOM;
 
   return (
     <div
@@ -37,7 +49,7 @@ export function TripcomCard({ variant = "compact" }: { variant?: Variant }) {
           } rounded-md bg-yuri-navy text-yuri-cream flex items-center justify-center text-xl`}
           aria-hidden
         >
-          ✈
+          {linkType === "top" ? "🌏" : "✈"}
         </div>
 
         <div className="flex-1 min-w-0">
@@ -46,26 +58,26 @@ export function TripcomCard({ variant = "compact" }: { variant?: Variant }) {
               isWide ? "text-lg md:text-xl mb-2" : "text-sm mb-1"
             }`}
           >
-            {TRIPCOM.cardTitle}
+            {cfg.cardTitle}
           </h3>
           <p
             className={`text-yuri-ink/80 leading-relaxed ${
               isWide ? "text-sm md:text-[15px]" : "text-xs"
             } mb-3`}
           >
-            {TRIPCOM.cardSubtitle}
+            {cfg.cardSubtitle}
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href={TRIPCOM.url}
+              href={cfg.url}
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
               className={`inline-flex items-center gap-1.5 bg-yuri-navy text-yuri-cream rounded-full font-medium hover:opacity-90 ${
                 isWide ? "px-5 py-2.5 text-sm" : "px-4 py-2 text-xs"
               }`}
             >
-              {TRIPCOM.cta}
+              {cfg.cta}
               <span aria-hidden>→</span>
             </a>
             {!isWide && (

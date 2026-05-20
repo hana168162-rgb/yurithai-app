@@ -225,9 +225,14 @@ export default function TravelGuidePage() {
         Google翻訳のオフライン版を入れておくと、屋台等でも安心。
       </p>
 
-      {/* 締めCTA */}
+      {/* 締めCTA — パッケージ */}
       <div className="mt-10 mb-2">
         <TripcomCard variant="wide" />
+      </div>
+
+      {/* 補助CTA — 汎用検索（東京以外の出発地・他都市・他日程の人向け） */}
+      <div className="mt-4 mb-2">
+        <TripcomCard variant="wide" linkType="top" />
       </div>
 
       <hr className="my-10 border-yuri-edge" />

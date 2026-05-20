@@ -148,6 +148,21 @@ export const TRIPCOM = {
   cta: "Trip.com で検索",
 } as const;
 
+// Trip.com トップページ向けの計測URL（汎用 — 任意のルート/ホテル/都市を検索したい読者向け）
+const TRIPCOM_TOP_DEFAULT_URL =
+  "https://jp.trip.com/?Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=D17191323";
+
+export const TRIPCOM_TOP = {
+  /** 計測付きアフィリエイトURL（Trip.com トップ）。 */
+  url: process.env.NEXT_PUBLIC_TRIPCOM_TOP_AFF_URL || TRIPCOM_TOP_DEFAULT_URL,
+
+  /** カード見出し */
+  cardTitle: "他のルート・都市・日程も検索",
+  cardSubtitle:
+    "東京以外の出発地、バンコク以外の都市（チェンマイ・プーケット等）、別の日程も Trip.com で横断検索。",
+  cta: "Trip.com トップへ",
+} as const;
+
 /** PR表記（短） */
 export const AFFILIATE_DISCLOSURE_SHORT = "広告";
 

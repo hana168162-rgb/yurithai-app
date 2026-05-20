@@ -293,6 +293,13 @@ Instagram でハッシュタグ検索（例: #FreenBecky #LMSY）すると、
 
 **[バンコク旅行ガイド](/guide/travel-to-thailand)** — 航空券・ホテル予約、滞在エリアの選び方、おすすめシーズン等
 
+<div style="border:1px solid #d8d2cc;border-radius:8px;padding:14px 16px;margin:16px 0;background:linear-gradient(135deg,#e8f0f0 0%,#fcf8f3 100%);font-size:14px;line-height:1.7;position:relative;">
+<span style="position:absolute;top:6px;right:8px;font-size:10px;color:#8a8580;background:#0001;padding:1px 6px;border-radius:3px;letter-spacing:0.05em;">広告</span>
+<strong style="display:block;margin-bottom:4px;color:#2a3d4d;">🌏 東京以外の出発地・他都市・別日程を探す方へ</strong>
+チェンマイ・プーケット便、関西/中部発、他のアジア都市への乗り継ぎなど、柔軟に検索したい場合は Trip.com のトップから直接検索が便利。
+<div style="margin-top:8px;"><a href="https://jp.trip.com/?Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=D17191323" target="_blank" rel="sponsored nofollow noopener noreferrer" style="display:inline-block;background:#2a3d4d;color:#fcf8f3;padding:6px 14px;border-radius:999px;font-size:12px;text-decoration:none;">Trip.com トップで検索 →</a></div>
+</div>
+
 ---
 
 ## まとめ — 推し活旅行は「行ってよかった」が必ず残る

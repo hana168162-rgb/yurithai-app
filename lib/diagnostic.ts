@@ -115,6 +115,43 @@ export function collectUserTags(
   return out;
 }
 
+/**
+ * 初心者向け王道ラインのおすすめ作品（slug）。
+ * 「こだわらない」が多いユーザー、または診断結果が0スコアになるユーザーに、
+ * タイGLの代表作を順番に提示する。
+ */
+const BEGINNER_FALLBACK_SLUGS = [
+  "gap",               // FreenBecky — タイGLの原点
+  "23-5",              // MilkLove — 校園・ほっこり
+  "the-secret-of-us",  // LingOrm — 大人のメロドラマ
+  "pluto",             // NamtanFilm — 演技派の名作
+  "affair",            // LMSY — 再会もの
+  "us",                // EmiBonnie — 日常系
+  "the-loyal-pin",     // FreenBecky — 時代劇GL
+];
+
+function pickBeginnerLineup(dramas: Drama[], limit: number): DramaScore[] {
+  const bySlug = new Map(dramas.map((d) => [d.slug, d]));
+  const picked: DramaScore[] = [];
+  for (const slug of BEGINNER_FALLBACK_SLUGS) {
+    const d = bySlug.get(slug);
+    if (d) picked.push({ drama: d, score: 0, matched: ["王道ライン"] });
+    if (picked.length >= limit) break;
+  }
+  // 万一足りなければ年代順で埋める
+  if (picked.length < limit) {
+    const used = new Set(picked.map((p) => p.drama.slug));
+    const rest = [...dramas]
+      .filter((d) => !used.has(d.slug))
+      .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+    for (const d of rest) {
+      picked.push({ drama: d, score: 0, matched: [] });
+      if (picked.length >= limit) break;
+    }
+  }
+  return picked.slice(0, limit);
+}
+
 export function rankDramas(
   answers: Answers,
   questions: Question[],
@@ -122,6 +159,16 @@ export function rankDramas(
   limit = 5
 ): DramaScore[] {
   const userTagsByCategory = collectUserTags(answers, questions);
+
+  // 「こだわらない」（タグなし）の質問数を数える
+  const totalQuestions = userTagsByCategory.length;
+  const emptyAnswers = userTagsByCategory.filter((c) => c.tags.length === 0).length;
+
+  // 質問の半数以上が「こだわらない」→ 初心者向け王道ライン
+  // （3問なら2問以上、5問なら3問以上が条件を満たす）
+  if (totalQuestions > 0 && emptyAnswers / totalQuestions >= 0.5) {
+    return pickBeginnerLineup(dramas, limit);
+  }
 
   const scored: DramaScore[] = dramas.map((d) => {
     let score = 0;
@@ -159,10 +206,9 @@ export function rankDramas(
   const positive = scored.filter((s) => s.score > 0);
 
   // 全員0スコアのケース：診断回答がドラマタグと全くマッチしなかった
-  // この場合は「ユーザーが選んだジャンル相当」の作品を新しい順で返すフォールバック
+  // この場合も初心者向け王道ラインへフォールバック
   if (positive.length === 0) {
-    const sorted = [...dramas].sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
-    return sorted.slice(0, limit).map((d) => ({ drama: d, score: 0, matched: [] }));
+    return pickBeginnerLineup(dramas, limit);
   }
 
   return positive

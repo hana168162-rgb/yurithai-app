@@ -26,6 +26,10 @@ function ResultInner() {
     [answers]
   );
 
+  // 全件スコア0なら、初心者向け王道ラインのフォールバック表示
+  const isBeginnerFallback =
+    ranked.length > 0 && ranked.every((r) => r.score === 0);
+
   if (Object.keys(answers).length === 0) {
     return (
       <div className="mx-auto max-w-2xl px-6 py-16 text-center">
@@ -47,10 +51,12 @@ function ResultInner() {
       <header className="mb-8 text-center">
         <p className="text-xs text-yuri-rose mb-2">✦ 診断結果</p>
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-2">
-          あなたへのおすすめ
+          {isBeginnerFallback ? "迷ったらこの王道ラインから" : "あなたへのおすすめ"}
         </h1>
         <p className="text-sm text-yuri-muted">
-          選んだタグから、{ranked.length}作品をおすすめします
+          {isBeginnerFallback
+            ? "タイGLの代表作からピックアップしました。気になる1本から観てみてください。"
+            : `選んだタグから、${ranked.length}作品をおすすめします`}
         </p>
       </header>
 
@@ -71,16 +77,18 @@ function ResultInner() {
           {ranked.map(({ drama, score, matched }) => (
             <div key={drama.slug} className="relative">
               <DramaCard drama={drama} />
-              <div className="mt-2 text-xs text-yuri-muted text-center">
-                マッチ度: <span className="text-yuri-rose font-medium">
-                  {score}
-                </span>
-                {matched.length > 0 && (
-                  <div className="text-[10px] mt-0.5 truncate">
-                    {matched.slice(0, 3).join(" · ")}
-                  </div>
-                )}
-              </div>
+              {!isBeginnerFallback && (
+                <div className="mt-2 text-xs text-yuri-muted text-center">
+                  マッチ度: <span className="text-yuri-rose font-medium">
+                    {score}
+                  </span>
+                  {matched.length > 0 && (
+                    <div className="text-[10px] mt-0.5 truncate">
+                      {matched.slice(0, 3).join(" · ")}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>

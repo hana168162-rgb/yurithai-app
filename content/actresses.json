@@ -6,7 +6,7 @@
     "birth_date": "1998-08-08",
     "age": 27,
     "nationality": "Thai",
-    "height_cm": 168,
+    "height_cm": 167,
     "filmography": [
       "GAP: The Series",
       "The Loyal Pin",
@@ -20,9 +20,9 @@
   {
     "id": "becky",
     "name_ja": "ベッキー",
-    "real_name": "Rebecca \"Becky\" Armstrong",
+    "real_name": "Rebecca Patricia \"Becky\" Armstrong",
     "birth_date": "2002-12-05",
-    "age": 24,
+    "age": 23,
     "nationality": "Thai-British",
     "height_cm": 165,
     "filmography": [
@@ -39,8 +39,8 @@
     "name_ja": "リンリン",
     "real_name": "Sirilak \"LingLing\" Kwong",
     "birth_date": "1995-05-11",
-    "age": 30,
-    "nationality": "Hong Kong/Thai",
+    "age": 31,
+    "nationality": "Hong Kong-Thai",
     "height_cm": 168,
     "filmography": [
       "The Secret of Us",
@@ -61,7 +61,7 @@
       "The Secret of Us",
       "Only You"
     ],
-    "agency": "Channel 3",
+    "agency": "Channel 3 / BEC World",
     "instagram": "orm.kornnaphat"
   },
   {
@@ -70,7 +70,7 @@
     "real_name": "Pansa \"Milk\" Vosbein",
     "birth_date": "1996-07-31",
     "age": 29,
-    "nationality": "Thai（タイ・モン・デンマーク・中国系）",
+    "nationality": "Thai (Mon/Danish/Chinese descent)",
     "height_cm": 170,
     "filmography": [
       "23.5",
@@ -87,7 +87,7 @@
     "real_name": "Pattranite \"Love\" Limpatiyakorn",
     "birth_date": "2000-05-23",
     "age": 25,
-    "nationality": "Thai（タイ・中国系）",
+    "nationality": "Thai (Chinese descent)",
     "height_cm": 155,
     "filmography": [
       "23.5",
@@ -132,11 +132,11 @@
   },
   {
     "id": "faye",
-    "name_ja": "フェイ",
+    "name_ja": "フェイ (FayeYoko)",
     "real_name": "Peraya \"Faye\" Malisorn",
     "birth_date": "1994-10-14",
     "age": 31,
-    "nationality": "Thai（タイ・インド系）",
+    "nationality": "Thai (Indian descent)",
     "height_cm": 175,
     "filmography": [
       "Blank: The Series",
@@ -152,7 +152,7 @@
     "real_name": "Apasra \"Yoko\" Lertprasert",
     "birth_date": "2001-07-19",
     "age": 24,
-    "nationality": "Thai（タイ・中国・ベトナム系）",
+    "nationality": "Thai (Chinese/Vietnamese descent)",
     "height_cm": 165,
     "filmography": [
       "Blank: The Series",
@@ -167,7 +167,7 @@
     "name_ja": "ルックミー",
     "real_name": "Punyapat \"Lookmhee\" Wangpongsathaporn",
     "birth_date": "1999-02-18",
-    "age": 26,
+    "age": 27,
     "nationality": "Thai",
     "height_cm": 170,
     "filmography": [
@@ -183,10 +183,11 @@
     "name_ja": "ソニア",
     "real_name": "Saranphat \"Sonya\" Pedersen",
     "birth_date": "1999-04-19",
-    "age": 26,
-    "nationality": "Thai-Danish（タイ・デンマーク系）",
+    "age": 27,
+    "nationality": "Thai-Danish",
     "height_cm": 170,
     "filmography": [
+      "Bad Buddy (guest)",
       "Affair",
       "Harmony Secret",
       "Hometown Romance"
@@ -215,10 +216,10 @@
   {
     "id": "charlotte",
     "name_ja": "シャーロット",
-    "real_name": "Charlotte \"Char\" Austin",
+    "real_name": "Charlotte Austin",
     "birth_date": "1998-12-21",
     "age": 27,
-    "nationality": "Thai-British（タイ・イギリス系）",
+    "nationality": "Thai-British",
     "height_cm": 173,
     "filmography": [
       "Show Me Love",
@@ -235,13 +236,13 @@
     "name_ja": "カオ",
     "real_name": "Supassara \"Kao\" Thanachart",
     "birth_date": "1995-04-29",
-    "age": 30,
+    "age": 31,
     "nationality": "Thai",
     "height_cm": 161,
     "filmography": [
       "Love Design"
     ],
-    "agency": "フリーランス",
+    "agency": "フリー",
     "instagram": "supassra_sp"
   },
   {
@@ -250,7 +251,7 @@
     "real_name": "Methika \"Jane\" Jiranorraphat",
     "birth_date": "1999-06-19",
     "age": 26,
-    "nationality": "Thai-Taiwanese（タイ・台湾系）",
+    "nationality": "Thai-Taiwanese",
     "height_cm": 165,
     "filmography": [
       "Love Design"
@@ -269,7 +270,7 @@
     "filmography": [
       "Mate"
     ],
-    "agency": "フリーランス",
+    "agency": "フリー",
     "instagram": "gracebudsarin"
   },
   {
@@ -277,13 +278,13 @@
     "name_ja": "オーイー",
     "real_name": "Ponchanok \"Oaey\" Theerawan",
     "birth_date": "1998-04-13",
-    "age": 27,
+    "age": 28,
     "nationality": "Thai",
     "height_cm": 160,
     "filmography": [
       "Mate"
     ],
-    "agency": "フリーランス",
+    "agency": "フリー",
     "instagram": "oaey.ponchanok"
   },
   {
@@ -292,7 +293,7 @@
     "real_name": "Lorena \"Lena\" Schuett",
     "birth_date": "1999-11-25",
     "age": 26,
-    "nationality": "Thai-Canadian（タイ・カナダ系）",
+    "nationality": "Thai-Canadian",
     "height_cm": 170,
     "filmography": [
       "My Safe Zone",
@@ -303,7 +304,7 @@
   },
   {
     "id": "miu",
-    "name_ja": "ミュー",
+    "name_ja": "ミュー (MiuLena)",
     "real_name": "Natsha \"Miu\" Taechamongkalapiwat",
     "birth_date": "2001-11-25",
     "age": 24,
@@ -322,7 +323,7 @@
     "real_name": "Ladapa \"Lilly\" Thongkham",
     "birth_date": "2002-05-23",
     "age": 23,
-    "nationality": "Thai（タイ・中国系）",
+    "nationality": "Thai (Chinese descent)",
     "height_cm": 170,
     "filmography": [
       "Harmony Secret",
@@ -350,7 +351,7 @@
     "name_ja": "ベル",
     "real_name": "Jiratchaya \"Belle\" Kittavornsakul",
     "birth_date": "2005-05-01",
-    "age": 20,
+    "age": 21,
     "nationality": "Thai",
     "height_cm": 160,
     "filmography": [
@@ -365,7 +366,7 @@
     "name_ja": "エミ",
     "real_name": "Thasorn \"Emi\" Klinnium",
     "birth_date": "1998-04-25",
-    "age": 27,
+    "age": 28,
     "nationality": "Thai",
     "height_cm": 165,
     "filmography": [
@@ -399,7 +400,7 @@
     "name_ja": "ボニー",
     "real_name": "Pattraphus \"Bonnie\" Borattasuwan",
     "birth_date": "2004-01-27",
-    "age": 21,
+    "age": 22,
     "nationality": "Thai",
     "height_cm": 161,
     "filmography": [
@@ -440,7 +441,7 @@
   },
   {
     "id": "mim",
-    "name_ja": "ミム",
+    "name_ja": "ミム (Panthita)",
     "real_name": "Panthita \"Mim\" Jencharoentham",
     "birth_date": "2000-07-04",
     "age": 25,
@@ -459,7 +460,7 @@
     "name_ja": "ジニー",
     "real_name": "Natnicha \"Ginny\" Pratipnatsiri",
     "birth_date": "2000-12-17",
-    "age": 24,
+    "age": 25,
     "nationality": "Thai",
     "height_cm": 161,
     "filmography": [
@@ -474,8 +475,8 @@
     "name_ja": "ジェイナ",
     "real_name": "Angelina \"Jayna\" Stevens",
     "birth_date": "2006-02-17",
-    "age": 19,
-    "nationality": "Thai (Thai/American ethnicity)",
+    "age": 20,
+    "nationality": "Thai-American",
     "height_cm": 170,
     "filmography": [
       "Poisonous Love",
@@ -495,7 +496,7 @@
     "filmography": [
       "Dangerous Queen"
     ],
-    "agency": "S.nur Entertainment",
+    "agency": "S.NUR Entertainment",
     "instagram": "phinyanech.h"
   },
   {
@@ -510,7 +511,7 @@
       "Song Tranong",
       "Dangerous Queen"
     ],
-    "agency": "S.nur Entertainment",
+    "agency": "S.NUR Entertainment",
     "instagram": "nurdesoraya"
   },
   {
@@ -532,7 +533,7 @@
     "name_ja": "ヤダ",
     "real_name": "Yada Narilya Gulmongkolpech",
     "birth_date": "2000-03-26",
-    "age": 25,
+    "age": 26,
     "nationality": "Thai",
     "height_cm": 163,
     "filmography": [
@@ -599,8 +600,8 @@
     "name_ja": "ジンジン",
     "real_name": "JingJing Prariyapit Yu",
     "birth_date": "1997-04-01",
-    "age": 28,
-    "nationality": "Thai (Thai-Chinese)",
+    "age": 29,
+    "nationality": "Thai (Chinese descent)",
     "height_cm": 173,
     "filmography": [
       "App War",
@@ -618,7 +619,7 @@
     "real_name": "Pundao \"Aom\" Panyabaramee",
     "birth_date": "1999-06-18",
     "age": 26,
-    "nationality": "Thai (born in Thailand, 100% Chinese ethnicity)",
+    "nationality": "Thai (Chinese descent)",
     "height_cm": 168,
     "filmography": [
       "Roller Coaster The Series",
@@ -632,7 +633,7 @@
     "name_ja": "ネコ",
     "real_name": "Naerunchara \"Neko\" Lertprasert",
     "birth_date": "1997-11-18",
-    "age": 27,
+    "age": 28,
     "nationality": "Thai",
     "height_cm": 157,
     "filmography": [
@@ -657,7 +658,7 @@
     "real_name": "Phetsai \"Shelly\" Chanrueng-Benda",
     "birth_date": "2003-07-21",
     "age": 22,
-    "nationality": "Thai (with Israeli from father)",
+    "nationality": "Thai-Israeli",
     "height_cm": 166,
     "filmography": [
       "Roller Coaster The Series",
@@ -671,7 +672,7 @@
     "name_ja": "ピチャ",
     "real_name": "Pitchatorn \"Noon\" / \"Pitcha\" Santinatornkul",
     "birth_date": "1998-02-09",
-    "age": 27,
+    "age": 28,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -693,7 +694,7 @@
     "name_ja": "ナット",
     "real_name": "Nattamon \"Natt\" Chokejindachai",
     "birth_date": "1995-12-11",
-    "age": 29,
+    "age": 30,
     "nationality": "Thai",
     "height_cm": 163,
     "filmography": [
@@ -737,7 +738,7 @@
     "name_ja": "ジューン",
     "real_name": "Wanwimol \"June\" Jaenasavamethee",
     "birth_date": "2000-04-19",
-    "age": 25,
+    "age": 26,
     "nationality": "Thai",
     "height_cm": 163,
     "filmography": [
@@ -805,7 +806,7 @@
   },
   {
     "id": "mim-r",
-    "name_ja": "ミム",
+    "name_ja": "ミム (Rattanawadee)",
     "real_name": "Rattanawadee \"Mim\" Wongthong",
     "birth_date": "2004-05-22",
     "age": 21,
@@ -824,7 +825,7 @@
     "real_name": "Renee Veronica",
     "birth_date": null,
     "age": 27,
-    "nationality": "タイ×イタリア",
+    "nationality": "Thai-Italian",
     "height_cm": null,
     "filmography": [
       "Beauty & The Bike"
@@ -834,7 +835,7 @@
   },
   {
     "id": "mew",
-    "name_ja": "ミュー",
+    "name_ja": "ミュー (Beauty & The Bike)",
     "real_name": "Khun Mew",
     "birth_date": null,
     "age": null,
@@ -852,12 +853,12 @@
     "real_name": "Milin \"Namneung\" Dokthian",
     "birth_date": "1996-11-11",
     "age": 29,
-    "nationality": "タイ",
+    "nationality": "Thai",
     "height_cm": 161,
     "filmography": [
       "The Fire"
     ],
-    "agency": "Idol Factory × North Star Entertainment",
+    "agency": "IDOLFACTORY × North Star Entertainment",
     "instagram": "milin.dokthian",
     "notes": "元BNK48 1期生"
   },
@@ -867,12 +868,12 @@
     "real_name": "Kanteera \"Noey\" Wadcharathadsanakul",
     "birth_date": "1997-04-09",
     "age": 29,
-    "nationality": "タイ",
+    "nationality": "Thai",
     "height_cm": 158,
     "filmography": [
       "The Fire"
     ],
-    "agency": "Idol Factory × North Star Entertainment",
+    "agency": "IDOLFACTORY × North Star Entertainment",
     "instagram": "noeyyyy.kw",
     "notes": "元BNK48 1期生"
   },
@@ -935,7 +936,7 @@
   },
   {
     "id": "fay",
-    "name_ja": "フェイ",
+    "name_ja": "フェイ (FayMay)",
     "real_name": "Fay Kanyaphat Na Nakhon",
     "birth_date": null,
     "age": null,
@@ -1248,7 +1249,7 @@
     "name_ja": "ルックケオ",
     "real_name": "Kamollak \"Lookkaew\" Sangsubsin",
     "birth_date": "2000-04-27",
-    "age": null,
+    "age": 26,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [

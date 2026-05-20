@@ -31,7 +31,29 @@ export const upcoming: UpcomingDrama[] = [
   ...upcomingRaw.filter((d) => !d.pending),
   ...upcomingRaw.filter((d) => d.pending),
 ];
-export const actresses = actressesData as unknown as Actress[];
+/**
+ * birth_date から今日時点の満年齢を返す。形式エラー時は null。
+ * JSON の age フィールドは経年で陳腐化するため、ビルド時に動的計算で上書きする。
+ */
+function calcAgeFromBirthDate(birthDate: string | null | undefined): number | null {
+  if (!birthDate) return null;
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(birthDate);
+  if (!m) return null;
+  const y = Number(m[1]);
+  const mo = Number(m[2]);
+  const d = Number(m[3]);
+  const today = new Date();
+  let age = today.getFullYear() - y;
+  if (today.getMonth() + 1 < mo || (today.getMonth() + 1 === mo && today.getDate() < d)) {
+    age -= 1;
+  }
+  return age;
+}
+
+export const actresses = (actressesData as unknown as Actress[]).map((a) => {
+  const computed = calcAgeFromBirthDate(a.birth_date);
+  return computed !== null ? { ...a, age: computed } : a;
+});
 export const companies = companiesData as unknown as Company[];
 export const taxonomy = taxonomyData as unknown as Taxonomy;
 export const questionsFile = questionsData as unknown as QuestionsFile;

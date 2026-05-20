@@ -45,7 +45,7 @@ GAP 以前はモデル・小さな役柄を中心に活動。
 ## 2022 — GAP: The Series（火種となった一作）
 
 放送開始: 2022年11月19日（タイ）
-全8話、IDOLFACTORY 制作。
+全12話、IDOLFACTORY 制作。
 
 **御曹司CEO Sam（Freen）の会社に、彼女に憧れる新入社員 Mon（Becky）が入社する**——
 タイGLの代名詞となった本作。

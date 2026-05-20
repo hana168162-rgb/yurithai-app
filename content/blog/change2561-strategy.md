@@ -191,7 +191,7 @@ CHANGE2561 はLMSYだけを抱えているわけではありません。
 - **2025年**: Harmony Secret サブCPとして本格登場、メイン LMSY を支えながら存在感を発揮
 - **2026年**: 主演に昇格、**[I Wanna Be Sup'tar](/dramas/i-wanna-be-suptar)** で初めての単独主演を獲得
 
-[I Wanna Be Sup'tar](/dramas/i-wanna-be-suptar) は2026年2月12日〜4月9日、木曜20:30 / WeTV UNCUT版で全10話放送された
+[I Wanna Be Sup'tar](/dramas/i-wanna-be-suptar) は2026年2月6日〜3月27日、金曜放送 / WeTV UNCUT版で全8話放送された
 **LillyBelle主演のラブコメ**。
 スターを夢見るが成功したことのない女性と、芸能界に疲れ果てて逃げ出したいスター——
 **対照的な2人の同居生活**を、軽やかなコメディタッチで描きました。

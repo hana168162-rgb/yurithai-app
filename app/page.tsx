@@ -8,6 +8,33 @@ import { DramaCard } from "@/components/DramaCard";
 import { WatchingCard } from "@/components/WatchingCard";
 import { UpcomingCard } from "@/components/UpcomingCard";
 import { JsonLd, buildFaqJsonLd } from "@/components/JsonLd";
+import type { UpcomingDrama } from "@/lib/types";
+
+/**
+ * 公開予定作品の優先度ソートキー。
+ *   0: 具体的な公開日が判明（announced_forに "YYYY年MM月DD日" を含む）→ 日付の昇順
+ *   1: 公開年のみ判明（"2026年内予定" 等）
+ *   2: 未発表 / pending
+ * トップページでは「日付確定 > 年のみ > 未定」の順で並べる。
+ */
+function upcomingPriority(d: UpcomingDrama): [number, string] {
+  const a = d.announced_for || "";
+  const m = a.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  if (m) {
+    const [, y, mo, day] = m;
+    const dateStr = `${y}-${mo.padStart(2, "0")}-${day.padStart(2, "0")}`;
+    return [0, dateStr];
+  }
+  if (d.pending || a === "未発表") return [2, a];
+  return [1, a];
+}
+
+const upcomingSortedByDate: UpcomingDrama[] = [...upcoming].sort((a, b) => {
+  const [pa, ka] = upcomingPriority(a);
+  const [pb, kb] = upcomingPriority(b);
+  if (pa !== pb) return pa - pb;
+  return ka.localeCompare(kb);
+});
 
 const HOME_FAQ = [
   {
@@ -123,7 +150,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            {upcoming.slice(0, 4).map((d, i) => (
+            {upcomingSortedByDate.slice(0, 4).map((d, i) => (
               <div key={d.slug} className={i === 3 ? "md:hidden" : ""}>
                 <UpcomingCard drama={d} />
               </div>

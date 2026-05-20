@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { TripcomCard } from "@/components/TripcomCard";
+import { TripcomSaleBanner } from "@/components/TripcomSaleBanner";
 import { AFFILIATE_DISCLOSURE_LONG } from "@/lib/affiliate";
 import {
   JsonLd,
@@ -63,7 +64,12 @@ export default function TravelGuidePage() {
       <h1 className="text-2xl md:text-3xl font-medium text-yuri-ink mb-3 leading-tight">
         タイGLファンのためのバンコク旅行ガイド — 推し活・聖地巡礼の完全マニュアル
       </h1>
-      <p className="text-sm text-yuri-muted mb-8">最終更新: 2026年5月 · YuriThai 編集部</p>
+      <p className="text-sm text-yuri-muted mb-6">最終更新: 2026年5月 · YuriThai 編集部</p>
+
+      {/* ヒーロー直下のセール訴求バナー */}
+      <div className="mb-8">
+        <TripcomSaleBanner />
+      </div>
 
       <p className="text-[15px] leading-[1.9] text-yuri-ink/85 mb-6">
         タイGLにハマると、いつかは行きたくなるのが**バンコク**。

@@ -204,6 +204,15 @@ YuriThai 編集部がおすすめする**2026年後半に向けた「今のう�
 
 ---
 
+<div style="border:1px solid rgba(217,134,118,0.4);border-radius:8px;padding:14px 16px;margin:20px 0;background:linear-gradient(90deg,rgba(217,134,118,0.12) 0%,#fcf8f3 50%,rgba(165,197,212,0.3) 100%);font-size:14px;line-height:1.7;position:relative;">
+<span style="position:absolute;top:6px;right:8px;font-size:10px;color:#8a8580;background:#0001;padding:1px 6px;border-radius:3px;letter-spacing:0.05em;">広告</span>
+<strong style="display:inline-block;font-size:10px;letter-spacing:0.05em;color:#d98676;background:rgba(217,134,118,0.15);padding:2px 6px;border-radius:3px;margin-right:6px;vertical-align:middle;">期間限定</strong>
+<strong style="color:#2a3d4d;">Trip.com ホリデーセール開催中</strong><br>
+2026年後半のファンミ・聖地巡礼でバンコクへ行くなら、今のうちに航空券・ホテルをチェック。<a href="https://jp.trip.com/sale/w/27435/holidaydeals2025.html?locale=ja-JP&promo_referer=3373_27435_4&Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=P17191449" target="_blank" rel="sponsored nofollow noopener noreferrer" style="color:#d98676;font-weight:500;">セールページへ →</a>
+</div>
+
+---
+
 ## 関連リンク
 
 - [2026年版タイGLおすすめランキング](/blog/thai-gl-ranking-2026)

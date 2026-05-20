@@ -163,6 +163,21 @@ export const TRIPCOM_TOP = {
   cta: "Trip.com トップへ",
 } as const;
 
+// Trip.com セール（ホリデーディール）向けの計測URL — 季節キャンペーン枠
+const TRIPCOM_SALE_DEFAULT_URL =
+  "https://jp.trip.com/sale/w/27435/holidaydeals2025.html?locale=ja-JP&promo_referer=3373_27435_4&Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=P17191449";
+
+export const TRIPCOM_SALE = {
+  /** 計測付きアフィリエイトURL（ホリデーセール）。 */
+  url: process.env.NEXT_PUBLIC_TRIPCOM_SALE_AFF_URL || TRIPCOM_SALE_DEFAULT_URL,
+
+  /** バナー見出し */
+  cardTitle: "Trip.com ホリデーセール開催中",
+  cardSubtitle:
+    "航空券・ホテルがセール価格で予約できる期間限定キャンペーン。バンコク旅行を計画中ならこのタイミングを見逃さないで。",
+  cta: "セールページを見る",
+} as const;
+
 /** PR表記（短） */
 export const AFFILIATE_DISCLOSURE_SHORT = "広告";
 

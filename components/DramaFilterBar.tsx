@@ -242,7 +242,7 @@ export function DramaFilterBar({
             onChange={(e) => setActressId(e.target.value)}
             className={selectClassName}
           >
-            <option value="">Actress: All</option>
+            <option value="">女優：すべて</option>
             {actressOptions.map((opt) => (
               <option key={opt.id} value={opt.id}>
                 {opt.label}

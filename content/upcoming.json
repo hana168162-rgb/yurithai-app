@@ -204,15 +204,29 @@
     "title_ja": "Chasing Love",
     "title_en": "Chasing Love",
     "title_th": "ตามล่าหารัก",
-    "production": "CHANGE2561",
+    "production": "CHANGE2561 Original × ONE31",
     "cast_pair": "Nile Chanidapa Sommitthanakul × Namwan Natchaya Vongbut（NileNamwan）",
     "status": "upcoming",
-    "announced_for": "2026年5月29日〜",
-    "synopsis": "CHANGE2561が送る新世代GLペアNileNamwanの初主演作。3組のカップルが織りなす群像劇で、Nile × Namwanがメイン、Fay × Gene、Gift × Aomsinがサイドの物語として展開する。",
-    "note": "CHANGE2561制作 / 原作Peony / 2026年5月29日〜放送 / 全8話 / 新ペアNileNamwanデビュー作 / 3組のカップルの群像劇",
-    "cover_image": null,
+    "announced_for": "2026年5月29日〜7月17日",
+    "synopsis": "一方は近づこうとし、もう一方は突き放そうとする──そんな相反する想いを抱えた2人のラブストーリー。CHANGE2561が送る新世代GLペアNileNamwanの初主演作で、3組のカップルが織りなす群像劇。Nile × Namwanがメイン、Fay × Gene、Gift × Aomsinがサイドストーリーとして展開する。",
+    "note": "CHANGE2561 Original制作 / 原作Peony / 監督Bo Pantip Vibultham / 2026年5月29日（金）〜7月17日 全8話 / ONE31 毎週金22:30〜 TV版 / Netflix Worldwide Uncut版 23:30〜 / oneD Thailand Only Uncut版 23:30〜 / NileNamwanデビュー作",
+    "cover_image": "/images/dramas/chasing-love.jpg",
     "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/YVECcuW7swA"
+    "youtube_teaser": "https://youtu.be/YVECcuW7swA",
+    "streaming": [
+      {
+        "platform": "ONE31 (TV)",
+        "url": "https://www.one31.net"
+      },
+      {
+        "platform": "Netflix (Worldwide Uncut)",
+        "url": "https://www.netflix.com"
+      },
+      {
+        "platform": "oneD (Thailand Uncut)",
+        "url": "https://www.oned.net"
+      }
+    ]
   },
   {
     "id": 215,
@@ -220,13 +234,13 @@
     "title_ja": "Hidden Heart",
     "title_en": "Hidden Heart",
     "title_th": "รักพรางใจ",
-    "production": "（制作社未公表）",
-    "cast_pair": "Praewa Putticha Boonyamas × Noon Thunyaphat Inyawilert",
+    "production": "Star Hunter Entertainment",
+    "cast_pair": "Praewa Putticha Boonyamas × Noon Thunyaphat Inyawilert（NoonPraewa）",
     "status": "upcoming",
-    "announced_for": "未発表",
-    "synopsis": "ワとアイ、運命のタイミングを誤って出会った二人。心に秘めた想いの重みと、声に出せない感情を描く、静かで切ないロマンス。",
-    "note": "原作: Flower of Memory『รักพรางใจ（Hidden Heart）』/ Praewa × Noon主演 / 詳細未発表",
-    "cover_image": null,
+    "announced_for": "2026年内予定",
+    "synopsis": "「右の人を、右の時に見つければ──それは恋。\nでも、右の人を、間違った時に見つけてしまったら──それは『隠れた愛』に過ぎないのかもしれない」\n\nプレワとヌーン演じるワとアイ、運命のタイミングを誤って出会った二人。心に秘めた想いの重みと、声に出せない感情を描く、静かで切ないGLロマンス。",
+    "note": "Star Hunter Entertainment制作 / 原作: Flower of Memory（ดอกไม้แห่งความทรงจำ）『รักพรางใจ』 / STH PROJECT LINE UP 2026発表作 / NoonPraewa（Noon Thunyaphat × Praewa Putticha）初の主演GL / Official Pilot 2025年12月12日公開 / Love Senior（2023）のサブカップルからメイン昇格",
+    "cover_image": "/images/dramas/hidden-heart.jpg",
     "cover_credit": null,
     "youtube_teaser": "https://youtu.be/DBfacLBfsrA"
   },
@@ -242,7 +256,7 @@
     "announced_for": "2026年内予定",
     "synopsis": "理性的な警察官ピーム（Pui）と、古代の儀式と信仰を司る霊媒師ブラン（Bint）が、ある事件の捜査のため対立しながら協力していく。聖なる文字、神秘的なシンボル、オカルトの世界を背景に、二人の間に否応なく芽生える絆を描く。",
     "note": "Star Hunter Entertainment制作 / 原作: Luxurious.W『ข่มขลัง（Formidable Eyes）』/ STH PROJECT LINE UP 2026 発表作 / BintPuiNoonの3人主演",
-    "cover_image": null,
+    "cover_image": "/images/dramas/khom-khlang.jpg",
     "cover_credit": null,
     "youtube_teaser": "https://youtu.be/II86VoZ6v3A"
   },

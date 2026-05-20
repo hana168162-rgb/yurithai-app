@@ -15,7 +15,7 @@ export default function TokushohoPage() {
         特定商取引法に基づく表記
       </h1>
       <p className="text-xs text-yuri-muted mb-8">
-        最終更新: 2026年5月
+        最終更新: 2026年5月20日
       </p>
 
       <table className="w-full text-sm">

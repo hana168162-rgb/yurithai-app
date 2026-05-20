@@ -15,7 +15,7 @@ export default function AdvertisingPolicyPage() {
         広告掲載ポリシー
       </h1>
       <p className="text-xs text-yuri-muted mb-8">
-        制定日: 2026年5月
+        制定日: 2026年5月 / 改定日: 2026年5月20日
       </p>
 
       <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-1">
@@ -48,6 +48,13 @@ export default function AdvertisingPolicyPage() {
             <br />
             <span className="text-xs text-yuri-muted">
               関連ページ: <Link href="/guide/vpn" className="text-yuri-rose hover:opacity-80 underline">VPNとタイGL ガイド</Link>
+            </span>
+          </li>
+          <li>
+            <strong className="font-medium">Trip.com</strong>（Trip.com Group Ltd. 提供）
+            <br />
+            <span className="text-xs text-yuri-muted">
+              関連ページ: <Link href="/guide/travel-to-thailand" className="text-yuri-rose hover:opacity-80 underline">タイ旅行・聖地巡礼ガイド</Link>
             </span>
           </li>
         </ul>

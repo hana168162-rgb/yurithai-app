@@ -15,7 +15,7 @@ export default function TermsPage() {
         利用規約
       </h1>
       <p className="text-xs text-yuri-muted mb-8">
-        制定日: 2026年5月
+        制定日: 2026年5月 / 改定日: 2026年5月20日
       </p>
 
       <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-1">

@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         プライバシーポリシー
       </h1>
       <p className="text-xs text-yuri-muted mb-8">
-        制定日: 2026年5月 / 改定日: —
+        制定日: 2026年5月 / 改定日: 2026年5月20日
       </p>
 
       <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-1">
@@ -54,8 +54,11 @@ export default function PrivacyPage() {
 
         <h2>4. アフィリエイト広告と第三者 Cookie</h2>
         <p>
-          当サイトは <strong className="font-medium">NordVPN®</strong> をはじめとする
-          第三者のアフィリエイト広告プログラムに参加しています。
+          当サイトは <strong className="font-medium">NordVPN®</strong>
+          （Nord Security / Nordsec Ltd. 提供）および
+          <strong className="font-medium">Trip.com</strong>
+          （Trip.com Group Ltd. 提供）の
+          アフィリエイト広告プログラムに参加しています。
           これらの広告リンクをクリックして広告主のサイトに遷移した際、
           広告主または広告ネットワーク（Impact 等）が、成果計測のために
           訪問者のブラウザに Cookie を設定することがあります。

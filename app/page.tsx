@@ -18,7 +18,7 @@ const HOME_FAQ = [
   {
     question: "タイGLはどこで観られますか？",
     answer:
-      "作品によりますが、TELASA・U-NEXT・Netflix日本・iQIYI日本・YouTube公式チャンネル等で視聴できる作品があります。YuriThaiの各作品ページの「どこで見れる？」セクションで、作品ごとの配信先を確認できます。",
+      "作品によりますが、TELASA・Netflix日本・iQIYI日本・YouTube公式チャンネル等で視聴できる作品があります。YuriThaiの各作品ページの「どこで見れる？」セクションで、作品ごとの配信先を確認できます。",
   },
   {
     question: "タイGL初心者は何から観ればいいですか？",

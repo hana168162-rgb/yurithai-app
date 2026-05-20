@@ -373,7 +373,7 @@ export default function WhatIsThaiGlPage() {
 
       <h3 className="text-base font-medium text-yuri-navy mt-5 mb-2">Q. 日本語字幕はある？</h3>
       <p className="text-[15px] leading-[1.9] text-yuri-ink/85 mb-4">
-        日本配信されている作品（TELASA・U-NEXT・Netflix日本・iQIYI日本等）は基本的に日本語字幕付き。
+        日本配信されている作品（TELASA・Netflix日本・iQIYI日本等）は基本的に日本語字幕付き。
         YouTube公式配信は作品により異なり、英語字幕中心の作品もあります。
         各作品ページの「配信先」を確認ください。
       </p>

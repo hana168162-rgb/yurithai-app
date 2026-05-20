@@ -57,6 +57,14 @@ export default function AdvertisingPolicyPage() {
               関連ページ: <Link href="/guide/travel-to-thailand" className="text-yuri-rose hover:opacity-80 underline">タイ旅行・聖地巡礼ガイド</Link>
             </span>
           </li>
+          <li>
+            <strong className="font-medium">Google AdSense</strong>（Google LLC 提供）
+            <br />
+            <span className="text-xs text-yuri-muted">
+              サイト全体の自動配信広告。Cookie ベースの興味関心連動広告を含む。
+              詳細: <a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener noreferrer" className="text-yuri-rose hover:opacity-80 underline">広告 - Google ポリシー</a>
+            </span>
+          </li>
         </ul>
         <p className="text-xs text-yuri-muted">
           ※ 今後、掲載プログラムを追加・変更する場合は本ページを更新します。

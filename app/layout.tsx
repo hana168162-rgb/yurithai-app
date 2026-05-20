@@ -12,6 +12,7 @@ import { CampaignBanner } from "@/components/CampaignBanner";
 import { Footer } from "@/components/Footer";
 import { JsonLd, buildWebSiteJsonLd } from "@/components/JsonLd";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { GoogleAdSense } from "@/components/GoogleAdSense";
 
 // next/font: ビルド時にフォントをセルフホストし、CSS変数で配信する。
 // この方式だと「ブラウザがGoogle Fontsを取りに行くときのレイアウト崩れ（CLS）」を解消できる。
@@ -128,6 +129,7 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         <GoogleAnalytics />
+        <GoogleAdSense />
       </body>
     </html>
   );

@@ -64,6 +64,16 @@ export default function PrivacyPage() {
           訪問者のブラウザに Cookie を設定することがあります。
         </p>
         <p>
+          また、当サイトは Google 社の広告配信サービス
+          <strong className="font-medium">Google AdSense</strong>
+          を利用する場合があります。Google AdSense は Cookie を使用して、
+          当サイトおよび他のサイトへのアクセスに関する情報に基づいて、
+          利用者の興味に応じた広告を配信します。
+          Cookie を無効にする方法および Google AdSense の詳細については、
+          {" "}<a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener noreferrer" className="text-yuri-rose hover:opacity-80 underline">広告 - ポリシーと規約 – Google</a>{" "}
+          をご確認ください。
+        </p>
+        <p>
           これらの第三者 Cookie の取得・利用は、各広告主または広告ネットワークの
           プライバシーポリシーに基づき、当社の管理外で行われます。
           当社は個別の訪問者の閲覧履歴を取得・保持しません。

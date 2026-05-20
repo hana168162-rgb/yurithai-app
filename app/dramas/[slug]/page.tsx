@@ -274,7 +274,7 @@ export default function DramaDetailPage({
             )}
 
             {synopsis && (
-              <p className="text-sm leading-relaxed text-yuri-ink/80">
+              <p className="text-sm leading-relaxed text-yuri-ink/80 max-w-prose whitespace-pre-line">
                 {synopsis}
               </p>
             )}

@@ -36,6 +36,12 @@ const upcomingSortedByDate: UpcomingDrama[] = [...upcoming].sort((a, b) => {
   return ka.localeCompare(kb);
 });
 
+/**
+ * ISR (Incremental Static Regeneration) で1時間ごとに再生成。
+ * 「今日の放送曜日に応じた pickup のソート」が日々最新化される。
+ */
+export const revalidate = 3600;
+
 const HOME_FAQ = [
   {
     question: "タイGLとは何ですか？",

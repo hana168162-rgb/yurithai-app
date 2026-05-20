@@ -190,9 +190,72 @@ export function getFeaturedCompletedDramas(limit = 6): Drama[] {
     .slice(0, limit);
 }
 
-// Watching list serves as homepage "currently airing pickup"
+// =============================================
+//  放送曜日ベースの「ピックアップ」優先ソート
+// =============================================
+
+/**
+ * 日本語の曜日漢字 → 数値 (Sun=0, Mon=1, ..., Sat=6) マップ
+ */
+const DAY_OF_WEEK_JA: Record<string, number> = {
+  日: 0, 月: 1, 火: 2, 水: 3, 木: 4, 金: 5, 土: 6,
+};
+
+/**
+ * note フィールドから「毎週X曜」を抽出して放送曜日を返す。
+ * 見つからない場合は null。
+ */
+function getBroadcastDay(d: WatchingDrama): number | null {
+  const note = d.note || "";
+  const m = note.match(/毎週\s*(日|月|火|水|木|金|土)曜/);
+  if (!m) return null;
+  return DAY_OF_WEEK_JA[m[1]] ?? null;
+}
+
+/**
+ * 「放送曜日の前日」を最優先にするためのソートキー。
+ * - 翌日が放送日（daysUntil=1）→ 0（最優先）
+ * - 2日後（daysUntil=2）→ 1
+ * - ...
+ * - 今日が放送日（daysUntil=0）→ 6（一番下）
+ * - 放送日が抽出できなかった作品 → 99（リストの末尾）
+ *
+ * ユーザーリクエスト: "土曜だったら金曜には１番先頭に来る" を反映。
+ */
+function pickupSortKey(d: WatchingDrama, todayDow: number): number {
+  const bd = getBroadcastDay(d);
+  if (bd === null) return 99;
+  const daysUntil = (bd - todayDow + 7) % 7;
+  return daysUntil === 0 ? 6 : daysUntil - 1;
+}
+
+/**
+ * Asia/Bangkok タイムゾーンでの曜日 (Sun=0..Sat=6) を取得する。
+ * watching の note にある「毎週X曜」はタイ放送日基準なので、ソートもタイ時間で行う。
+ * （JST と ICT は2時間差なので、深夜・早朝で曜日がズレるケースが発生する）
+ */
+function getBangkokDow(): number {
+  const fmt = new Intl.DateTimeFormat("en-US", {
+    weekday: "short",
+    timeZone: "Asia/Bangkok",
+  });
+  const day = fmt.format(new Date());
+  const map: Record<string, number> = {
+    Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6,
+  };
+  return map[day] ?? 0;
+}
+
+/**
+ * トップページの「ピックアップ」セクション用。
+ * 放送中作品を「次の放送日が近い順」に並べる（前日が最優先）。
+ * ビルド時の日付ベースなので、ISR (revalidate) と組み合わせて使う。
+ */
 export function getCurrentPickup(): WatchingDrama[] {
-  return getActiveWatching().slice(0, 4);
+  const todayDow = getBangkokDow();
+  return [...getActiveWatching()]
+    .sort((a, b) => pickupSortKey(a, todayDow) - pickupSortKey(b, todayDow))
+    .slice(0, 4);
 }
 
 // =============================================

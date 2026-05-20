@@ -120,6 +120,11 @@ export default function RootLayout({
       lang="ja"
       className={`${plusJakarta.variable} ${notoSansJp.variable} ${quicksand.variable}`}
     >
+      <head>
+        {/* AdSenseクローラが <head> に直接設置された <script> を期待するため、
+            ここで生のscriptタグを出力する（Next.jsの<Script>ラッパーは使わない）。 */}
+        <GoogleAdSense />
+      </head>
       <body className="min-h-screen flex flex-col">
         <JsonLd data={buildWebSiteJsonLd()} />
         <Header />
@@ -129,7 +134,6 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         <GoogleAnalytics />
-        <GoogleAdSense />
       </body>
     </html>
   );

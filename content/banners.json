@@ -2,7 +2,7 @@
   {
     "id": "recommend",
     "title": "5問で、あなたに合う1作を",
-    "subtitle": "タイGLおすすめ診断、好評公開中",
+    "subtitle": "おすすめ診断、精度UP版を公開しました",
     "cta": "診断する",
     "href": "/recommend",
     "bg": "from-yuri-gold to-yuri-pink",
@@ -11,8 +11,8 @@
   },
   {
     "id": "upcoming-spotlight",
-    "title": "2026年、見逃せない公開予定12作",
-    "subtitle": "Cranium / Her / Moonshadow ほか",
+    "title": "2026年、見逃せない公開予定17作",
+    "subtitle": "Chasing Love / The Fire / Cranium ほか",
     "cta": "公開予定を見る",
     "href": "/dramas/upcoming",
     "bg": "from-yuri-teal to-yuri-cream",
@@ -20,14 +20,34 @@
     "icon": "🌙"
   },
   {
-    "id": "blog-emibonnie",
-    "title": "新ブログ：EmiBonnieという「日常」",
-    "subtitle": "Us で華々しくデビューした新世代ペアの魅力",
+    "id": "blog-star-hunter",
+    "title": "新ブログ：Star Hunter Entertainment特集",
+    "subtitle": "T-pop事務所がタイGLを変える、育成戦略の全貌",
     "cta": "読む",
-    "href": "/blog/emibonnie-feature",
+    "href": "/blog/star-hunter-gl-strategy",
     "bg": "from-yuri-pink to-yuri-lilac",
     "fg": "text-yuri-ink",
     "icon": "📖"
+  },
+  {
+    "id": "blog-mookpink",
+    "title": "新ブログ：MookPink × インディーズGLの躍進",
+    "subtitle": "YouTube/TikTokからMCOT HD地上波への業界事件",
+    "cta": "読む",
+    "href": "/blog/mookpink-indie-gl-breakthrough",
+    "bg": "from-yuri-lilac to-yuri-teal",
+    "fg": "text-yuri-ink",
+    "icon": "📺"
+  },
+  {
+    "id": "blog-englot",
+    "title": "新ブログ：EngLot 4年の軌跡",
+    "subtitle": "Miss Grand Thailandから主役級ペアへ",
+    "cta": "読む",
+    "href": "/blog/englot-history",
+    "bg": "from-yuri-rose to-yuri-pink",
+    "fg": "text-yuri-cream",
+    "icon": "🌹"
   },
   {
     "id": "tripcom-bangkok",

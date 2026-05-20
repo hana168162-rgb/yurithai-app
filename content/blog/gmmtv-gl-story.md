@@ -283,7 +283,7 @@ GMMTV GLが初めての方への**おすすめ視聴順**:
 - [完結作品一覧](/dramas)
 - [放送中作品](/dramas/airing)
 - [公開予定作品](/dramas/upcoming)
-- [ペア一覧](/cast)
+- [女優一覧](/cast)
 
 ---
 

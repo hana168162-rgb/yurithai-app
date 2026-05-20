@@ -252,5 +252,5 @@ YuriThaiの[**おすすめ診断**](/recommend) を試してみてください�
 - [完結作品一覧](/dramas)
 - [放送中作品](/dramas/airing)
 - [公開予定作品](/dramas/upcoming)
-- [ペア一覧](/cast)
+- [女優一覧](/cast)
 - [タイGLおすすめ診断](/recommend)

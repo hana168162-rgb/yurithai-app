@@ -213,7 +213,7 @@ export default function WhatIsThaiGlPage() {
         <li><strong className="font-medium">TKNur</strong> — Tangkwa Phinyanech × Nur Desoraya（S.NUR Entertainment、Dangerous Queen）</li>
       </ul>
       <p className="text-[15px] leading-[1.9] text-yuri-ink/85 mb-4">
-        詳しくは <Link href="/cast" className="text-yuri-rose hover:opacity-80 underline">ペア一覧ページ</Link> をご覧ください。
+        詳しくは <Link href="/cast" className="text-yuri-rose hover:opacity-80 underline">女優一覧ページ</Link> をご覧ください。
       </p>
 
       <h2 id="representative" className="text-xl font-medium text-yuri-navy mb-3 mt-10 pb-1 border-b border-yuri-edge">

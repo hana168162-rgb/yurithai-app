@@ -2,12 +2,12 @@ import { dramas, watching, getActressesForPair, pairs } from "@/lib/content";
 import { ActressProfile } from "@/components/ActressProfile";
 
 export const metadata = {
-  title: "ペア一覧（タイGL主演ペア）",
+  title: "女優一覧（タイGL主演ペア・女優）",
   description:
-    "FreenBecky、LingOrm、MilkLove、NamtanFilm、EngLot、KaoJane、LMSY など、タイGLドラマの主要ペアを網羅。出演女優のプロフィール・出演作品を日本語で紹介。",
+    "FreenBecky、LingOrm、MilkLove、NamtanFilm、EngLot、KaoJane、LMSY など、タイGLドラマの主要ペアと出演女優を網羅。プロフィール・出演作品を日本語で紹介。",
   alternates: { canonical: "https://yurithai.jp/cast" },
   openGraph: {
-    title: "ペア一覧（タイGL主演ペア） | YuriThai",
+    title: "女優一覧（タイGL主演ペア・女優） | YuriThai",
     url: "https://yurithai.jp/cast",
     type: "website",
   },
@@ -60,7 +60,7 @@ export default function CastPage() {
     <div className="mx-auto max-w-4xl px-6 py-10">
       <header className="mb-8">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-          ペア一覧
+          女優
         </h1>
         <p className="text-sm text-yuri-muted">全{pairList.length}ペア</p>
       </header>

@@ -270,7 +270,7 @@ S.NUR、Moongdoo、Snap25、Nar-ra-tor などの新興プレイヤーが、
 - [EmiBonnie 特集](/blog/emibonnie-feature)
 - [TKNur 軌跡](/blog/tknur-rise-story)
 - [GinJay 軌跡](/blog/ginjay-rise-story)
-- [ペア一覧](/cast)
+- [女優一覧](/cast)
 
 ---
 

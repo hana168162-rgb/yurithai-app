@@ -82,7 +82,7 @@ export default function ActressDetailPage({
   const personJsonLd = buildPersonJsonLd(actress, dramaTitles);
   const breadcrumbJsonLd = buildBreadcrumbJsonLd([
     { name: "トップ", url: `${SITE_URL}/` },
-    { name: "ペア一覧", url: `${SITE_URL}/cast` },
+    { name: "女優", url: `${SITE_URL}/cast` },
     { name: actress.name_ja, url: `${SITE_URL}/cast/${actress.id}` },
   ]);
 
@@ -98,7 +98,7 @@ export default function ActressDetailPage({
         </Link>
         <span className="mx-1.5">/</span>
         <Link href="/cast" className="hover:text-yuri-rose">
-          ペア一覧
+          女優
         </Link>
         <span className="mx-1.5">/</span>
         <span>{actress.name_ja}</span>

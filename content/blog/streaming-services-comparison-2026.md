@@ -1,6 +1,6 @@
 ---
-title: "【2026年版】タイGLを観るための配信サービス完全比較 — iQIYI / WeTV / Netflix / YouTube / TELASA / U-NEXT"
-description: "タイGLドラマを日本から正規ルートで観るための配信サービスを徹底比較。iQIYI、WeTV、Netflix、YouTube、TELASA、U-NEXT それぞれの強みと、作品別の最適プラットフォームをまとめます。"
+title: "【2026年版】タイGLを観るための配信サービス完全比較 — iQIYI / WeTV / Netflix / YouTube / TELASA"
+description: "タイGLドラマを日本から正規ルートで観るための配信サービスを徹底比較。iQIYI、WeTV、Netflix、YouTube、TELASA それぞれの強みと、作品別の最適プラットフォームをまとめます。"
 date: "2026-05-20"
 category: "guide"
 tags: ["配信サービス", "iQIYI", "WeTV", "Netflix", "YouTube", "TELASA", "U-NEXT", "タイGL"]
@@ -137,21 +137,6 @@ TELASA（KDDI 系）は日本発の配信サービス。**iQIYI 提携で iQIYI 
 ### こんな人におすすめ
 - au ユーザー
 - 日本語字幕必須でタイGLを観たい人
-
----
-
-## 6. U-NEXT — 将来的なポテンシャル
-
-U-NEXT は日本国内最大級の動画配信サービス。
-2026年5月現在、**タイGL の本格的なラインナップは限定的**ですが、タイBLの実績豊富で、GLにも順次対応していくと見られています。
-
-### 現状
-- タイBL は充実、タイGL は限定的
-- ポイント還元で関連作品レンタル可能
-
-### 将来的に期待
-- 日本ファン層が拡大する中、独占配信契約の可能性あり
-- 既存契約者は今後の動向に注目
 
 ---
 

@@ -221,7 +221,7 @@ IDOLFACTORY × North Star Entertainment 共同制作の話題作。
 
 - **[NamtanFilm × Girl Rules](/dramas/girl-rules)**（2026・放送中）— GMMTVの3組共演アンサンブル
 - **[Bake Love Feeling](/dramas/bake-love-feeling)**（2026・公開予定）— ViewMim主演、職場 × カフェの王道
-- **[Uranus 2324](/dramas/uranus-2324)**（2024）— SF映画GL、月面に取り残された二人
+- **Uranus 2324**（2024）— SF映画GL、フリーダイバーKathと宇宙飛行士Linが2324年に再会する物語
 - **[Moonshadow](/dramas/moonshadow)**（公開予定）— EmiBonnieの第2作
 
 公開予定作品の一覧は [/dramas/upcoming](/dramas/upcoming) で確認できます。

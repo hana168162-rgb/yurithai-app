@@ -81,7 +81,7 @@ GMMTV 初の本格GL。高校生 Ongsa と Sun の青春。
 
 ### アクション・SFが好きなら
 
-**10. [Uranus 2324](/dramas/uranus-2324)**（FreenBecky / 2024）
+**10. Uranus 2324**（FreenBecky / 2024）
 フリーダイバー Kath と宇宙飛行士 Lin が 2324年に再会するSF映画。
 **ジャンル映画としても楽しめる**意欲作。
 

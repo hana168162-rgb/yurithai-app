@@ -123,7 +123,7 @@ IDOLFACTORYはこのリスクを取りました。理由は明確で、
 ## 2024年（同年）— Uranus 2324で映画にも進出
 
 The Loyal Pinと同じ2024年、IDOLFACTORYはさらに**映画**にも進出。
-**[Uranus 2324](/dramas/uranus-2324)** は、フリーダイバーKath（Becky）と宇宙飛行士Lin（Freen）が2324年の世界で時空を超えて再会する、スケールの大きいSFロマンス映画。
+**Uranus 2324** は、フリーダイバーKath（Becky）と宇宙飛行士Lin（Freen）が2324年の世界で時空を超えて再会する、スケールの大きいSFロマンス映画。
 スペクタクルと密度の高い感情演技を両立させた作品でした。
 
 これにより、IDOLFACTORYは:

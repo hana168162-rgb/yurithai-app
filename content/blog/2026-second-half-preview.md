@@ -63,7 +63,9 @@ Pluto・Girl Rules に続く、演技派ペアの新章。
 
 ### Cranium（FreenBecky）
 **[Cranium](/dramas/cranium)** は、**[FreenBecky](/cast/freen)** の IDOLFACTORY 新作。
-医療を舞台にしたライバル医師の対立を描くと見られる注目作。
+法医人類学者 Dr. Phin（Freen）と、元学術ライバル Dr. Bua（Becky）が、
+ある頭蓋骨から始まる事件を追う**心理サスペンス × 法医学ミステリー**。
+元恋人 → 敵 → 恋人という関係性で、**2025年カンヌ映画祭に選出された初のGL作品**としても話題に。
 
 ---
 

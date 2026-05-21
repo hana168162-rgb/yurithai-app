@@ -17,6 +17,15 @@ const nextConfig = {
         destination: "https://yurithai.jp/:path*",
         permanent: true,
       },
+
+      // ---- 旧URL → 新URL の 301 リダイレクト ----
+      // slug変更で生じた404（Search Console）の解消用。
+      // 新たなリネームが出たら、ここに { source, destination, permanent:true } を追記する。
+      {
+        source: "/dramas/rental-love",
+        destination: "/dramas/rental-love-lab",
+        permanent: true,
+      },
     ];
   },
 };

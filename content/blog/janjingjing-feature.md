@@ -35,12 +35,15 @@ GMMTV 所属。App War、Sleepless Society などに出演。
 
 ## Enemies with Benefits（2026・放送中）
 
-**[Enemies with Benefits](/dramas/enemies-with-benefits)**（全10話）は、GMMTV × Snap25 制作。
-GMMTV の "GLユニバース"（Whale Store xoxo / Bake Love Feeling と世界観共有）に連なる作品です。
+**[Enemies with Benefits](/dramas/enemies-with-benefits)**（全10話・2026年5月3日〜7月5日）は、GMMTV × Snap25 制作。
+GMMTV の "GLユニバース"（Whale Store xoxo / Bake Love Feeling と世界観共有）に連なる作品で、
+原作は Snow Leopard（เสือดาวหิมะ）の小説。
 
-タイトルが示す通り、**「敵対関係にある2人」**が、
-利害や状況から関係を持つうちに、本物の感情へと変わっていく物語。
-**ライバル → 恋人**という、タイGL でも人気の高いトロープを正面から扱います。
+物語の主役は、**営業部長 Lal（Jan）と経理部長 Wine（JingJing）**——
+社内で対立する正反対の2人。
+ところがある一夜をきっかけに、**「敵同士のフリをしながら、秘密の関係を続ける」**ことに。
+誰にもバレないよう演技を重ねるうちに、その近さが本物の感情へと変わっていく——
+**ライバル × 秘密の関係 → 恋**という、ひねりの効いた大人のロマンスです。
 
 [Enemies with Benefits 詳細 →](/dramas/enemies-with-benefits)
 

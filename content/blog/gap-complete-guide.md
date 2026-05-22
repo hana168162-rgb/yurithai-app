@@ -1,6 +1,6 @@
 ---
 title: "GAP 完全解説 — タイGL の原点はなぜ世界的ヒットになったのか"
-description: "FreenBecky 主演「GAP: The Series」を徹底解説。物語・キャラクター・社会的インパクト・なぜ世界60か国以上でヒットしたのかを、タイGL ジャンルの起点という視点から深掘りします。"
+description: "FreenBecky 主演「GAP: The Series」を徹底解説。物語・キャラクター・社会的インパクト・なぜ世界40か国以上でヒットしたのかを、タイGL ジャンルの起点という視点から深掘りします。"
 date: "2026-05-22"
 category: "drama-feature"
 tags: ["GAP", "FreenBecky", "IDOLFACTORY", "タイGL 原点", "Freen", "Becky", "完全解説"]
@@ -26,7 +26,7 @@ cover_image: "/images/dramas/gap.jpg"
 | **主演** | [FreenBecky](/cast/freen)（Freen × Becky） |
 | **原作** | Chao Planoy の小説 |
 
-GAP は、**タイ初の本格的な Girls' Love（GL）連続ドラマ**として制作されました。
+GAP は、**タイの地上波テレビで放送された初の Girls' Love（GL）連続ドラマ**です。
 それまで BL（Boys' Love）が世界的に人気を集めていたタイで、
 「**女性同士の物語にも需要がある**」ことを証明した記念碑的作品です。
 
@@ -79,7 +79,7 @@ GAP は **[FreenBecky](/blog/freenbecky-history)** という、
 **Cannes・Paris Fashion Week** にまで進出する国際的スターになります。
 
 ### 3. 国際ファンダムの形成
-GAP は**世界60か国以上**にファンダムを生み、
+GAP は放送開始時に**世界40か国以上でトレンド入り**し、
 YouTube 再生数は**9億回**を突破しました。
 タイGL が「タイのニッチ」から「世界のジャンル」へと飛躍する起点となったのです。
 

@@ -17,10 +17,12 @@ export default function ContactPage() {
       <h1 className="text-2xl font-medium text-yuri-ink mb-3">
         お問い合わせ
       </h1>
-      <p className="text-sm text-yuri-ink/85 leading-relaxed mb-6">
-        作品情報の追加・訂正、配信情報の更新、スポンサー・タイアップのご相談など、
-        お気軽にお寄せください。
-        <strong className="font-medium">最も早くお返事できるのは LINE です。</strong>
+      <p className="text-sm text-yuri-ink/85 leading-loose mb-8">
+        作品情報の追加・訂正、配信情報の更新、
+        <br className="hidden sm:block" />
+        スポンサー・タイアップのご相談など、お気軽にお寄せください。
+        <br />
+        <strong className="font-medium text-[#06C755]">最も早くお返事できるのは LINE です。</strong>
       </p>
 
       {/* LINE（メインの問い合わせ手段） */}
@@ -31,12 +33,15 @@ export default function ContactPage() {
               <path d="M12 2C6.48 2 2 5.69 2 10.23c0 4.07 3.55 7.48 8.35 8.12.32.07.77.21.88.49.1.25.07.64.03.9l-.14.85c-.04.25-.2.99.87.54 1.07-.45 5.75-3.39 7.84-5.8C21.27 13.66 22 12.02 22 10.23 22 5.69 17.52 2 12 2zM7.9 12.9H6.06c-.27 0-.49-.22-.49-.49V8.74c0-.27.22-.49.49-.49s.49.22.49.49v3.18H7.9c.27 0 .49.22.49.49s-.22.49-.49.49zm1.92-.49c0 .27-.22.49-.49.49s-.49-.22-.49-.49V8.74c0-.27.22-.49.49-.49s.49.22.49.49v3.67zm4.43 0c0 .21-.13.4-.34.46-.05.02-.1.03-.15.03-.15 0-.3-.07-.39-.2l-1.88-2.56v2.27c0 .27-.22.49-.49.49s-.49-.22-.49-.49V8.74c0-.21.13-.4.34-.46.05-.02.1-.02.15-.02.15 0 .29.07.39.19l1.88 2.56V8.74c0-.27.22-.49.49-.49s.49.22.49.49v3.67zm3.4-2.32c.27 0 .49.22.49.49s-.22.49-.49.49h-1.35v.85h1.35c.27 0 .49.22.49.49s-.22.49-.49.49h-1.84c-.27 0-.49-.22-.49-.49V8.74c0-.27.22-.49.49-.49h1.84c.27 0 .49.22.49.49s-.22.49-.49.49h-1.35v.85h1.35z" />
             </svg>
           </div>
-          <h2 className="text-lg font-medium text-yuri-ink mb-1">
+          <h2 className="text-lg font-medium text-yuri-ink mb-2">
             LINE でお問い合わせ
           </h2>
-          <p className="text-sm text-yuri-ink/80 leading-relaxed mb-4">
-            友だち追加して、トークから気軽にメッセージを送るだけ。
-            作品情報の提供・ご質問・ご相談まで、いちばんスムーズな方法です。
+          <p className="text-sm text-yuri-ink/80 leading-loose mb-5">
+            友だち追加して、トークからメッセージを送るだけ。
+            <br />
+            作品情報の提供・ご質問・ご相談まで、
+            <br className="hidden sm:block" />
+            いちばんスムーズにやり取りできます。
           </p>
           <a
             href={LINE_URL}
@@ -53,15 +58,16 @@ export default function ContactPage() {
       )}
 
       {/* 誹謗中傷NG */}
-      <div className="bg-yuri-rose/10 border border-yuri-rose/30 rounded-md p-4 mb-8 text-[13px] text-yuri-ink/85 leading-relaxed">
-        <p className="font-medium text-yuri-rose mb-1">
+      <div className="bg-yuri-rose/10 border border-yuri-rose/30 rounded-md p-5 mb-8 text-[13px] text-yuri-ink/85 leading-loose">
+        <p className="font-medium text-yuri-rose mb-2">
           ⚠ ご利用にあたっての注意
         </p>
         <p>
           特定の個人・団体・作品に対する
           <strong className="font-medium">誹謗中傷・名誉毀損・差別的な内容</strong>
-          を含むお問い合わせは受け付けておりません。該当する内容と判断した場合は、
-          お返事せずに削除いたします。
+          を含むお問い合わせは受け付けておりません。
+          <br />
+          該当する内容と判断した場合は、お返事せずに削除いたします。
         </p>
       </div>
 
@@ -71,9 +77,10 @@ export default function ContactPage() {
           <span className="text-yuri-rose transition-transform group-open:rotate-90">▶</span>
           メールフォームでのお問い合わせはこちら
         </summary>
-        <p className="text-xs text-yuri-muted leading-relaxed mt-3 mb-5">
+        <p className="text-xs text-yuri-muted leading-loose mt-3 mb-6">
           スポンサー・タイアップなど、記録を残したい正式なご相談はこちらのフォームをご利用ください。
-          3〜5営業日以内にご記入のメールアドレス宛にお返事いたします。
+          <br />
+          3〜5営業日以内に、ご記入のメールアドレス宛にお返事いたします。
         </p>
         <Suspense fallback={<div className="text-sm text-yuri-muted">読み込み中…</div>}>
           <ContactForm />

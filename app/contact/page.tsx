@@ -8,9 +8,8 @@ export const metadata = {
 };
 
 // LINE 公式アカウントの友だち追加URL。
-// Vercel の環境変数 NEXT_PUBLIC_LINE_URL で本番URLに差し替える。
-// 未設定の場合は LINE ボタンを表示しない。
-const LINE_URL = process.env.NEXT_PUBLIC_LINE_URL || "";
+// 既定は YuriThai 公式 LINE。差し替えたい場合は環境変数 NEXT_PUBLIC_LINE_URL を優先。
+const LINE_URL = process.env.NEXT_PUBLIC_LINE_URL || "https://lin.ee/zytqHxV";
 
 export default function ContactPage() {
   return (

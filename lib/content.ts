@@ -241,48 +241,88 @@ function getBroadcastDay(d: WatchingDrama): number | null {
 }
 
 /**
- * 「放送曜日の前日」を最優先にするためのソートキー。
- * - 翌日が放送日（daysUntil=1）→ 0（最優先）
- * - 2日後（daysUntil=2）→ 1
- * - ...
- * - 今日が放送日（daysUntil=0）→ 6（一番下）
- * - 放送日が抽出できなかった作品 → 99（リストの末尾）
- *
- * ユーザーリクエスト: "土曜だったら金曜には１番先頭に来る" を反映。
+ * note フィールドから「HH:MM タイ時間」を抽出して放送開始時刻（タイ時間）を返す。
+ * 見つからない場合は、その曜日のあいだ先頭をキープできるよう 23:59 を既定とする。
  */
-function pickupSortKey(d: WatchingDrama, todayDow: number): number {
-  const bd = getBroadcastDay(d);
-  if (bd === null) return 99;
-  const daysUntil = (bd - todayDow + 7) % 7;
-  return daysUntil === 0 ? 6 : daysUntil - 1;
+function getBroadcastTime(d: WatchingDrama): { hour: number; minute: number } {
+  const note = d.note || "";
+  const m = note.match(/(\d{1,2}):(\d{2})\s*タイ時間/);
+  if (m) {
+    return { hour: Number(m[1]), minute: Number(m[2]) };
+  }
+  return { hour: 23, minute: 59 };
 }
 
 /**
- * Asia/Bangkok タイムゾーンでの曜日 (Sun=0..Sat=6) を取得する。
- * watching の note にある「毎週X曜」はタイ放送日基準なので、ソートもタイ時間で行う。
- * （JST と ICT は2時間差なので、深夜・早朝で曜日がズレるケースが発生する）
+ * 「次の放送が最も近い作品」を先頭にするためのソートキー。
+ * = 現在（タイ時間）から次回放送までの「分数」。小さいほど先頭。
+ *
+ * 仕様（ユーザーリクエスト）:
+ *   放送時刻を過ぎるまでは、その作品を常に先頭にキープする。
+ *   例）金曜夜放送の Hometown Romance は、金曜の放送が終わるまで先頭。
+ *       放送が過ぎてから、次に近い土曜夜放送の The Air が先頭に上がる。
+ *
+ * 放送曜日が抽出できない作品は末尾（大きな値）に。
  */
-function getBangkokDow(): number {
-  const fmt = new Intl.DateTimeFormat("en-US", {
-    weekday: "short",
+function pickupSortKey(d: WatchingDrama, now: BangkokNow): number {
+  const bd = getBroadcastDay(d);
+  if (bd === null) return Number.MAX_SAFE_INTEGER;
+  const { hour, minute } = getBroadcastTime(d);
+
+  const WEEK_MIN = 7 * 24 * 60;
+  const nowMin = now.dow * 24 * 60 + now.hour * 60 + now.minute;
+  const bcMin = bd * 24 * 60 + hour * 60 + minute;
+
+  // 次回放送までの分数（1週間内に正規化）。
+  // 0 は「ちょうど今が放送時刻」を意味し最優先。
+  // 放送時刻を過ぎた直後は約1週間後の値になり、自動的に末尾側へ移動する。
+  return ((bcMin - nowMin) % WEEK_MIN + WEEK_MIN) % WEEK_MIN;
+}
+
+interface BangkokNow {
+  dow: number; // 0=Sun..6=Sat
+  hour: number;
+  minute: number;
+}
+
+/**
+ * Asia/Bangkok タイムゾーンでの現在「曜日・時・分」を取得する。
+ * watching の note にある放送日時はタイ時間基準なので、ソートもタイ時間で行う。
+ */
+function getBangkokNow(): BangkokNow {
+  const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "Asia/Bangkok",
-  });
-  const day = fmt.format(new Date());
-  const map: Record<string, number> = {
+    weekday: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(new Date());
+
+  const get = (type: string) =>
+    parts.find((p) => p.type === type)?.value ?? "";
+  const dowMap: Record<string, number> = {
     Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6,
   };
-  return map[day] ?? 0;
+  // hour は 24時制。"24" になるケースを 0 に正規化。
+  let hour = Number(get("hour"));
+  if (hour === 24) hour = 0;
+  return {
+    dow: dowMap[get("weekday")] ?? 0,
+    hour,
+    minute: Number(get("minute")) || 0,
+  };
 }
 
 /**
  * トップページの「ピックアップ」セクション用。
- * 放送中作品を「次の放送日が近い順」に並べる（前日が最優先）。
- * ビルド時の日付ベースなので、ISR (revalidate) と組み合わせて使う。
+ * 放送中作品を「次回放送が近い順」に並べる。
+ * 放送時刻を過ぎるまでは先頭をキープし、過ぎたら次に近い作品が先頭へ。
+ * ビルド時の日時ベースなので、ISR (revalidate) と組み合わせて使う。
  */
 export function getCurrentPickup(): WatchingDrama[] {
-  const todayDow = getBangkokDow();
+  const now = getBangkokNow();
   return [...getActiveWatching()]
-    .sort((a, b) => pickupSortKey(a, todayDow) - pickupSortKey(b, todayDow))
+    .sort((a, b) => pickupSortKey(a, now) - pickupSortKey(b, now))
     .slice(0, 4);
 }
 

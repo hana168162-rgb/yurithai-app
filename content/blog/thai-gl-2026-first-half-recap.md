@@ -216,6 +216,8 @@ YuriThai 編集部がおすすめする**2026年後半に向けた「今のう�
 ## 関連リンク
 
 - [2026年版タイGLおすすめランキング](/blog/thai-gl-ranking-2026)
+- [2026年後半 新作プレビュー徹底版](/blog/2026-second-half-preview)
+- [2026年 必見タイGL](/blog/2026-must-watch)
 - [タイGL第3世代の波](/blog/thai-gl-3rd-generation)
 - [作品一覧](/dramas)
 - [放送中作品](/dramas/airing)

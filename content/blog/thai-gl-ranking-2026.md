@@ -254,3 +254,18 @@ YuriThaiの[**おすすめ診断**](/recommend) を試してみてください�
 - [公開予定作品](/dramas/upcoming)
 - [女優一覧](/cast)
 - [タイGLおすすめ診断](/recommend)
+
+### ランキング上位作品の完全解説
+
+- [GAP 完全解説](/blog/gap-complete-guide)（第1位）
+- [Pluto 完全解説](/blog/pluto-complete-guide)（第2位）
+- [The Loyal Pin 完全解説](/blog/the-loyal-pin-complete-guide)（第3位）
+
+### 選び方・気分で探す
+
+- [BLファンに贈るタイGL入門10選](/blog/bl-fans-thai-gl-intro)
+- [泣けるタイGL / ハッピーエンドGL](/blog/thai-gl-cry-vs-happy)
+- [一気見できる短編タイGL](/blog/short-thai-gl-binge)
+- [配信サービス完全比較](/blog/streaming-services-comparison-2026)
+- [MyDramaList 高評価タイGL](/blog/mydramalist-top-rated-thai-gl)
+- [タイGL定番設定トップ10](/blog/thai-gl-trope-top10)

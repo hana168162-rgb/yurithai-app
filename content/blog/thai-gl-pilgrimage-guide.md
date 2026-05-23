@@ -319,15 +319,30 @@ Instagram でハッシュタグ検索（例: #FreenBecky #LMSY）すると、
 
 ---
 
+## 作品別の聖地巡礼ガイド
+
+特定の作品の世界を深く巡りたい方は、作品別ガイドもどうぞ:
+
+- [GAP 聖地巡礼ガイド](/blog/pilgrimage-gap)
+- [23.5 聖地巡礼ガイド](/blog/pilgrimage-23-5)
+- [Pluto 聖地巡礼ガイド](/blog/pilgrimage-pluto)
+- [Affair 聖地巡礼ガイド](/blog/pilgrimage-affair)
+- [Us 聖地巡礼ガイド](/blog/pilgrimage-us)
+- [The Loyal Pin 聖地巡礼ガイド](/blog/pilgrimage-the-loyal-pin)
+- [Dangerous Queen 聖地巡礼ガイド](/blog/pilgrimage-dangerous-queen)
+- [Poisonous Love 聖地巡礼ガイド](/blog/pilgrimage-poisonous-love)
+- [Petrichor 聖地巡礼ガイド](/blog/pilgrimage-petrichor)
+- [LingOrm（The Secret of Us / Only You）聖地巡礼ガイド](/blog/pilgrimage-lingorm)
+
+---
+
 ## 関連リンク
 
 - [バンコク旅行ガイド](/guide/travel-to-thailand) — 航空券・ホテル手配の基本
 - [タイGLイベントカレンダー](/events) — 最新のファンミ情報
 - [タイGLとは — 完全ガイド](/guide/what-is-thai-gl)
 - [タイGLとグローバル展開](/blog/thai-gl-global-expansion)
-- [FreenBeckyの歴史](/blog/freenbecky-history)
-- [LMSY 3部作完全ガイド](/blog/lmsy-trilogy-guide)
-- [NamtanFilm の人気の秘密](/blog/namtanfilm-popularity-secret)
+- [ファンミ初参加 完全マニュアル](/blog/fan-meeting-first-timer-guide)
 - [完結作品一覧](/dramas)
 
 ---

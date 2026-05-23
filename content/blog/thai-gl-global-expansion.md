@@ -274,6 +274,8 @@ YouTube無料配信・iQIYI・Netflix・TELASA等、**公式ルートで観る**
 - [タイGLとは — 完全ガイド](/guide/what-is-thai-gl)
 - [タイGL第3世代の波](/blog/thai-gl-3rd-generation)
 - [IDOLFACTORYのGL帝国](/blog/idolfactory-gl-empire)
+- [タイGL vs 日本の百合 vs 中華GL](/blog/thai-gl-vs-yuri-vs-chinese-gl)
+- [ハーフ女優 in タイGL](/blog/mixed-heritage-actresses)
 - [Freen 個別ページ](/cast/freen)
 - [Becky 個別ページ](/cast/becky)
 - [Namtan 個別ページ](/cast/namtan)

@@ -105,6 +105,7 @@ BL で培った「ペアの関係性を読む目線」は、GLでもそのまま
 ## 関連リンク
 
 - [タイGLとは — 完全ガイド](/guide/what-is-thai-gl)
+- [タイGL入門ガイド（はじめてのタイGL）](/blog/intro-to-thai-gl)
 - [2026年版タイGLおすすめランキング](/blog/thai-gl-ranking-2026)
 - [タイGL定番設定トップ10](/blog/thai-gl-trope-top10)
 - [配信サービス完全比較](/blog/streaming-services-comparison-2026)

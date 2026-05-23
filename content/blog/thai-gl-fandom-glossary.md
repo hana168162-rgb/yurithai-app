@@ -131,6 +131,9 @@ cover_image: "/images/dramas/gap.jpg"
 
 - [タイGLとは — 完全ガイド](/guide/what-is-thai-gl)
 - [ファンミ初参加 完全マニュアル](/blog/fan-meeting-first-timer-guide)
+- [タイGL視聴で覚えたいタイ語フレーズ集](/blog/thai-phrases-for-gl-fans)
+- [タイGL俳優のニックネーム文化](/blog/thai-nickname-culture)
+- [タイGL OST ガイド](/blog/thai-gl-ost-guide)
 - [タイGL聖地巡礼ガイド](/blog/thai-gl-pilgrimage-guide)
 - [タイGLとグローバル展開](/blog/thai-gl-global-expansion)
 

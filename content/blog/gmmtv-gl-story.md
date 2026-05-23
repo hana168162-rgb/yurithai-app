@@ -280,6 +280,8 @@ GMMTV GLが初めての方への**おすすめ視聴順**:
 - [タイGLおすすめランキング10選](/blog/thai-gl-ranking-2026)
 - [NamtanFilmの大人気の秘密](/blog/namtanfilm-popularity-secret)
 - [EmiBonnieという「日常」](/blog/emibonnie-feature)
+- [GMMTV \"GLユニバース\" の歩き方](/blog/gmmtv-gl-universe-guide)
+- [インディーズGLスタジオ完全マップ](/blog/indie-gl-studios-map)
 - [完結作品一覧](/dramas)
 - [放送中作品](/dramas/airing)
 - [公開予定作品](/dramas/upcoming)

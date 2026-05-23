@@ -1,6 +1,6 @@
 ---
 title: "EngLot 4年の軌跡 — Miss Grand Thailandから タイGLの主役級ペアへ"
-description: "Engfa Waraha × Charlotte Austin（EngLot）の4年間。Miss Grand Thailand 2022 でのタイ国内優勝から、Show Me Love・Petrichor・4 Elements: The Water まで。EngLotがどうやってFreenBecky・LingOrmと並ぶ「主役級GLペア」に駆け上がったかを徹底解説。"
+description: "Engfa Waraha × Charlotte Austin（EngLot）の4年間。Miss Grand Thailand 2022 から Show Me Love・Petrichor・4 Elements: The Water まで、主役級GLペアに駆け上がった軌跡を徹底解説。"
 date: "2026-05-20"
 category: "pair-feature"
 tags: ["EngLot", "Engfa Waraha", "Charlotte Austin", "Miss Grand International", "Show Me Love", "Petrichor", "4 Elements", "The Water"]

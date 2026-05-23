@@ -20,34 +20,34 @@
     "icon": "🌙"
   },
   {
-    "id": "blog-star-hunter",
-    "title": "新ブログ：Star Hunter Entertainment特集",
-    "subtitle": "T-pop事務所がタイGLを変える、育成戦略の全貌",
+    "id": "blog-gap-guide",
+    "title": "新ブログ：GAP 完全解説",
+    "subtitle": "タイGLの原点はなぜ世界的ヒットになったのか",
     "cta": "読む",
-    "href": "/blog/star-hunter-gl-strategy",
+    "href": "/blog/gap-complete-guide",
     "bg": "from-yuri-pink to-yuri-lilac",
     "fg": "text-yuri-ink",
     "icon": "📖"
   },
   {
-    "id": "blog-mookpink",
-    "title": "新ブログ：MookPink × インディーズGLの躍進",
-    "subtitle": "YouTube/TikTokからMCOT HD地上波への業界事件",
+    "id": "blog-streaming",
+    "title": "新ブログ：配信サービス完全比較",
+    "subtitle": "タイGLはどこで観られる？ iQIYI/WeTV/Netflix/YouTube/TELASA",
     "cta": "読む",
-    "href": "/blog/mookpink-indie-gl-breakthrough",
+    "href": "/blog/streaming-services-comparison-2026",
     "bg": "from-yuri-lilac to-yuri-teal",
     "fg": "text-yuri-ink",
     "icon": "📺"
   },
   {
-    "id": "blog-englot",
-    "title": "新ブログ：EngLot 4年の軌跡",
-    "subtitle": "Miss Grand Thailandから主役級ペアへ",
+    "id": "blog-4-elements",
+    "title": "新ブログ：4 Elements シリーズ完全ガイド",
+    "subtitle": "The Earth / Water / Air / Fire の世界観と相関図",
     "cta": "読む",
-    "href": "/blog/englot-history",
+    "href": "/blog/4-elements-series-guide",
     "bg": "from-yuri-rose to-yuri-pink",
     "fg": "text-yuri-cream",
-    "icon": "🌹"
+    "icon": "🔥"
   },
   {
     "id": "tripcom-bangkok",

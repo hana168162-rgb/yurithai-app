@@ -2881,5 +2881,75 @@
       }
     ],
     "title_th": "เธอ...ที่รักของฉัน"
+  },
+  {
+    "id": 43,
+    "slug": "hometown-romance",
+    "title_ja": "Hometown Romance",
+    "title_en": "Hometown Romance",
+    "year": 2026,
+    "production": "CHANGE2561",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Lookmhee Punyapat Wangpongsathaporn × Sonya Saranphat Pedersen（LMSY）",
+    "tags": {
+      "genre": [
+        "日常系",
+        "家族もの",
+        "ロマンス"
+      ],
+      "relationship": [
+        "再会もの"
+      ],
+      "tone": [
+        "ほっこり",
+        "切ない"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "ケミがすごい",
+        "演技力"
+      ],
+      "warnings": []
+    },
+    "synopsis": "LMSY3部作の完結編。「都会と田舎」「過去と現在」を対比軸に、故郷で自分たちの関係を見つめ直すスロウライフなロマンス。",
+    "review": {
+      "highlights": [
+        "LMSYケミ",
+        "3部作完結",
+        "スロウライフ"
+      ],
+      "recommend_for": [
+        "LMSY好き",
+        "LMSY3部作を観てきた人",
+        "田舎・帰省テーマ好き",
+        "スロウな関係性が好き"
+      ],
+      "caution_for": [
+        "派手な事件・急展開を求める人"
+      ],
+      "body_ja": "Affair・Harmony Secret と続いてきた LMSY 3部作の完結編。CHANGE2561 制作、全8話。\n\n都会から故郷へ——「過去と現在」「都会と田舎」を対比軸に、二人の愛のかたちを静かに見つめ直す。3部作の集大成として、これまでの関係性に区切りと余韻を与える内容。\n\nLMSY を追ってきた人、田舎・帰省テーマやスロウな関係性が好きな人に。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "CHANGE2561制作 / LMSY3部作の3作目 / 全8話 / 最終話 2026年5月22日（タイ時間）/ 5月23日（JST）/ One31 毎週金曜 22:30 タイ時間（土曜 00:30 JST）放送",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/hometown-romance.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/bS_vRrzvxy0",
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "title_th": "คุณแฟนบ้านนอก"
   }
 ]

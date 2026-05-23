@@ -44,28 +44,6 @@
     "episodes": 12
   },
   {
-    "id": 103,
-    "slug": "hometown-romance",
-    "title_ja": "Hometown Romance",
-    "title_en": "Hometown Romance",
-    "production": "CHANGE2561",
-    "cast_pair": "Lookmhee Punyapat Wangpongsathaporn × Sonya Saranphat Pedersen（LMSY）",
-    "status": "airing",
-    "note": "CHANGE2561制作 / LMSY3部作の3作目 / 全8話 / 最終話 2026年5月22日（タイ時間）/ 5月23日（JST）/ One31 毎週金曜 22:30 タイ時間（土曜 00:30 JST）放送",
-    "cover_image": "/images/dramas/hometown-romance.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/bS_vRrzvxy0",
-    "streaming": [
-      {
-        "platform": "iQIYI",
-        "url": "https://www.iq.com/"
-      }
-    ],
-    "title_th": "คุณแฟนบ้านนอก",
-    "end_date": "2026-05-23",
-    "episodes": 8
-  },
-  {
     "id": 104,
     "slug": "enemies-with-benefits",
     "title_ja": "Enemies with Benefits",

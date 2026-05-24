@@ -2749,8 +2749,9 @@
     "youtube_teaser": null,
     "streaming": [
       {
-        "platform": "YouTube (EP1)",
-        "url": "https://youtu.be/spp7NL6btcY"
+        "platform": "YouTube",
+        "url": "https://youtu.be/spp7NL6btcY",
+        "note": "EP1のみ無料 / EP2以降メンバーシップ（有料）"
       }
     ],
     "title_th": "Music Story: Losing Control"

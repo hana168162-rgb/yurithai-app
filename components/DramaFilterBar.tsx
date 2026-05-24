@@ -49,6 +49,22 @@ function norm(s: string | null | undefined): string {
 }
 
 /**
+ * VPN不要で YouTube 無料視聴できる作品か判定する。
+ * streaming に YouTube 系プラットフォームがあり、note に「VPN」を含まないものを「無料視聴可」とみなす。
+ */
+function isFreeOnYouTube(d: AnyDrama): boolean {
+  const streaming = (
+    d as { streaming?: { platform?: string | null; note?: string | null }[] }
+  ).streaming;
+  if (!streaming) return false;
+  return streaming.some((s) => {
+    const plat = (s.platform || "").toLowerCase();
+    const note = (s.note || "").toLowerCase();
+    return plat.includes("youtube") && !note.includes("vpn");
+  });
+}
+
+/**
  * 女優のfilmographyタイトルとドラマタイトルが「同じ作品を指している」かどうかを判定する。
  * 表記揺れを吸収するため、正規化後に「片方がもう片方の部分文字列」のケースも一致とみなす。
  */
@@ -117,8 +133,15 @@ export function DramaFilterBar({
   const [actressId, setActressId] = useState("");
   const [agency, setAgency] = useState("");
   const [year, setYear] = useState("");
+  const [freeOnly, setFreeOnly] = useState(false);
 
   const allList: AnyDrama[] = [...recentlyEnded, ...dramas];
+
+  // この一覧に「VPN不要のYouTube無料視聴可」作品が存在するか（トグル表示の判定用）
+  const hasFreeWorks = useMemo(
+    () => allList.some((d) => isFreeOnYouTube(d)),
+    [allList]
+  );
 
   // 作品slug → 出演女優IDのSet
   const dramaToActressIds = useMemo(() => {
@@ -204,6 +227,7 @@ export function DramaFilterBar({
       if (year) {
         if (!("year" in d) || (d as Drama).year !== Number(year)) return false;
       }
+      if (freeOnly && !isFreeOnYouTube(d)) return false;
       return true;
     });
   };
@@ -213,7 +237,7 @@ export function DramaFilterBar({
 
   const totalAll = dramas.length + recentlyEnded.length;
   const totalFiltered = filteredDramas.length + filteredEnded.length;
-  const isFiltered = !!(actressId || agency || year);
+  const isFiltered = !!(actressId || agency || year || freeOnly);
 
   const renderCard = (d: AnyDrama): ReactNode => {
     switch (cardType) {
@@ -279,6 +303,22 @@ export function DramaFilterBar({
             </select>
           )}
 
+          {hasFreeWorks && (
+            <button
+              type="button"
+              aria-pressed={freeOnly}
+              onClick={() => setFreeOnly((v) => !v)}
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm border transition-colors ${
+                freeOnly
+                  ? "border-[#06C755] bg-[#06C755]/10 text-yuri-ink"
+                  : "border-yuri-edge bg-yuri-cream text-yuri-ink hover:border-[#06C755]"
+              }`}
+            >
+              <span aria-hidden>{freeOnly ? "✓" : "▶"}</span>
+              YouTube無料（VPN不要）
+            </button>
+          )}
+
           {isFiltered && (
             <button
               type="button"
@@ -286,6 +326,7 @@ export function DramaFilterBar({
                 setActressId("");
                 setAgency("");
                 setYear("");
+                setFreeOnly(false);
               }}
               className="px-3 py-1.5 text-xs text-yuri-muted hover:text-yuri-rose underline-offset-2 hover:underline"
             >

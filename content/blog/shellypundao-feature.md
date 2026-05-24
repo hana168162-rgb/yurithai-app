@@ -150,16 +150,18 @@ GMMTV や IDOLFACTORY 以外のスタジオでも、**主役級ペアが生ま�
 
 ---
 
-## ShellyPundao の今後
+## ShellyPundao の今後 — 再共演作「By Your Side」
 
-2026年5月時点で、ShellyPundao の**次回作の公式アナウンス**は限定的。
-ただし、Motion Minds Entertainment が継続的にGL作品を制作している状況から、
-**2026年内に新作プロジェクトの発表**が期待されます。
+Roller Coaster に続く**再共演作 [By Your Side（เคียงใจใกล้เธอ）](/dramas/by-your-side)** が、
+Motion Minds Entertainment から発表されました。
 
-予想される方向性:
-- Roller Coaster 続編（**Season 2** の可能性）
-- ShellyPundao + Neko の**3人主演アンサンブル**作品
-- Motion Minds 他作品でのキャスティング
+- **公式パイロット: 2026年5月25日 18:19（タイ時間）YouTube 公開**
+- 原作: **Ma Bung** の小説
+- **バーを舞台**にした物語で、「**愛の値段は？**」という挑発的なタグラインが象徴するように、
+  Roller Coaster とはまた違ったテイストのロマンスになる見込み
+
+Roller Coaster の高評価を背景に、Motion Minds が**ShellyPundao を継続起用**する形。
+安定したパートナーシップのもと、2作目でどんな化学反応を見せるかが注目されます。
 
 YuriThai では、ShellyPundao 関連の最新情報を追いかけていきます。
 

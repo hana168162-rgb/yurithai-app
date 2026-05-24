@@ -49,8 +49,11 @@ function norm(s: string | null | undefined): string {
 }
 
 /**
- * VPN不要で YouTube 無料視聴できる作品か判定する。
- * streaming に YouTube 系プラットフォームがあり、note に「VPN」を含まないものを「無料視聴可」とみなす。
+ * VPN不要で YouTube で「全話無料」視聴できる作品か判定する。
+ * 条件: streaming に YouTube 系プラットフォームがあり、かつ
+ *   - VPN必要でない
+ *   - メンバーシップ / 会員 / 有料 限定でない（例: SHADES の「メンバー限定」）
+ *   - 一部エピソードのみ無料でない（例: 「YouTube (EP1)」）
  */
 function isFreeOnYouTube(d: AnyDrama): boolean {
   const streaming = (
@@ -60,7 +63,16 @@ function isFreeOnYouTube(d: AnyDrama): boolean {
   return streaming.some((s) => {
     const plat = (s.platform || "").toLowerCase();
     const note = (s.note || "").toLowerCase();
-    return plat.includes("youtube") && !note.includes("vpn");
+    if (!plat.includes("youtube")) return false;
+    const blob = `${plat} ${note}`;
+    // 制限ワード（VPN / メンバーシップ / 会員 / 有料）が含まれる場合は無料扱いにしない
+    const restricted = ["vpn", "メンバー", "会員", "membership", "有料", "paid"].some(
+      (k) => blob.includes(k)
+    );
+    if (restricted) return false;
+    // 「EP1」など一部エピソードのみ無料のケースを除外
+    if (/ep\s?\d/.test(plat)) return false;
+    return true;
   });
 }
 

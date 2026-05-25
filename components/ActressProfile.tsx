@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Actress } from "@/lib/types";
+import { nationalityFlags, agencyBadgeStyle } from "@/lib/style";
 
 export function ActressProfile({ actress }: { actress: Actress }) {
   return (
@@ -32,7 +33,14 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         {actress.nationality && (
           <div className="flex">
             <dt className="w-20 text-yuri-muted shrink-0">国籍</dt>
-            <dd className="text-yuri-ink">{actress.nationality}</dd>
+            <dd className="text-yuri-ink">
+              {nationalityFlags(actress.nationality) && (
+                <span className="mr-1" aria-hidden>
+                  {nationalityFlags(actress.nationality)}
+                </span>
+              )}
+              {actress.nationality}
+            </dd>
           </div>
         )}
         {actress.height_cm && (
@@ -44,7 +52,17 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         {actress.agency && (
           <div className="flex">
             <dt className="w-20 text-yuri-muted shrink-0">所属</dt>
-            <dd className="text-yuri-ink">{actress.agency}</dd>
+            <dd>
+              <span
+                className="inline-block px-2 py-0.5 rounded-full text-[11px] font-medium"
+                style={{
+                  backgroundColor: agencyBadgeStyle(actress.agency).bg,
+                  color: agencyBadgeStyle(actress.agency).fg,
+                }}
+              >
+                {actress.agency}
+              </span>
+            </dd>
           </div>
         )}
         {actress.filmography && actress.filmography.length > 0 && (

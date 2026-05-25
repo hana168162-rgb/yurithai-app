@@ -7,7 +7,7 @@ import {
   getDramasForActress,
 } from "@/lib/content";
 import { JsonLd, buildPersonJsonLd, buildBreadcrumbJsonLd } from "@/components/JsonLd";
-import { gradientForSlug } from "@/lib/style";
+import { gradientForSlug, nationalityFlags, agencyBadgeStyle } from "@/lib/style";
 
 const SITE_URL = "https://yurithai.jp";
 
@@ -133,7 +133,14 @@ export default function ActressDetailPage({
           {actress.nationality && (
             <div className="flex">
               <dt className="w-20 text-yuri-muted shrink-0">国籍</dt>
-              <dd className="text-yuri-ink">{actress.nationality}</dd>
+              <dd className="text-yuri-ink">
+                {nationalityFlags(actress.nationality) && (
+                  <span className="mr-1" aria-hidden>
+                    {nationalityFlags(actress.nationality)}
+                  </span>
+                )}
+                {actress.nationality}
+              </dd>
             </div>
           )}
           {actress.height_cm && (
@@ -145,7 +152,17 @@ export default function ActressDetailPage({
           {actress.agency && (
             <div className="flex">
               <dt className="w-20 text-yuri-muted shrink-0">所属</dt>
-              <dd className="text-yuri-ink">{actress.agency}</dd>
+              <dd>
+                <span
+                  className="inline-block px-2 py-0.5 rounded-full text-xs font-medium"
+                  style={{
+                    backgroundColor: agencyBadgeStyle(actress.agency).bg,
+                    color: agencyBadgeStyle(actress.agency).fg,
+                  }}
+                >
+                  {actress.agency}
+                </span>
+              </dd>
             </div>
           )}
         </dl>

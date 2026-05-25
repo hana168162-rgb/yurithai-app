@@ -11,10 +11,10 @@ cover_image: "/images/dramas/by-your-side.jpg"
 ついに再共演作を発表しました。
 
 タイトルは **[By Your Side（เคียงใจใกล้เธอ）](/dramas/by-your-side)**。
-**2026年5月25日、公式パイロットが YouTube で公開**されます。
-本記事では、公開前に分かっている情報と見どころを整理します。
+**公式パイロットが Motion Minds Entertainment の YouTube で公開されました**。
+本記事では、パイロットを観る前に知っておきたい情報と見どころを整理します。
 
-> ⚠️ 本記事はパイロット公開前の先行ガイドです。本編の内容には踏み込みません。
+> 🎬 **公式パイロットは公開済み。** 作品ページ [By Your Side](/dramas/by-your-side) から視聴できます。
 
 ---
 
@@ -61,9 +61,9 @@ ShellyPundao が新しい一面を見せる可能性があります。
 
 ## パイロットの観かた
 
-- **日時**: 2026年5月25日 18:19（タイ時間）= 日本時間 20:19頃
-- **場所**: Motion Minds Entertainment 公式 YouTube チャンネル
-- **無料**: パイロットは YouTube 公開（VPN不要で視聴可能の見込み）
+- **公開**: 公式パイロットは公開済み（Motion Minds Entertainment 公式 YouTube）
+- **無料**: YouTube で無料視聴可能（VPN不要）
+- 視聴リンクは作品ページ [By Your Side](/dramas/by-your-side) に掲載
 
 パイロットは本編の方向性を示す先行映像。
 **「どんなトーンの作品になるか」**を最初に体感できる貴重な機会です。

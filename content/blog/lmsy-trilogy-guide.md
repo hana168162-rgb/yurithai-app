@@ -133,11 +133,12 @@ Affair から1年で、二人の演技の阿吽の呼吸が **「業界のお手
 
 ---
 
-## 3作目 — Hometown Romance（2026・放送中）
+## 3作目 — Hometown Romance（2026・完結）
 
 **Hometown Romance**（คุณแฟนบ้านนอก）は **LMSY 3部作の完結編**。
-CHANGE2561 制作、One31 放送中。
-**最終話: 2026年5月23日（日本時間 土曜1:30）放送予定**。
+CHANGE2561 制作、One31 で放送（全8話）。
+**2026年5月23日（JST）に最終話を迎え、3部作が完結しました**。
+完結を受けた総括は[Hometown Romance 完結レビュー](/blog/hometown-romance-finale-review)へ。
 
 ### 物語のテーマ
 詳細は徐々に明らかになっていますが、

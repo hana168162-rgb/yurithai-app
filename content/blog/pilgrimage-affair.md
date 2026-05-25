@@ -150,7 +150,7 @@ Instagram で **@lmlookmhee**（Lookmhee）、**@sonyasarann**（Sonya）をフ�
 LMSY 3部作の流れで、Affair を観たら次は:
 
 1. **[Harmony Secret](/dramas/harmony-secret)**（2025・18+評価）— 企業ロマンス × 復讐
-2. **[Hometown Romance](/dramas/hometown-romance)**（2026・放送中）— 完結編、田舎ロマンス
+2. **[Hometown Romance](/dramas/hometown-romance)**（2026・完結）— 完結編、田舎ロマンス
 
 3部作を通じて観ると、**LMSY ペアの成長と関係性の深化**が体感できます。
 詳しくは[LMSY 3部作完全ガイド](/blog/lmsy-trilogy-guide)。

@@ -13,7 +13,7 @@ GMMTV や IDOLFACTORY のような巨大事務所でも、Channel 3 のような
 業界でもほぼ前例のないビジネスモデルを打ち出しました。
 
 その象徴が、**[LMSY](/cast/lookmhee)**（Lookmhee × Sonya）の3部作:
-**[Affair](/dramas/affair)**（2024）→ **[Harmony Secret](/dramas/harmony-secret)**（2025）→ **[Hometown Romance](/dramas/hometown-romance)**（2026・現在放送中）。
+**[Affair](/dramas/affair)**（2024）→ **[Harmony Secret](/dramas/harmony-secret)**（2025）→ **[Hometown Romance](/dramas/hometown-romance)**（2026・完結）。
 
 本記事では、**CHANGE2561の戦略思想**、LMSYに加えてLillyBelleの育成、
 [I Wanna Be Sup'tar](/dramas/i-wanna-be-suptar) への拡張、
@@ -85,7 +85,7 @@ CHANGE2561 が打ち出した最大の革新は、**「LMSY3部作」**という
 |---|---|---|---|
 | **2024** | **[Affair](/dramas/affair)** | 過去の絆と現在の運命 / 幼馴染再会 | 8話 |
 | **2025** | **[Harmony Secret](/dramas/harmony-secret)** | ライバルとしての対峙 / 企業ロマンス | 8話（18+評価）|
-| **2026** | **[Hometown Romance](/dramas/hometown-romance)** | 故郷で見つめ直す関係性 / 田舎ロマンス | 8話（放送中・5/23 最終話 JST） |
+| **2026** | **[Hometown Romance](/dramas/hometown-romance)** | 故郷で見つめ直す関係性 / 田舎ロマンス | 8話（2026/5/23 完結）|
 
 ### なぜ3部作にしたか
 
@@ -162,8 +162,8 @@ Affair から1年で、二人の演技の阿吽の呼吸が **「業界のお手
 ## Hometown Romance（2026）— 3部作の完結編
 
 **[Hometown Romance（คุณแฟนบ้านนอก）](/dramas/hometown-romance)**は、
-LMSY 3部作の完結編。CHANGE2561 制作、One31 放送中。
-**最終話: 2026年5月23日（JST）放送予定**。
+LMSY 3部作の完結編。CHANGE2561 制作、One31 で放送（全8話）。
+**2026年5月23日（JST）に最終話を迎え完結**。
 
 ### 物語のテーマ
 
@@ -272,7 +272,7 @@ CHANGE2561 のLMSY 3部作を、**順番に観る**のが鉄則:
 
 1. **[Affair](/dramas/affair)**（2024）— LMSYの始まり。「身分違い × 再会」の王道。
 2. **[Harmony Secret](/dramas/harmony-secret)**（2025）— LMSYの真骨頂。18+評価の濃密企業ドラマ。
-3. **[Hometown Romance](/dramas/hometown-romance)**（2026・放送中）— 3部作の完結編。
+3. **[Hometown Romance](/dramas/hometown-romance)**（2026・完結）— 3部作の完結編。
 
 そして、その後で:
 

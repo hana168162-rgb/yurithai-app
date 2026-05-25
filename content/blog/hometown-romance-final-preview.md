@@ -7,7 +7,9 @@ tags: ["Hometown Romance", "LMSY", "Lookmhee", "Sonya", "CHANGE2561", "最終話
 cover_image: "/images/dramas/hometown-romance.jpg"
 ---
 
-2026年5月23日（土）、タイGL の重要な節目となる**「Hometown Romance」最終話**が放送されます。
+> 📌 **本記事は最終話放送前の「予習ガイド」です。** Hometown Romance は **2026年5月23日に完結**しました。完結後の総括は[Hometown Romance 完結レビュー](/blog/hometown-romance-finale-review)をどうぞ。
+
+2026年5月23日（土）、タイGL の重要な節目となる**「Hometown Romance」最終話**が放送されました。
 
 これは単なる1作品の最終話ではありません。
 **[Lookmhee Punyapat](/cast/lookmhee) × [Sonya Pedersen](/cast/sonya)** ——

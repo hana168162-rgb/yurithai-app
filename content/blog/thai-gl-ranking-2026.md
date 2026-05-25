@@ -177,11 +177,11 @@ S.NUR Entertainmentが制作した、ギャンブル依存を扱う社会派GL�
 
 ---
 
-## 第9位：Hometown Romance（2026・放送中）
+## 第9位：Hometown Romance（2026・完結）
 
 **ジャンル**: 田舎ロマンス / スロウライフ
 **主演**: [LMSY](/cast/lookmhee)
-**話数**: 全8話（最終話 2026年5月23日）
+**話数**: 全8話（2026年5月23日 完結）
 
 [作品ページ →](/dramas/hometown-romance)
 

@@ -292,5 +292,21 @@
     "cover_image": "/images/dramas/by-your-side.jpg",
     "cover_credit": null,
     "youtube_teaser": "https://youtu.be/0UzWBBSS3js"
+  },
+  {
+    "id": 219,
+    "slug": "third-person",
+    "title_ja": "Third Person",
+    "title_en": "Third Person",
+    "title_th": "ถ้อยรักคำลวง",
+    "production": "North Star Entertainment",
+    "cast_pair": "Garn Nuttacha × Mimie Bhapat（GarnMimie）",
+    "status": "upcoming",
+    "announced_for": "2026年公開予定",
+    "synopsis": "「4年前に記憶を失って以来……毎晩夢に見ていた、黄色い傘の下の彼女に、ついに出会えた」——記憶喪失と、夢に現れる女性の謎をめぐるミステリアスなGLロマンス。",
+    "note": "North Star Entertainment 第4のGLカップル Garn × Mimie 初主演（Garn=クリス役 / Mimie=サン役）/ Piglet Charada が「第三者」として絡む三角関係 / 小説『Third Person（ถ้อยรักคำลวง）』(sixnineyuri 著) 原作 / 配信日未定（North Star Channel・YouTube予定）/ ハッシュタグ #ThirdPersonTheSeries",
+    "cover_image": "/images/dramas/third-person.jpg",
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/b8Fa97kmgwQ"
   }
 ]

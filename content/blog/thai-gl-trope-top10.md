@@ -156,7 +156,7 @@ cover_image: "/images/dramas/affair.jpg"
 派手な事件は起きないが、**毎日の小さな瞬間**で関係性が育っていく。
 
 ### 代表作
-- **[Us](/dramas/us)**（EmiBonnie / 2025 / 12話）— カフェで出会う Doklak と Pam の静かな日常
+- **[Us](/dramas/us)**（EmiBonnie / 2025 / 12話）— カフェで出会う Dokrak と Pam の静かな日常
 - **[Mate](/dramas/mate)**（GraceOaey / 2024 / 12話）— 幼馴染の再会と日常の癒し
 
 ### こんな気分のときに

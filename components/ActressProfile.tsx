@@ -66,9 +66,18 @@ export function ActressProfile({ actress }: { actress: Actress }) {
           </div>
         )}
         {actress.filmography && actress.filmography.length > 0 && (
-          <div className="flex">
-            <dt className="w-14 md:w-20 text-yuri-muted shrink-0">出演作品</dt>
-            <dd className="text-yuri-ink">{actress.filmography.join(" / ")}</dd>
+          <div className="pt-0.5">
+            <dt className="text-yuri-muted mb-1">出演作品</dt>
+            <dd className="flex flex-wrap gap-1">
+              {actress.filmography.map((work) => (
+                <span
+                  key={work}
+                  className="inline-block px-2 py-0.5 rounded-md bg-yuri-pink/30 text-yuri-navy text-[11px] leading-snug"
+                >
+                  {work}
+                </span>
+              ))}
+            </dd>
           </div>
         )}
       </dl>

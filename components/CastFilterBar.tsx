@@ -54,12 +54,12 @@ export function CastFilterBar({ pairs }: { pairs: CastPairEntry[] }) {
 
   const isFiltered = !!(agency || pairKey);
   const selectClassName =
-    "px-3 py-1.5 rounded-full text-sm border border-yuri-edge bg-yuri-cream text-yuri-ink hover:border-yuri-rose focus:outline-none focus:ring-2 focus:ring-yuri-rose/40 transition-colors";
+    "w-full sm:w-auto max-w-full px-3 py-2 rounded-full text-sm border border-yuri-edge bg-yuri-cream text-yuri-ink hover:border-yuri-rose focus:outline-none focus:ring-2 focus:ring-yuri-rose/40 transition-colors";
 
   return (
     <>
-      <div className="mb-5 flex flex-wrap items-center gap-2 md:gap-3">
-        <div className="flex flex-wrap items-center gap-2 md:gap-3 flex-1 min-w-0">
+      <div className="mb-5">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-2 md:gap-3">
           <select
             aria-label="事務所で絞り込み"
             value={agency}
@@ -95,18 +95,18 @@ export function CastFilterBar({ pairs }: { pairs: CastPairEntry[] }) {
                 setAgency("");
                 setPairKey("");
               }}
-              className="px-3 py-1.5 text-xs text-yuri-muted hover:text-yuri-rose underline-offset-2 hover:underline"
+              className="self-start px-1 py-1.5 text-xs text-yuri-muted hover:text-yuri-rose underline-offset-2 hover:underline"
             >
               絞り込みをクリア
             </button>
           )}
         </div>
 
-        <div className="text-xs text-yuri-muted whitespace-nowrap ml-auto">
+        <p className="text-xs text-yuri-muted mt-2">
           {isFiltered
             ? `${filtered.length} / ${pairs.length} ペア`
             : `全 ${pairs.length} ペア`}
-        </div>
+        </p>
       </div>
 
       {filtered.length === 0 ? (
@@ -124,8 +124,8 @@ export function CastFilterBar({ pairs }: { pairs: CastPairEntry[] }) {
                 <h2 className="text-lg font-medium text-yuri-navy mb-1">
                   {p.short}
                 </h2>
-                <p className="text-xs text-yuri-muted mb-2">{p.full}</p>
-                <p className="text-xs text-yuri-ink/80">
+                <p className="text-[13px] text-yuri-muted mb-2">{p.full}</p>
+                <p className="text-[13px] text-yuri-ink">
                   <span className="text-yuri-muted">出演: </span>
                   {p.dramas.join(" / ")}
                 </p>

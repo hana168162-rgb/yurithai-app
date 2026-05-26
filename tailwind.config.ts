@@ -32,7 +32,7 @@ const config: Config = {
           gold: "#D4B589",
           cream: "#FAF6EE",
           ink: "#2A2548",
-          muted: "#6B6585",
+          muted: "#574F73",
           edge: "#E8E2D8",
           surface: "#FFFFFF",
         },

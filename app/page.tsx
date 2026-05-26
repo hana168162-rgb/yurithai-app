@@ -78,7 +78,7 @@ export default function HomePage() {
     <div className="mx-auto max-w-6xl px-4 md:px-6">
       <JsonLd data={buildFaqJsonLd(HOME_FAQ)} />
       {/* Hero */}
-      <section className="py-8 md:py-12 text-center">
+      <section className="pt-4 pb-8 md:py-12 text-center">
         <div className="text-yuri-gold mb-2 text-sm">✦  ✦  ✦</div>
         <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-6 tracking-tight leading-tight">
           タイGLを、日本で楽しむ。

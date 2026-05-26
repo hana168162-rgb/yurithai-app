@@ -67,14 +67,12 @@ export default function CastPage() {
   }));
 
   return (
-    <div className="mx-auto max-w-4xl px-4 md:px-6 py-8 md:py-10">
-      <header className="mb-6">
+    <div className="mx-auto max-w-4xl px-4 md:px-6 pt-4 pb-8 md:py-10">
+      <header className="mb-4">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
           女優
         </h1>
-        <p className="text-sm text-yuri-muted">
-          タイGL主演ペアと出演女優を、事務所・カップルで絞り込めます。
-        </p>
+        <p className="text-sm text-yuri-muted">事務所・カップルで絞り込めます。</p>
       </header>
 
       <CastFilterBar pairs={pairList} />

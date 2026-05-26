@@ -1,0 +1,16 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="YuriThai">
+  <defs>
+    <linearGradient id="yt-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4708C"/>
+      <stop offset="1" stop-color="#3D3470"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="url(#yt-bg)"/>
+  <!-- Y（YuriThai のイニシャル） -->
+  <path d="M10 10.5 L16 17 L22 10.5 M16 17 L16 23.5"
+        fill="none" stroke="#FAF6EE" stroke-width="3.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- ✦ ブランドの輝きモチーフ -->
+  <path d="M25 3 L25.8 5.2 L28 6 L25.8 6.8 L25 9 L24.2 6.8 L22 6 L24.2 5.2 Z"
+        fill="#E7C99B"/>
+</svg>

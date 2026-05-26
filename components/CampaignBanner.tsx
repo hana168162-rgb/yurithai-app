@@ -155,7 +155,7 @@ export function CampaignBanner() {
                   wasSwiped.current = false;
                 }
               }}
-              className={`shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-4 md:py-5 flex items-center gap-4 cursor-pointer hover:opacity-95`}
+              className={`shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-3.5 md:py-5 flex items-center gap-3.5 md:gap-4 cursor-pointer hover:opacity-95`}
             >
               {b.icon && (
                 <div className="text-2xl md:text-3xl shrink-0" aria-hidden>
@@ -163,10 +163,10 @@ export function CampaignBanner() {
                 </div>
               )}
               <div className="min-w-0 flex-1">
-                <div className="text-[13px] md:text-base font-medium leading-snug truncate">
+                <div className="text-[15px] md:text-lg font-semibold leading-snug truncate">
                   {b.title}
                 </div>
-                <div className="text-[11px] md:text-sm opacity-80 leading-snug truncate">
+                <div className="text-[12px] md:text-sm opacity-90 leading-snug truncate">
                   {b.subtitle}
                 </div>
               </div>

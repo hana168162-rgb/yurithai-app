@@ -710,7 +710,7 @@
   {
     "id": "pitcha",
     "name_ja": "ピチャ",
-    "real_name": "Pitchatorn \"Noon\" / \"Pitcha\" Santinatornkul",
+    "real_name": "Pitchatorn \"Pitcha\" Santinatornkul",
     "birth_date": "1998-02-09",
     "age": 28,
     "nationality": "Thai",
@@ -728,7 +728,7 @@
     ],
     "agency": "Siblings",
     "instagram": "pitchaaaa_s",
-    "name_en": "Noon"
+    "name_en": "Pitcha"
   },
   {
     "id": "natt",
@@ -935,8 +935,8 @@
     "id": "mable",
     "name_ja": "メイブル",
     "real_name": "Siriwalee \"Mable\" Siriwibool",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1997-04-23",
+    "age": 29,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -980,8 +980,8 @@
     "id": "june-n",
     "name_ja": "ジューン",
     "real_name": "June Nannirin Varokornwatcharakool",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1995-08-18",
+    "age": 30,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -996,32 +996,32 @@
     "id": "fay",
     "name_ja": "フェイ",
     "real_name": "Fay Kanyaphat Na Nakhon",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "2001-12-02",
+    "age": 24,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
       "My Marvellous Dream is You",
       "Somewhere Somehow"
     ],
-    "agency": "IDOLFACTORY",
-    "instagram": null,
+    "agency": "FayMay Entertainment",
+    "instagram": "fay_riezz",
     "name_en": "Fay"
   },
   {
     "id": "may",
     "name_ja": "メイ",
     "real_name": "May Yada Watcharamusik",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1997-10-31",
+    "age": 28,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
       "My Marvellous Dream is You",
       "Somewhere Somehow"
     ],
-    "agency": "IDOLFACTORY",
-    "instagram": null,
+    "agency": "FayMay Entertainment",
+    "instagram": "maywyda",
     "name_en": "May"
   },
   {
@@ -1343,8 +1343,8 @@
     "id": "mook",
     "name_ja": "ムーキー",
     "real_name": "Napapach \"Mooky\" Thitakawin",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "2004-03-18",
+    "age": 22,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1360,8 +1360,8 @@
     "id": "pinky",
     "name_ja": "ピンキー",
     "real_name": "Subhisara \"Pinky\" Suksathan",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1999-06-10",
+    "age": 26,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [

@@ -19,6 +19,14 @@
     "emi",
     "bonnie"
   ],
+  "ViewMim": [
+    "view",
+    "mim-r"
+  ],
+  "JanJingJing": [
+    "jan",
+    "jingjing"
+  ],
   "FayeYoko": [
     "faye",
     "yoko"
@@ -42,6 +50,10 @@
   "LenaMiu": [
     "lena",
     "miu"
+  ],
+  "OomBam": [
+    "oom",
+    "bam"
   ],
   "LillyBelle": [
     "lilly",
@@ -67,14 +79,6 @@
     "tan",
     "yada"
   ],
-  "OomBam": [
-    "oom",
-    "bam"
-  ],
-  "JanJingJing": [
-    "jan",
-    "jingjing"
-  ],
   "PitchaNatt": [
     "pitcha",
     "natt"
@@ -90,10 +94,6 @@
   "PahnFond": [
     "pahn",
     "fond"
-  ],
-  "ViewMim": [
-    "view",
-    "mim-r"
   ],
   "MewRenee": [
     "mew",

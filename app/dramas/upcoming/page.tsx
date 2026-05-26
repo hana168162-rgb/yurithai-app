@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function UpcomingPage() {
   return (
-    <div className="mx-auto max-w-6xl px-6 py-10">
+    <div className="mx-auto max-w-6xl px-4 md:px-6 py-8 md:py-10">
       <header className="mb-6">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
           公開予定

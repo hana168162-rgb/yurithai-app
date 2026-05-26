@@ -66,3 +66,27 @@ export function getBlogPostBySlug(slug: string): BlogPost | null {
 export function allBlogSlugs(): string[] {
   return getAllBlogPosts().map((p) => p.slug);
 }
+
+/**
+ * 関連記事を返す（記事末尾の「次に読む」用）。
+ * 共有タグ（重み2）＋ 同一カテゴリ（重み1）でスコアリングし、
+ * 同点は新しい記事を優先。該当が無くても新着記事で必ず埋める（行き止まり防止）。
+ */
+export function getRelatedBlogPosts(slug: string, limit = 4): BlogPostMeta[] {
+  const all = getAllBlogPosts();
+  const current = all.find((p) => p.slug === slug);
+  const others = all.filter((p) => p.slug !== slug);
+  if (!current) return others.slice(0, limit);
+
+  return others
+    .map((p) => {
+      const sharedTags = p.tags.filter((t) => current.tags.includes(t)).length;
+      const sameCategory = p.category === current.category ? 1 : 0;
+      return { p, score: sharedTags * 2 + sameCategory };
+    })
+    .sort((a, b) =>
+      b.score !== a.score ? b.score - a.score : b.p.date.localeCompare(a.p.date)
+    )
+    .slice(0, limit)
+    .map((s) => s.p);
+}

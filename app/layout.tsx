@@ -10,6 +10,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Header } from "@/components/Header";
 import { CampaignBanner } from "@/components/CampaignBanner";
 import { Footer } from "@/components/Footer";
+import { MobileBottomBar } from "@/components/MobileBottomBar";
 import { JsonLd, buildWebSiteJsonLd } from "@/components/JsonLd";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { GoogleAdSense } from "@/components/GoogleAdSense";
@@ -131,6 +132,7 @@ export default function RootLayout({
         <CampaignBanner />
         <main className="flex-1">{children}</main>
         <Footer />
+        <MobileBottomBar />
         <Analytics />
         <SpeedInsights />
         <GoogleAnalytics />

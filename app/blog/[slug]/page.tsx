@@ -5,8 +5,10 @@ import type { Metadata } from "next";
 import {
   getBlogPostBySlug,
   allBlogSlugs,
+  getRelatedBlogPosts,
 } from "@/lib/blog";
 import { JsonLd, buildBreadcrumbJsonLd } from "@/components/JsonLd";
+import { BlogReadNext } from "@/components/BlogReadNext";
 
 const SITE_URL = "https://yurithai.jp";
 
@@ -76,6 +78,7 @@ export default function BlogPostPage({
   const post = getBlogPostBySlug(params.slug);
   if (!post) notFound();
 
+  const relatedPosts = getRelatedBlogPosts(post.slug, 4);
   const articleJsonLd = buildArticleJsonLd(post);
   const breadcrumbJsonLd = buildBreadcrumbJsonLd([
     { name: "トップ", url: `${SITE_URL}/` },
@@ -143,7 +146,7 @@ export default function BlogPostPage({
         )}
 
         <div
-          className="prose-yuri text-sm leading-relaxed text-yuri-ink/90"
+          className="prose-yuri text-[15px] md:text-base leading-relaxed text-yuri-ink/90"
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: post.body_html }}
         />
@@ -151,12 +154,7 @@ export default function BlogPostPage({
 
       <hr className="my-10 border-yuri-edge" />
 
-      <Link
-        href="/blog"
-        className="text-xs text-yuri-rose hover:underline"
-      >
-        ← ブログ一覧に戻る
-      </Link>
+      <BlogReadNext posts={relatedPosts} />
     </div>
   );
 }

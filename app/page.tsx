@@ -75,14 +75,17 @@ export default function HomePage() {
   const featured = getFeaturedCompletedDramas(6);
 
   return (
-    <div className="mx-auto max-w-6xl px-6">
+    <div className="mx-auto max-w-6xl px-4 md:px-6">
       <JsonLd data={buildFaqJsonLd(HOME_FAQ)} />
       {/* Hero */}
       <section className="py-8 md:py-12 text-center">
         <div className="text-yuri-gold mb-2 text-sm">✦  ✦  ✦</div>
-        <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-6 tracking-tight leading-tight">
+        <h1 className="!font-sans text-[26px] md:text-[34px] font-medium text-yuri-ink mb-3 tracking-tight leading-tight">
           タイGLを、日本で楽しむ。
         </h1>
+        <p className="text-sm text-yuri-muted mb-6 leading-relaxed max-w-md mx-auto">
+          配信先・レビュー・女優情報・おすすめ診断を、ぜんぶ日本語で。
+        </p>
         <Link
           href="/recommend"
           className="inline-flex items-center gap-2 bg-yuri-navy text-yuri-cream px-6 py-3 rounded-full text-sm font-medium hover:opacity-90"
@@ -91,6 +94,14 @@ export default function HomePage() {
           おすすめを診断する
           <span>→</span>
         </Link>
+        <p className="mt-3">
+          <Link
+            href="/dramas"
+            className="text-xs text-yuri-rose hover:underline"
+          >
+            まずは作品一覧を見る →
+          </Link>
+        </p>
       </section>
 
       {/* 今月のピックアップ */}

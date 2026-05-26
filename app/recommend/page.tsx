@@ -44,7 +44,7 @@ export default function RecommendPage() {
   }
 
   return (
-    <div className="mx-auto max-w-2xl px-6 py-12">
+    <div className="mx-auto max-w-2xl px-4 md:px-6 py-8 md:py-12 pb-24 md:pb-12">
       <header className="mb-8">
         <p className="text-xs text-yuri-rose mb-2">
           ✦ おすすめを診断する

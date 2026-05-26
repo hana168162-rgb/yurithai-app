@@ -52,16 +52,16 @@ export function DramaCard({ drama }: { drama: Drama }) {
       <div className="p-2.5">
         <p className="text-sm font-medium mb-0.5 truncate">{drama.title_ja}</p>
         {drama.title_th && (
-          <p className="text-[10px] text-yuri-muted/80 mb-0.5 truncate">
+          <p className="text-[11px] text-yuri-muted/80 mb-0.5 truncate">
             {drama.title_th}
           </p>
         )}
-        <p className="text-[10px] text-yuri-muted mb-1">
+        <p className="text-[11px] text-yuri-muted mb-1">
           {drama.year ?? "—"}
           {drama.production ? ` · ${drama.production.split(" × ")[0]}` : ""}
         </p>
         {drama.cast_pair && (
-          <p className="text-[10px] text-yuri-rose/90 mb-2 truncate">
+          <p className="text-[11px] text-yuri-rose/90 mb-2 truncate">
             {drama.cast_pair.split("（")[1]?.replace("）", "") ??
               drama.cast_pair}
           </p>

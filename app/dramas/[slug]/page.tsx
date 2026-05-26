@@ -182,7 +182,7 @@ export default function DramaDetailPage({
   ]);
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-10">
+    <div className="mx-auto max-w-4xl px-4 md:px-6 py-8 md:py-10">
       <JsonLd data={tvSeriesData} />
       <JsonLd data={breadcrumbData} />
       {/* Breadcrumb
@@ -207,15 +207,18 @@ export default function DramaDetailPage({
       </nav>
 
       <div className="flex flex-col">
-        {/* 1. Hero — order-1 (mobile & PC same) */}
-        <section className="order-1 flex gap-6 mb-8 flex-col md:flex-row">
-          <div className="w-full md:w-56 aspect-[3/4] rounded-lg relative shrink-0 overflow-hidden">
+        {/* 1. Hero — order-1 (mobile & PC same)
+            モバイルはポスター（小）＋タイトルを横並びにして、あらすじを下に全幅で配置。
+            縦長ポスターで初期表示が埋まらないようにして離脱を防ぐ。 */}
+        <section className="order-1 mb-8">
+          <div className="flex gap-4 md:gap-6">
+          <div className="w-32 sm:w-40 md:w-56 aspect-[3/4] rounded-lg relative shrink-0 overflow-hidden">
             {drama.cover_image ? (
               <Image
                 src={drama.cover_image}
                 alt={drama.title_ja}
                 fill
-                sizes="(max-width: 768px) 100vw, 224px"
+                sizes="(max-width: 768px) 160px, 224px"
                 className="object-cover"
                 priority
               />
@@ -247,8 +250,8 @@ export default function DramaDetailPage({
               )}
             </div>
           </div>
-          <div className="flex-1">
-            <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
+          <div className="flex-1 min-w-0">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
               {drama.title_ja}
             </h1>
             {titleTh && (
@@ -271,18 +274,19 @@ export default function DramaDetailPage({
             </p>
 
             {drama.cast_pair && (
-              <div className="mb-4 text-sm">
+              <div className="text-sm">
                 <span className="text-yuri-muted">出演ペア: </span>
                 <span className="text-yuri-ink">{drama.cast_pair}</span>
               </div>
             )}
-
-            {synopsis && (
-              <p className="text-sm leading-relaxed text-yuri-ink/80 max-w-prose whitespace-pre-line">
-                {synopsis}
-              </p>
-            )}
           </div>
+          </div>
+
+          {synopsis && (
+            <p className="mt-5 text-[15px] md:text-base leading-relaxed text-yuri-ink/80 max-w-prose whitespace-pre-line">
+              {synopsis}
+            </p>
+          )}
         </section>
 
         {/* 2. Teaser — order-2 (mobile & PC same) */}

@@ -265,12 +265,12 @@ export function DramaFilterBar({
   };
 
   const selectClassName =
-    "px-3 py-1.5 rounded-full text-sm border border-yuri-edge bg-yuri-cream text-yuri-ink hover:border-yuri-rose focus:outline-none focus:ring-2 focus:ring-yuri-rose/40 transition-colors";
+    "w-full sm:w-auto max-w-full px-3 py-2 rounded-full text-sm border border-yuri-edge bg-yuri-cream text-yuri-ink hover:border-yuri-rose focus:outline-none focus:ring-2 focus:ring-yuri-rose/40 transition-colors";
 
   return (
     <>
-      <div className="mb-5 flex flex-wrap items-center gap-2 md:gap-3">
-        <div className="flex flex-wrap items-center gap-2 md:gap-3 flex-1 min-w-0">
+      <div className="mb-5">
+        <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:items-center gap-2 md:gap-3">
           <select
             aria-label="女優で絞り込み"
             value={actressId}
@@ -281,20 +281,6 @@ export function DramaFilterBar({
             {actressOptions.map((opt) => (
               <option key={opt.id} value={opt.id}>
                 {opt.label}
-              </option>
-            ))}
-          </select>
-
-          <select
-            aria-label="事務所で絞り込み"
-            value={agency}
-            onChange={(e) => setAgency(e.target.value)}
-            className={selectClassName}
-          >
-            <option value="">事務所：すべて</option>
-            {agencyOptions.map((p) => (
-              <option key={p} value={p}>
-                {p}
               </option>
             ))}
           </select>
@@ -315,19 +301,33 @@ export function DramaFilterBar({
             </select>
           )}
 
+          <select
+            aria-label="事務所で絞り込み"
+            value={agency}
+            onChange={(e) => setAgency(e.target.value)}
+            className={selectClassName}
+          >
+            <option value="">事務所：すべて</option>
+            {agencyOptions.map((p) => (
+              <option key={p} value={p}>
+                {p}
+              </option>
+            ))}
+          </select>
+
           {hasFreeWorks && (
             <button
               type="button"
               aria-pressed={freeOnly}
               onClick={() => setFreeOnly((v) => !v)}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm border transition-colors ${
+              className={`w-full sm:w-auto inline-flex items-center justify-center sm:justify-start gap-1.5 px-3 py-2 rounded-full text-sm border transition-colors ${
                 freeOnly
                   ? "border-[#06C755] bg-[#06C755]/10 text-yuri-ink"
                   : "border-yuri-edge bg-yuri-cream text-yuri-ink hover:border-[#06C755]"
               }`}
             >
               <span aria-hidden>{freeOnly ? "✓" : "▶"}</span>
-              YouTube無料（VPN不要）
+              YouTube無料
             </button>
           )}
 
@@ -340,16 +340,16 @@ export function DramaFilterBar({
                 setYear("");
                 setFreeOnly(false);
               }}
-              className="px-3 py-1.5 text-xs text-yuri-muted hover:text-yuri-rose underline-offset-2 hover:underline"
+              className="col-span-2 sm:col-auto self-start text-left px-1 sm:px-3 py-1.5 text-xs text-yuri-muted hover:text-yuri-rose underline-offset-2 hover:underline"
             >
               絞り込みをクリア
             </button>
           )}
         </div>
 
-        <div className="text-xs text-yuri-muted whitespace-nowrap ml-auto">
+        <p className="mt-2 text-xs text-yuri-muted sm:text-right">
           {isFiltered ? `${totalFiltered} / ${totalAll} 作品` : `全 ${totalAll} 作品`}
-        </div>
+        </p>
       </div>
 
       {totalFiltered === 0 ? (

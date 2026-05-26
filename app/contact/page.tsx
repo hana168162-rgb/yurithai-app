@@ -58,7 +58,9 @@ export default function ContactPage() {
         </p>
         <p>
           <strong className="font-medium">誹謗中傷・差別的な内容</strong>
-          を含むお問い合わせはお断りします。該当する場合はお返事せず削除します。
+          を含むお問い合わせはお断りします。
+          <br />
+          該当する場合はお返事せず削除します。
         </p>
       </div>
 

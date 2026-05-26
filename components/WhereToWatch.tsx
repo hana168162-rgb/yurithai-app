@@ -1,4 +1,5 @@
 import type { StreamingLink } from "@/lib/types";
+import { isRestrictedNote } from "@/lib/streaming";
 
 // プラットフォームごとの表示色（yuri-* tokens 利用）
 const PLATFORM_STYLE: Record<string, string> = {
@@ -22,11 +23,8 @@ function styleFor(platform: string): string {
   return PLATFORM_STYLE[platform] ?? DEFAULT_STYLE;
 }
 
-// note が「日本から直接視聴できない」ことを示すか
-function isRestricted(note?: string | null): boolean {
-  if (!note) return false;
-  return /VPN|視聴不可|メンバー/.test(note);
-}
+// note が「日本から直接視聴できない」ことを示すか（判定は lib/streaming に一元化）
+const isRestricted = isRestrictedNote;
 
 export function WhereToWatch({
   streaming,
@@ -92,7 +90,7 @@ export function WhereToWatch({
       </div>
       {hasRestricted && (
         <p className="mt-3 text-[11px] text-amber-800 bg-amber-50 border border-amber-200 rounded px-2.5 py-1.5 leading-relaxed">
-          🔒 マークの配信先は、<strong className="font-medium">日本から直接視聴できません</strong>（タイ限定 / VPN必要 / メンバー限定）。日本で観られる配信先（YouTube・TELASA・iQIYI 等）があるかは、上の一覧をご確認ください。
+          🔒 マークの配信先は、<strong className="font-medium">日本から直接視聴できません</strong>（タイ限定 / VPN必要）。日本で観られる配信先（YouTube・TELASA・iQIYI 等）があるかは、上の一覧をご確認ください。
         </p>
       )}
       <p className="mt-2 text-[10px] text-yuri-muted">

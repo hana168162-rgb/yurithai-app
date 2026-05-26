@@ -16,9 +16,22 @@ type Variant = "compact" | "wide";
  *
  * compact: 作品詳細の「どこで見れる？」下に挿入する小カード
  * wide:    /guide/vpn の本文 CTA 用
+ *
+ * title / subtitle を渡すと、その作品の状況に合わせた文言に差し替えられる
+ * （例: 「この作品は日本から直接観られる配信先がありません」など）。
  */
-export function NordVpnCard({ variant = "compact" }: { variant?: Variant }) {
+export function NordVpnCard({
+  variant = "compact",
+  title,
+  subtitle,
+}: {
+  variant?: Variant;
+  title?: string;
+  subtitle?: string;
+}) {
   const isWide = variant === "wide";
+  const cardTitle = title ?? NORDVPN.cardTitle;
+  const cardSubtitle = subtitle ?? NORDVPN.cardSubtitle;
 
   return (
     <div
@@ -51,14 +64,14 @@ export function NordVpnCard({ variant = "compact" }: { variant?: Variant }) {
               isWide ? "text-lg md:text-xl mb-2" : "text-sm mb-1"
             }`}
           >
-            {NORDVPN.cardTitle}
+            {cardTitle}
           </h3>
           <p
             className={`text-yuri-ink/80 leading-relaxed ${
               isWide ? "text-sm md:text-[15px]" : "text-xs"
             } mb-3`}
           >
-            {NORDVPN.cardSubtitle}
+            {cardSubtitle}
           </p>
 
           <div className="flex flex-wrap items-center gap-3">

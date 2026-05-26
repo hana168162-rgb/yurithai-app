@@ -18,7 +18,8 @@ import { TagBadge, TagPillDark } from "@/components/TagBadge";
 import { YouTubeEmbed, getYouTubeId } from "@/components/YouTubeEmbed";
 import { ActressProfile } from "@/components/ActressProfile";
 import { WhereToWatch } from "@/components/WhereToWatch";
-import { NordVpnBannerResponsive } from "@/components/NordVpnBanner";
+import { NordVpnCard } from "@/components/NordVpnCard";
+import { analyzeStreamingAccess } from "@/lib/streaming";
 import { RelatedDramas } from "@/components/RelatedDramas";
 import {
   JsonLd,
@@ -138,6 +139,9 @@ export default function DramaDetailPage({
     "streaming" in drama && drama.streaming && drama.streaming.length > 0
       ? drama.streaming
       : undefined;
+
+  // 日本から観られるか（VPN案内を「自然に」出し分けるための判定）
+  const access = analyzeStreamingAccess(streamingLinks);
 
   const relatedGroups = getRelatedDramas(drama, 4);
 
@@ -301,19 +305,25 @@ export default function DramaDetailPage({
             どこで見れる？
           </h2>
           <WhereToWatch streaming={streamingLinks} fallbackNote={null} />
-          {/* 海外配信向け：NordVPN®公式バナー（アフィリエイト広告） */}
-          <div className="mt-5">
-            <NordVpnBannerResponsive
-              mobileBanner="borderless_1200x628"
-              desktopBanner="borderless_728x90"
+          {/*
+            VPN案内は「この作品が日本から直接観られない配信先を含む」場合だけ
+            文脈に沿って出す。日本でフツーに観られる作品には出さない（＝自然な誘導）。
+          */}
+          {access.hasRestricted && (
+            <NordVpnCard
+              variant="compact"
+              title={
+                access.vpnOnly
+                  ? "この作品を日本から観るには"
+                  : "タイ限定の配信先を観たいときは"
+              }
+              subtitle={
+                access.vpnOnly
+                  ? "この作品は、日本から直接観られる配信先が見つかりませんでした。タイ現地の配信サービスで観たい場合、VPN という選択肢があります（30日間返金保証あり ※詳細は公式サイト）。"
+                  : "上の 🔒 マークの配信先はタイ限定です。日本で観られる配信先（YouTube・TELASA 等）が第一候補ですが、現地配信を観たい場合は VPN という方法もあります。"
+              }
             />
-            <p className="text-[11px] text-yuri-muted mt-1.5 text-center md:text-left">
-              海外配信サービスの視聴を検討する方向け ·{" "}
-              <Link href="/guide/vpn" className="text-yuri-rose hover:opacity-80">
-                VPNとタイGLについて詳しく →
-              </Link>
-            </p>
-          </div>
+          )}
         </section>
 
         {/* 制作・放送情報 — mobile: order-7 / PC: order-7 (一番下) */}

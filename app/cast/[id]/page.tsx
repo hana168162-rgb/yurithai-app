@@ -108,15 +108,15 @@ export default function ActressDetailPage({
 
       {/* Hero */}
       <header className="mb-8 bg-yuri-cream border border-yuri-edge rounded-lg p-6">
-        <p className="text-xs text-yuri-muted mb-0.5 leading-tight">
+        <p className="text-sm text-yuri-muted mb-0.5 leading-tight">
           {actress.name_ja}
         </p>
-        <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-display font-semibold text-yuri-ink mb-1 leading-tight">
           {actress.name_en}
         </h1>
-        <p className="text-sm text-yuri-muted mb-4">{actress.real_name}</p>
+        <p className="text-base text-yuri-muted mb-4">{actress.real_name}</p>
 
-        <dl className="text-sm grid grid-cols-1 md:grid-cols-2 gap-y-2 gap-x-6">
+        <dl className="text-base grid grid-cols-1 md:grid-cols-2 gap-y-2 gap-x-6">
           {actress.birth_date && (
             <div className="flex">
               <dt className="w-20 text-yuri-muted shrink-0">生年月日</dt>
@@ -154,7 +154,7 @@ export default function ActressDetailPage({
               <dt className="w-20 text-yuri-muted shrink-0">所属</dt>
               <dd>
                 <span
-                  className="inline-block px-2 py-0.5 rounded-full text-xs font-medium"
+                  className="inline-block px-2 py-0.5 rounded-full text-sm font-medium"
                   style={{
                     backgroundColor: agencyBadgeStyle(actress.agency).bg,
                     color: agencyBadgeStyle(actress.agency).fg,
@@ -172,7 +172,7 @@ export default function ActressDetailPage({
             href={`https://instagram.com/${actress.instagram}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 mt-4 px-3 py-1.5 rounded-full bg-yuri-pink text-yuri-navy text-xs hover:opacity-80"
+            className="inline-flex items-center gap-1.5 mt-4 px-3 py-1.5 rounded-full bg-yuri-pink text-yuri-navy text-sm hover:opacity-80"
           >
             <span aria-hidden>📷</span>
             Instagram @{actress.instagram}
@@ -182,7 +182,7 @@ export default function ActressDetailPage({
 
       {/* 出演作品 */}
       <section>
-        <h2 className="text-base font-medium text-yuri-navy mb-3">
+        <h2 className="text-lg font-medium text-yuri-navy mb-3">
           出演作品（{dramaList.length}作品）
         </h2>
         {dramaList.length === 0 ? (

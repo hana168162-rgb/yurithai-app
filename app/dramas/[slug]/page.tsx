@@ -283,7 +283,7 @@ export default function DramaDetailPage({
           </div>
 
           {synopsis && (
-            <p className="mt-5 text-[15px] md:text-base leading-relaxed text-yuri-ink/80 max-w-prose whitespace-pre-line">
+            <p className="mt-5 text-base md:text-lg leading-relaxed text-yuri-ink/90 max-w-prose whitespace-pre-line">
               {synopsis}
             </p>
           )}

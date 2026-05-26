@@ -121,11 +121,11 @@ export function CastFilterBar({ pairs }: { pairs: CastPairEntry[] }) {
               className="bg-yuri-cream border border-yuri-edge rounded-lg p-3.5 md:p-5"
             >
               <div className="mb-4">
-                <h2 className="text-lg font-medium text-yuri-navy mb-1">
+                <h2 className="text-xl font-bold text-yuri-navy mb-1">
                   {p.short}
                 </h2>
-                <p className="text-[13px] text-yuri-muted mb-2">{p.full}</p>
-                <p className="text-[13px] text-yuri-ink">
+                <p className="text-sm text-yuri-muted mb-2">{p.full}</p>
+                <p className="text-sm text-yuri-ink">
                   <span className="text-yuri-muted">出演: </span>
                   {p.dramas.join(" / ")}
                 </p>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="bg-yuri-navy text-yuri-cream mt-8">
+    <footer className="bg-yuri-navy text-yuri-cream mt-0 md:mt-8">
       {/* モバイルは下部固定バーに被らないよう pb を増やす */}
       <div className="mx-auto max-w-6xl px-6 pt-6 pb-24 md:pb-6">
         <div className="text-lg font-display font-medium mb-4">

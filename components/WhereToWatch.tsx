@@ -14,8 +14,18 @@ const PLATFORM_STYLE: Record<string, string> = {
 const DEFAULT_STYLE =
   "bg-yuri-surface text-yuri-navy border-yuri-edge hover:bg-yuri-pink/50";
 
+// 日本から直接視聴できない注記のスタイル（警告色）
+const RESTRICTED_STYLE =
+  "bg-amber-50 text-amber-800 border-amber-300 hover:bg-amber-100";
+
 function styleFor(platform: string): string {
   return PLATFORM_STYLE[platform] ?? DEFAULT_STYLE;
+}
+
+// note が「日本から直接視聴できない」ことを示すか
+function isRestricted(note?: string | null): boolean {
+  if (!note) return false;
+  return /VPN|視聴不可|メンバー/.test(note);
 }
 
 export function WhereToWatch({
@@ -36,20 +46,24 @@ export function WhereToWatch({
     );
   }
 
+  const hasRestricted = streaming.some((s) => isRestricted(s.note));
+
   return (
     <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
       <div className="flex flex-wrap gap-2">
         {streaming.map((s, i) => {
           const hasUrl = s.url && s.url.length > 0;
-          const className = `inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-medium transition-colors ${styleFor(
-            s.platform
-          )}`;
+          const restricted = isRestricted(s.note);
+          const className = `inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-medium transition-colors ${
+            restricted ? RESTRICTED_STYLE : styleFor(s.platform)
+          }`;
 
           const content = (
             <>
+              {restricted && <span aria-hidden>🔒</span>}
               <span>{s.platform}</span>
               {s.note && (
-                <span className="text-[10px] opacity-70">({s.note})</span>
+                <span className="text-[10px] opacity-80">（{s.note}）</span>
               )}
               {hasUrl && (
                 <span aria-hidden className="text-[10px]">
@@ -76,8 +90,13 @@ export function WhereToWatch({
           );
         })}
       </div>
-      <p className="mt-3 text-[10px] text-yuri-muted">
-        ※ リンクが付いている配信先は公式ページへ遷移します。
+      {hasRestricted && (
+        <p className="mt-3 text-[11px] text-amber-800 bg-amber-50 border border-amber-200 rounded px-2.5 py-1.5 leading-relaxed">
+          🔒 マークの配信先は、<strong className="font-medium">日本から直接視聴できません</strong>（タイ限定 / VPN必要 / メンバー限定）。日本で観られる配信先（YouTube・TELASA・iQIYI 等）があるかは、上の一覧をご確認ください。
+        </p>
+      )}
+      <p className="mt-2 text-[10px] text-yuri-muted">
+        ※ リンクが付いている配信先は公式ページへ遷移します。配信状況は変動する場合があります。
       </p>
     </div>
   );

@@ -216,7 +216,8 @@
     "streaming": [
       {
         "platform": "ONE31 (TV)",
-        "url": "https://www.one31.net"
+        "url": "https://www.one31.net",
+        "note": "タイ地上波（日本では視聴不可）"
       },
       {
         "platform": "Netflix (Worldwide Uncut)",
@@ -224,7 +225,8 @@
       },
       {
         "platform": "oneD (Thailand Uncut)",
-        "url": "https://www.oned.net"
+        "url": "https://www.oned.net",
+        "note": "日本からはVPN必要"
       }
     ]
   },

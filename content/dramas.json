@@ -636,7 +636,8 @@
     "streaming": [
       {
         "platform": "Channel One 31",
-        "url": "https://www.one31.net/"
+        "url": "https://www.one31.net/",
+        "note": "タイ地上波（日本では視聴不可）"
       },
       {
         "platform": "YouTube",
@@ -2138,7 +2139,8 @@
     "streaming": [
       {
         "platform": "Monomax",
-        "url": "https://www.monomax.me"
+        "url": "https://www.monomax.me",
+        "note": "日本からはVPN必要"
       }
     ],
     "title_th": "สืบลับจับใจ"
@@ -2679,11 +2681,13 @@
     "streaming": [
       {
         "platform": "MCOT HD 30 (TV)",
-        "url": "https://www.mcot.net/tv/30"
+        "url": "https://www.mcot.net/tv/30",
+        "note": "タイ地上波（日本では視聴不可）"
       },
       {
         "platform": "MaxLive TV (Uncensored)",
-        "url": "https://maxlivetv.co"
+        "url": "https://maxlivetv.co",
+        "note": "日本からはVPN必要"
       },
       {
         "platform": "YouTube (Maxlive Online TV)",
@@ -3021,7 +3025,8 @@
     "streaming": [
       {
         "platform": "TrueVisions NOW",
-        "url": "https://www.truevisionsnow.com"
+        "url": "https://www.truevisionsnow.com",
+        "note": "日本からはVPN必要"
       },
       {
         "platform": "FRT YouTube (Uncensored)",

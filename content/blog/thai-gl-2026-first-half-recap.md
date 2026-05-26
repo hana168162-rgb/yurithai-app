@@ -21,7 +21,7 @@ cover_image: "/images/dramas/the-earth.jpg"
 
 **The Earth（4 Elements 第1弾）**
 - 1月24日〜3月14日、毎週土曜
-- Apple Lapisara × Mim Panthita（AppleMimu）
+- Apple Lapisara × Mim Panthita（AppleMim）
 - Idol Factory × North Star Entertainment 制作
 - 契約結婚もの。ディン（Apple）が隣の牧場主ローズ（Mim）と結婚を機に本物の愛を育てる物語
 - **EP1 でタイ国内1位・世界2位トレンド入り**を達成
@@ -89,7 +89,7 @@ cover_image: "/images/dramas/the-earth.jpg"
 
 ### 主役級デビュー組
 
-- **AppleMimu**（The Earth）— Apple Lapisara が新人 Mim を見出した形
+- **AppleMim**（The Earth）— Apple Lapisara が新人 Mim を見出した形
 - **LillyBelle**（I Wanna Be Sup'tar）— サブCP → メイン昇格モデルの実例
 - **PlaifahBebell**（Shadow of Love）— インディーズの大型作で主役
 - **TungpangJessie**（Heart Code）— Monomax 系新規参入
@@ -191,7 +191,7 @@ YuriThai のデータベースから集計:
 YuriThai 編集部がおすすめする**2026年後半に向けた「今のうちに観ておきたい1本」**:
 
 ### 初心者向け
-**The Earth**（AppleMimu / 8話 / 軽やかな契約結婚もの）
+**The Earth**（AppleMim / 8話 / 軽やかな契約結婚もの）
 
 ### 演技重視
 **Petrichor**（EngLot / 10話 / 2024-2025年配信、SammonによるGLサスペンス）

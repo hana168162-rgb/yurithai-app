@@ -148,7 +148,7 @@ IDOLFACTORY と **North Star Entertainment** の共同事業。
 
 | 作品 | 主演ペア | 放送 |
 |---|---|---|
-| **[The Earth](/dramas/the-earth)** | AppleMimu（Apple Lapisara × Mim Panthita） | 2026年1月24日〜3月14日 |
+| **[The Earth](/dramas/the-earth)** | AppleMim（Apple Lapisara × Mim Panthita） | 2026年1月24日〜3月14日 |
 | **[The Water](/dramas/the-water)** | EngLot（Engfa Waraha × Charlotte Austin） | 2026年3月21日〜5月9日 |
 | **[The Air](/dramas/the-air)** | **FreenBecky** | 2026年5月16日〜7月4日（放送中）|
 | **[The Fire](/dramas/the-fire)** | **NamneungNoey**（元BNK48） | 2026年7月11日〜8月29日 |

@@ -71,7 +71,7 @@ iQIYI は中華圏発のグローバル配信サービス。タイ作品との**
 - **The Earth / The Water**（4 Elements シリーズ、iQIYI 配信）
 
 ### こんな人におすすめ
-- EngLot・AppleMimu などのシリアス系/インディーズが好きな人
+- EngLot・AppleMim などのシリアス系/インディーズが好きな人
 - 中華圏ドラマも合わせて楽しみたい人
 
 ---

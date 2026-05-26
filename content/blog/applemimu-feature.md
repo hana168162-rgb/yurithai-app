@@ -1,14 +1,14 @@
 ---
-title: "AppleMimu 特集 — ベテラン Apple が新人 Mim を見出した \"The Earth\" モデル"
-description: "Apple Lapisara × Mim Panthita（AppleMimu）。4 Elements シリーズ第1弾「The Earth」で主演した二人の魅力と、ベテランが新人を抜擢する North Star Entertainment の育成戦略を解説します。"
+title: "AppleMim 特集 — ベテラン Apple が新人 Mim を見出した \"The Earth\" モデル"
+description: "Apple Lapisara × Mim Panthita（AppleMim）。4 Elements シリーズ第1弾「The Earth」で主演した二人の魅力と、ベテランが新人を抜擢する North Star Entertainment の育成戦略を解説します。"
 date: "2026-05-21"
 category: "pair-feature"
-tags: ["AppleMimu", "Apple Lapisara", "Mim Panthita", "The Earth", "4 Elements", "North Star Entertainment"]
+tags: ["AppleMim", "Apple Lapisara", "Mim Panthita", "The Earth", "4 Elements", "North Star Entertainment"]
 cover_image: "/images/dramas/the-earth.jpg"
 ---
 
 2026年の幕開けを飾った **4 Elements シリーズ第1弾「The Earth」**。
-その主演を務めたのが **[AppleMimu](/cast/apple)**（Apple × Mim）です。
+その主演を務めたのが **[AppleMim](/cast/apple)**（Apple × Mim）です。
 
 このペアの特徴は、**ベテラン女優 Apple Lapisara が、新人 Mim Panthita を主演相手に選んだ**こと。
 本記事では、二人のプロフィールと、この「ベテラン × 新人」モデルが持つ意味を掘り下げます。
@@ -48,7 +48,7 @@ North Star Entertainment 所属のモデル・女優。
 
 ## 「ベテラン × 新人」という育成モデル
 
-AppleMimu が興味深いのは、その**ペア成立の経緯**です。
+AppleMim が興味深いのは、その**ペア成立の経緯**です。
 
 North Star Entertainment が Apple に**主演相手を選ぶ自由**を与えたとき、
 Apple が選んだのが新人 Mim でした。
@@ -72,7 +72,7 @@ Apple の既存ファンが、自然と Mim にも注目する流れが生まれ
 
 ---
 
-## AppleMimu の魅力
+## AppleMim の魅力
 
 ### Apple — 「安定の演技力」
 長いキャリアで培った**自然で説得力のある演技**。新人を引き立てる包容力。
@@ -88,7 +88,7 @@ Apple の温かさと Mim の凛とした雰囲気が、契約結婚という設
 ## 今後の展望
 
 The Earth は 4 Elements シリーズの一部であり、
-AppleMimu が今後も**シリーズの他作品とどう絡んでいくか**が注目されます。
+AppleMim が今後も**シリーズの他作品とどう絡んでいくか**が注目されます。
 
 新人 Mim にとっては、The Earth が女優としての出発点。
 ここからどう成長していくか、North Star がどう育てていくかが楽しみなペアです。
@@ -105,5 +105,5 @@ AppleMimu が今後も**シリーズの他作品とどう絡んでいくか**が
 
 ---
 
-**AppleMimu は、"ベテランが新人を見出す" という新しい育成のかたちを体現したペア。**
+**AppleMim は、"ベテランが新人を見出す" という新しい育成のかたちを体現したペア。**
 The Earth で芽吹いた二人の関係が、これからどんな実を結ぶのか——4 Elements シリーズと共に見守りたいペアです。

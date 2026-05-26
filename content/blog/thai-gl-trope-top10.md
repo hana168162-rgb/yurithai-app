@@ -70,7 +70,7 @@ cover_image: "/images/dramas/affair.jpg"
 タイGLの中でも比較的新しいトロープ。**社会的な理由で結婚するが、本物の感情が芽生える**展開。
 
 ### 代表作
-- **[The Earth](/dramas/the-earth)**（AppleMimu / 2026 / 8話）— 隣の牧場主と結婚して本物の愛へ
+- **[The Earth](/dramas/the-earth)**（AppleMim / 2026 / 8話）— 隣の牧場主と結婚して本物の愛へ
 - **[The Loyal Pin](/dramas/the-loyal-pin)**（FreenBecky / 2024 / 14話）— 時代劇 × 身分違い
 
 ### こんな気分のときに

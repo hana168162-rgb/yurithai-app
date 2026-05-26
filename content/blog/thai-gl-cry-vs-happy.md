@@ -56,7 +56,7 @@ NamtanFilm の演技力が、涙腺を確実に刺激する1作。
 カフェで少しずつ近づく Dokrak と Pam——
 **静かな幸福感**に包まれる作品。
 
-### The Earth（AppleMimu / 2026）
+### The Earth（AppleMim / 2026）
 **[The Earth](/dramas/the-earth)** は、契約結婚から本物の愛へ。
 **農園を舞台にしたほっこり系**で、観終わりが温かい。
 

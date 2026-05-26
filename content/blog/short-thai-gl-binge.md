@@ -50,7 +50,7 @@ cover_image: "/images/dramas/affair.jpg"
 **[Roller Coaster](/dramas/roller-coaster)** は、K-drama 的演出が光る三角関係ドラマ。
 **映像美を8話で**堪能できます。
 
-### The Earth（AppleMimu / 2026 / 全8話）
+### The Earth（AppleMim / 2026 / 全8話）
 **[The Earth](/dramas/the-earth)** は、契約結婚もののほっこり系。
 4 Elements シリーズの入口として、軽やかに完走できます。
 

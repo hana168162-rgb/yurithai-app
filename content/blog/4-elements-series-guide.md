@@ -3,7 +3,7 @@ title: "4 Elements シリーズ完全ガイド — The Earth / Water / Air / Fir
 description: "Idol Factory × North Star Entertainment が手がける大型GLシリーズ『4 Elements』を徹底解説。The Earth・The Water・The Air・The Fire の各作品、主演ペア、原作（Salmon）の世界観、視聴順までを整理します。"
 date: "2026-05-21"
 category: "industry-feature"
-tags: ["4 Elements", "The Earth", "The Water", "The Air", "The Fire", "Idol Factory", "North Star Entertainment", "AppleMimu", "EngLot", "FreenBecky", "NamneungNoey"]
+tags: ["4 Elements", "The Earth", "The Water", "The Air", "The Fire", "Idol Factory", "North Star Entertainment", "AppleMim", "EngLot", "FreenBecky", "NamneungNoey"]
 cover_image: "/images/dramas/the-air.jpg"
 ---
 
@@ -34,7 +34,7 @@ cover_image: "/images/dramas/the-air.jpg"
 
 | 弾 | 作品 | 元素 | 主演ペア | 放送 |
 |---|---|---|---|---|
-| 第1弾 | **The Earth** | 地 | AppleMimu | 2026年1月24日〜3月14日 |
+| 第1弾 | **The Earth** | 地 | AppleMim | 2026年1月24日〜3月14日 |
 | 第2弾 | **The Water** | 水 | EngLot | 2026年3月21日〜5月9日 |
 | 第3弾 | **The Air** | 風 | FreenBecky | 2026年5月16日〜7月4日 |
 | 第4弾 | **The Fire** | 火 | NamneungNoey | 2026年7月11日〜8月29日 |
@@ -44,7 +44,7 @@ cover_image: "/images/dramas/the-air.jpg"
 
 ---
 
-## 第1弾：The Earth（地）— AppleMimu
+## 第1弾：The Earth（地）— AppleMim
 
 **[The Earth](/dramas/the-earth)** は、シリーズの幕開けとなる作品。
 
@@ -112,7 +112,7 @@ FreenBecky にとっては GAP・The Loyal Pin・Uranus 2324 に続くキャリ�
 各作品は独立して楽しめるので、**推しペアの作品から**でOK。
 - FreenBecky 好き → **The Air**
 - EngLot 好き → **The Water**
-- 新ペア発掘したい → **The Earth**（AppleMimu）/ **The Fire**（NamneungNoey）
+- 新ペア発掘したい → **The Earth**（AppleMim）/ **The Fire**（NamneungNoey）
 
 ### ジャンルで選びたい人
 - ほっこり契約結婚 → **The Earth**
@@ -127,11 +127,11 @@ FreenBecky にとっては GAP・The Loyal Pin・Uranus 2324 に続くキャリ�
 単発作品が中心だったタイGL に、**複数年・複数ペアの連動シリーズ**という新しい形を持ち込みました。
 
 ### 2. 事務所をまたいだ協業
-Idol Factory（FreenBecky）と North Star（GinJay・AppleMimu）の協業は、
+Idol Factory（FreenBecky）と North Star（GinJay・AppleMim）の協業は、
 **スタジオ間の壁を越えた制作体制**の好例。
 
 ### 3. 新ペアの大型デビューの場
-AppleMimu・NamneungNoey といった新ペアが、**シリーズの後ろ盾を得て大型デビュー**できる構造を作りました。
+AppleMim・NamneungNoey といった新ペアが、**シリーズの後ろ盾を得て大型デビュー**できる構造を作りました。
 
 ---
 

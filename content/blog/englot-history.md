@@ -53,7 +53,7 @@ Show Me Loveは爆発的なヒットではなかったが、**「EngLotという
 
 そして2026年、EngLotは**Idol Factory × North Star Entertainment制作の大型シリーズ『4 Elements』**の第2弾**『The Water』**への参加を発表する。
 
-『4 Elements』は元々 IDOLFACTORY系の企画で、FreenBeckyの『The Air』（第3弾）を中心に据えたシリーズ。第1弾の『The Earth』（AppleMimu主演）、第2弾の『The Water』（EngLot主演）、第3弾の『The Air』（FreenBecky主演）、最終章『The Fire』（NamneungNoey主演）と続く一大プロジェクトだ。
+『4 Elements』は元々 IDOLFACTORY系の企画で、FreenBeckyの『The Air』（第3弾）を中心に据えたシリーズ。第1弾の『The Earth』（AppleMim主演）、第2弾の『The Water』（EngLot主演）、第3弾の『The Air』（FreenBecky主演）、最終章『The Fire』（NamneungNoey主演）と続く一大プロジェクトだ。
 
 EngLotが『The Water』で参加するという事実は重要だ。Idol Factoryのフラッグシップシリーズに**外部ペアとして招かれた**ことを意味し、業界における彼女たちの存在感を改めて示した。物語は、高級リゾートホテル Monarch Hotel の後継者 **Apo（Engfa）** と、競合家系から送り込まれたスパイとして受付嬢を装う **Chonlada（Charlotte）** が、利害と感情のあいだで惹かれ合っていくロマンス。
 

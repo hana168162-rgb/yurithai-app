@@ -3,7 +3,7 @@ title: "タイGL第3世代の波 — 2025-2026年に登場した新ペア群像"
 description: "FreenBecky・LingOrmの第1〜第2世代から、ViewMim・JanJingJing・PahnFond・JuneMewnich等の第3世代まで。タイGLの世代交代と新しいトレンドを徹底整理。"
 date: "2026-05-19"
 category: "industry-feature"
-tags: ["タイGL", "第3世代", "ViewMim", "JanJingJing", "PahnFond", "JuneMewnich", "AppleMimu", "OomBam", "TanYada", "LillyBelle", "MewRenee"]
+tags: ["タイGL", "第3世代", "ViewMim", "JanJingJing", "PahnFond", "JuneMewnich", "AppleMim", "OomBam", "TanYada", "LillyBelle", "MewRenee"]
 cover_image: "/images/dramas/us.jpg"
 ---
 
@@ -61,7 +61,7 @@ FreenBeckyはタイGLの代名詞として圧倒的な存在感。
 | **TKNur** | [Dangerous Queen](/dramas/dangerous-queen) | S.NUR Entertainment | 2025 |
 | **GinJay** | [Poisonous Love](/dramas/poisonous-love), Lunar Secret | North Star Entertainment | 2025 |
 | **LillyBelle** | [Harmony Secret](/dramas/harmony-secret)（サブ）, [I Wanna Be Sup'tar](/dramas/i-wanna-be-suptar) | CHANGE2561 | 2025 |
-| **AppleMimu** | [The Earth](/dramas/the-earth) | Idol Factory × North Star | 2026 |
+| **AppleMim** | [The Earth](/dramas/the-earth) | Idol Factory × North Star | 2026 |
 | **TanYada** | [Play Park](/dramas/play-park) | BEC World Originals | 2026 |
 | **PitchaNatt** | [Reverse With Me](/dramas/reverse-with-me) | SiamSi Studio / 個人 | 2025 |
 | **FayeAtom** | [Broken of Love](/dramas/broken-of-love) | Fabel × Moongdoo | 2026 |
@@ -275,7 +275,7 @@ S.NUR、Moongdoo、Snap25、Nar-ra-tor などの新興プレイヤーが、
 - [TKNur 軌跡](/blog/tknur-rise-story)
 - [GinJay 軌跡](/blog/ginjay-rise-story)
 - [ViewMim 特集](/blog/viewmim-feature)
-- [AppleMimu 特集](/blog/applemimu-feature)
+- [AppleMim 特集](/blog/applemimu-feature)
 - [FayeYoko 特集](/blog/fayeyoko-feature)
 - [JanJingJing 特集](/blog/janjingjing-feature)
 - [LillyBelle 特集](/blog/lillybelle-feature)

@@ -44,7 +44,7 @@ Freen、Becky、Milk、Love、Orm、Namtan——
 ### 3. 同じニックネームが被る
 英単語ベースなので、**別人で同じニックネーム**が頻発します。
 タイGL でも:
-- **Mim**：Mim Panthita（AppleMimu）と Mim Rattanawadee（ViewMim）の2人
+- **Mim**：Mim Panthita（AppleMim）と Mim Rattanawadee（ViewMim）の2人
 - **Mew、May、Faye** なども複数の女優が存在
 
 YuriThai では、同名の女優を区別するため、表記に工夫を凝らしています。

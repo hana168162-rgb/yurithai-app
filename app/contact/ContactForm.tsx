@@ -109,17 +109,16 @@ export function ContactForm() {
 
   if (status.type === "ok") {
     return (
-      <div className="bg-yuri-surface border border-yuri-edge rounded-md p-6 text-sm leading-relaxed">
-        <div className="text-yuri-rose text-base font-medium mb-2">
+      <div className="bg-yuri-surface border border-yuri-edge rounded-md p-6 text-base leading-relaxed">
+        <div className="text-yuri-rose text-lg font-semibold mb-2">
           ✦ お問い合わせを受け付けました
         </div>
         <p className="text-yuri-ink/85">
-          内容を確認のうえ、3〜5営業日以内にご記入のメールアドレス宛にご返信いたします。
-          このたびはお問い合わせいただき、ありがとうございました。
+          内容を確認のうえ、3〜5営業日以内にご返信します。ありがとうございました。
         </p>
         <a
           href="/"
-          className="inline-block mt-4 text-yuri-rose hover:opacity-80 text-sm"
+          className="inline-block mt-4 text-yuri-rose hover:opacity-80 text-base"
         >
           トップへ戻る →
         </a>
@@ -131,14 +130,14 @@ export function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-5" noValidate>
       {/* カテゴリ */}
       <div>
-        <label className="block text-sm font-medium text-yuri-ink mb-2">
+        <label className="block text-base font-medium text-yuri-ink mb-2">
           お問い合わせ内容 <span className="text-yuri-rose">*</span>
         </label>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           {TOPIC_OPTIONS.map((opt) => (
             <label
               key={opt.value}
-              className={`flex items-center gap-2 px-3 py-2.5 rounded-md border text-sm cursor-pointer transition-colors ${
+              className={`flex items-center gap-2 px-3 py-3 rounded-md border text-base cursor-pointer transition-colors ${
                 topic === opt.value
                   ? "border-yuri-rose bg-yuri-rose/10 text-yuri-ink"
                   : "border-yuri-edge bg-yuri-surface hover:border-yuri-rose/50"
@@ -264,7 +263,7 @@ export function ContactForm() {
       </div>
 
       {/* 同意 */}
-      <label className="flex items-start gap-2 text-sm text-yuri-ink/90 leading-relaxed cursor-pointer">
+      <label className="flex items-start gap-2 text-base text-yuri-ink/90 leading-relaxed cursor-pointer">
         <input
           type="checkbox"
           checked={agreed}
@@ -288,11 +287,11 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={!canSubmit || submitting}
-          className="inline-flex items-center justify-center gap-2 bg-yuri-navy text-yuri-cream px-6 py-3 rounded-full text-sm font-medium disabled:opacity-40 disabled:cursor-not-allowed hover:opacity-90 transition-opacity"
+          className="inline-flex items-center justify-center gap-2 bg-yuri-navy text-yuri-cream px-7 py-3.5 rounded-full text-base font-medium disabled:opacity-40 disabled:cursor-not-allowed hover:opacity-90 transition-opacity"
         >
           {submitting ? "送信中…" : "送信する →"}
         </button>
-        <p className="text-xs text-yuri-muted mt-2">
+        <p className="text-sm text-yuri-muted mt-2">
           送信前にもう一度内容をご確認ください。
         </p>
       </div>
@@ -301,7 +300,7 @@ export function ContactForm() {
 }
 
 const inputCls =
-  "w-full rounded-md border border-yuri-edge bg-yuri-surface px-3 py-2.5 text-sm text-yuri-ink placeholder:text-yuri-muted/70 focus:outline-none focus:border-yuri-rose focus:ring-1 focus:ring-yuri-rose";
+  "w-full rounded-md border border-yuri-edge bg-yuri-surface px-3 py-3 text-base text-yuri-ink placeholder:text-yuri-muted/70 focus:outline-none focus:border-yuri-rose focus:ring-1 focus:ring-yuri-rose";
 
 function Field({
   label,
@@ -316,11 +315,11 @@ function Field({
 }) {
   return (
     <div>
-      <label className="block text-sm font-medium text-yuri-ink mb-1.5">
+      <label className="block text-base font-medium text-yuri-ink mb-1.5">
         {label} {required && <span className="text-yuri-rose">*</span>}
       </label>
       {input}
-      {note && <p className="text-xs text-yuri-muted mt-1">{note}</p>}
+      {note && <p className="text-sm text-yuri-muted mt-1">{note}</p>}
     </div>
   );
 }

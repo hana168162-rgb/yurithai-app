@@ -6,7 +6,7 @@ export function ActressProfile({ actress }: { actress: Actress }) {
   return (
     <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
       <div className="mb-3">
-        <p className="text-[10px] text-yuri-muted leading-tight">
+        <p className="text-[11px] text-yuri-muted leading-tight">
           {actress.name_ja}
         </p>
         <Link
@@ -18,10 +18,10 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         <p className="text-xs text-yuri-muted mt-1">{actress.real_name}</p>
       </div>
 
-      <dl className="text-xs space-y-1 mb-3">
+      <dl className="text-[13px] leading-relaxed space-y-1.5 mb-3">
         {actress.birth_date && (
           <div className="flex">
-            <dt className="w-20 text-yuri-muted shrink-0">生年月日</dt>
+            <dt className="w-14 md:w-20 text-yuri-muted shrink-0">生年月日</dt>
             <dd className="text-yuri-ink">
               {actress.birth_date}
               {actress.age !== null && (
@@ -32,7 +32,7 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         )}
         {actress.nationality && (
           <div className="flex">
-            <dt className="w-20 text-yuri-muted shrink-0">国籍</dt>
+            <dt className="w-14 md:w-20 text-yuri-muted shrink-0">国籍</dt>
             <dd className="text-yuri-ink">
               {nationalityFlags(actress.nationality) && (
                 <span className="mr-1" aria-hidden>
@@ -45,13 +45,13 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         )}
         {actress.height_cm && (
           <div className="flex">
-            <dt className="w-20 text-yuri-muted shrink-0">身長</dt>
+            <dt className="w-14 md:w-20 text-yuri-muted shrink-0">身長</dt>
             <dd className="text-yuri-ink">{actress.height_cm}cm</dd>
           </div>
         )}
         {actress.agency && (
           <div className="flex">
-            <dt className="w-20 text-yuri-muted shrink-0">所属</dt>
+            <dt className="w-14 md:w-20 text-yuri-muted shrink-0">所属</dt>
             <dd>
               <span
                 className="inline-block px-2 py-0.5 rounded-full text-[11px] font-medium"
@@ -67,7 +67,7 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         )}
         {actress.filmography && actress.filmography.length > 0 && (
           <div className="flex">
-            <dt className="w-20 text-yuri-muted shrink-0">出演作品</dt>
+            <dt className="w-14 md:w-20 text-yuri-muted shrink-0">出演作品</dt>
             <dd className="text-yuri-ink">{actress.filmography.join(" / ")}</dd>
           </div>
         )}

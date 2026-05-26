@@ -118,7 +118,7 @@ export function CastFilterBar({ pairs }: { pairs: CastPairEntry[] }) {
           {filtered.map((p) => (
             <section
               key={p.short}
-              className="bg-yuri-cream border border-yuri-edge rounded-lg p-5"
+              className="bg-yuri-cream border border-yuri-edge rounded-lg p-3.5 md:p-5"
             >
               <div className="mb-4">
                 <h2 className="text-lg font-medium text-yuri-navy mb-1">

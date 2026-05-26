@@ -416,9 +416,15 @@ export default function DramaDetailPage({
               </h2>
               <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4 border-l-4 border-l-yuri-rose">
                 {full.review.body_ja ? (
-                  <p className="text-sm leading-relaxed text-yuri-ink/80 mb-4 whitespace-pre-line">
-                    {full.review.body_ja}
-                  </p>
+                  <div className="text-sm leading-relaxed text-yuri-ink/85 mb-4 space-y-3">
+                    {full.review.body_ja
+                      .split(/\n{2,}/)
+                      .map((para, i) => (
+                        <p key={i} className="whitespace-pre-line">
+                          {para}
+                        </p>
+                      ))}
+                  </div>
                 ) : (
                   <p className="text-xs text-yuri-muted italic mb-4">
                     レビュー本文は準備中

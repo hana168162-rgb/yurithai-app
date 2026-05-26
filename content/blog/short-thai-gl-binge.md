@@ -62,7 +62,7 @@ cover_image: "/images/dramas/affair.jpg"
 **[Reverse With Me](/dramas/reverse-with-me)** は、時間を巻き戻すSF設定のロマンス。
 インディーズとは思えない映像クオリティを8話で。
 
-### My Safe Zone（MiuLena / 2025 / 全8話）
+### My Safe Zone（LenaMiu / 2025 / 全8話）
 **[My Safe Zone](/dramas/my-safe-zone)** は、幼馴染の再会もの。
 Channel 3 の安定した作りで、8話でしっとり完結。
 

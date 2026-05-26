@@ -52,7 +52,7 @@ Miss Grand Thailand 2022 を経て、**[EngLot](/blog/englot-history)** とし�
 
 ### Lena（タイ × カナダ）
 **[Lena Schuett](/cast/lena)** は、タイ・カナダ系。
-**MiuLena** として My Safe Zone・PLS Love に主演。Channel 3 の新世代カップル。
+**LenaMiu** として My Safe Zone・PLS Love に主演。Channel 3 の新世代カップル。
 
 ### LingLing（香港 × タイ）
 **[LingLing Kwong](/cast/ling)** は、香港・タイ系のハーフ。

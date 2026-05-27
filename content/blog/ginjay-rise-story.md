@@ -60,6 +60,7 @@ Jayna は **タイ・アメリカのハーフ**で、170cmという長身モデ�
 
 同社は **大手スタジオでは扱いにくい「大人向け・重めのテーマ」** を意欲的に取り上げ、
 タイGLの **表現の幅を広げる役割** を担ってきました。
+（→ [North Star Entertainment のGL戦略](/blog/north-star-gl-studio)）
 
 GinJay は、まさにこの North Star Entertainment の路線を体現するペアとして、
 **会社の代表的なフラッグシップ**になっていきます。

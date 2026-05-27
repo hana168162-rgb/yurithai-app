@@ -127,7 +127,7 @@ FreenBecky にとっては GAP・The Loyal Pin・Uranus 2324 に続くキャリ�
 単発作品が中心だったタイGL に、**複数年・複数ペアの連動シリーズ**という新しい形を持ち込みました。
 
 ### 2. 事務所をまたいだ協業
-Idol Factory（FreenBecky）と North Star（GinJay・AppleMim）の協業は、
+Idol Factory（FreenBecky）と [North Star（GinJay・AppleMim）](/blog/north-star-gl-studio)の協業は、
 **スタジオ間の壁を越えた制作体制**の好例。
 
 ### 3. 新ペアの大型デビューの場

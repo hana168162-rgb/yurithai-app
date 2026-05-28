@@ -211,11 +211,50 @@ export function getCompletedDramas(): Drama[] {
   return dramas.filter((d) => d.status === "completed");
 }
 
-// Take up to N completed dramas as featured (use most recent year first)
+// =============================================
+//  トップページ「作品一覧」のローテーション
+//  3日ごとに完結作品プールから決定論的にシャッフルし、N件を選ぶ。
+//  ISR (revalidate=3600) と組み合わせると、3日窓を跨いだ最初の
+//  再生成タイミングでラインナップが切り替わる。
+// =============================================
+const FEATURED_ROTATION_DAYS = 3;
+const FEATURED_EPOCH_MS = Date.UTC(2026, 0, 1); // 2026-01-01 (UTC)
+
+function featuredWindowIndex(): number {
+  return Math.floor(
+    (Date.now() - FEATURED_EPOCH_MS) /
+      (FEATURED_ROTATION_DAYS * 24 * 60 * 60 * 1000)
+  );
+}
+
+// 軽量な決定論的 RNG（Mulberry32）。
+// 同じ seed なら毎回同じ乱数列を返すので、同じ窓内の再生成では結果が変わらない。
+function mulberry32(seed: number): () => number {
+  let s = seed | 0;
+  return function () {
+    s = (s + 0x6d2b79f5) | 0;
+    let t = Math.imul(s ^ (s >>> 15), 1 | s);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+/**
+ * 完結作品から、3日に1回シャッフルされる N 件を返す。
+ * ピックアップが固定化せず、いろんな作品が回るようになる。
+ */
 export function getFeaturedCompletedDramas(limit = 6): Drama[] {
-  return [...getCompletedDramas()]
-    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
-    .slice(0, limit);
+  // プールは完結作品全体。スラッグ順で安定ソートしてから seed シャッフル。
+  const pool = [...getCompletedDramas()].sort((a, b) =>
+    a.slug.localeCompare(b.slug)
+  );
+  const rng = mulberry32(featuredWindowIndex() + 1);
+  // Fisher-Yates shuffle（決定論的）
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, limit);
 }
 
 // =============================================

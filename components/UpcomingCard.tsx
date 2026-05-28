@@ -5,7 +5,14 @@ import Image from "next/image";
 import type { UpcomingDrama } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 
-export function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
+export function UpcomingCard({
+  drama,
+  hideProduction = false,
+}: {
+  drama: UpcomingDrama;
+  /** トップページなど制作元を隠したい場合に true */
+  hideProduction?: boolean;
+}) {
   return (
     <Link
       href={`/dramas/${drama.slug}`}
@@ -44,9 +51,11 @@ export function UpcomingCard({ drama }: { drama: UpcomingDrama }) {
             {drama.title_th}
           </p>
         )}
-        <p className="text-[11px] text-yuri-muted mb-1">
-          {drama.production ?? "制作元未確認"}
-        </p>
+        {!hideProduction && (
+          <p className="text-[11px] text-yuri-muted mb-1">
+            {drama.production ?? "制作元未確認"}
+          </p>
+        )}
         {drama.cast_pair && (
           <p className="text-[11px] text-yuri-rose/90 truncate">
             {drama.cast_pair.split("（")[1]?.replace("）", "") ??

@@ -18,7 +18,14 @@ function selectCardTags(d: Drama): string[] {
   return out.slice(0, 3);
 }
 
-export function DramaCard({ drama }: { drama: Drama }) {
+export function DramaCard({
+  drama,
+  hideProduction = false,
+}: {
+  drama: Drama;
+  /** トップページなど制作元を隠したい場合に true */
+  hideProduction?: boolean;
+}) {
   const tags = selectCardTags(drama);
   return (
     <Link
@@ -58,7 +65,9 @@ export function DramaCard({ drama }: { drama: Drama }) {
         )}
         <p className="text-[11px] text-yuri-muted mb-1">
           {drama.year ?? "—"}
-          {drama.production ? ` · ${drama.production.split(" × ")[0]}` : ""}
+          {!hideProduction && drama.production
+            ? ` · ${drama.production.split(" × ")[0]}`
+            : ""}
         </p>
         {drama.cast_pair && (
           <p className="text-[11px] text-yuri-rose/90 mb-2 truncate">

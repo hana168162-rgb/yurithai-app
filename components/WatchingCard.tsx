@@ -11,10 +11,13 @@ export function WatchingCard({
   drama,
   cover,
   statusOverride,
+  hideProduction = false,
 }: {
   drama: WatchingDrama;
   cover?: string | null;
   statusOverride?: DramaStatus;
+  /** トップページなど制作元を隠したい場合に true */
+  hideProduction?: boolean;
 }) {
   const displayStatus: DramaStatus = statusOverride ?? "airing";
   return (
@@ -53,9 +56,11 @@ export function WatchingCard({
             {drama.title_th}
           </p>
         )}
-        <p className="text-[11px] text-yuri-muted mb-1">
-          {drama.production ?? "制作元未確認"}
-        </p>
+        {!hideProduction && (
+          <p className="text-[11px] text-yuri-muted mb-1">
+            {drama.production ?? "制作元未確認"}
+          </p>
+        )}
         {drama.cast_pair && (
           <p className="text-[11px] text-yuri-rose/90 truncate">
             {drama.cast_pair.split("（")[1]?.replace("）", "") ??

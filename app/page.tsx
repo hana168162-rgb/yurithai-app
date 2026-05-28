@@ -120,7 +120,7 @@ export default function HomePage() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {pickup.map((d, i) => (
             <div key={d.slug} className={i === 3 ? "md:hidden" : ""}>
-              <WatchingCard drama={d} cover={d.cover_image} />
+              <WatchingCard drama={d} cover={d.cover_image} hideProduction />
             </div>
           ))}
         </div>
@@ -139,7 +139,7 @@ export default function HomePage() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {featured.map((d) => (
-            <DramaCard key={d.slug} drama={d} />
+            <DramaCard key={d.slug} drama={d} hideProduction />
           ))}
         </div>
       </section>
@@ -166,7 +166,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {upcomingSortedByDate.slice(0, 4).map((d, i) => (
               <div key={d.slug} className={i === 3 ? "md:hidden" : ""}>
-                <UpcomingCard drama={d} />
+                <UpcomingCard drama={d} hideProduction />
               </div>
             ))}
           </div>

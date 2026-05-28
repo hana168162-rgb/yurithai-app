@@ -58,6 +58,23 @@ GagaOOLala・YouTube で配信され、短編ながらコアなファンを獲�
 
 ---
 
+## 制作座組み — Two Worlds と Kongthup の役割分担
+
+OrmFolk の興味深いところは、**所属事務所と制作会社が分かれている**点です。
+
+- **所属（マネジメント）**: Two Worlds Production（Ormsin・Folk ともに所属）
+- **第1作の制作**: Two Worlds Production
+- **続編の制作**: Kongthup Production
+
+つまり、2人のホーム事務所は第1作から変わらないまま、続編は別のインディーズプロダクション
+（Kongthup）と組んで作られています。**事務所の枠を越えて、作品の世界観に合うスタジオを選ぶ**——
+大手のように全部内製しないインディーズGL ならではの、柔軟な座組みです。
+
+第1作 Apple My Love が GagaOOLala 配信で国際ファンを獲得したことが、
+続編へ進むエンジンになりました。
+
+---
+
 ## OrmFolk の魅力
 
 ### 1. ファンタジックな世界観
@@ -71,6 +88,21 @@ GagaOOLala・YouTube で配信され、短編ながらコアなファンを獲�
 ### 3. インディーズらしい温度感
 大手の洗練とは違う、**手作り感のある温かさ**。
 Kongthup Production など、インディーズスタジオの良さが詰まっています。
+
+### 4. ベテランと新人の組み合わせ
+OrmFolk は、『The Tuxedo』などで経歴のある Ormsin が、Apple My Love で見出された新人 Folk を
+リードする形で成立したペアです。**経験者が新人を引き上げる**この型は、タイGL のインディーズで近年
+よく見られる成功パターン（例: [AppleMim](/blog/applemimu-feature) の Apple × Mim）と重なります。
+
+---
+
+## 日本からの視聴
+
+- **Apple My Love** — GagaOOLala（要会員登録）、YouTube 公式
+- **(your) Apple** — YouTube の Kongthup Channel（基本無料）
+
+二作とも YouTube ベースなので、日本からでも視聴ハードルは低めです。
+作品ページの「[どこで見れる？](/dramas/apple-my-love)」セクションが最新の配信先一覧です。
 
 ---
 
@@ -88,8 +120,10 @@ Kongthup Production など、インディーズスタジオの良さが詰まっ
 - [Ormsin 個別ページ](/cast/ormsin) / [Folk 個別ページ](/cast/folk)
 - [Apple My Love 作品詳細](/dramas/apple-my-love)
 - [(your) Apple 作品詳細](/dramas/your-apple)
+- [AppleMim 特集](/blog/applemimu-feature)（ベテラン×新人の同じ型）
 - [インディーズGLスタジオ完全マップ](/blog/indie-gl-studios-map)
 - [泣けるタイGL / ハッピーエンドGL](/blog/thai-gl-cry-vs-happy)
+- [タイGL定番設定トップ10](/blog/thai-gl-trope-top10)（ファンタジー・運命系）
 
 ---
 

@@ -23,7 +23,9 @@ cover_image: "/images/dramas/shades.jpg"
 | **放送** | 2026年4月18日〜5月23日 |
 | **話数** | 全6話（各約48分）|
 | **制作** | FRT Entertainment（初のGL作品）|
-| **主演** | [MookShu](/cast/mook-w)（Mook Worranit × Shu Nunnicha）|
+| **監督** | Chinnaphat Kitichaivaranggoon |
+| **主演** | [Mook Worranit](/cast/mook-w) × [Shu Nunnicha](/cast/shu)（MookShu）|
+| **共演** | Niky Warinrat Yolprasong、Jhutamas Pakonworrawong ほか |
 | **配信** | タイ: TrueVisions NOW / 世界: FRT YouTube（6月6日〜、Uncensored版あり）|
 | **評価** | 18+ |
 
@@ -31,17 +33,18 @@ cover_image: "/images/dramas/shades.jpg"
 
 ---
 
-## どんな作品か — 女子校という閉じた世界
+## どんな作品か — エリート女子校という閉じた世界
 
-SHADES の舞台は、**厳格な女子校**。
-そこで **6人の生徒と1人の教師**が複雑に絡み合い、
-**禁断の恋・秘密・隠された正体**が渦巻く——という、群像ダークサスペンスです。
+SHADES の舞台は、**タイ屈指のエリート女子校**。
+6人の生徒——**Belle / Earn / Amy / Sophie / Nano / Jane**——と、
+かつての卒業生でフランス語教師として戻ってきた **Nalin（[Mook Worranit](/cast/mook-w)）** が
+複雑に絡み合い、**禁断の恋・秘密・隠された正体**が渦巻く群像ダークサスペンスです。
 
-- **Mook Worranit** → ナリン役
-- **Shu Nunnicha** → ミンク役
+[Shu Nunnicha](/cast/shu) は生徒側のキーパーソンを演じ、Mook 演じる Nalin との関係が物語の軸を作ります。
+ただの校園ものではなく、**スキャンダル・欲望・デジタル時代の暴力**を背景に据えた、現代的な舞台設定が特徴。
 
 全6話というコンパクトな尺に、緊張感とミステリーを凝縮。
-明るくほっこりした校園GL（23.5 など）とは対極の、**翳りと官能**を持つ作品です。
+明るくほっこりした校園GL（[23.5](/dramas/23-5) など）とは対極の、**翳りと官能**を持つ作品です。
 
 ---
 
@@ -63,6 +66,11 @@ SHADES の舞台は、**厳格な女子校**。
 18+評価で、官能描写を含む大人向けの作風。
 ライトな作品に飽きた人や、**ダーク・禁断もの**を求める人に刺さります。
 
+### 5. デジタル時代の「校園もの」
+SHADES は単なる古典的な校園ものではなく、**ヴァイラル動画・キャンセルカルチャー・SNS時代の暴力**を物語の核に据えています。
+噂や暴露が一瞬で広まる現代の女子校という設定が、登場人物たちの「秘密」を強烈に揺さぶる装置になっています。
+近い空気を持つ作品としては、闇のサファイアン・クラブを扱う [I Am Devil](/dramas/i-am-devil)（MookPink 主演）が挙げられます。
+
 ---
 
 ## こんな人におすすめ
@@ -77,18 +85,21 @@ SHADES の舞台は、**厳格な女子校**。
 
 ---
 
-## 視聴方法
+## 視聴方法 — 日本から観るには
 
-- **タイ国内**: TrueVisions NOW
-- **世界配信**: 2026年6月6日〜 FRT 公式 YouTube チャンネル（Uncensored版はメンバー限定）
+- **タイ国内**: TrueVisions NOW（タイ向けの月額配信プラットフォーム。**日本からは VPN 必要**）
+- **世界配信**: 2026年6月6日〜 FRT 公式 YouTube チャンネル。**通常版は地域によって視聴可**ですが、**Uncensored版はチャンネルメンバー（有料）限定**で、地域は問わず加入が必要です
 
-※完全無料の全話 YouTube 公開ではない点に注意。配信形態の詳細は作品ページでご確認ください。
+ベッドシーンや過激な描写を含むカット込みで観たい場合は、FRT YouTube のメンバーシップ加入が現実的な選択肢になります。配信先の最新状況は作品ページの「[どこで見れる？](/dramas/shades)」セクションで都度確認してください。
 
 ---
 
 ## 関連リンク
 
 - [SHADES 作品詳細](/dramas/shades)
+- [Mook Worranit プロフィール](/cast/mook-w) / [Shu Nunnicha プロフィール](/cast/shu)
+- [I Am Devil 作品詳細](/dramas/i-am-devil)（同系のダーク／禁断 GL）
+- [MookPink — インディーズGLのブレイクスルー](/blog/mookpink-indie-gl-breakthrough)
 - [インディーズGLスタジオ完全マップ](/blog/indie-gl-studios-map)
 - [タイGL定番設定トップ10](/blog/thai-gl-trope-top10)（禁断・校園もの）
 - [2026年版タイGLおすすめランキング](/blog/thai-gl-ranking-2026)

@@ -36,11 +36,35 @@ GL女優の多くが、自作品の主題歌を歌ったり、独自に音楽活
 
 ### 歌手としても活動する主要GL女優
 
-- **Engfa Waraha** — Miss Grand Thailand 出身で、歌手として複数のシングルをリリース
-- **Milk Pansa / Love Pattranite** — GMMTV のアーティストとして音楽活動
-- **Bonnie** — Riser Music 所属の歌手としても活動（EmiBonnie として音楽デュオも結成）
+- **[Engfa Waraha](/cast/engfa)** — Miss Grand Thailand 出身で、歌手として複数のシングルをリリース。[EngLot](/blog/englot-history) 主演作の主題歌では本人ボーカルが採用されるケースも
+- **[Milk Pansa](/cast/milk) / [Love Pattranite](/cast/love)** — GMMTV のアーティストとして音楽活動。校園GL（[23.5](/dramas/23-5) 等）の明るいOST と相性が良い
+- **[Bonnie](/cast/bonnie)** — Riser Music 所属の歌手。同じく Riser の Emi と [EmiBonnie](/blog/emibonnie-feature) として音楽デュオも結成
+- **[Sonya](/cast/sonya) / [Lookmhee](/cast/lookmhee)（[LMSY](/blog/lmsy-trilogy-guide)）** — Affair など主演作のOSTに本人ボーカルが起用される
+- **[Faye Peraya](/cast/faye)** — 歌手としても活動し、[FayeYoko](/blog/fayeyoko-feature) や FayeAtom 関連作品のOST周辺で存在感
 
 女優が歌う主題歌は、**作品とアーティストが一体化**する特別な体験を生みます。
+ペアの解釈そのものが声に乗るので、本人が歌うOSTはファンダムの中で特に強い意味を持ちます。
+
+---
+
+## 代表的なOST活用パターン
+
+タイGL ではOSTが、概ね次の4パターンで作品に組み込まれています。
+
+**1. オープニング／エンディング主題歌**
+ペアの関係性のテーマソング。多くの作品が1曲を作品の「顔」として使い、
+公式 YouTube に MV／リリックビデオがアップされます。
+
+**2. 劇中歌（挿入歌）**
+キーシーンの感情を増幅する短いバラード。多くは数十秒のフラグメントとしてシーンに溶け込みます。
+
+**3. 女優のソロ・タイアップ**
+本編主題歌とは別に、主演女優のソロ楽曲が作品プロモーションに紐づくケース。
+歌える女優を抱えるスタジオ（GMMTV、Riser Music、Idol Factory など）に多い形です。
+
+**4. ペア名義のデュエット**
+EmiBonnie のように、ペアそのものが音楽ユニットを組んで楽曲リリースする例。
+ドラマと音楽が「同じ世界」で続いていく感覚が生まれます。
 
 ---
 
@@ -89,6 +113,18 @@ Engfa などの女優のソロ楽曲を加えると、**ファンダムの広が
 
 ---
 
+## ファンミーティングとOST
+
+タイGL のファンミーティング（FM）では、**主演ペアが自作品のOSTを生で披露**するのが定番の演出です。
+歌える女優を擁するペアにとってOSTは、コンサート風のパフォーマンスの素材として
+ファンとの直接の接点になっています。
+（→ [初めてのファンミーティング参加ガイド](/blog/fan-meeting-first-timer-guide)）
+
+逆に、ファンミでの新規披露や英訳カバーがそのまま正式リリースされる例もあり、
+**OST → ファンミ → 追加リリース → 国際ファン獲得**という回路がジャンル全体で機能しています。
+
+---
+
 ## 音楽を楽しむときのマナー
 
 - **公式チャンネル・正規配信**で聴く
@@ -103,6 +139,9 @@ Engfa などの女優のソロ楽曲を加えると、**ファンダムの広が
 - [配信サービス完全比較](/blog/streaming-services-comparison-2026)
 - [EngLot 4年の軌跡](/blog/englot-history)
 - [EmiBonnie 特集](/blog/emibonnie-feature)
+- [LMSYトリロジー完全ガイド](/blog/lmsy-trilogy-guide)
+- [元アイドル発のタイGL女優](/blog/idol-origin-gl-actresses)（音楽から女優へ）
+- [初めてのファンミーティング参加ガイド](/blog/fan-meeting-first-timer-guide)
 - [タイGL 推し活用語集](/blog/thai-gl-fandom-glossary)
 
 ---

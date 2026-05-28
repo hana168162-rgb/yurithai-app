@@ -22,12 +22,24 @@ function selectCardTags(d: Drama): string[] {
 export function DramaCard({
   drama,
   hideProduction = false,
+  hideYear = false,
+  hideTags = false,
 }: {
   drama: Drama;
   /** トップページなど制作元を隠したい場合に true */
   hideProduction?: boolean;
+  /** 公開年を隠したい場合に true */
+  hideYear?: boolean;
+  /** 代表タグを隠したい場合に true */
+  hideTags?: boolean;
 }) {
   const tags = selectCardTags(drama);
+  // 年・制作元の連結ライン。両方非表示なら <p> ごと出さない
+  const metaParts: string[] = [];
+  if (!hideYear) metaParts.push(String(drama.year ?? "—"));
+  if (!hideProduction && drama.production)
+    metaParts.push(drama.production.split(" × ")[0]);
+  const metaLine = metaParts.join(" · ");
   return (
     <Link
       href={`/dramas/${drama.slug}`}
@@ -64,18 +76,15 @@ export function DramaCard({
             {drama.title_th}
           </p>
         )}
-        <p className="text-[11px] text-yuri-muted mb-1">
-          {drama.year ?? "—"}
-          {!hideProduction && drama.production
-            ? ` · ${drama.production.split(" × ")[0]}`
-            : ""}
-        </p>
+        {metaLine && (
+          <p className="text-[11px] text-yuri-muted mb-1">{metaLine}</p>
+        )}
         {drama.cast_pair && (
           <p className="text-[11px] text-yuri-rose/90 mb-2 truncate">
             {shortPairName(drama.cast_pair)}
           </p>
         )}
-        {tags.length > 0 && (
+        {!hideTags && tags.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {tags.map((t, i) => (
               <TagBadge key={t} label={t} idx={i} linkable={false} />

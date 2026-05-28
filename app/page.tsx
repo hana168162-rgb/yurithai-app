@@ -139,7 +139,13 @@ export default function HomePage() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {featured.map((d) => (
-            <DramaCard key={d.slug} drama={d} hideProduction />
+            <DramaCard
+              key={d.slug}
+              drama={d}
+              hideProduction
+              hideYear
+              hideTags
+            />
           ))}
         </div>
       </section>

@@ -50,7 +50,7 @@ export function DramaCard({ drama }: { drama: Drama }) {
         </div>
       </div>
       <div className="p-2.5">
-        <p className="text-sm font-medium mb-0.5 truncate">{drama.title_ja}</p>
+        <p className="text-sm font-semibold mb-0.5 truncate">{drama.title_ja}</p>
         {drama.title_th && (
           <p className="text-[11px] text-yuri-muted/80 mb-0.5 truncate">
             {drama.title_th}

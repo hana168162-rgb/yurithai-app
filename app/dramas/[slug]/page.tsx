@@ -251,7 +251,7 @@ export default function DramaDetailPage({
             </div>
           </div>
           <div className="flex-1 min-w-0">
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-display font-semibold text-yuri-ink mb-1">
               {drama.title_ja}
             </h1>
             {titleTh && (
@@ -276,7 +276,7 @@ export default function DramaDetailPage({
             {drama.cast_pair && (
               <div className="text-sm">
                 <span className="text-yuri-muted">出演ペア: </span>
-                <span className="text-yuri-ink">{drama.cast_pair}</span>
+                <strong className="text-yuri-ink font-semibold">{drama.cast_pair}</strong>
               </div>
             )}
           </div>

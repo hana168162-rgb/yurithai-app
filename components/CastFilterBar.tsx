@@ -127,7 +127,12 @@ export function CastFilterBar({ pairs }: { pairs: CastPairEntry[] }) {
                 <p className="text-sm text-yuri-muted mb-2">{p.full}</p>
                 <p className="text-sm text-yuri-ink">
                   <span className="text-yuri-muted">出演: </span>
-                  {p.dramas.join(" / ")}
+                  {p.dramas.map((title, i) => (
+                    <span key={title + i}>
+                      {i > 0 && <span className="text-yuri-muted"> / </span>}
+                      <strong className="font-semibold">{title}</strong>
+                    </span>
+                  ))}
                 </p>
               </div>
 

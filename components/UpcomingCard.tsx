@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { UpcomingDrama } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
+import { shortPairName } from "@/lib/pair-name";
 
 export function UpcomingCard({
   drama,
@@ -58,8 +59,7 @@ export function UpcomingCard({
         )}
         {drama.cast_pair && (
           <p className="text-[11px] text-yuri-rose/90 truncate">
-            {drama.cast_pair.split("（")[1]?.replace("）", "") ??
-              drama.cast_pair}
+            {shortPairName(drama.cast_pair)}
           </p>
         )}
       </div>

@@ -6,6 +6,7 @@ import Image from "next/image";
 import type { WatchingDrama, DramaStatus } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
 import { StatusBadge } from "./StatusBadge";
+import { shortPairName } from "@/lib/pair-name";
 
 export function WatchingCard({
   drama,
@@ -63,8 +64,7 @@ export function WatchingCard({
         )}
         {drama.cast_pair && (
           <p className="text-[11px] text-yuri-rose/90 truncate">
-            {drama.cast_pair.split("（")[1]?.replace("）", "") ??
-              drama.cast_pair}
+            {shortPairName(drama.cast_pair)}
           </p>
         )}
       </div>

@@ -5,6 +5,7 @@ import { gradientForSlug } from "@/lib/style";
 import { AgeBadge } from "./AgeBadge";
 import { StatusBadge } from "./StatusBadge";
 import { TagBadge } from "./TagBadge";
+import { shortPairName } from "@/lib/pair-name";
 
 // Pick representative tags for card preview:
 // 1 from genre + 1 from tone + 1 from (relationship or intimacy)
@@ -71,8 +72,7 @@ export function DramaCard({
         </p>
         {drama.cast_pair && (
           <p className="text-[11px] text-yuri-rose/90 mb-2 truncate">
-            {drama.cast_pair.split("（")[1]?.replace("）", "") ??
-              drama.cast_pair}
+            {shortPairName(drama.cast_pair)}
           </p>
         )}
         {tags.length > 0 && (

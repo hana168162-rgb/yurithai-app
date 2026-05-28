@@ -115,6 +115,9 @@ cover_image: "/images/dramas/gap.jpg"
 ファンが自主的に字幕を付ける「ファンサブ」文化も存在しますが、
 **公式の正規配信・正規字幕を支持する**のがマナーです。
 
+英語圏 SNS で見かける **WLW / top/bottom / ship / OTP** などの専門語は、別記事
+[海外GLファンダム用語ガイド](/blog/international-gl-terminology) で詳しく整理しています。
+
 ---
 
 ## 推し活を始める人へ

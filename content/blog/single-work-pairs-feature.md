@@ -56,6 +56,8 @@ Jane（Methika Jiranorraphat）はタイ・台湾系の女優。
 
 [Mate 詳細 →](/dramas/mate)
 
+※ GraceOaey は2025年12月、所属の NEZT Media が共同活動の終了を発表しました。経緯と Mate の意義は[こちら](/blog/graceoaey-retrospective)。
+
 ---
 
 ## TanYada — Play Park（2026）

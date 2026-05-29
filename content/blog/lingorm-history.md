@@ -222,14 +222,11 @@ NamtanFilmが「演技派の挑戦するペア」、EmiBonnieが「日常系の�
 
 ## 今後の展望
 
-2026年5月時点で、LingOrmの**次回作の公式アナウンス**はまだありません。
-ただし、Channel 3 が継続的にGL作品を制作している状況から、
-**2026年内〜2027年に第3作目が発表される可能性**が高いと業界では見られています。
+> **2026年5月29日 追記**: Channel 3 名義の **LingOrm 第3作 [In Love Forever（วาดฝันวันวิวาห์）](/dramas/in-love-forever)** が公式発表されました。離婚した元夫婦が second chance に向き合う、reallyb 原作のメロドラマです。詳細は [In Love Forever 予告まとめ](/blog/in-love-forever-preview) をどうぞ。
 
-予想される方向性:
-- The Secret of Us（メロドラマ）→ Only You（アクション）の流れから、
-  **第3作は「コメディ」「ファンタジー」「歴史もの」**など新しい領域への挑戦か
-- もしくは、**Channel 3 オリジナル新シリーズ**の中で複数年プロジェクトを担う可能性
+これにより、LingOrm × Channel 3 のラインは
+**The Secret of Us（再会・メロ）→ Only You（再会・アクション）→ In Love Forever（再会・second chance）**
+という「再会もの三部作」の形に展開していくことになりました。
 
 いずれにせよ、LingOrmが**タイGL第2世代を代表するペア**として活動を続けることは確実です。
 

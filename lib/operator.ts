@@ -10,18 +10,21 @@ const FALLBACK_EMAIL = "hana.thaigl@gmail.com";
 const RAW_EMAIL =
   process.env.NEXT_PUBLIC_OPERATOR_EMAIL || FALLBACK_EMAIL;
 
+/**
+ * 個人情報保護方針:
+ *   代表者氏名と所在地の値は、サイト本体（公開ページ・JSバンドル）には含めない方針。
+ *   公開ページ（/legal/tokushoho・/about）では「請求があり次第、遅滞なく開示いたします」と表示し、
+ *   開示が必要になった際は contactEmail 経由で個別に対応する。
+ *   法人登記情報は国税庁の法人番号公表サイトで誰でも参照可能なため、サイト側で隠すのは
+ *   AI/ボット等による一括収集の抑止が目的。
+ */
 export const OPERATOR = {
   /** 法人名（商号） */
   companyName: "合同会社FUMOMERU",
   /** 英文表記（任意） */
   companyNameEn: "FUMOMERU LLC",
-  /** 代表者氏名 */
-  representativeName: "花久深夢",
-  /** 代表者役職 */
+  /** 代表者役職（氏名はサイトに非掲載、請求対応で開示） */
   representativeTitle: "代表社員",
-  /** 登記住所（郵便番号は3桁-4桁形式で） */
-  postalCode: "150-0043",
-  address: "東京都渋谷区道玄坂1丁目10番8号 渋谷道玄坂東急ビル2F-C",
   /**
    * 連絡先メール（内部用：半角@）。
    * バックエンド処理用に保持しているが、画面表示には絶対に使わない。
@@ -44,8 +47,3 @@ export const OPERATOR = {
   /** 設立年（任意） */
   established: 2026,
 } as const;
-
-/** 住所をひと続きにした文字列（特商法・JSON-LD 用） */
-export function formatOperatorAddress(): string {
-  return `〒${OPERATOR.postalCode} ${OPERATOR.address}`;
-}

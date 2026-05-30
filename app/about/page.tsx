@@ -72,7 +72,18 @@ export default function AboutPage() {
               代表者
             </th>
             <td className="py-3 align-top">
-              {OPERATOR.representativeTitle} {OPERATOR.representativeName}
+              請求があり次第、遅滞なく開示いたします。
+              <br />
+              <span className="text-xs text-yuri-muted">
+                詳細は{" "}
+                <Link
+                  href="/legal/tokushoho"
+                  className="text-yuri-rose hover:opacity-80 underline"
+                >
+                  特定商取引法に基づく表記
+                </Link>
+                をご覧ください。
+              </span>
             </td>
           </tr>
           <tr>
@@ -83,9 +94,18 @@ export default function AboutPage() {
               所在地
             </th>
             <td className="py-3 align-top">
-              〒{OPERATOR.postalCode}
+              請求があり次第、遅滞なく開示いたします。
               <br />
-              {OPERATOR.address}
+              <span className="text-xs text-yuri-muted">
+                詳細は{" "}
+                <Link
+                  href="/legal/tokushoho"
+                  className="text-yuri-rose hover:opacity-80 underline"
+                >
+                  特定商取引法に基づく表記
+                </Link>
+                をご覧ください。
+              </span>
             </td>
           </tr>
           <tr>

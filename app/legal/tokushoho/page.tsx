@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { OPERATOR, formatOperatorAddress } from "@/lib/operator";
+import { OPERATOR } from "@/lib/operator";
 
 export const metadata = {
   title: "特定商取引法に基づく表記 | YuriThai",
@@ -43,7 +43,18 @@ export default function TokushohoPage() {
               代表者
             </th>
             <td className="py-3 align-top">
-              {OPERATOR.representativeTitle} {OPERATOR.representativeName}
+              請求があり次第、遅滞なく開示いたします。
+              <br />
+              <span className="text-xs text-yuri-muted">
+                ご請求は下記メールアドレスまたは{" "}
+                <Link
+                  href={OPERATOR.contactPath}
+                  className="text-yuri-rose hover:opacity-80 underline"
+                >
+                  お問い合わせフォーム
+                </Link>
+                よりお願いいたします。
+              </span>
             </td>
           </tr>
           <tr>
@@ -54,9 +65,18 @@ export default function TokushohoPage() {
               所在地
             </th>
             <td className="py-3 align-top">
-              〒{OPERATOR.postalCode}
+              請求があり次第、遅滞なく開示いたします。
               <br />
-              {OPERATOR.address}
+              <span className="text-xs text-yuri-muted">
+                ご請求は下記メールアドレスまたは{" "}
+                <Link
+                  href={OPERATOR.contactPath}
+                  className="text-yuri-rose hover:opacity-80 underline"
+                >
+                  お問い合わせフォーム
+                </Link>
+                よりお願いいたします。
+              </span>
             </td>
           </tr>
           <tr>

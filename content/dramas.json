@@ -2703,7 +2703,7 @@
     "title_en": "Music Story: Losing Control",
     "year": 2025,
     "production": "K11D HOUSE",
-    "episodes": 3,
+    "episodes": 2,
     "status": "completed",
     "age_rating": null,
     "cast_pair": "B Mine Jiratchaya Komontut × Mashi Pornthiphat Lertwuthanon（BMineMashi）",
@@ -2745,17 +2745,21 @@
       "reviewer": "yurithai-editor"
     },
     "confidence": "M 中",
-    "note": "K11D HOUSE制作 / Music Storyシリーズ / BMine × Mashi主演 / 2025年4月23日〜 / 全3話 × 27分 / Season 2 (2025) あり",
+    "note": "K11D HOUSE制作 / Music Storyシリーズ / BMine × Mashi主演 / 2025年4月23日〜 / 全2話 × 27分 完結 / Season 2 (2025) あり / 通常版は全話 YouTube で無料公開、UNCUT版は YouTube メンバーシップ限定",
     "cover_gradient": null,
     "cover_image": "/images/dramas/losing-control.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/CcA9Av0IjO4",
     "streaming": [
       {
         "platform": "YouTube",
-        "url": "https://youtu.be/spp7NL6btcY",
-        "note": "EP1のみ無料 / EP2以降メンバーシップ（有料）"
+        "url": "https://youtu.be/ZnfGMoC-HHs"
+      },
+      {
+        "platform": "YouTube (UNCUT)",
+        "url": null,
+        "note": "メンバーシップ限定"
       }
     ],
     "title_th": "Music Story: Losing Control"

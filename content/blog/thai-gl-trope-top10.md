@@ -157,7 +157,7 @@ cover_image: "/images/dramas/affair.jpg"
 
 ### 代表作
 - **[Us](/dramas/us)**（EmiBonnie / 2025 / 12話）— カフェで出会う Dokrak と Pam の静かな日常
-- **[Mate](/dramas/mate)**（GraceOaey / 2024 / 12話）— 幼馴染の再会と日常の癒し
+- **[Mate](/dramas/mate)**（GraceOaey / 2024 / 12話）— 幼馴染の再会と日常の癒し ※GraceOaey は2025年12月に活動終了 → [回顧](/blog/graceoaey-retrospective)
 
 ### こんな気分のときに
 - 重い設定が苦手

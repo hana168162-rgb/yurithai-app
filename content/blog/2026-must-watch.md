@@ -1,15 +1,15 @@
 ---
 title: "2026年タイGL注目作 — 放送中・公開予定の話題作完全ガイド"
 description: "2026年に放送中・公開予定のタイGL作品を網羅。FreenBecky、LingOrm、LMSY、EngLot、GinJay、MilkLove、NamtanFilm、EmiBonnie、PahnFond、LenaMiu ほか主要ペアの新作情報を日本語で。"
-date: "2026-05-20"
+date: "2026-05-29"
 category: "annual-feature"
-tags: ["2026", "注目作", "新作", "公開予定", "タイGL"]
+tags: ["2026", "注目作", "新作", "公開予定", "タイGL", "In Love Forever", "Third Person"]
 cover_image: "/images/dramas/the-air.jpg"
 ---
 
-2025年から2026年にかけて、タイGLは黄金期に突入しました。GMMTV単体で2026年に8作品、CHANGE2561・IDOLFACTORY・Star Hunter Entertainment・Channel 3 / BEC World・Mine Media Production・ME MIND Y・Kongthup Production など、参入スタジオも多様化。本記事では2026年5月20日時点で**放送中**の作品と、年内に**公開予定**の作品を整理してご案内します。
+2025年から2026年にかけて、タイGLは黄金期に突入しました。GMMTV単体で2026年に8作品、CHANGE2561・IDOLFACTORY・Star Hunter Entertainment・Channel 3 / BEC World・Mine Media Production・ME MIND Y・Kongthup Production など、参入スタジオも多様化。本記事では2026年5月29日時点で**放送中**の作品と、年内に**公開予定**の作品を整理してご案内します。
 
-## 放送中（2026年5月20日時点）
+## 放送中・最近完結（2026年5月29日更新）
 
 ### The Air（FreenBecky）
 4 Elementsシリーズ第3弾。Idol Factory × North Star Entertainment共同制作。王女ブルー（Becky）× 警護警察官ロム（Freen）。**5月16日初放送、毎週土曜23:30 JST、iQIYI配信。終了予定7月4日**。
@@ -17,8 +17,8 @@ cover_image: "/images/dramas/the-air.jpg"
 ### Girl Rules（NamtanFilm × MilkLove × ViewMim）
 GMMTV × Moongdoo Production制作、3組のペアが共演する群像劇。友達グループの広告・モデル業界を舞台に、元カノ帰還がもたらす波紋を描く。**5月終了予定（6月1日）**。
 
-### Hometown Romance（LMSY）
-CHANGE2561制作、LMSY 3部作の3作目。**5月23日終了予定**で、3部作の完結編。
+### Hometown Romance（LMSY）— ✅ 完結
+CHANGE2561制作、LMSY 3部作の3作目。**2026年5月23日に完結**、3部作の有終の美を飾りました。
 
 ### Fulfill（OomBam）
 BEC World Original 制作、Channel 3 GL 第4作。大学時代から続くカップルが結婚後に養子縁組を考える、リアルな日常を描く野心作。**6月12日終了予定**。
@@ -29,8 +29,11 @@ ME MIND Y制作、BL大手のGL初参入作。**6月17日終了予定**、毎週
 ### Enemies with Benefits（JanJingJing）
 GMMTV制作。**7月5日終了予定**。
 
-### SHADES（MookShu）
-MookShu主演、**5月23日終了予定**。
+### SHADES（MookShu）— ✅ 完結
+MookShu主演のダークGL、**2026年5月23日に完結**。詳細は [SHADES 完結レビュー](/blog/shades-review)。
+
+### Falling for My Hater（IzeZa）— 🆕 配信中
+HeartPop Studio 制作の**縦型ショートGL**。Ize × Marissa Lloyd 主演、enemies-to-lovers。**2026年5月25日 iQIYI 配信開始**。
 
 ## 公開予定（2026年内）
 
@@ -78,6 +81,12 @@ Star Hunter Entertainment制作、原作 Luxurious.W『ข่มขลัง』�
 
 ### 15. Rental Love Lab（KittyPunch）
 K11D HOUSE制作、新ペアKittyPunch主演。YouTube配信予定。
+
+### 16. In Love Forever（LingOrm）
+BEC World Originals / Channel 3、LingOrm の Ch3 第3作。reallyb 原作、家族の圧力で離婚した弁護士 × Gen-Z 相続人が second-chance を演じる。**2026年6月19日 放送開始**、Ch3 HD + 3Plus 同時配信／3Plus Premium・Netflix 見逃し。詳細は [In Love Forever 予告まとめ](/blog/in-love-forever-preview)。
+
+### 17. Third Person（Garn × Mimie ＋ Piglet）
+North Star Entertainment 4組目のGLカップル Garn × Mimie のデビュー主演作。Piglet Charada が第三者として絡む三角関係、sixnineyuri 原作。**2026年夏予定**。
 
 ## 2026年の傾向
 

@@ -63,6 +63,7 @@ NamtanFilm の演技力が、涙腺を確実に刺激する1作。
 ### Mate（GraceOaey / 2024）
 **[Mate](/dramas/mate)** は、幼馴染の再会と癒しの物語。
 **心の傷が回復していく過程**が、優しい多幸感を生みます。
+（※ GraceOaey は2025年12月に共同活動を終了。経緯と意義は [GraceOaey 回顧](/blog/graceoaey-retrospective) へ）
 
 ### Love Design（KaoJane / 2025）
 **[Love Design](/dramas/love-design)** は、建築 × 職場のラブコメディ。

@@ -1,9 +1,9 @@
 ---
-title: "2026年後半 新作プレビュー徹底版 — Lunar Secret・Moonshadow・Ditto・Hidden Heart・Cranium まで"
-description: "2026年後半に公開予定のタイGL新作を徹底プレビュー。GinJay の Lunar Secret、EmiBonnie の Moonshadow、MilkLove の Ditto、NoonPraewa の Hidden Heart、FreenBecky の Cranium など注目作を一挙紹介します。"
-date: "2026-05-21"
+title: "2026年後半 新作プレビュー徹底版 — In Love Forever・Lunar Secret・Ditto・Hidden Heart・Cranium まで"
+description: "2026年後半に公開予定のタイGL新作を徹底プレビュー。LingOrm の In Love Forever、GinJay の Lunar Secret、MilkLove の Ditto、FreenBecky の Cranium、NoonPraewa の Hidden Heart など注目作を一挙紹介します。"
+date: "2026-05-29"
 category: "guide"
-tags: ["2026", "公開予定", "Lunar Secret", "Moonshadow", "Ditto", "Hidden Heart", "Cranium", "新作"]
+tags: ["2026", "公開予定", "In Love Forever", "Lunar Secret", "Third Person", "Ditto", "Hidden Heart", "Cranium", "新作"]
 cover_image: "/images/dramas/the-fire.jpg"
 ---
 
@@ -67,6 +67,12 @@ Pluto・Girl Rules に続く、演技派ペアの新章。
 ある頭蓋骨から始まる事件を追う**心理サスペンス × 法医学ミステリー**。
 元恋人 → 敵 → 恋人という関係性で、**2025年カンヌ映画祭に選出された初のGL作品**としても話題に。
 
+### In Love Forever（LingOrm）
+**[In Love Forever](/dramas/in-love-forever)**（วาดฝันวันวิวาห์）は、**[LingOrm](/cast/ling)** の Channel 3 第3作。
+[The Secret of Us](/dramas/the-secret-of-us)（2024）→ [Only You](/dramas/only-you)（2025）に続く、reallyb 原作の **second-chance メロドラマ**。
+家族の圧力で離婚した弁護士（ラン）と Gen-Z 相続人（ニーン）が、ビジネス案件で再び「夫婦」を演じることに——。
+**2026年6月19日 放送開始**、Channel 3 HD + 3Plus 同時配信。[In Love Forever 予告まとめ →](/blog/in-love-forever-preview)
+
 ---
 
 ## 新ペア・話題の新作
@@ -80,6 +86,10 @@ Pluto・Girl Rules に続く、演技派ペアの新章。
 ### Beauty & The Bike（MewRenee）
 **[Beauty & The Bike](/dramas/beauty-and-the-bike)** は、North Star の **MewRenee**（Mew × Renee）主演予定。
 
+### Third Person（Garn × Mimie ＋ Piglet）
+**[Third Person](/dramas/third-person)**（ถ้อยรักคำลวง）は、**North Star Entertainment 4組目のGLカップル** Garn × Mimie のデビュー主演作。
+Piglet Charada が「第三者」として絡む**三角関係**で、sixnineyuri 原作の小説をベースに、記憶喪失と夢に現れる女性をめぐるミステリアスなロマンス。
+
 ### PLS Love（LenaMiu）
 **[PLS Love](/dramas/pls-love)** は、Channel 3 の **LenaMiu**（Lena × Miu）主演予定。
 My Safe Zone に続くペアの新作。
@@ -90,15 +100,17 @@ My Safe Zone に続くペアの新作。
 
 | 作品 | ペア | スタジオ | タイプ |
 |---|---|---|---|
+| **In Love Forever** | LingOrm | BEC World Originals / Ch3 | 離婚→second chance（6/19〜）|
 | The Fire | NamneungNoey | Idol Factory × North Star | 4 Elements 最終章 |
 | Lunar Secret | GinJay | North Star | 濃密メロドラマ |
 | Moonshadow | EmiBonnie | GMMTV | 日常系続編 |
 | Ditto | MilkLove | GMMTV | 主演ペア新作 |
 | Her | NamtanFilm | GMMTV | 演技派新作 |
-| Cranium | FreenBecky | IDOLFACTORY | 医療もの |
+| Cranium | FreenBecky | IDOLFACTORY | 法医学ミステリー |
 | Hidden Heart | NoonPraewa | Star Hunter | サブから昇格 |
 | Bake Love Feeling | ViewMim | GMMTV | 新ペア単独主演 |
 | Khom Khlang | BintPuiNoon | Star Hunter | 捜査 × オカルト |
+| **Third Person** | Garn×Mimie（＋Piglet）| North Star | 三角関係・新ペアデビュー |
 
 ※放送時期は変動する場合があります。最新情報は各作品ページ・公式SNSでご確認ください。
 

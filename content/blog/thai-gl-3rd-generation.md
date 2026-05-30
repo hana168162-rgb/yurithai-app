@@ -43,7 +43,7 @@ FreenBeckyはタイGLの代名詞として圧倒的な存在感。
 | **[MilkLove](/cast/milk)** | 23.5, Whale Store xoxo, Girl Rules | GMMTV |
 | **[NamtanFilm](/cast/namtan)** | Pluto, Girl Rules, Her | GMMTV |
 | **[LMSY](/cast/lookmhee)** | Affair, Harmony Secret, Hometown Romance | CHANGE2561 |
-| **[GraceOaey](/cast/grace)** | Mate | Zense Entertainment |
+| **[GraceOaey](/cast/grace)** | Mate | Zense Entertainment（※2025年12月に共同活動終了 → [回顧](/blog/graceoaey-retrospective)）|
 | **[KaoJane](/cast/kao)** | Love Design | フリーランス |
 
 **特徴**：FreenBeckyの後を追って各スタジオが本格的にGL作品を出した時期。

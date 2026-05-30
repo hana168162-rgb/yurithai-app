@@ -151,38 +151,6 @@
     "youtube_teaser": "https://youtu.be/lgbQKzoliY4"
   },
   {
-    "id": 207,
-    "slug": "dangerous-love",
-    "title_ja": "Dangerous Love",
-    "title_en": "Dangerous Love",
-    "title_th": "รักอันตราย",
-    "production": "NineStarStudios",
-    "cast_pair": null,
-    "status": "upcoming",
-    "announced_for": "未発表",
-    "note": "NineStarStudios制作 / YouTube: @NineStarStudiosTH",
-    "cover_image": null,
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/BUmmK8V5qJ4",
-    "pending": true
-  },
-  {
-    "id": 208,
-    "slug": "trial-love",
-    "title_ja": "Trial Love",
-    "title_en": "Trial Love",
-    "title_th": "ก็ว่าจะไม่รัก",
-    "production": "NineStarStudios",
-    "cast_pair": null,
-    "status": "upcoming",
-    "announced_for": "未発表",
-    "note": "NineStarStudios制作 / YouTube: @NineStarStudiosTH",
-    "cover_image": null,
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/7JHJaUIBqqU",
-    "pending": true
-  },
-  {
     "id": 213,
     "slug": "pls-love",
     "title_ja": "PLS Love",

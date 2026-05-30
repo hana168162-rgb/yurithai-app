@@ -28,7 +28,7 @@ GAP（2022）で誕生した第1世代——
 | ペア | 代表作 | 所属 |
 |---|---|---|
 | **[FreenBecky](/cast/freen)** | GAP, The Loyal Pin, Uranus 2324, The Air | IDOLFACTORY → 独立 |
-| **[FayeYoko](/cast/faye)** | Blank, Blank Season 2 | NineStar Studios |
+| **[FayeYoko](/cast/faye)** | Blank, Blank Season 2 | NineStar Studios（※2025年に Faye・Yoko ともに契約解除、スタジオは2026年5月閉鎖）|
 
 **特徴**：手探りで始まった時代、ペア活動の原型を作った世代。
 FreenBeckyはタイGLの代名詞として圧倒的な存在感。

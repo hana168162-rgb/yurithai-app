@@ -385,10 +385,8 @@ function getBangkokNow(): BangkokNow {
  * ビルド時の日時ベースなので、ISR (revalidate) と組み合わせて使う。
  */
 export function getCurrentPickup(): WatchingDrama[] {
-  const now = getBangkokNow();
-  return [...getActiveWatching()]
-    .sort((a, b) => pickupSortKey(a, now) - pickupSortKey(b, now))
-    .slice(0, 4);
+  // getActiveWatching() がすでに次回放送順でソート済み
+  return getActiveWatching().slice(0, 4);
 }
 
 // =============================================
@@ -409,10 +407,17 @@ export function hasEnded(d: WatchingDrama): boolean {
 }
 
 /**
- * 放送中の watching 作品（end_date 未到来 or 不明）
+ * 放送中の watching 作品（end_date 未到来 or 不明）。
+ * 「次回放送が近い順」にソートして返す（pickupSortKey と同じロジック）。
+ *   - 放送曜日・時刻を note から抽出し、現在のタイ時間から最短の作品を先頭に
+ *   - 放送曜日が分からない作品は末尾
+ *   - 放送時刻を過ぎるまでは、その作品が先頭をキープする仕様
  */
 export function getActiveWatching(): WatchingDrama[] {
-  return watching.filter((d) => !hasEnded(d));
+  const now = getBangkokNow();
+  return watching
+    .filter((d) => !hasEnded(d))
+    .sort((a, b) => pickupSortKey(a, now) - pickupSortKey(b, now));
 }
 
 /**

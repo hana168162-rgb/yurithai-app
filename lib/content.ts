@@ -31,6 +31,32 @@ export const upcoming: UpcomingDrama[] = [
   ...upcomingRaw.filter((d) => !d.pending),
   ...upcomingRaw.filter((d) => d.pending),
 ];
+
+/**
+ * 公開予定作品を「公開日が近い順」にソートして返す。
+ * トップページと /dramas/upcoming で共通利用する。
+ *   優先度 0: 具体的な公開日が判明（announced_for に "YYYY年MM月DD日"）→ 日付昇順
+ *   優先度 1: 年/月のみ判明（"2026年内予定" 等）→ 文字列昇順
+ *   優先度 2: 未発表 / pending → 末尾
+ */
+export function getUpcomingSortedByDate(): UpcomingDrama[] {
+  const priority = (d: UpcomingDrama): [number, string] => {
+    const a = d.announced_for || "";
+    const m = a.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+    if (m) {
+      const [, y, mo, day] = m;
+      return [0, `${y}-${mo.padStart(2, "0")}-${day.padStart(2, "0")}`];
+    }
+    if (d.pending || a === "未発表") return [2, a];
+    return [1, a];
+  };
+  return [...upcoming].sort((a, b) => {
+    const [pa, ka] = priority(a);
+    const [pb, kb] = priority(b);
+    if (pa !== pb) return pa - pb;
+    return ka.localeCompare(kb);
+  });
+}
 /**
  * birth_date から今日時点の満年齢を返す。形式エラー時は null。
  * JSON の age フィールドは経年で陳腐化するため、ビルド時に動的計算で上書きする。

@@ -1,4 +1,4 @@
-import { upcoming, actresses } from "@/lib/content";
+import { getUpcomingSortedByDate, actresses } from "@/lib/content";
 import { DramaListNav } from "@/components/DramaListNav";
 import { DramaFilterBar } from "@/components/DramaFilterBar";
 
@@ -15,6 +15,9 @@ export const metadata = {
 };
 
 export default function UpcomingPage() {
+  // 公開日が近い順（具体的日付 → 年/月のみ → 未発表/pending の順）
+  const sortedUpcoming = getUpcomingSortedByDate();
+
   return (
     <div className="mx-auto max-w-6xl px-4 md:px-6 py-8 md:py-10">
       <header className="mb-6">
@@ -25,13 +28,13 @@ export default function UpcomingPage() {
 
       <DramaListNav current="upcoming" />
 
-      {upcoming.length === 0 ? (
+      {sortedUpcoming.length === 0 ? (
         <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-8 text-center text-sm text-yuri-muted">
           まだ追加情報がありません
         </div>
       ) : (
         <DramaFilterBar
-          dramas={upcoming}
+          dramas={sortedUpcoming}
           actresses={actresses}
           cardType="upcoming"
         />

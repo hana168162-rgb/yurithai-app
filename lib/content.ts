@@ -428,6 +428,91 @@ export function getRecentlyEndedWatching(): WatchingDrama[] {
 }
 
 // =============================================
+//  放送スケジュール計算
+//  start_date / end_date / episodes から「今が何話目か・次回放送日」を逆算する。
+//  毎週同じ曜日の放送を前提とする（タイGL の標準形式）。
+// =============================================
+
+export interface EpisodeProgress {
+  /** 全話数（不明なら null）*/
+  total: number | null;
+  /** 今日時点で何話まで放送済みか（不明なら null）*/
+  current: number | null;
+  /** 次回放送日（最終話放送後 or 不明なら null）*/
+  nextBroadcast: Date | null;
+  /** 最終話が放送済みかどうか */
+  isFinaleAired: boolean;
+}
+
+/** "YYYY-MM-DD" を UTC 0時の Date に変換（タイムゾーン由来のズレ回避） */
+function parseYMDToUTC(s: string): Date | null {
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!m) return null;
+  return new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
+}
+
+/** Asia/Bangkok 基準の「今日」を UTC 0時 Date で返す（放送日はタイ時間ベースのため） */
+function todayInBangkokAsUTC(): Date {
+  const fmt = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Bangkok",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  const ymd = fmt.format(new Date()); // "YYYY-MM-DD"
+  return parseYMDToUTC(ymd)!;
+}
+
+/**
+ * 放送中の作品について、現在の放送進行を返す。
+ * 毎週1話ペースを仮定し、start_date を基準に経過週数で現在話数を算出。
+ * end_date があれば最終話放送済みかも判定。すべて UTC 基準・タイ時間の日付で扱う。
+ *
+ * 例: Fulfill (start 4/24, end 6/12, 全8話) を today=5/29(金) で呼ぶと
+ *     { total: 8, current: 6, nextBroadcast: 2026-06-05, isFinaleAired: false }
+ */
+export function getEpisodeProgress(d: WatchingDrama): EpisodeProgress {
+  const total = d.episodes ?? null;
+  const start = d.start_date ? parseYMDToUTC(d.start_date) : null;
+  const end = d.end_date ? parseYMDToUTC(d.end_date) : null;
+
+  if (!start) {
+    return { total, current: null, nextBroadcast: null, isFinaleAired: false };
+  }
+
+  const today = todayInBangkokAsUTC();
+  const dayMs = 24 * 60 * 60 * 1000;
+
+  // 経過週数 → 放送済み話数（EP1 は start_date 当日）
+  const weeksElapsed = Math.floor(
+    (today.getTime() - start.getTime()) / (7 * dayMs)
+  );
+  let current: number | null = weeksElapsed + 1;
+  if (current < 1) current = 0;
+  if (total !== null && current > total) current = total;
+
+  // 次回放送日（最終話放送後は null）
+  let nextBroadcast: Date | null = null;
+  if (total === null || (current !== null && current < total)) {
+    const off = current === null ? 0 : current;
+    nextBroadcast = new Date(start.getTime() + off * 7 * dayMs);
+    if (nextBroadcast.getTime() <= today.getTime()) {
+      nextBroadcast = new Date(nextBroadcast.getTime() + 7 * dayMs);
+    }
+  }
+
+  // 最終話放送済み判定
+  let isFinaleAired = false;
+  if (end) {
+    isFinaleAired = end.getTime() <= today.getTime();
+  } else if (total !== null && current !== null && current >= total) {
+    isFinaleAired = true;
+  }
+
+  return { total, current, nextBroadcast, isFinaleAired };
+}
+
+// =============================================
 //  Related dramas
 // =============================================
 

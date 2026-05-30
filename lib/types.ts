@@ -65,6 +65,7 @@ export interface WatchingDrama {
   cover_credit: string | null;
   youtube_teaser: string | null;
   streaming?: StreamingLink[];      // 配信先
+  start_date?: string | null;       // 初回放送日（"YYYY-MM-DD"）。end_date と組み合わせて現在何話目かを計算
   end_date?: string | null;         // 最終話放送日（"YYYY-MM-DD"）。これを過ぎたら自動的に完結扱いに
   episodes?: number | null;          // 全話数（StatusBadge "N話完結" 表示用）
 }

@@ -18,6 +18,7 @@
       }
     ],
     "title_th": "เสน่หาวาโย",
+    "start_date": "2026-05-16",
     "end_date": "2026-07-04",
     "episodes": 8
   },
@@ -40,6 +41,7 @@
       }
     ],
     "title_th": "กฎหลัก ห้ามรักเธอ",
+    "start_date": "2026-03-09",
     "end_date": "2026-06-01",
     "episodes": 12
   },
@@ -62,6 +64,7 @@
       }
     ],
     "title_th": "ลัลล์ไม่ชอบไวน์",
+    "start_date": "2026-05-03",
     "end_date": "2026-07-05",
     "episodes": 10
   },
@@ -73,7 +76,7 @@
     "production": "BEC World Original / Channel 3",
     "cast_pair": "Oom Eisaya Hosuwan × Bam Saralee Prasitdumrong（OomBam）",
     "status": "airing",
-    "note": "BEC World Original制作（Channel 3 GL第4作）/ 監督Nay Saratswadee Wongsomphet（The Secret of Us監督）/ 2026年4月24日〜6月12日 / 毎週金曜 Channel 3HD放送 / 8話完結 / 大学時代から続くカップル（女性エンジニアAiooon×インテリアデザイナーPafun）が結婚後に養子縁組を考える物語",
+    "note": "BEC World Original制作（Channel 3 GL第4作）/ 監督Nay Saratswadee Wongsomphet（The Secret of Us監督）/ 2026年4月24日〜6月12日 / 毎週金曜 20:30 タイ時間（22:30 JST）Channel 3HD放送 / 8話完結 / 大学時代から続くカップル（女性エンジニアAiooon×インテリアデザイナーPafun）が結婚後に養子縁組を考える物語",
     "cover_image": "/images/dramas/fulfill.jpg",
     "cover_credit": null,
     "youtube_teaser": "https://youtu.be/D0-qfBPHrqA",
@@ -85,6 +88,7 @@
       }
     ],
     "title_th": "Fulfill The Series",
+    "start_date": "2026-04-24",
     "end_date": "2026-06-12",
     "episodes": 8
   },
@@ -112,6 +116,7 @@
         "note": "UNCUT版"
       }
     ],
+    "start_date": "2026-05-06",
     "end_date": "2026-06-17",
     "episodes": 7
   },
@@ -134,6 +139,7 @@
         "url": "https://youtu.be/DH6b3St6DVU"
       }
     ],
+    "start_date": "2026-05-29",
     "end_date": null,
     "episodes": null
   },
@@ -156,6 +162,7 @@
         "url": "https://www.netflix.com/jp/"
       }
     ],
+    "start_date": "2026-05-29",
     "end_date": "2026-07-17",
     "episodes": 8
   }

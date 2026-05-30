@@ -114,5 +114,49 @@
     ],
     "end_date": "2026-06-17",
     "episodes": 7
+  },
+  {
+    "id": 107,
+    "slug": "rental-love-lab",
+    "title_ja": "Rental Love Lab",
+    "title_en": "Rental Love Lab",
+    "title_th": "ชั่วโมงทดลองรัก",
+    "production": "K11D HOUSE",
+    "cast_pair": "Kitty Nunthaphuck × Punch Naphassanan（KittyPunch）",
+    "status": "airing",
+    "note": "K11D HOUSE制作 / Vibeberry Studio協力 / 新ペア KittyPunch 主演 / 2026年5月29日 EP1 公開 / 毎週金曜 YouTube 公開",
+    "cover_image": "/images/dramas/rental-love-lab.jpg",
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/CufGfB9ylDw",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/DH6b3St6DVU"
+      }
+    ],
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 108,
+    "slug": "chasing-love",
+    "title_ja": "Chasing Love",
+    "title_en": "Chasing Love",
+    "title_th": "ตามล่าหารัก",
+    "production": "CHANGE2561 Original × ONE31",
+    "cast_pair": "Nile Chanidapa Sommitthanakul × Namwan Natchaya Vongbut（NileNamwan）",
+    "status": "airing",
+    "note": "CHANGE2561 Original制作 / 原作Peony / 監督Bo Pantip Vibultham / 2026年5月29日（金）放送開始、7月17日まで全8話 / ONE31 毎週金22:30〜（タイ時間）TV版 / Netflix Worldwide Uncut版 23:30〜（日本Netflixでも視聴可）/ oneD Thailand Only Uncut版 23:30〜 / NileNamwanデビュー作",
+    "cover_image": "/images/dramas/chasing-love.jpg",
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/YVECcuW7swA",
+    "streaming": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/"
+      }
+    ],
+    "end_date": "2026-07-17",
+    "episodes": 8
   }
 ]

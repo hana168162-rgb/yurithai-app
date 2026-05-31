@@ -70,7 +70,7 @@ LingOrm がここからGL作品を出すという事実は、業界的に大き�
 
 LingOrmの第一作目は、**[The Secret of Us（ใจซ่อนรัก）](/dramas/the-secret-of-us)**。
 
-**2024年6月24日〜8月12日**にChannel 3で放送、全10話完結（うち16+評価）。
+**2024年6月24日〜8月12日**にChannel 3で放送、全8話完結（16+評価）。
 監督は **Saratswadee Wongsomphet**、原作は **Meenam** の小説。
 
 ### 物語
@@ -227,6 +227,10 @@ NamtanFilmが「演技派の挑戦するペア」、EmiBonnieが「日常系の�
 これにより、LingOrm × Channel 3 のラインは
 **The Secret of Us（再会・メロ）→ Only You（再会・アクション）→ In Love Forever（再会・second chance）**
 という「再会もの三部作」の形に展開していくことになりました。
+（三作の構造を比較した記事は [LingOrm『再会もの』三部作](/blog/lingorm-reunion-trilogy) もどうぞ）
+
+ライン全体としては Channel 3 / BEC World の GL ラインの中に位置付けられ、フラッグシップ的な役割を担っています。
+他のペアも含めた Channel 3 系 GL の全体像は [BEC World / Channel 3 の GL 戦略](/blog/bec-world-channel3-gl-strategy) を参照してください。
 
 いずれにせよ、LingOrmが**タイGL第2世代を代表するペア**として活動を続けることは確実です。
 
@@ -236,13 +240,13 @@ NamtanFilmが「演技派の挑戦するペア」、EmiBonnieが「日常系の�
 
 LingOrm が初めての方への**おすすめ視聴順**:
 
-1. **[The Secret of Us](/dramas/the-secret-of-us)**（2024・10話）
+1. **[The Secret of Us](/dramas/the-secret-of-us)**（2024・8話）
    — まずはこちらから。LingOrmの「大人のメロドラマ」の真髄。
 
 2. **[Only You](/dramas/only-you)**（2025・14話）
    — その後にOnly Youで、二人の演技の幅広さを体感。
 
-合計で約24話、週末2〜3回に分けて観るのに最適なボリュームです。
+合計で約22話、週末2〜3回に分けて観るのに最適なボリュームです。
 
 ---
 

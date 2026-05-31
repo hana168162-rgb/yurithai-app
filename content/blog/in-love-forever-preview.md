@@ -76,6 +76,8 @@ In Love Forever は、LingOrm が Channel 3 で重ねてきたシリーズの**�
 
 3作通じて **「再会」モチーフ**が一貫しており、In Love Forever は
 **「別れた相手と、もう一度向き合う」**というテーマを**結婚後**まで広げた形になります。
+三作の比較分析は [LingOrm『再会もの』三部作](/blog/lingorm-reunion-trilogy) を、
+ラインを抱える Channel 3 / BEC World 全体の戦略は [BEC World / Channel 3 の GL 戦略](/blog/bec-world-channel3-gl-strategy) もどうぞ。
 
 LingOrm の経歴をもっと辿りたい人は [LingOrm 4年の軌跡](/blog/lingorm-history)、
 バンコクのロケ地巡りは [LingOrm 聖地巡礼ガイド](/blog/pilgrimage-lingorm) もどうぞ。

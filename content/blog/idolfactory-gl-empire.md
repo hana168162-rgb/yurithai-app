@@ -243,7 +243,7 @@ Beckyの誕生日（12/5）とFreenの誕生日（8/8）には**毎年世界の�
 ## IDOLFACTORYが示した未来
 
 IDOLFACTORY の物語は、**「小さな事務所でも世界市場を切り拓ける」**という証明そのものです。
-大手GMMTVや Channel 3 のような体力を持たなくても、
+大手GMMTVや [Channel 3 / BEC World](/blog/bec-world-channel3-gl-strategy) のような体力を持たなくても、
 **ジャンルそのものを生み出し、ペアをブランド化し、世界配信に乗せる**ことができる。
 
 これは、今後タイGLに参入してくる新興スタジオ——

@@ -28,8 +28,8 @@ cover_image: "/images/dramas/the-fire.jpg"
 
 ### The Fire（NamneungNoey）
 **[The Fire](/dramas/the-fire)** は、4 Elements シリーズの最終章。
-**元BNK48 1期生**の NamneungNoey 主演で、シリーズのクライマックスを飾ります。
-2026年7月11日〜放送予定。[4 Elements シリーズ完全ガイド →](/blog/4-elements-series-guide)
+**元BNK48 1期生**の [NamneungNoey](/blog/namneungnoey-feature) 主演で、シリーズのクライマックスを飾ります。
+2026年7月11日〜放送予定。[4 Elements シリーズ完全ガイド →](/blog/4-elements-series-guide) / [NamneungNoey 紹介 →](/blog/namneungnoey-feature)
 
 ---
 
@@ -72,7 +72,7 @@ Pluto・Girl Rules に続く、演技派ペアの新章。
 **[In Love Forever](/dramas/in-love-forever)**（วาดฝันวันวิวาห์）は、**[LingOrm](/cast/ling)** の Channel 3 第3作。
 [The Secret of Us](/dramas/the-secret-of-us)（2024）→ [Only You](/dramas/only-you)（2025）に続く、reallyb 原作の **second-chance メロドラマ**。
 家族の圧力で離婚した弁護士（ラン）と Gen-Z 相続人（ニーン）が、ビジネス案件で再び「夫婦」を演じることに——。
-**2026年6月19日 放送開始**、Channel 3 HD + 3Plus 同時配信。[In Love Forever 予告まとめ →](/blog/in-love-forever-preview)
+**2026年6月19日 放送開始**、Channel 3 HD + 3Plus 同時配信。[In Love Forever 予告まとめ →](/blog/in-love-forever-preview) / [LingOrm『再会もの』三部作 →](/blog/lingorm-reunion-trilogy) / [Channel 3 GL 戦略全整理 →](/blog/bec-world-channel3-gl-strategy)
 
 ---
 

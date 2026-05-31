@@ -94,11 +94,11 @@ FreenBecky にとっては GAP・The Loyal Pin・Uranus 2324 に続くキャリ�
 
 **[The Fire](/dramas/the-fire)** は、シリーズを締めくくる最終章。
 
-主演は **NamneungNoey**——両者とも**元BNK48 1期生**という、
+主演は **[NamneungNoey](/blog/namneungnoey-feature)**——両者とも**元BNK48 1期生**という、
 タイのアイドル文化との連続性を象徴するペア。
 「火」の情熱・激しさをテーマに、シリーズのクライマックスを飾ります。
 
-[The Fire 詳細 →](/dramas/the-fire)
+[The Fire 詳細 →](/dramas/the-fire) / [NamneungNoey 紹介記事 →](/blog/namneungnoey-feature)
 
 ---
 

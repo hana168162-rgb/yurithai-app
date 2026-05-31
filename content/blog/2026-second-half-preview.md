@@ -66,6 +66,7 @@ Pluto・Girl Rules に続く、演技派ペアの新章。
 法医人類学者 Dr. Phin（Freen）と、元学術ライバル Dr. Bua（Becky）が、
 ある頭蓋骨から始まる事件を追う**心理サスペンス × 法医学ミステリー**。
 元恋人 → 敵 → 恋人という関係性で、**2025年カンヌ映画祭に選出された初のGL作品**としても話題に。
+※当初は2026年1月プレミア予定だったが延期、**確定的な新放送日は公式から未発表**（2026年〜2027年で公開待ち）。
 
 ### In Love Forever（LingOrm）
 **[In Love Forever](/dramas/in-love-forever)**（วาดฝันวันวิวาห์）は、**[LingOrm](/cast/ling)** の Channel 3 第3作。

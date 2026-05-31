@@ -178,6 +178,22 @@ export const TRIPCOM_SALE = {
   cta: "セールページを見る",
 } as const;
 
+// ====== Wise（旧 TransferWise）======
+// 紹介リンク。サインアップ後の条件達成で紹介報酬が発生する。
+const WISE_DEFAULT_URL =
+  "https://wise.com/invite/dic/miyuh208";
+
+export const WISE = {
+  /** 紹介URL */
+  url: process.env.NEXT_PUBLIC_WISE_AFF_URL || WISE_DEFAULT_URL,
+
+  /** カード見出し */
+  cardTitle: "海外送金・両替を低コストで — Wise",
+  cardSubtitle:
+    "タイバーツへの両替、現地サイトでの支払い、ファンミチケット決済まで。実際の為替レート＋少額の手数料で、銀行や両替所より高効率。マルチカレンシー口座でバーツ残高も保有可能。",
+  cta: "Wise を見る",
+} as const;
+
 /** PR表記（短） */
 export const AFFILIATE_DISCLOSURE_SHORT = "広告";
 

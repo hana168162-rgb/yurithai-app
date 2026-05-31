@@ -185,7 +185,7 @@ IDOLFACTORY と **North Star Entertainment** の共同事業。
 
 実際、独立後も:
 - **The Air**（2026・現在放送中）はIDOLFACTORYが企画した4 Elementsシリーズの一部としてFreenBecky主演
-- **Cranium**（2026年内予定）は**IDOLFACTORYが単独制作**するFreenBecky主演の新作
+- **Cranium**（2026〜2027年予定）は**IDOLFACTORYが単独制作**するFreenBecky主演の新作
 
 つまり、**独立しながらも「ペア作品」では引き続きIDOLFACTORYが制作元を担う**という、
 タイ業界では極めて稀な体制が確立されたのです。
@@ -194,10 +194,10 @@ IDOLFACTORY と **North Star Entertainment** の共同事業。
 
 ---
 
-## 2026年 — Craniumで再び単独主演
+## Craniumで再び単独主演
 
 [**Cranium**](/dramas/cranium) は、IDOLFACTORY が独立後のFreenBecky のために単独で企画した新作です。
-2026年内公開予定で、ティザーのみが公開されている段階ですが、ファンの期待は最高潮。
+当初は2026年1月プレミア予定でしたが延期、確定的な放送日は公式から未発表（**2026〜2027年で公開待ち**）。ティザーのみ公開されている段階ですが、ファンの期待は最高潮。
 
 The Air（4 Elementsの一部）と並行して、**「IDOLFACTORYならではのFreenBecky作品」**を世に送り出すこのプロジェクトは、
 **事務所と独立タレントが共存していく未来モデル**として、業界が固唾を呑んで見守っています。
@@ -264,7 +264,7 @@ IDOLFACTORY 作品の**おすすめ視聴順**:
 1. **[GAP](/dramas/gap)**（2022）— すべての原点。タイGLの教科書。
 2. **[The Loyal Pin](/dramas/the-loyal-pin)**（2024）— FreenBeckyの「演技力で勝負」を体感。
 3. **[The Air](/dramas/the-air)**（2026・放送中）— 4 Elements世界観での現代アクション。
-4. **[Cranium](/dramas/cranium)**（2026年内予定）— IDOLFACTORY独立後初の単独制作作。
+4. **[Cranium](/dramas/cranium)**（2026〜2027年予定）— IDOLFACTORY独立後初の単独制作作。
 
 時系列で観ていくことで、**FreenBeckyの成長と、IDOLFACTORYの進化**を体感できます。
 

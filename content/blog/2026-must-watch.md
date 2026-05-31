@@ -44,7 +44,7 @@ HeartPop Studio 制作の**縦型ショートGL**。Ize × Marissa Lloyd 主演�
 4 Elementsシリーズ第4弾（最終章）。**2026年7月11日〜8月29日**。Idol Factory × North Star共同制作。両者ともBNK48 1期生のNamneungNoeyペア主演。
 
 ### 3. Cranium（FreenBecky）
-IDOLFACTORY制作、2026年内公開予定。FreenBecky次回作として最大の話題作。
+IDOLFACTORY制作、FreenBecky次回作として最大の話題作。当初2026年1月プレミア予定だったが延期、確定的な放送日は公式から未発表（**2026〜2027年で公開待ち**）。
 
 ### 4. Moonshadow（EmiBonnie）
 GMMTV制作、『Us』（2025）に続くEmiBonnie主演の2作目。

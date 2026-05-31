@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { TripcomCard } from "@/components/TripcomCard";
 import { TripcomSaleBanner } from "@/components/TripcomSaleBanner";
+import { WiseCard } from "@/components/WiseCard";
 import { AFFILIATE_DISCLOSURE_LONG } from "@/lib/affiliate";
 import {
   JsonLd,
@@ -213,7 +214,11 @@ export default function TravelGuidePage() {
       <p className="text-[15px] leading-[1.9] text-yuri-ink/85 mb-4">
         大半のホテル・百貨店で使えます。ただし**屋台や個人商店では現金のみ**のため、
         現地ATMでバーツを引き出せるカードを持っていくのがおすすめ。
+        加えて、<strong className="font-medium">タイのサイトでファンミチケット決済やグッズ購入をする場合</strong>は、
+        為替の上乗せ手数料が小さい <strong className="font-medium">Wise</strong>（マルチカレンシー口座／海外送金サービス）が便利です。
       </p>
+
+      <WiseCard variant="compact" />
 
       <h3 className="text-base font-medium text-yuri-navy mt-5 mb-2">
         Q. ビザは必要？

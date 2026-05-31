@@ -58,6 +58,13 @@ export default function AdvertisingPolicyPage() {
             </span>
           </li>
           <li>
+            <strong className="font-medium">Wise</strong>（Wise Payments Ltd. 提供／旧 TransferWise）
+            <br />
+            <span className="text-xs text-yuri-muted">
+              関連ページ: <Link href="/guide/travel-to-thailand" className="text-yuri-rose hover:opacity-80 underline">タイ旅行・聖地巡礼ガイド</Link>、<Link href="/blog/fan-meeting-first-timer-guide" className="text-yuri-rose hover:opacity-80 underline">ファンミ参加ガイド</Link>
+            </span>
+          </li>
+          <li>
             <strong className="font-medium">Google AdSense</strong>（Google LLC 提供）
             <br />
             <span className="text-xs text-yuri-muted">

@@ -258,7 +258,7 @@ export default function DramaDetailPage({
               <p className="text-sm text-yuri-muted mb-2">{titleTh}</p>
             )}
             <p className="text-sm text-yuri-muted mb-4">
-              {year ?? "未発表"}
+              {year ?? upcoming?.announced_for ?? "公開時期 未定"}
               {drama.production && (
                 <>
                   <span className="mx-1">·</span>

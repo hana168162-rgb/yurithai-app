@@ -89,12 +89,13 @@ export function WhereToWatch({
         })}
       </div>
       {hasRestricted && (
-        <p className="mt-3 text-[11px] text-amber-800 bg-amber-50 border border-amber-200 rounded px-2.5 py-1.5 leading-relaxed">
-          🔒 マークの配信先は、<strong className="font-medium">日本から直接視聴できません</strong>（タイ限定 / VPN必要）。日本で観られる配信先（YouTube・TELASA・iQIYI 等）があるかは、上の一覧をご確認ください。
+        <p className="mt-3 inline-flex items-center gap-1.5 text-xs text-amber-800 bg-amber-50 border border-amber-200 rounded-full px-3 py-1 font-medium">
+          <span aria-hidden>🔒</span>
+          日本から直接視聴不可（タイ限定／VPN必要）
         </p>
       )}
       <p className="mt-2 text-[10px] text-yuri-muted">
-        ※ リンクが付いている配信先は公式ページへ遷移します。配信状況は変動する場合があります。
+        ※ リンク付きの配信先は公式ページへ遷移します。配信状況は変動する場合があります。
       </p>
     </div>
   );

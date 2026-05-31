@@ -209,7 +209,7 @@ export default function ActressDetailPage({
                   <p className="text-sm font-medium truncate">
                     {drama.title_ja}
                   </p>
-                  <p className="text-[10px] text-yuri-muted mt-0.5">
+                  <p className="text-[11px] text-yuri-muted mt-0.5">
                     {drama.status === "airing"
                       ? "放送中"
                       : drama.status === "upcoming"
@@ -224,7 +224,7 @@ export default function ActressDetailPage({
       </section>
 
       {/* 補足 */}
-      <p className="mt-8 text-[10px] text-yuri-muted">
+      <p className="mt-8 text-[11px] text-yuri-muted">
         ※ プロフィール情報は thaiglhub.com など公開情報をもとに整理しています。
       </p>
     </div>

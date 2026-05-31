@@ -65,11 +65,11 @@ export function BlogReadNext({ posts }: { posts: BlogPostMeta[] }) {
                     )}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="text-[13px] font-medium text-yuri-ink leading-snug line-clamp-2">
+                    <p className="text-sm font-medium text-yuri-ink leading-snug line-clamp-2">
                       {p.title}
                     </p>
                     {p.tags.length > 0 && (
-                      <p className="text-[10px] text-yuri-muted mt-1 truncate">
+                      <p className="text-[11px] text-yuri-muted mt-1 truncate">
                         #{p.tags.slice(0, 3).join("　#")}
                       </p>
                     )}

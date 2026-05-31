@@ -81,7 +81,7 @@ export default function BlogIndexPage() {
                     <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-yuri-navy text-yuri-cream">
                       {CATEGORY_LABELS[post.category] ?? post.category}
                     </span>
-                    <span className="text-[11px] text-yuri-muted">
+                    <span className="text-xs text-yuri-muted">
                       {formatDate(post.date)}
                     </span>
                   </div>
@@ -98,7 +98,7 @@ export default function BlogIndexPage() {
                       {post.tags.slice(0, 4).map((t) => (
                         <span
                           key={t}
-                          className="text-[10px] text-yuri-muted bg-yuri-cream px-1.5 py-0.5 rounded"
+                          className="text-[11px] text-yuri-muted bg-yuri-cream px-1.5 py-0.5 rounded"
                         >
                           #{t}
                         </span>

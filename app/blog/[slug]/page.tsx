@@ -106,7 +106,7 @@ export default function BlogPostPage({
 
       <article>
         <header className="mb-8">
-          <p className="text-[11px] text-yuri-muted mb-2">
+          <p className="text-xs text-yuri-muted mb-2">
             {formatDate(post.date)}
           </p>
           <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink leading-tight mb-3">

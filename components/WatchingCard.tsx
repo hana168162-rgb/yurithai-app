@@ -53,17 +53,17 @@ export function WatchingCard({
       <div className="p-2.5">
         <p className="text-sm font-semibold mb-0.5 truncate">{drama.title_ja}</p>
         {drama.title_th && (
-          <p className="text-[11px] text-yuri-muted/80 mb-0.5 truncate">
+          <p className="text-xs text-yuri-muted/80 mb-0.5 truncate">
             {drama.title_th}
           </p>
         )}
         {!hideProduction && (
-          <p className="text-[11px] text-yuri-muted mb-1">
+          <p className="text-xs text-yuri-muted mb-1">
             {drama.production ?? "制作元未確認"}
           </p>
         )}
         {drama.cast_pair && (
-          <p className="text-[11px] text-yuri-rose/90 truncate">
+          <p className="text-xs text-yuri-rose/90 truncate">
             {shortPairName(drama.cast_pair)}
           </p>
         )}

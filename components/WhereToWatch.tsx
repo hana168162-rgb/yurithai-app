@@ -61,10 +61,10 @@ export function WhereToWatch({
               {restricted && <span aria-hidden>🔒</span>}
               <span>{s.platform}</span>
               {s.note && (
-                <span className="text-[10px] opacity-80">（{s.note}）</span>
+                <span className="text-[11px] opacity-80">（{s.note}）</span>
               )}
               {hasUrl && (
-                <span aria-hidden className="text-[10px]">
+                <span aria-hidden className="text-[11px]">
                   ↗
                 </span>
               )}
@@ -94,7 +94,7 @@ export function WhereToWatch({
           日本から直接視聴不可（タイ限定／VPN必要）
         </p>
       )}
-      <p className="mt-2 text-[10px] text-yuri-muted">
+      <p className="mt-2 text-[11px] text-yuri-muted">
         ※ リンク付きの配信先は公式ページへ遷移します。配信状況は変動する場合があります。
       </p>
     </div>

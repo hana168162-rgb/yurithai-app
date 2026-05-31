@@ -15,7 +15,7 @@ export function RelatedDramas({ groups }: { groups: RelatedGroup[] }) {
           <div className="flex items-baseline justify-between mb-3">
             <h3 className="text-sm font-medium text-yuri-navy">{g.label}</h3>
             {g.reason && (
-              <p className="text-[10px] text-yuri-muted truncate ml-2">
+              <p className="text-[11px] text-yuri-muted truncate ml-2">
                 {g.reason}
               </p>
             )}
@@ -37,7 +37,7 @@ export function RelatedDramas({ groups }: { groups: RelatedGroup[] }) {
                 />
                 <div className="p-2">
                   <p className="text-xs font-medium truncate">{d.title_ja}</p>
-                  <p className="text-[10px] text-yuri-muted mt-0.5">
+                  <p className="text-[11px] text-yuri-muted mt-0.5">
                     {d.status === "airing"
                       ? "放送中"
                       : d.status === "upcoming"

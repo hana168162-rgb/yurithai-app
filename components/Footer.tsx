@@ -81,6 +81,18 @@ export function Footer() {
           </div>
         </div>
 
+        <div className="border-t border-yuri-cream/15 pt-4 pb-2 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xs">
+          <span className="opacity-70">
+            タイGL関連のスポンサー・タイアップ募集中
+          </span>
+          <Link
+            href="/contact?topic=sponsor"
+            className="inline-flex items-center gap-1 rounded-full border border-yuri-cream/30 px-3 py-1 hover:bg-yuri-cream/10 transition-colors"
+          >
+            お問い合わせ <span aria-hidden>→</span>
+          </Link>
+        </div>
+
         <div className="border-t border-yuri-cream/15 pt-3 text-[11px] opacity-70 text-center">
           © 2026 YuriThai · yurithai.jp
         </div>

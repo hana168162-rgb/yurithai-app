@@ -20,6 +20,7 @@ import { ActressProfile } from "@/components/ActressProfile";
 import { WhereToWatch } from "@/components/WhereToWatch";
 import { NordVpnCard } from "@/components/NordVpnCard";
 import { analyzeStreamingAccess } from "@/lib/streaming";
+import { shortPairName } from "@/lib/pair-name";
 import { RelatedDramas } from "@/components/RelatedDramas";
 import {
   JsonLd,
@@ -117,6 +118,22 @@ export default function DramaDetailPage({
   const year = full?.year ?? null;
   const episodes = full?.episodes ?? null;
   const ageRating = full?.age_rating ?? null;
+
+  // 放送中作品（watching.json）は year を持たないため、start_date / end_date から
+  // 「2026年4月24日〜6月12日」のような表示用文字列を組み立てる
+  const airingPeriod: string | null = (() => {
+    if (drama.status !== "airing") return null;
+    const sd = "start_date" in drama ? drama.start_date : null;
+    const ed = "end_date" in drama ? drama.end_date : null;
+    const fmt = (s: string) => {
+      const m = s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      if (!m) return s;
+      return `${m[1]}年${Number(m[2])}月${Number(m[3])}日`;
+    };
+    if (sd && ed) return `${fmt(sd)}〜${fmt(ed).replace(/^\d+年/, "")}`;
+    if (sd) return `${fmt(sd)}〜`;
+    return null;
+  })();
 
   const tagSections = full
     ? [
@@ -258,17 +275,17 @@ export default function DramaDetailPage({
               <p className="text-sm text-yuri-muted mb-2">{titleTh}</p>
             )}
             <p className="text-sm text-yuri-muted mb-4">
-              {year ?? upcoming?.announced_for ?? "公開時期 未定"}
+              {year ?? airingPeriod ?? upcoming?.announced_for ?? "公開時期 未定"}
               {drama.production && (
                 <>
                   <span className="mx-1">·</span>
                   {drama.production}
                 </>
               )}
-              {episodes && (
+              {displayEpisodes && (
                 <>
                   <span className="mx-1">·</span>
-                  {episodes}話
+                  {displayEpisodes}話
                 </>
               )}
             </p>
@@ -276,7 +293,9 @@ export default function DramaDetailPage({
             {drama.cast_pair && (
               <div className="text-sm">
                 <span className="text-yuri-muted">出演ペア: </span>
-                <strong className="text-yuri-ink font-semibold">{drama.cast_pair}</strong>
+                <strong className="text-yuri-ink font-semibold">
+                  {shortPairName(drama.cast_pair)}
+                </strong>
               </div>
             )}
           </div>

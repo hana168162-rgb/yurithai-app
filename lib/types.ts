@@ -151,6 +151,8 @@ export interface Actress {
 //  Events
 // =============================================
 export type EventCategory =
+  | "birthday"     // 女優の誕生日（actresses.json から自動生成）
+  | "broadcast"    // ドラマ放送・配信日（dramas/watching/upcoming から自動生成）
   | "fan-meeting"  // ファンミーティング
   | "concert"      // コンサート・ライブ
   | "premiere"     // プレミア・上映会

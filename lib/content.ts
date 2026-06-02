@@ -90,6 +90,8 @@ export const events = eventsData as unknown as GLEvent[];
 // =============================================
 
 export const EVENT_CATEGORY_LABELS: Record<string, string> = {
+  birthday: "誕生日",
+  broadcast: "放送・配信",
   "fan-meeting": "ファンミ",
   concert: "コンサート",
   premiere: "プレミア",
@@ -100,12 +102,155 @@ export const EVENT_CATEGORY_LABELS: Record<string, string> = {
 };
 
 /**
+ * カテゴリごとの色クラス（Tailwind tree-shake のためリテラルで列挙）。
+ * 背景・文字・ボーダーをひと組のセットで持つ。
+ */
+export const EVENT_CATEGORY_STYLES: Record<string, string> = {
+  birthday:
+    "bg-pink-100 text-pink-800 border border-pink-200",
+  broadcast:
+    "bg-sky-100 text-sky-800 border border-sky-200",
+  "fan-meeting":
+    "bg-rose-100 text-rose-800 border border-rose-200",
+  concert:
+    "bg-violet-100 text-violet-800 border border-violet-200",
+  premiere:
+    "bg-amber-100 text-amber-800 border border-amber-200",
+  press:
+    "bg-slate-100 text-slate-700 border border-slate-200",
+  release:
+    "bg-emerald-100 text-emerald-800 border border-emerald-200",
+  fashion:
+    "bg-fuchsia-100 text-fuchsia-800 border border-fuchsia-200",
+  other:
+    "bg-yuri-cream text-yuri-ink border border-yuri-edge",
+};
+
+/**
+ * 女優の birth_date から、今後1年分の誕生日イベントを自動生成。
+ * 同じ日に同じ女優の誕生日が重複しないよう、id にスラッグ + 年を含める。
+ */
+function generateBirthdayEvents(): GLEvent[] {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const horizon = new Date(today);
+  horizon.setFullYear(horizon.getFullYear() + 1);
+
+  const out: GLEvent[] = [];
+  for (const a of actresses) {
+    if (!a.birth_date) continue;
+    const m = a.birth_date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) continue;
+    const month = m[2];
+    const day = m[3];
+    const baseYear = today.getFullYear();
+    // 今年と来年、horizon の範囲内の誕生日を生成
+    for (const y of [baseYear, baseYear + 1]) {
+      const dateStr = `${y}-${month}-${day}`;
+      const d = new Date(dateStr);
+      if (Number.isNaN(d.getTime())) continue;
+      if (d < today || d > horizon) continue;
+      const age = y - Number(m[1]);
+      const displayName = a.name_en || a.name_ja || a.id;
+      out.push({
+        id: `birthday-${a.id}-${y}`,
+        title: `${displayName} 誕生日（${age}歳）`,
+        date: dateStr,
+        category: "birthday",
+        link: `/cast/${a.id}`,
+        description: `${displayName}（${a.real_name ?? a.name_ja ?? a.id}）の${age}歳の誕生日。`,
+      });
+    }
+  }
+  return out;
+}
+
+/**
+ * ドラマの start_date / end_date / announced_for から、放送・配信関連の
+ * イベントを自動生成。watching: 開始日 + 最終話、upcoming: 開始日のみ。
+ */
+function generateBroadcastEvents(): GLEvent[] {
+  const out: GLEvent[] = [];
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const horizon = new Date(today);
+  horizon.setFullYear(horizon.getFullYear() + 1);
+
+  const within = (s: string) => {
+    const d = new Date(s);
+    if (Number.isNaN(d.getTime())) return false;
+    return d >= today && d <= horizon;
+  };
+
+  // watching: start_date と end_date 両方
+  for (const w of watching) {
+    if (w.start_date && within(w.start_date)) {
+      out.push({
+        id: `broadcast-start-${w.slug}`,
+        title: `${w.title_ja} 放送開始`,
+        date: w.start_date,
+        category: "broadcast",
+        link: `/dramas/${w.slug}`,
+        pair: w.cast_pair ?? null,
+        description: w.production ? `制作: ${w.production}` : null,
+      });
+    }
+    if (w.end_date && within(w.end_date)) {
+      out.push({
+        id: `broadcast-end-${w.slug}`,
+        title: `${w.title_ja} 最終話`,
+        date: w.end_date,
+        category: "broadcast",
+        link: `/dramas/${w.slug}`,
+        pair: w.cast_pair ?? null,
+      });
+    }
+  }
+
+  // upcoming: announced_for が "YYYY年M月D日〜" の形式なら抽出
+  const dateRe = /(\d{4})年(\d{1,2})月(\d{1,2})日/;
+  for (const u of upcoming) {
+    const af = u.announced_for ?? "";
+    const m = af.match(dateRe);
+    if (!m) continue;
+    const dateStr = `${m[1]}-${String(m[2]).padStart(2, "0")}-${String(m[3]).padStart(2, "0")}`;
+    if (!within(dateStr)) continue;
+    out.push({
+      id: `broadcast-start-${u.slug}`,
+      title: `${u.title_ja} 放送開始`,
+      date: dateStr,
+      category: "broadcast",
+      link: `/dramas/${u.slug}`,
+      pair: u.cast_pair ?? null,
+      description: u.production ? `制作: ${u.production}` : null,
+    });
+  }
+
+  return out;
+}
+
+/**
+ * 静的 events.json + 自動生成（誕生日・放送）をマージした全イベント。
+ * id 重複は静的側を優先（手動で詳細を上書きできるように）。
+ */
+function buildMergedEvents(): GLEvent[] {
+  const auto = [...generateBirthdayEvents(), ...generateBroadcastEvents()];
+  const staticIds = new Set(events.map((e) => e.id));
+  return [...events, ...auto.filter((e) => !staticIds.has(e.id))];
+}
+
+export function getAllEvents(): GLEvent[] {
+  return buildMergedEvents();
+}
+
+/**
  * 未来イベント（本日以降）/ 過去イベントを分けて返す
+ * （誕生日・放送を含む全イベントを対象）
  */
 export function getUpcomingEvents(): GLEvent[] {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  return events
+  return buildMergedEvents()
     .filter((e) => new Date(e.date) >= today)
     .sort((a, b) => a.date.localeCompare(b.date));
 }
@@ -113,7 +258,7 @@ export function getUpcomingEvents(): GLEvent[] {
 export function getPastEvents(): GLEvent[] {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  return events
+  return buildMergedEvents()
     .filter((e) => new Date(e.date) < today)
     .sort((a, b) => b.date.localeCompare(a.date));
 }
@@ -122,15 +267,19 @@ export function getPastEvents(): GLEvent[] {
  * 全イベントから絞り込み用のオプションを抽出
  */
 export function getEventFilterOptions() {
+  const merged = buildMergedEvents();
   const pairs = new Set<string>();
   const agencies = new Set<string>();
-  for (const e of events) {
+  const categories = new Set<string>();
+  for (const e of merged) {
     if (e.pair) pairs.add(e.pair);
     if (e.agency) agencies.add(e.agency);
+    if (e.category) categories.add(e.category);
   }
   return {
     pairs: Array.from(pairs).sort(),
     agencies: Array.from(agencies).sort(),
+    categories: Array.from(categories).sort(),
   };
 }
 

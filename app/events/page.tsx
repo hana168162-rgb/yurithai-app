@@ -3,8 +3,9 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import {
-  events,
+  getAllEvents,
   EVENT_CATEGORY_LABELS,
+  EVENT_CATEGORY_STYLES,
   getEventFilterOptions,
 } from "@/lib/content";
 import type { GLEvent } from "@/lib/types";
@@ -28,8 +29,13 @@ function formatYearMonth(d: string): string {
 
 function CategoryBadge({ category }: { category: string }) {
   const label = EVENT_CATEGORY_LABELS[category] ?? category;
+  const style =
+    EVENT_CATEGORY_STYLES[category] ??
+    "bg-yuri-cream text-yuri-ink border border-yuri-edge";
   return (
-    <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-yuri-navy text-yuri-cream">
+    <span
+      className={`inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium ${style}`}
+    >
       {label}
     </span>
   );
@@ -52,14 +58,20 @@ function EventCard({ event }: { event: GLEvent }) {
       </div>
       <h3 className="text-sm font-medium text-yuri-ink mb-2">
         {event.link ? (
-          <a
-            href={event.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-yuri-rose"
-          >
-            {event.title} ↗
-          </a>
+          event.link.startsWith("/") ? (
+            <Link href={event.link} className="hover:text-yuri-rose">
+              {event.title} →
+            </Link>
+          ) : (
+            <a
+              href={event.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-yuri-rose"
+            >
+              {event.title} ↗
+            </a>
+          )
         ) : (
           event.title
         )}
@@ -115,18 +127,21 @@ function EventCard({ event }: { event: GLEvent }) {
 export default function EventsPage() {
   const [filterPair, setFilterPair] = useState<string>("");
   const [filterAgency, setFilterAgency] = useState<string>("");
+  const [filterCategory, setFilterCategory] = useState<string>("");
   const [showPast, setShowPast] = useState(false);
 
-  const { pairs: pairOptions, agencies: agencyOptions } = useMemo(
-    () => getEventFilterOptions(),
-    []
-  );
+  const allEvents = useMemo(() => getAllEvents(), []);
+  const {
+    pairs: pairOptions,
+    agencies: agencyOptions,
+    categories: categoryOptions,
+  } = useMemo(() => getEventFilterOptions(), []);
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
   const filtered = useMemo(() => {
-    return events
+    return allEvents
       .filter((e) => {
         const eventDate = new Date(e.date);
         const isPast = eventDate < today;
@@ -134,12 +149,13 @@ export default function EventsPage() {
         if (showPast && !isPast) return false;
         if (filterPair && e.pair !== filterPair) return false;
         if (filterAgency && e.agency !== filterAgency) return false;
+        if (filterCategory && e.category !== filterCategory) return false;
         return true;
       })
       .sort((a, b) =>
         showPast ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date)
       );
-  }, [filterPair, filterAgency, showPast, today]);
+  }, [allEvents, filterPair, filterAgency, filterCategory, showPast, today]);
 
   // 月別グルーピング
   const grouped = useMemo(() => {
@@ -159,7 +175,7 @@ export default function EventsPage() {
           イベントカレンダー
         </h1>
         <p className="text-sm text-yuri-muted">
-          タイGL関連のファンミーティング、コンサート、プレミア、リリースイベント情報
+          女優の誕生日、ドラマ放送日、ファンミーティング、コンサート、プレミア、リリースイベントなど
         </p>
       </header>
 
@@ -194,6 +210,22 @@ export default function EventsPage() {
         <div className="h-5 w-px bg-yuri-edge mx-1" />
 
         <label className="flex items-center gap-1.5 text-xs">
+          <span className="text-yuri-muted">種類:</span>
+          <select
+            value={filterCategory}
+            onChange={(e) => setFilterCategory(e.target.value)}
+            className="px-2 py-1 rounded border border-yuri-edge bg-yuri-surface text-yuri-ink"
+          >
+            <option value="">すべて</option>
+            {categoryOptions.map((c) => (
+              <option key={c} value={c}>
+                {EVENT_CATEGORY_LABELS[c] ?? c}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="flex items-center gap-1.5 text-xs">
           <span className="text-yuri-muted">ペア:</span>
           <select
             value={filterPair}
@@ -225,12 +257,13 @@ export default function EventsPage() {
           </select>
         </label>
 
-        {(filterPair || filterAgency) && (
+        {(filterPair || filterAgency || filterCategory) && (
           <button
             type="button"
             onClick={() => {
               setFilterPair("");
               setFilterAgency("");
+              setFilterCategory("");
             }}
             className="text-xs text-yuri-rose hover:underline"
           >

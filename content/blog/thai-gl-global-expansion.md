@@ -100,7 +100,7 @@ LMSYは、Cannes・Parisよりも**アジア市場の深耕**に注力する形�
 
 ### NamtanFilm の継続進化
 
-Pluto（2024）→ Girl Rules（2026・放送中）→ Her（2026予定）というキャリアの中で、
+Pluto（2024）→ Girl Rules（2026・完結）→ Her（2026予定）というキャリアの中で、
 **[NamtanFilm](/cast/namtan)** はラグジュアリー業界との関係を深化させています。
 
 - Polo Ralph Lauren との継続パートナーシップ

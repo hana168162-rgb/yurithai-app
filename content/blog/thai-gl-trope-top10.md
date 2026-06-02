@@ -55,7 +55,7 @@ cover_image: "/images/dramas/affair.jpg"
 
 ### 代表作
 - **[Affair](/dramas/affair)**（LMSY / 2024 / 8話）— お嬢様 × メイドの娘、13年ぶりの再会
-- **[The Secret of Us](/dramas/the-secret-of-us)**（LingOrm / 2024 / 10話）— 元恋人の女優 × 皮膚科医
+- **[The Secret of Us](/dramas/the-secret-of-us)**（LingOrm / 2024 / 8話）— 元恋人の女優 × 皮膚科医
 - **[Only You](/dramas/only-you)**（LingOrm / 2025）— 8年ぶりに再会する元同級生
 
 ### こんな気分のときに

@@ -88,7 +88,7 @@ Film の演技は **「静けさの圧」**。
 
 ## 2026年 — 続く快進撃
 
-### Girl Rules（放送中）
+### Girl Rules（2026/3/9〜6/1 完結）
 GMMTV × Moongdoo Production の話題作。
 **Namtan = Prim、Film = Bambi** として、
 MilkLove / ViewMim と並ぶ3組共演アンサンブルで再共演。

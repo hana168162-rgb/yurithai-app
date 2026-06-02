@@ -47,7 +47,7 @@ GMMTV 初の本格GL。高校生 Ongsa と Sun の青春。
 双子姉妹と盲目の女性が紡ぐ、抒情的な物語。
 **「演技で泣かせるタイドラマ」が好きな人**へ。
 
-**4. [The Secret of Us](/dramas/the-secret-of-us)**（LingOrm / 2024 / 10話）
+**4. [The Secret of Us](/dramas/the-secret-of-us)**（LingOrm / 2024 / 8話）
 女優 Earn と皮膚科医 Fahlada の元恋人メロドラマ。
 **大人の切ない再会もの**。
 

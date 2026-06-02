@@ -138,7 +138,7 @@ IMDb 7.5。23.5のファンが「あの頃のMilkLoveがまた観られる」と
 
 | 作品 | 状態 | 主演ペア | 制作 |
 |---|---|---|---|
-| **[Girl Rules](/dramas/girl-rules)** | 放送中 | NamtanFilm × MilkLove × ViewMim（3組共演） | GMMTV × Moongdoo Production |
+| **[Girl Rules](/dramas/girl-rules)** | 完結（2026/3/9〜6/1）| NamtanFilm × MilkLove × ViewMim（3組共演） | GMMTV × Moongdoo Production |
 | **[Enemies with Benefits](/dramas/enemies-with-benefits)** | 放送中 | Jan × JingJing（JanJingJing） | GMMTV × Snap25 |
 | **[Bake Love Feeling](/dramas/bake-love-feeling)** | 公開予定 | ViewMim | GMMTV |
 | **[Ditto](/dramas/ditto)** | 公開予定 | MilkLove | GMMTV |
@@ -153,7 +153,7 @@ IMDb 7.5。23.5のファンが「あの頃のMilkLoveがまた観られる」と
 
 ### Girl Rules — 3組共演の象徴的プロジェクト
 
-特筆すべきは、放送中の **Girl Rules**。
+特筆すべきは、2026年3月から放送された **Girl Rules**（6/1 完結）。
 **NamtanFilm × MilkLove × ViewMim** という主要GLペア3組が同時主演するアンサンブル群像劇。
 広告・モデル・スタイリング業界を舞台に、友達グループの恋愛と仕事を描きます。
 
@@ -265,7 +265,7 @@ GMMTV GLが初めての方への**おすすめ視聴順**:
 2. **[23.5](/dramas/23-5)**（2024）— GMMTV GLの原点。校園GLの代表作。
 3. **[Pluto](/dramas/pluto)**（2024）— GMMTVが「演技で勝負できるGL」を示した名作。
 4. **[Whale Store xoxo](/dramas/whale-store-xoxo)**（2025）— MilkLoveがより大人になった姿。
-5. **[Girl Rules](/dramas/girl-rules)**（2026・放送中）— 3組共演の現在進行形のお祭り。
+5. **[Girl Rules](/dramas/girl-rules)**（2026・完結）— 3組共演のお祭り的アンサンブル。
 
 時間があれば、これらを **公開順に** 観ていくことで、
 **GMMTV GLが進化してきたプロセス** を体感できます。

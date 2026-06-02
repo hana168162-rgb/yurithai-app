@@ -30,7 +30,7 @@ GMMTV 所属。明るく親しみやすいキャラクターで、**Girl Rules**
 
 ---
 
-## デビュー作：Girl Rules（2026・放送中）
+## デビュー作：Girl Rules（2026・完結）
 
 **[Girl Rules](/dramas/girl-rules)** は、GMMTV × Moongdoo Production の話題作。
 **NamtanFilm × MilkLove × ViewMim** の**3組共演アンサンブル**として制作されました。

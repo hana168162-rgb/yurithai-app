@@ -189,7 +189,7 @@ GL主演として再デビューする——これは第3世代ならではの�
 - **View**（Benyapa "View" Jeenprasom、2002年生）
 - **Mim**（Panthita "Mim" Jencharoentham、2000年生）
 
-GMMTV所属の若手ペアで、[Girl Rules](/dramas/girl-rules)（2026・放送中）で
+GMMTV所属の若手ペアで、[Girl Rules](/dramas/girl-rules)（2026・完結）で
 **NamtanFilm × MilkLove と並ぶ3組共演**として華々しくデビュー。
 2026年内に**[Bake Love Feeling](/dramas/bake-love-feeling)**で初の単独主演予定。
 

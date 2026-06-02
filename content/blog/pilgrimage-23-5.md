@@ -146,7 +146,7 @@ After You・Greyhound Cafe・Inthanin Coffee など、
 
 23.5 の後、MilkLove は:
 - **Whale Store xoxo**（2025）— 大人っぽくなった再共演
-- **Girl Rules**（2026・放送中）— 3組共演アンサンブル
+- **Girl Rules**（2026・完結）— 3組共演アンサンブル
 - **Ditto**（2026・公開予定）— GMMTV 新作主演
 
 と、継続的に主演を獲得。**GMMTV の主要GLペア**として確固たる地位を築いています。

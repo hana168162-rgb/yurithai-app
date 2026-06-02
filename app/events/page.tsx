@@ -280,7 +280,7 @@ export default function EventsPage() {
       {/* イベント一覧 */}
       {filtered.length === 0 ? (
         <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-8 text-center text-sm text-yuri-muted">
-          {events.length === 0
+          {allEvents.length === 0
             ? "イベント情報を準備中です。"
             : "条件に合うイベントがありません。"}
         </div>

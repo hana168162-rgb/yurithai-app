@@ -76,6 +76,8 @@ Jane（Methika Jiranorraphat）はタイ・台湾系の女優。
 
 地上波らしい丁寧な作りで、**新鮮な設定**を楽しめます。
 
+> **2026年6月2日 追記**: Channel 3 公式アナウンスにより、TanYada はペアとしての活動を**双方合意のうえで終了**することが発表されました。俳優としての活動は二人ともそれぞれ継続します。詳細は [TanYada 活動終了発表まとめ](/blog/tanyada-end-announcement) を参照。
+
 [Play Park 詳細 →](/dramas/play-park)
 
 ---

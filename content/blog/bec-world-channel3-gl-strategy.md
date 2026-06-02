@@ -49,7 +49,7 @@ GMMTV や IDOLFACTORY が「**ドラマ専業の新興制作会社**」だとす
 | 2025 | [Only You](/dramas/only-you) | LingOrm | BEC World Original。Netflix 国際配信 |
 | 2025 | [Roller Coaster](/dramas/roller-coaster) | [ShellyPundao](/blog/shellypundao-feature) | Motion Minds × BEC World 共同制作。原作 reallyb |
 | 2025 | [My Safe Zone](/dramas/my-safe-zone) | [LenaMiu](/cast/lena) | BEC Studio。Channel 3 のセカンドGLカップル |
-| 2026 | [Play Park](/dramas/play-park) | TanYada | BEC World Originals。8話完結 |
+| 2026 | [Play Park](/dramas/play-park) | TanYada | BEC World Originals。8話完結（TanYada は[2026年6月2日にペア活動終了](/blog/tanyada-end-announcement)）|
 | 2026 | [Fulfill](/dramas/fulfill) | OomBam | BEC World Original。監督 Saratswadee Wongsomphet（再起用）|
 | 2026 | [In Love Forever](/dramas/in-love-forever) | LingOrm | BEC World Originals。原作 reallyb（再起用）。6/19 放送開始 |
 | 2026 | [PLS Love](/dramas/pls-love) | LenaMiu | BEC World Original。LenaMiu 再共演。Reverse 原作 |
@@ -73,6 +73,7 @@ LingOrm を「ラコーンの後継者」として育てている、と読むこ
 LingOrm 1組に頼り切らないのも、Channel 3 系の特徴です。
 **My Safe Zone** と **PLS Love** に同じ [LenaMiu](/cast/lena) を再起用しているのは、彼女たちを「Channel 3 の**セカンドGLカップル**」として育てる意図が明確。
 同じく **OomBam**（Fulfill）、**TanYada**（Play Park）、**ShellyPundao**（Roller Coaster）、**FayMay**（My Marvellous Dream is You）と、主演ペアの幅をどんどん広げています。
+（※ TanYada は 2026年6月2日に[ペア活動終了](/blog/tanyada-end-announcement)を Channel 3 が公式発表）
 
 GMMTV が[FreenBecky以外のサブCP戦略](/blog/sub-cp-promotion-phenomenon)を採るのと似た構造ですが、Channel 3 はそれを**地上波の枠**の中で実装している、というのが特徴です。
 

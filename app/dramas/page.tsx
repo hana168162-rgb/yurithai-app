@@ -6,6 +6,9 @@ import {
 import { DramaListNav } from "@/components/DramaListNav";
 import { DramaFilterBar } from "@/components/DramaFilterBar";
 
+// end_date を過ぎた作品を自動で完結一覧に流し込むため、1時間ごとに再生成
+export const revalidate = 3600;
+
 export const metadata = {
   title: "完結作品一覧（タイGLドラマ）",
   description:

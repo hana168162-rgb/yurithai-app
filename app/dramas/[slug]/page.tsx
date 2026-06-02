@@ -22,6 +22,9 @@ import { NordVpnCard } from "@/components/NordVpnCard";
 import { analyzeStreamingAccess } from "@/lib/streaming";
 import { shortPairName } from "@/lib/pair-name";
 import { RelatedDramas } from "@/components/RelatedDramas";
+
+// end_date を過ぎた作品を自動で「完結」表示にするため、1時間ごとに再生成
+export const revalidate = 3600;
 import {
   JsonLd,
   buildTVSeriesJsonLd,

@@ -2,6 +2,9 @@ import { getActiveWatching, actresses } from "@/lib/content";
 import { DramaListNav } from "@/components/DramaListNav";
 import { DramaFilterBar } from "@/components/DramaFilterBar";
 
+// end_date を過ぎた作品を自動完結扱いにするため、1時間ごとに再生成
+export const revalidate = 3600;
+
 export const metadata = {
   title: "現在放送中・配信中のタイGLドラマ一覧",
   description:

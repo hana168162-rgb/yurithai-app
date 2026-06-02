@@ -2,6 +2,9 @@ import { getUpcomingSortedByDate, actresses } from "@/lib/content";
 import { DramaListNav } from "@/components/DramaListNav";
 import { DramaFilterBar } from "@/components/DramaFilterBar";
 
+// 放送開始日が来た作品の取り扱いを反映するため、1時間ごとに再生成
+export const revalidate = 3600;
+
 export const metadata = {
   title: "公開予定のタイGLドラマ一覧",
   description:

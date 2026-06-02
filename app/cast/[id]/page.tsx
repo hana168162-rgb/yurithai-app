@@ -9,6 +9,9 @@ import {
 import { JsonLd, buildPersonJsonLd, buildBreadcrumbJsonLd } from "@/components/JsonLd";
 import { gradientForSlug, nationalityFlags, agencyBadgeStyle } from "@/lib/style";
 
+// 出演作品のステータスを最新化するため、1時間ごとに再生成
+export const revalidate = 3600;
+
 const SITE_URL = "https://yurithai.jp";
 
 export function generateStaticParams() {

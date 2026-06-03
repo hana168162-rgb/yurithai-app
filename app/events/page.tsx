@@ -21,6 +21,55 @@ function formatDate(d: string): string {
   return `${m}月${day}日（${weekday}）`;
 }
 
+// カテゴリ → 絵文字アイコン（ぱっと見の識別性を上げる）
+const CATEGORY_ICON: Record<string, string> = {
+  birthday: "🎂",
+  broadcast: "📺",
+  "fan-meeting": "🎤",
+  concert: "🎵",
+  premiere: "🎬",
+  press: "🗞",
+  release: "💿",
+  fashion: "👗",
+  other: "✦",
+};
+
+// カテゴリ → 左ボーダー色（at-a-glance スキャン用、Tailwind の literal class）
+const CATEGORY_BORDER: Record<string, string> = {
+  birthday: "border-l-pink-400",
+  broadcast: "border-l-sky-400",
+  "fan-meeting": "border-l-rose-400",
+  concert: "border-l-violet-400",
+  premiere: "border-l-amber-400",
+  press: "border-l-slate-400",
+  release: "border-l-emerald-400",
+  fashion: "border-l-fuchsia-400",
+  other: "border-l-yuri-edge",
+};
+
+// カテゴリ → 日付チップの背景色（控えめなトーン）
+const CATEGORY_CHIP: Record<string, string> = {
+  birthday: "bg-pink-50 text-pink-800",
+  broadcast: "bg-sky-50 text-sky-800",
+  "fan-meeting": "bg-rose-50 text-rose-800",
+  concert: "bg-violet-50 text-violet-800",
+  premiere: "bg-amber-50 text-amber-800",
+  press: "bg-slate-50 text-slate-800",
+  release: "bg-emerald-50 text-emerald-800",
+  fashion: "bg-fuchsia-50 text-fuchsia-800",
+  other: "bg-yuri-cream text-yuri-ink",
+};
+
+function dayParts(d: string): { day: string; weekday: string; month: string } {
+  const date = new Date(d);
+  if (Number.isNaN(date.getTime())) return { day: "—", weekday: "", month: "" };
+  return {
+    day: String(date.getDate()),
+    weekday: ["日", "月", "火", "水", "木", "金", "土"][date.getDay()],
+    month: `${date.getMonth() + 1}月`,
+  };
+}
+
 function formatYearMonth(d: string): string {
   const date = new Date(d);
   if (Number.isNaN(date.getTime())) return d;
@@ -42,84 +91,98 @@ function CategoryBadge({ category }: { category: string }) {
 }
 
 function EventCard({ event }: { event: GLEvent }) {
+  const icon = CATEGORY_ICON[event.category] ?? "✦";
+  const borderClass = CATEGORY_BORDER[event.category] ?? "border-l-yuri-edge";
+  const chipClass = CATEGORY_CHIP[event.category] ?? "bg-yuri-cream text-yuri-ink";
+  const d = dayParts(event.date);
+
+  const venueLine = [event.venue, event.city, event.country]
+    .filter(Boolean)
+    .join(" · ");
+
+  // タイトルラッパー（内部 / 外部リンク自動判別）
+  const titleEl =
+    event.link ? (
+      event.link.startsWith("/") ? (
+        <Link href={event.link} className="hover:text-yuri-rose">
+          {event.title}
+          <span aria-hidden className="ml-0.5 text-yuri-muted">→</span>
+        </Link>
+      ) : (
+        <a
+          href={event.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-yuri-rose"
+        >
+          {event.title}
+          <span aria-hidden className="ml-0.5 text-yuri-muted">↗</span>
+        </a>
+      )
+    ) : (
+      <span>{event.title}</span>
+    );
+
   return (
-    <article className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
-      <div className="flex items-baseline justify-between mb-2">
-        <p className="text-base font-medium text-yuri-navy">
-          {formatDate(event.date)}
-          {event.end_date && event.end_date !== event.date && (
-            <>
-              <span className="text-yuri-muted text-sm"> 〜 </span>
-              <span>{formatDate(event.end_date)}</span>
-            </>
-          )}
-        </p>
-        <CategoryBadge category={event.category} />
+    <article
+      className={`bg-yuri-surface border border-yuri-edge ${borderClass} border-l-[4px] rounded-lg flex overflow-hidden`}
+    >
+      {/* 日付チップ（縦並び：月 / 日 / 曜日） */}
+      <div
+        className={`shrink-0 w-16 sm:w-[72px] flex flex-col items-center justify-center py-3 px-2 ${chipClass}`}
+      >
+        <span className="text-[10px] font-medium opacity-75 leading-none">
+          {d.month}
+        </span>
+        <span className="text-2xl font-semibold leading-none mt-0.5">
+          {d.day}
+        </span>
+        <span className="text-[10px] opacity-75 leading-none mt-1">
+          {d.weekday}
+        </span>
       </div>
-      <h3 className="text-sm font-medium text-yuri-ink mb-2">
-        {event.link ? (
-          event.link.startsWith("/") ? (
-            <Link href={event.link} className="hover:text-yuri-rose">
-              {event.title} →
-            </Link>
-          ) : (
-            <a
-              href={event.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-yuri-rose"
-            >
-              {event.title} ↗
-            </a>
-          )
-        ) : (
-          event.title
-        )}
-      </h3>
 
-      <dl className="text-xs space-y-1 mb-2">
-        {event.time && (
-          <div className="flex">
-            <dt className="w-16 text-yuri-muted shrink-0">時刻</dt>
-            <dd className="text-yuri-ink">{event.time}</dd>
-          </div>
-        )}
-        {(event.venue || event.city) && (
-          <div className="flex">
-            <dt className="w-16 text-yuri-muted shrink-0">会場</dt>
-            <dd className="text-yuri-ink">
-              {[event.venue, event.city, event.country]
-                .filter(Boolean)
-                .join(" · ")}
-            </dd>
-          </div>
-        )}
-        {event.pair && (
-          <div className="flex">
-            <dt className="w-16 text-yuri-muted shrink-0">ペア</dt>
-            <dd>
-              <Link
-                href={`/cast`}
-                className="text-yuri-rose hover:underline"
-              >
-                {event.pair}
-              </Link>
-            </dd>
-          </div>
-        )}
-        {event.agency && (
-          <div className="flex">
-            <dt className="w-16 text-yuri-muted shrink-0">事務所</dt>
-            <dd className="text-yuri-ink">{event.agency}</dd>
-          </div>
-        )}
-      </dl>
+      {/* 本体 */}
+      <div className="flex-1 min-w-0 p-3 sm:p-4">
+        <div className="flex items-center gap-1.5 mb-1.5">
+          <span aria-hidden className="text-base leading-none">
+            {icon}
+          </span>
+          <CategoryBadge category={event.category} />
+          {event.end_date && event.end_date !== event.date && (
+            <span className="text-[11px] text-yuri-muted">
+              〜 {formatDate(event.end_date)}
+            </span>
+          )}
+        </div>
 
-      {event.description && (
-        <p className="text-xs text-yuri-ink/80 leading-relaxed">
-          {event.description}
-        </p>
-      )}
+        <h3 className="text-sm sm:text-base font-medium text-yuri-ink leading-snug">
+          {titleEl}
+        </h3>
+
+        {/* 詳細行：埋まっているフィールドだけインラインで表示 */}
+        {(event.time || venueLine || event.pair || event.agency) && (
+          <p className="mt-1.5 text-xs text-yuri-muted flex flex-wrap gap-x-2 gap-y-0.5">
+            {event.time && <span>🕒 {event.time}</span>}
+            {venueLine && <span>📍 {venueLine}</span>}
+            {event.pair && (
+              <span>
+                👯{" "}
+                <Link href="/cast" className="text-yuri-rose hover:underline">
+                  {event.pair}
+                </Link>
+              </span>
+            )}
+            {event.agency && <span>🏢 {event.agency}</span>}
+          </p>
+        )}
+
+        {event.description && (
+          <p className="mt-1.5 text-xs text-yuri-ink/75 leading-relaxed line-clamp-2">
+            {event.description}
+          </p>
+        )}
+      </div>
     </article>
   );
 }

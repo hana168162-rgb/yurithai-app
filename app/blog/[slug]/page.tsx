@@ -92,7 +92,7 @@ export default function BlogPostPage({
       <JsonLd data={breadcrumbJsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="text-xs text-yuri-muted mb-4">
+      <nav className="text-xs text-yuri-muted mb-4 break-words">
         <Link href="/" className="hover:text-yuri-rose">
           トップ
         </Link>
@@ -101,7 +101,7 @@ export default function BlogPostPage({
           ブログ
         </Link>
         <span className="mx-1.5">/</span>
-        <span className="truncate">{post.title}</span>
+        <span>{post.title}</span>
       </nav>
 
       <article>

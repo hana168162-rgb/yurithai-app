@@ -44,15 +44,23 @@ const config: Config = {
         },
       },
       fontFamily: {
+        // UI / カード / メタ情報のデフォルトゴシック
         sans: [
           "var(--font-plus-jakarta)",
           "var(--font-noto-sans-jp)",
           "system-ui",
           "sans-serif",
         ],
+        // ブログ本文用の明朝体（長文の可読性向上）
+        serif: [
+          "var(--font-noto-serif-jp)",
+          "ui-serif",
+          "Georgia",
+          "serif",
+        ],
+        // 見出し / 装飾用の丸ゴ
         display: [
-          "var(--font-quicksand)",
-          "M PLUS Rounded 1c",
+          "var(--font-zen-maru-gothic)",
           "var(--font-plus-jakarta)",
           "var(--font-noto-sans-jp)",
           "sans-serif",

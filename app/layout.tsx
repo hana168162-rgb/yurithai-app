@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import {
   Plus_Jakarta_Sans,
   Noto_Sans_JP,
-  Quicksand,
+  Noto_Serif_JP,
+  Zen_Maru_Gothic,
 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -25,6 +26,7 @@ const plusJakarta = Plus_Jakarta_Sans({
   preload: true,
 });
 
+// UI まわり（カード、ナビ、メタ情報など）の日本語標準ゴシック
 const notoSansJp = Noto_Sans_JP({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
@@ -33,11 +35,21 @@ const notoSansJp = Noto_Sans_JP({
   preload: false, // 日本語フォントは重いので preload は false
 });
 
-const quicksand = Quicksand({
+// ブログ本文用の明朝体（長文の可読性に優れた、上品な印象の日本語フォント）
+const notoSerifJp = Noto_Serif_JP({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "700"],
   display: "swap",
-  variable: "--font-quicksand",
+  variable: "--font-noto-serif-jp",
+  preload: false,
+});
+
+// 見出し用の丸ゴシック（やわらかく、現代の日本のブログ・雑誌で人気のスタイル）
+const zenMaruGothic = Zen_Maru_Gothic({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  display: "swap",
+  variable: "--font-zen-maru-gothic",
   preload: true,
 });
 
@@ -119,7 +131,7 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${plusJakarta.variable} ${notoSansJp.variable} ${quicksand.variable}`}
+      className={`${plusJakarta.variable} ${notoSansJp.variable} ${notoSerifJp.variable} ${zenMaruGothic.variable}`}
     >
       <head>
         {/* AdSenseクローラが <head> に直接設置された <script> を期待するため、

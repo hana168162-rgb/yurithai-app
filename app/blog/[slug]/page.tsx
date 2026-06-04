@@ -87,7 +87,7 @@ export default function BlogPostPage({
   ]);
 
   return (
-    <div className="mx-auto max-w-2xl px-6 py-10">
+    <div className="mx-auto max-w-[680px] px-5 md:px-6 py-10 md:py-14">
       <JsonLd data={articleJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
 
@@ -105,15 +105,15 @@ export default function BlogPostPage({
       </nav>
 
       <article>
-        <header className="mb-8">
-          <p className="text-xs text-yuri-muted mb-2">
+        <header className="mb-10 md:mb-12">
+          <p className="text-xs text-yuri-muted mb-3 tracking-wider">
             {formatDate(post.date)}
           </p>
-          <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink leading-tight mb-3">
+          <h1 className="text-[26px] md:text-[34px] font-display font-bold text-yuri-ink leading-[1.45] mb-4">
             {post.title}
           </h1>
           {post.description && (
-            <p className="text-sm text-yuri-ink/80 leading-relaxed mb-3">
+            <p className="text-[15px] md:text-base text-yuri-ink/80 leading-[1.9] mb-4">
               {post.description}
             </p>
           )}
@@ -122,7 +122,7 @@ export default function BlogPostPage({
               {post.tags.map((t) => (
                 <span
                   key={t}
-                  className="text-[10px] text-yuri-navy bg-yuri-pink/40 px-2 py-0.5 rounded-full"
+                  className="text-[11px] text-yuri-navy bg-yuri-pink/40 px-2.5 py-1 rounded-full"
                 >
                   #{t}
                 </span>
@@ -146,13 +146,13 @@ export default function BlogPostPage({
         )}
 
         <div
-          className="prose-yuri text-[15px] md:text-base leading-relaxed text-yuri-ink/90"
+          className="prose-yuri"
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: post.body_html }}
         />
       </article>
 
-      <hr className="my-10 border-yuri-edge" />
+      <hr className="my-14 border-yuri-edge" />
 
       <BlogReadNext posts={relatedPosts} />
     </div>

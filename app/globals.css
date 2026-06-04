@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* next/font (layout.tsx で読み込み済み) のCSS変数を使う */
+/* next/font (layout.tsx で読み込み済み) のCSS変数を使う
+   - --font-plus-jakarta : Latin（数字・英字）
+   - --font-noto-sans-jp : UI 全般・カード・メタ情報
+   - --font-noto-serif-jp: ブログ本文（明朝・長文向け）
+   - --font-zen-maru-gothic: 見出し（丸ゴ・やわらかさ） */
 
 :root {
   --color-cream: #faf6ee;
@@ -16,8 +20,6 @@ body {
   background-color: var(--color-cream);
   color: var(--color-ink);
   font-feature-settings: "palt";
-  /* overflow-x: clip は overflow-x: hidden と違って position: sticky を壊さない。
-     ドロワーや一部のレイアウトが横方向にはみ出してもドキュメント幅を広げない用。 */
   overflow-x: clip;
 }
 
@@ -32,9 +34,9 @@ h2,
 h3,
 .font-display {
   font-family:
-    var(--font-quicksand), "M PLUS Rounded 1c", var(--font-plus-jakarta),
+    var(--font-zen-maru-gothic), var(--font-plus-jakarta),
     var(--font-noto-sans-jp), sans-serif;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.005em;
 }
 
 a {
@@ -42,85 +44,202 @@ a {
   text-decoration: none;
 }
 
-/* ブログ記事本文用スタイル（marked からのHTML出力に適用） */
+/* =========================================================
+   ブログ記事本文用スタイル（.prose-yuri）
+   読みやすさ最優先の設計：
+   - 明朝体（Noto Serif JP）で長文を読み流しやすく
+   - 行間・段落余白をたっぷり取る
+   - 文字サイズはモバイル 16px / デスクトップ 17px
+   - 見出しの前後にしっかり余白
+   - 段落間の呼吸感（margin）を広めに
+   ========================================================= */
+
+.prose-yuri {
+  font-family:
+    var(--font-noto-serif-jp), ui-serif, Georgia, "Hiragino Mincho ProN",
+    "Yu Mincho", serif;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.015em;
+  color: var(--color-ink);
+  font-feature-settings: "palt";
+}
+
+@media (min-width: 768px) {
+  .prose-yuri {
+    font-size: 17px;
+    line-height: 2.05;
+  }
+}
+
+/* 段落 — 呼吸感を持たせる */
+.prose-yuri p {
+  margin: 1.4em 0;
+  line-height: inherit;
+}
+
+/* H2 — 大きな章立て。前にしっかり余白を取り、装飾線とアクセント記号で
+   長文ブログのリズムを作る */
 .prose-yuri h2 {
   font-family:
-    var(--font-quicksand), "M PLUS Rounded 1c", var(--font-plus-jakarta),
+    var(--font-zen-maru-gothic), var(--font-plus-jakarta),
     var(--font-noto-sans-jp), sans-serif;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
   color: var(--color-navy);
-  margin-top: 2.5rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.35rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #e6dfd0;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
 }
-/* H2 の前に薄いゴールドのアクセント記号を入れて、長文ブログを読みやすく */
 .prose-yuri h2::before {
   content: "✦ ";
   color: var(--color-rose);
   margin-right: 0.2em;
-  opacity: 0.7;
+  opacity: 0.8;
 }
+
+@media (min-width: 768px) {
+  .prose-yuri h2 {
+    font-size: 1.55rem;
+  }
+}
+
+/* H3 — 小見出し */
 .prose-yuri h3 {
   font-family:
-    var(--font-quicksand), "M PLUS Rounded 1c", var(--font-plus-jakarta),
+    var(--font-zen-maru-gothic), var(--font-plus-jakarta),
     var(--font-noto-sans-jp), sans-serif;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.15rem;
+  font-weight: 700;
   color: var(--color-navy);
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
 }
 .prose-yuri h3::before {
   content: "❀ ";
   color: var(--color-rose);
   margin-right: 0.15em;
-  opacity: 0.6;
+  opacity: 0.7;
   font-size: 0.9em;
 }
-.prose-yuri p {
-  margin: 0.85rem 0;
-  line-height: 1.85;
+
+@media (min-width: 768px) {
+  .prose-yuri h3 {
+    font-size: 1.25rem;
+  }
 }
+
+/* リスト — 余白と行間に余裕を持たせる */
 .prose-yuri ul {
   list-style: disc;
-  padding-left: 1.3em;
-  margin: 0.85rem 0;
+  padding-left: 1.4em;
+  margin: 1.3em 0;
 }
 .prose-yuri ol {
   list-style: decimal;
-  padding-left: 1.3em;
-  margin: 0.85rem 0;
+  padding-left: 1.4em;
+  margin: 1.3em 0;
 }
 .prose-yuri li {
-  margin: 0.3rem 0;
-  line-height: 1.7;
+  margin: 0.5em 0;
+  line-height: 1.9;
 }
+.prose-yuri li > ul,
+.prose-yuri li > ol {
+  margin: 0.5em 0;
+}
+
+/* リンク — 控えめだが目立つ下線 */
 .prose-yuri a {
   color: var(--color-rose);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   font-weight: 500;
 }
+.prose-yuri a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* 強調 */
 .prose-yuri strong {
   color: var(--color-navy);
-  font-weight: 600;
+  font-weight: 700;
+  /* 明朝で強調は太字だけだと弱いので、わずかにトラッキング詰めて密度を上げる */
+  letter-spacing: 0;
 }
+
+/* セクション区切り — 余白をたっぷり */
 .prose-yuri hr {
   border: none;
   border-top: 1px solid #e6dfd0;
-  margin: 2rem 0;
+  margin: 3rem auto;
+  width: 60%;
 }
+
+/* 引用 */
 .prose-yuri blockquote {
   border-left: 3px solid var(--color-rose);
-  padding-left: 1rem;
-  margin: 1rem 0;
-  color: rgba(42, 37, 72, 0.75);
-  font-style: italic;
+  padding: 0.4rem 0 0.4rem 1.2rem;
+  margin: 1.5rem 0;
+  color: rgba(42, 37, 72, 0.8);
+  font-style: normal;
+  background: rgba(196, 112, 140, 0.04);
+  border-radius: 0 4px 4px 0;
 }
+.prose-yuri blockquote p {
+  margin: 0.5em 0;
+}
+
+/* コード（短いインライン） */
 .prose-yuri code {
   background: #f3eee1;
-  padding: 0.1em 0.35em;
-  border-radius: 3px;
-  font-size: 0.85em;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.88em;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, monospace;
+}
+
+/* テーブル — 横長テーブルが多いブログなので、しっかり整える */
+.prose-yuri table {
+  width: 100%;
+  margin: 1.8em 0;
+  border-collapse: collapse;
+  font-size: 0.95em;
+  line-height: 1.7;
+  /* 明朝だとテーブル内が読みにくいので、ここだけゴシックに戻す */
+  font-family:
+    var(--font-noto-sans-jp), var(--font-plus-jakarta), sans-serif;
+}
+.prose-yuri thead {
+  background: rgba(196, 112, 140, 0.08);
+}
+.prose-yuri th {
+  text-align: left;
+  padding: 0.7em 0.9em;
+  font-weight: 600;
+  color: var(--color-navy);
+  border-bottom: 2px solid #e6dfd0;
+  letter-spacing: 0.02em;
+}
+.prose-yuri td {
+  padding: 0.7em 0.9em;
+  border-bottom: 1px solid #f0e8d8;
+  vertical-align: top;
+}
+.prose-yuri tbody tr:hover {
+  background: rgba(196, 112, 140, 0.03);
+}
+
+/* 画像 */
+.prose-yuri img {
+  border-radius: 8px;
+  margin: 1.5em auto;
+  max-width: 100%;
+  height: auto;
 }

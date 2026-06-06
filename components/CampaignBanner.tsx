@@ -14,6 +14,13 @@ type Banner = {
   bg: string; // tailwind gradient classes, e.g. "from-yuri-rose to-yuri-pink"
   fg: string; // tailwind text color class
   icon?: string;
+  /**
+   * 外部リンク（アフィリエイト等）かを明示。
+   * true の場合: <a target="_blank" rel="sponsored noopener noreferrer"> でレンダリング
+   * 未指定/false の場合: 内部リンクとして <Link> でレンダリング
+   * （href が "http..." で始まる場合は自動的に外部扱い）
+   */
+  external?: boolean;
 };
 
 const banners = bannersData as Banner[];
@@ -142,40 +149,71 @@ export function CampaignBanner() {
           onPointerUp={onPointerUp}
           onPointerCancel={onPointerUp}
         >
-          {banners.map((b) => (
-            <Link
-              key={b.id}
-              href={b.href}
-              draggable={false}
-              onClick={(e) => {
-                // スワイプ（>= SWIPE_THRESHOLD px のドラッグ）の直後だけクリックを抑制。
-                // 通常のクリック（数px未満の微小なマウス移動）は素通しでナビゲートさせる。
-                if (wasSwiped.current) {
-                  e.preventDefault();
-                  wasSwiped.current = false;
-                }
-              }}
-              className={`shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-3.5 md:py-5 flex items-center gap-3.5 md:gap-4 cursor-pointer hover:opacity-95`}
-            >
-              {b.icon && (
-                <div className="text-2xl md:text-3xl shrink-0" aria-hidden>
-                  {b.icon}
+          {banners.map((b) => {
+            const isExternal =
+              b.external === true || /^https?:\/\//i.test(b.href);
+            const onClickGuard = (
+              e: React.MouseEvent<HTMLAnchorElement>,
+            ) => {
+              // スワイプ（>= SWIPE_THRESHOLD px のドラッグ）の直後だけクリックを抑制。
+              // 通常のクリック（数px未満の微小なマウス移動）は素通しでナビゲートさせる。
+              if (wasSwiped.current) {
+                e.preventDefault();
+                wasSwiped.current = false;
+              }
+            };
+            const linkClassName = `shrink-0 w-full bg-gradient-to-r ${b.bg} ${b.fg} px-5 md:px-7 py-3.5 md:py-5 flex items-center gap-3.5 md:gap-4 cursor-pointer hover:opacity-95`;
+            const inner = (
+              <>
+                {b.icon && (
+                  <div className="text-2xl md:text-3xl shrink-0" aria-hidden>
+                    {b.icon}
+                  </div>
+                )}
+                <div className="min-w-0 flex-1">
+                  <div className="text-[15px] md:text-lg font-semibold leading-snug truncate">
+                    {b.title}
+                  </div>
+                  <div className="text-[12px] md:text-sm opacity-90 leading-snug truncate">
+                    {b.subtitle}
+                  </div>
                 </div>
-              )}
-              <div className="min-w-0 flex-1">
-                <div className="text-[15px] md:text-lg font-semibold leading-snug truncate">
-                  {b.title}
+                <div className="hidden sm:flex items-center gap-1 text-xs md:text-sm opacity-90 shrink-0">
+                  {b.cta}
+                  <span aria-hidden>{isExternal ? "↗" : "→"}</span>
                 </div>
-                <div className="text-[12px] md:text-sm opacity-90 leading-snug truncate">
-                  {b.subtitle}
-                </div>
-              </div>
-              <div className="hidden sm:flex items-center gap-1 text-xs md:text-sm opacity-90 shrink-0">
-                {b.cta}
-                <span aria-hidden>→</span>
-              </div>
-            </Link>
-          ))}
+              </>
+            );
+
+            // 外部リンク（アフィリエイト含む）は <a target="_blank" rel="sponsored noopener noreferrer">
+            // で別タブ展開。rel="sponsored" は Google Ads ガイドライン準拠で必須。
+            if (isExternal) {
+              return (
+                <a
+                  key={b.id}
+                  href={b.href}
+                  draggable={false}
+                  onClick={onClickGuard}
+                  target="_blank"
+                  rel="sponsored noopener noreferrer"
+                  className={linkClassName}
+                >
+                  {inner}
+                </a>
+              );
+            }
+            return (
+              <Link
+                key={b.id}
+                href={b.href}
+                draggable={false}
+                onClick={onClickGuard}
+                className={linkClassName}
+              >
+                {inner}
+              </Link>
+            );
+          })}
         </div>
 
         {/* 左右矢印（PC・タブレット表示） */}

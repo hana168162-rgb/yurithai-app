@@ -1,13 +1,13 @@
 [
   {
-    "id": "recommend",
-    "title": "5問で、あなたに合う1作を",
-    "subtitle": "おすすめ診断、精度UP版を公開しました",
-    "cta": "診断する",
-    "href": "/recommend",
-    "bg": "from-yuri-gold to-yuri-pink",
+    "id": "blog-milklove",
+    "title": "新ブログ：MilkLove 完全ガイド",
+    "subtitle": "InkPa から 23.5、YSL アンバサダーまでの歩み",
+    "cta": "読む",
+    "href": "/blog/milklove-feature",
+    "bg": "from-yuri-pink to-yuri-lilac",
     "fg": "text-yuri-ink",
-    "icon": "✨"
+    "icon": "🌟"
   },
   {
     "id": "upcoming-spotlight",
@@ -20,14 +20,15 @@
     "icon": "🌙"
   },
   {
-    "id": "blog-gap-guide",
-    "title": "新ブログ：GAP 完全解説",
-    "subtitle": "タイGLの原点はなぜ世界的ヒットになったのか",
-    "cta": "読む",
-    "href": "/blog/gap-complete-guide",
-    "bg": "from-yuri-pink to-yuri-lilac",
+    "id": "tripcom-bangkok",
+    "title": "推しに会いに、バンコクへ ✈",
+    "subtitle": "航空券＋ホテルを Trip.com で検索｜PR",
+    "cta": "Trip.com で見る",
+    "href": "https://jp.trip.com/?Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=D17647184",
+    "external": true,
+    "bg": "from-yuri-teal to-yuri-pink",
     "fg": "text-yuri-ink",
-    "icon": "📖"
+    "icon": "✈"
   },
   {
     "id": "blog-streaming",
@@ -38,35 +39,5 @@
     "bg": "from-yuri-lilac to-yuri-teal",
     "fg": "text-yuri-ink",
     "icon": "📺"
-  },
-  {
-    "id": "blog-4-elements",
-    "title": "新ブログ：4 Elements シリーズ完全ガイド",
-    "subtitle": "The Earth / Water / Air / Fire の世界観と相関図",
-    "cta": "読む",
-    "href": "/blog/4-elements-series-guide",
-    "bg": "from-yuri-rose to-yuri-pink",
-    "fg": "text-yuri-cream",
-    "icon": "🔥"
-  },
-  {
-    "id": "tripcom-bangkok",
-    "title": "推しに会いに、バンコクへ ✈",
-    "subtitle": "東京〜バンコク 航空券＋ホテル｜PR",
-    "cta": "Trip.com で見る",
-    "href": "/guide/travel-to-thailand",
-    "bg": "from-yuri-teal to-yuri-pink",
-    "fg": "text-yuri-ink",
-    "icon": "✈"
-  },
-  {
-    "id": "sponsor",
-    "title": "スポンサー・タイアップ募集中",
-    "subtitle": "タイGLファンに届く、日本語特化メディア",
-    "cta": "お問い合わせ",
-    "href": "/contact?topic=sponsor",
-    "bg": "from-yuri-navy to-yuri-lilac",
-    "fg": "text-yuri-cream",
-    "icon": "✦"
   }
 ]

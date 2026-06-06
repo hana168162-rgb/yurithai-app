@@ -48,15 +48,27 @@ export function generateMetadata({
   params: { slug: string };
 }): Metadata {
   const drama = getAnyDramaBySlug(params.slug);
-  if (!drama) return { title: "作品が見つかりません | YuriThai" };
+  if (!drama)
+    return { title: "作品が見つかりません ｜ YuriThai（ユリタイ）" };
 
   const full = "tags" in drama && "review" in drama ? (drama as Drama) : null;
   const titleTh = "title_th" in drama ? drama.title_th : null;
 
-  const title = `${drama.title_ja}（${drama.title_en}）| YuriThai`;
-  const description = full?.synopsis
-    ? full.synopsis.slice(0, 150)
-    : `タイGLドラマ「${drama.title_ja}」の作品情報、出演ペア、配信先、レビュー、関連動画を日本語でまとめたガイド。${drama.cast_pair ? `主演: ${drama.cast_pair}` : ""}`;
+  // SEO: タイトルに「タイGL」を前置きしてジャンル検索からの流入を狙う。
+  // 例: "タイGLドラマ Pluto（Pluto）｜配信先・キャスト・レビュー｜YuriThai（ユリタイ）"
+  const title = `タイGLドラマ ${drama.title_ja}（${drama.title_en}）｜配信先・キャスト・レビュー ｜ YuriThai（ユリタイ）`;
+
+  // description は冒頭で「タイGL」とブランド名を再露出させたうえで、
+  // synopsis があればそれを後置し、最後にメタ情報（主演ペア）を必ず添える。
+  const synopsisSnippet = full?.synopsis ? full.synopsis.slice(0, 110) : "";
+  const castSuffix = drama.cast_pair ? `主演: ${drama.cast_pair}。` : "";
+  const description =
+    `タイGLドラマ「${drama.title_ja}」${
+      drama.title_en ? `（${drama.title_en}）` : ""
+    }の作品情報・あらすじ・配信先・出演ペア・レビューを日本語で。${castSuffix}${synopsisSnippet}`.slice(
+      0,
+      300,
+    );
 
   const url = `${SITE_URL}/dramas/${drama.slug}`;
   // 動的OG画像（Edge生成） — 各作品ごとに固有のブランドカード
@@ -67,26 +79,32 @@ export function generateMetadata({
     description,
     keywords: [
       "タイGL",
+      "タイGLドラマ",
+      "タイ百合",
+      "タイ百合ドラマ",
       "タイドラマ",
       drama.title_ja,
       drama.title_en,
       ...(titleTh ? [titleTh] : []),
+      ...(drama.cast_pair ? [drama.cast_pair] : []),
       ...(drama.production ? [drama.production] : []),
       "百合",
+      "YuriThai",
+      "ユリタイ",
     ],
     alternates: { canonical: url },
     openGraph: {
-      title: `${drama.title_ja}（${drama.title_en}）`,
+      title: `タイGLドラマ ${drama.title_ja}（${drama.title_en}）｜YuriThai（ユリタイ）`,
       description,
       url,
-      siteName: "YuriThai",
+      siteName: "YuriThai（ユリタイ）",
       images: [{ url: image, width: 1200, height: 630, alt: drama.title_ja }],
       locale: "ja_JP",
       type: "article",
     },
     twitter: {
       card: "summary_large_image",
-      title: drama.title_ja,
+      title: `タイGLドラマ ${drama.title_ja}｜YuriThai`,
       description,
       images: [image],
     },
@@ -271,6 +289,18 @@ export default function DramaDetailPage({
             </div>
           </div>
           <div className="flex-1 min-w-0">
+            {/* SEO: h1 直上に「タイGLドラマ」のラベルを小さく表示する。
+                視覚的にはコンテキストを示すだけだが、
+                検索結果のスニペット・H1 のクロール時にジャンル語と作品名が
+                同じセクションに含まれる点で SEO シグナルとして効く。 */}
+            <p className="text-[11px] tracking-wider text-yuri-muted mb-1">
+              <Link
+                href="/dramas"
+                className="hover:text-yuri-rose uppercase"
+              >
+                タイGLドラマ
+              </Link>
+            </p>
             <h1 className="text-xl sm:text-2xl md:text-3xl font-display font-semibold text-yuri-ink mb-1">
               {drama.title_ja}
             </h1>

@@ -122,25 +122,70 @@ export function buildBreadcrumbJsonLd(
 
 /**
  * WebSite Schema（トップページ用）
- * alternateName を配列にして「ユリタイ」「ゆりたい」の両表記を
- * 検索エンジンに伝える（カタカナ・ひらがな検索からの流入対策）。
+ * - alternateName で「ユリタイ」「ゆりたい」「タイGL情報サイト」を併記
+ * - potentialAction（SearchAction）で Google のサイトリンク検索ボックス対応
+ * - publisher を Organization として明示
  */
 export function buildWebSiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "YuriThai",
-    alternateName: ["ユリタイ", "ゆりたい", "YuriThai（ユリタイ）"],
+    name: "YuriThai（ユリタイ）",
+    alternateName: [
+      "ユリタイ",
+      "ゆりたい",
+      "YuriThai",
+      "タイGL情報サイト",
+      "タイGLドラマガイド",
+    ],
     url: SITE_URL,
     description:
-      "日本人のためのタイGLドラマ情報プラットフォーム。レビュー・配信先・女優情報を日本語で。",
+      "YuriThai（ユリタイ）は、タイGL（タイ百合ドラマ）を日本語でまとめた情報サイト。タイGLの作品レビュー・配信先・女優・ペア・診断・聖地巡礼を網羅。",
     inLanguage: "ja",
     publisher: {
       "@type": "Organization",
+      "@id": `${SITE_URL}#organization`,
       name: "YuriThai",
       alternateName: ["ユリタイ", "ゆりたい"],
       url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/og-default.png`,
+      },
     },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+/**
+ * Organization Schema
+ * 「ユリタイ」「ゆりたい」のブランド名表記ゆれを検索エンジンに正確に伝える。
+ * Knowledge Graph に運営エンティティとして登録されることを狙う。
+ */
+export function buildOrganizationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE_URL}#organization`,
+    name: "YuriThai",
+    alternateName: ["ユリタイ", "ゆりたい", "YuriThai（ユリタイ）"],
+    url: SITE_URL,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/og-default.png`,
+      width: 1200,
+      height: 630,
+    },
+    description:
+      "タイGL（タイ百合ドラマ）を日本語でまとめた情報メディア「YuriThai（ユリタイ）」の運営組織。",
+    sameAs: [],
   };
 }
 

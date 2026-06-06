@@ -6,14 +6,30 @@ import { DramaFilterBar } from "@/components/DramaFilterBar";
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "公開予定のタイGLドラマ一覧",
+  title: "公開予定のタイGLドラマ一覧｜2026年以降の新作ラインナップ",
   description:
-    "2026年以降に放送・配信予定のタイGLドラマ最新ラインナップ。Cranium、Moonshadow、Her、Ditto、Love's Echoes、Wish upon a star など主要ペアの新作情報を日本語で。",
+    "2026年以降に放送・配信予定のタイGL（タイ百合）ドラマ最新ラインナップを網羅。Cranium、Moonshadow、Her、Ditto、Love's Echoes、Wish upon a star、The Fire、Third Person など主要ペアの新作情報を日本語で。",
+  keywords: [
+    "タイGL",
+    "タイGLドラマ",
+    "タイGL 公開予定",
+    "タイGL 新作",
+    "タイGL 2026",
+    "タイ百合 新作",
+    "Cranium",
+    "Her",
+    "Ditto",
+    "Moonshadow",
+    "The Fire",
+    "YuriThai",
+    "ユリタイ",
+  ],
   alternates: { canonical: "https://yurithai.jp/dramas/upcoming" },
   openGraph: {
-    title: "公開予定のタイGLドラマ一覧 | YuriThai",
+    title: "公開予定のタイGLドラマ ｜ YuriThai（ユリタイ）",
     url: "https://yurithai.jp/dramas/upcoming",
     type: "website",
+    siteName: "YuriThai（ユリタイ）",
   },
 };
 
@@ -25,8 +41,11 @@ export default function UpcomingPage() {
     <div className="mx-auto max-w-6xl px-4 md:px-6 py-8 md:py-10">
       <header className="mb-6">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-          公開予定
+          公開予定のタイGLドラマ
         </h1>
+        <p className="text-sm text-yuri-muted mt-1">
+          2026年以降に放送・配信予定のタイ百合ドラマ新作ラインナップ
+        </p>
       </header>
 
       <DramaListNav current="upcoming" />

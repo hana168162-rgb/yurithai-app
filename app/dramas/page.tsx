@@ -10,14 +10,31 @@ import { DramaFilterBar } from "@/components/DramaFilterBar";
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "完結作品一覧（タイGLドラマ）",
+  title: "タイGLドラマ完結作品一覧｜23作品の配信先・レビュー",
   description:
-    "完結したタイGLドラマを一覧で。GAP / The Loyal Pin / Pluto / 23.5 / The Secret of Us / Affair / Mate / Love Design / Harmony Secret / My Safe Zone など23作品の作品情報・配信先・レビュー・出演ペアを日本語で。",
+    "完結したタイGLドラマを一覧で網羅。GAP / The Loyal Pin / Pluto / 23.5 / The Secret of Us / Affair / Mate / Love Design / Harmony Secret / My Safe Zone など23作品の作品情報・配信先・レビュー・出演ペアを日本語で。タイGL初心者から既存ファンまで使えるタイ百合ドラマのリファレンス。",
+  keywords: [
+    "タイGL",
+    "タイGLドラマ",
+    "タイGL 一覧",
+    "タイGL 完結",
+    "タイ百合",
+    "タイ百合ドラマ",
+    "GAP",
+    "Pluto",
+    "23.5",
+    "The Loyal Pin",
+    "Affair",
+    "YuriThai",
+    "ユリタイ",
+  ],
   alternates: { canonical: "https://yurithai.jp/dramas" },
   openGraph: {
-    title: "完結作品一覧（タイGLドラマ） | YuriThai",
+    title:
+      "タイGLドラマ完結作品一覧 ｜ YuriThai（ユリタイ）",
     url: "https://yurithai.jp/dramas",
     type: "website",
+    siteName: "YuriThai（ユリタイ）",
   },
 };
 
@@ -32,8 +49,11 @@ export default function DramasPage() {
     <div className="mx-auto max-w-6xl px-4 md:px-6 py-8 md:py-10">
       <header className="mb-6">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-          完結作品
+          タイGLドラマ完結作品
         </h1>
+        <p className="text-sm text-yuri-muted mt-1">
+          タイで制作された百合ドラマの完結作品23本を一覧で
+        </p>
       </header>
 
       <DramaListNav current="completed" />

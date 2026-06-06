@@ -37,26 +37,49 @@ export function generateMetadata({
   const dramas = getDramasByTag(tag);
 
   if (dramas.length === 0) {
-    return { title: `「${tag}」のタイGLドラマ` };
+    return {
+      title: `「${tag}」のタイGLドラマ ｜ YuriThai（ユリタイ）`,
+    };
   }
 
   const categoryLabel = cat ? TAG_CATEGORY_LABELS[cat] : "";
-  const title = `「${tag}」のタイGLドラマ一覧（${dramas.length}作品）`;
-  const description = `${categoryLabel ? `[${categoryLabel}] ` : ""}「${tag}」タグのタイGLドラマ全${dramas.length}作品を一覧で。${dramas.slice(0, 5).map((d) => d.title_ja).join(" / ")}${dramas.length > 5 ? " など" : ""}を日本語で紹介。`;
+
+  // SEO: タグ + 「タイGL」 を前置きで明示。例:
+  // "タイGL × 三角関係（関係性）— ドラマ8作品一覧 ｜ YuriThai（ユリタイ）"
+  const title = `タイGL × ${tag}${
+    categoryLabel ? `（${categoryLabel}）` : ""
+  } — ドラマ${dramas.length}作品一覧 ｜ YuriThai（ユリタイ）`;
+  const description =
+    `タイGLドラマの中から${categoryLabel ? `[${categoryLabel}] ` : ""}「${tag}」タグに該当する全${dramas.length}作品を一覧で。${dramas
+      .slice(0, 5)
+      .map((d) => d.title_ja)
+      .join(" / ")}${dramas.length > 5 ? " など" : ""}を日本語で紹介。タイGLを「${tag}」軸で探したい方向け。`.slice(
+      0,
+      300,
+    );
 
   return {
     title,
     description,
-    keywords: ["タイGL", "タイドラマ", tag, categoryLabel, "百合"].filter(
-      Boolean
-    ),
+    keywords: [
+      "タイGL",
+      "タイGLドラマ",
+      "タイ百合",
+      "タイドラマ",
+      tag,
+      `タイGL ${tag}`,
+      categoryLabel,
+      "百合",
+      "YuriThai",
+      "ユリタイ",
+    ].filter(Boolean),
     alternates: { canonical: `${SITE_URL}/tags/${params.slug}` },
     openGraph: {
       title,
       description,
       url: `${SITE_URL}/tags/${params.slug}`,
       type: "website",
-      siteName: "YuriThai",
+      siteName: "YuriThai（ユリタイ）",
     },
   };
 }
@@ -98,13 +121,13 @@ export default function TagDetailPage({
       </nav>
 
       <header className="mb-6">
-        {categoryLabel && (
-          <p className="text-[11px] text-yuri-muted tracking-wider mb-1">
-            {categoryLabel}
-          </p>
-        )}
+        {/* SEO: 「タイGL ×」をジャンルラベルとして h1 直上に表示。
+            視覚的にもタグの位置づけが明確になる + 検索インデックスに有利。 */}
+        <p className="text-[11px] text-yuri-muted tracking-wider mb-1">
+          タイGLドラマ {categoryLabel && `× ${categoryLabel}`}
+        </p>
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-          {tag}
+          タイGL「{tag}」のドラマ
         </h1>
         <p className="text-sm text-yuri-muted">{dramas.length}作品</p>
       </header>

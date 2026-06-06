@@ -2,14 +2,32 @@ import { dramas, watching, getActressesForPair, pairs } from "@/lib/content";
 import { CastFilterBar, type CastPairEntry } from "@/components/CastFilterBar";
 
 export const metadata = {
-  title: "女優一覧（タイGL主演ペア・女優）",
+  title: "タイGL女優・ペア一覧｜FreenBecky・LingOrm・NamtanFilm 他",
   description:
-    "FreenBecky、LingOrm、MilkLove、NamtanFilm、EngLot、KaoJane、LMSY など、タイGLドラマの主要ペアと出演女優を網羅。プロフィール・出演作品を日本語で紹介。",
+    "FreenBecky、LingOrm、MilkLove、NamtanFilm、EngLot、KaoJane、LMSY、EmiBonnie、ViewMim、ShellyPundao、TKNur など、タイGL（タイ百合）ドラマの主要ペアと出演女優を網羅。各女優のプロフィール・出演タイGL作品を日本語で紹介。",
+  keywords: [
+    "タイGL",
+    "タイGL 女優",
+    "タイGL ペア",
+    "タイGL シップネーム",
+    "FreenBecky",
+    "LingOrm",
+    "MilkLove",
+    "NamtanFilm",
+    "LMSY",
+    "EmiBonnie",
+    "ViewMim",
+    "ShellyPundao",
+    "TKNur",
+    "YuriThai",
+    "ユリタイ",
+  ],
   alternates: { canonical: "https://yurithai.jp/cast" },
   openGraph: {
-    title: "女優一覧（タイGL主演ペア・女優） | YuriThai",
+    title: "タイGL女優・ペア一覧 ｜ YuriThai（ユリタイ）",
     url: "https://yurithai.jp/cast",
     type: "website",
+    siteName: "YuriThai（ユリタイ）",
   },
 };
 
@@ -70,9 +88,11 @@ export default function CastPage() {
     <div className="mx-auto max-w-4xl px-4 md:px-6 pt-4 pb-8 md:py-10">
       <header className="mb-4">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-          女優
+          タイGL女優・ペア
         </h1>
-        <p className="text-sm text-yuri-muted">事務所・カップルで絞り込めます。</p>
+        <p className="text-sm text-yuri-muted">
+          事務所・カップル（ペア）で絞り込めます。
+        </p>
       </header>
 
       <CastFilterBar pairs={pairList} />

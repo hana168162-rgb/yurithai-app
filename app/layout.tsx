@@ -12,7 +12,11 @@ import { Header } from "@/components/Header";
 import { CampaignBanner } from "@/components/CampaignBanner";
 import { Footer } from "@/components/Footer";
 import { MobileBottomBar } from "@/components/MobileBottomBar";
-import { JsonLd, buildWebSiteJsonLd } from "@/components/JsonLd";
+import {
+  JsonLd,
+  buildWebSiteJsonLd,
+  buildOrganizationJsonLd,
+} from "@/components/JsonLd";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { GoogleAdSense } from "@/components/GoogleAdSense";
 
@@ -55,41 +59,64 @@ const zenMaruGothic = Zen_Maru_Gothic({
 
 export const metadata: Metadata = {
   title: {
-    default: "YuriThai・タイGLドラマ",
-    template: "%s | YuriThai",
+    // 「YuriThai（ユリタイ）」を title 内に明示してブランド検索の取りこぼしを防ぐ。
+    // template は子ページのタイトル + サイト名で完結する形に。
+    default: "YuriThai（ユリタイ）｜タイGL（タイ百合ドラマ）情報サイト",
+    template: "%s ｜ YuriThai（ユリタイ）",
   },
   description:
-    "推しの一作を、見つけよう。タイGLドラマのレビュー・配信先・女優情報・診断機能を日本語でまとめたガイド。完結作品23本、放送中6本、公開予定12本以上を網羅。",
+    "YuriThai（ユリタイ）は、タイGL（タイ百合ドラマ）を日本語でまとめた情報サイト。タイGLの作品レビュー・配信先・女優プロフィール・ペア解説・おすすめ診断・聖地巡礼・ファンミ情報まで網羅。完結作品23本、放送中6本、公開予定12本以上、ブログ75本超を掲載中。",
   keywords: [
-    "タイGL",
-    "タイドラマ",
-    "百合",
-    "Girls Love",
+    // 主要キーワード（ブランド + 一般語）
     "YuriThai",
     "ユリタイ",
     "ゆりたい",
+    "タイGL",
+    "タイ GL",
+    "タイ百合",
+    "タイ百合ドラマ",
+    "タイGL ドラマ",
+    "タイGL おすすめ",
+    "タイGL 一覧",
+    "タイGL 配信",
+    "タイGL ランキング",
+    "タイGL とは",
+    "GL ドラマ",
+    "百合",
+    "Girls Love",
+    "Thai GL",
+    // ペア・スタジオ（指名検索からの流入）
     "GAP",
     "Pluto",
+    "23.5",
+    "The Loyal Pin",
     "FreenBecky",
     "LingOrm",
+    "NamtanFilm",
+    "MilkLove",
+    "LMSY",
     "GMMTV",
+    "IDOLFACTORY",
     "Idol Factory",
+    "CHANGE2561",
   ],
-  authors: [{ name: "YuriThai" }],
+  authors: [{ name: "YuriThai（ユリタイ）" }],
+  creator: "YuriThai（ユリタイ）",
+  publisher: "YuriThai（ユリタイ）",
   metadataBase: new URL("https://yurithai.jp"),
   alternates: { canonical: "https://yurithai.jp" },
   openGraph: {
-    title: "YuriThai・タイGLドラマ",
+    title: "YuriThai（ユリタイ）｜タイGL（タイ百合ドラマ）情報サイト",
     description:
-      "推しの一作を、見つけよう。タイGLドラマのレビュー・配信先・女優情報を日本語でまとめたガイド。",
+      "YuriThai（ユリタイ）は、タイGL（タイ百合ドラマ）を日本語でまとめた情報サイト。作品・配信先・女優・ペア・診断・聖地巡礼まで。",
     url: "https://yurithai.jp",
-    siteName: "YuriThai",
+    siteName: "YuriThai（ユリタイ）",
     images: [
       {
         url: "/og-default.png",
         width: 1200,
         height: 630,
-        alt: "YuriThai・タイGLドラマ",
+        alt: "YuriThai（ユリタイ）｜タイGL情報サイト",
       },
     ],
     locale: "ja_JP",
@@ -97,10 +124,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "YuriThai・タイGLドラマ",
-    description: "推しの一作を、見つけよう。",
+    title: "YuriThai（ユリタイ）｜タイGL情報サイト",
+    description:
+      "タイGL（タイ百合ドラマ）を日本語で。作品・配信先・女優・ペア・診断まで。",
     images: ["/og-default.png"],
   },
+  // カテゴリヒント（Google等の補助用）
+  category: "Entertainment",
   robots: {
     index: true,
     follow: true,
@@ -139,7 +169,10 @@ export default function RootLayout({
         <GoogleAdSense />
       </head>
       <body className="min-h-screen flex flex-col">
+        {/* サイト全体: WebSite + Organization の構造化データを常時埋め込み、
+            「YuriThai」「ユリタイ」「ゆりたい」の表記ゆれを統一エンティティに集約する。 */}
         <JsonLd data={buildWebSiteJsonLd()} />
+        <JsonLd data={buildOrganizationJsonLd()} />
         <Header />
         <CampaignBanner />
         <main className="flex-1">{children}</main>

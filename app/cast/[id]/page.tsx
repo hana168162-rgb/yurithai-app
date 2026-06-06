@@ -24,16 +24,21 @@ export function generateMetadata({
   params: { id: string };
 }): Metadata {
   const actress = getActressById(params.id);
-  if (!actress) return { title: "女優が見つかりません" };
+  if (!actress)
+    return { title: "女優が見つかりません ｜ YuriThai（ユリタイ）" };
 
   const displayName = `${actress.name_en}（${actress.name_ja}）`;
-  const title = `${displayName} ${actress.real_name} プロフィール・出演作品`;
+
+  // SEO: タイトル先頭に「タイGL女優」を付けて、ジャンル + 個人名の組み合わせで
+  // 「タイGL 女優 ◯◯」「タイGL ペア ◯◯」などの検索にヒットしやすくする。
+  const title = `タイGL女優 ${displayName}｜${actress.real_name} プロフィール・出演作品 ｜ YuriThai（ユリタイ）`;
+
   const desc_parts = [
-    `タイGL女優${displayName}（${actress.real_name}）`,
+    `タイGL女優 ${displayName}（${actress.real_name}）`,
     actress.agency ? `所属: ${actress.agency}` : "",
     actress.nationality ? `国籍: ${actress.nationality}` : "",
     actress.birth_date ? `生年月日: ${actress.birth_date}` : "",
-    "の詳細プロフィールと出演作品を日本語で。",
+    "の詳細プロフィール・出演タイGLドラマ一覧を日本語で。",
   ].filter(Boolean);
   const description = desc_parts.join(" / ");
 
@@ -43,30 +48,36 @@ export function generateMetadata({
     keywords: [
       "タイGL",
       "タイGL女優",
+      "タイGL ペア",
+      "タイ女優",
+      "タイドラマ 女優",
+      "タイ百合",
       actress.name_en,
       actress.name_ja,
       actress.real_name,
       ...(actress.agency ? [actress.agency] : []),
+      "YuriThai",
+      "ユリタイ",
     ],
     alternates: { canonical: `${SITE_URL}/cast/${actress.id}` },
     openGraph: {
-      title,
+      title: `タイGL女優 ${displayName}｜YuriThai（ユリタイ）`,
       description,
       url: `${SITE_URL}/cast/${actress.id}`,
-      siteName: "YuriThai",
+      siteName: "YuriThai（ユリタイ）",
       type: "profile",
       images: [
         {
           url: `${SITE_URL}/api/og/actress/${actress.id}`,
           width: 1200,
           height: 630,
-          alt: `${displayName}（${actress.real_name}）`,
+          alt: `タイGL女優 ${displayName}（${actress.real_name}）`,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${displayName} | YuriThai`,
+      title: `タイGL女優 ${displayName} ｜ YuriThai`,
       description,
       images: [`${SITE_URL}/api/og/actress/${actress.id}`],
     },
@@ -111,6 +122,13 @@ export default function ActressDetailPage({
 
       {/* Hero */}
       <header className="mb-8 bg-yuri-cream border border-yuri-edge rounded-lg p-6">
+        {/* SEO: 「タイGL女優」の eyebrow ラベル。h1 直上に置くことで
+            ジャンル + 個人名が同じ <header> に揃い、検索インデックスに有利。 */}
+        <p className="text-[11px] tracking-wider text-yuri-muted mb-1 uppercase">
+          <Link href="/cast" className="hover:text-yuri-rose">
+            タイGL女優
+          </Link>
+        </p>
         <p className="text-sm text-yuri-muted mb-0.5 leading-tight">
           {actress.name_ja}
         </p>

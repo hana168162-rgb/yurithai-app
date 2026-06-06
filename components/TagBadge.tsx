@@ -18,7 +18,12 @@ export function TagBadge({
   linkable?: boolean;
 }) {
   const bg = PALETTE_BG[idx % PALETTE_BG.length];
-  const px = size === "md" ? "px-2.5 py-1 text-xs" : "px-2 py-0.5 text-[10px]";
+  // モバイルでの可読性を優先: sm は text-[11px] に底上げ（md以上は従来通り）
+  // size=md の場合は変えない（既存の詳細ページ用）
+  const px =
+    size === "md"
+      ? "px-2.5 py-1 text-xs"
+      : "px-2 py-0.5 text-[11px] md:text-[10px]";
   const className = `${px} rounded-full text-yuri-navy whitespace-nowrap`;
 
   if (linkable) {
@@ -51,7 +56,7 @@ export function TagPillDark({
   const bg = variant === "navy" ? "#3D3470" : "#C4708C";
   return (
     <span
-      className="px-2 py-0.5 rounded-full text-[10px] text-yuri-cream whitespace-nowrap"
+      className="px-2 py-0.5 rounded-full text-[11px] md:text-[10px] text-yuri-cream whitespace-nowrap"
       style={{ background: bg }}
     >
       {label}

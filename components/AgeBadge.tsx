@@ -5,7 +5,7 @@ export function AgeBadge({ rating }: { rating: string | null }) {
   if (!s) return null;
   return (
     <span
-      className="text-[10px] font-medium px-1.5 py-0.5 rounded"
+      className="text-[11px] md:text-[10px] font-medium px-1.5 py-0.5 rounded"
       style={{ background: s.bg, color: s.fg }}
     >
       {s.label}

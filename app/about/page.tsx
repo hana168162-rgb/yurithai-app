@@ -2,30 +2,106 @@ import Link from "next/link";
 import { OPERATOR } from "@/lib/operator";
 
 export const metadata = {
-  title: "About / 運営者情報 | YuriThai",
+  title: "YuriThai（ユリタイ）について｜運営者情報",
   description:
-    "YuriThai（ユリタイ）は、日本人ファンに向けてタイGLドラマの情報を整理・紹介する日本語特化メディア。レビュー・配信先・女優情報・診断機能を日本語で。",
+    "YuriThai（ユリタイ／ゆりたい）は、タイGL（タイ百合ドラマ）を日本語でまとめた専門情報サイト。作品レビュー・配信先・女優プロフィール・ペア解説・おすすめ診断・聖地巡礼・ファンミ情報まで網羅。完結作品23本、放送中6本、公開予定12本以上、ブログ記事75本超を掲載中。運営者情報、広告掲載ポリシーもこちらから。",
+  keywords: [
+    "YuriThai",
+    "ユリタイ",
+    "ゆりたい",
+    "YuriThai 運営",
+    "ユリタイ 運営",
+    "タイGL",
+    "タイGL 情報サイト",
+    "タイ百合 サイト",
+  ],
   alternates: { canonical: `${OPERATOR.siteUrl}/about` },
 };
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-2xl px-5 md:px-6 py-12">
-      <h1 className="text-2xl font-medium text-yuri-ink mb-6">
-        About / 運営者情報
+    <div className="mx-auto max-w-2xl px-5 md:px-6 py-10 md:py-12">
+      <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-2">
+        YuriThai（ユリタイ）について
       </h1>
+      <p className="text-[13px] md:text-xs text-yuri-muted tracking-wider mb-6">
+        About / 運営者情報
+      </p>
 
-      <section className="text-sm text-yuri-ink/85 leading-[1.9] space-y-4 mb-10">
+      <section className="text-[15px] md:text-sm text-yuri-ink/85 leading-[1.95] md:leading-[1.9] space-y-4 mb-10">
         <p>
-          <strong className="font-medium">YuriThai（ユリタイ）</strong>{" "}
-          は、日本人ファンに向けて
-          <strong className="font-medium">タイGL（百合）ドラマ</strong>の情報を整理・紹介する
-          日本語特化メディアです。
+          <strong className="font-medium">YuriThai（ユリタイ／ゆりたい）</strong>{" "}
+          は、<strong className="font-medium">タイGL（タイ百合ドラマ）</strong>を
+          日本語でまとめた専門情報サイトです。
+          タイで制作される女性同士のロマンスを描いた作品を、
+          作品レビュー・配信先・女優プロフィール・ペア解説・おすすめ診断・聖地巡礼・ファンミ情報まで、
+          タイGL初心者から既存ファンまで使えるリファレンスとして整理しています。
         </p>
         <p>
-          作品ごとのレビュー、配信先、女優・ペア情報、タグ別の検索、
-          「あなたに合うタイGL」を見つける診断機能などを通じて、
-          日本人ファンがタイGLを楽しむためのハブとなることを目指しています。
+          現在掲載しているタイGL情報は、
+          <Link
+            href="/dramas"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            完結作品23本
+          </Link>
+          、
+          <Link
+            href="/dramas/airing"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            放送中6本
+          </Link>
+          、
+          <Link
+            href="/dramas/upcoming"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            公開予定12本以上
+          </Link>
+          、
+          <Link
+            href="/cast"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            女優プロフィール
+          </Link>
+          、
+          <Link
+            href="/blog"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            特集記事75本超
+          </Link>
+          に渡ります。タイGL作品の選び方に迷ったら
+          <Link
+            href="/recommend"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            おすすめ診断
+          </Link>
+          、ジャンル自体の理解には
+          <Link
+            href="/guide/what-is-thai-gl"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            「タイGLとは」完全ガイド
+          </Link>
+          、日本から海外配信を観るには
+          <Link
+            href="/guide/vpn"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            VPNガイド
+          </Link>
+          、現地イベント参加には
+          <Link
+            href="/guide/travel-to-thailand"
+            className="text-yuri-rose hover:opacity-80 underline"
+          >
+            バンコク旅行ガイド
+          </Link>
+          をご利用ください。
         </p>
         <p>
           サイトの運営費・記事制作費は、一部アフィリエイト広告による収益で賄っています。
@@ -38,7 +114,7 @@ export default function AboutPage() {
           </Link>
           をご覧ください。運営者の詳細は下記の表をご参照ください。
         </p>
-        <p className="text-xs text-yuri-muted">
+        <p className="text-[13px] md:text-xs text-yuri-muted">
           ※ 作品の画像・映像・タイトルロゴ等の著作権は各制作会社・権利者に帰属します。
           引用にあたっては、出典の明示と必要最小限の範囲を遵守しています。
         </p>

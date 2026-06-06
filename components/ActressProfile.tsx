@@ -6,7 +6,7 @@ export function ActressProfile({ actress }: { actress: Actress }) {
   return (
     <div className="bg-yuri-surface border border-yuri-edge rounded-lg p-4">
       <div className="mb-3">
-        <p className="text-xs text-yuri-muted leading-tight">
+        <p className="text-[13px] md:text-xs text-yuri-muted leading-tight">
           {actress.name_ja}
         </p>
         <Link
@@ -15,7 +15,9 @@ export function ActressProfile({ actress }: { actress: Actress }) {
         >
           {actress.name_en}
         </Link>
-        <p className="text-sm text-yuri-muted mt-1">{actress.real_name}</p>
+        <p className="text-[14px] md:text-sm text-yuri-muted mt-1">
+          {actress.real_name}
+        </p>
       </div>
 
       <dl className="text-[15px] leading-relaxed space-y-1.5 mb-3">
@@ -72,7 +74,7 @@ export function ActressProfile({ actress }: { actress: Actress }) {
               {actress.filmography.map((work) => (
                 <span
                   key={work}
-                  className="inline-block px-2 py-0.5 rounded-md bg-yuri-pink/30 text-yuri-navy text-xs leading-snug"
+                  className="inline-block px-2 py-0.5 rounded-md bg-yuri-pink/30 text-yuri-navy text-[13px] md:text-xs leading-snug"
                 >
                   {work}
                 </span>

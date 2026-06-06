@@ -106,7 +106,7 @@ export default function BlogPostPage({
 
       <article>
         <header className="mb-10 md:mb-12">
-          <p className="text-xs text-yuri-muted mb-3 tracking-wider">
+          <p className="text-[13px] md:text-xs text-yuri-muted mb-3 tracking-wider">
             {formatDate(post.date)}
           </p>
           <h1 className="text-[26px] md:text-[34px] font-display font-bold text-yuri-ink leading-[1.45] mb-4">
@@ -122,7 +122,7 @@ export default function BlogPostPage({
               {post.tags.map((t) => (
                 <span
                   key={t}
-                  className="text-[11px] text-yuri-navy bg-yuri-pink/40 px-2.5 py-1 rounded-full"
+                  className="text-[12px] md:text-[11px] text-yuri-navy bg-yuri-pink/40 px-2.5 py-1 rounded-full"
                 >
                   #{t}
                 </span>

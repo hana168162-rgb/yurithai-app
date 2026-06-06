@@ -52,7 +52,7 @@ export function WhereToWatch({
         {streaming.map((s, i) => {
           const hasUrl = s.url && s.url.length > 0;
           const restricted = isRestricted(s.note);
-          const className = `inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-medium transition-colors ${
+          const className = `inline-flex items-center gap-1.5 px-3.5 py-2 md:px-3 md:py-1.5 rounded-full border text-[13px] md:text-xs font-medium transition-colors ${
             restricted ? RESTRICTED_STYLE : styleFor(s.platform)
           }`;
 
@@ -89,12 +89,12 @@ export function WhereToWatch({
         })}
       </div>
       {hasRestricted && (
-        <p className="mt-3 inline-flex items-center gap-1.5 text-xs text-amber-800 bg-amber-50 border border-amber-200 rounded-full px-3 py-1 font-medium">
+        <p className="mt-3 inline-flex items-center gap-1.5 text-[13px] md:text-xs text-amber-800 bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5 font-medium">
           <span aria-hidden>🔒</span>
           日本から直接視聴不可（タイ限定／VPN必要）
         </p>
       )}
-      <p className="mt-2 text-[11px] text-yuri-muted">
+      <p className="mt-2 text-[12px] md:text-[11px] text-yuri-muted leading-relaxed">
         ※ リンク付きの配信先は公式ページへ遷移します。配信状況は変動する場合があります。
       </p>
     </div>

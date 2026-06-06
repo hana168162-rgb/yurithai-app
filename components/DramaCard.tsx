@@ -69,18 +69,26 @@ export function DramaCard({
           <StatusBadge status={drama.status} episodes={drama.episodes} />
         </div>
       </div>
-      <div className="p-2.5">
-        <p className="text-sm font-semibold mb-0.5 truncate">{drama.title_ja}</p>
+      {/* スマホ最優先で読みやすさを底上げ：
+          - 余白 p-2.5 → p-3
+          - タイトル text-sm(14) → text-[15px]、truncate → line-clamp-2 で2行まで折り返し
+          - サブテキスト text-xs(12) → text-[13px]、muted のコントラスト改善 */}
+      <div className="p-3 md:p-2.5">
+        <p className="text-[15px] md:text-sm font-semibold mb-0.5 leading-snug line-clamp-2">
+          {drama.title_ja}
+        </p>
         {drama.title_th && (
-          <p className="text-xs text-yuri-muted/80 mb-0.5 truncate">
+          <p className="text-[12px] md:text-xs text-yuri-muted mb-0.5 truncate">
             {drama.title_th}
           </p>
         )}
         {metaLine && (
-          <p className="text-xs text-yuri-muted mb-1">{metaLine}</p>
+          <p className="text-[13px] md:text-xs text-yuri-muted mb-1">
+            {metaLine}
+          </p>
         )}
         {drama.cast_pair && (
-          <p className="text-xs text-yuri-rose/90 mb-2 truncate">
+          <p className="text-[13px] md:text-xs text-yuri-rose mb-2 truncate">
             {shortPairName(drama.cast_pair)}
           </p>
         )}

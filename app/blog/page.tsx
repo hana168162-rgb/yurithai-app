@@ -39,12 +39,12 @@ export default function BlogIndexPage() {
   const posts = getAllBlogPosts();
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
-      <header className="mb-8">
+    <div className="mx-auto max-w-3xl px-5 md:px-6 py-8 md:py-10">
+      <header className="mb-6 md:mb-8">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
           ブログ・特集記事
         </h1>
-        <p className="text-sm text-yuri-muted">
+        <p className="text-[15px] md:text-sm text-yuri-ink/70">
           タイGLをもっと楽しむためのガイド・特集
         </p>
       </header>
@@ -76,20 +76,20 @@ export default function BlogIndexPage() {
                 )}
 
                 {/* 記事メタ + 本文プレビュー */}
-                <div className="p-5 flex-1 min-w-0">
-                  <div className="flex items-baseline justify-between mb-1.5">
-                    <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-yuri-navy text-yuri-cream">
+                <div className="p-4 md:p-5 flex-1 min-w-0">
+                  <div className="flex items-baseline justify-between mb-2">
+                    <span className="inline-flex items-center px-2 py-0.5 rounded text-[11px] md:text-[10px] font-medium bg-yuri-navy text-yuri-cream">
                       {CATEGORY_LABELS[post.category] ?? post.category}
                     </span>
-                    <span className="text-xs text-yuri-muted">
+                    <span className="text-[12px] md:text-xs text-yuri-muted">
                       {formatDate(post.date)}
                     </span>
                   </div>
-                  <h2 className="text-base md:text-lg font-medium text-yuri-navy mb-2 hover:text-yuri-rose">
+                  <h2 className="text-[17px] md:text-lg font-medium text-yuri-navy mb-2 hover:text-yuri-rose leading-snug">
                     {post.title}
                   </h2>
                   {post.description && (
-                    <p className="text-sm text-yuri-ink/80 mb-3 leading-relaxed line-clamp-3">
+                    <p className="text-[14px] md:text-sm text-yuri-ink/80 mb-3 leading-[1.85] line-clamp-3">
                       {post.description}
                     </p>
                   )}
@@ -98,7 +98,7 @@ export default function BlogIndexPage() {
                       {post.tags.slice(0, 4).map((t) => (
                         <span
                           key={t}
-                          className="text-[11px] text-yuri-muted bg-yuri-cream px-1.5 py-0.5 rounded"
+                          className="text-[12px] md:text-[11px] text-yuri-muted bg-yuri-cream px-2 py-0.5 rounded"
                         >
                           #{t}
                         </span>

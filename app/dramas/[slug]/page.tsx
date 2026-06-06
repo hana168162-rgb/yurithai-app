@@ -301,13 +301,15 @@ export default function DramaDetailPage({
                 タイGLドラマ
               </Link>
             </p>
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-display font-semibold text-yuri-ink mb-1">
+            <h1 className="text-[22px] sm:text-2xl md:text-3xl font-display font-semibold text-yuri-ink mb-1 leading-tight">
               {drama.title_ja}
             </h1>
             {titleTh && (
-              <p className="text-sm text-yuri-muted mb-2">{titleTh}</p>
+              <p className="text-[13px] md:text-sm text-yuri-muted mb-2">
+                {titleTh}
+              </p>
             )}
-            <p className="text-sm text-yuri-muted mb-4">
+            <p className="text-[14px] md:text-sm text-yuri-ink/70 mb-4 leading-relaxed">
               {year ?? airingPeriod ?? upcoming?.announced_for ?? "公開時期 未定"}
               {drama.production && (
                 <>
@@ -324,7 +326,7 @@ export default function DramaDetailPage({
             </p>
 
             {drama.cast_pair && (
-              <div className="text-sm">
+              <div className="text-[14px] md:text-sm">
                 <span className="text-yuri-muted">出演ペア: </span>
                 <strong className="text-yuri-ink font-semibold">
                   {shortPairName(drama.cast_pair)}
@@ -335,7 +337,7 @@ export default function DramaDetailPage({
           </div>
 
           {synopsis && (
-            <p className="mt-5 text-base md:text-lg leading-relaxed text-yuri-ink/90 max-w-prose whitespace-pre-line">
+            <p className="mt-5 text-[15px] md:text-lg leading-[1.9] md:leading-relaxed text-yuri-ink/90 max-w-prose whitespace-pre-line">
               {synopsis}
             </p>
           )}

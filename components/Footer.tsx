@@ -99,9 +99,10 @@ export function Footer() {
         {/* ==========================
             モバイル（〜md）レイアウト：最小限
             主要リンク横並び + スポンサー1行 + コピーライト
+            text-[13px] でリンクのタップ・可読性を確保（旧 text-xs は小さすぎた）
             ========================== */}
-        <div className="md:hidden text-xs">
-          <ul className="flex flex-wrap gap-x-3 gap-y-1.5 opacity-90 mb-4">
+        <div className="md:hidden text-[13px]">
+          <ul className="flex flex-wrap gap-x-3 gap-y-2 opacity-90 mb-4 leading-relaxed">
             <li>
               <Link href="/about" className="hover:opacity-100">
                 About
@@ -141,13 +142,13 @@ export function Footer() {
 
           <Link
             href="/contact?topic=sponsor"
-            className="inline-flex items-center gap-1 rounded-full border border-yuri-cream/30 px-3 py-1 opacity-90 hover:opacity-100"
+            className="inline-flex items-center gap-1 rounded-full border border-yuri-cream/30 px-3.5 py-1.5 opacity-90 hover:opacity-100"
           >
             スポンサー募集中 <span aria-hidden>→</span>
           </Link>
         </div>
 
-        <div className="border-t border-yuri-cream/15 mt-4 pt-3 text-[11px] opacity-70 text-center">
+        <div className="border-t border-yuri-cream/15 mt-4 pt-3 text-xs md:text-[11px] opacity-70 text-center">
           © 2026 YuriThai · yurithai.jp
         </div>
       </div>

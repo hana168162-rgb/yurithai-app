@@ -62,16 +62,9 @@ export default function HomePage() {
       {/* Hero */}
       <section className="pt-4 pb-8 md:py-12 text-center">
         <div className="text-yuri-gold mb-2 text-sm">✦  ✦  ✦</div>
-        <h1 className="font-display text-[26px] md:text-[34px] font-bold text-yuri-ink mb-3 tracking-tight leading-tight">
+        <h1 className="font-display text-[26px] md:text-[34px] font-bold text-yuri-ink mb-6 tracking-tight leading-tight">
           タイGLを、日本で楽しむ。
         </h1>
-        {/* SEO: 「YuriThai」「ユリタイ」「タイGL」を hero の本文中に1セットで露出。
-            視覚的にも控えめだが、検索エンジンには重要なシグナルになる。 */}
-        <p className="text-sm md:text-base text-yuri-muted max-w-xl mx-auto mb-6 leading-[1.85]">
-          <strong className="font-medium text-yuri-ink">YuriThai（ユリタイ）</strong>は、
-          <Link href="/guide/what-is-thai-gl" className="text-yuri-rose hover:underline">タイGL（タイ百合ドラマ）</Link>を
-          日本語でまとめた情報サイト。作品レビュー・配信先・女優・ペア・診断まで網羅しています。
-        </p>
         <Link
           href="/recommend"
           className="inline-flex items-center gap-2 bg-yuri-navy text-yuri-cream px-6 py-3 rounded-full text-sm font-medium hover:opacity-90"
@@ -85,7 +78,7 @@ export default function HomePage() {
             href="/dramas"
             className="text-xs text-yuri-rose hover:underline"
           >
-            まずはタイGL作品一覧を見る →
+            まずは作品一覧を見る →
           </Link>
         </p>
       </section>
@@ -183,11 +176,11 @@ export default function HomePage() {
               key={i}
               className="group bg-yuri-surface border border-yuri-edge rounded-md"
             >
-              <summary className="cursor-pointer list-none flex items-start gap-3 px-4 py-3 text-sm font-medium text-yuri-ink hover:bg-yuri-cream/60">
+              <summary className="cursor-pointer list-none flex items-start gap-3 px-4 py-3.5 md:py-3 text-[15px] md:text-sm font-medium text-yuri-ink hover:bg-yuri-cream/60">
                 <span className="text-yuri-rose mt-0.5" aria-hidden>
                   Q.
                 </span>
-                <span className="flex-1">{qa.question}</span>
+                <span className="flex-1 leading-snug">{qa.question}</span>
                 <span
                   className="text-yuri-muted text-xs mt-1 group-open:rotate-180 transition-transform"
                   aria-hidden
@@ -195,7 +188,7 @@ export default function HomePage() {
                   ▼
                 </span>
               </summary>
-              <div className="px-4 pb-3 pt-1 text-sm text-yuri-ink/85 leading-[1.85] flex gap-3">
+              <div className="px-4 pb-3.5 pt-1 text-[15px] md:text-sm text-yuri-ink/85 leading-[1.9] flex gap-3">
                 <span className="text-yuri-rose font-medium" aria-hidden>
                   A.
                 </span>
@@ -212,54 +205,6 @@ export default function HomePage() {
             タイGLについてもっと知る →
           </Link>
         </p>
-      </section>
-
-      {/* About YuriThai
-          SEO: 「YuriThai」「ユリタイ」「ゆりたい」「タイGL」を
-          まとまった本文として露出させ、ブランド検索 + ジャンル検索の両方で
-          トップページが正規ランディングになるよう補強する。 */}
-      <section className="mb-12 mt-4 border-t border-yuri-edge pt-8">
-        <h2 className="text-lg font-medium text-yuri-navy mb-3">
-          YuriThai（ユリタイ）について
-        </h2>
-        <div className="text-sm text-yuri-ink/85 leading-[1.9] space-y-3">
-          <p>
-            <strong className="font-medium">YuriThai（ユリタイ／ゆりたい）</strong>は、
-            タイGL（タイ百合ドラマ）を日本語でまとめた専門情報サイトです。
-            タイで制作される女性同士のロマンスを描いた作品を、
-            <strong className="font-medium">作品レビュー・配信先・女優プロフィール・ペア解説・おすすめ診断・聖地巡礼・ファンミ情報</strong>まで、
-            タイGL初心者から既存ファンまで使えるリファレンスとして整理しています。
-          </p>
-          <p>
-            掲載しているタイGL情報は、
-            <Link href="/dramas" className="text-yuri-rose hover:underline">完結作品23本</Link>
-            、
-            <Link href="/dramas/airing" className="text-yuri-rose hover:underline">放送中6本</Link>
-            、
-            <Link href="/dramas/upcoming" className="text-yuri-rose hover:underline">公開予定12本以上</Link>
-            、
-            <Link href="/cast" className="text-yuri-rose hover:underline">女優プロフィール</Link>
-            、
-            <Link href="/blog" className="text-yuri-rose hover:underline">特集記事75本超</Link>
-            に渡ります。タイGL作品の選び方に迷ったら
-            <Link href="/recommend" className="text-yuri-rose hover:underline">おすすめ診断</Link>
-            、ジャンル自体の理解には
-            <Link href="/guide/what-is-thai-gl" className="text-yuri-rose hover:underline">「タイGLとは」完全ガイド</Link>
-            、日本から海外配信を観るには
-            <Link href="/guide/vpn" className="text-yuri-rose hover:underline">VPN ガイド</Link>
-            、現地イベント参加には
-            <Link href="/guide/travel-to-thailand" className="text-yuri-rose hover:underline">バンコク旅行ガイド</Link>
-            をご利用ください。
-          </p>
-          <p className="text-xs text-yuri-muted">
-            主要キーワード:
-            <span className="ml-1">
-              タイGL ／ タイ百合 ／ タイ百合ドラマ ／ ユリタイ ／ ゆりたい ／ YuriThai ／
-              GAP ／ Pluto ／ 23.5 ／ The Loyal Pin ／ FreenBecky ／ LingOrm ／
-              NamtanFilm ／ MilkLove ／ LMSY ／ GMMTV ／ IDOLFACTORY ／ CHANGE2561
-            </span>
-          </p>
-        </div>
       </section>
     </div>
   );

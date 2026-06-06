@@ -50,20 +50,23 @@ export function WatchingCard({
           />
         </div>
       </div>
-      <div className="p-2.5">
-        <p className="text-sm font-semibold mb-0.5 truncate">{drama.title_ja}</p>
+      {/* スマホ最優先で読みやすさを底上げ。 */}
+      <div className="p-3 md:p-2.5">
+        <p className="text-[15px] md:text-sm font-semibold mb-0.5 leading-snug line-clamp-2">
+          {drama.title_ja}
+        </p>
         {drama.title_th && (
-          <p className="text-xs text-yuri-muted/80 mb-0.5 truncate">
+          <p className="text-[12px] md:text-xs text-yuri-muted mb-0.5 truncate">
             {drama.title_th}
           </p>
         )}
         {!hideProduction && (
-          <p className="text-xs text-yuri-muted mb-1">
+          <p className="text-[13px] md:text-xs text-yuri-muted mb-1">
             {drama.production ?? "制作元未確認"}
           </p>
         )}
         {drama.cast_pair && (
-          <p className="text-xs text-yuri-rose/90 truncate">
+          <p className="text-[13px] md:text-xs text-yuri-rose truncate">
             {shortPairName(drama.cast_pair)}
           </p>
         )}

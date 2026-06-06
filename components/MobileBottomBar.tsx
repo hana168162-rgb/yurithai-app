@@ -64,8 +64,8 @@ export function MobileBottomBar() {
             ITEMS[0].match(pathname) ? "text-yuri-rose" : "text-yuri-muted"
           }`}
         >
-          <HomeIcon className="w-[22px] h-[22px]" />
-          <span className="text-[10px] leading-none">ホーム</span>
+          <HomeIcon className="w-6 h-6" />
+          <span className="text-[11px] leading-none">ホーム</span>
         </Link>
 
         {/* ドラマ */}
@@ -76,8 +76,8 @@ export function MobileBottomBar() {
             ITEMS[1].match(pathname) ? "text-yuri-rose" : "text-yuri-muted"
           }`}
         >
-          <FilmIcon className="w-[22px] h-[22px]" />
-          <span className="text-[10px] leading-none">ドラマ</span>
+          <FilmIcon className="w-6 h-6" />
+          <span className="text-[11px] leading-none">ドラマ</span>
         </Link>
 
         {/* おすすめ診断（主要アクション・中央で強調） */}
@@ -87,7 +87,7 @@ export function MobileBottomBar() {
           className="flex-1 flex flex-col items-center justify-center gap-0.5 py-1.5"
         >
           <span
-            className={`flex items-center justify-center w-9 h-9 rounded-full text-base shadow-sm transition-colors ${
+            className={`flex items-center justify-center w-10 h-10 rounded-full text-lg shadow-sm transition-colors ${
               recommendActive
                 ? "bg-yuri-rose text-yuri-cream"
                 : "bg-yuri-rose/90 text-yuri-cream"
@@ -97,7 +97,7 @@ export function MobileBottomBar() {
             ✦
           </span>
           <span
-            className={`text-[10px] leading-none font-medium ${
+            className={`text-[11px] leading-none font-medium ${
               recommendActive ? "text-yuri-rose" : "text-yuri-navy"
             }`}
           >
@@ -113,8 +113,8 @@ export function MobileBottomBar() {
             ITEMS[2].match(pathname) ? "text-yuri-rose" : "text-yuri-muted"
           }`}
         >
-          <SearchIcon className="w-[22px] h-[22px]" />
-          <span className="text-[10px] leading-none">検索</span>
+          <SearchIcon className="w-6 h-6" />
+          <span className="text-[11px] leading-none">検索</span>
         </Link>
       </div>
     </nav>

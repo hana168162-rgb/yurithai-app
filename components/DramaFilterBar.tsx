@@ -340,14 +340,14 @@ export function DramaFilterBar({
                 setYear("");
                 setFreeOnly(false);
               }}
-              className="col-span-2 sm:col-auto self-start text-left px-1 sm:px-3 py-1.5 text-xs text-yuri-muted hover:text-yuri-rose underline-offset-2 hover:underline"
+              className="col-span-2 sm:col-auto self-start text-left px-1 sm:px-3 py-1.5 text-[13px] sm:text-xs text-yuri-muted hover:text-yuri-rose underline-offset-2 hover:underline"
             >
               絞り込みをクリア
             </button>
           )}
         </div>
 
-        <p className="mt-2 text-xs text-yuri-muted sm:text-right">
+        <p className="mt-2 text-[13px] sm:text-xs text-yuri-muted sm:text-right">
           {isFiltered ? `${totalFiltered} / ${totalAll} 作品` : `全 ${totalAll} 作品`}
         </p>
       </div>

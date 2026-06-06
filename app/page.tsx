@@ -88,7 +88,7 @@ export default function HomePage() {
         <div className="flex items-baseline justify-between mb-3">
           <div>
             <h2 className="text-base font-medium text-yuri-navy">
-              今月のタイGLピックアップ
+              今月のピックアップ
             </h2>
             <p className="text-xs text-yuri-muted">現在放送中の話題作</p>
           </div>
@@ -112,9 +112,7 @@ export default function HomePage() {
       <section className="mb-10">
         <div className="flex items-baseline justify-between mb-3">
           <div>
-            <h2 className="text-base font-medium text-yuri-navy">
-              タイGL作品一覧
-            </h2>
+            <h2 className="text-base font-medium text-yuri-navy">作品一覧</h2>
             <p className="text-xs text-yuri-muted">完結作品から探す</p>
           </div>
           <Link href="/dramas" className="text-xs text-yuri-rose">
@@ -140,7 +138,7 @@ export default function HomePage() {
           <div className="flex items-baseline justify-between mb-3">
             <div>
               <h2 className="text-base font-medium text-yuri-navy">
-                タイGL公開予定
+                公開予定
               </h2>
               <p className="text-xs text-yuri-muted">
                 全{upcoming.length}作品

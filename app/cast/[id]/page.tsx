@@ -31,7 +31,8 @@ export function generateMetadata({
 
   // SEO: タイトル先頭に「タイGL女優」を付けて、ジャンル + 個人名の組み合わせで
   // 「タイGL 女優 ◯◯」「タイGL ペア ◯◯」などの検索にヒットしやすくする。
-  const title = `タイGL女優 ${displayName}｜${actress.real_name} プロフィール・出演作品 ｜ YuriThai（ユリタイ）`;
+  // layout.tsx の template が "%s ｜ YuriThai（ユリタイ）" を付ける。
+  const title = `${displayName} ${actress.real_name}｜タイGL女優プロフィール・出演作品`;
 
   const desc_parts = [
     `タイGL女優 ${displayName}（${actress.real_name}）`,
@@ -61,7 +62,7 @@ export function generateMetadata({
     ],
     alternates: { canonical: `${SITE_URL}/cast/${actress.id}` },
     openGraph: {
-      title: `タイGL女優 ${displayName}｜YuriThai（ユリタイ）`,
+      title: `${displayName}｜タイGL女優｜YuriThai`,
       description,
       url: `${SITE_URL}/cast/${actress.id}`,
       siteName: "YuriThai（ユリタイ）",
@@ -77,7 +78,7 @@ export function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `タイGL女優 ${displayName} ｜ YuriThai`,
+      title: `${displayName}｜タイGL女優｜YuriThai`,
       description,
       images: [`${SITE_URL}/api/og/actress/${actress.id}`],
     },

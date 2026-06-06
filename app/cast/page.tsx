@@ -24,7 +24,7 @@ export const metadata = {
   ],
   alternates: { canonical: "https://yurithai.jp/cast" },
   openGraph: {
-    title: "タイGL女優・ペア一覧 ｜ YuriThai（ユリタイ）",
+    title: "タイGL女優・ペア一覧｜YuriThai",
     url: "https://yurithai.jp/cast",
     type: "website",
     siteName: "YuriThai（ユリタイ）",
@@ -88,10 +88,10 @@ export default function CastPage() {
     <div className="mx-auto max-w-4xl px-4 md:px-6 pt-4 pb-8 md:py-10">
       <header className="mb-4">
         <h1 className="text-2xl md:text-3xl font-display font-medium text-yuri-ink mb-1">
-          タイGL女優・ペア
+          女優・ペア
         </h1>
-        <p className="text-sm text-yuri-muted">
-          事務所・カップル（ペア）で絞り込めます。
+        <p className="text-[14px] md:text-sm text-yuri-muted">
+          タイGLドラマの主要ペアと出演女優。事務所・カップルで絞り込めます。
         </p>
       </header>
 

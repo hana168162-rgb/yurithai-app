@@ -30,8 +30,7 @@ export const metadata = {
   ],
   alternates: { canonical: "https://yurithai.jp/dramas" },
   openGraph: {
-    title:
-      "タイGLドラマ完結作品一覧 ｜ YuriThai（ユリタイ）",
+    title: "タイGLドラマ完結作品一覧｜YuriThai",
     url: "https://yurithai.jp/dramas",
     type: "website",
     siteName: "YuriThai（ユリタイ）",

@@ -24,7 +24,7 @@ export const metadata = {
   ],
   alternates: { canonical: "https://yurithai.jp/dramas/airing" },
   openGraph: {
-    title: "放送中・配信中のタイGLドラマ ｜ YuriThai（ユリタイ）",
+    title: "放送中・配信中のタイGLドラマ｜YuriThai",
     url: "https://yurithai.jp/dramas/airing",
     type: "website",
     siteName: "YuriThai（ユリタイ）",

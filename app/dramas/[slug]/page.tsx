@@ -55,8 +55,10 @@ export function generateMetadata({
   const titleTh = "title_th" in drama ? drama.title_th : null;
 
   // SEO: タイトルに「タイGL」を前置きしてジャンル検索からの流入を狙う。
-  // 例: "タイGLドラマ Pluto（Pluto）｜配信先・キャスト・レビュー｜YuriThai（ユリタイ）"
-  const title = `タイGLドラマ ${drama.title_ja}（${drama.title_en}）｜配信先・キャスト・レビュー ｜ YuriThai（ユリタイ）`;
+  // layout.tsx の template が "%s ｜ YuriThai（ユリタイ）" を付けるので、
+  // ここでブランド名は持たない。最終出力例:
+  // "Pluto（Pluto）｜配信先・キャスト・レビュー｜タイGLドラマ ｜ YuriThai（ユリタイ）"
+  const title = `${drama.title_ja}（${drama.title_en}）｜配信先・キャスト・レビュー｜タイGLドラマ`;
 
   // description は冒頭で「タイGL」とブランド名を再露出させたうえで、
   // synopsis があればそれを後置し、最後にメタ情報（主演ペア）を必ず添える。
@@ -94,7 +96,7 @@ export function generateMetadata({
     ],
     alternates: { canonical: url },
     openGraph: {
-      title: `タイGLドラマ ${drama.title_ja}（${drama.title_en}）｜YuriThai（ユリタイ）`,
+      title: `${drama.title_ja}（${drama.title_en}）｜タイGLドラマ｜YuriThai`,
       description,
       url,
       siteName: "YuriThai（ユリタイ）",
@@ -104,7 +106,7 @@ export function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `タイGLドラマ ${drama.title_ja}｜YuriThai`,
+      title: `${drama.title_ja}｜タイGLドラマ｜YuriThai`,
       description,
       images: [image],
     },

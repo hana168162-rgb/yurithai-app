@@ -26,7 +26,7 @@ export const metadata = {
   ],
   alternates: { canonical: "https://yurithai.jp/dramas/upcoming" },
   openGraph: {
-    title: "公開予定のタイGLドラマ ｜ YuriThai（ユリタイ）",
+    title: "公開予定のタイGLドラマ｜YuriThai",
     url: "https://yurithai.jp/dramas/upcoming",
     type: "website",
     siteName: "YuriThai（ユリタイ）",

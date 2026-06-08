@@ -1489,5 +1489,76 @@
     "instagram": "punchsmoothie",
     "notes": "KittyPunchペア。K11D HOUSE所属。",
     "name_en": "Punch"
+  },
+  {
+    "id": "mayyu",
+    "name_ja": "マユー",
+    "real_name": "Mayyu Kawisara Singpord",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "AI Girl"
+    ],
+    "agency": "Me Mind Y",
+    "instagram": null,
+    "notes": "MayyuChanyaペア。AI Girl Series（2026/6/24〜）で Gen 役（内向的な AI 顔デザイナー）として主演デビュー。",
+    "name_en": "Mayyu"
+  },
+  {
+    "id": "chanya",
+    "name_ja": "チャンヤ",
+    "real_name": "Chanya \"Sophie\" Amarit Duval",
+    "birth_date": "1996-07-11",
+    "age": 29,
+    "nationality": "Thai-French",
+    "height_cm": null,
+    "filmography": [
+      "AI Girl",
+      "Love Sea"
+    ],
+    "agency": "Me Mind Y",
+    "instagram": "chanyaduval",
+    "notes": "MayyuChanyaペア。タイ・フランスのミックスルーツ（チェンマイ出身、旧名 Sophie Chanya Thanasinsunthorn）。タイ語とフランス語のバイリンガル。Love Sea（2024）でモデル兼俳優デビュー後、AI Girl Series（2026）で Ai 役（人型AIロボット）に主演。",
+    "name_en": "Chanya"
+  },
+  {
+    "id": "diana",
+    "name_ja": "ディアナ",
+    "real_name": "Diana Flipo",
+    "birth_date": "1994-08-11",
+    "age": 31,
+    "nationality": "Thai-French",
+    "height_cm": 172,
+    "filmography": [
+      "Hak Na My Boss",
+      "Samee Tee Tra",
+      "Luerd Ruk Toranong",
+      "Buang Hong",
+      "Lub Luang Jai"
+    ],
+    "agency": "S Class Entertainment",
+    "instagram": "dianaflipo",
+    "notes": "DianaYoshiペア。タイ・フランスのミックスルーツ（ウドンタニ出身）。双子の兄 Maxim あり。2014年「Samee Tee Tra」でラコーン女優デビューしたベテランで、Hak Na My Boss（2026予定）が GL 主演初挑戦。S Class Entertainment 所属。",
+    "name_en": "Diana"
+  },
+  {
+    "id": "yoshi",
+    "name_ja": "ヨシ",
+    "real_name": "Yoshi Rinrada Thurapan",
+    "birth_date": "1997-02-05",
+    "age": 28,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Hak Na My Boss",
+      "The Sign",
+      "Gen Y"
+    ],
+    "agency": null,
+    "instagram": null,
+    "notes": "DianaYoshiペア。ロイエット県出身。Miss Tiffany's Universe 2017（タイ最高峰のトランスジェンダー美の祭典）優勝者として知られるトランス女優。The Sign（2023）、Gen Y（2020）出演を経て、Hak Na My Boss（2026予定）で GL 主演に挑戦。Instagram フォロワー約100万。",
+    "name_en": "Yoshi"
   }
 ]

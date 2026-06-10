@@ -1,6 +1,6 @@
 ---
 title: "Tanwarin Sukkhapisit 完全特集 — タイ初のトランス国会議員監督が、Hak Na My Boss で GL に降臨するまで"
-description: "Tanwarin "Golf" Sukkhapisit（ธัญญ์วาริน สุขะพิสิษฐ์）── タイで最も影響力のある katoey 映画監督であり、2019 年タイ国会で初の openly transgender MP に当選した政治家でもある人物。検閲・追放・復活を経て、2026 年に S Class Entertainment の『Hak Na My Boss』で GL シリーズに本格参入するまでの軌跡を、Insects in the Backyard（2010）から The Eclipse、Wandee Goodday を経て GL へと至る全フィルモグラフィと共に深掘りします。"
+description: "Tanwarin『Golf』Sukkhapisit（ธัญญ์วาริน สุขะพิสิษฐ์）── タイで最も影響力のある katoey 映画監督であり、2019 年タイ国会で初の openly transgender MP に当選した政治家でもある人物。検閲・追放・復活を経て、2026 年に S Class Entertainment の『Hak Na My Boss』で GL シリーズに本格参入するまでの軌跡を、Insects in the Backyard（2010）から The Eclipse、Wandee Goodday を経て GL へと至る全フィルモグラフィと共に深掘りします。"
 date: "2026-06-08"
 category: "industry-feature"
 tags: ["Tanwarin Sukkhapisit", "Golf Tanwarin", "Hak Na My Boss", "S Class Entertainment", "Insects in the Backyard", "The Eclipse", "Wandee Goodday", "Club Friday", "監督", "LGBTQ+", "トランスジェンダー", "タイ映画"]

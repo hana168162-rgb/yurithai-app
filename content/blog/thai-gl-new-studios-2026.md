@@ -1,6 +1,6 @@
 ---
 title: "タイGL 新興スタジオ勢力マップ 2026 — Me Mind Y / S Class / Pro Gold が同時参入する転換点"
-description: "2026年、タイGL に "新興スタジオの大波" が来ています。BL の老舗 Me Mind Y が AI Girl Series で SF 路線、S Class Entertainment が Hak Na My Boss で本格進出、新興の Pro Gold が Since Norita で時代物に挑戦。さらに Motion Minds Entertainment / BEC World などの既存スタジオの戦略も含め、2026年のタイGL 制作スタジオ地図を最新版に更新します。"
+description: "2026年、タイGL に『新興スタジオの大波』が来ています。BL の老舗 Me Mind Y が AI Girl Series で SF 路線、S Class Entertainment が Hak Na My Boss で本格進出、新興の Pro Gold が Since Norita で時代物に挑戦。さらに Motion Minds Entertainment / BEC World などの既存スタジオの戦略も含め、2026年のタイGL 制作スタジオ地図を最新版に更新します。"
 date: "2026-06-08"
 category: "industry-feature"
 tags: ["タイGL スタジオ", "Me Mind Y", "S Class Entertainment", "Pro Gold", "Motion Minds Entertainment", "BEC World", "More Than Her Project", "AI Girl", "Hak Na My Boss", "Since Norita", "産業地図"]

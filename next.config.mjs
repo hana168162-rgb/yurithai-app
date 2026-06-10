@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
 
+  // 画像配信: AVIF を優先、WebP をフォールバック、不可なら元の JPEG。
+  // - AVIF: 対応ブラウザで WebP より 20〜30% 軽量
+  // - WebP: ほぼ全ブラウザ対応、JPEG より 25〜35% 軽量
+  // ローカル画像のみ使うので domains/remotePatterns は不要。
+  images: {
+    formats: ["image/avif", "image/webp"],
+  },
+
   // Vercel自動生成ドメイン（yurithai-app.vercel.app）への全アクセスを
   // 正規ドメイン（yurithai.jp）に 308 (Permanent) リダイレクトする。
   //

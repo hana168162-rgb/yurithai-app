@@ -309,7 +309,52 @@ export function getPastEvents(): GLEvent[] {
 }
 
 /**
- * 全イベントから絞り込み用のオプションを抽出
+ * イベントの pair フィールドから「短縮ペア名」（または個人ニックネーム）を抽出。
+ * 優先順位:
+ *   1) `"LingLing × Orm（LingOrm）"` のような括弧内ショート名（"LingOrm"）
+ *   2) `"Freen Sarocha"` のように個人名フル → 先頭ワードが name_en に一致するなら短縮（"Freen"）
+ *   3) actresses.json の `name_en` / `name_ja` と完全一致
+ *   4) × より前の先頭部分（複数人並んだ最初のひとり）
+ *   5) フォールバック（先頭40字でカット）
+ */
+export function shortPairLabel(pairStr: string | null | undefined): string {
+  if (!pairStr) return "";
+  const trimmed = pairStr.trim();
+
+  // 1) 括弧（全角・半角どちらも）内の短縮名を最優先で使う
+  const m = trimmed.match(/[（(]([^）)]+)[）)]/);
+  if (m) return m[1].trim();
+
+  // 2) "Becky Armstrong" や "Freen Sarocha" のような個人名フル →
+  //    先頭ワードが actresses.json の name_en に一致するなら、その短縮を返す
+  const firstWord = trimmed.split(/\s+/)[0];
+  if (firstWord) {
+    const matchByFirst = actresses.find(
+      (a) => a.name_en && a.name_en.toLowerCase() === firstWord.toLowerCase()
+    );
+    if (matchByFirst) return matchByFirst.name_en;
+  }
+
+  // 3) 完全一致
+  const exact = actresses.find(
+    (a) =>
+      (a.name_en && a.name_en === trimmed) ||
+      (a.name_ja && a.name_ja === trimmed)
+  );
+  if (exact) return exact.name_en || exact.name_ja || trimmed;
+
+  // 4) × より前の先頭部分
+  const head = trimmed.split(/×|x|✕/i)[0].trim();
+  if (head.length > 0 && head.length <= 30) return head;
+
+  // 5) フォールバック
+  return trimmed.slice(0, 40);
+}
+
+/**
+ * 全イベントから絞り込み用のオプションを抽出。
+ * `pairs` は短縮ペア名で重複排除する（"LingLing Sirilak Kwong × Orm Kornnaphat..."
+ * のような長文ではなく "LingOrm" を返す）。
  */
 export function getEventFilterOptions() {
   const merged = buildMergedEvents();
@@ -317,7 +362,10 @@ export function getEventFilterOptions() {
   const agencies = new Set<string>();
   const categories = new Set<string>();
   for (const e of merged) {
-    if (e.pair) pairs.add(e.pair);
+    if (e.pair) {
+      const short = shortPairLabel(e.pair);
+      if (short) pairs.add(short);
+    }
     if (e.agency) agencies.add(e.agency);
     if (e.category) categories.add(e.category);
   }

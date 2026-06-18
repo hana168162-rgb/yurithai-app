@@ -8,6 +8,7 @@ import {
   EVENT_CATEGORY_STYLES,
   getEventFilterOptions,
   normalizeEventCategory,
+  shortPairLabel,
 } from "@/lib/content";
 import type { GLEvent } from "@/lib/types";
 import { TripcomCard } from "@/components/TripcomCard";
@@ -180,7 +181,7 @@ function EventCard({ event }: { event: GLEvent }) {
               <span>
                 👯{" "}
                 <Link href="/cast" className="text-yuri-rose hover:underline">
-                  {event.pair}
+                  {shortPairLabel(event.pair)}
                 </Link>
               </span>
             )}
@@ -221,9 +222,15 @@ export default function EventsPage() {
         const isPast = eventDate < today;
         if (!showPast && isPast) return false;
         if (showPast && !isPast) return false;
-        if (filterPair && e.pair !== filterPair) return false;
+        // ペアは短縮名で比較（dropdown 側も短縮名を返す）
+        if (filterPair && shortPairLabel(e.pair) !== filterPair) return false;
         if (filterAgency && e.agency !== filterAgency) return false;
-        if (filterCategory && e.category !== filterCategory) return false;
+        if (
+          filterCategory &&
+          normalizeEventCategory(e.category) !==
+            normalizeEventCategory(filterCategory)
+        )
+          return false;
         return true;
       })
       .sort((a, b) =>

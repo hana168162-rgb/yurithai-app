@@ -3,7 +3,7 @@ title: "In Love Forever 予告 — LingOrm 第3作、離婚した夫婦が「も
 description: "2026年6月19日 Channel 3 放送開始、LingOrm 第3作『In Love Forever（วาดฝันวันวิวาห์）』。家族の圧力で離婚した弁護士と Gen-Z 相続人が、ビジネス案件で再び「夫婦」を演じることになる second-chance メロドラマ。公開済みの確実な情報源だけで作品概要を整理します。"
 date: "2026-05-29"
 category: "drama-feature"
-tags: ["In Love Forever", "LingOrm", "Lingling Kwong", "Orm Kornnaphat", "BEC World Originals", "Channel 3", "reallyb"]
+tags: ["In Love Forever", "LingOrm", "LingLing Kwong", "Orm Kornnaphat", "BEC World Originals", "Channel 3", "reallyb"]
 cover_image: "/images/dramas/in-love-forever.jpg"
 ---
 
@@ -27,7 +27,7 @@ cover_image: "/images/dramas/in-love-forever.jpg"
 | **放送開始** | 2026年6月19日（金）20:30 タイ時間（22:30 JST）|
 | **制作** | BEC World Originals / Channel 3 |
 | **原作** | reallyb 著の web 小説『วาดฝันวันวิวาห์』|
-| **主演** | [Lingling Kwong](/cast/ling) × [Orm Kornnaphat](/cast/orm)（[LingOrm](/blog/lingorm-history)）|
+| **主演** | [LingLing Kwong](/cast/ling) × [Orm Kornnaphat](/cast/orm)（[LingOrm](/blog/lingorm-history)）|
 | **位置づけ** | LingOrm × Channel 3 タッグの第3作 |
 | **配信** | Channel 3 HD（33ch）放送 + 3Plus 同時配信 / 3Plus Premium・Netflix で見逃し |
 | **話数** | 未発表 |
@@ -54,7 +54,7 @@ cover_image: "/images/dramas/in-love-forever.jpg"
 
 公開情報で確認できる範囲:
 
-- **Ranchanlapas（愛称ラン / พี่รัญชน์）** — プロフェッショナルな女性弁護士。Lingling が演じる、年上側
+- **Ranchanlapas（愛称ラン / พี่รัญชน์）** — プロフェッショナルな女性弁護士。LingLing が演じる、年上側
 - **Pheeracha（愛称ニーン / น้องนีน）** — Gen-Z 世代の相続人。Orm が演じる、年下側
 
 公式の呼称は「พี่รัญชน์（兄／年上のラン）」「น้องนีน（妹／年下のニーン）」で、

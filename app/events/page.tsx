@@ -168,11 +168,15 @@ function EventCard({ event }: { event: GLEvent }) {
           )}
         </div>
 
-        <h3 className="text-sm sm:text-base font-medium text-yuri-ink leading-snug">
+        {/* タイトル: モバイルは最大限大きく太く、ぱっと識別 */}
+        <h3 className="text-[17px] sm:text-base font-bold sm:font-medium text-yuri-ink leading-snug">
           {titleEl}
         </h3>
 
-        {/* 詳細行：埋まっているフィールドだけインラインで表示 */}
+        {/* 詳細行：埋まっているフィールドだけインラインで表示
+            モバイルでは情報密度を下げてタイトル可読性を優先。
+            時刻と会場名(短縮)、ペア（短縮名）のみを表示。
+            事務所は md+ のみ。 */}
         {(event.time || venueLine || event.pair || event.agency) && (
           <p className="mt-1.5 text-xs text-yuri-muted flex flex-wrap gap-x-2 gap-y-0.5">
             {event.time && <span>🕒 {event.time}</span>}
@@ -185,12 +189,16 @@ function EventCard({ event }: { event: GLEvent }) {
                 </Link>
               </span>
             )}
-            {event.agency && <span>🏢 {event.agency}</span>}
+            {event.agency && (
+              <span className="hidden sm:inline">🏢 {event.agency}</span>
+            )}
           </p>
         )}
 
+        {/* 説明: 「ニックネーム（本名）」のような冗長な情報がモバイルでは
+            タイトルと被る。詳細・PCサイズだけ表示し、モバイルではタイトルに集中。 */}
         {event.description && (
-          <p className="mt-1.5 text-xs text-yuri-ink/75 leading-relaxed line-clamp-2">
+          <p className="hidden sm:block mt-1.5 text-xs text-yuri-ink/75 leading-relaxed line-clamp-2">
             {event.description}
           </p>
         )}

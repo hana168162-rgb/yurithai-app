@@ -142,6 +142,29 @@ export default function BlogPostPage({
               className="object-cover"
               priority
             />
+            {/* デイリー速報記事: 日付を中央に大きく表示して識別性アップ */}
+            {(post.category === "sns-update" ||
+              post.cover_image === "/images/news-placeholder.jpg") &&
+              (() => {
+                const date = new Date(post.date);
+                if (Number.isNaN(date.getTime())) return null;
+                const weekday = ["日", "月", "火", "水", "木", "金", "土"][
+                  date.getDay()
+                ];
+                return (
+                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-yuri-cream/40 via-transparent to-yuri-rose/15">
+                    <div className="text-yuri-rose text-sm md:text-base font-medium tracking-[0.2em] mb-2">
+                      DAILY UPDATE
+                    </div>
+                    <div className="text-yuri-navy font-display font-bold leading-none text-6xl md:text-8xl">
+                      {date.getMonth() + 1}.{date.getDate()}
+                    </div>
+                    <div className="text-yuri-ink/70 text-base md:text-lg mt-3 font-medium">
+                      {date.getFullYear()}年 ({weekday})
+                    </div>
+                  </div>
+                );
+              })()}
           </div>
         )}
 

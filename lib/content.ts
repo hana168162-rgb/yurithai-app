@@ -275,13 +275,63 @@ function generateBroadcastEvents(): GLEvent[] {
 }
 
 /**
+ * events.json の生レコードを GLEvent 形式に正規化する。
+ * 運用上、events.json は以下の "拡張" キーで書かれている場合があり、
+ * 旧来の GLEvent 型と互換性を保つためにここでマップする：
+ *
+ *   - `pairs: string[]`     → 先頭要素を `pair: string` に
+ *   - `cast: string[]`      → そのまま保持（モバイルでは詳細ページのみ表示）
+ *   - `company`             → `agency`
+ *   - `official_link`       → `link`
+ *   - `location`            → `venue`（city/country は未設定なら venue に集約）
+ */
+function normalizeRawEvent(raw: Record<string, unknown>): GLEvent {
+  const pairs = raw.pairs as string[] | undefined;
+  const pairField =
+    raw.pair ?? (Array.isArray(pairs) && pairs.length > 0 ? pairs[0] : null);
+  const agency =
+    (raw.agency as string | undefined) ??
+    (raw.company as string | undefined) ??
+    null;
+  const link =
+    (raw.link as string | undefined) ??
+    (raw.official_link as string | undefined) ??
+    null;
+  const venue =
+    (raw.venue as string | undefined) ??
+    (raw.location as string | undefined) ??
+    null;
+
+  return {
+    id: raw.id as string,
+    title: (raw.title_ja as string | undefined) ?? (raw.title as string),
+    title_th: (raw.title_th as string | undefined) ?? null,
+    date: raw.date as string,
+    end_date: (raw.end_date as string | undefined) ?? null,
+    time: (raw.time as string | undefined) ?? null,
+    venue,
+    city: (raw.city as string | undefined) ?? null,
+    country: (raw.country as string | undefined) ?? null,
+    category: (raw.category as GLEvent["category"]) ?? "other",
+    pair: (pairField as string | null) ?? null,
+    agency,
+    description: (raw.description as string | undefined) ?? null,
+    link,
+    cover_image: (raw.cover_image as string | undefined) ?? null,
+  };
+}
+
+/**
  * 静的 events.json + 自動生成（誕生日・放送）をマージした全イベント。
  * id 重複は静的側を優先（手動で詳細を上書きできるように）。
  */
 function buildMergedEvents(): GLEvent[] {
+  const staticEvents = (events as unknown as Record<string, unknown>[]).map(
+    normalizeRawEvent,
+  );
   const auto = [...generateBirthdayEvents(), ...generateBroadcastEvents()];
-  const staticIds = new Set(events.map((e) => e.id));
-  return [...events, ...auto.filter((e) => !staticIds.has(e.id))];
+  const staticIds = new Set(staticEvents.map((e) => e.id));
+  return [...staticEvents, ...auto.filter((e) => !staticIds.has(e.id))];
 }
 
 export function getAllEvents(): GLEvent[] {

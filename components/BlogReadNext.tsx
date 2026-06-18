@@ -63,6 +63,20 @@ export function BlogReadNext({ posts }: { posts: BlogPostMeta[] }) {
                         ✦
                       </span>
                     )}
+                    {/* デイリー速報はサムネ上に日付を重ねる（64px sumneでも識別可能） */}
+                    {(p.category === "sns-update" ||
+                      p.cover_image === "/images/news-placeholder.jpg") &&
+                      (() => {
+                        const date = new Date(p.date);
+                        if (Number.isNaN(date.getTime())) return null;
+                        return (
+                          <div className="absolute inset-0 flex items-center justify-center bg-yuri-cream/60">
+                            <span className="text-yuri-navy font-display font-bold text-base leading-none">
+                              {date.getMonth() + 1}.{date.getDate()}
+                            </span>
+                          </div>
+                        );
+                      })()}
                   </div>
                   <div className="min-w-0 flex-1">
                     <p className="text-sm font-medium text-yuri-ink leading-snug line-clamp-2">

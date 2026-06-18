@@ -26,6 +26,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   pilgrimage: "聖地巡礼",
   review: "レビュー",
   news: "ニュース",
+  "sns-update": "デイリー速報",
   other: "その他",
 };
 
@@ -33,6 +34,28 @@ function formatDate(d: string): string {
   const date = new Date(d);
   if (Number.isNaN(date.getTime())) return d;
   return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
+}
+
+/** サムネ用：日付を月/日 + 曜日に分解（"6.18(水)" 形式） */
+function dateBadgeParts(d: string): { md: string; weekday: string } | null {
+  const date = new Date(d);
+  if (Number.isNaN(date.getTime())) return null;
+  const weekday = ["日", "月", "火", "水", "木", "金", "土"][date.getDay()];
+  return {
+    md: `${date.getMonth() + 1}.${date.getDate()}`,
+    weekday,
+  };
+}
+
+/**
+ * Manus 等で日次自動生成される速報記事の判定。
+ * - category === "sns-update" を主に見る（最も信頼できる）
+ * - 補助的に news-placeholder.jpg もチェック（既存記事の互換性）
+ */
+function isDailyUpdate(post: { category: string; cover_image: string | null }) {
+  if (post.category === "sns-update") return true;
+  if (post.cover_image === "/images/news-placeholder.jpg") return true;
+  return false;
 }
 
 export default function BlogIndexPage() {
@@ -63,7 +86,7 @@ export default function BlogIndexPage() {
               <Link href={`/blog/${post.slug}`} className="flex flex-col sm:flex-row">
                 {/* サムネ */}
                 {post.cover_image && (
-                  <div className="relative w-full sm:w-40 aspect-[16/9] sm:aspect-square shrink-0 bg-yuri-cream">
+                  <div className="relative w-full sm:w-40 aspect-[16/9] sm:aspect-square shrink-0 bg-yuri-cream overflow-hidden">
                     <Image
                       src={post.cover_image}
                       alt={post.title}
@@ -72,6 +95,26 @@ export default function BlogIndexPage() {
                       className="object-cover"
                       loading="lazy"
                     />
+                    {/* デイリー速報記事は、プレースホルダー画像の上に
+                        日付を大きく重ねて1日ごとの識別性を上げる。 */}
+                    {isDailyUpdate(post) &&
+                      (() => {
+                        const parts = dateBadgeParts(post.date);
+                        if (!parts) return null;
+                        return (
+                          <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-yuri-cream/40 via-transparent to-yuri-rose/15">
+                            <div className="text-yuri-rose text-[10px] sm:text-[11px] font-medium tracking-[0.18em] mb-1">
+                              DAILY
+                            </div>
+                            <div className="text-yuri-navy font-display font-bold leading-none text-[42px] sm:text-5xl">
+                              {parts.md}
+                            </div>
+                            <div className="text-yuri-ink/70 text-xs sm:text-sm mt-1.5 font-medium">
+                              （{parts.weekday}）
+                            </div>
+                          </div>
+                        );
+                      })()}
                   </div>
                 )}
 

@@ -98,6 +98,8 @@ export const EVENT_CATEGORY_LABELS: Record<string, string> = {
   press: "プレス",
   release: "リリース",
   fashion: "ファッション",
+  "award-ceremony": "授賞式",
+  event: "イベント",
   other: "その他",
 };
 
@@ -122,9 +124,52 @@ export const EVENT_CATEGORY_STYLES: Record<string, string> = {
     "bg-emerald-100 text-emerald-800 border border-emerald-200",
   fashion:
     "bg-fuchsia-100 text-fuchsia-800 border border-fuchsia-200",
+  "award-ceremony":
+    "bg-yellow-100 text-yellow-800 border border-yellow-200",
+  event:
+    "bg-indigo-100 text-indigo-800 border border-indigo-200",
   other:
     "bg-yuri-cream text-yuri-ink border border-yuri-edge",
 };
+
+/**
+ * 表記ゆれを公式カテゴリキーに正規化する。
+ * events.json の category 値が "Award Ceremony" や "Fan Meeting" のような
+ * 英語ラベル風表記でも、正規キーに変換して色付け等を機能させる。
+ *
+ * 例:
+ *   "Award Ceremony" → "award-ceremony"
+ *   "Fan Meeting"    → "fan-meeting"
+ *   "Event"          → "event"
+ *   "FAN-MEETING"    → "fan-meeting"
+ */
+export function normalizeEventCategory(raw: string): string {
+  if (!raw) return "other";
+  const normalized = raw.toLowerCase().trim().replace(/\s+/g, "-");
+
+  // 既知のキーに含まれていればそれ
+  if (EVENT_CATEGORY_LABELS[normalized]) return normalized;
+
+  // 英語ラベル → 内部カテゴリ
+  const aliases: Record<string, string> = {
+    awards: "award-ceremony",
+    award: "award-ceremony",
+    "award-ceremonies": "award-ceremony",
+    fanmeeting: "fan-meeting",
+    fanmeet: "fan-meeting",
+    "fan-meet": "fan-meeting",
+    fm: "fan-meeting",
+    bday: "birthday",
+    "broadcast-start": "broadcast",
+    "broadcast-end": "broadcast",
+    airing: "broadcast",
+    movie: "premiere",
+    "movie-premiere": "premiere",
+  };
+  if (aliases[normalized]) return aliases[normalized];
+
+  return "other";
+}
 
 /**
  * 女優の birth_date から、今後1年分の誕生日イベントを自動生成。

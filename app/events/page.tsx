@@ -7,6 +7,7 @@ import {
   EVENT_CATEGORY_LABELS,
   EVENT_CATEGORY_STYLES,
   getEventFilterOptions,
+  normalizeEventCategory,
 } from "@/lib/content";
 import type { GLEvent } from "@/lib/types";
 import { TripcomCard } from "@/components/TripcomCard";
@@ -31,6 +32,8 @@ const CATEGORY_ICON: Record<string, string> = {
   press: "🗞",
   release: "💿",
   fashion: "👗",
+  "award-ceremony": "🏆",
+  event: "✨",
   other: "✦",
 };
 
@@ -44,6 +47,8 @@ const CATEGORY_BORDER: Record<string, string> = {
   press: "border-l-slate-400",
   release: "border-l-emerald-400",
   fashion: "border-l-fuchsia-400",
+  "award-ceremony": "border-l-yellow-500",
+  event: "border-l-indigo-400",
   other: "border-l-yuri-edge",
 };
 
@@ -57,6 +62,8 @@ const CATEGORY_CHIP: Record<string, string> = {
   press: "bg-slate-50 text-slate-800",
   release: "bg-emerald-50 text-emerald-800",
   fashion: "bg-fuchsia-50 text-fuchsia-800",
+  "award-ceremony": "bg-yellow-50 text-yellow-800",
+  event: "bg-indigo-50 text-indigo-800",
   other: "bg-yuri-cream text-yuri-ink",
 };
 
@@ -77,9 +84,11 @@ function formatYearMonth(d: string): string {
 }
 
 function CategoryBadge({ category }: { category: string }) {
-  const label = EVENT_CATEGORY_LABELS[category] ?? category;
+  // 表記ゆれ（"Award Ceremony" 等）を正規化してからルックアップする
+  const key = normalizeEventCategory(category);
+  const label = EVENT_CATEGORY_LABELS[key] ?? category;
   const style =
-    EVENT_CATEGORY_STYLES[category] ??
+    EVENT_CATEGORY_STYLES[key] ??
     "bg-yuri-cream text-yuri-ink border border-yuri-edge";
   return (
     <span
@@ -91,9 +100,11 @@ function CategoryBadge({ category }: { category: string }) {
 }
 
 function EventCard({ event }: { event: GLEvent }) {
-  const icon = CATEGORY_ICON[event.category] ?? "✦";
-  const borderClass = CATEGORY_BORDER[event.category] ?? "border-l-yuri-edge";
-  const chipClass = CATEGORY_CHIP[event.category] ?? "bg-yuri-cream text-yuri-ink";
+  // 表記ゆれを正規化してから色・アイコンを引く
+  const key = normalizeEventCategory(event.category);
+  const icon = CATEGORY_ICON[key] ?? "✦";
+  const borderClass = CATEGORY_BORDER[key] ?? "border-l-yuri-edge";
+  const chipClass = CATEGORY_CHIP[key] ?? "bg-yuri-cream text-yuri-ink";
   const d = dayParts(event.date);
 
   const venueLine = [event.venue, event.city, event.country]

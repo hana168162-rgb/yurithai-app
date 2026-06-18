@@ -151,15 +151,17 @@ export interface Actress {
 //  Events
 // =============================================
 export type EventCategory =
-  | "birthday"     // 女優の誕生日（actresses.json から自動生成）
-  | "broadcast"    // ドラマ放送・配信日（dramas/watching/upcoming から自動生成）
-  | "fan-meeting"  // ファンミーティング
-  | "concert"      // コンサート・ライブ
-  | "premiere"     // プレミア・上映会
-  | "press"        // 記者会見・プレス発表
-  | "release"      // リリースイベント
-  | "fashion"      // ファッションイベント
-  | "other";       // その他
+  | "birthday"        // 女優の誕生日（actresses.json から自動生成）
+  | "broadcast"       // ドラマ放送・配信日（dramas/watching/upcoming から自動生成）
+  | "fan-meeting"     // ファンミーティング
+  | "concert"         // コンサート・ライブ
+  | "premiere"        // プレミア・上映会
+  | "press"           // 記者会見・プレス発表
+  | "release"         // リリースイベント
+  | "fashion"         // ファッションイベント
+  | "award-ceremony"  // 授賞式・アワード
+  | "event"           // 汎用イベント（番組出演など）
+  | "other";          // その他
 
 export interface GLEvent {
   id: string;                  // ユニークID（slug風）

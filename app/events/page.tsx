@@ -260,8 +260,10 @@ export default function EventsPage() {
         </p>
       </header>
 
-      {/* バンコク行きのアフィリ（イベント参加導線） */}
-      <TripcomCard variant="compact" />
+      {/* バンコク行きのアフィリ（イベント参加導線）
+          出発地を絞らない汎用コピー（東京以外の読者にも刺さる）にして、
+          Trip.com トップに送る。トップバナーと同じ trip_sub3=D17647184 を使う。 */}
+      <TripcomCard variant="compact" linkType="generic" />
 
       {/* フィルタ */}
       <div className="mb-6 bg-yuri-cream border border-yuri-edge rounded-lg p-4 flex flex-wrap items-center gap-3">

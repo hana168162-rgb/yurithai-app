@@ -163,6 +163,24 @@ export const TRIPCOM_TOP = {
   cta: "Trip.com トップへ",
 } as const;
 
+// Trip.com トップページ向け（汎用CTA） — どこに住んでいる読者でも使える汎用導線。
+// イベントページ・記事埋め込みなど、出発地・都市を絞らない場面で使用。
+// 計測 trip_sub3 をバナーと同じ D17647184 にして、トップバナー経由の流入と統合分析。
+const TRIPCOM_GENERIC_DEFAULT_URL =
+  "https://jp.trip.com/?Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=D17647184";
+
+export const TRIPCOM_GENERIC = {
+  /** 計測付きアフィリエイトURL（汎用Trip.comトップ）。 */
+  url:
+    process.env.NEXT_PUBLIC_TRIPCOM_GENERIC_AFF_URL || TRIPCOM_GENERIC_DEFAULT_URL,
+
+  /** カード見出し（誰でも使える普遍的なコピー） */
+  cardTitle: "推しに会いに、バンコクへ ✈",
+  cardSubtitle:
+    "ファンミ・聖地巡礼・推し活で旅行するなら Trip.com。航空券＋ホテルを出発地・日程ごとにまとめて検索・予約できます。",
+  cta: "Trip.com で検索",
+} as const;
+
 // Trip.com セール（ホリデーディール）向けの計測URL — 季節キャンペーン枠
 const TRIPCOM_SALE_DEFAULT_URL =
   "https://jp.trip.com/sale/w/27435/holidaydeals2025.html?locale=ja-JP&promo_referer=3373_27435_4&Allianceid=8247863&SID=312714424&trip_sub1=&trip_sub3=P17191449";

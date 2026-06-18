@@ -2,12 +2,13 @@ import Link from "next/link";
 import {
   TRIPCOM,
   TRIPCOM_TOP,
+  TRIPCOM_GENERIC,
   AFFILIATE_DISCLOSURE_SHORT,
   AFFILIATE_DISCLOSURE_LONG,
 } from "@/lib/affiliate";
 
 type Variant = "compact" | "wide";
-type LinkType = "package" | "top";
+type LinkType = "package" | "top" | "generic";
 
 /**
  * Trip.com アフィリリンクのカード。
@@ -15,7 +16,8 @@ type LinkType = "package" | "top";
  * wide:    /guide/travel-to-thailand のCTA用
  * linkType:
  *   - "package" (default): 東京→バンコク パッケージ
- *   - "top": Trip.com トップページ（任意のルート・都市を検索したい読者向け）
+ *   - "top": Trip.com トップページ（東京発以外のルート等を補足したい場面）
+ *   - "generic": 汎用カード（出発地を指定しない、誰でも使えるコピー）
  */
 export function TripcomCard({
   variant = "compact",
@@ -25,7 +27,12 @@ export function TripcomCard({
   linkType?: LinkType;
 }) {
   const isWide = variant === "wide";
-  const cfg = linkType === "top" ? TRIPCOM_TOP : TRIPCOM;
+  const cfg =
+    linkType === "top"
+      ? TRIPCOM_TOP
+      : linkType === "generic"
+        ? TRIPCOM_GENERIC
+        : TRIPCOM;
 
   return (
     <div

@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "id": "2026-06-06-gl-fest-ph-3",
+    "title": "Thai GL Fest PH 3 in Manila",
+    "date": "2026-06-06",
+    "location": "Ayala Malls Feliz, Manila",
+    "description": "Thai GL Fest featuring multiple GL pairs in the Philippines.",
+    "category": "Fan Meeting",
+    "pairs": ["Various"],
+    "official_link": "https://www.instagram.com/p/DUffB8MCM6K/"
+  },
+  {
+    "id": "2026-08-15-girl-rules-taipei",
+    "title": "GMMTV 'Girl Rules' Fan Meeting in Taipei",
+    "date": "2026-08-15",
+    "time": "16:00",
+    "location": "NCCU Art & Culture Center, Taipei",
+    "description": "GMMTV GL series 'Girl Rules' fan meeting featuring NamtanFilm, MilkLove, and ViewMim.",
+    "category": "Fan Meeting",
+    "pairs": ["NamtanFilm", "MilkLove", "ViewMim"],
+    "official_link": "https://www.threads.com/@stararena_/post/DYrAGllj19R/"
+  },
+  {
+    "id": "2026-08-22-gl-fest-ph-4",
+    "title": "Thai GL Fest PH 4 in Manila",
+    "date": "2026-08-22",
+    "location": "Manila, Philippines",
+    "description": "The fourth installment of Thai GL Fest in the Philippines.",
+    "category": "Fan Meeting",
+    "pairs": ["Various"],
+    "official_link": "https://www.instagram.com/p/DUffB8MCM6K/"
+  },
+  {
+    "id": "2026-lingorm-khon-kaen",
+    "title": "LINGORM THAILAND FAN MEETING TOUR @KHON KAEN",
+    "date": "2026-07-20",
+    "time": "15:00",
+    "location": "Golden Jubilee Convention Hall, Khon Kaen University",
+    "description": "LingOrm Thailand Fan Meeting Tour in Khon Kaen.",
+    "category": "Fan Meeting",
+    "pairs": ["LingOrm"],
+    "official_link": "https://www.lingorm.site/upcoming-schedule"
+  },
+  {
+    "id": "2026-girl-rules-premiere",
+    "title": "GMMTV 'Girl Rules' Series Premiere",
+    "date": "2026-03-09",
+    "location": "GMM25 / YouTube",
+    "description": "Premiere of the highly anticipated GL series 'Girl Rules' featuring NamtanFilm and MilkLove.",
+    "category": "Drama Release",
+    "pairs": ["NamtanFilm", "MilkLove", "ViewMim"],
+    "official_link": "https://www.instagram.com/p/DRiUMhhAMXE/"
+  }
+]

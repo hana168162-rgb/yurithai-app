@@ -232,7 +232,12 @@ export default function EventsPage() {
         if (showPast && !isPast) return false;
         // ペアは短縮名で比較（dropdown 側も短縮名を返す）
         if (filterPair && shortPairLabel(e.pair) !== filterPair) return false;
-        if (filterAgency && e.agency !== filterAgency) return false;
+        // 案件名は大文字小文字を無視して比較（"ME MIND Y" と "Me Mind Y" を同一視）
+        if (
+          filterAgency &&
+          (e.agency ?? "").toLowerCase() !== filterAgency.toLowerCase()
+        )
+          return false;
         if (
           filterCategory &&
           normalizeEventCategory(e.category) !==

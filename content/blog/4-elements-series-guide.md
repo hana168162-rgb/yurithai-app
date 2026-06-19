@@ -3,7 +3,7 @@ title: "4 Elements シリーズ完全ガイド — The Earth / Water / Air / Fir
 description: "Idol Factory × North Star Entertainment が手がける大型GLシリーズ『4 Elements』を徹底解説。The Earth・The Water・The Air・The Fire の各作品、主演ペア、原作（Salmon）の世界観、視聴順までを整理します。"
 date: "2026-05-21"
 category: "industry-feature"
-tags: ["4 Elements", "The Earth", "The Water", "The Air", "The Fire", "Idol Factory", "North Star Entertainment", "AppleMim", "EngLot", "FreenBecky", "NamneungNoey"]
+tags: ["4 Elements", "The Earth", "The Water", "The Air", "The Fire", "IDOLFACTORY", "North Star Entertainment", "AppleMim", "EngLot", "FreenBecky", "NamneungNoey"]
 cover_image: "/images/dramas/the-air.jpg"
 ---
 

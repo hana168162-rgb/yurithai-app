@@ -3,7 +3,7 @@ title: "In Love Forever 予告 — LingOrm 第3作、離婚した夫婦が「も
 description: "2026年6月19日 Channel 3 放送開始、LingOrm 第3作『In Love Forever（วาดฝันวันวิวาห์）』。家族の圧力で離婚した弁護士と Gen-Z 相続人が、ビジネス案件で再び「夫婦」を演じることになる second-chance メロドラマ。公開済みの確実な情報源だけで作品概要を整理します。"
 date: "2026-05-29"
 category: "drama-feature"
-tags: ["In Love Forever", "LingOrm", "LingLing Kwong", "Orm Kornnaphat", "BEC World Originals", "Channel 3", "reallyb"]
+tags: ["In Love Forever", "LingOrm", "LingLing Kwong", "Orm Kornnaphat", "BEC World Originals", "Channel 3", "Reallyb"]
 cover_image: "/images/dramas/in-love-forever.jpg"
 ---
 

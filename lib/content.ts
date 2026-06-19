@@ -403,25 +403,33 @@ export function shortPairLabel(pairStr: string | null | undefined): string {
 
 /**
  * 全イベントから絞り込み用のオプションを抽出。
- * `pairs` は短縮ペア名で重複排除する（"LingLing Sirilak Kwong × Orm Kornnaphat..."
- * のような長文ではなく "LingOrm" を返す）。
+ * - `pairs`: 短縮ペア名で重複排除（"LingLing Sirilak Kwong × Orm Kornnaphat..."
+ *   のような長文ではなく "LingOrm" を返す）。
+ * - `agencies`: 大文字小文字違いを正規化（"ME MIND Y" と "Me Mind Y" を1つに集約）。
+ *   "X / Y" のような共催表記は分割せず、そのまま1エントリ。
+ * - `categories`: 表記ゆれは normalizeEventCategory に従う。
  */
 export function getEventFilterOptions() {
   const merged = buildMergedEvents();
   const pairs = new Set<string>();
-  const agencies = new Set<string>();
+  // 案件キー（lowercase）→ 表示用文字列 を保持して大文字小文字違いを集約
+  const agencyMap = new Map<string, string>();
   const categories = new Set<string>();
   for (const e of merged) {
     if (e.pair) {
       const short = shortPairLabel(e.pair);
       if (short) pairs.add(short);
     }
-    if (e.agency) agencies.add(e.agency);
+    if (e.agency) {
+      const key = e.agency.toLowerCase().replace(/\s+/g, " ").trim();
+      // 先勝ち：最初に現れた表記を採用
+      if (!agencyMap.has(key)) agencyMap.set(key, e.agency);
+    }
     if (e.category) categories.add(e.category);
   }
   return {
     pairs: Array.from(pairs).sort(),
-    agencies: Array.from(agencies).sort(),
+    agencies: Array.from(agencyMap.values()).sort(),
     categories: Array.from(categories).sort(),
   };
 }

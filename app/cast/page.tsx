@@ -1,4 +1,10 @@
-import { dramas, watching, getActressesForPair, pairs } from "@/lib/content";
+import {
+  dramas,
+  watching,
+  getActressesForPair,
+  pairs,
+  shortPairLabel,
+} from "@/lib/content";
 import { CastFilterBar, type CastPairEntry } from "@/components/CastFilterBar";
 
 export const metadata = {
@@ -57,9 +63,24 @@ function getPairs(): PairEntry[] {
       return;
     }
 
-    // fallback: 既知ペアが見つからない場合は カッコ内 or cast_pair そのもの
-    const match = castPair.match(/（([^）]+)）/);
-    const key = match ? match[1] : castPair;
+    // fallback: 既知ペアが見つからない場合の短縮ロジック。
+    //   1) 括弧内のシップネーム → 採用
+    //   2) "X × Y" の形式なら、それぞれの先頭ワード（ニックネーム想定）を取り出して
+    //      "Christine × Mae" のような形にする（dropdown に長いフルネームが入らない）
+    //   3) shortPairLabel のフォールバックチェーン（先頭40字）
+    const parenMatch = castPair.match(/（([^）]+)）/);
+    let key: string;
+    if (parenMatch) {
+      key = parenMatch[1];
+    } else if (/×/.test(castPair)) {
+      const parts = castPair
+        .split("×")
+        .map((p) => p.trim().split(/\s+/)[0])
+        .filter(Boolean);
+      key = parts.join(" × ");
+    } else {
+      key = shortPairLabel(castPair) || castPair;
+    }
     if (!map.has(key)) {
       map.set(key, { short: key, full: castPair, dramas: [] });
     }

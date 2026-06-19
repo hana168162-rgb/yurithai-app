@@ -285,6 +285,26 @@
     "status": "past"
   },
   {
+    "id": "2026-06-13-bbfanfest-bangkok",
+    "title": "BBFanFest 2026: Blush Blossom Midnight Bloom Fan Fest",
+    "title_ja": "BBFanFest 2026（Blush Blossom Midnight Bloom Fan Fest）",
+    "date": "2026-06-13",
+    "end_date": "2026-06-14",
+    "time": "未確認",
+    "timezone": "ICT (タイ時間)",
+    "location": "バンコク（タイ）",
+    "location_en": "Bangkok, Thailand",
+    "description": "GMMTV制作のGL専門ファンフェスティバル。MilkLove、EmiBonnie、NamtanFilm、JanJingJing、JuneMewnich、PahnFond などGMMTV所属のGLペアが集結。Top Line / God Is Woman / Giddy Up などのコラボパフォーマンスがバイラル化。",
+    "category": "concert",
+    "color": "#E91E63",
+    "pairs": ["MilkLove", "EmiBonnie", "NamtanFilm", "JanJingJing", "JuneMewnich", "PahnFond"],
+    "cast": ["Milk Pansa", "Love Pattranite", "Emi Thasorn", "Bonnie Pattraphus", "Namtan Tipnaree", "Film Rachanun", "Jan Ployshompoo", "JingJing Worasaya"],
+    "company": "GMMTV",
+    "ticket_info": "終了済み（thaiticketmajor.com で販売）",
+    "official_link": "https://www.thaiticketmajor.com/concert/blush-blossom-fan-fest-2026-midnight-bloom.html",
+    "status": "past"
+  },
+  {
     "id": "2026-06-20-freen-first-sight-seoul-mate",
     "title": "First Sight, SEOUL MATE - Freen Sarocha",
     "title_ja": "First Sight, SEOUL MATE（Freen Sarocha出演）",

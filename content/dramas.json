@@ -2990,7 +2990,7 @@
     "episodes": 12,
     "status": "airing",
     "age_rating": "18+",
-    "cast_pair": "Mook Worranit Thawornwong × Niky Warinrat Yolprasong / Opal Kulwipa Ngamsukkasemsri × Mint Benjanee Watcharavasoontara / Ploy Jhutamas Pakonworrawong × England Ladamanee Rattanapornvareesakul / Puyfai Tharathip Baisaeng（群像劇・複数ペア）",
+    "cast_pair": "Mook Worranit(Nalin先生) × Shu Nannicha(Mink) / Niky Warinrat(Belle) × England Ladamanee(Earn) / Opal Kulwipa(Amy) × Mint Benjanee(Sophie) / Puyfai Tharathip(Jane) × Ploy Jhutamas(Nano)（群像劇4ペア）",
     "tags": {
       "genre": [
         "校園もの",
@@ -3030,7 +3030,7 @@
         "名門女子校×禁断の群像劇",
         "大胆な描写と脚本",
         "FRT Entertainment初GL",
-        "MyDramaList 9.7/10の高評価"
+        "MyDramaList 8.5/10（1,078ユーザー評価）"
       ],
       "recommend_for": [
         "ダーク・禁断ものが好き",
@@ -3043,26 +3043,46 @@
         "重い/濃厚描写が苦手",
         "18歳未満"
       ],
-      "body_ja": "FRT Entertainment（俳優Flute Chinnapat氏がCEO兼監督）が手がけた初のGL作品。全12話。\n\nタイの名門女子校を舞台に、6人の生徒と1人の教師が織りなす禁断の恋・秘密・スキャンダルを描くダークな群像劇。従来のGLロマンスの枠を大きく超え、SNS時代のキャンセルカルチャーや成長の痛みをリアルに描写する。\n\nMyDramaListではEP1が9.7/10と極めて高い評価を獲得。Redditでは『2026年最も大胆なタイGL』と評されている。18+指定で、校園ものでありながら大人向けの緊張感と濃厚な描写を持つ意欲作。\n\nダーク・禁断ものや、校園×大人向けの群像劇を求める人に強くおすすめ。",
+      "body_ja": "FRT Entertainment（俳優Flute Chinnapat氏がCEO兼監督）が手がけた初のGL作品。全12話。\n\nタイの名門女子校を舞台に、6人の生徒と1人の教師が織りなす禁断の恋・秘密・スキャンダルを描くダークな群像劇。従来のGLロマンスの枠を大きく超え、SNS時代のキャンセルカルチャーや成長の痛みをリアルに描写する。\n\nMyDramaListでは8.5/10（1,078ユーザー）の高評価を獲得。Redditでは『2026年最も大胆なタイGL』と評されている。18+指定で、校園ものでありながら大人向けの緊張感と濃厚な描写を持つ意欲作。\n\nダーク・禁断ものや、校園×大人向けの群像劇を求める人に強くおすすめ。",
       "reviewer": "yurithai-editor"
     },
     "confidence": "H 高",
-    "note": "FRT Entertainment初のGL作品 / 監督: Flute Chinnapat Kittichaiwarangkul / タイ放送: 2026年4月18日〜毎週金曜 TrueVisions NOW / 全12話 / 世界配信（UNCUT版）: 2026年6月6日〜 FRT Entertainment YouTubeメンバーシップ / 毎週土曜20:00（タイ時間）新エピソード公開",
+    "note": "FRT Entertainment初のGL作品 / 監督: Flute Chinnapat Kittichaiwarangkul / タイ放送: 2026年4月18日〜毎週土曜20:00 TrueVisions NOW / 全12話（EP1-6前半完了、後半EP7-12放送日未定） / 世界配信（UNCUT版）: 2026年6月6日〜 FRT Entertainment YouTube（無料） / 毎週土曜20:00 ICT新エピソード公開 / EP6はMid-Season Finale",
     "cover_gradient": null,
     "cover_image": "/images/dramas/shades.jpg",
     "cover_credit": null,
     "instagram_post": "https://www.instagram.com/shadesofficial.frt/",
+    "twitter": "https://x.com/Shades_GL",
     "youtube_teaser": "https://youtu.be/NhK6U0NrjD8",
+    "episode_schedule": [
+      {"ep": 1, "title": "Surface", "air_date": "2026-04-18", "duration": "53min", "uncut_date": "2026-06-06"},
+      {"ep": 2, "title": "Hope", "air_date": "2026-04-25", "duration": "49min", "uncut_date": "2026-06-13"},
+      {"ep": 3, "title": "Anger", "air_date": "2026-05-02", "duration": "50min", "uncut_date": "2026-06-20"},
+      {"ep": 4, "title": "Despair", "air_date": "2026-05-09", "duration": "62min", "uncut_date": "2026-06-27"},
+      {"ep": 5, "title": "Exposed", "air_date": "2026-05-16", "duration": "51min", "uncut_date": "2026-07-04"},
+      {"ep": 6, "title": "Shades (Mid-Season Finale)", "air_date": "2026-05-23", "duration": "62min", "uncut_date": "2026-07-11"},
+      {"ep": 7, "title": "TBA", "air_date": null, "duration": null, "uncut_date": null},
+      {"ep": 8, "title": "TBA", "air_date": null, "duration": null, "uncut_date": null},
+      {"ep": 9, "title": "TBA", "air_date": null, "duration": null, "uncut_date": null},
+      {"ep": 10, "title": "TBA", "air_date": null, "duration": null, "uncut_date": null},
+      {"ep": 11, "title": "TBA", "air_date": null, "duration": null, "uncut_date": null},
+      {"ep": 12, "title": "TBA", "air_date": null, "duration": null, "uncut_date": null}
+    ],
     "streaming": [
       {
         "platform": "TrueVisions NOW",
-        "url": "https://www.truevisionsnow.com",
-        "note": "タイ国内向け / 毎週金曜放送"
+        "url": "https://truevisions.co.th/movieseries/29001/en/",
+        "note": "タイ国内向け / 毎週土曜20:00 ICT / EP1-6放送済み（前半完了）"
       },
       {
-        "platform": "FRT Entertainment YouTube（UNCUT版）",
+        "platform": "FRT Entertainment YouTube（UNCUT版・無料）",
+        "url": "https://www.youtube.com/playlist?list=PLI1xfwk6UKPl0EdIc_wRAKt9OCm7GyVDe",
+        "note": "2026年6月6日〜世界配信 / 毎週土曜20:00 ICT / 無料視聴可（UNCUT完全版）/ 現在EP1-2配信済み"
+      },
+      {
+        "platform": "FRT Entertainment YouTube メンバーシップ",
         "url": "https://www.youtube.com/@FRTEntertainment",
-        "note": "メンバーシップ限定 / 2026年6月6日〜世界配信 / 毎週土曜20:00 ICT"
+        "note": "先行視聴可能 / 有料メンバーシップ"
       }
     ],
     "title_th": "SHADES"

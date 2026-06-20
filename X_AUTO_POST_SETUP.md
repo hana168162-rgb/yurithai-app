@@ -5,32 +5,107 @@ YuriThai は **毎日のブログ記事を自動で X に投稿する機能**を
 
 ---
 
-## 1. アーキテクチャ
+## 1. アーキテクチャ — 1日3スロット運用
 
 ```
-content/blog/*.md (新規記事 commit)
-       ↓
-   Vercel デプロイ
-       ↓
-[Vercel Cron Jobs] (毎日 09:00 / 18:00 JST)
+[Vercel Cron Jobs] (毎日 09:00 / 13:00 / 18:00 JST = 1日3スロット)
        ↓
 GET /api/cron/auto-tweet
        ↓
-1. getAllBlogPosts() で全記事取得
-2. 「今日 (JST)」の日付の記事を抽出
-3. 各記事を X に投稿
-   - 「📖 新着記事」or「🗓 デイリー速報」プレフィックス
-   - description（自動省略・280字以内）
-   - URL（t.co 短縮で 23 文字計算）
-   - #タイGL + タグから最大 3 つ
-4. 結果を JSON で返す
+スロット番号を JST 時刻から自動判定 (0/1/2)
+       ↓
+当日付の新着ブログ記事を slug 昇順で並べる
+       ↓
+┌─ blogs[slot] が存在 → 新着ブログ投稿
+│
+└─ 存在しない → スロット別フォールバック
+     slot 0 → 過去ブログ再紹介 (throwback-blog)
+     slot 1 → 放送中作品の紹介 (drama-airing)
+     slot 2 → ローテーション (完結作品 / 過去ブログ / 診断)
+       ↓
+ツイート文を組み立て (280字以内に自動整形)
+       ↓
+X に投稿
 ```
 
-- **投稿日 = `date` フィールド（JST 当日）が一致するときだけ投稿**するので、
-  古い記事や未来日の予約記事は無視されます。
-- **1 回の実行で最大 5 件**まで（連投防止の安全装置）。
-- **Vercel Cron は 1 日 2 回** スケジュール済み（09:00 JST と 18:00 JST）。
-  Manus の自動更新が朝に走るパターンと、夕方の追加記事の両方に対応。
+### 投稿の種類と日次イメージ
+
+| スロット | JST 時刻 | 当日新着ブログあり | 新着なし時のフォールバック |
+|---|---|---|---|
+| **0** morning | 09:00 | blogs[0] を投稿 | 過去ブログ再紹介 |
+| **1** noon | 13:00 | blogs[1] を投稿 | 放送中作品の紹介 |
+| **2** evening | 18:00 | blogs[2] を投稿 | 完結作品 / 過去ブログ / 診断のローテ |
+
+### 重要な仕様
+
+- **対象は「ブログ記事のみ」**（`sns-update` カテゴリは除外。Manus 速報は対象外）
+- **新着の判定**は `date` フィールドが JST 当日と一致するもの
+- **同じ日に同じ内容を投稿しないため**、フォールバック内の選択は `date + slot` を seed にした決定的ハッシュで決定
+- **過去ブログ**は「公開から 14 日以上経過」を再紹介の対象に
+- **毎日必ず 3 回**投稿する（ブログが無い日もフォールバックで動く）
+
+### ツイートのフォーマット
+
+```
+[ヘッダ絵文字付きラベル]
+
+[タイトル]
+
+[1行フック]
+
+[URL]
+#タイGL (#追加タグ)
+```
+
+### 投稿例
+
+新着ブログ:
+```
+🌸 新着記事
+
+本日プレミア：In Love Forever 第1話 — LingOrm 第3作、今夜 22:30 JST から
+
+2026年6月19日（金）22:30 JST、LingOrm の Channel 3 第3作『In Love Forever』第1話が放送開始。…
+
+https://yurithai.jp/blog/in-love-forever-premiere-day
+#タイGL #LingOrm
+```
+
+過去ブログ再紹介:
+```
+📚 アーカイブから
+
+ShellyPundao 完全ガイド
+
+無名から Roller Coaster 主演まで、新世代ペアの軌跡を追う。
+
+https://yurithai.jp/blog/shellypundao-feature
+#タイGL
+```
+
+放送中作品紹介:
+```
+🎬 放送中の注目作
+
+Chasing Love（ตามล่าหารัก）
+
+CHANGE2561 Original制作 / 原作Peony / 監督Bo Pantip Vibultham
+
+https://yurithai.jp/dramas/chasing-love
+#タイGL
+```
+
+診断プロモ:
+```
+✦ おすすめ診断
+
+タイGL、何から観ればいい？
+
+5 問の質問で、あなたに合う 1 作をマッチング。
+
+https://yurithai.jp/recommend
+#タイGL #タイGLおすすめ
+```
 
 ---
 
@@ -143,58 +218,61 @@ curl -H "Authorization: Bearer $CRON_SECRET" \
 
 ## 5. Cron スケジュール
 
-`vercel.json` で 2 回 / 日 設定済み：
+`vercel.json` で 3 回 / 日 設定済み：
 
 ```json
 {
   "crons": [
-    { "path": "/api/cron/auto-tweet", "schedule": "0 0,9 * * *" }
+    { "path": "/api/cron/auto-tweet", "schedule": "0 0,4,9 * * *" }
   ]
 }
 ```
 
-| Cron 時刻 (UTC) | JST | 想定用途 |
-|---|---|---|
-| 00:00 | 09:00 | Manus デイリー速報の自動投稿（朝） |
-| 09:00 | 18:00 | 編集者が午後に書いた記事の自動投稿（夕方） |
+| Cron 時刻 (UTC) | JST | スロット | 用途 |
+|---|---|---|---|
+| 00:00 | 09:00 | 0 (morning) | 新着ブログ[0] or 過去ブログ再紹介 |
+| 04:00 | 13:00 | 1 (noon) | 新着ブログ[1] or 放送中作品 |
+| 09:00 | 18:00 | 2 (evening) | 新着ブログ[2] or ローテ |
 
 スケジュールを変更したい場合は `vercel.json` の `schedule` を編集してデプロイ。
 
 ---
 
-## 6. 投稿テキストの仕様
+## 6. 手動テスト・デバッグ
 
-`lib/twitter.ts` の `buildTweetText()` で生成されます。
+エンドポイントに以下のクエリを付けるとデバッグできます:
 
-### 通常記事の例
+- `?dry=1` : 実投稿せず生成テキストだけ JSON で返す（プレビュー専用）
+- `?slot=0|1|2` : スロットを強制指定（時刻判定をバイパス）
 
-```
-📖 新着記事 タイGL × オフィス職場ロマンス完全ガイド — GAP から Hak Na My Boss まで、上司×部下構造の系譜
-
-タイGL における職場ロマンス／オフィスもの作品を横断整理。GAP（2022）が確立した『社長×部下』のテンプレートから、Affair の屋敷内ヒエラルキー、Whale Store xoxo の食料品店、そして Hak Na My Boss の輸出入会社まで…
-
-https://yurithai.jp/blog/thai-gl-office-romance-guide
-
-#タイGL #タイGL #オフィスロマンス #職場恋愛 #GAP
+例: 「今、夕方枠で出すならどんな文面？」を見たい時:
+```bash
+curl -H "Authorization: Bearer $CRON_SECRET" \
+  "https://yurithai.jp/api/cron/auto-tweet?slot=2&dry=1"
 ```
 
-### Manus デイリー速報の例
-
+レスポンス例:
+```json
+{
+  "ok": true,
+  "today": "2026-06-20",
+  "slot": 2,
+  "type": "diagnostic",
+  "text": "✦ おすすめ診断\n\nタイGL、何から観ればいい？\n\n5 問の質問で…",
+  "length": 117,
+  "dry": true
+}
 ```
-🗓 デイリー速報 【本日更新】タイGL最新公式情報まとめ（2026年6月19日）
 
-In Love Forever本日プレミア、BBFanFest2026ハイライト、GMMTV Outing 2026、NorthStar最新情報など今週のGL情報を総まとめ。
+### type の意味
 
-https://yurithai.jp/blog/2026-06-19-daily-update
-
-#タイGL #Instagram #最新情報 #InLoveForever
-```
-
-- **プレフィックス絵文字**：`sns-update` カテゴリは 🗓、それ以外は 📖
-- **タイトル**：そのまま
-- **説明文**：280 字に収まるよう自動省略
-- **URL**：`https://yurithai.jp/blog/{slug}` 固定
-- **ハッシュタグ**：`#タイGL` 固定 + 記事の `tags[]` から先頭3つ
+| type | 内容 |
+|---|---|
+| `new-blog` | 当日付の新着ブログ |
+| `throwback-blog` | 14日以上前のブログ再紹介 |
+| `drama-airing` | 放送中作品の紹介 |
+| `drama-completed` | 完結作品の紹介 |
+| `diagnostic` | 診断 (/recommend) のプロモ |
 
 ---
 

@@ -167,7 +167,7 @@ NileNamwan という新ペアの**最初の名刺代わり**として、現代�
 放送中4作の **次に来る** ラインナップ：
 
 - **[In Love Forever](/dramas/in-love-forever)** — 6/19 開始、[LingOrm](/cast/ling) の Channel 3 第3作（偽装再婚 GL）
-- **[AI Girl Series](/dramas/ai-girl)** — 6/24 開始、Me Mind Y × MAME、人型 AI ロボット GL（詳細は [AI Girl 先行ガイド](/blog/ai-girl-pilot-preview)）
+- **[AI Girl Series](/dramas/ai-girl)** — 7/1 開始（当初 6/24 から 1 週間延期）、Me Mind Y × MAME、人型 AI ロボット GL（詳細は [AI Girl 先行ガイド](/blog/ai-girl-pilot-preview)）
 - **[The Fire](/dramas/the-fire)** — 7/11 開始、4 Elements シリーズ最終章、[NamneungNoey](/cast/namneung) 主演
 
 つまり、**2026 年は 7 月以降も新作ラッシュ**が続きます。サイトでは [タイGL 公開予定一覧](/dramas/upcoming) で常時更新中。

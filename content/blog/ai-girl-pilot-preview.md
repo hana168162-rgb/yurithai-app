@@ -1,6 +1,6 @@
 ---
-title: "AI Girl Series 先行ガイド — タイ初の人型AIロボットGL、6月24日プレミア"
-description: "Me Mind Y の More Than Her Project 第2弾『AI Girl Series（จะ Gen จนกว่าจะเจอ）』が2026年6月24日に YouTube プレミア。Mayyu Kawisara × Chanya Amarit Duval、脚本は MAME。タイGL初の人型AIロボット題材作品の見どころ・配信先・全7話スケジュールを、プレミア前にまとめます。"
+title: "AI Girl Series 先行ガイド — タイ初の人型AIロボットGL、7月1日プレミア（1週間延期）"
+description: "Me Mind Y の More Than Her Project 第2弾『AI Girl Series（จะ Gen จนกว่าจะเจอ）』が2026年7月1日に YouTube プレミア（公式アナウンスにより当初の6/24から1週間延期）。Mayyu Kawisara × Chanya Amarit Duval、脚本は MAME。タイGL初の人型AIロボット題材作品の見どころ・配信先・全7話スケジュールを、プレミア前にまとめます。"
 date: "2026-06-08"
 category: "drama-feature"
 tags: ["AI Girl", "MayyuChanya", "Me Mind Y", "MAME", "More Than Her Project", "AI", "ロボット", "パイロット"]
@@ -9,7 +9,7 @@ cover_image: "/images/dramas/ai-girl.jpg"
 
 タイGL ファンが**6月後半の最大の事件**として注目しているのが、**[AI Girl Series（จะ Gen จนกว่าจะเจอ）](/dramas/ai-girl)** です。
 **Me Mind Y** が「More Than Her Project」第2弾として打ち出す本作は、**タイGL 史上初の "人型 AI ロボット" 題材作品**。
-**2026年6月24日（水）20:00（タイ時間）**、YouTube MeMindY Official でプレミア、続けて 21:00 から iQIYI で UNCUT 版が独占配信されます。
+**2026年7月1日（水）20:00（タイ時間）**、YouTube MeMindY Official でプレミア、続けて 21:00 から iQIYI で UNCUT 版が独占配信されます（※当初の 6/24 から **1週間延期** が公式アナウンス済み）。
 
 主演ペアは **[Mayyu Kawisara × Chanya Amarit Duval](/cast/mayyu)（MayyuChanya）**。
 脚本は、**TharnType** など BL の大ヒット作で知られる **MAME（Mae Arawann）**。
@@ -31,7 +31,7 @@ cover_image: "/images/dramas/ai-girl.jpg"
 | **製作総指揮** | Orawan Wichchayawannakul |
 | **主演** | [MayyuChanya](/cast/mayyu)（Mayyu × Chanya） |
 | **話数** | **全7話** |
-| **プレミア** | **2026年6月24日（水）20:00 タイ時間** |
+| **プレミア** | **2026年7月1日（水）20:00 タイ時間** |
 | **最終回** | 2026年8月5日（水） |
 | **配信** | YouTube MeMindY Official / iQIYI（UNCUT 版独占）|
 | **ハッシュタグ** | #AIGirlSeries #จะGenจนกว่าจะเจอ #MoreThanHerProject #MeMindY |
@@ -85,13 +85,13 @@ Me Mind Y は元々**タイ BL の老舗スタジオ**で、TharnType・Don't Sa
 
 | エピソード | 放送日 | ハッシュタグ |
 |---|---|---|
-| EP.1 | **2026年6月24日（水）** | #AIGirlEP1 |
-| EP.2 | 2026年7月1日（水） | #AIGirlEP2 |
-| EP.3 | 2026年7月8日（水） | #AIGirlEP3 |
-| EP.4 | 2026年7月15日（水） | #AIGirlEP4 |
-| EP.5 | 2026年7月22日（水） | #AIGirlEP5 |
-| EP.6 | 2026年7月29日（水） | #AIGirlEP6 |
-| EP.7（最終回） | **2026年8月5日（水）** | #AIGirlFinalEP |
+| EP.1 | **2026年7月1日（水）** | #AIGirlEP1 |
+| EP.2 | 2026年7月8日（水） | #AIGirlEP2 |
+| EP.3 | 2026年7月15日（水） | #AIGirlEP3 |
+| EP.4 | 2026年7月22日（水） | #AIGirlEP4 |
+| EP.5 | 2026年7月29日（水） | #AIGirlEP5 |
+| EP.6 | 2026年8月5日（水） | #AIGirlEP6 |
+| EP.7（最終回） | **2026年8月12日（水）** | #AIGirlFinalEP |
 
 毎週水曜の更新で、約6週間でフィナーレ。短期集中型なので**最初から最終話まで一気に追える**ボリュームです。
 
@@ -166,4 +166,4 @@ Me Mind Y は元々**タイ BL の老舗スタジオ**で、TharnType・Don't Sa
 
 **「AI が人間を愛する」のではなく、「人間が AI を愛してしまう」物語。**
 タイGL がここまで多様なジャンルに踏み込めるようになったこと自体が、ジャンルの成熟と層の厚みを示しています。
-**6月24日（水）20:00 タイ時間（22:00 JST）**、YouTube MeMindY Official で第1話が公開されたら、ぜひリアルタイムで体験してみてください。
+**7月1日（水）20:00 タイ時間（22:00 JST）**、YouTube MeMindY Official で第1話が公開されたら、ぜひリアルタイムで体験してみてください。

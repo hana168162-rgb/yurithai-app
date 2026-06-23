@@ -9,7 +9,7 @@ cover_image: "/images/dramas/ai-girl.jpg"
 
 タイの BL ファンに **"MAME"** という名前は説明不要のレジェンドです。
 **TharnType: The Series**（2019）、**Don't Say No**（2021）、**Love By Chance**（2018）、**Love Storm**、**Love Sky** ── タイ BL の世界的ヒットを次々と世に送り出し、自身の小説 12 冊以上が**シェアードユニバース「MameVerse」**を成すこの怪物作家が、2026 年、ついに**人生初の GL 主流作**の脚本に挑みます。
-作品は、Me Mind Y の More Than Her Project 第2弾 **[AI Girl Series](/dramas/ai-girl)**（6/24プレミア）。
+作品は、Me Mind Y の More Than Her Project 第2弾 **[AI Girl Series](/dramas/ai-girl)**（7/1 プレミア、当初 6/24 から 1 週間延期）。
 
 しかも MAME は、その制作会社 **Me Mind Y の共同創業者**でもあります。
 書く側であり、作る側であり、業界そのものを動かしてきた人物が、**BL から GL に物理的に "場所を移す"** ── これは、ジャンル単独の事件ではなく、**タイ・クィア・コンテンツ全体の構造変化**を象徴する出来事です。

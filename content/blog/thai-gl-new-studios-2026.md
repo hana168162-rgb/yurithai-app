@@ -10,7 +10,7 @@ cover_image: "/images/dramas/ai-girl.jpg"
 タイGL 界隈で、いま **「制作スタジオの地図が書き換わっている」**という空気が広がっています。
 2026 年の前半だけで、これまで GL を扱ってこなかった **3つの主要プロダクション**が、立て続けにジャンルへ参入しました。
 
-- **Me Mind Y** ── タイBL の老舗が「**More Than Her Project**」で GL ライン本格化、[AI Girl Series](/dramas/ai-girl) を6/24プレミア
+- **Me Mind Y** ── タイBL の老舗が「**More Than Her Project**」で GL ライン本格化、[AI Girl Series](/dramas/ai-girl) を7/1プレミア（公式アナウンスにより1週間延期）
 - **S Class Entertainment** ── 同社**初の GL シリーズ** [Hak Na My Boss](/dramas/hak-na-my-boss) で、監督に **[Tanwarin Sukkhapisit](/blog/tanwarin-sukkhapisit-feature)** を起用
 - **Pro Gold** ── タイGL ではほぼ前例のない **時代物 × 時間移動** 路線 [Since Norita](/dramas/since-norita) で進出
 
@@ -37,7 +37,7 @@ cover_image: "/images/dramas/ai-girl.jpg"
   - 主演: **[Mayyu Kawisara × Chanya Amarit Duval](/cast/mayyu)（MayyuChanya）**
   - 脚本: **MAME（Mae Arawann）** ── タイ BL 界のヒットメイカー
   - 監督: ธัญพิสิษฐ์ จิระเดชากุล
-  - **6/24 プレミア**、YouTube + iQIYI UNCUT、全7話
+  - **7/1 プレミア**（当初 6/24 から 1 週間延期）、YouTube + iQIYI UNCUT、全7話
 - **配信戦略**：YouTube（無料）× iQIYI UNCUT 版（独占）の二段構え
 
 「**MAME という BL 界の女王が GL の脚本を書く**」という事実だけでも事件で、**Me Mind Y の本気度**を象徴しています。詳細は [AI Girl Series 先行ガイド](/blog/ai-girl-pilot-preview) を参照。
@@ -164,7 +164,7 @@ Tanwarin（トランス監督）× Yoshi（トランス主演）× S Class（同
 | 作品 | 開始 | スタジオ | 理由 |
 |---|---|---|---|
 | **In Love Forever** | **6/19** | BEC World | LingOrm 第3作、地上波枠の最大化 |
-| **AI Girl Series** | **6/24** | Me Mind Y | BL 老舗の GL 進出、MAME 脚本 |
+| **AI Girl Series** | **7/1** | Me Mind Y | BL 老舗の GL 進出、MAME 脚本（6/24 から 1 週間延期） |
 | **The Fire** | **7/11** | Idol Factory × North Star | 4 Elements 最終章 |
 | **Hak Na My Boss** | 2026 内 | S Class | Tanwarin 監督 GL 初挑戦 |
 | **Since Norita** | 2026 内 | Pro Gold | 時間移動 GL、新興スタジオ |

@@ -82,7 +82,7 @@ SHADESは毎週土曜日にYouTube（FRT公式チャンネル）で世界配信�
 
 ### 来週の注目
 
-- **6/24（火）**: AI Girl（Me Mind Y）放送開始。MyyuChanyaペアリング。
+- **7/1（水）**: AI Girl（Me Mind Y）放送開始。MyyuChanyaペアリング（※当初の 6/24 から 1 週間延期）。
 
 ---
 

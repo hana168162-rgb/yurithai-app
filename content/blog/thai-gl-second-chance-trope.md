@@ -1,7 +1,7 @@
 ---
 title: "タイGL「再会もの／second chance」完全特集 — Affair から In Love Forever まで、もう一度恋に落ちる物語の系譜"
 description: "タイGL における再会・元恋人・偽装再婚（second chance）モチーフを横断整理。Affair（LMSY）、The Secret of Us（LingOrm）、Only You（LingOrm）、Roller Coaster（ShellyPundao）、そして In Love Forever（LingOrm）まで。『once lovers, now strangers』が GL でなぜここまで響くのかを構造分析します。"
-date: "2026-06-20"
+date: "2026-06-23"
 category: "guide"
 tags: ["タイGL", "再会もの", "second chance", "元恋人", "偽装再婚", "Affair", "The Secret of Us", "Only You", "Roller Coaster", "In Love Forever", "LingOrm", "LMSY", "ShellyPundao", "トロープ"]
 cover_image: "/images/dramas/the-secret-of-us.jpg"

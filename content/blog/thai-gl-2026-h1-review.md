@@ -1,7 +1,7 @@
 ---
 title: "タイGL 2026年上半期 総括 — 押さえておきたい10作と、業界が辿った半年"
 description: "2026年1月〜6月にタイで放送・配信されたタイGLドラマを総括。The Earth・Heart Code・Play Park・Fulfill から、放送中の The Air・In Love Forever まで、上半期を象徴する10本と業界の動きを整理。新興ペアの台頭、Channel 3 の独走、4 Elements シリーズの軌跡まで、半年間のタイGL を一望できる総括記事です。"
-date: "2026-06-20"
+date: "2026-06-23"
 category: "feature"
 tags: ["タイGL", "2026年", "上半期", "総括", "ランキング", "おすすめ", "The Earth", "Fulfill", "The Air", "In Love Forever", "Heart Code", "Play Park"]
 cover_image: "/images/dramas/the-air.jpg"

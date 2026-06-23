@@ -1,7 +1,7 @@
 ---
 title: "In Love Forever 第1話、構造的に読む — LingOrm 再会三部作完結編が冒頭で決めたこと"
 description: "2026年6月19日放送開始の In Love Forever（วาดฝันวันวิวาห์）第1話を構造から読み解く。離婚 → 偽装再婚という second chance × fake relationship のハイブリッドが、初回でどんな枠組みを提示したのか。LingOrm『再会三部作』完結編としての位置付け、Channel 3 BEC World の演出文法、そして第2話以降の注目ポイントを整理します。"
-date: "2026-06-20"
+date: "2026-06-23"
 category: "drama-feature"
 tags: ["In Love Forever", "LingOrm", "LingLing Kwong", "Orm Kornnaphat", "BEC World Originals", "Channel 3", "第1話", "構造分析", "再会もの", "偽装結婚"]
 cover_image: "/images/dramas/in-love-forever.jpg"

@@ -1,9 +1,9 @@
 ---
-title: "OrmFolk 特集 — Apple My Love から (your) Apple へ、記憶と運命のインディーズGL"
-description: "Ormsin × Folk（OrmFolk）。Apple My Love（2024）と続編 (your) Apple（2025）で、記憶・運命をテーマにしたファンタジックなロマンスを描いたインディーズGLペアの魅力を解説します。"
+title: "OrmFolk 特集 — Apple My Love から My Lady's Bodyguard へ、現代→時代劇に拡張するインディーズGL"
+description: "Ormsin × Folk（OrmFolk）。Apple My Love（2024）と続編 (your) Apple（2025）で、記憶・運命をテーマにしたファンタジックなロマンスを描いてきたインディーズGLペアが、2026年6月25日プレミアの時代劇 My Lady's Bodyguard で新境地へ。3作分の歩みを総覧します。"
 date: "2026-05-25"
 category: "pair-feature"
-tags: ["OrmFolk", "Ormsin", "Folk", "Apple My Love", "your Apple", "Two Worlds Production", "Kongthup Production"]
+tags: ["OrmFolk", "Ormsin", "Folk", "Apple My Love", "your Apple", "My Lady's Bodyguard", "Two Worlds Production", "Kongthup Production"]
 cover_image: "/images/dramas/apple-my-love.jpg"
 ---
 
@@ -55,6 +55,24 @@ GagaOOLala・YouTube で配信され、短編ながらコアなファンを獲�
 2025年4月から、毎週金土日に YouTube（Kongthup Channel）で配信されました。
 
 [(your) Apple 作品詳細 →](/dramas/your-apple)
+
+---
+
+## 第3作：My Lady's Bodyguard（2026・全11話 + Special EP）
+
+OrmFolk が **2026 年 6 月 25 日（木）**にプレミアを迎える **3 作目**が、
+[My Lady's Bodyguard](/dramas/my-ladys-bodyguard)（องครักษ์พิทักษ์แม่หญิงจอมซน）です。
+
+- **舞台**: タイ伝統衣装の**時代劇 GL**（前 2 作の現代もの・ファンタジーから大きく方向転換）
+- **役柄**: Ormsin = **Kaewked（แก้วเกศ）**＝お転婆なお姫さま / Folk = **Rinkham（รินคำ）**＝女性護衛官
+- **構造**: 身分差 × 護衛役 × 時代背景という、OrmFolk 初の本格時代劇ロマンス
+- **放送**: 2026年6月25日〜9月3日、毎週木曜 20:00 タイ時間（22:00 JST）
+- **配信**: YouTube Kongthup's Channel（Kongthup Family Members は 1 話先行視聴）
+- **構成**: 全 11 話 + Special EP
+
+タグライン「**Disguise might able to hide the truth, but it can never hide the 'feelings' born within the heart.**」が示すように、 **正体を隠した護衛 × 守られる立場のお姫さま**という、second chance ではない**正統派の「身分・立場差ロマンス」**を、Kongthup's Production が前 2 作で培った OrmFolk の温度感で描きます。
+
+[My Lady's Bodyguard 作品詳細 →](/dramas/my-ladys-bodyguard)
 
 ---
 

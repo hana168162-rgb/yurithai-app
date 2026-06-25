@@ -16,6 +16,16 @@ cover_image: "/images/dramas/my-ladys-bodyguard.jpg"
 
 ---
 
+## 🎬 公式ティーザー
+
+公式に公開されたティーザーで、世界観・衣装・トーンが一気に伝わります。
+
+[▶ My Lady's Bodyguard 公式ティーザーを観る](https://youtu.be/tq-GGjCLdHU)
+
+タイ伝統衣装をまとった Ormsin・Folk のビジュアル、市場や寺院のロケーション、剣をたずさえた護衛官の佇まいなど、**時代劇 GL** らしい質感をぜひ目で確認してみてください。
+
+---
+
 ## 📌 基本情報まとめ
 
 | 項目 | 内容 |

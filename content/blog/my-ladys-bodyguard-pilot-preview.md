@@ -4,7 +4,7 @@ description: "Kongthup's Production が送る OrmFolk 第3作『My Lady's Bodygu
 date: "2026-06-23"
 category: "drama-feature"
 tags: ["My Lady's Bodyguard", "OrmFolk", "Ormsin", "Folk", "Kongthup's Production", "時代劇", "身分差", "プレミア", "2026"]
-cover_image: null
+cover_image: "/images/dramas/my-ladys-bodyguard.jpg"
 ---
 
 **[OrmFolk](/blog/ormfolk-feature)（Ormsin × Folk）の 3 作目**が、いよいよ来週プレミアを迎えます。

@@ -128,8 +128,8 @@
     "title_th": "ชั่วโมงทดลองรัก",
     "production": "K11D HOUSE",
     "cast_pair": "Kitty Nunthaphuck × Punch Naphassanan（KittyPunch）",
-    "status": "airing",
-    "note": "K11D HOUSE制作 / Vibeberry Studio協力 / 新ペア KittyPunch 主演 / 2026年5月29日 EP1 公開 / 毎週金曜 YouTube 公開",
+    "status": "completed",
+    "note": "K11D HOUSE制作 / Vibeberry Studio協力 / 新ペア KittyPunch 主演 / 2026年5月29日〜6月19日 / 毎週金曜 YouTube 公開 / 全4話完結",
     "cover_image": "/images/dramas/rental-love-lab.jpg",
     "cover_credit": null,
     "youtube_teaser": "https://youtu.be/CufGfB9ylDw",
@@ -140,8 +140,8 @@
       }
     ],
     "start_date": "2026-05-29",
-    "end_date": null,
-    "episodes": null
+    "end_date": "2026-06-19",
+    "episodes": 4
   },
   {
     "id": 108,
@@ -199,5 +199,29 @@
     "start_date": "2026-06-19",
     "end_date": null,
     "episodes": null
+  },
+  {
+    "id": 110,
+    "slug": "my-ladys-bodyguard",
+    "title_ja": "My Lady's Bodyguard",
+    "title_en": "My Lady's Bodyguard",
+    "title_th": "องครักษ์พิทักษ์แม่หญิงจอมซน",
+    "production": "Kongthup's Production",
+    "cast_pair": "Ormsin Supitcha Limsommut × Folk Sutima Korkiatvanich（OrmFolk）",
+    "status": "airing",
+    "note": "Kongthup's Production 制作 / OrmFolk ペアの第3作（Apple My Love・(your) Apple に続く）/ Ormsin = Kaewked（แก้วเกศ）役（お姫さま）、Folk = Rinkham（รินคำ）役（女性護衛官）/ 2026年6月25日 EP1 放送開始、毎週木曜 20:00 タイ時間（22:00 JST）/ YouTube Kongthup's Channel で配信、Kongthup Family Members 向けに 1 話先行 / 全11話 + Special EP / 最終放送 2026年9月3日 / タイ伝統衣装の時代劇 GL、お姫さま × 女性護衛官の身分差ロマンス / ハッシュタグ #MyLadysBodyguard #องครักษ์พิทักษ์แม่หญิงจอมซน #ormfolk #omeorm #ffolky",
+    "cover_image": "/images/dramas/my-ladys-bodyguard.jpg",
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/tq-GGjCLdHU",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/3QCTtz_y4JU",
+        "note": "Kongthup's Channel EP1、無料 / 以降は毎週木曜 20:00 タイ時間"
+      }
+    ],
+    "start_date": "2026-06-25",
+    "end_date": "2026-09-03",
+    "episodes": 11
   }
 ]

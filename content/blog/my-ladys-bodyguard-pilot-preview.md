@@ -7,22 +7,24 @@ tags: ["My Lady's Bodyguard", "OrmFolk", "Ormsin", "Folk", "Kongthup's Productio
 cover_image: "/images/dramas/my-ladys-bodyguard.jpg"
 ---
 
-**[OrmFolk](/blog/ormfolk-feature)（Ormsin × Folk）の 3 作目**が、いよいよ来週プレミアを迎えます。
+**[OrmFolk](/blog/ormfolk-feature)（Ormsin × Folk）の 3 作目**、いよいよ **本日プレミア**を迎えました。
 
 タイトルは **[My Lady's Bodyguard（องครักษ์พิทักษ์แม่หญิงจอมซน）](/dramas/my-ladys-bodyguard)**。
-**Kongthup's Production** 制作の全 11 話 + Special EP、**2026 年 6 月 25 日（木）20:00 タイ時間（22:00 JST）**から、YouTube **Kongthup's Channel** で毎週木曜配信されます。
+**Kongthup's Production** 制作の全 11 話 + Special EP、**2026 年 6 月 25 日（木）20:00 タイ時間（22:00 JST）**より、YouTube **Kongthup's Channel** で毎週木曜配信開始。
 
-本記事は、プレミア前に押さえておきたい **作品の構造・キャスト・全話スケジュール** を一覧化した速報ガイドです。
+本記事は、視聴前に押さえておきたい **作品の構造・キャスト・全話スケジュール** を一覧化した速報ガイドです。
 
 ---
 
-## 🎬 公式ティーザー
+## 🎬 ▶ EP.1 を観る
 
-公式に公開されたティーザーで、世界観・衣装・トーンが一気に伝わります。
+EP.1 が **YouTube Kongthup's Channel** で公開されました。
 
-[▶ My Lady's Bodyguard 公式ティーザーを観る](https://youtu.be/tq-GGjCLdHU)
+[▶ My Lady's Bodyguard EP.1 を観る](https://youtu.be/3QCTtz_y4JU)
 
-タイ伝統衣装をまとった Ormsin・Folk のビジュアル、市場や寺院のロケーション、剣をたずさえた護衛官の佇まいなど、**時代劇 GL** らしい質感をぜひ目で確認してみてください。
+[▶ 公式ティーザーを観る](https://youtu.be/tq-GGjCLdHU)
+
+タイ伝統衣装をまとった Ormsin・Folk のビジュアル、市場や寺院のロケーション、剣をたずさえた護衛官の佇まいなど、**時代劇 GL** らしい質感を、ぜひ第1話で堪能してみてください。
 
 ---
 

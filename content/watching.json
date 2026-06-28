@@ -223,5 +223,39 @@
     "start_date": "2026-06-25",
     "end_date": "2026-09-03",
     "episodes": 11
+  },
+  {
+    "id": 111,
+    "slug": "shades",
+    "title_ja": "SHADES",
+    "title_en": "SHADES",
+    "title_th": "SHADES",
+    "production": "FRT Entertainment",
+    "cast_pair": "MookShu × NikyEngland × OpalMint × PuyfaiPloy",
+    "status": "airing",
+    "note": "FRT Entertainment初のGL作品 / 監督: Flute Chinnapat Kittichaiwarangkul / 4ペア群像劇: MookShu（Mook Worranit=Nalin先生 × Shu Nannicha=Mink）/ NikyEngland（Niky Warinrat=Belle × England Ladamanee=Earn）/ OpalMint（Opal Kulwipa=Amy × Mint Benjanee=Sophie）/ PuyfaiPloy（Puyfai Tharathip=Jane × Ploy Jhutamas=Nano）/ タイ放送: 2026年4月18日〜毎週土曜20:00 TrueVisions NOW / 全12話（EP1-6前半完了、後半EP7-12放送日未定） / 世界配信（UNCUT版）: 2026年6月6日〜 FRT Entertainment YouTube（無料）/ EP6は Mid-Season Finale / 後半放送日が公式発表され次第更新",
+    "cover_image": "/images/dramas/shades.jpg",
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/NhK6U0NrjD8",
+    "streaming": [
+      {
+        "platform": "TrueVisions NOW",
+        "url": "https://truevisions.co.th/movieseries/29001/en/",
+        "note": "タイ国内向け / 毎週土曜20:00 ICT / EP1-6放送済み（前半完了）"
+      },
+      {
+        "platform": "FRT Entertainment YouTube（UNCUT版・無料）",
+        "url": "https://www.youtube.com/playlist?list=PLI1xfwk6UKPl0EdIc_wRAKt9OCm7GyVDe",
+        "note": "2026年6月6日〜世界配信 / 無料視聴可（UNCUT完全版）"
+      },
+      {
+        "platform": "FRT Entertainment YouTube メンバーシップ",
+        "url": "https://www.youtube.com/@FRTEntertainment",
+        "note": "先行視聴可能 / 有料メンバーシップ"
+      }
+    ],
+    "start_date": "2026-04-18",
+    "end_date": null,
+    "episodes": 12
   }
 ]

@@ -1039,7 +1039,7 @@
       "(Your) Apple"
     ],
     "agency": "Two Worlds Production",
-    "instagram": null,
+    "instagram": "omeormorm",
     "notes": "OrmFolk ペアの Orm。LingOrm の Orm とは別人。",
     "name_en": "Ormsin"
   },
@@ -1056,7 +1056,7 @@
       "(Your) Apple"
     ],
     "agency": "Two Worlds Production",
-    "instagram": null,
+    "instagram": "ffolky",
     "name_en": "Folk"
   },
   {
@@ -1102,7 +1102,7 @@
       "Heart Code"
     ],
     "agency": "Monomax",
-    "instagram": null,
+    "instagram": "tungpangpl",
     "name_en": "Tungpang"
   },
   {
@@ -1117,7 +1117,7 @@
       "Heart Code"
     ],
     "agency": "Monomax",
-    "instagram": null,
+    "instagram": "jessienatsiya.p",
     "name_en": "Jessie"
   },
   {
@@ -1255,7 +1255,7 @@
       "Hidden Heart"
     ],
     "agency": "Star Hunter Entertainment",
-    "instagram": null,
+    "instagram": "praewa.era",
     "notes": "Star Hunter Entertainment所属。Love Senior（2023）のサブカップル → Hidden Heart（2026）でメイン昇格。NoonPraewaペア。",
     "name_en": "Praewa"
   },
@@ -1272,7 +1272,7 @@
       "Hidden Heart"
     ],
     "agency": "Star Hunter Entertainment",
-    "instagram": null,
+    "instagram": "noonntyp",
     "notes": "Star Hunter Entertainment所属。Love Senior（2023）のサブカップル → Hidden Heart（2026）でメイン昇格。NoonPraewaペア。",
     "name_en": "Noon"
   },
@@ -1321,7 +1321,7 @@
       "Love Senior"
     ],
     "agency": "Star Hunter Entertainment",
-    "instagram": null,
+    "instagram": "anda_anunta",
     "notes": "タイ・ガールズグループ COSMOS（Star Hunter Entertainment所属）メンバー。Love SeniorでGLデビュー。",
     "name_en": "Anda"
   },
@@ -1337,7 +1337,7 @@
       "Love Senior"
     ],
     "agency": "Star Hunter Entertainment",
-    "instagram": null,
+    "instagram": "lookkaeww_k",
     "notes": "タイ・ガールズグループ COSMOS（Star Hunter Entertainment所属）メンバー。Love SeniorでGLデビュー。",
     "name_en": "Lookkaew"
   },
@@ -1438,7 +1438,7 @@
       "SHADES"
     ],
     "agency": "FRT Entertainment",
-    "instagram": null,
+    "instagram": "mookworranit",
     "notes": "SHADESでナリン役。MookPinkyのMookとは別人。",
     "name_en": "Mook"
   },
@@ -1454,7 +1454,7 @@
       "SHADES"
     ],
     "agency": "FRT Entertainment",
-    "instagram": null,
+    "instagram": "shuu.nc",
     "notes": "SHADESでミンク役。",
     "name_en": "Shu"
   },
@@ -1502,7 +1502,7 @@
       "AI Girl"
     ],
     "agency": "Me Mind Y",
-    "instagram": null,
+    "instagram": "calledmemyyu.k",
     "notes": "MayyuChanyaペア。AI Girl Series（2026/7/1〜）で Gen 役（内向的な AI 顔デザイナー）として主演デビュー。",
     "name_en": "Mayyu"
   },
@@ -1592,5 +1592,21 @@
     "instagram": "khaimooxs",
     "notes": "NeneKhaimookペア。Since Norita（2026予定）で Phiang Khwan 役（時代パート）に主演。「ไข่มุก」は「真珠」の意味で、タイ女性のニックネームとして一般的。",
     "name_en": "Khaimook"
+  },
+  {
+    "id": "bint",
+    "name_ja": "ビン",
+    "real_name": "Bint Sireethorn",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "khom khlang"
+    ],
+    "agency": "Star Hunter Entertainment",
+    "instagram": "bintsireethorn",
+    "notes": "Star Hunter Entertainment 所属。khom khlang（ข่มขลัง）で BintPuiNoon 3 人主演の一角として登場、霊媒師ブラン役。",
+    "name_en": "Bint"
   }
 ]

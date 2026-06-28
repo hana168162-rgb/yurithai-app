@@ -1071,7 +1071,7 @@
       "PLAYER"
     ],
     "agency": "フリー",
-    "instagram": null,
+    "instagram": "ice_amena",
     "notes": "PLAYER で GL デビュー。",
     "name_en": "Ice"
   },
@@ -1087,7 +1087,7 @@
       "PLAYER"
     ],
     "agency": "フリー",
-    "instagram": null,
+    "instagram": "memibae",
     "name_en": "Memi"
   },
   {
@@ -1193,7 +1193,7 @@
       "Shadow of Love"
     ],
     "agency": "Kongthup Production",
-    "instagram": null,
+    "instagram": "praifahkrp",
     "name_en": "Plaifah"
   },
   {
@@ -1208,7 +1208,7 @@
       "Shadow of Love"
     ],
     "agency": "Kongthup Production",
-    "instagram": null,
+    "instagram": "bebell.q",
     "name_en": "Bebell"
   },
   {
@@ -1288,7 +1288,7 @@
       "My Only Sunshine"
     ],
     "agency": "Star Hunter Entertainment",
-    "instagram": null,
+    "instagram": "atomapcy_",
     "notes": "ラグジュアリーカー幹部 フリント・ラファ役。",
     "name_en": "Aphichaya"
   },
@@ -1304,7 +1304,7 @@
       "My Only Sunshine"
     ],
     "agency": "Star Hunter Entertainment",
-    "instagram": null,
+    "instagram": "mmersedes",
     "notes": "新進女優 サン・アティタ役。",
     "name_en": "Mersedes"
   },
@@ -1557,7 +1557,7 @@
       "Gen Y"
     ],
     "agency": null,
-    "instagram": null,
+    "instagram": "yoshirinrada",
     "notes": "DianaYoshiペア。ロイエット県出身。Miss Tiffany's Universe 2017（タイ最高峰のトランスジェンダー美の祭典）優勝者として知られるトランス女優。The Sign（2023）、Gen Y（2020）出演を経て、Hak Na My Boss（2026予定）で GL 主演に挑戦。Instagram フォロワー約100万。",
     "name_en": "Yoshi"
   },
@@ -1608,5 +1608,37 @@
     "instagram": "bintsireethorn",
     "notes": "Star Hunter Entertainment 所属。khom khlang（ข่มขลัง）で BintPuiNoon 3 人主演の一角として登場、霊媒師ブラン役。",
     "name_en": "Bint"
+  },
+  {
+    "id": "chacha",
+    "name_ja": "チャチャ",
+    "real_name": "Chacha Rita",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Unlock Your Love"
+    ],
+    "agency": "フリー",
+    "instagram": "chacharitaa",
+    "notes": "ChachaCake サブカップル。Unlock Your Love（2024）でディーン役のサブメイン。",
+    "name_en": "Chacha"
+  },
+  {
+    "id": "cake",
+    "name_ja": "ケーク",
+    "real_name": "Cake Nawanine",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Unlock Your Love"
+    ],
+    "agency": "フリー",
+    "instagram": "cakenawanine",
+    "notes": "ChachaCake サブカップル。Unlock Your Love（2024）でパット役のサブメイン。",
+    "name_en": "Cake"
   }
 ]

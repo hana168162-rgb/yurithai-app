@@ -254,7 +254,7 @@ export function DramaFilterBar({
   const renderCard = (d: AnyDrama): ReactNode => {
     switch (cardType) {
       case "drama":
-        return <DramaCard key={d.slug} drama={d as Drama} />;
+        return <DramaCard key={d.slug} drama={d as Drama} hideTags />;
       case "watching": {
         const w = d as WatchingDrama;
         return <WatchingCard key={w.slug} drama={w} cover={w.cover_image} />;

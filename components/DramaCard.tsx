@@ -19,6 +19,35 @@ function selectCardTags(d: Drama): string[] {
   return out.slice(0, 3);
 }
 
+/**
+ * カード内のペア表示。
+ * - 通常（1〜3ペア）: 1 行で表示
+ * - 4 ペア以上の群像劇: モバイルでは半分ずつ 2 行に折り返し、デスクトップでは 1 行
+ */
+function PairLine({ castPair }: { castPair: string }) {
+  const name = shortPairName(castPair);
+  const parts = name.split(" × ");
+  if (parts.length >= 4) {
+    const mid = Math.ceil(parts.length / 2);
+    const top = parts.slice(0, mid).join(" × ");
+    const bottom = parts.slice(mid).join(" × ");
+    return (
+      <p className="text-[13px] md:text-xs text-yuri-rose mb-2 leading-snug">
+        {/* モバイル: 2 行表示 */}
+        <span className="sm:hidden">
+          <span className="block truncate">{top}</span>
+          <span className="block truncate">{bottom}</span>
+        </span>
+        {/* sm 以上: 1 行表示 */}
+        <span className="hidden sm:inline truncate">{name}</span>
+      </p>
+    );
+  }
+  return (
+    <p className="text-[13px] md:text-xs text-yuri-rose mb-2 truncate">{name}</p>
+  );
+}
+
 export function DramaCard({
   drama,
   hideProduction = false,
@@ -87,11 +116,7 @@ export function DramaCard({
             {metaLine}
           </p>
         )}
-        {drama.cast_pair && (
-          <p className="text-[13px] md:text-xs text-yuri-rose mb-2 truncate">
-            {shortPairName(drama.cast_pair)}
-          </p>
-        )}
+        {drama.cast_pair && <PairLine castPair={drama.cast_pair} />}
         {!hideTags && tags.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {tags.map((t, i) => (

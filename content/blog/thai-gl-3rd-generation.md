@@ -66,7 +66,7 @@ FreenBeckyはタイGLの代名詞として圧倒的な存在感。
 | **PitchaNatt** | [Reverse With Me](/dramas/reverse-with-me) | SiamSi Studio / 個人 | 2025 |
 | **FayeAtom** | [Broken of Love](/dramas/broken-of-love) | Fabel × Moongdoo | 2026 |
 | **OomBam** | [Fulfill](/dramas/fulfill) | BEC World | 2026 |
-| **EnyaMiphat** | [Love beyond Dreams](/dramas/love-beyond-dreams) | ME MIND Y | 2026 |
+| **MieAya** | [Love beyond Dreams](/dramas/love-beyond-dreams) | ME MIND Y | 2026 |
 | **ViewMim** | [Girl Rules](/dramas/girl-rules), Bake Love Feeling | GMMTV | 2026 |
 | **JanJingJing** | [Enemies with Benefits](/dramas/enemies-with-benefits) | GMMTV × Snap25 | 2026 |
 | **PahnFond** | Wish upon a star | GMMTV | 2026予定 |

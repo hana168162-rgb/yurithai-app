@@ -102,37 +102,34 @@ export function Footer() {
             text-[13px] でリンクのタップ・可読性を確保（旧 text-xs は小さすぎた）
             ========================== */}
         <div className="md:hidden text-[13px]">
-          <ul className="flex flex-wrap gap-x-3 gap-y-2 opacity-90 mb-4 leading-relaxed">
+          {/* flex-wrap で折り返したとき「・」が行頭/行末に来てズレるため、
+              区切り文字は出さず gap だけで間隔を確保 */}
+          <ul className="flex flex-wrap gap-x-4 gap-y-2 opacity-90 mb-4 leading-relaxed">
             <li>
               <Link href="/about" className="hover:opacity-100">
                 About
               </Link>
             </li>
-            <li aria-hidden className="opacity-40">·</li>
             <li>
               <Link href="/contact" className="hover:opacity-100">
                 お問い合わせ
               </Link>
             </li>
-            <li aria-hidden className="opacity-40">·</li>
             <li>
               <Link href="/legal/advertising" className="hover:opacity-100">
                 広告ポリシー
               </Link>
             </li>
-            <li aria-hidden className="opacity-40">·</li>
             <li>
               <Link href="/privacy" className="hover:opacity-100">
                 プライバシー
               </Link>
             </li>
-            <li aria-hidden className="opacity-40">·</li>
             <li>
               <Link href="/terms" className="hover:opacity-100">
                 利用規約
               </Link>
             </li>
-            <li aria-hidden className="opacity-40">·</li>
             <li>
               <Link href="/legal/tokushoho" className="hover:opacity-100">
                 特商法

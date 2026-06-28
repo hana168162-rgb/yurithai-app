@@ -750,9 +750,9 @@
     "name_en": "Natt"
   },
   {
-    "id": "enya",
-    "name_ja": "エンヤ",
-    "real_name": "Enya Aornpan",
+    "id": "aya",
+    "name_ja": "アヤ",
+    "real_name": "Aya Orapan",
     "birth_date": null,
     "age": null,
     "nationality": null,
@@ -761,13 +761,13 @@
       "Love beyond Dreams"
     ],
     "agency": "Me Mind Y",
-    "instagram": null,
-    "name_en": "Enya"
+    "instagram": "ayaorapan",
+    "name_en": "Aya"
   },
   {
-    "id": "miphat",
-    "name_ja": "ミーパット",
-    "real_name": "Miphat Phatthranan",
+    "id": "mie",
+    "name_ja": "ミー",
+    "real_name": "Mie Phat",
     "birth_date": null,
     "age": null,
     "nationality": null,
@@ -776,8 +776,8 @@
       "Love beyond Dreams"
     ],
     "agency": "Me Mind Y",
-    "instagram": null,
-    "name_en": "Miphat"
+    "instagram": "miephat",
+    "name_en": "Mie"
   },
   {
     "id": "june",

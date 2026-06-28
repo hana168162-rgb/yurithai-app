@@ -37,6 +37,9 @@ h3,
     var(--font-zen-maru-gothic), var(--font-plus-jakarta),
     var(--font-noto-sans-jp), sans-serif;
   letter-spacing: 0.005em;
+  /* palt = プロポーショナル仮名/カナ。「マ」「ラ」「ド」など個別文字幅の
+     違いを正しい比率に詰めて、ベタ組みの不揃いを解消する */
+  font-feature-settings: "palt";
 }
 
 a {

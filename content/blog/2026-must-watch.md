@@ -23,7 +23,7 @@ CHANGE2561制作、LMSY 3部作の3作目。**2026年5月23日に完結**、3部
 ### Fulfill（OomBam）
 BEC World Original 制作、Channel 3 GL 第4作。大学時代から続くカップルが結婚後に養子縁組を考える、リアルな日常を描く野心作。**6月12日終了予定**。
 
-### Love beyond Dreams（EnyaMiphat）
+### Love beyond Dreams（MieAya）
 ME MIND Y制作、BL大手のGL初参入作。**6月17日終了予定**、毎週水曜日 YouTube + iQIYI UNCUT版。
 
 ### Enemies with Benefits（JanJingJing）

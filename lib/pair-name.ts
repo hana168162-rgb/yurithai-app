@@ -4,6 +4,8 @@ const KNOWN_PAIRS = Object.keys(pairsData as Record<string, string[]>);
 
 /**
  * cast_pair 文字列からペアの短縮表記を取り出す。
+ *   0) "PairA × PairB × PairC"（群像劇）のように、× で区切られた各ピースが
+ *      pairs.json の既知ペア名そのものだった場合、そのまま並べて返す
  *   1) "（PairName）" があればその中身（FreenBecky等）
  *   2) pairs.json に登録された既知ペア名が文字列内に含まれていればそれ
  *   3) どちらも無ければ各人の先頭語で「Nick × Nick」風に短縮
@@ -12,6 +14,16 @@ const KNOWN_PAIRS = Object.keys(pairsData as Record<string, string[]>);
  * カードの限られた幅でフルネームが折り返さないよう、表示用に使う。
  */
 export function shortPairName(castPair: string): string {
+  // 0) 群像劇ケース：× で区切られた全ピースが既知ペア名ならそのまま並べる
+  //    （例: "NamtanFilm × MilkLove × ViewMim"）
+  const ensembleParts = castPair.split("×").map((s) => s.trim());
+  if (
+    ensembleParts.length >= 2 &&
+    ensembleParts.every((p) => KNOWN_PAIRS.includes(p))
+  ) {
+    return ensembleParts.join(" × ");
+  }
+
   // 1) 全角カッコのペア名
   const m = castPair.match(/（([^）]+)）/);
   if (m) return m[1];

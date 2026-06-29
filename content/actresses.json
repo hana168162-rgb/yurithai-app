@@ -1640,5 +1640,69 @@
     "instagram": "cakenawanine",
     "notes": "ChachaCake サブカップル。Unlock Your Love（2024）でパット役のサブメイン。",
     "name_en": "Cake"
+  },
+  {
+    "id": "natty",
+    "name_ja": "ナッティ",
+    "real_name": "Natty Natthamon",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Frozen Valentine"
+    ],
+    "agency": "COPY A BANGKOK",
+    "instagram": "natty_ntm",
+    "notes": "NattyYeepun ペアの Natty。Frozen Valentine（2026）で主演。",
+    "name_en": "Natty"
+  },
+  {
+    "id": "yeepun",
+    "name_ja": "イープン",
+    "real_name": "Yeepun Purichaya",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Frozen Valentine"
+    ],
+    "agency": "COPY A BANGKOK",
+    "instagram": "yeepunns",
+    "notes": "NattyYeepun ペアの Yeepun。Frozen Valentine（2026）で主演。",
+    "name_en": "Yeepun"
+  },
+  {
+    "id": "prigkhing",
+    "name_ja": "プリッキン",
+    "real_name": "Prigkhing Suriyanareth",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Like A Palette"
+    ],
+    "agency": "Channel 3",
+    "instagram": "prigkhing_",
+    "notes": "PrigkhingFah ペアの Prigkhing。Like A Palette（2025）で大学の『悪役にしか見えない先輩』Dai 役を主演。",
+    "name_en": "Prigkhing"
+  },
+  {
+    "id": "tongfa",
+    "name_ja": "トンファー",
+    "real_name": "Tongfa Alisha",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Like A Palette"
+    ],
+    "agency": "フリー",
+    "instagram": "fromyourskyy",
+    "notes": "PrigkhingFah ペアの Tongfa（ニックネーム『Fah』とも）。Like A Palette（2025）で主人公 Jen 役を主演。",
+    "name_en": "Tongfa"
   }
 ]

@@ -2027,7 +2027,7 @@
     "cover_image": "/images/dramas/apple-my-love.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/Xg2DxxEfZ80",
     "streaming": [
       {
         "platform": "WeTV",
@@ -3007,5 +3007,160 @@
       }
     ],
     "title_th": "คุณแฟนบ้านนอก"
+  },
+  {
+    "id": 44,
+    "slug": "frozen-valentine",
+    "title_ja": "Frozen Valentine",
+    "title_en": "Frozen Valentine",
+    "year": 2026,
+    "production": "COPY A BANGKOK × WeTV × MCOT HD 30",
+    "episodes": 10,
+    "status": "completed",
+    "age_rating": "16+",
+    "cast_pair": "Natty Natthamon × Yeepun Purichaya（NattyYeepun）",
+    "tags": {
+      "genre": [
+        "校園もの",
+        "ロマンス"
+      ],
+      "relationship": [
+        "先輩×後輩",
+        "再会もの",
+        "片想い"
+      ],
+      "tone": [
+        "切ない",
+        "ドラマチック"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [
+        "演技力"
+      ],
+      "warnings": []
+    },
+    "synopsis": "かつて一方的な恋心を寄せていた『冷たい先輩』と、共演者という肩書きで再会する——。届かなかった片想いが、もう一度、お互いの心を試す『恋のゲーム』へと変わっていく。果たして、どちらが先に心を許してしまうのか。10話完結の校園 × second chance ロマンス。",
+    "review": {
+      "highlights": [
+        "片想いの先輩との再会",
+        "WeTV UNCUT + 地上波の二段配信",
+        "Natty × Yeepun の新進ペア",
+        "全10話完結"
+      ],
+      "recommend_for": [
+        "校園 GL が好き",
+        "先輩×後輩・再会ものが好き",
+        "ライトな片想いロマンスを楽しみたい"
+      ],
+      "caution_for": [
+        "重厚なメロドラマ希望者",
+        "ダーク・社会派希望者"
+      ],
+      "body_ja": "**COPY A BANGKOK**（Denied Love / EnjoyJune を手がけた制作会社）が送り出した、全10話の校園 × second chance ロマンス。2026年2月12日〜4月16日、WeTV UNCUT 版が毎週木曜 20:30 タイ時間で先行配信、地上波 MCOT HD 30 が 2 日遅れの毎週土曜 23:00 で追走する**二段配信フォーマット**を採用。**WeTV は日本からも VPN なしで視聴可能**。\n\n物語の核は、**かつて一方的に憧れていた『冷たい先輩』との、共演者としての再会**。片想いだったはずの関係性が、再会を通して**互いに揺れる『恋のゲーム』**に変化していく。一方通行から相互交渉へのスライドを、校園もののテンプレートで丁寧に描いた一作。\n\n主演の **Natty Natthamon × Yeepun Purichaya**（NattyYeepun）は本作が**ペアとしての本格デビュー**にあたり、新進ペアの可能性を示すショーケース的な役割も担う。COPY A BANGKOK が EnjoyJune に続いて**「インディーズ規模の GL」**を地道に積み上げているのを実感できる、入門にも好適な短尺完結作。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "M 中",
+    "note": "COPY A BANGKOK 制作（Denied Love / EnjoyJune と同じ会社）/ WeTV UNCUT版（先行配信、日本からVPNなし視聴可）+ MCOT HD 30 地上波の二段配信 / 主演: Natty Natthamon × Yeepun Purichaya（NattyYeepun）/ WeTV: 2026年2月12日〜4月16日 毎週木曜 20:30 タイ時間 / MCOT HD 30: 2026年2月14日〜 毎週土曜 23:00 / 全10話完結 / 構造: 校園もの × 先輩×後輩 × 一方通行→相互の片想い→再会 second chance / ハッシュタグ #FrozenValentineTheSeries #ปิ้งรักคุณพี่เย็นชาSeries",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/frozen-valentine.jpg",
+    "cover_credit": null,
+    "instagram_post": "https://www.instagram.com/frozenvalentine.official/",
+    "youtube_teaser": "https://youtu.be/46z_PSE0-S8",
+    "streaming": [
+      {
+        "platform": "WeTV",
+        "url": "https://wetv.vip/",
+        "note": "UNCUT 版独占（先行配信）/ 日本から VPN なしで視聴可"
+      },
+      {
+        "platform": "MCOT HD 30",
+        "url": null,
+        "note": "タイ地上波 / 日本では視聴不可"
+      }
+    ],
+    "title_th": "ปิ้งรักคุณพี่เย็นชา"
+  },
+  {
+    "id": 45,
+    "slug": "like-a-palette",
+    "title_ja": "Like A Palette",
+    "title_en": "Like A Palette",
+    "year": 2025,
+    "production": "WonderLife Entertainment × Channel 3",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": "16+",
+    "cast_pair": "Prigkhing Suriyanareth × Tongfa Alisha（PrigkhingFah）",
+    "tags": {
+      "genre": [
+        "校園もの",
+        "ロマンス"
+      ],
+      "relationship": [
+        "先輩×後輩",
+        "敵対から恋へ"
+      ],
+      "tone": [
+        "コメディ",
+        "ほっこり"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "「女の子同士、何が起きてもおかしくないでしょ？」——大学の『悪役にしか見えない人気先輩 Dai』と、ドラマの観すぎで彼女を疑ってかかる後輩 Jen。微笑みすら信用できないほど警戒する Jen の前で、Dai の意外な顔がほどけていく。校園 × 先輩×後輩 × 敵対から恋への、Channel 3 系の新しい校園 GL。",
+    "review": {
+      "highlights": [
+        "Channel 3 HD で 2025 年 11 月放送",
+        "PrigkhingFah ペアの本格デビュー",
+        "『敵対するほど好きになる』校園コメディ",
+        "WonderLife Entertainment 制作"
+      ],
+      "recommend_for": [
+        "校園 GL が好き",
+        "先輩×後輩・敵対から恋への構造が好き",
+        "ライトな大学キャンパスものを観たい"
+      ],
+      "caution_for": [
+        "重厚なメロドラマ希望者"
+      ],
+      "body_ja": "**WonderLife Entertainment** が制作し、**Channel 3 HD（33ch）+ 3 Plus** のマルチプラットフォームで送り出す、大学キャンパスを舞台にした校園 GL。2025 年 11 月放送開始。\n\n物語の中心は、**ドラマ脳の女子大生 Jen**（Tongfa）と、**『どう見ても悪役にしか見えない人気先輩 Dai』**（Prigkhing）。「微笑みすら信用できない、絶対わたしのこと嫌いに違いない」と一方的に警戒する Jen と、淡々と振る舞う Dai——というすれ違いから始まる、**敵対 → 誤解 → 好きになる**の王道テンプレートを校園ものでアップデートした作品。\n\n主演ペアの **Prigkhing × Tongfa（PrigkhingFah / #PrigkhingFah）** はこれが本格デビューにあたり、Channel 3 系の校園 GL ラインの広がりを象徴する一作。BEC World Originals の『大人ロマンス』路線とは別軸で、Channel 3 グループが**校園 GL でも複数のスタジオと組んでいる**ことが見えてくる。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "M 中",
+    "note": "WonderLife Entertainment 制作 / Channel 3 HD（33ch）+ 3 Plus（モバイル）+ WeTV（国際配信、日本からVPNなし視聴可）/ 主演: Prigkhing Suriyanareth = Dai 役（人気先輩）、Tongfa Alisha = Jen 役（後輩）/ 公式 IG: @likeapaletteseries（共同公式）+ @wonderlife.entertainment / 2025 年 11 月放送開始 / 全 8 話完結 / 校園もの × 先輩×後輩 × 敵対から恋への構造 / ハッシュタグ #PrigkhingFah #LikeAPaletteSeries #เจนจะเป็นดาวสินกำ",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/like-a-palette.jpg",
+    "cover_credit": null,
+    "instagram_post": "https://www.instagram.com/likeapaletteseries/",
+    "youtube_teaser": "https://youtu.be/_c1nRLiUaJU",
+    "streaming": [
+      {
+        "platform": "WeTV",
+        "url": "https://wetv.vip/",
+        "note": "日本から VPN なしで視聴可"
+      },
+      {
+        "platform": "Channel 3 HD",
+        "url": null,
+        "note": "タイ地上波（33ch）/ 日本では視聴不可"
+      },
+      {
+        "platform": "3 Plus",
+        "url": "https://www.3plus.tv/",
+        "note": "Channel 3 公式 OTT / 日本からは VPN 必要"
+      }
+    ],
+    "title_th": "เจน(จะ)เป็นดาวสินก้ำ"
   }
 ]

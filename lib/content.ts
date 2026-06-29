@@ -630,6 +630,8 @@ function getBroadcastTime(d: WatchingDrama): { hour: number; minute: number } {
  * 放送曜日が抽出できない作品は末尾（大きな値）に。
  */
 function pickupSortKey(d: WatchingDrama, now: BangkokNow): number {
+  // pending（後半未定 等）は常に末尾に固定
+  if (d.pending) return Number.MAX_SAFE_INTEGER;
   const bd = getBroadcastDay(d);
   if (bd === null) return Number.MAX_SAFE_INTEGER;
   const { hour, minute } = getBroadcastTime(d);

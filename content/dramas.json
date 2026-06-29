@@ -2170,12 +2170,12 @@
     "cover_image": "/images/dramas/heart-code.jpg",
     "cover_credit": null,
     "instagram_post": null,
-    "youtube_teaser": null,
+    "youtube_teaser": "https://youtu.be/e_7FfaztBEE",
     "streaming": [
       {
-        "platform": "Monomax",
-        "url": "https://www.monomax.me",
-        "note": "日本からはVPN必要"
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/",
+        "note": "日本から視聴可（要会員登録）"
       }
     ],
     "title_th": "สืบลับจับใจ"

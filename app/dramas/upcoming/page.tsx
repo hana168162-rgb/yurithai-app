@@ -6,9 +6,9 @@ import { DramaFilterBar } from "@/components/DramaFilterBar";
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "公開予定のタイGLドラマ一覧｜2026年以降の新作ラインナップ",
+  title: "公開予定のタイGLドラマ一覧｜まもなく配信開始の新作",
   description:
-    "2026年以降に放送・配信予定のタイGL（タイ百合）ドラマ最新ラインナップを網羅。Cranium、Moonshadow、Her、Ditto、Love's Echoes、Wish upon a star、The Fire、Third Person など主要ペアの新作情報を日本語で。",
+    "これから放送・配信予定のタイGL（タイ百合）ドラマ最新ラインナップを網羅。The Fire、Cranium、Moonshadow、Her、Ditto、Love's Echoes、Wish upon a star、Third Person、Hak Na My Boss など主要ペアの新作情報を日本語で。",
   keywords: [
     "タイGL",
     "タイGLドラマ",
@@ -44,7 +44,7 @@ export default function UpcomingPage() {
           公開予定のタイGLドラマ
         </h1>
         <p className="text-sm text-yuri-muted mt-1">
-          2026年以降に放送・配信予定のタイ百合ドラマ新作ラインナップ
+          これから配信開始のタイ百合ドラマ新作ラインナップ
         </p>
       </header>
 

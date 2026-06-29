@@ -37,8 +37,47 @@ export const metadata = {
   },
 };
 
+/**
+ * 完結一覧の並び順：
+ *   1. 基本は year 降順（新しい順）
+ *   2. 同じ series キーを持つ作品は隣接配置。シリーズ最新作の位置に、
+ *      該当シリーズの他作品を新しい順で続けて挿入する。
+ */
+function sortWithSeriesGrouped<T extends { slug: string; year: number | null; series?: string }>(
+  list: T[],
+): T[] {
+  const byYearDesc = [...list].sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+  // series → そのシリーズ全作品（year 降順）
+  const seriesGroups = new Map<string, T[]>();
+  for (const d of byYearDesc) {
+    if (d.series) {
+      const arr = seriesGroups.get(d.series) ?? [];
+      arr.push(d);
+      seriesGroups.set(d.series, arr);
+    }
+  }
+  // 出力構築：seriesGroups の最新メンバーが現れたらそこに同シリーズの作品を続けて挿入
+  const out: T[] = [];
+  const placed = new Set<string>();
+  for (const d of byYearDesc) {
+    if (placed.has(d.slug)) continue;
+    if (d.series && seriesGroups.has(d.series)) {
+      for (const m of seriesGroups.get(d.series)!) {
+        if (!placed.has(m.slug)) {
+          out.push(m);
+          placed.add(m.slug);
+        }
+      }
+    } else {
+      out.push(d);
+      placed.add(d.slug);
+    }
+  }
+  return out;
+}
+
 export default function DramasPage() {
-  const sorted = [...dramas].sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+  const sorted = sortWithSeriesGrouped(dramas);
   // end_date を過ぎた watching 作品も「完結」一覧に含める
   const recentlyEnded = getRecentlyEndedWatching().sort((a, b) =>
     (b.end_date ?? "").localeCompare(a.end_date ?? "")

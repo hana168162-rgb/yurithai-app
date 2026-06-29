@@ -49,6 +49,7 @@ export interface Drama {
   instagram_post: string | null;    // 詳細ページ埋め込み用
   youtube_teaser: string | null;    // 例: "https://www.youtube.com/watch?v=XXXX" or ID "XXXX"
   streaming?: StreamingLink[];      // 配信先（日本から視聴可能なものを優先）
+  series?: string;                  // シリーズキー（同じ値の作品は完結一覧で隣接配置される）
 }
 
 export interface WatchingDrama {

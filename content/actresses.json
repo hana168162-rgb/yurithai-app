@@ -1704,5 +1704,37 @@
     "instagram": "fromyourskyy",
     "notes": "PrigkhingFah ペアの Tongfa（ニックネーム『Fah』とも）。Like A Palette（2025）で主人公 Jen 役を主演。",
     "name_en": "Tongfa"
+  },
+  {
+    "id": "meena",
+    "name_ja": "ミーナ",
+    "real_name": "Meena",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Under Her Rules"
+    ],
+    "agency": "MGI Beyond",
+    "instagram": "meenaxrina",
+    "notes": "MeenBabe ペアの Meena。MGI Beyond 所属。Under Her Rules（2026 workshop 開始）で主演予定。",
+    "name_en": "Meena"
+  },
+  {
+    "id": "aoom",
+    "name_ja": "アーム",
+    "real_name": "Aoom",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Under Her Rules"
+    ],
+    "agency": "MGI Beyond",
+    "instagram": "aoomtwp",
+    "notes": "MeenBabe ペアの Aoom。MGI Beyond 所属。Under Her Rules（2026 workshop 開始）で主演予定。",
+    "name_en": "Aoom"
   }
 ]

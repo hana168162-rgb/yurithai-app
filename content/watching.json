@@ -258,5 +258,34 @@
     "end_date": null,
     "episodes": 12,
     "pending": true
+  },
+  {
+    "id": 112,
+    "slug": "ai-girl",
+    "title_ja": "AI Girl",
+    "title_en": "AI Girl",
+    "title_th": "AI Girl จะ Gen จนกว่าจะเจอ",
+    "production": "Me Mind Y",
+    "cast_pair": "Mayyu Kawisara Singpord × Chanya Amarit Duval（MayyuChanya）",
+    "status": "airing",
+    "note": "Me Mind Y制作 / More Than Her Project の GL シリーズ第2弾 / 脚本: MAME（Mae Arawann）/ 監督: ธัญพิสิษฐ์ จิระเดชากุล (Thanyapisit Jiradechakul) / 製作総指揮: อรวรรณ วิชญวรรณกุล (Orawan Wichchayawannakul) / Mayyu=Gen（内向的なAI顔デザイナー）× Chanya=Ai（記憶を失った人型ロボット）/ 2026年7月1日 EP1 放送開始（毎週水曜）/ 全7話 / 最終話 2026年8月12日 / YouTube MeMindY Official 20:00（タイ時間） + iQIYI app/iQ.com UNCUT版 21:00 / タイ初の人型AIロボット題材GL / ハッシュタグ #AIGirlSeries #จะGenจนกว่าจะเจอ #MoreThanHerProject #MeMindY",
+    "cover_image": "/images/dramas/ai-girl.jpg",
+    "cover_credit": null,
+    "youtube_teaser": "https://youtu.be/HBi2dQGsuJw",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/3CC58stapKQ",
+        "note": "MeMindY Official EP1 / 毎週水曜 20:00 タイ時間（22:00 JST）"
+      },
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "UNCUT 版独占（21:00 タイ時間〜）"
+      }
+    ],
+    "start_date": "2026-07-01",
+    "end_date": "2026-08-12",
+    "episodes": 7
   }
 ]

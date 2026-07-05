@@ -76,7 +76,7 @@ LMSY が CHANGE2561 の**看板ペア**として確立された半年。
 **Fabel Entertainment という新興スタジオ** が、Faye Peraya のキャリア再起動として送り出した GL。
 **オフィス × シリアス × ライバル→恋人**という骨太構造で、新興スタジオの実力を示した 1 本。
 
-### 10. [Shadow of Love](/dramas/shadow-of-love)（Kongthup Production, PlaifahBebell）
+### 10. [Shadow of Love](/dramas/shadow-of-love)（Kongthup Production, PraifahBebell）
 
 3 月 24 日〜5 月 12 日、**全 24 話の大作**。
 **メロドラマ × 禁断の恋** という、タイの「ラコーン（昼ドラ）」フォーマットを GL に落とし込んだ実験作。

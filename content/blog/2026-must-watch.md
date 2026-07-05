@@ -90,7 +90,7 @@ North Star Entertainment 4組目のGLカップル Garn × Mimie のデビュー�
 
 ## 2026年の傾向
 
-- **新世代ペアの台頭**: NileNamwan、PahnFond、NoonPraewa、BintPuiNoon、KittyPunch、TungpangJessie、PlaifahBebell、ArhoungPam ほか初主演ペアが続々登場
+- **新世代ペアの台頭**: NileNamwan、PahnFond、NoonPraewa、BintPuiNoon、KittyPunch、TungpangJessie、PraifahBebell、ArhoungPam ほか初主演ペアが続々登場
 - **Star Hunter Entertainmentの存在感**: Love Senior → Hidden Heart のペア昇格パスのように、所属女優を継続的に主演化する戦略
 - **4 Elementsシリーズの完結**: The Earth → The Water → The Air → The Fire と続く Idol Factory のリレー作品が最終章へ
 - **多様化するジャンル**: コーポレートドラマ、捜査もの、サスペンス、ファンタジー、リアル系日常まで、ロマンス以外の要素も濃く

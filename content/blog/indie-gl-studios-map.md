@@ -65,7 +65,7 @@ Channel 3HD 地上波 + YouTube の同時配信で、地上波進出も果たし
 さらに大型作 **[Shadow of Love](/dramas/shadow-of-love)**（2026・全24話）。
 記憶・運命・義姉妹といったエモーショナルなテーマを得意とします。
 
-所属/起用ペア: OrmFolk、PlaifahBebell
+所属/起用ペア: OrmFolk、PraifahBebell
 
 ---
 

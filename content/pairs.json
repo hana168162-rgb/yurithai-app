@@ -135,10 +135,6 @@
     "arhoung",
     "pam"
   ],
-  "PlaifahBebell": [
-    "plaifah",
-    "bebell"
-  ],
   "NileNamwan": [
     "nile",
     "namwan"
@@ -205,5 +201,9 @@
   "NattPitcha": [
     "natt",
     "pitcha"
+  ],
+  "PraifahBebell": [
+    "praifah",
+    "bebell"
   ]
 }

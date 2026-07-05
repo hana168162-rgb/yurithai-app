@@ -48,7 +48,7 @@ cover_image: "/images/dramas/the-earth.jpg"
 
 **Shadow of Love**
 - 3月24日プレミア、全24話
-- Plaifah × Bebell（PlaifahBebell）
+- Praifah × Bebell（PraifahBebell）
 - Kongthup Production 制作
 - 義姉妹設定を活かしたメロドラマ、5月12日に完結
 
@@ -91,7 +91,7 @@ cover_image: "/images/dramas/the-earth.jpg"
 
 - **AppleMim**（The Earth）— Apple Lapisara が新人 Mim を見出した形
 - **LillyBelle**（I Wanna Be Sup'tar）— サブCP → メイン昇格モデルの実例
-- **PlaifahBebell**（Shadow of Love）— インディーズの大型作で主役
+- **PraifahBebell**（Shadow of Love）— インディーズの大型作で主役
 - **TungpangJessie**（Heart Code）— Monomax 系新規参入
 
 ### サブから昇格組

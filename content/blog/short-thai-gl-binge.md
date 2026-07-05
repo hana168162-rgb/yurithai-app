@@ -58,7 +58,7 @@ cover_image: "/images/dramas/affair.jpg"
 **[Broken of Love](/dramas/broken-of-love)** は、復讐をテーマにしたダークGL。
 **緊張感のある8話**で、一気見の没入感が高い。
 
-### Reverse With Me（PitchaNatt / 2025 / 全8話）
+### Reverse With Me（NattPitcha / 2025 / 全8話）
 **[Reverse With Me](/dramas/reverse-with-me)** は、時間を巻き戻すSF設定のロマンス。
 インディーズとは思えない映像クオリティを8話で。
 

@@ -107,7 +107,7 @@ iQIYI + 自社 YouTube での配信で、新人ペアを売り出すスタイル
 
 - **S.NUR Entertainment** — 女優 Nur Desoraya が立ち上げ。社会派GL **[Dangerous Queen](/dramas/dangerous-queen)**（TKNur）。[TKNur 軌跡 →](/blog/tknur-rise-story)
 - **Monomax** — **[Heart Code](/dramas/heart-code)**（TungpangJessie）で初のオリジナルGLに参入
-- **SiamSi Studio** — **[Reverse With Me](/dramas/reverse-with-me)**（PitchaNatt）でデビュー作とは思えない映像クオリティ
+- **SiamSi Studio** — **[Reverse With Me](/dramas/reverse-with-me)**（NattPitcha）でデビュー作とは思えない映像クオリティ
 - **VelCurve Studio** — **[Love Design](/dramas/love-design)**（KaoJane）。Netflix 配信も実現
 - **Two Worlds Production** — Apple My Love 初代を手がけた制作チーム
 - **Kantana Motion Pictures** — **[Reverse 4 You](/dramas/reverse-4-you)**（Channel 3 と協業）

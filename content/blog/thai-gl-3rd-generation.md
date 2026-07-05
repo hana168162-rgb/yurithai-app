@@ -63,7 +63,7 @@ FreenBeckyはタイGLの代名詞として圧倒的な存在感。
 | **LillyBelle** | [Harmony Secret](/dramas/harmony-secret)（サブ）, [I Wanna Be Sup'tar](/dramas/i-wanna-be-suptar) | CHANGE2561 | 2025 |
 | **AppleMim** | [The Earth](/dramas/the-earth) | Idol Factory × North Star | 2026 |
 | **TanYada** | [Play Park](/dramas/play-park) | BEC World Originals | 2026 |
-| **PitchaNatt** | [Reverse With Me](/dramas/reverse-with-me) | SiamSi Studio / 個人 | 2025 |
+| **NattPitcha** | [Reverse With Me](/dramas/reverse-with-me) | SiamSi Studio / 個人 | 2025 |
 | **FayeAtom** | [Broken of Love](/dramas/broken-of-love) | Fabel × Moongdoo | 2026 |
 | **OomBam** | [Fulfill](/dramas/fulfill) | BEC World | 2026 |
 | **MieAya** | [Love beyond Dreams](/dramas/love-beyond-dreams) | ME MIND Y | 2026 |

@@ -79,10 +79,6 @@
     "tan",
     "yada"
   ],
-  "PitchaNatt": [
-    "pitcha",
-    "natt"
-  ],
   "MieAya": [
     "mie",
     "aya"
@@ -205,5 +201,9 @@
   "MeenBabe": [
     "meena",
     "aoom"
+  ],
+  "NattPitcha": [
+    "natt",
+    "pitcha"
   ]
 }

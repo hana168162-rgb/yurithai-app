@@ -72,7 +72,7 @@ Star Hunter Entertainment の **[Hidden Heart](/dramas/hidden-heart)**（NoonPra
 
 ### Reverse With Me — Zezeho 原作
 
-**[Reverse With Me](/dramas/reverse-with-me)**（PitchaNatt / 2025）は、
+**[Reverse With Me](/dramas/reverse-with-me)**（NattPitcha / 2025）は、
 作家 **Zezeho** の小説が原作。Reverse 4 You と同じ世界観を共有します。
 
 ### 4 Elements シリーズ — Salmon 原作

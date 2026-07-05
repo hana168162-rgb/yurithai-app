@@ -23,7 +23,7 @@ cover_image: "/images/dramas/affair.jpg"
 ### 代表作
 - **[23.5](/dramas/23-5)**（MilkLove / 2024 / 12話）— 高校3年生のオンサとサンの日常系GL
 - **[Love Senior](/dramas/love-senior)**（AndaLookkaew / 2023 / 10話）— 大学の先輩×後輩
-- **[Reverse With Me](/dramas/reverse-with-me)**（PitchaNatt / 2025）— SiamSi Studio の校園もの
+- **[Reverse With Me](/dramas/reverse-with-me)**（NattPitcha / 2025）— SiamSi Studio の校園もの
 
 ### こんな気分のときに
 - 重い設定を観たあと、リセットしたい

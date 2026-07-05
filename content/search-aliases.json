@@ -99,11 +99,6 @@
       "レナミウ",
       "lenamiu"
     ],
-    "PitchaNatt": [
-      "ピチャナット",
-      "ピチャナト",
-      "pitchanatt"
-    ],
     "TanYada": [
       "タンヤダ",
       "tanyada"
@@ -255,6 +250,11 @@
       "PraewaNoon",
       "praewanoon",
       "プレワヌーン"
+    ],
+    "NattPitcha": [
+      "ピチャナット",
+      "ピチャナト",
+      "pitchanatt"
     ]
   },
   "actresses": {

@@ -710,7 +710,8 @@
         "url": "https://www.iq.com/"
       }
     ],
-    "title_th": "วิวาห์ปฐพี"
+    "title_th": "วิวาห์ปฐพี",
+    "series": "four-elements"
   },
   {
     "id": 11,
@@ -861,7 +862,8 @@
         "url": "https://www.netflix.com/jp/"
       }
     ],
-    "title_th": "รักเล่นกล"
+    "title_th": "รักเล่นกล",
+    "series": "lmsy"
   },
   {
     "id": 13,
@@ -942,7 +944,8 @@
         "note": "VPN必要"
       }
     ],
-    "title_th": "ดีลลับฉบับเล่นเล่ห์"
+    "title_th": "ดีลลับฉบับเล่นเล่ห์",
+    "series": "lmsy"
   },
   {
     "id": 14,
@@ -1082,7 +1085,8 @@
         "url": "https://www.iq.com/"
       }
     ],
-    "title_th": "นทีร้อยเล่ห์"
+    "title_th": "นทีร้อยเล่ห์",
+    "series": "four-elements"
   },
   {
     "id": 16,
@@ -3008,7 +3012,8 @@
         "url": "https://www.iq.com/"
       }
     ],
-    "title_th": "คุณแฟนบ้านนอก"
+    "title_th": "คุณแฟนบ้านนอก",
+    "series": "lmsy"
   },
   {
     "id": 44,

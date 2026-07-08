@@ -183,9 +183,18 @@
     "nene",
     "khaimook"
   ],
-  "NikyEngland": [],
-  "OpalMint": [],
-  "PuyfaiPloy": [],
+  "NikyEngland": [
+    "niky",
+    "england"
+  ],
+  "OpalMint": [
+    "opal",
+    "mint-b"
+  ],
+  "PuyfaiPloy": [
+    "puyfai",
+    "ploy"
+  ],
   "NattyYeepun": [
     "natty",
     "yeepun"

@@ -1736,5 +1736,101 @@
     "instagram": "aoomtwp",
     "notes": "MeenBabe ペアの Aoom。MGI Beyond 所属。Under Her Rules（2026 workshop 開始）で主演予定。",
     "name_en": "Aoom"
+  },
+  {
+    "id": "niky",
+    "name_ja": "ニキー",
+    "real_name": "Niky Warinrat",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": "youknowinever_",
+    "notes": "NikyEngland ペアの Niky。SHADES で Belle 役として主演。",
+    "name_en": "Niky"
+  },
+  {
+    "id": "england",
+    "name_ja": "イングランド",
+    "real_name": "England Ladamanee",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": "eng_lr39",
+    "notes": "NikyEngland ペアの England。SHADES で Earn 役として主演。",
+    "name_en": "England"
+  },
+  {
+    "id": "opal",
+    "name_ja": "オパール",
+    "real_name": "Opal Kulwipa",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": "thepigwipa",
+    "notes": "OpalMint ペアの Opal。SHADES で Amy 役として主演。",
+    "name_en": "Opal"
+  },
+  {
+    "id": "mint-b",
+    "name_ja": "ミント",
+    "real_name": "Mint Benjanee",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": "mmint.w",
+    "notes": "OpalMint ペアの Mint。SHADES で Sophie 役として主演。",
+    "name_en": "Mint"
+  },
+  {
+    "id": "puyfai",
+    "name_ja": "プーイファイ",
+    "real_name": "Puyfai Tharathip",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": "puyy_faii",
+    "notes": "PuyfaiPloy ペアの Puyfai。SHADES で Jane 役として主演。",
+    "name_en": "Puyfai"
+  },
+  {
+    "id": "ploy",
+    "name_ja": "プロイ",
+    "real_name": "Ploy Jhutamas",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "SHADES"
+    ],
+    "agency": "FRT Entertainment",
+    "instagram": "jhutaa",
+    "notes": "PuyfaiPloy ペアの Ploy。SHADES で Nano 役として主演。",
+    "name_en": "Ploy"
   }
 ]

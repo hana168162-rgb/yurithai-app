@@ -1866,9 +1866,9 @@
     "name_en": "Praew"
   },
   {
-    "id": "annas",
-    "name_ja": "アンナス",
-    "real_name": "Annas",
+    "id": "anna",
+    "name_ja": "アンナ",
+    "real_name": "Anna Suea-ngamiam",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1876,15 +1876,15 @@
     "filmography": [
       "Love Above The Clouds"
     ],
-    "agency": null,
+    "agency": "Century UU Entertainment",
     "instagram": "annasnga_1o",
-    "notes": "Love Above The Clouds（2026 予定）で主演。実名確認中（IG: annasnga_1o）。",
-    "name_en": "Annas"
+    "notes": "ThisaAnna ペアの Anna（แอนนา เสืองามเอี่ยม）。Love Above The Clouds（ลวงรักเกมเหนือเมฆ、2026 予定）で主演。",
+    "name_en": "Anna"
   },
   {
-    "id": "thivarit",
-    "name_ja": "ティワリット",
-    "real_name": "Thivarit",
+    "id": "thisa",
+    "name_ja": "ティサ",
+    "real_name": "Warittisa Limthammatasit",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1892,10 +1892,10 @@
     "filmography": [
       "Love Above The Clouds"
     ],
-    "agency": null,
+    "agency": "Century UU Entertainment",
     "instagram": "thivaritthisa",
-    "notes": "Love Above The Clouds（2026 予定）で主演。実名確認中（IG: thivaritthisa）。",
-    "name_en": "Thivarit"
+    "notes": "ThisaAnna ペアの Thisa（ฐิสา วริฏฐิสา ลิ้มธรรมมหิศร）。Love Above The Clouds で主演。",
+    "name_en": "Thisa"
   },
   {
     "id": "ing",
@@ -1925,8 +1925,8 @@
       "Fairway of Love"
     ],
     "agency": "Mojo Muse Management",
-    "instagram": null,
-    "notes": "IngCartoon ペアの Cartoon。Fairway of Love で主演。実名・IG 確認中。",
+    "instagram": "cartoonkitty_ya",
+    "notes": "IngCartoon ペアの Cartoon。Fairway of Love で主演。IG: @cartoonkitty_ya",
     "name_en": "Cartoon"
   },
   {
@@ -1960,5 +1960,21 @@
     "instagram": "bbbambiie",
     "notes": "MinagiBam ペアの Bam。Fairway of Love でサブカップル。Channel 3 の Bam（OomBam）とは別人。",
     "name_en": "Bam"
+  },
+  {
+    "id": "ploy-chermarn",
+    "name_ja": "プロイ",
+    "real_name": "Chermarn Boonyasak",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Above The Clouds"
+    ],
+    "agency": null,
+    "instagram": null,
+    "notes": "Love Above The Clouds に共演（サブ／シニア役）。タイの著名ベテラン女優（本名 เฌอมาลย์ บุญยศักดิ์）。他にも同名の Ploy 系女優が複数存在するので混同注意。",
+    "name_en": "Ploy"
   }
 ]

@@ -259,8 +259,13 @@ export function DramaFilterBar({
   type MergedCompleted =
     | { kind: "drama"; drama: Drama }
     | { kind: "watching"; drama: WatchingDrama };
+  // 完結ページ (cardType === "drama") では filteredDramas は Drama[]、
+  // それ以外の cardType はここに来ないので安全にキャストできる。
   const mergedCompleted: MergedCompleted[] = [
-    ...filteredDramas.map((d) => ({ kind: "drama" as const, drama: d })),
+    ...filteredDramas.map((d) => ({
+      kind: "drama" as const,
+      drama: d as Drama,
+    })),
     ...filteredEnded.map((d) => ({ kind: "watching" as const, drama: d })),
   ];
   // year は Drama は d.year、Watching は end_date の年 or start_date の年

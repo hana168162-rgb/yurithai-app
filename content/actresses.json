@@ -1832,5 +1832,133 @@
     "instagram": "jhutaa",
     "notes": "PuyfaiPloy ペアの Ploy。SHADES で Nano 役として主演。",
     "name_en": "Ploy"
+  },
+  {
+    "id": "claudine",
+    "name_ja": "クローディーン",
+    "real_name": "Claudine Craig",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Did You Know"
+    ],
+    "agency": "Mandee Work",
+    "instagram": "claudinecraig",
+    "notes": "ClaudinePraew ペアの Claudine。Did You Know（รักครั้งไหนก็ใช่เธอ、2026 予定）で อทิตยา 役として主演。",
+    "name_en": "Claudine"
+  },
+  {
+    "id": "praew",
+    "name_ja": "プレーオ",
+    "real_name": "Praew",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Did You Know"
+    ],
+    "agency": "Mandee Work",
+    "instagram": "narupornkamol",
+    "notes": "ClaudinePraew ペアの Praew（IG: narupornkamol）。Did You Know で นฤกรกมล 役として主演。AndaPraewa/NoonPraewa の Praewa Putticha とは別人。",
+    "name_en": "Praew"
+  },
+  {
+    "id": "annas",
+    "name_ja": "アンナス",
+    "real_name": "Annas",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Above The Clouds"
+    ],
+    "agency": null,
+    "instagram": "annasnga_1o",
+    "notes": "Love Above The Clouds（2026 予定）で主演。実名確認中（IG: annasnga_1o）。",
+    "name_en": "Annas"
+  },
+  {
+    "id": "thivarit",
+    "name_ja": "ティワリット",
+    "real_name": "Thivarit",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Above The Clouds"
+    ],
+    "agency": null,
+    "instagram": "thivaritthisa",
+    "notes": "Love Above The Clouds（2026 予定）で主演。実名確認中（IG: thivaritthisa）。",
+    "name_en": "Thivarit"
+  },
+  {
+    "id": "ing",
+    "name_ja": "イン",
+    "real_name": "Ing Tanatcha",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Fairway of Love"
+    ],
+    "agency": "Mojo Muse Management",
+    "instagram": "iingtanatcha",
+    "notes": "IngCartoon ペアの Ing。Fairway of Love（รักออกรอบ、2026 予定）で主演。",
+    "name_en": "Ing"
+  },
+  {
+    "id": "cartoon",
+    "name_ja": "カートゥーン",
+    "real_name": "Cartoon",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Fairway of Love"
+    ],
+    "agency": "Mojo Muse Management",
+    "instagram": null,
+    "notes": "IngCartoon ペアの Cartoon。Fairway of Love で主演。実名・IG 確認中。",
+    "name_en": "Cartoon"
+  },
+  {
+    "id": "minagi",
+    "name_ja": "ミナギ",
+    "real_name": "Minagi",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Fairway of Love"
+    ],
+    "agency": "Mojo Muse Management",
+    "instagram": "mina_minagi",
+    "notes": "MinagiBam ペアの Minagi。Fairway of Love（2026 予定）でサブカップル。",
+    "name_en": "Minagi"
+  },
+  {
+    "id": "bam-b",
+    "name_ja": "バム",
+    "real_name": "Bam Bambi",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Fairway of Love"
+    ],
+    "agency": "Mojo Muse Management",
+    "instagram": "bbbambiie",
+    "notes": "MinagiBam ペアの Bam。Fairway of Love でサブカップル。Channel 3 の Bam（OomBam）とは別人。",
+    "name_en": "Bam"
   }
 ]

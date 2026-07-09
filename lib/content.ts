@@ -40,20 +40,25 @@ export const upcoming: UpcomingDrama[] = [
  *   優先度 2: 未発表 / pending → 末尾
  */
 export function getUpcomingSortedByDate(): UpcomingDrama[] {
-  const priority = (d: UpcomingDrama): [number, string] => {
+  const priority = (d: UpcomingDrama): [number, number, string] => {
+    // always_last 作品は絶対末尾（優先度 3）
+    if (d.always_last) return [3, 0, d.announced_for || ""];
+    // featured 作品は先頭固定（優先度 -1、featured_rank 昇順）
+    if (d.featured) return [-1, d.featured_rank ?? 999, d.announced_for || ""];
     const a = d.announced_for || "";
     const m = a.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
     if (m) {
       const [, y, mo, day] = m;
-      return [0, `${y}-${mo.padStart(2, "0")}-${day.padStart(2, "0")}`];
+      return [0, 0, `${y}-${mo.padStart(2, "0")}-${day.padStart(2, "0")}`];
     }
-    if (d.pending || a === "未発表") return [2, a];
-    return [1, a];
+    if (d.pending || a === "未発表" || a === "未定") return [2, 0, a];
+    return [1, 0, a];
   };
   return [...upcoming].sort((a, b) => {
-    const [pa, ka] = priority(a);
-    const [pb, kb] = priority(b);
+    const [pa, ra, ka] = priority(a);
+    const [pb, rb, kb] = priority(b);
     if (pa !== pb) return pa - pb;
+    if (ra !== rb) return ra - rb;
     return ka.localeCompare(kb);
   });
 }
@@ -717,9 +722,37 @@ export function hasEnded(d: WatchingDrama): boolean {
  */
 export function getActiveWatching(): WatchingDrama[] {
   const now = getBangkokNow();
-  return watching
+  const sorted = watching
     .filter((d) => !hasEnded(d))
     .sort((a, b) => pickupSortKey(a, now) - pickupSortKey(b, now));
+
+  // シリーズグループ化：同じ series キーを持つ作品は、最初に現れたメンバーの位置に
+  // 続けて並べる（4 Elements 等の連続作品を隣接表示するため）。
+  const groups = new Map<string, WatchingDrama[]>();
+  for (const d of sorted) {
+    if (d.series) {
+      const arr = groups.get(d.series) ?? [];
+      arr.push(d);
+      groups.set(d.series, arr);
+    }
+  }
+  const out: WatchingDrama[] = [];
+  const placed = new Set<string>();
+  for (const d of sorted) {
+    if (placed.has(d.slug)) continue;
+    if (d.series && groups.has(d.series)) {
+      for (const m of groups.get(d.series)!) {
+        if (!placed.has(m.slug)) {
+          out.push(m);
+          placed.add(m.slug);
+        }
+      }
+    } else {
+      out.push(d);
+      placed.add(d.slug);
+    }
+  }
+  return out;
 }
 
 /**

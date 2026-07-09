@@ -70,6 +70,7 @@ export interface WatchingDrama {
   end_date?: string | null;         // 最終話放送日（"YYYY-MM-DD"）。これを過ぎたら自動的に完結扱いに
   episodes?: number | null;          // 全話数（StatusBadge "N話完結" 表示用）
   pending?: boolean;                  // true なら「放送中」一覧の末尾に固定（後半放送日未定 等）
+  series?: string;                    // シリーズキー（同じ値の作品は隣接配置される）
 }
 
 export type AnyDrama = Drama | WatchingDrama | UpcomingDrama;
@@ -93,6 +94,12 @@ export interface UpcomingDrama {
   /** 公式が放送日程・キャスト等の詳細をペンディングにしている作品。
    *  一覧表示時に末尾へ送るためのフラグ。 */
   pending?: boolean;
+  /** 一覧の先頭に固定表示するためのフラグ。編集部おすすめ用。 */
+  featured?: boolean;
+  /** featured 複数時の並び順（小さい順に前）。 */
+  featured_rank?: number;
+  /** 何がなんでも最末尾に固定表示するためのフラグ。 */
+  always_last?: boolean;
 }
 
 export interface Company {

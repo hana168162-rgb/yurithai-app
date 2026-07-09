@@ -251,6 +251,59 @@ export function DramaFilterBar({
   const totalFiltered = filteredDramas.length + filteredEnded.length;
   const isFiltered = !!(actressId || agency || year || freeOnly);
 
+  /**
+   * 完結一覧では、recentlyEnded (watching.json 由来) と dramas を
+   * まとめて year 降順 + series 隣接ソートで返す。
+   * 各要素の描画時に元の型で判別してカードを出し分ける。
+   */
+  type MergedCompleted =
+    | { kind: "drama"; drama: Drama }
+    | { kind: "watching"; drama: WatchingDrama };
+  const mergedCompleted: MergedCompleted[] = [
+    ...filteredDramas.map((d) => ({ kind: "drama" as const, drama: d })),
+    ...filteredEnded.map((d) => ({ kind: "watching" as const, drama: d })),
+  ];
+  // year は Drama は d.year、Watching は end_date の年 or start_date の年
+  const yearOf = (m: MergedCompleted): number => {
+    if (m.kind === "drama") return m.drama.year ?? 0;
+    const w = m.drama;
+    const src = w.end_date || w.start_date || "";
+    const y = parseInt(src.slice(0, 4), 10);
+    return Number.isFinite(y) ? y : 0;
+  };
+  const sortedCompleted: MergedCompleted[] = (() => {
+    const byYearDesc = [...mergedCompleted].sort(
+      (a, b) => yearOf(b) - yearOf(a),
+    );
+    const groups = new Map<string, MergedCompleted[]>();
+    for (const m of byYearDesc) {
+      const s = m.drama.series;
+      if (s) {
+        const arr = groups.get(s) ?? [];
+        arr.push(m);
+        groups.set(s, arr);
+      }
+    }
+    const out: MergedCompleted[] = [];
+    const placed = new Set<string>();
+    for (const m of byYearDesc) {
+      if (placed.has(m.drama.slug)) continue;
+      const s = m.drama.series;
+      if (s && groups.has(s)) {
+        for (const g of groups.get(s)!) {
+          if (!placed.has(g.drama.slug)) {
+            out.push(g);
+            placed.add(g.drama.slug);
+          }
+        }
+      } else {
+        out.push(m);
+        placed.add(m.drama.slug);
+      }
+    }
+    return out;
+  })();
+
   const renderCard = (d: AnyDrama): ReactNode => {
     switch (cardType) {
       case "drama":
@@ -358,15 +411,32 @@ export function DramaFilterBar({
         </div>
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-          {filteredEnded.map((d) => (
-            <WatchingCard
-              key={d.slug}
-              drama={d}
-              cover={d.cover_image}
-              statusOverride="completed"
-            />
-          ))}
-          {filteredDramas.map((d) => renderCard(d))}
+          {cardType === "drama"
+            ? sortedCompleted.map((m) =>
+                m.kind === "drama" ? (
+                  renderCard(m.drama)
+                ) : (
+                  <WatchingCard
+                    key={m.drama.slug}
+                    drama={m.drama}
+                    cover={m.drama.cover_image}
+                    statusOverride="completed"
+                  />
+                ),
+              )
+            : (
+              <>
+                {filteredEnded.map((d) => (
+                  <WatchingCard
+                    key={d.slug}
+                    drama={d}
+                    cover={d.cover_image}
+                    statusOverride="completed"
+                  />
+                ))}
+                {filteredDramas.map((d) => renderCard(d))}
+              </>
+            )}
         </div>
       )}
     </>

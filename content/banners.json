@@ -1,26 +1,6 @@
 [
   {
-    "id": "blog-milklove",
-    "title": "新ブログ：MilkLove 完全ガイド",
-    "subtitle": "InkPa から 23.5、YSL アンバサダーまでの歩み",
-    "cta": "読む",
-    "href": "/blog/milklove-feature",
-    "bg": "from-yuri-pink to-yuri-lilac",
-    "fg": "text-yuri-ink",
-    "icon": "🌟"
-  },
-  {
-    "id": "upcoming-spotlight",
-    "title": "2026年、見逃せない公開予定17作",
-    "subtitle": "Chasing Love / The Fire / Cranium ほか",
-    "cta": "公開予定を見る",
-    "href": "/dramas/upcoming",
-    "bg": "from-yuri-teal to-yuri-cream",
-    "fg": "text-yuri-ink",
-    "icon": "🌙"
-  },
-  {
-    "id": "tripcom-bangkok",
+    "id": "aff-tripcom",
     "title": "推しに会いに、バンコクへ ✈",
     "subtitle": "航空券＋ホテルを Trip.com で検索｜PR",
     "cta": "Trip.com で見る",
@@ -31,13 +11,35 @@
     "icon": "✈"
   },
   {
-    "id": "blog-streaming",
-    "title": "新ブログ：配信サービス完全比較",
-    "subtitle": "タイGLはどこで観られる？",
-    "cta": "読む",
-    "href": "/blog/streaming-services-comparison-2026",
+    "id": "aff-nordvpn",
+    "title": "海外配信を安心して観る — NordVPN®",
+    "subtitle": "タイ現地配信の視聴環境に｜PR",
+    "cta": "NordVPN® 公式へ",
+    "href": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=148221&url_id=880",
+    "external": true,
     "bg": "from-yuri-lilac to-yuri-teal",
     "fg": "text-yuri-ink",
-    "icon": "📺"
+    "icon": "🔒"
+  },
+  {
+    "id": "aff-wise",
+    "title": "海外送金・両替を低コストで — Wise",
+    "subtitle": "タイバーツの両替やファンミ決済に｜PR",
+    "cta": "Wise を見る",
+    "href": "https://wise.com/invite/dic/miyuh208",
+    "external": true,
+    "bg": "from-yuri-pink to-yuri-lilac",
+    "fg": "text-yuri-ink",
+    "icon": "💱"
+  },
+  {
+    "id": "sponsor-recruit",
+    "title": "スポンサー・タイアップ募集中",
+    "subtitle": "タイGL読者に届けるあなたのサービスを",
+    "cta": "お問い合わせ",
+    "href": "/contact?topic=sponsor",
+    "bg": "from-yuri-teal to-yuri-cream",
+    "fg": "text-yuri-ink",
+    "icon": "💌"
   }
 ]

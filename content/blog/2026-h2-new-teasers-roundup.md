@@ -43,7 +43,7 @@ cover_image: "/images/dramas/the-fire.jpg"
 
 **主演**：Meena（@meenaxrina）× Aoom（@aoomtwp）＝ **MeenBabe** ペア。
 
-- 🔗 予告編：[https://youtu.be/Mrm0Ej8e_Yw](https://youtu.be/Mrm0Ej8e_Yw)
+- 🔗 予告編：[https://youtu.be/2IbjmAjpzEs](https://youtu.be/2IbjmAjpzEs)
 - 🎬 タイ語タイトル：**ใต้เงาจันทรา**（月の影の下で）
 - 💼 制作会社 IG：@mgibeyond
 

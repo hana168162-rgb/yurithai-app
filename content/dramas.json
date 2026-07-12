@@ -3175,5 +3175,75 @@
       }
     ],
     "title_th": "เจน(จะ)เป็นดาวสินก้ำ"
+  },
+  {
+    "id": 111,
+    "slug": "shades",
+    "title_ja": "SHADES",
+    "title_en": "SHADES",
+    "title_th": "SHADES",
+    "year": 2026,
+    "production": "FRT Entertainment",
+    "episodes": 6,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "MookShu × NikyEngland × OpalMint × PuyfaiPloy",
+    "tags": {
+      "genre": [
+        "群像劇",
+        "ロマンス"
+      ],
+      "relationship": [
+        "4ペア群像"
+      ],
+      "tone": [
+        "爽やか",
+        "青春"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "4 ペアが交錯する GL 群像劇。前半 6 話が SHADES として放送完了、後半は続編『SHADES II』として 2027 年放送予定。",
+    "review": {
+      "highlights": [
+        "4ペア群像構成",
+        "FRT Entertainment 初 GL"
+      ],
+      "recommend_for": [
+        "群像劇好き",
+        "新しい制作元の GL を追いたい人"
+      ],
+      "caution_for": [
+        "続きを待つ必要あり（Season 2 は 2027 年予定）"
+      ],
+      "body_ja": "FRT Entertainment 初の GL 作品。監督: Flute Chinnapat Kittichaiwarangkul。\n\n MookShu（Mook Worranit=Nalin 先生 × Shu Nannicha=Mink）、NikyEngland（Niky Warinrat=Belle × England Ladamanee=Earn）、OpalMint（Opal Kulwipa=Amy × Mint Benjanee=Sophie）、PuyfaiPloy（Puyfai Tharathip=Jane × Ploy Jhutamas=Nano）── 4 ペアが交錯する群像 GL。\n\nタイ放送は 2026 年 4 月 18 日から毎週土曜 20:00 TrueVisions NOW にて EP1-6 前半を放送完了。EP6 は Mid-Season Finale として構成された。世界配信 UNCUT 版は 2026 年 6 月 6 日〜 FRT Entertainment YouTube にて無料公開中。\n\n物語の後半は続編『**SHADES II**』として 2027 年放送予定と公式が発表。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "制作: FRT Entertainment / 放送局: TrueVisions NOW / 放送: 毎週土曜 20:00 / 放送期間: 2026-04-18〜2026-05-23（EP1-6 = SHADES / EP6 は Mid-Season Finale）/ 世界配信 UNCUT 版: 2026年6月6日〜 FRT Entertainment YouTube（無料）/ 監督: Flute Chinnapat Kittichaiwarangkul / ※続編『SHADES II』が 2027 年放送予定として公式発表",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/shades.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/NhK6U0NrjD8",
+    "streaming": [
+      {
+        "platform": "TrueVisions NOW",
+        "url": "https://truevisions.co.th/movieseries/29001/en/",
+        "note": "タイ国内向け / 毎週土曜20:00 ICT / EP1-6放送済み（前半完了）"
+      },
+      {
+        "platform": "FRT Entertainment YouTube（UNCUT版・無料）",
+        "url": "https://www.youtube.com/@FRT.Entertainment",
+        "note": "2026年6月6日〜世界配信 / 無料視聴可（UNCUT完全版）"
+      },
+      {
+        "platform": "FRT Entertainment YouTube メンバーシップ",
+        "url": "https://www.youtube.com/@FRT.Entertainment",
+        "note": "先行視聴可能 / 有料メンバーシップ"
+      }
+    ]
   }
 ]

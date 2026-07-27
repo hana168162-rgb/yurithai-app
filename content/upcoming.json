@@ -176,18 +176,19 @@
   {
     "id": 216,
     "slug": "khom-khlang",
-    "title_ja": "khom khlang",
+    "title_ja": "Khom Khlang",
     "title_en": "Khom Khlang (Formidable Eyes)",
     "title_th": "ข่มขลัง",
     "production": "Star Hunter Entertainment",
-    "cast_pair": "Bint × Pui × Noon（BintPuiNoon）",
+    "cast_pair": "Bint × Puinoon（PuinoonBint）",
     "status": "upcoming",
-    "announced_for": "2026年予定",
-    "synopsis": "理性的な警察官ピーム（Pui）と、古代の儀式と信仰を司る霊媒師ブラン（Bint）が、ある事件の捜査のため対立しながら協力していく。聖なる文字、神秘的なシンボル、オカルトの世界を背景に、二人の間に否応なく芽生える絆を描く。",
-    "note": "Star Hunter Entertainment制作 / 原作: Luxurious.W『ข่มขลัง（Formidable Eyes）』/ STH PROJECT LINE UP 2026 発表作 / BintPuiNoonの3人主演 / サブにAnda × Lookkaew出演 / 犯罪捜査×オカルト要素 / 2026年内ライン入りは確定だが、公式の放送日アナウンスはまだ",
+    "announced_for": "2026年8月末予定",
+    "synopsis": "理性的な警察官ピーム（Puinoon）と、古代の儀式と信仰を司る霊媒師ブラン（Bint）が、ある事件の捜査のため対立しながら協力していく。聖なる文字、神秘的なシンボル、オカルトの世界を背景に、二人の間に否応なく芽生える絆を描く。",
+    "note": "Star Hunter Entertainment 制作 / 原作: Luxurious.W『ข่มขลัง（Formidable Eyes）』/ STH PROJECT LINE UP 2026 発表作 / 主演: Bint（Bint Sireethorn、@bintsireethorn）× Puinoon（@pn.noonn）= PuinoonBint / サブ: AndaLookkaew（Anda × Lookkaew）/ ジャンル: ホラー・スーパーナチュラル GL / 犯罪捜査 × オカルト（除霊・呪符・タトゥーヤントラ）要素 / 2026 年 8 月末プレミア予定（Sawadee GL 情報源）/ 具体的な放送日・エピソード数・配信先は続報待ち",
     "cover_image": "/images/dramas/khom-khlang.jpg",
     "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/II86VoZ6v3A"
+    "youtube_teaser": "https://youtu.be/II86VoZ6v3A",
+    "pending": false
   },
   {
     "id": 218,
@@ -332,5 +333,37 @@
     "cover_image": null,
     "cover_credit": null,
     "youtube_teaser": "https://youtu.be/_3O-uyVVFvs"
+  },
+  {
+    "id": 229,
+    "slug": "love-in-bloom",
+    "title_ja": "Love In Bloom",
+    "title_en": "Love In Bloom",
+    "title_th": "รักอุ่นกรุ่นกลิ่นฝน",
+    "production": "Monomax Original",
+    "cast_pair": "Tungpang × Jessie（TungpangJessie）",
+    "status": "upcoming",
+    "announced_for": "2026年予定",
+    "synopsis": "二人は雨の日に出会い、花が咲く日に恋に落ちる。ある真実が明かされたその日、二人はどうなるのか ── 喪失から、再び心を花咲かせる愛への物語。",
+    "note": "Monomax Original 制作 / #MonoOpenHouse2026 で発表された Mono Original ライン / 主演: Tungpang（Pattaravadee Laosa、@tungpangpl）× Jessie（Natsiya Prommart、@jessienatsiya.p）= TungpangJessie（Heart Code 以来の主演再共演）/ 監督: ศุทธสิทธิ์ เดชอินทรนารักษ์ / ジャンル: Romantic Drama (GL) / 舞台: 花屋 / Tagline: จากการสูญเสีย สู่ความรักที่ทำให้หัวใจผลิบานอีกครั้ง（喪失から、心が再び花咲く恋へ）/ 公式 IG: @monooriginal.th / 具体的な放送日・エピソード数・配信先は公式未発表",
+    "cover_image": "/images/dramas/love-in-bloom.jpg",
+    "cover_credit": "Monomax Original / Mono Original Instagram (@monooriginal.th)",
+    "youtube_teaser": null
+  },
+  {
+    "id": 230,
+    "slug": "final-round",
+    "title_ja": "Final Round",
+    "title_en": "Final Round",
+    "title_th": "มู่หลานไข่มุก",
+    "production": "IDX Entertainment",
+    "cast_pair": "Mulan × Kaimuk（MulanKaimuk）",
+    "status": "upcoming",
+    "announced_for": "未発表",
+    "pending": true,
+    "note": "IDX Entertainment 制作 / 主演: Mulan（@mulan.ss）× Kaimuk（@kaimuk.n）= MulanKaimuk / コンセプト: Girls' Love × ムエタイ（Muay Thai）/ 進捗: 脚本読み合わせ・第一回テーブルリード完了、2026 年内に撮影開始予定 / 公式プレスカンファレンス: 2026 年 8 月 15 日開催予定（詳細は当日発表予定）/ 情報源: Sawadee GL（@sawadeegl）/ ハッシュタグ #kaimukn #mulanss #MulanKaimuk #FinalRound #มู่หลานไข่มุก / 具体的な放送日・エピソード数・配信先いずれも公式未発表",
+    "cover_image": null,
+    "cover_credit": null,
+    "youtube_teaser": null
   }
 ]

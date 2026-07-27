@@ -1099,7 +1099,8 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
-      "Heart Code"
+      "Heart Code",
+      "Love In Bloom"
     ],
     "agency": "Monomax",
     "instagram": "tungpangpl",
@@ -1114,7 +1115,8 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
-      "Heart Code"
+      "Heart Code",
+      "Love In Bloom"
     ],
     "agency": "Monomax",
     "instagram": "jessienatsiya.p",
@@ -1602,7 +1604,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
-      "khom khlang"
+      "Khom Khlang"
     ],
     "agency": "Star Hunter Entertainment",
     "instagram": "bintsireethorn",
@@ -1976,5 +1978,53 @@
     "instagram": null,
     "notes": "Love Above The Clouds に共演（サブ／シニア役）。タイの著名ベテラン女優（本名 เฌอมาลย์ บุญยศักดิ์）。他にも同名の Ploy 系女優が複数存在するので混同注意。",
     "name_en": "Ploy"
+  },
+  {
+    "id": "mulan",
+    "name_ja": "ムーラン",
+    "real_name": null,
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Final Round"
+    ],
+    "agency": "IDX Entertainment",
+    "instagram": "mulan.ss",
+    "notes": "MulanKaimuk ペアの Mulan（มู่หลาน）。IDX Entertainment 所属。実名・詳細は続報待ち。",
+    "name_en": "Mulan"
+  },
+  {
+    "id": "kaimuk",
+    "name_ja": "カイムック",
+    "real_name": null,
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Final Round"
+    ],
+    "agency": "IDX Entertainment",
+    "instagram": "kaimuk.n",
+    "notes": "MulanKaimuk ペアの Kaimuk（ไข่มุก）。IDX Entertainment 所属。実名・詳細は続報待ち。",
+    "name_en": "Kaimuk"
+  },
+  {
+    "id": "puinoon",
+    "name_ja": "プイヌーン",
+    "real_name": "Puinoon",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Khom Khlang"
+    ],
+    "agency": "Star Hunter Entertainment",
+    "instagram": "pn.noonn",
+    "notes": "PuinoonBint ペアの Puinoon。Star Hunter Entertainment 所属。Khom Khlang（ข่มขลัง）で主演。",
+    "name_en": "Puinoon"
   }
 ]

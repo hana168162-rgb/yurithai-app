@@ -158,3 +158,15 @@ The Fire の放送開始は、単なる新作の始まりではありません�
 - [The Fire（火）](/dramas/the-fire) ── 今週土曜スタート
 
 タイ GL 2026 年の物語論、その完結章を、リアルタイムで一緒に見届けましょう。
+
+---
+
+## 参考文献
+
+- **[The Earth 作品ページ](/dramas/the-earth)** ── 放送情報・キャスト・シノプシス（yurithai 編集部整理）
+- **[The Water 作品ページ](/dramas/the-water)** ── 同上
+- **[The Air 作品ページ](/dramas/the-air)** ── 原作 Salmon 著『The Air』を含む座組情報
+- **[The Fire 作品ページ](/dramas/the-fire)** ── NamneungNoey 主演・役柄情報
+- North Star Entertainment 公式 YouTube・IG（作品予告および放送スケジュール）
+- MyDramaList（The Earth、The Water の視聴者評点）
+- 4 Elements シリーズを **"元素モチーフの連作"** として読み解く分析枠組みは、yurithai 編集部による独自解釈です。作品側が公式に「元素＝この関係性」と定義した事実はなく、放送順・シノプシス・トーンから編集部が導き出した仮説であることをお断りしておきます。

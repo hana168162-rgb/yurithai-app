@@ -111,3 +111,12 @@ SHADES S1 が残した最も大きな遺産は、**"何をどう見せるか"** 
 SHADES II が放送される 2027 年、この編成モデルが業界内で **標準化に向かうのか、SHADES 特有の実験に留まるのか**、そこが次の観測点になります。
 
 続報は [SHADES 作品ページ](/dramas/shades) から随時アップデートしていきます。
+
+---
+
+## 参考文献
+
+- **[SHADES 作品ページ](/dramas/shades)** ── 放送情報・4 ペア役柄・監督・世界配信 UNCUT 版などのファクト整理（yurithai 編集部）
+- [FRT Entertainment 公式 YouTube](https://www.youtube.com/@FRT.Entertainment) ── UNCUT 版無料配信の一次ソース
+- SHADES 予告編 YouTube：https://youtu.be/NhK6U0NrjD8
+- Mid-Season Finale フォーマットの分析、"4 ペア群像を単位単位で読む"視点、SHADES II への持ち越し予測 ── いずれも yurithai 編集部の独自解釈です。公式が「Mid-Season Finale」と明確にラベリングした事実確認は取れておらず、EP6 の位置づけを構造から後付けで整理したものです。

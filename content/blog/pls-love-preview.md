@@ -114,3 +114,16 @@ My Safe Zone が **"安心して見られる（Safe Zone）"** だったのに�
 放送日確定の公式アナウンスが出た瞬間、SNS が大きく動く作品になるはずです。**予告編と Reverse 原作を今のうちに押さえておく**のが、放送スタート時の楽しみを最大化する最適解と言えます。
 
 続報は [公開予定ドラマ一覧](/dramas/upcoming) からいつでも追いかけられます。
+
+---
+
+## 参考文献
+
+- **[PLS Love 作品ページ](/dramas/upcoming)** ── 制作元・キャスト・原作情報の由来（yurithai 編集部の整理）
+- **[My Safe Zone 作品ページ](/dramas/my-safe-zone)** ── LenaMiu 前作の位置づけ・シノプシス・放送履歴
+- **[The Secret of Us](/dramas/the-secret-of-us)** / **[Only You](/dramas/only-you)** ── Channel 3 系列 GL の他の例
+- PLS Love 予告編 YouTube：https://youtu.be/N6bdFaf37Ms
+- Lena / Miu 各 IG（[@lalinalena](https://instagram.com/lalinalena) / [@mmiunatshaa](https://instagram.com/mmiunatshaa)）── 所属・活動状況の一次ソース
+- 「Channel 3 系列の継続投資」「LenaMiu ブランドの成立」「My Safe Zone との対比表」「編成本線としての GL」といった構造分析は **yurithai 編集部の独自解釈**です。Channel 3 側が公式にそう述べた事実はありません。
+- 「6 月撮影開始予定」はファンソース報を参照した情報で、公式アナウンスではありません。
+- Reverse 原作『PLS Love รักได้ไหม』の情報は [PLS Love 作品ページ](/dramas/upcoming) の note に記載された編集部整理に基づきます。

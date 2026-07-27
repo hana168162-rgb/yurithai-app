@@ -126,3 +126,13 @@ BEC World Originals × Channel 3。**LingLing = ラン（弁護士）× Orm = �
 - **進行中**：[In Love Forever](/dramas/in-love-forever)
 
 そして 8 月末の完結後、秋にはさらに [PLS Love](/blog/pls-love-preview)、[Moonshadow](/dramas/upcoming) など話題作が控えています。夏の完結を追いかけながら、**次の波の予習**も並行するのが 2026 年後半のタイ GL の楽しみ方です。
+
+---
+
+## 参考文献
+
+- **[The Air](/dramas/the-air)** / **[Chasing Love](/dramas/chasing-love)** / **[AI Girl](/dramas/ai-girl)** / **[The Fire](/dramas/the-fire)** / **[My Lady's Bodyguard](/dramas/my-ladys-bodyguard)** / **[In Love Forever](/dramas/in-love-forever)** ── 各作品ページ（yurithai 編集部の整理）
+- 各作品の公式 YouTube 予告編・IG 投稿 ── 放送日・話数の一次ソース
+- North Star Entertainment、CHANGE2561、Me Mind Y、Kongthup's Production、BEC World Originals ── 各制作元の公式アナウンス
+- 「Q4 の PLS Love・Moonshadow に向けた"空白づくり"」「Netflix / iQIYI 四半期改編との関係」など編成論的な仮説は **yurithai 編集部の独自解釈**です。制作側や配信プラットフォームが公式にそう述べた事実はなく、放送日程の並びから推測した見立てです。
+- 週別視聴シミュレーションは 2026-07-27 時点の放送スケジュールを元にした、編集部作成の視聴プラン提案です。

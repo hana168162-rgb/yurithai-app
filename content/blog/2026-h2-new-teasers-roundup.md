@@ -130,3 +130,15 @@ cover_image: "/images/dramas/the-fire.jpg"
 なお、今回のまとめから外した **[PLS Love](/blog/pls-love-preview)**（LenaMiu 再結成）と **[Always Remember](/blog/always-remember-preview)**（Grace Budsarin 復帰作）は、それぞれ**単体で掘り下げた特集記事**があるので、そちらも合わせてどうぞ。
 
 タイGL 2026 下半期、まだまだ楽しみはこれからです。
+
+---
+
+## 参考文献
+
+- **[The Fire](/dramas/the-fire)** / **[Under Her Rules](/dramas/upcoming)** / **[Love Above The Clouds](/dramas/upcoming)** / **[Did You Know](/dramas/upcoming)** / **[Fairway of Love](/dramas/upcoming)** ── 各作品ページ（放送情報・キャスト・制作元・タイ語タイトル）
+- 各作品の公式 YouTube 予告編（本文中に URL 記載）── 一次ソース
+- North Star Entertainment、MGI Beyond、Century UU Entertainment（Thailand）、Mandee Work、Mojo Muse Management ── 各制作元の公式アナウンス
+- VANILLASIGN（Love Above The Clouds 原作者）── 原作情報
+- DMD Lineup 2026「The Rise Continues」── Did You Know のラインナップ発表資料
+- 「老舗系／新興系という制作元の構図」「予告解禁ラッシュを"編成の広がり"として読む」視点は **yurithai 編集部の独自解釈**です。各制作元が公式にそう自己定義した事実はなく、放送履歴と作品ライン投入の並びから編集部が導いた見立てです。
+- 「放送スタートまでの近さ順」は 2026-07-27 時点の情報配置。順序・状態は公式アナウンス次第で変わります。

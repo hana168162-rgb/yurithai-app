@@ -131,3 +131,14 @@ CHANGE2561 は、**タイ GL のなかで一番派手ではないが、一番安
 - [Chasing Love（2026）](/dramas/chasing-love)
 
 2026 年下半期以降の CHANGE2561 の動きも、当サイトで継続的にウォッチしていきます。
+
+---
+
+## 参考文献
+
+- **[Affair](/dramas/affair)** / **[Harmony Secret](/dramas/harmony-secret)** / **[Hometown Romance](/dramas/hometown-romance)** / **[I Wanna Be Sup'tar](/dramas/i-wanna-be-suptar)** / **[Chasing Love](/dramas/chasing-love)** ── 各作品ページ（放送日程・話数・主演・MDL スコアの由来）
+- MyDramaList（Affair 8.2 / Harmony Secret 8.2 / Hometown Romance 8.4 / I Wanna Be Sup'tar 7.7）── 各作品の視聴者評点の出所
+- CHANGE2561 の公式リリース・One 31 番組表 ── 放送スケジュールの一次ソース
+- Netflix（I Wanna Be Sup'tar 日本配信、Chasing Love ワールドワイド UNCUT 版）── 配信プラットフォーム
+- 「CHANGE2561 は中規模で継続する若手 GL のホーム」「Netflix 系配信への継続的コミット」「サブ→メイン昇格の系譜」といった構造分析、および他プロダクション（GMMTV、Channel 3、North Star、IDOLFACTORY）との位置づけの対比は **yurithai 編集部の独自解釈**です。CHANGE2561 が公式に戦略として明言したものではなく、放送履歴と座組の反復から編集部が導いた見立てです。
+- LillyBelle が Harmony Secret にサブ CP として登場した事実は [Harmony Secret 作品ページ](/dramas/harmony-secret) のレビューに基づきます。

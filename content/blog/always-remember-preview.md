@@ -83,3 +83,17 @@ Always Remember は、以下の 3 点で **2026 年下半期に注目すべき�
 3. **涙のティーザー**：ライトではなく重厚な情感 GL を約束する編集
 
 続報 ── とくに **共演者の発表** ── が最大の注目ポイント。公式アナウンスが解禁され次第、当サイトでも本記事に追記していきます。作品ページは [公開予定ドラマ一覧](/dramas/upcoming) からアクセスできます。
+
+---
+
+## 参考文献
+
+- **[Always Remember 作品ページ](/dramas/upcoming)** ── 制作元・キャスト・公式ハッシュタグの由来（yurithai 編集部の整理）
+- **[Mate 作品ページ](/dramas/mate)** ── Grace の GL 主演前作・GraceOaey ペアの位置づけ
+- Always Remember ティーザー YouTube：https://youtu.be/zpmrwzAUZOc
+- Grace Budsarin 公式 IG：[@gracebudsarin](https://instagram.com/gracebudsarin)
+- ZENSE Entertainment 公式 IG：[@zense_series](https://instagram.com/zense_series)
+- Nezt Media（Always Remember 共同制作）── 座組情報
+- 「ZENSE ふたたび」「涙のティーザーが約束する重厚な情感」といった構造分析は **yurithai 編集部の独自解釈**です。制作側が公式に「メロドラマ寄り」等のトーンを明言した事実はなく、公開されたティーザー映像の編集特徴から編集部が導いた見立てです。
+- 「共演者が未確定」は 2026-07-27 時点の情報。公式発表があり次第、本記事は追記・更新します。
+- タイ語タイトル『รักเธอฝังใจ』のニュアンス解釈（"心に深く刻まれる"）は編集部訳。

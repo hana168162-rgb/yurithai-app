@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "purpose": "会員登録必須ページ用の保留コンテンツ（非GL活動、ゴシップ情報など）。公開ページには表示しない。将来会員エリア構築時にここから引き出す。",
+    "created": "2026-07-27",
+    "policy": "GL 主題でない情報、および裏付けが弱いゴシップは全てここに保管する。GL 新作アナウンスは通常通り upcoming.json / dramas.json / watching.json に登録する。"
+  },
+  "items": [
+    {
+      "slug": "blejie-non-gl-2026-07",
+      "kind": "non_gl_activity",
+      "actresses": [
+        "mable",
+        "pangjie"
+      ],
+      "pair": "BleJie",
+      "date": "2026-07-16",
+      "source": "Sawadee GL (@sawadeegl) IG post",
+      "summary": "Mable と Pangjie が Mine Media 以外の制作元による非 GL 新シリーズに共演することが発表された。役柄・作品タイトル・放送時期は未発表。次回の Mine Media 復帰前のジャンル横断フェーズ。",
+      "public": false,
+      "notes_for_editor": "GL ではないため公開ページには載せない。会員エリア構築後に「BleJie 活動記録」として掲載可能。"
+    }
+  ]
+}

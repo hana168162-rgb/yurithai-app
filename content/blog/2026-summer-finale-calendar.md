@@ -1,6 +1,6 @@
 ---
 title: "2026 夏、タイ GL 完結ラッシュカレンダー ── 7〜9 月の見どころ全部まとめ"
-description: "2026 年の夏は、タイ GL の完結ラッシュ。The Air（7/4 完結）、Chasing Love（7/17 完結）に始まり、AI Girl（8/12）、The Fire（8/29）、My Lady's Bodyguard（9/3）、放送中の In Love Forever ── 短期間に濃度の高い完結が集中します。この記事は各作品のスケジュールと見どころを 1 枚にまとめた"夏の完結カレンダー"です。"
+description: "2026 年の夏は、タイ GL の完結ラッシュ。The Air（7/4 完結）、Chasing Love（7/17 完結）に始まり、AI Girl（8/12）、The Fire（8/29）、My Lady's Bodyguard（9/3）、放送中の In Love Forever ── 短期間に濃度の高い完結が集中します。この記事は各作品のスケジュールと見どころを 1 枚にまとめた「夏の完結カレンダー」です。"
 date: "2026-07-27"
 category: "guide"
 tags: ["タイGL", "2026", "夏", "完結", "The Air", "Chasing Love", "AI Girl", "The Fire", "My Lady's Bodyguard", "In Love Forever", "スケジュール", "カレンダー"]

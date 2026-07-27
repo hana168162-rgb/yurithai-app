@@ -2026,5 +2026,39 @@
     "instagram": "pn.noonn",
     "notes": "PuinoonBint ペアの Puinoon。Star Hunter Entertainment 所属。Khom Khlang（ข่มขลัง）で主演。",
     "name_en": "Puinoon"
+  },
+  {
+    "id": "palm",
+    "name_ja": "パーム",
+    "real_name": "Palm",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Design",
+      "FriendPalm 音楽 GL（タイトル未発表）"
+    ],
+    "agency": "VelCurve Studio",
+    "instagram": "ppalm_pr",
+    "notes": "FriendPalm ペアの Palm。Love Design（2025）サブキャストから主演昇格予定。",
+    "name_en": "Palm"
+  },
+  {
+    "id": "friend",
+    "name_ja": "フレンド",
+    "real_name": "Friend",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Design",
+      "FriendPalm 音楽 GL（タイトル未発表）"
+    ],
+    "agency": "VelCurve Studio",
+    "instagram": "friend.tf",
+    "notes": "FriendPalm ペアの Friend。Love Design（2025）サブキャストから主演昇格予定。",
+    "name_en": "Friend"
   }
 ]

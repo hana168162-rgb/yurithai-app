@@ -548,7 +548,7 @@
   {
     "id": "tan",
     "name_ja": "タン",
-    "real_name": "Tan Duangkaew Piyaoui",
+    "real_name": "Duangkaew \"Tan\" Piyaoui",
     "birth_date": null,
     "age": 25,
     "nationality": "Thai",
@@ -752,9 +752,9 @@
   {
     "id": "aya",
     "name_ja": "アヤ",
-    "real_name": "Aya Orapan",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Orapan \"Aya\" Phongmaykin",
+    "birth_date": "2000-02-21",
+    "age": 26,
     "nationality": null,
     "height_cm": null,
     "filmography": [
@@ -767,9 +767,9 @@
   {
     "id": "mie",
     "name_ja": "ミー",
-    "real_name": "Mie Phat",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Phattaranan \"Mie\" Padpai",
+    "birth_date": "1999-05-01",
+    "age": 27,
     "nationality": null,
     "height_cm": null,
     "filmography": [
@@ -874,7 +874,7 @@
   {
     "id": "renee",
     "name_ja": "レネ",
-    "real_name": "Renee Veronica",
+    "real_name": "Veronica \"Renée\" Pagano",
     "birth_date": null,
     "age": 27,
     "nationality": "Thai-Italian",
@@ -889,9 +889,9 @@
   {
     "id": "mew",
     "name_ja": "ミュー",
-    "real_name": "Khun Mew",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Thanthip \"Mew\" Thaweesinthanat",
+    "birth_date": "1998-07-13",
+    "age": 28,
     "nationality": null,
     "height_cm": null,
     "filmography": [
@@ -953,8 +953,8 @@
     "id": "pangjie",
     "name_ja": "パンジー",
     "real_name": "Paphavarin \"Pangjie\" Sawasdiwech",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "2005-08-16",
+    "age": 20,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1031,9 +1031,9 @@
   {
     "id": "ormsin",
     "name_ja": "オームシン",
-    "real_name": "Ormsin Supitcha Limsommut",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Supitcha \"Ormsin\" Limsommut",
+    "birth_date": "1995-05-30",
+    "age": 31,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1048,9 +1048,9 @@
   {
     "id": "folk",
     "name_ja": "フォーク",
-    "real_name": "Folk Sutima Korkiatvanich",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Sutima \"Folk\" Kokiatwanit",
+    "birth_date": "2000-05-16",
+    "age": 26,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1064,9 +1064,9 @@
   {
     "id": "ice",
     "name_ja": "アイス",
-    "real_name": "Ice Amena",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Amena \"Ice\" Gul",
+    "birth_date": "1993-04-27",
+    "age": 33,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1080,7 +1080,7 @@
   {
     "id": "memi",
     "name_ja": "メミ",
-    "real_name": "Memi",
+    "real_name": "Muanfun \"Memi\" Baesakul",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1095,9 +1095,9 @@
   {
     "id": "tungpang",
     "name_ja": "タンパン",
-    "real_name": "Tungpang Pattaravadee Laosa",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Pattaravadee \"Tungpang\" Laosa",
+    "birth_date": "1998-09-16",
+    "age": 27,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1111,9 +1111,9 @@
   {
     "id": "jessie",
     "name_ja": "ジェシー",
-    "real_name": "Jessie Natsiya Prommart",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Nitchanart \"Jessie\" Prommart",
+    "birth_date": "2001-03-30",
+    "age": 25,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1128,8 +1128,8 @@
     "id": "christine",
     "name_ja": "クリスティン",
     "real_name": "Christine Gulasatree Michalsky",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1995-09-10",
+    "age": 30,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1143,8 +1143,8 @@
     "id": "mae",
     "name_ja": "メイ",
     "real_name": "Mae Methakarn Anektanasuwan",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1999-04-05",
+    "age": 27,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1158,9 +1158,9 @@
   {
     "id": "arhoung",
     "name_ja": "アホン",
-    "real_name": "Arhoung Nattawadee Pipobpornchai",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Nattawadee \"Arhoung\" Pipobpornchai",
+    "birth_date": "2004-09-05",
+    "age": 21,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1173,9 +1173,9 @@
   {
     "id": "pam",
     "name_ja": "パム",
-    "real_name": "Pam Tarradee Watancharoen",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Tarradee \"Pam\" Watancharoen",
+    "birth_date": "2002-01-08",
+    "age": 24,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1188,9 +1188,9 @@
   {
     "id": "praifah",
     "name_ja": "プライファ",
-    "real_name": "Praifah Penpat Kairapee",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Penpat \"Praifah\" Kairapee",
+    "birth_date": "2003-08-20",
+    "age": 22,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1218,9 +1218,9 @@
   {
     "id": "nile",
     "name_ja": "ナイル",
-    "real_name": "Nile Chanidapa Sommitthanakul",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Chanidapa \"Nile\" Sommitthanakul",
+    "birth_date": "1998-02-06",
+    "age": 28,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1233,7 +1233,7 @@
   {
     "id": "namwan",
     "name_ja": "ナムワン",
-    "real_name": "Namwan Natchaya Vongbut",
+    "real_name": "Natchaya \"Namwan\" Vongbut",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1248,9 +1248,9 @@
   {
     "id": "praewa",
     "name_ja": "プレワ",
-    "real_name": "Praewa Putticha Boonyamas",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Putticha \"Praewa\" Boonyamas",
+    "birth_date": "2003-01-24",
+    "age": 23,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1266,9 +1266,9 @@
   {
     "id": "noon",
     "name_ja": "ヌーン",
-    "real_name": "Noon Thunyaphat Inyawilert",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Thunyaphat \"Noon\" Inyawilert",
+    "birth_date": "2001-01-08",
+    "age": 25,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1283,9 +1283,9 @@
   {
     "id": "aphichaya",
     "name_ja": "アピチャヤ",
-    "real_name": "Aphichaya Kamnoetsirikun",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Aphichaya \"Atom\" Kamnoetsirikun",
+    "birth_date": "1997-11-20",
+    "age": 28,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1299,9 +1299,9 @@
   {
     "id": "mersedes",
     "name_ja": "メルセデス",
-    "real_name": "Mersedes Sirapath Sarakune",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Siripath \"Mersedes\" Sarakune",
+    "birth_date": "2001-10-13",
+    "age": 24,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1316,8 +1316,8 @@
     "id": "anda",
     "name_ja": "アンダ",
     "real_name": "Anunta \"Anda\" Teavirat",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "1998-04-11",
+    "age": 28,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1382,9 +1382,9 @@
   {
     "id": "bmine",
     "name_ja": "ビーマイン",
-    "real_name": "B Mine Jiratchaya Komontut",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Jiratchaya \"B Mine\" Komontut",
+    "birth_date": "2003-07-23",
+    "age": 23,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1400,9 +1400,9 @@
   {
     "id": "near",
     "name_ja": "ニア",
-    "real_name": "Near Inthira Thammajaroen",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Inthira \"Near\" Thammajaroen",
+    "birth_date": "1998-11-10",
+    "age": 27,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1433,9 +1433,9 @@
   {
     "id": "mook-w",
     "name_ja": "ムック",
-    "real_name": "Mook Worranit Thawornwong",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Worranit \"Mook\" Thawornwong",
+    "birth_date": "1996-10-09",
+    "age": 29,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1449,9 +1449,9 @@
   {
     "id": "shu",
     "name_ja": "シュー",
-    "real_name": "Shu Nunnicha Saehuang",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Nunnicha \"Shu\" Saehuang",
+    "birth_date": "1994-02-06",
+    "age": 32,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1465,7 +1465,7 @@
   {
     "id": "kitty",
     "name_ja": "キティ",
-    "real_name": "Nunthaphuck \"Kitty\"",
+    "real_name": "Nunthaphuk \"Kitty\" Aranyakasemsuk",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1481,7 +1481,7 @@
   {
     "id": "punch",
     "name_ja": "パンチ",
-    "real_name": "Naphassanan \"Punch\"",
+    "real_name": "Naphassanan \"Punch\" Kalaphan",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1497,7 +1497,7 @@
   {
     "id": "mayyu",
     "name_ja": "マユー",
-    "real_name": "Mayyu Kawisara Singpord",
+    "real_name": "Kawisara \"Myyu\" Singpord",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1513,9 +1513,9 @@
   {
     "id": "chanya",
     "name_ja": "チャンヤ",
-    "real_name": "Chanya \"Sophie\" Amarit Duval",
-    "birth_date": "1996-07-11",
-    "age": 29,
+    "real_name": "Amarit \"Chanya\" Duval",
+    "birth_date": "1996-08-11",
+    "age": 30,
     "nationality": "Thai-French",
     "height_cm": null,
     "filmography": [
@@ -1568,9 +1568,9 @@
   {
     "id": "nene",
     "name_ja": "ネネ",
-    "real_name": "Nene Thanchanok Yutthasarnsiri",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Thanchanok \"Nene\" Yutthasarnsiri",
+    "birth_date": "1997-08-11",
+    "age": 29,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1584,7 +1584,7 @@
   {
     "id": "khaimook",
     "name_ja": "カイムック",
-    "real_name": "Khaimook Sirin",
+    "real_name": "Sirin \"Khaimook\"",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1600,9 +1600,9 @@
   {
     "id": "bint",
     "name_ja": "ビン",
-    "real_name": "Bint Sireethorn",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Sireethorn \"Bint\" Leearamwat",
+    "birth_date": "1993-12-04",
+    "age": 32,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1616,9 +1616,9 @@
   {
     "id": "chacha",
     "name_ja": "チャチャ",
-    "real_name": "Chacha Rita",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Rita \"Chacha\" Ramnarong",
+    "birth_date": "1992-02-12",
+    "age": 34,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1632,9 +1632,9 @@
   {
     "id": "cake",
     "name_ja": "ケーク",
-    "real_name": "Cake Nawanine",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Nawaporn \"Cake\" Chansuk",
+    "birth_date": "1996-11-18",
+    "age": 29,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1649,8 +1649,8 @@
     "id": "natty",
     "name_ja": "ナッティ",
     "real_name": "Natty Natthamon",
-    "birth_date": null,
-    "age": null,
+    "birth_date": "2002-11-18",
+    "age": 23,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1664,9 +1664,9 @@
   {
     "id": "yeepun",
     "name_ja": "イープン",
-    "real_name": "Yeepun Purichaya",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Purichaya \"Yeepun\" Saranark",
+    "birth_date": "2005-11-10",
+    "age": 20,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1680,9 +1680,9 @@
   {
     "id": "prigkhing",
     "name_ja": "プリッキン",
-    "real_name": "Prigkhing Suriyanareth",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Sureeyares \"Prigkhing\" Yakares",
+    "birth_date": "2002-11-24",
+    "age": 23,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1696,9 +1696,9 @@
   {
     "id": "tongfa",
     "name_ja": "トンファー",
-    "real_name": "Tongfa Alisha",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Alicha \"Tongfah\" Sripratak",
+    "birth_date": "2003-03-15",
+    "age": 23,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1712,9 +1712,9 @@
   {
     "id": "meena",
     "name_ja": "ミーナ",
-    "real_name": "Meena",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Rina \"Meena\" Chatamonchai",
+    "birth_date": "1998-10-13",
+    "age": 27,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1728,9 +1728,9 @@
   {
     "id": "aoom",
     "name_ja": "アーム",
-    "real_name": "Aoom",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Thaweeporn \"Aoom\" Phingchamrat",
+    "birth_date": "1996-03-17",
+    "age": 30,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1744,9 +1744,9 @@
   {
     "id": "niky",
     "name_ja": "ニキー",
-    "real_name": "Niky Warinrat",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Warinrat \"Niky\" Yolprasong",
+    "birth_date": "2005-01-26",
+    "age": 21,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1760,7 +1760,7 @@
   {
     "id": "england",
     "name_ja": "イングランド",
-    "real_name": "England Ladamanee",
+    "real_name": "Ladamanee \"England\" Rattanapornvareesakul",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1776,7 +1776,7 @@
   {
     "id": "opal",
     "name_ja": "オパール",
-    "real_name": "Opal Kulwipa",
+    "real_name": "Kulwipa \"Opal\" Ngamsukkasemsri",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1792,9 +1792,9 @@
   {
     "id": "mint-b",
     "name_ja": "ミント",
-    "real_name": "Mint Benjanee",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Benjanee \"Mint\" Watcharavasoontara",
+    "birth_date": "2001-07-06",
+    "age": 25,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1808,7 +1808,7 @@
   {
     "id": "puyfai",
     "name_ja": "プーイファイ",
-    "real_name": "Puyfai Tharathip",
+    "real_name": "Tharathip \"Puyfai\" Baisaeng",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1824,9 +1824,9 @@
   {
     "id": "ploy",
     "name_ja": "プロイ",
-    "real_name": "Ploy Jhutamas",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Jhutamas \"Ploy\" Pakonworrawong",
+    "birth_date": "1998-01-09",
+    "age": 28,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1840,9 +1840,9 @@
   {
     "id": "claudine",
     "name_ja": "クローディーン",
-    "real_name": "Claudine Craig",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Atitaya \"Claudine\" Craig",
+    "birth_date": "1999-06-13",
+    "age": 27,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1856,9 +1856,9 @@
   {
     "id": "praew",
     "name_ja": "プレーオ",
-    "real_name": "Praew",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Narupornkamol \"Praew\" Chaisang",
+    "birth_date": "1998-06-01",
+    "age": 28,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1872,9 +1872,9 @@
   {
     "id": "anna",
     "name_ja": "アンナ",
-    "real_name": "Anna Suea-ngamiam",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Anna \"Anna\" Sueangam-iam",
+    "birth_date": "1998-11-10",
+    "age": 27,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1888,9 +1888,9 @@
   {
     "id": "thisa",
     "name_ja": "ティサ",
-    "real_name": "Warittisa Limthammatasit",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Varitthisa \"Thisa\" Limthammahisorn",
+    "birth_date": "1991-04-11",
+    "age": 35,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1904,9 +1904,9 @@
   {
     "id": "ing",
     "name_ja": "イン",
-    "real_name": "Ing Tanatcha",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Tanatcha \"Ing\" Devahastin",
+    "birth_date": "1999-07-07",
+    "age": 27,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -1920,7 +1920,7 @@
   {
     "id": "cartoon",
     "name_ja": "カートゥーン",
-    "real_name": "Cartoon",
+    "real_name": "Kittaya \"Cartoon\" Iemnopmanee",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1936,7 +1936,7 @@
   {
     "id": "minagi",
     "name_ja": "ミナギ",
-    "real_name": "Minagi",
+    "real_name": "Ramaneeya \"Minagi\"",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",
@@ -1968,9 +1968,9 @@
   {
     "id": "ploy-chermarn",
     "name_ja": "プロイ",
-    "real_name": "Chermarn Boonyasak",
-    "birth_date": null,
-    "age": null,
+    "real_name": "Chermarn \"Ploy\" Boonyasak",
+    "birth_date": "1982-09-15",
+    "age": 43,
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
@@ -2016,7 +2016,7 @@
   {
     "id": "puinoon",
     "name_ja": "プイヌーン",
-    "real_name": "Puinoon",
+    "real_name": "Warangsiri \"Puinoon\" Tanajarusworaphat",
     "birth_date": null,
     "age": null,
     "nationality": "Thai",

@@ -288,14 +288,14 @@
     "youtube_teaser": "https://youtu.be/1dZ-Z7kYsE0",
     "streaming": [
       {
-        "platform": "GMM25 (タイ現地)",
-        "url": "https://gmm-tv.com/",
-        "note": "毎週水曜 20:30 タイ時間（22:30 JST）"
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "国際配信"
       },
       {
-        "platform": "oneD アプリ",
-        "url": "https://oned.net/",
-        "note": "見逃し配信 21:30 タイ時間"
+        "platform": "YouTube (VPN 必須)",
+        "url": "https://www.youtube.com/@gmmtvofficial",
+        "note": "GMMTV Official YouTube。日本からの視聴は VPN が必要"
       }
     ],
     "start_date": "2026-08-12",

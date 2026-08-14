@@ -2062,5 +2062,37 @@
     "instagram": "friend.tf",
     "notes": "FriendPalm ペアの Friend。Love Design（2025）サブキャストから主演昇格予定。",
     "name_en": "Friend"
+  },
+  {
+    "id": "mingming",
+    "name_ja": "ミンミン",
+    "real_name": "Kanyakorn \"Mingming\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Juliet & Juliet"
+    ],
+    "agency": "OPEN LABEL",
+    "instagram": "mingkanyas",
+    "notes": "MingmingNepjune ペアの Mingming。OPEN LABEL 所属。Juliet & Juliet（2026-09-05 プレミア）で主演。",
+    "name_en": "Mingming"
+  },
+  {
+    "id": "nepjune",
+    "name_ja": "ネップジューン",
+    "real_name": "Nutkitta \"Nepjune\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Juliet & Juliet"
+    ],
+    "agency": "OPEN LABEL",
+    "instagram": "nepjuneys",
+    "notes": "MingmingNepjune ペアの Nepjune。OPEN LABEL 所属。Juliet & Juliet（2026-09-05 プレミア）で主演。",
+    "name_en": "Nepjune"
   }
 ]

@@ -554,11 +554,12 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
-      "Play Park"
+      "Play Park",
+      "Love Me to Hurt Me"
     ],
     "agency": null,
     "instagram": "tanytannn",
-    "notes": "Play Park（2026）主演。2026年6月2日、Channel 3公式アナウンスによりYadaとのペア活動を双方合意のうえで終了（俳優活動は継続）",
+    "notes": "Channel 3 所属。Play Park（2026）で TanYada ペアとして出演後、Love Me to Hurt Me（2026）で Yuyu と TanYuyu ペア主演。",
     "name_en": "Tan"
   },
   {
@@ -2094,5 +2095,21 @@
     "instagram": "nepjuneys",
     "notes": "MingmingNepjune ペアの Nepjune。OPEN LABEL 所属。Juliet & Juliet（2026-09-05 プレミア）で主演。",
     "name_en": "Nepjune"
+  },
+  {
+    "id": "yuyu",
+    "name_ja": "ユユ",
+    "real_name": "Yuyu",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Me to Hurt Me"
+    ],
+    "agency": "Channel 3",
+    "instagram": "yuonc",
+    "notes": "TanYuyu ペアの Yuyu。Channel 3 所属。Love Me to Hurt Me（2026）で主演。実名・生年月日など詳細は続報待ち。",
+    "name_en": "Yuyu"
   }
 ]

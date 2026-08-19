@@ -131,14 +131,15 @@
     "production": "Channel 3 / BEC World Original",
     "cast_pair": "Lorena Schuett × Natsha Taechamongkalapiwat（LenaMiu）",
     "status": "upcoming",
-    "announced_for": "2026年予定",
+    "announced_for": "2026年9月11日",
     "synopsis": "富裕層実業家パキニー（Lena）と、ハイエンドクラブのホスト「エンジェル」ことパナプソン（Miu）。最初は互いに激しく嫌い合っていた二人が、予期せぬ状況に巻き込まれて一夜を共にしてしまう──階級差、信頼の問題、それぞれの自尊心と向き合いながら、複雑な恋に堕ちていく。",
-    "note": "Channel 3 / BEC World制作 / Reverse原作小説『PLS Love รักได้ไหม』のドラマ化 / LenaMiu再共演（My Safe Zone以来）/ 2026年5月時点：ワークショップ・脚本読み完了、6月撮影開始予定（ファンソース報）/ 制作側は年内放送を目標としているが、公式の放送日アナウンスはまだ",
+    "note": "BEC World Original Series / Channel 3 制作 / 主演: Lena Lorena Schuett × Miu Natsha Taechamongkalapiwat（LenaMiu）/ 原作: Reverse 小説『PLS Love รักได้ไหม』/ LenaMiu 再共演（My Safe Zone 以来）/ 放送開始: 2026年9月11日、毎週金曜 20:30 タイ時間（22:30 JST）Ch3 HD（33ch）+ 3Plus オンライン同時配信 / 見逃し: 3Plus Premium / 情報源: LenaMiu 公式（@lenamiu_ch3）2026-08-15 公式ポスター解禁 / ハッシュタグ #PlsLoveรักได้ไหม #LenaMiu #ลีน่าหมิว",
     "cover_image": "/images/dramas/pls-love.jpg",
-    "cover_credit": null,
+    "cover_credit": "BEC World Original / Channel 3 Official Poster (Instagram @lenamiu_ch3, 2026-08-15)",
     "youtube_teaser": "https://youtu.be/N6bdFaf37Ms",
     "featured": true,
-    "featured_rank": 1
+    "featured_rank": 1,
+    "pending": false
   },
   {
     "id": 215,
@@ -165,13 +166,14 @@
     "production": "Star Hunter Entertainment",
     "cast_pair": "Bint × Puinoon（PuinoonBint）",
     "status": "upcoming",
-    "announced_for": "2026年8月末予定",
+    "announced_for": "2026年9月7日",
     "synopsis": "理性的な警察官ピーム（Puinoon）と、古代の儀式と信仰を司る霊媒師ブラン（Bint）が、ある事件の捜査のため対立しながら協力していく。聖なる文字、神秘的なシンボル、オカルトの世界を背景に、二人の間に否応なく芽生える絆を描く。",
-    "note": "Star Hunter Entertainment 制作 / 原作: Luxurious.W『ข่มขลัง（Formidable Eyes）』/ STH PROJECT LINE UP 2026 発表作 / 主演: Bint（Bint Sireethorn、@bintsireethorn）× Puinoon（@pn.noonn）= PuinoonBint / サブ: AndaLookkaew（Anda × Lookkaew）/ ジャンル: ホラー・スーパーナチュラル GL / 犯罪捜査 × オカルト（除霊・呪符・タトゥーヤントラ）要素 / 2026 年 8 月末プレミア予定（Sawadee GL 情報源）/ 具体的な放送日・エピソード数・配信先は続報待ち",
+    "note": "Star Hunter Entertainment 制作 / WeTV Original / 原作: Luxurious.W『ข่มขลัง（Formidable Eyes）』/ STH PROJECT LINE UP 2026 発表作 / 主演: Bint Sireethorn（@bintsireethorn）× Puinoon Warangsiri（@pn.noonn）= PuinoonBint / サブ: AndaLookkaew（Anda × Lookkaew）/ ジャンル: ホラー・スーパーナチュラル GL / 犯罪捜査 × オカルト（除霊・呪符・タトゥーヤントラ）要素 / 役柄: Bint = クルーブラン（霊媒師）× Puinoon = ピーム（警察官）/ 放送開始: 2026年9月7日、毎週月曜 20:00 タイ時間（22:00 JST）/ UNCUT 版: WeTV 独占配信 / 情報源: Star Hunter Entertainment 公式（@ohstarhunter, @starhunter_entertainment）2026-08-15 公式ポスター解禁 / ハッシュタグ #ข่มขลัง #puinoonbint #WeTVOriginal #StarHunterEntertainment #KhomKhlangTheSeries",
     "cover_image": "/images/dramas/khom-khlang.jpg",
-    "cover_credit": null,
+    "cover_credit": "Star Hunter Entertainment × WeTV Original Official Poster (Instagram @ohstarhunter, 2026-08-15)",
     "youtube_teaser": "https://youtu.be/II86VoZ6v3A",
-    "pending": false
+    "pending": false,
+    "featured": false
   },
   {
     "id": 218,

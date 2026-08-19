@@ -283,13 +283,14 @@
     "youtube_teaser": "https://youtu.be/UvIsfte-G-4",
     "streaming": [
       {
-        "platform": "YouTube",
-        "url": "https://youtu.be/csSYDNh4b5w"
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/",
+        "note": "日本国内向け配信"
       },
       {
-        "platform": "Netflix",
-        "url": "https://www.netflix.com/jp/",
-        "note": "VPN必要"
+        "platform": "Netflix (VPN 必須)",
+        "url": "https://www.netflix.com/",
+        "note": "日本 Netflix には配信なし。VPN でタイ等の Netflix にアクセスして視聴"
       }
     ],
     "title_th": "ใจซ่อนรัก",
@@ -3015,7 +3016,13 @@
     "streaming": [
       {
         "platform": "iQIYI",
-        "url": "https://www.iq.com/"
+        "url": "https://www.iq.com/",
+        "note": "国際配信"
+      },
+      {
+        "platform": "Netflix (日本)",
+        "url": "https://www.netflix.com/jp/",
+        "note": "2026年8月22日〜配信開始"
       }
     ],
     "title_th": "คุณแฟนบ้านนอก",

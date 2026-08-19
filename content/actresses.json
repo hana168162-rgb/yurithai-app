@@ -1612,7 +1612,7 @@
     ],
     "agency": "Star Hunter Entertainment",
     "instagram": "bintsireethorn",
-    "notes": "Star Hunter Entertainment 所属。khom khlang（ข่มขลัง）で BintPuiNoon 3 人主演の一角として登場、霊媒師ブラン役。",
+    "notes": "Miss Thailand 2019、Miss International 2019 優勝（タイ人初の Miss International 制覇、歴代最長在位）。Mahidol 大学薬剤学部卒の薬剤師出身。俳優としては Star Hunter Entertainment 所属、2026 年 9 月 Khom Khlang（ข่มขลัง）で GL 主演デビュー、Puinoon Warangsiri（@pn.noonn）と PuinoonBint ペア結成。",
     "name_en": "Bint"
   },
   {
@@ -2112,5 +2112,69 @@
     "instagram": "yuonc",
     "notes": "TanYuyu ペアの Yuyu。Channel 3 所属。Love Me to Hurt Me（2026）で主演。実名・生年月日など詳細は続報待ち。",
     "name_en": "Yuyu"
+  },
+  {
+    "id": "ying-anada",
+    "name_ja": "イン",
+    "name_en": "Ying Anada",
+    "real_name": "Anada \"Ying\"",
+    "instagram": null,
+    "agency": "FRT Entertainment",
+    "filmography": [
+      "Buy My Boss"
+    ],
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "notes": "Buy My Boss（FRT Entertainment、2026-10-28 プレミア）で共演。詳細プロフィールは続報待ち。"
+  },
+  {
+    "id": "aom-punyawee",
+    "name_ja": "オーム",
+    "name_en": "Aom Punyawee",
+    "real_name": "Punyawee \"Aom\"",
+    "instagram": null,
+    "agency": "FRT Entertainment",
+    "filmography": [
+      "Buy My Boss"
+    ],
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "notes": "Buy My Boss（FRT Entertainment、2026-10-28 プレミア）で共演。詳細プロフィールは続報待ち。"
+  },
+  {
+    "id": "pla-kewalin",
+    "name_ja": "プラー",
+    "name_en": "Pla Kewalin",
+    "real_name": "Kewalin \"Pla\"",
+    "instagram": null,
+    "agency": "FRT Entertainment",
+    "filmography": [
+      "Buy My Boss"
+    ],
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "notes": "Buy My Boss（FRT Entertainment、2026-10-28 プレミア）で共演。詳細プロフィールは続報待ち。"
+  },
+  {
+    "id": "whawha",
+    "name_ja": "ワーワー",
+    "name_en": "Whawha Pimmada",
+    "real_name": "Pimmada \"Whawha\"",
+    "instagram": null,
+    "agency": "FRT Entertainment",
+    "filmography": [
+      "Buy My Boss"
+    ],
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "notes": "Buy My Boss（FRT Entertainment、2026-10-28 プレミア）で共演。詳細プロフィールは続報待ち。"
   }
 ]

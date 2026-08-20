@@ -5,7 +5,7 @@
  *   （連絡先メールの差し替えがコード変更なしでできる）
  */
 
-const FALLBACK_EMAIL = "hana.thaigl@gmail.com";
+const FALLBACK_EMAIL = "yurithai@fumomeru.com";
 
 const RAW_EMAIL =
   process.env.NEXT_PUBLIC_OPERATOR_EMAIL || FALLBACK_EMAIL;

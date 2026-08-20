@@ -775,6 +775,7 @@
     "nationality": null,
     "height_cm": null,
     "filmography": [
+      "I'm Your Moon",
       "Love beyond Dreams"
     ],
     "agency": "Me Mind Y",
@@ -2176,5 +2177,37 @@
     "nationality": "Thai",
     "height_cm": null,
     "notes": "Buy My Boss（FRT Entertainment、2026-10-28 プレミア）で共演。詳細プロフィールは続報待ち。"
+  },
+  {
+    "id": "sprite-itsaree",
+    "name_ja": "スプライト",
+    "name_en": "Sprite Itsaree",
+    "real_name": "Itsaree \"Sprite\" Jarupangomon",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "I'm Your Moon"
+    ],
+    "agency": "U Entertainment",
+    "instagram": "spriteitsaree",
+    "notes": "SpritePiano ペアの Sprite。U Entertainment 所属。元アイドルグループ Wish Me（ESC Entertainment）メンバー。Bangkok University 出身。I'm Your Moon（2025）で GL 主演。"
+  },
+  {
+    "id": "piano-poranee",
+    "name_ja": "ピアノ",
+    "name_en": "Piano Poranee",
+    "real_name": "Phornyanee \"Piano\" Phornpichayawasin",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "I'm Your Moon"
+    ],
+    "agency": "U Entertainment",
+    "instagram": "pianopyn._",
+    "notes": "SpritePiano ペアの Piano。U Entertainment 所属。I'm Your Moon（2025）で GL 主演。"
   }
 ]

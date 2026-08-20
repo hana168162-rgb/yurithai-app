@@ -3252,5 +3252,71 @@
         "note": "先行視聴可能 / 有料メンバーシップ"
       }
     ]
+  },
+  {
+    "id": 112,
+    "slug": "im-your-moon",
+    "title_ja": "I'm Your Moon",
+    "title_en": "I'm Your Moon",
+    "title_th": "กัษฐิฐาน",
+    "year": 2025,
+    "production": "U Entertainment",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Sprite Itsaree Jarupangomon × Piano Phornyanee Phornpichayawasin（SpritePiano）",
+    "tags": {
+      "genre": [
+        "時代劇",
+        "ファンタジー",
+        "ロマンス"
+      ],
+      "relationship": [
+        "敵対家系",
+        "禁じられた愛"
+      ],
+      "tone": [
+        "シリアス",
+        "ドラマチック"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [
+        "映像美",
+        "衣装"
+      ],
+      "warnings": []
+    },
+    "synopsis": "仏歴 2456 年（西暦 1913 年）── 敵対する 2 つの宮家に生まれた M.C. 姫たちの禁じられた愛の物語。ウサナコーン家の後継者 พียงรวี（Pray）と、シータラルスム家の令嬢 ศินภา は深い遺恨のために愛を成就できず苦しむ。運命がふたりに二度目のチャンスを与えたとき、生まれ変わったふたりの愛はどうなるのか ── 転生と second chance を軸にした時代劇 GL。",
+    "review": {
+      "highlights": [
+        "時代劇の衣装美",
+        "SpritePiano ペアの初主演",
+        "reincarnation × second chance モチーフ"
+      ],
+      "recommend_for": [
+        "時代劇 GL 好き",
+        "禁じられた愛モチーフが好き",
+        "ドラマチックな映像美を求める人"
+      ],
+      "caution_for": [
+        "ライトなラブコメ希望"
+      ],
+      "body_ja": "U Entertainment 制作、監督 To Sukhaseth Losiri。原作は Ace の同名小説『กัษฐิฐาน』。\n\n仏歴 2456 年（1913 年）を舞台に、敵対する 2 つの宮家 ── ウサナコーンとシータラルスム ── のあいだで愛を貫こうとする M.C.（Mom Chao）姫たちの物語。Sprite Itsaree が Pray（ウサナコーン家の後継者）、Piano Phornyanee が Earl（シータラルスム家の令嬢）を演じる。\n\n**転生（reincarnation）と second chance** を軸にした構造で、タイ GL では珍しい **時代劇×ファンタジー** の融合。iQIYI 独占配信、全 8 話完結。SpritePiano ペアの初共演作。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "制作: U Entertainment / 監督: To Sukhaseth Losiri / 原作: Ace 著『กัษฐิฐาน』/ 放送期間: 2025-03-16〜2025-05-04（全 8 話）/ 配信: iQIYI 独占 / IMDb: 6.5 / 主演: Sprite Itsaree × Piano Phornyanee（SpritePiano）",
+    "cover_gradient": null,
+    "cover_image": null,
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/album/i-m-your-moon-2025-x1y0b7cfb1"
+      }
+    ]
   }
 ]

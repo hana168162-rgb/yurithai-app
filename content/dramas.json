@@ -3318,5 +3318,73 @@
         "url": "https://www.iq.com/album/i-m-your-moon-2025-x1y0b7cfb1"
       }
     ]
+  },
+  {
+    "id": 113,
+    "slug": "be-my-angel",
+    "title_ja": "Be My Angel",
+    "title_en": "Be My Angel",
+    "title_th": "ฉันหลงรักเทวดาของฉัน",
+    "year": 2026,
+    "production": "PENNYY Studio",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Bambam Niwirin × Baipor Thitiya（BambamBaipor）",
+    "tags": {
+      "genre": [
+        "ラブコメ",
+        "ファンタジー"
+      ],
+      "relationship": [
+        "天使×人間",
+        "同居"
+      ],
+      "tone": [
+        "ほっこり",
+        "コメディタッチ"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "運が悪い新社会人のジェーンは、Lucky Points アプリで功徳ポイントを 3 つの願いに交換しようとするが、代わりに『Z』というポンコツ天使を授かってしまう。目覚めると、そこに立っていたのは 3 ヶ月間ジェーンを見守る使命を負ったハンサムな天使 Zee ── しかし彼は下級で不器用な天使で、ほとんど何もできない。ゆるやかに始まる同居ラブコメ GL。",
+    "review": {
+      "highlights": [
+        "天使×人間の同居設定",
+        "BambamBaipor ペア初主演",
+        "ゆるいコメディテンポ"
+      ],
+      "recommend_for": [
+        "ライトなラブコメ好き",
+        "同居もの好き",
+        "ファンタジー要素好き"
+      ],
+      "caution_for": [
+        "シリアスドラマ希望"
+      ],
+      "body_ja": "PENNYY Studio × iQIYI Original 制作、監督・脚本 Poy Pannares（Petrichor、Baker Boys 経験）。\n\n新社会人ジェーンが Lucky Points アプリで願いを叶えようとして、代わりに『ポンコツ下級天使』の Zee を授かる ── **天使×人間の同居ラブコメ** という異色設定の GL。\n\nBambamBaipor ペア初主演で、ゆるいコメディテンポと 8 話完結の見やすさが特徴。ファンタジー要素を持ちながらも重くならず、日常系 GL としても楽しめる仕上がり。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "制作: PENNYY Studio / 配給: iQIYI Original / 監督・脚本: Poy Pannares（Petrichor、Baker Boys）/ 放送期間: 2026-01-30〜2026-03-20 / 毎週金曜 20:00 タイ時間 iQIYI アプリ + iq.com 独占配信 / 全 8 話 / 主演: Bambam Niwirin × Baipor Thitiya（BambamBaipor）/ 天使×人間の同居ラブコメ GL",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/be-my-angel.jpg",
+    "cover_credit": "PENNYY Studio × iQIYI Official Poster (Instagram @bemyangelseries)",
+    "instagram_post": null,
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "TELASA",
+        "url": "https://www.telasa.jp/",
+        "note": "日本国内向け配信（VPN 不要）"
+      },
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/album/be-my-angel-2026-1bxzjxt4kql",
+        "note": "国際配信（原初リリース）"
+      }
+    ]
   }
 ]

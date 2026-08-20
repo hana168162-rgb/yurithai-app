@@ -2209,5 +2209,37 @@
     "agency": "U Entertainment",
     "instagram": "pianopyn._",
     "notes": "SpritePiano ペアの Piano。U Entertainment 所属。I'm Your Moon（2025）で GL 主演。"
+  },
+  {
+    "id": "bambam",
+    "name_ja": "バンバン",
+    "name_en": "Bambam Niwirin",
+    "real_name": "Niwirin \"Bambam\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Be My Angel"
+    ],
+    "agency": "PENNYY Studio",
+    "instagram": "doublebammm",
+    "notes": "BambamBaipor ペアの Bambam。PENNYY Studio 所属。Be My Angel（2026、iQIYI Original）で GL 主演。"
+  },
+  {
+    "id": "baipor",
+    "name_ja": "バイポー",
+    "name_en": "Baipor Thitiya",
+    "real_name": "Thitiya \"Baipor\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Be My Angel"
+    ],
+    "agency": "PENNYY Studio",
+    "instagram": "bbaiporuary",
+    "notes": "BambamBaipor ペアの Baipor。PENNYY Studio 所属。Be My Angel（2026、iQIYI Original）で GL 主演。"
   }
 ]

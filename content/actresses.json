@@ -2241,5 +2241,37 @@
     "agency": "PENNYY Studio",
     "instagram": "bbaiporuary",
     "notes": "BambamBaipor ペアの Baipor。PENNYY Studio 所属。Be My Angel（2026、iQIYI Original）で GL 主演。"
+  },
+  {
+    "id": "garn",
+    "name_ja": "ガーン",
+    "name_en": "Garn Nuttacha",
+    "real_name": "Nuttacha \"Garn\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Third Person"
+    ],
+    "agency": "North Star Entertainment",
+    "instagram": "nhuugarnns",
+    "notes": "GarnMimie ペアの Garn。North Star Entertainment 所属。Third Person（2026-09-12 プレミア）で GL 主演デビュー、Kris 役。"
+  },
+  {
+    "id": "mimie",
+    "name_ja": "ミミー",
+    "name_en": "Mimie Bhapat",
+    "real_name": "Bhapat \"Mimie\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Third Person"
+    ],
+    "agency": "North Star Entertainment",
+    "instagram": "mimiebhapat",
+    "notes": "GarnMimie ペアの Mimie。North Star Entertainment 所属。Third Person（2026-09-12 プレミア）で GL 主演デビュー、Sun 役。"
   }
 ]

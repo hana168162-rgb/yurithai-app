@@ -97,13 +97,14 @@
     "title_en": "Love's Echoes",
     "title_th": "ให้รักกังวานในใจ",
     "production": "GMMTV",
-    "cast_pair": "JuneMewnich",
+    "cast_pair": null,
     "status": "upcoming",
     "announced_for": "2026年予定",
-    "note": "GMMTV × The One Enterprise × Moongdoo Production 共同制作 / JuneMewnich主演 / June=Clara × Mewnich=New（アイドル志望のペア、Newが脳腫瘍と聴覚障害を理由に去り、Claraが単独デビューする物語）/ 障害表現を含む / 2026年放送、具体日程は公式未確定",
-    "cover_image": "/images/dramas/loves-echoes.jpg",
+    "note": "GMMTV × The One Enterprise × Moongdoo Production 共同制作 / タイ語タイトル: ให้รักกังวานในใจ / 主演ペアは 2026 年 8 月時点で変更、詳細続報待ち / 2026 年 8 月時点で撮影開始済み / 具体的な放送日・エピソード数・配信先・新キャストは公式未発表 / 旧予告（JuneMewnich 主演版）は現状の作品と異なるため参照非推奨",
+    "cover_image": null,
     "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/R0ny7lQSr2k"
+    "youtube_teaser": null,
+    "pending": true
   },
   {
     "id": 212,

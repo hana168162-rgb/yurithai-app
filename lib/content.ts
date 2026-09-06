@@ -22,14 +22,93 @@ import type {
 } from "./types";
 
 export const dramas = dramasData as unknown as Drama[];
-export const watching = watchingData as unknown as WatchingDrama[];
+const watchingRaw = watchingData as unknown as WatchingDrama[];
 
 // `pending: true` の作品は一覧上で末尾にまわす。
 // 公式が放送日程・キャストをペンディング扱いの作品が、確定作品より上に出てしまうのを防ぐ。
 const upcomingRaw = upcomingData as unknown as UpcomingDrama[];
+
+// =============================================
+//  「1週間以内プレミア」自動プロモート
+//    announced_for が "YYYY年MM月DD日" 形式で、今日から +7日以内の
+//    upcoming 作品は、自動的に watching（放送中）扱いにする。
+//    JSON を手動で移動しなくても、放送直前に自動で放送中一覧へ表示される。
+// =============================================
+
+const IMMINENT_WINDOW_DAYS = 7;
+
+function parseAnnouncedDate(d: UpcomingDrama): Date | null {
+  const a = d.announced_for || "";
+  const m = a.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  if (!m) return null;
+  const [, y, mo, day] = m;
+  const iso = `${y}-${mo.padStart(2, "0")}-${day.padStart(2, "0")}T00:00:00+07:00`;
+  const dt = new Date(iso);
+  return Number.isNaN(dt.getTime()) ? null : dt;
+}
+
+function isPremieringSoon(d: UpcomingDrama): boolean {
+  const premiere = parseAnnouncedDate(d);
+  if (!premiere) return false;
+  const now = new Date();
+  const windowEnd = new Date(
+    now.getTime() + IMMINENT_WINDOW_DAYS * 24 * 60 * 60 * 1000,
+  );
+  return premiere <= windowEnd;
+}
+
+/**
+ * UpcomingDrama を WatchingDrama 形式に変換（1週間以内プレミア自動プロモート用）。
+ * start_date は announced_for から抽出、その他 watching 固有フィールドは null / undefined。
+ */
+function promoteUpcomingToWatching(d: UpcomingDrama): WatchingDrama {
+  const premiere = parseAnnouncedDate(d);
+  const startDate = premiere
+    ? `${premiere.getUTCFullYear()}-${String(premiere.getUTCMonth() + 1).padStart(2, "0")}-${String(premiere.getUTCDate()).padStart(2, "0")}`
+    : null;
+  return {
+    id: d.id,
+    slug: d.slug,
+    title_ja: d.title_ja,
+    title_en: d.title_en,
+    title_th: d.title_th ?? null,
+    production: d.production,
+    cast_pair: d.cast_pair,
+    status: "airing",
+    note: d.note ?? "",
+    cover_image: d.cover_image ?? null,
+    cover_credit: d.cover_credit ?? null,
+    youtube_teaser: d.youtube_teaser ?? null,
+    streaming: [],
+    start_date: startDate,
+    end_date: null,
+    episodes: null,
+  } as WatchingDrama;
+}
+
+/**
+ * 「1週間以内プレミア」で watching に自動昇格した作品リスト。
+ * getActiveWatching() から参照される。
+ */
+const promotedFromUpcoming: WatchingDrama[] = upcomingRaw
+  .filter((d) => isPremieringSoon(d))
+  .map(promoteUpcomingToWatching);
+
+/**
+ * 公開ページで使う watching 配列（実 watching + 1週間以内昇格分）。
+ */
+export const watching: WatchingDrama[] = [
+  ...watchingRaw,
+  ...promotedFromUpcoming,
+];
+
+/**
+ * 公開ページで使う upcoming 配列（1週間以内昇格分は除外）。
+ * pending 作品は末尾に。
+ */
 export const upcoming: UpcomingDrama[] = [
-  ...upcomingRaw.filter((d) => !d.pending),
-  ...upcomingRaw.filter((d) => d.pending),
+  ...upcomingRaw.filter((d) => !isPremieringSoon(d) && !d.pending),
+  ...upcomingRaw.filter((d) => !isPremieringSoon(d) && d.pending),
 ];
 
 /**

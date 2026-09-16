@@ -3459,5 +3459,514 @@
       }
     ],
     "series": null
+  },
+  {
+    "id": 101,
+    "slug": "the-air",
+    "title_ja": "The Air",
+    "title_en": "The Air",
+    "title_th": "เสน่หาวาโย",
+    "year": 2026,
+    "production": "North Star Entertainment",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Freen Sarocha Chankimha × Becky Rebecca Patricia Armstrong（FreenBecky）",
+    "tags": {
+      "genre": [
+        "ロマンス",
+        "アクション"
+      ],
+      "relationship": [
+        "王女×護衛"
+      ],
+      "tone": [
+        "シリアス",
+        "ドラマチック"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [
+        "映像美"
+      ],
+      "warnings": []
+    },
+    "synopsis": "4 Elements シリーズ第 3 弾。王女ブルー（Becky）と警護警察官ロム（Freen）── 身分と任務の壁を越えて交わる二人の距離感、原作つきならではの緻密な心理描写を持つ大人の GL。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "North Star Entertainment 制作、4 Elements シリーズ第 3 弾。原作は Salmon 著『The Air』。FreenBecky 主演で、警護警察官と王女という**政治と身分の壁**を越える関係性を描く。シリーズ屈指の話題を集めた作品で、8 話完結、Ch7HD（タイ）＋ iQIYI（国際）配信。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "4 Elementsシリーズ第3弾 / Idol Factory × North Star共同制作 / 小説『The Air』by Salmon原作 / 2026年5月16日〜7月4日 / 8話完結 / Ch7HD（タイ）& iQIYI（国際）/ 毎週土曜 21:30 タイ時間（23:30 JST）/ 王女ブルー（Becky）× 警護警察官ロム（Freen）",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/the-air.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/2w3RL-3WxVM",
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/"
+      }
+    ],
+    "series": "four-elements"
+  },
+  {
+    "id": 102,
+    "slug": "girl-rules",
+    "title_ja": "Girl Rules",
+    "title_en": "Girl Rules",
+    "title_th": "กฎหลัก ห้ามรักเธอ",
+    "year": 2026,
+    "production": "GMMTV × Moongdoo Production",
+    "episodes": 12,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "NamtanFilm × MilkLove × ViewMim",
+    "tags": {
+      "genre": [
+        "群像劇",
+        "ロマンス"
+      ],
+      "relationship": [
+        "3ペア群像",
+        "元カノ"
+      ],
+      "tone": [
+        "ライト"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "広告・モデル・スタイリング業界を舞台にした友達グループの群像劇。3 組の GL ペア NamtanFilm・MilkLove・ViewMim が共演し、元カノ帰還を軸に絡み合う関係性が展開される。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "GMMTV × Moongdoo Production 制作、監督 Tichakorn Phukhaotung。**NamtanFilm・MilkLove・ViewMim** の 3 ペア群像 GL として、GMMTV の GL 編成本線を示した作品。全 12 話、毎週月曜 20:30 タイ時間 iQIYI・GMM25・YouTube。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "GMMTV × Moongdoo Production制作 / 監督Tichakorn Phukhaotung / 2026年3月9日初放送 / 全12話 / 毎週月曜 20:30 タイ時間（22:30 JST）/ iQIYI・GMM25・YouTube / 友達グループの群像劇 / 元カノ帰還＋広告・モデル・スタイリング業界 / 主要GLペア3組（NamtanFilm・MilkLove・ViewMim）が共演",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/girl-rules.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/lDUD3omAlHA",
+    "streaming": [
+      {
+        "platform": "RakutenTV",
+        "url": "https://tv.rakuten.co.jp/"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "slug": "enemies-with-benefits",
+    "title_ja": "Enemies with Benefits",
+    "title_en": "Enemies with Benefits",
+    "title_th": "ลัลล์ไม่ชอบไวน์",
+    "year": 2026,
+    "production": "GMMTV × Snap25",
+    "episodes": 10,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Ployshompoo Supasap × JingJing Yu（JanJingJing）",
+    "tags": {
+      "genre": [
+        "ロマンス"
+      ],
+      "relationship": [
+        "enemies-to-lovers"
+      ],
+      "tone": [
+        "ドラマチック"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "「ラルはワインが好きじゃない」── Whale Store xoxo 共有世界観の中で enemies-to-lovers を描く JanJingJing 主演のロマンス GL。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "GMMTV × Snap25 制作、監督 Tawan Charuchinda + Arisa Wawwanjit、Snow Leopard 著の小説原作。JanJingJing 主演で、Whale Store xoxo と世界観を共有する enemies-to-lovers 系 GL。全 10 話、毎週日曜 GMM25 + OneD アプリ。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "GMMTV × Snap25制作 / 監督Tawan Charuchinda + Arisa Wawwanjit / 小説by Snow Leopard原作 / 2026年5月3日〜7月5日 / 全10話 / 毎週日曜 GMM25・OneDアプリ / Whale Store xoxo共有世界観 / 「ラルはワインが好きじゃない」",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/enemies-with-benefits.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/4K__c9385LE",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/0EPN_IlU2gU"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "slug": "fulfill",
+    "title_ja": "Fulfill",
+    "title_en": "Fulfill",
+    "title_th": "Fulfill The Series",
+    "year": 2026,
+    "production": "BEC World Original / Channel 3",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Oom Eisaya Hosuwan × Bam Saralee Prasitdumrong（OomBam）",
+    "tags": {
+      "genre": [
+        "家族もの",
+        "ロマンス"
+      ],
+      "relationship": [
+        "長期カップル",
+        "結婚後"
+      ],
+      "tone": [
+        "ほっこり"
+      ],
+      "pacing": [
+        "スロウバーン"
+      ],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "大学時代から続くカップル、女性エンジニア Aiooon とインテリアデザイナー Pafun。結婚後に養子縁組を考えるふたりの日常と選択を描く、大人の家族もの GL。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "BEC World Original 制作、Channel 3 GL 第 4 作。監督 Nay Saratswadee Wongsomphet（The Secret of Us と同じ）。OomBam 主演で、**大学時代から結婚後まで続くカップルの養子縁組**という珍しいテーマ。全 8 話、毎週金曜 Channel 3 HD。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "BEC World Original制作（Channel 3 GL第4作）/ 監督Nay Saratswadee Wongsomphet（The Secret of Us監督）/ 2026年4月24日〜6月12日 / 毎週金曜 20:30 タイ時間（22:30 JST）Channel 3HD放送 / 8話完結 / 大学時代から続くカップル（女性エンジニアAiooon×インテリアデザイナーPafun）が結婚後に養子縁組を考える物語",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/fulfill.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/D0-qfBPHrqA",
+    "streaming": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/",
+        "note": "VPN必要"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "slug": "love-beyond-dreams",
+    "title_ja": "Love beyond Dreams",
+    "title_en": "Love beyond Dreams",
+    "title_th": "เพื่อเธออีกครั้ง",
+    "year": 2026,
+    "production": "ME MIND Y",
+    "episodes": 7,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Mie Phat × Aya Orapan（MieAya）",
+    "tags": {
+      "genre": [
+        "ロマンス"
+      ],
+      "relationship": [],
+      "tone": [
+        "ほっこり"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "ME MIND Y の GL 初参入作品、More Than Her Project シリーズ第 1 弾。MieAya 主演で、夢を巡るロマンスを描く。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "ME MIND Y 制作（GL 初参入・More Than Her Project シリーズ）、監督 Thanyaphisit Jiradechakul、プロデューサー Orawan Wichayawannakun。**MieAya ペア主演**の GL。全 7 話、毎週水曜 YouTube MeMindY Official 20:00 タイ時間 + iQIYI UNCUT 版。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "ME MIND Y制作（GL初参入・More Than Her Projectシリーズ）/ 全7話 / 2026年5月6日〜6月17日 / 毎週水曜 / YouTube MeMindY Official 20:00 タイ時間（22:00 JST）/ iQIYI UNCUT版 21:00 タイ時間（23:00 JST）/ プロデューサーOrawan Wichayawannakun / 監督Thanyaphisit Jiradechakul",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/love-beyond-dreams.jpg",
+    "cover_credit": "© ME MIND Y / iQIYI",
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/YXBdhxza8Es",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@MeMindYofficial"
+      },
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "UNCUT版"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "slug": "rental-love-lab",
+    "title_ja": "Rental Love Lab",
+    "title_en": "Rental Love Lab",
+    "title_th": "ชั่วโมงทดลองรัก",
+    "year": 2026,
+    "production": "K11D HOUSE",
+    "episodes": 4,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Kitty Nunthaphuck × Punch Naphassanan（KittyPunch）",
+    "tags": {
+      "genre": [
+        "ロマコメ"
+      ],
+      "relationship": [],
+      "tone": [
+        "ライト"
+      ],
+      "pacing": [
+        "早展開"
+      ],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "K11D HOUSE 制作の新ペア KittyPunch 主演デビュー作。全 4 話完結の短編ロマコメ GL。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "K11D HOUSE 制作、Vibeberry Studio 協力。**新ペア KittyPunch 主演**で、YouTube 公開の全 4 話完結。短編ながら新ペアデビューの試金石として存在感を残した。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "K11D HOUSE制作 / Vibeberry Studio協力 / 新ペア KittyPunch 主演 / 2026年5月29日〜6月19日 / 毎週金曜 YouTube 公開 / 全4話完結",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/rental-love-lab.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/CufGfB9ylDw",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/DH6b3St6DVU"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "slug": "chasing-love",
+    "title_ja": "Chasing Love",
+    "title_en": "Chasing Love",
+    "title_th": "ตามล่าหารัก",
+    "year": 2026,
+    "production": "CHANGE2561 Original × ONE31",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Nile Chanidapa Sommitthanakul × Namwan Natchaya Vongbut（NileNamwan）",
+    "tags": {
+      "genre": [
+        "ロマンス"
+      ],
+      "relationship": [],
+      "tone": [
+        "ドラマチック"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "CHANGE2561 の若手ペア NileNamwan デビュー作。Peony 原作、監督 Bo Pantip Vibultham。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "CHANGE2561 Original 制作、原作 Peony、監督 Bo Pantip Vibultham。**NileNamwan デビュー作**として、Netflix Worldwide UNCUT 版が**日本の Netflix でも視聴可能**という配信面の強さも特徴。全 8 話、毎週金曜 22:30 タイ時間（ONE31 TV 版）+ Netflix / oneD Thailand UNCUT 版 23:30。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "CHANGE2561 Original制作 / 原作Peony / 監督Bo Pantip Vibultham / 2026年5月29日（金）放送開始、7月17日まで全8話 / 毎週金曜 22:30 タイ時間（ONE31 TV版）/ Netflix Worldwide Uncut版 23:30〜（日本Netflixでも視聴可）/ oneD Thailand Only Uncut版 23:30〜 / NileNamwanデビュー作",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/chasing-love.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/YVECcuW7swA",
+    "streaming": [
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/jp/"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "slug": "my-ladys-bodyguard",
+    "title_ja": "My Lady's Bodyguard",
+    "title_en": "My Lady's Bodyguard",
+    "title_th": "องครักษ์พิทักษ์แม่หญิงจอมซน",
+    "year": 2026,
+    "production": "Kongthup's Production",
+    "episodes": 11,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Ormsin Supitcha Limsommut × Folk Sutima Korkiatvanich（OrmFolk）",
+    "tags": {
+      "genre": [
+        "時代劇",
+        "ロマンス"
+      ],
+      "relationship": [
+        "姫×護衛"
+      ],
+      "tone": [
+        "ロマンティック"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [
+        "衣装"
+      ],
+      "warnings": []
+    },
+    "synopsis": "お姫さま Kaewked（แก้วเกศ／Ormsin）と 女性護衛官 Rinkham（รินคำ／Folk）── タイ伝統衣装の時代設定で描く姫×護衛の GL。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "Kongthup's Production 制作、OrmFolk ペア 3 作連続主演（Apple My Love・(your) Apple に続く）。**姫×護衛官**という時代劇風設定で、Ormsin が Kaewked（お姫さま）役、Folk が Rinkham（女性護衛官）役。全 11 話 + Special EP、毎週木曜 20:00 タイ時間 YouTube Kongthup's Channel。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "Kongthup's Production 制作 / OrmFolk ペアの第3作（Apple My Love・(your) Apple に続く）/ Ormsin = Kaewked（แก้วเกศ）役（お姫さま）、Folk = Rinkham（รินคำ）役（女性護衛官）/ 2026年6月25日 EP1 放送開始、毎週木曜 20:00 タイ時間（22:00 JST）/ YouTube Kongthup's Channel で配信、Kongthup Family Members 向けに 1 話先行 / 全11話 + Special EP / 最終放送 2026年9月3日 / タイ伝統衣装の時代劇 GL、お姫さま × 女性護衛官の身分差ロマンス / ハッシュタグ #MyLadysBodyguard #องครักษ์พิทักษ์แม่หญิงจอมซน #ormfolk #omeorm #ffolky",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/my-ladys-bodyguard.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/tq-GGjCLdHU",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/3QCTtz_y4JU",
+        "note": "Kongthup's Channel EP1、無料 / 以降は毎週木曜 20:00 タイ時間"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "slug": "ai-girl",
+    "title_ja": "AI Girl",
+    "title_en": "AI Girl",
+    "title_th": "AI Girl จะ Gen จนกว่าจะเจอ",
+    "year": 2026,
+    "production": "Me Mind Y",
+    "episodes": 7,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Mayyu Kawisara Singpord × Chanya Amarit Duval（MayyuChanya）",
+    "tags": {
+      "genre": [
+        "SF",
+        "ロマンス"
+      ],
+      "relationship": [
+        "AI×人間"
+      ],
+      "tone": [
+        "情感"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "内向的な AI 顔デザイナー Gen（Mayyu）と 記憶を失った人型ロボット Ai（Chanya）── タイ初の人型 AI ロボット題材の GL。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "Me Mind Y 制作、More Than Her Project の GL 第 2 弾。脚本 MAME（Mae Arawann）、監督 Thanyapisit Jiradechakul、製作総指揮 Orawan Wichchayawannakul。**MayyuChanya 主演で、タイ初の人型 AI ロボット題材 GL**。全 7 話、毎週水曜 YouTube MeMindY 20:00 タイ時間 + iQIYI UNCUT 版 21:00。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "Me Mind Y制作 / More Than Her Project の GL シリーズ第2弾 / 脚本: MAME（Mae Arawann）/ 監督: ธัญพิสิษฐ์ จิระเดชากุล (Thanyapisit Jiradechakul) / 製作総指揮: อรวรรณ วิชญวรรณกุล (Orawan Wichchayawannakul) / Mayyu=Gen（内向的なAI顔デザイナー）× Chanya=Ai（記憶を失った人型ロボット）/ 2026年7月1日 EP1 放送開始（毎週水曜）/ 全7話 / 最終話 2026年8月12日 / YouTube MeMindY Official 20:00（タイ時間） + iQIYI app/iQ.com UNCUT版 21:00 / タイ初の人型AIロボット題材GL / ハッシュタグ #AIGirlSeries #จะGenจนกว่าจะเจอ #MoreThanHerProject #MeMindY",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/ai-girl.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/HBi2dQGsuJw",
+    "streaming": [
+      {
+        "platform": "YouTube",
+        "url": "https://youtu.be/3CC58stapKQ",
+        "note": "MeMindY Official EP1 / 毎週水曜 20:00 タイ時間（22:00 JST）"
+      },
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "UNCUT 版独占（21:00 タイ時間〜）"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "slug": "the-fire",
+    "title_ja": "The Fire",
+    "title_en": "The Fire",
+    "title_th": "โซ่รักอัคนี",
+    "year": 2026,
+    "production": "North Star Entertainment",
+    "episodes": 8,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Namneung Milin Dokthian × Noey Kanteera Wadcharathadsanakul（NamneungNoey）",
+    "tags": {
+      "genre": [
+        "ロマンス"
+      ],
+      "relationship": [],
+      "tone": [
+        "ドラマチック",
+        "情感"
+      ],
+      "pacing": [],
+      "intimacy": [],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "4 Elements シリーズ完結章。Namneung（Achima/Fai）× Noey（Kaprao）── 元 BNK48 1 期生の 2 人が主演を務める、シリーズの締めくくり。",
+    "review": {
+      "highlights": [],
+      "recommend_for": [],
+      "caution_for": [],
+      "body_ja": "North Star Entertainment 制作、**4 Elements シリーズ第 4 弾（最終章）**。**NamneungNoey は両者とも元 BNK48 1 期生**で、卒業後の GL 作品再共演という文脈を持つ。全 8 話、毎週土曜 21:30 タイ時間（23:30 JST）でシリーズの締めくくりを飾った。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "4 Elementsシリーズ第4弾（最終章）/ North Star Entertainment制作 / Namneung（Achima/Fai 役）× Noey（Kaprao 役）/ 両者とも元BNK48 1期生 / 2026年7月11日〜8月29日放送、毎週土曜 21:30 タイ時間（23:30 JST）/ 全8話予定",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/the-fire.jpg",
+    "cover_credit": null,
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/U2ozG4r_HZw",
+    "streaming": [],
+    "series": "four-elements"
   }
 ]

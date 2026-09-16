@@ -1,245 +1,5 @@
 [
   {
-    "id": 101,
-    "slug": "the-air",
-    "title_ja": "The Air",
-    "title_en": "The Air",
-    "production": "North Star Entertainment",
-    "cast_pair": "Freen Sarocha Chankimha × Becky Rebecca Patricia Armstrong（FreenBecky）",
-    "status": "airing",
-    "note": "4 Elementsシリーズ第3弾 / Idol Factory × North Star共同制作 / 小説『The Air』by Salmon原作 / 2026年5月16日〜7月4日 / 8話完結 / Ch7HD（タイ）& iQIYI（国際）/ 毎週土曜 21:30 タイ時間（23:30 JST）/ 王女ブルー（Becky）× 警護警察官ロム（Freen）",
-    "cover_image": "/images/dramas/the-air.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/2w3RL-3WxVM",
-    "streaming": [
-      {
-        "platform": "iQIYI",
-        "url": "https://www.iq.com/"
-      }
-    ],
-    "title_th": "เสน่หาวาโย",
-    "start_date": "2026-05-16",
-    "end_date": "2026-07-04",
-    "episodes": 8,
-    "series": "four-elements"
-  },
-  {
-    "id": 102,
-    "slug": "girl-rules",
-    "title_ja": "Girl Rules",
-    "title_en": "Girl Rules",
-    "production": "GMMTV × Moongdoo Production",
-    "cast_pair": "NamtanFilm × MilkLove × ViewMim",
-    "status": "airing",
-    "note": "GMMTV × Moongdoo Production制作 / 監督Tichakorn Phukhaotung / 2026年3月9日初放送 / 全12話 / 毎週月曜 20:30 タイ時間（22:30 JST）/ iQIYI・GMM25・YouTube / 友達グループの群像劇 / 元カノ帰還＋広告・モデル・スタイリング業界 / 主要GLペア3組（NamtanFilm・MilkLove・ViewMim）が共演",
-    "cover_image": "/images/dramas/girl-rules.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/lDUD3omAlHA",
-    "streaming": [
-      {
-        "platform": "RakutenTV",
-        "url": "https://tv.rakuten.co.jp/"
-      }
-    ],
-    "title_th": "กฎหลัก ห้ามรักเธอ",
-    "start_date": "2026-03-09",
-    "end_date": "2026-06-01",
-    "episodes": 12
-  },
-  {
-    "id": 104,
-    "slug": "enemies-with-benefits",
-    "title_ja": "Enemies with Benefits",
-    "title_en": "Enemies with Benefits",
-    "production": "GMMTV × Snap25",
-    "cast_pair": "Ployshompoo Supasap × JingJing Yu（JanJingJing）",
-    "status": "airing",
-    "note": "GMMTV × Snap25制作 / 監督Tawan Charuchinda + Arisa Wawwanjit / 小説by Snow Leopard原作 / 2026年5月3日〜7月5日 / 全10話 / 毎週日曜 GMM25・OneDアプリ / Whale Store xoxo共有世界観 / 「ラルはワインが好きじゃない」",
-    "cover_image": "/images/dramas/enemies-with-benefits.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/4K__c9385LE",
-    "streaming": [
-      {
-        "platform": "YouTube",
-        "url": "https://youtu.be/0EPN_IlU2gU"
-      }
-    ],
-    "title_th": "ลัลล์ไม่ชอบไวน์",
-    "start_date": "2026-05-03",
-    "end_date": "2026-07-05",
-    "episodes": 10
-  },
-  {
-    "id": 105,
-    "slug": "fulfill",
-    "title_ja": "Fulfill",
-    "title_en": "Fulfill",
-    "production": "BEC World Original / Channel 3",
-    "cast_pair": "Oom Eisaya Hosuwan × Bam Saralee Prasitdumrong（OomBam）",
-    "status": "airing",
-    "note": "BEC World Original制作（Channel 3 GL第4作）/ 監督Nay Saratswadee Wongsomphet（The Secret of Us監督）/ 2026年4月24日〜6月12日 / 毎週金曜 20:30 タイ時間（22:30 JST）Channel 3HD放送 / 8話完結 / 大学時代から続くカップル（女性エンジニアAiooon×インテリアデザイナーPafun）が結婚後に養子縁組を考える物語",
-    "cover_image": "/images/dramas/fulfill.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/D0-qfBPHrqA",
-    "streaming": [
-      {
-        "platform": "Netflix",
-        "url": "https://www.netflix.com/jp/",
-        "note": "VPN必要"
-      }
-    ],
-    "title_th": "Fulfill The Series",
-    "start_date": "2026-04-24",
-    "end_date": "2026-06-12",
-    "episodes": 8
-  },
-  {
-    "id": 106,
-    "slug": "love-beyond-dreams",
-    "title_ja": "Love beyond Dreams",
-    "title_en": "Love beyond Dreams",
-    "production": "ME MIND Y",
-    "cast_pair": "Mie Phat × Aya Orapan（MieAya）",
-    "status": "airing",
-    "note": "ME MIND Y制作（GL初参入・More Than Her Projectシリーズ）/ 全7話 / 2026年5月6日〜6月17日 / 毎週水曜 / YouTube MeMindY Official 20:00 タイ時間（22:00 JST）/ iQIYI UNCUT版 21:00 タイ時間（23:00 JST）/ プロデューサーOrawan Wichayawannakun / 監督Thanyaphisit Jiradechakul",
-    "cover_image": "/images/dramas/love-beyond-dreams.jpg",
-    "cover_credit": "© ME MIND Y / iQIYI",
-    "youtube_teaser": "https://youtu.be/YXBdhxza8Es",
-    "title_th": "เพื่อเธออีกครั้ง",
-    "streaming": [
-      {
-        "platform": "YouTube",
-        "url": "https://www.youtube.com/@MeMindYofficial"
-      },
-      {
-        "platform": "iQIYI",
-        "url": "https://www.iq.com/",
-        "note": "UNCUT版"
-      }
-    ],
-    "start_date": "2026-05-06",
-    "end_date": "2026-06-17",
-    "episodes": 7
-  },
-  {
-    "id": 107,
-    "slug": "rental-love-lab",
-    "title_ja": "Rental Love Lab",
-    "title_en": "Rental Love Lab",
-    "title_th": "ชั่วโมงทดลองรัก",
-    "production": "K11D HOUSE",
-    "cast_pair": "Kitty Nunthaphuck × Punch Naphassanan（KittyPunch）",
-    "status": "completed",
-    "note": "K11D HOUSE制作 / Vibeberry Studio協力 / 新ペア KittyPunch 主演 / 2026年5月29日〜6月19日 / 毎週金曜 YouTube 公開 / 全4話完結",
-    "cover_image": "/images/dramas/rental-love-lab.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/CufGfB9ylDw",
-    "streaming": [
-      {
-        "platform": "YouTube",
-        "url": "https://youtu.be/DH6b3St6DVU"
-      }
-    ],
-    "start_date": "2026-05-29",
-    "end_date": "2026-06-19",
-    "episodes": 4
-  },
-  {
-    "id": 108,
-    "slug": "chasing-love",
-    "title_ja": "Chasing Love",
-    "title_en": "Chasing Love",
-    "title_th": "ตามล่าหารัก",
-    "production": "CHANGE2561 Original × ONE31",
-    "cast_pair": "Nile Chanidapa Sommitthanakul × Namwan Natchaya Vongbut（NileNamwan）",
-    "status": "airing",
-    "note": "CHANGE2561 Original制作 / 原作Peony / 監督Bo Pantip Vibultham / 2026年5月29日（金）放送開始、7月17日まで全8話 / 毎週金曜 22:30 タイ時間（ONE31 TV版）/ Netflix Worldwide Uncut版 23:30〜（日本Netflixでも視聴可）/ oneD Thailand Only Uncut版 23:30〜 / NileNamwanデビュー作",
-    "cover_image": "/images/dramas/chasing-love.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/YVECcuW7swA",
-    "streaming": [
-      {
-        "platform": "Netflix",
-        "url": "https://www.netflix.com/jp/"
-      }
-    ],
-    "start_date": "2026-05-29",
-    "end_date": "2026-07-17",
-    "episodes": 8
-  },
-  {
-    "id": 110,
-    "slug": "my-ladys-bodyguard",
-    "title_ja": "My Lady's Bodyguard",
-    "title_en": "My Lady's Bodyguard",
-    "title_th": "องครักษ์พิทักษ์แม่หญิงจอมซน",
-    "production": "Kongthup's Production",
-    "cast_pair": "Ormsin Supitcha Limsommut × Folk Sutima Korkiatvanich（OrmFolk）",
-    "status": "airing",
-    "note": "Kongthup's Production 制作 / OrmFolk ペアの第3作（Apple My Love・(your) Apple に続く）/ Ormsin = Kaewked（แก้วเกศ）役（お姫さま）、Folk = Rinkham（รินคำ）役（女性護衛官）/ 2026年6月25日 EP1 放送開始、毎週木曜 20:00 タイ時間（22:00 JST）/ YouTube Kongthup's Channel で配信、Kongthup Family Members 向けに 1 話先行 / 全11話 + Special EP / 最終放送 2026年9月3日 / タイ伝統衣装の時代劇 GL、お姫さま × 女性護衛官の身分差ロマンス / ハッシュタグ #MyLadysBodyguard #องครักษ์พิทักษ์แม่หญิงจอมซน #ormfolk #omeorm #ffolky",
-    "cover_image": "/images/dramas/my-ladys-bodyguard.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/tq-GGjCLdHU",
-    "streaming": [
-      {
-        "platform": "YouTube",
-        "url": "https://youtu.be/3QCTtz_y4JU",
-        "note": "Kongthup's Channel EP1、無料 / 以降は毎週木曜 20:00 タイ時間"
-      }
-    ],
-    "start_date": "2026-06-25",
-    "end_date": "2026-09-03",
-    "episodes": 11
-  },
-  {
-    "id": 112,
-    "slug": "ai-girl",
-    "title_ja": "AI Girl",
-    "title_en": "AI Girl",
-    "title_th": "AI Girl จะ Gen จนกว่าจะเจอ",
-    "production": "Me Mind Y",
-    "cast_pair": "Mayyu Kawisara Singpord × Chanya Amarit Duval（MayyuChanya）",
-    "status": "airing",
-    "note": "Me Mind Y制作 / More Than Her Project の GL シリーズ第2弾 / 脚本: MAME（Mae Arawann）/ 監督: ธัญพิสิษฐ์ จิระเดชากุล (Thanyapisit Jiradechakul) / 製作総指揮: อรวรรณ วิชญวรรณกุล (Orawan Wichchayawannakul) / Mayyu=Gen（内向的なAI顔デザイナー）× Chanya=Ai（記憶を失った人型ロボット）/ 2026年7月1日 EP1 放送開始（毎週水曜）/ 全7話 / 最終話 2026年8月12日 / YouTube MeMindY Official 20:00（タイ時間） + iQIYI app/iQ.com UNCUT版 21:00 / タイ初の人型AIロボット題材GL / ハッシュタグ #AIGirlSeries #จะGenจนกว่าจะเจอ #MoreThanHerProject #MeMindY",
-    "cover_image": "/images/dramas/ai-girl.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/HBi2dQGsuJw",
-    "streaming": [
-      {
-        "platform": "YouTube",
-        "url": "https://youtu.be/3CC58stapKQ",
-        "note": "MeMindY Official EP1 / 毎週水曜 20:00 タイ時間（22:00 JST）"
-      },
-      {
-        "platform": "iQIYI",
-        "url": "https://www.iq.com/",
-        "note": "UNCUT 版独占（21:00 タイ時間〜）"
-      }
-    ],
-    "start_date": "2026-07-01",
-    "end_date": "2026-08-12",
-    "episodes": 7
-  },
-  {
-    "id": 113,
-    "slug": "the-fire",
-    "title_ja": "The Fire",
-    "title_en": "The Fire",
-    "title_th": "โซ่รักอัคนี",
-    "production": "North Star Entertainment",
-    "cast_pair": "Namneung Milin Dokthian × Noey Kanteera Wadcharathadsanakul（NamneungNoey）",
-    "status": "airing",
-    "note": "4 Elementsシリーズ第4弾（最終章）/ North Star Entertainment制作 / Namneung（Achima/Fai 役）× Noey（Kaprao 役）/ 両者とも元BNK48 1期生 / 2026年7月11日〜8月29日放送、毎週土曜 21:30 タイ時間（23:30 JST）/ 全8話予定",
-    "cover_image": "/images/dramas/the-fire.jpg",
-    "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/U2ozG4r_HZw",
-    "streaming": [],
-    "start_date": "2026-07-11",
-    "end_date": "2026-08-29",
-    "episodes": 8,
-    "series": "four-elements"
-  },
-  {
     "id": 209,
     "slug": "moonshadow",
     "title_ja": "Moonshadow",
@@ -265,6 +25,161 @@
       }
     ],
     "start_date": "2026-08-12",
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 213,
+    "slug": "pls-love",
+    "title_ja": "PLS Love",
+    "title_en": "PLS Love",
+    "title_th": "รักได้ไหม",
+    "production": "Channel 3 / BEC World Original",
+    "cast_pair": "Lorena Schuett × Natsha Taechamongkalapiwat（LenaMiu）",
+    "status": "airing",
+    "note": "BEC World Original Series / Channel 3 制作 / 主演: Lena Lorena Schuett × Miu Natsha Taechamongkalapiwat（LenaMiu）/ 原作: Reverse 小説『PLS Love รักได้ไหม』/ LenaMiu 再共演（My Safe Zone 以来）/ 放送開始: 2026年9月11日、毎週金曜 20:30 タイ時間（22:30 JST）Ch3 HD（33ch）+ 3Plus オンライン同時配信 / 見逃し: 3Plus Premium / 情報源: LenaMiu 公式（@lenamiu_ch3）2026-08-15 公式ポスター解禁 / ハッシュタグ #PlsLoveรักได้ไหม #LenaMiu #ลีน่าหมิว",
+    "cover_image": "/images/dramas/pls-love.jpg",
+    "cover_credit": "BEC World Original / Channel 3 Official Poster (Instagram @lenamiu_ch3, 2026-08-15)",
+    "youtube_teaser": "https://youtu.be/N6bdFaf37Ms",
+    "streaming": [
+      {
+        "platform": "Ch3 HD 33 (タイ現地)",
+        "url": "https://www.ch3plus.com/",
+        "note": "毎週金曜 20:30 タイ時間（22:30 JST）"
+      },
+      {
+        "platform": "3Plus",
+        "url": "https://www.ch3plus.com/",
+        "note": "同時配信"
+      },
+      {
+        "platform": "3Plus Premium",
+        "url": "https://www.ch3plus.com/",
+        "note": "見逃し"
+      }
+    ],
+    "start_date": "2026-09-11",
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 216,
+    "slug": "khom-khlang",
+    "title_ja": "Khom Khlang",
+    "title_en": "Khom Khlang (Formidable Eyes)",
+    "title_th": "ข่มขลัง",
+    "production": "Star Hunter Entertainment",
+    "cast_pair": "Bint × Puinoon（PuinoonBint）",
+    "status": "airing",
+    "note": "Star Hunter Entertainment 制作 / WeTV Original / 原作: Luxurious.W『ข่มขลัง（Formidable Eyes）』/ STH PROJECT LINE UP 2026 発表作 / 主演: Bint Sireethorn（@bintsireethorn）× Puinoon Warangsiri（@pn.noonn）= PuinoonBint / サブ: AndaLookkaew（Anda × Lookkaew）/ ジャンル: ホラー・スーパーナチュラル GL / 犯罪捜査 × オカルト（除霊・呪符・タトゥーヤントラ）要素 / 役柄: Bint = クルーブラン（霊媒師）× Puinoon = ピーム（警察官）/ 放送開始: 2026年9月7日、毎週月曜 20:00 タイ時間（22:00 JST）/ UNCUT 版: WeTV 独占配信 / 情報源: Star Hunter Entertainment 公式（@ohstarhunter, @starhunter_entertainment）2026-08-15 公式ポスター解禁 / ハッシュタグ #ข่มขลัง #puinoonbint #WeTVOriginal #StarHunterEntertainment #KhomKhlangTheSeries",
+    "cover_image": "/images/dramas/khom-khlang.jpg",
+    "cover_credit": "Star Hunter Entertainment × WeTV Original Official Poster (Instagram @ohstarhunter, 2026-08-15)",
+    "youtube_teaser": "https://youtu.be/PNPqobabDiU",
+    "streaming": [
+      {
+        "platform": "WeTV Original",
+        "url": "https://wetv.vip/",
+        "note": "毎週月曜 20:00 タイ時間（22:00 JST）独占配信"
+      }
+    ],
+    "start_date": "2026-09-07",
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 219,
+    "slug": "third-person",
+    "title_ja": "Third Person",
+    "title_en": "Third Person",
+    "title_th": "ถ้อยรักคำลวง",
+    "production": "North Star Entertainment",
+    "cast_pair": "Garn Nuttacha × Mimie Bhapat（GarnMimie）",
+    "status": "airing",
+    "note": "North Star Entertainment 制作（4 Elements シリーズ制作元）/ 第 4 のホーム GL カップル GarnMimie 初主演 / 主演: Garn Nuttacha（@nhuugarnns）× Mimie Bhapat（@mimiebhapat）/ Garn = Kris 役（4 年前の事故で記憶喪失、現パートナー Nadia と生活再建中）/ Mimie = Sun 役（Kris の過去を揺さぶる謎の女性）/ サブに Piglet Charada が「第三者」として絡む三角関係構造 / 原作: sixnineyuri 著『Third Person（ถ้อยรักคำลวง）』/ 放送開始: 2026-09-12（土）毎週土曜 22:25 タイ時間 Ch3 HD 33ch / UNCUT 見逃し配信: YouTube North Star Entertainment / ハッシュタグ #ThirdPersonTheSeries #NorthStarEntertainment #nhuugarnns #mimiebhapat",
+    "cover_image": "/images/dramas/third-person.jpg",
+    "cover_credit": "North Star Entertainment Official Poster (Instagram @northstarentertainth, 2026-08-20)",
+    "youtube_teaser": "https://youtu.be/eWVtJtYbZgI",
+    "streaming": [
+      {
+        "platform": "Ch3 HD 33 (タイ現地)",
+        "url": "https://www.ch3plus.com/",
+        "note": "毎週土曜 22:25 タイ時間（24:25 JST）"
+      },
+      {
+        "platform": "YouTube North Star Entertainment",
+        "url": "https://www.youtube.com/@NorthStarEntertainment",
+        "note": "UNCUT 見逃し配信"
+      }
+    ],
+    "start_date": "2026-09-12",
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 228,
+    "slug": "fairway-of-love",
+    "title_ja": "Fairway of Love",
+    "title_en": "Fairway of Love",
+    "title_th": "รักออกรอบ",
+    "production": "Mojo Muse Management",
+    "cast_pair": "Ing × Cartoon（IngCartoon）",
+    "status": "airing",
+    "note": "Mojo Muse Management 制作 / メイン: IngCartoon（Ing Tanatcha × Cartoon Kittaya Iemnopmanee）/ サブ: MinagiBam（Minagi × Bam Bambi）/ ゴルフを舞台にしたロマンス GL（タイトル『Fairway』はゴルフ用語で、ボールが着地する芝生ゾーン）/ 放送開始: 2026-09-06（日）/ 毎週日曜 22:30 タイ時間（24:30 JST）One 31 TV / UNCUT 版: 23:30 タイ時間 WeTV 独占 / 話数: 全 8 話＋スペシャルシーズン 2 話 / 情報源: Mojo Muse Management（@mojo_muse_management）2026-07-14 IG 投稿 / ハッシュタグ #FairwayOfLove #รักออกรอบ #MojoMuseManagement #IngCartoon #MinagiBam / タイ GL で本格的にゴルフを主題化した稀有な作品",
+    "cover_image": "/images/dramas/fairway-of-love.jpg",
+    "cover_credit": "Mojo Muse Management Official Key Visual (Instagram @mojo_muse_management)",
+    "youtube_teaser": "https://youtu.be/SY0FBEQ6NjM",
+    "streaming": [
+      {
+        "platform": "One 31 (タイ現地)",
+        "url": "https://www.one31.net/",
+        "note": "毎週日曜 22:30 タイ時間（24:30 JST）"
+      },
+      {
+        "platform": "WeTV UNCUT",
+        "url": "https://wetv.vip/",
+        "note": "23:30 タイ時間 UNCUT 版独占"
+      }
+    ],
+    "start_date": "2026-09-06",
+    "end_date": "2026-11-08",
+    "episodes": 10
+  },
+  {
+    "id": 232,
+    "slug": "juliet-and-juliet",
+    "title_ja": "Juliet & Juliet",
+    "title_en": "Juliet & Juliet",
+    "title_th": "จูเลียตแอนด์จูเลียต",
+    "production": "OPEN LABEL",
+    "cast_pair": "Mingming × Nepjune（MingmingNepjune）",
+    "status": "airing",
+    "note": "OPEN LABEL 制作 / 主演: Mingming Kanyakorn（@mingkanyas）× Nepjune Nutkitta（@nepjuneys）= MingmingNepjune / タイ語タイトル: จูเลียตแอนด์จูเลียต / 原案: シェイクスピア『ロメオとジュリエット』の GL 再解釈 / 役柄: トウキョウ（Tokyo）× ブルー（Blu）─ 敵対家系のジュリエット同士 / 放送開始: 2026-09-05（土）/ 毎週土曜 20:30 タイ時間（22:30 JST）One 31 TV（タイ国内）/ Worldwide UNCUT 版: oneD アプリ 21:30 タイ時間（地域制限あり）/ その他配信: Gagaoolala、LINE TV / スポンサー: Farmhouse / ハッシュタグ #JULIETandJULIET #Mingkanyas #nepjuneys #MingmingNepjune #OPENLABEL / エピソード数は続報待ち",
+    "cover_image": "/images/dramas/juliet-and-juliet.jpg",
+    "cover_credit": "OPEN LABEL Official Key Visual (Instagram @nepjuneys, @mingkanyas)",
+    "youtube_teaser": "https://youtu.be/Pbb7VU0VfYA",
+    "streaming": [
+      {
+        "platform": "One 31 (タイ現地)",
+        "url": "https://www.one31.net/",
+        "note": "毎週土曜 20:30 タイ時間（22:30 JST）"
+      },
+      {
+        "platform": "oneD Worldwide UNCUT",
+        "url": "https://oned.net/",
+        "note": "21:30 タイ時間（地域制限あり）"
+      },
+      {
+        "platform": "Gagaoolala",
+        "url": "https://www.gagaoolala.com/",
+        "note": "国際配信"
+      },
+      {
+        "platform": "LINE TV",
+        "url": "https://tv.line.me/",
+        "note": "国際配信"
+      }
+    ],
+    "start_date": "2026-09-05",
     "end_date": null,
     "episodes": null
   }

@@ -169,7 +169,7 @@
     "note": "Pro Gold 制作 / Nene Thanchanok Yutthasarnsiri = Rita-Frey 役（現代パート）/ Khaimook Sirin = Phiang Khwan 役（時代パート）/ 公式発表: 2026年6月（数日前にティザービジュアル公開）/ ジャンル: ロマンス・ドラマ・ファンタジー / ポスターから時代を超えるロマンス（時間移動／前世モチーフ）が強く示唆 / 公式タグライン: 「แม้เวลาจะพรากเราไป แต่ความรักจะพาเธอกลับมา」(Even if time takes us apart, love will bring you back) / 具体的な放送日・配信先・話数は未発表 / Nene IG: @thanchanok_nene（verified）/ Khaimook IG: @khaimooxs",
     "cover_image": "/images/dramas/since-norita.jpg",
     "cover_credit": null,
-    "youtube_teaser": null
+    "youtube_teaser": "https://youtu.be/wTKTQDxI8j4"
   },
   {
     "id": 222,
@@ -198,9 +198,9 @@
     "status": "upcoming",
     "announced_for": "未発表",
     "pending": true,
-    "note": "公式制作: MGI Beyond（@mgibeyond）/ 主演: Meena（@meenaxrina）× Aoom（@aoomtwp）= MeenBabe / タイ語タイトル: ใต้เงาจันทรา / 2026 年 7 月 2 日 Workshop D1 開始 / 予告編公開済み（Official Trailer 2026年7月）/ 具体的な放送日・エピソード数・配信先いずれも公式未発表",
+    "note": "公式制作: MGI Beyond（@mgibeyond）× **iQIYI Original** / 主演: Meena Rina（@meenaxrina）× Aoom Thaweeporn（@aoomtwp）= MeenBabe / タイ語タイトル: ใต้เงาจันทรา / 2026 年 7 月 2 日 Workshop D1 開始 / タグライン: 「As the game of this relationship begins, the line between \"boss\" and \"heart\" may not be as clear as you think...」 / 具体的な放送日は公式未発表",
     "cover_image": "/images/dramas/under-her-rules.jpg",
-    "cover_credit": "MGI Beyond (Under Her Rules 2M Congratulations)",
+    "cover_credit": "MGI Beyond × iQIYI Original Poster (Instagram @mgibeyond, 2026-09)",
     "youtube_teaser": "https://youtu.be/2IbjmAjpzEs"
   },
   {
@@ -331,6 +331,40 @@
     "note": "FRT Entertainment 制作（SHADES と同じホームスタジオ）/ 主演: 4 女優キャスト ── Ying Anada、Aom Punyawee、Pla Kewalin、Whawha Pimmada（ペア構成は続報待ち）/ 公式 IG: @buymybossofficial / タグライン: 「You're the boss at work, but not in bed.」（職場では君がボス、でもベッドではそうじゃない）/ プレミア: 2026 年 10 月 28 日、FRT Entertainment YouTube にて配信 / 情報源: @buymybossofficial 公式ポスター 2026-08-05 公開 / ハッシュタグ #BuyMyBoss #FRTentertainment / 具体的な話数・週次スケジュールは続報待ち",
     "cover_image": "/images/dramas/buy-my-boss.jpg",
     "cover_credit": "FRT Entertainment Official Poster (Instagram @buymybossofficial, 2026-08-05)",
+    "youtube_teaser": null
+  },
+  {
+    "id": 235,
+    "slug": "thon-khong",
+    "title_ja": "ถอนของ",
+    "title_en": "Thon Khong (仮)",
+    "title_th": "ถอนของ",
+    "production": "MGI Beyond",
+    "cast_pair": null,
+    "status": "upcoming",
+    "announced_for": "未発表",
+    "pending": true,
+    "synopsis": "MGI Beyond の新 GL シリーズ第 1 弾。オーディションで新ペア主演 4 名を選出予定 ── 4 名のうち 2 名がこの『ถอนของ』の主演を務める。",
+    "note": "MGI Beyond 制作 / GL シリーズ 2 本立て企画の第 1 弾 / 2026 年 9 月時点で **オーディション開催中**（応募者から 4 名を選出、2 名ずつが 2 シリーズの主演に）/ 詳細キャスト・放送日・エピソード数・配信先すべて未発表 / 情報源: MGI Beyond 公式（@mgibeyond）+ Miss Grand Thailand（@missgrandthailand）2026-09 IG 投稿 / ハッシュタグ #ถอนของ #MGIBeyond",
+    "cover_image": null,
+    "cover_credit": null,
+    "youtube_teaser": null
+  },
+  {
+    "id": 236,
+    "slug": "duang-chai-saming",
+    "title_ja": "ดวงใจสมิง",
+    "title_en": "Duang Chai Saming (仮)",
+    "title_th": "ดวงใจสมิง",
+    "production": "MGI Beyond",
+    "cast_pair": null,
+    "status": "upcoming",
+    "announced_for": "未発表",
+    "pending": true,
+    "synopsis": "MGI Beyond の新 GL シリーズ第 2 弾。オーディションで選出される 4 名のうち残る 2 名がこの『ดวงใจสมิง』の主演を務める。",
+    "note": "MGI Beyond 制作 / GL シリーズ 2 本立て企画の第 2 弾 / 2026 年 9 月時点で **オーディション開催中**（応募者から 4 名を選出、2 名ずつが 2 シリーズの主演に）/ 詳細キャスト・放送日・エピソード数・配信先すべて未発表 / 情報源: MGI Beyond 公式（@mgibeyond）+ Miss Grand Thailand（@missgrandthailand）2026-09 IG 投稿 / ハッシュタグ #ดวงใจสมิง #MGIBeyond",
+    "cover_image": null,
+    "cover_credit": null,
     "youtube_teaser": null
   }
 ]

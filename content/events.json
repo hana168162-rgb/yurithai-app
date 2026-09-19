@@ -11,8 +11,13 @@
     "description": "FreenBeckyの大規模ファンミーティングツアー「FaBulous FanBoom」のバンコク公演。アジアツアーの初日。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["FreenBecky"],
-    "cast": ["Freen Sarocha", "Becky Armstrong"],
+    "pairs": [
+      "FreenBecky"
+    ],
+    "cast": [
+      "Freen Sarocha",
+      "Becky Armstrong"
+    ],
     "company": "Solenn Entertainment / Becky Entertainment",
     "ticket_info": "販売終了",
     "official_link": "https://freen-sarocha.fandom.com/wiki/Concert_%26_Fanmeeting",
@@ -30,8 +35,12 @@
     "description": "フィリピンで開催されるタイGL専門フェスティバルの第2回。複数のGLペアのファンクラブが参加するコミュニティイベント。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["Various"],
-    "cast": ["Various"],
+    "pairs": [
+      "Various"
+    ],
+    "cast": [
+      "Various"
+    ],
     "company": "Fan Support Zone Philippines",
     "ticket_info": "販売終了",
     "official_link": "https://www.instagram.com/p/DTVIopak_xE/",
@@ -49,8 +58,13 @@
     "description": "MilkLoveの香港ファンミーティング「Sweet Serenade」。チケットはHKD $1,688/$1,288/$888の3段階。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["MilkLove"],
-    "cast": ["Milk Pansa", "Love Pattranite"],
+    "pairs": [
+      "MilkLove"
+    ],
+    "cast": [
+      "Milk Pansa",
+      "Love Pattranite"
+    ],
     "company": "GMMTV",
     "ticket_info": "販売終了（HKD $1,688/$1,288/$888）",
     "official_link": "https://www.goparksaisha.hk/en/happening-event/sweet-serenade-milklove-fanmeeting-in-hong-kong-2026/",
@@ -68,8 +82,13 @@
     "description": "NamtanFilmの香港ファンミーティング「Framed in Love」。Girl Rulesの人気を受けて開催。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["NamtanFilm"],
-    "cast": ["Namtan Tipnaree", "Film Rachanun"],
+    "pairs": [
+      "NamtanFilm"
+    ],
+    "cast": [
+      "Namtan Tipnaree",
+      "Film Rachanun"
+    ],
     "company": "GMMTV",
     "ticket_info": "販売終了",
     "official_link": "https://www.goparksaisha.hk/en/happening-event/framed-in-love-namtanfilm-fanmeeting-in-hong-kong-2026/",
@@ -87,8 +106,13 @@
     "description": "FreenBecky「FaBulous FanBoom」アジアツアーのマカオ公演。Broadway Theatreで開催。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["FreenBecky"],
-    "cast": ["Freen Sarocha", "Becky Armstrong"],
+    "pairs": [
+      "FreenBecky"
+    ],
+    "cast": [
+      "Freen Sarocha",
+      "Becky Armstrong"
+    ],
     "company": "Solenn Entertainment / Becky Entertainment",
     "ticket_info": "販売終了",
     "official_link": "https://freen-sarocha.fandom.com/wiki/Concert_%26_Fanmeeting",
@@ -106,8 +130,13 @@
     "description": "FreenBecky「FaBulous FanBoom」アジアツアーのセブ公演。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["FreenBecky"],
-    "cast": ["Freen Sarocha", "Becky Armstrong"],
+    "pairs": [
+      "FreenBecky"
+    ],
+    "cast": [
+      "Freen Sarocha",
+      "Becky Armstrong"
+    ],
     "company": "Solenn Entertainment / Becky Entertainment",
     "ticket_info": "販売終了",
     "official_link": "https://freen-sarocha.fandom.com/wiki/Concert_%26_Fanmeeting",
@@ -125,8 +154,13 @@
     "description": "FreenBecky「FaBulous FanBoom」アジアツアーのマニラ公演。New Frontier Theaterで開催。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["FreenBecky"],
-    "cast": ["Freen Sarocha", "Becky Armstrong"],
+    "pairs": [
+      "FreenBecky"
+    ],
+    "cast": [
+      "Freen Sarocha",
+      "Becky Armstrong"
+    ],
     "company": "Solenn Entertainment / Becky Entertainment",
     "ticket_info": "販売終了",
     "official_link": "https://freen-sarocha.fandom.com/wiki/Concert_%26_Fanmeeting",
@@ -144,8 +178,13 @@
     "description": "EmiBonnie（エミ＆ボニー）初のヨーロッパファンミーティング。イタリア・ローマのJIBイベントで開催。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["EmiBonnie"],
-    "cast": ["Emi Tarnporn", "Bonnie Boonparn"],
+    "pairs": [
+      "EmiBonnie"
+    ],
+    "cast": [
+      "Emi Tarnporn",
+      "Bonnie Boonparn"
+    ],
     "company": "GMMTV",
     "ticket_info": "販売終了",
     "official_link": "https://www.emibonnie-echoes.com/en",
@@ -163,8 +202,13 @@
     "description": "LenaMiu（レナ・シュエット＆ミウ・ナッシャ）のマニラファンミーティング。2日間開催（5/23-24）。チケットは3月29日発売開始。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["LenaMiu"],
-    "cast": ["Lena Schuett", "Miu Natsha"],
+    "pairs": [
+      "LenaMiu"
+    ],
+    "cast": [
+      "Lena Schuett",
+      "Miu Natsha"
+    ],
     "company": "North Star Entertainment",
     "ticket_info": "販売終了（2026年3月29日発売開始）",
     "official_link": "https://x.com/philconcerts/status/2035684300193182025",
@@ -182,8 +226,13 @@
     "description": "LenaMiu（レナ・シュエット＆ミウ・ナッシャ）のマニラファンミーティング2日目。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["LenaMiu"],
-    "cast": ["Lena Schuett", "Miu Natsha"],
+    "pairs": [
+      "LenaMiu"
+    ],
+    "cast": [
+      "Lena Schuett",
+      "Miu Natsha"
+    ],
     "company": "North Star Entertainment",
     "ticket_info": "販売終了",
     "official_link": "https://x.com/philconcerts/status/2035684300193182025",
@@ -202,7 +251,9 @@
     "category": "fan-meeting",
     "color": "#FFC107",
     "pairs": [],
-    "cast": ["Freen Sarocha"],
+    "cast": [
+      "Freen Sarocha"
+    ],
     "company": "Solenn Entertainment",
     "ticket_info": "販売終了（2026年4月29日 11:00発売開始）",
     "official_link": "https://ticketbox.vn/freen-one-fine-day-in-vietnam-25933",
@@ -220,8 +271,13 @@
     "description": "LingOrm（リンリン＆オーム）のバースデーファンパーティー。UOB LIVEで盛大に開催。チケットはAllTicketおよび7-Elevenで販売。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["LingOrm"],
-    "cast": ["LingLing Kwong", "Orm Kornnaphat"],
+    "pairs": [
+      "LingOrm"
+    ],
+    "cast": [
+      "LingLing Kwong",
+      "Orm Kornnaphat"
+    ],
     "company": "CH3 Thailand",
     "ticket_info": "販売終了（AllTicket / 7-Eleven）",
     "official_link": "https://www.uoblive.asia/event/lingorm-birthday-fan-party",
@@ -239,8 +295,19 @@
     "description": "大人気GLシリーズ「Girl Rules」の最終話をキャスト全員とファンが一緒に視聴するイベント。特別ステージパフォーマンスあり。TTM LIVEで全世界配信予定。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["NamtanFilm", "MilkLove", "ViewMim"],
-    "cast": ["Namtan Tipnaree", "Film Rachanun", "Milk Pansa", "Love Pattranite", "View Benyapa", "Mim Yanisa"],
+    "pairs": [
+      "NamtanFilm",
+      "MilkLove",
+      "ViewMim"
+    ],
+    "cast": [
+      "Namtan Tipnaree",
+      "Film Rachanun",
+      "Milk Pansa",
+      "Love Pattranite",
+      "View Benyapa",
+      "Mim Yanisa"
+    ],
     "company": "GMMTV",
     "ticket_info": "ThaiTicketMajor にて発売済（2026年5月16日10:00 ICT発売開始）",
     "official_link": "https://www.facebook.com/gmmtvofficial/posts/1566706441492258/",
@@ -258,8 +325,13 @@
     "description": "フィリピンで開催されるタイGL専門フェスティバルの第3回。スペシャルゲストとしてOrmFolkが出演。複数のGLペアのファンクラブが参加。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["OrmFolk"],
-    "cast": ["Orm Kornnaphat", "Folk Thanaporn"],
+    "pairs": [
+      "OrmFolk"
+    ],
+    "cast": [
+      "Orm Kornnaphat",
+      "Folk Thanaporn"
+    ],
     "company": "Fan Support Zone Philippines",
     "ticket_info": "販売終了（事前登録制）",
     "official_link": "https://x.com/ThaimazingMNL/status/2060231972522504688",
@@ -278,7 +350,9 @@
     "category": "event",
     "color": "#3F51B5",
     "pairs": [],
-    "cast": ["Becky Armstrong"],
+    "cast": [
+      "Becky Armstrong"
+    ],
     "company": "Becky Entertainment",
     "ticket_info": "無料（スペース限定）",
     "official_link": "https://www.instagram.com/beckyentofficial/",
@@ -297,8 +371,24 @@
     "description": "GMMTV制作のGL専門ファンフェスティバル。MilkLove、EmiBonnie、NamtanFilm、JanJingJing、JuneMewnich、PahnFond などGMMTV所属のGLペアが集結。Top Line / God Is Woman / Giddy Up などのコラボパフォーマンスがバイラル化。",
     "category": "concert",
     "color": "#E91E63",
-    "pairs": ["MilkLove", "EmiBonnie", "NamtanFilm", "JanJingJing", "JuneMewnich", "PahnFond"],
-    "cast": ["Milk Pansa", "Love Pattranite", "Emi Thasorn", "Bonnie Pattraphus", "Namtan Tipnaree", "Film Rachanun", "Jan Ployshompoo", "JingJing Worasaya"],
+    "pairs": [
+      "MilkLove",
+      "EmiBonnie",
+      "NamtanFilm",
+      "JanJingJing",
+      "JuneMewnich",
+      "PahnFond"
+    ],
+    "cast": [
+      "Milk Pansa",
+      "Love Pattranite",
+      "Emi Thasorn",
+      "Bonnie Pattraphus",
+      "Namtan Tipnaree",
+      "Film Rachanun",
+      "Jan Ployshompoo",
+      "JingJing Worasaya"
+    ],
     "company": "GMMTV",
     "ticket_info": "終了済み（thaiticketmajor.com で販売）",
     "official_link": "https://www.thaiticketmajor.com/concert/blush-blossom-fan-fest-2026-midnight-bloom.html",
@@ -317,7 +407,9 @@
     "category": "event",
     "color": "#3F51B5",
     "pairs": [],
-    "cast": ["Freen Sarocha"],
+    "cast": [
+      "Freen Sarocha"
+    ],
     "company": "Solenn Entertainment",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://www.instagram.com/solenn_entertainment/",
@@ -335,8 +427,13 @@
     "description": "NamtanFilm（ナムターン＆フィルム）初のヨーロッパファンミーティング。GMMTVが公式に発表。チケットはBillettoおよびTicketmelonで販売。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["NamtanFilm"],
-    "cast": ["Namtan Tipnaree", "Film Rachanun"],
+    "pairs": [
+      "NamtanFilm"
+    ],
+    "cast": [
+      "Namtan Tipnaree",
+      "Film Rachanun"
+    ],
     "company": "GMMTV",
     "ticket_info": "Billetto / Ticketmelon にて発売中",
     "official_link": "https://www.facebook.com/gmmtvofficial/posts/1467314604764776/",
@@ -355,7 +452,9 @@
     "category": "award-ceremony",
     "color": "#FFC107",
     "pairs": [],
-    "cast": ["Becky Armstrong"],
+    "cast": [
+      "Becky Armstrong"
+    ],
     "company": "Becky Entertainment",
     "ticket_info": "一般チケット情報なし（授賞式）",
     "official_link": "https://www.instagram.com/beckyentofficial/",
@@ -375,7 +474,9 @@
     "category": "other",
     "color": "#4CAF50",
     "pairs": [],
-    "cast": ["Freen Sarocha"],
+    "cast": [
+      "Freen Sarocha"
+    ],
     "company": "Solenn Entertainment",
     "ticket_info": "非公開イベント（撮影）",
     "official_link": "https://www.instagram.com/solenn_entertainment/",
@@ -393,8 +494,19 @@
     "description": "Girl Rulesメンバー全員が集結するソウル限定の特別ステージ。チケットは2026年6月4日19:00 KSTよりheygrabit.comで販売開始。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["NamtanFilm", "MilkLove", "ViewMim"],
-    "cast": ["Namtan Tipnaree", "Film Rachanun", "Milk Pansa", "Love Pattranite", "View Benyapa", "Mim Yanisa"],
+    "pairs": [
+      "NamtanFilm",
+      "MilkLove",
+      "ViewMim"
+    ],
+    "cast": [
+      "Namtan Tipnaree",
+      "Film Rachanun",
+      "Milk Pansa",
+      "Love Pattranite",
+      "View Benyapa",
+      "Mim Yanisa"
+    ],
     "company": "GMMTV",
     "ticket_info": "heygrabit.com にて 2026年6月4日 19:00 KST 発売開始",
     "official_link": "https://www.instagram.com/p/DYb4xo8ke7m/",
@@ -412,8 +524,13 @@
     "description": "LingOrm初のタイ国内ファンミーティングツアー第1弾。コンケンからスタートし、プーケット、チェンマイへと続く。バンコクでのコンサートへの「Road to Concert」企画。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["LingOrm"],
-    "cast": ["LingLing Kwong", "Orm Kornnaphat"],
+    "pairs": [
+      "LingOrm"
+    ],
+    "cast": [
+      "LingLing Kwong",
+      "Orm Kornnaphat"
+    ],
     "company": "CH3 Thailand",
     "ticket_info": "2026年6月7日発売開始",
     "official_link": "https://www.instagram.com/reel/DY__X8TPkMd/",
@@ -431,8 +548,13 @@
     "description": "LingOrmコンサートに向けたカウントダウンイベント。Impact Arenaでのコンサート詳細が発表される予定。",
     "category": "press",
     "color": "#9E9E9E",
-    "pairs": ["LingOrm"],
-    "cast": ["LingLing Kwong", "Orm Kornnaphat"],
+    "pairs": [
+      "LingOrm"
+    ],
+    "cast": [
+      "LingLing Kwong",
+      "Orm Kornnaphat"
+    ],
     "company": "CH3 Thailand",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://www.instagram.com/reel/DY__X8TPkMd/",
@@ -450,8 +572,13 @@
     "description": "LingOrmタイ国内ファンミーティングツアー第2弾。プーケットのサパンヒン体育館で開催。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["LingOrm"],
-    "cast": ["LingLing Kwong", "Orm Kornnaphat"],
+    "pairs": [
+      "LingOrm"
+    ],
+    "cast": [
+      "LingLing Kwong",
+      "Orm Kornnaphat"
+    ],
     "company": "CH3 Thailand",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://www.facebook.com/Ch3Thailand/posts/1573056997511423/",
@@ -469,8 +596,13 @@
     "description": "FreenBecky「FaBulous FanBoom」アジアツアーの香港公演。AsiaWorld Expoで開催。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["FreenBecky"],
-    "cast": ["Freen Sarocha", "Becky Armstrong"],
+    "pairs": [
+      "FreenBecky"
+    ],
+    "cast": [
+      "Freen Sarocha",
+      "Becky Armstrong"
+    ],
     "company": "Solenn Entertainment / Becky Entertainment",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://freen-sarocha.fandom.com/wiki/Concert_%26_Fanmeeting",
@@ -488,8 +620,13 @@
     "description": "FreenBecky「FaBulous FanBoom」アジアツアーのマカオ追加公演。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["FreenBecky"],
-    "cast": ["Freen Sarocha", "Becky Armstrong"],
+    "pairs": [
+      "FreenBecky"
+    ],
+    "cast": [
+      "Freen Sarocha",
+      "Becky Armstrong"
+    ],
     "company": "Solenn Entertainment / Becky Entertainment",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://freen-sarocha.fandom.com/wiki/Concert_%26_Fanmeeting",
@@ -507,8 +644,19 @@
     "description": "Girl Rulesのシンガポール公演。MilkLove, NamtanFilm, ViewMimが出演。チケットは2026年5月29日12:00より発売。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["NamtanFilm", "MilkLove", "ViewMim"],
-    "cast": ["Namtan Tipnaree", "Film Rachanun", "Milk Pansa", "Love Pattranite", "View Benyapa", "Mim Yanisa"],
+    "pairs": [
+      "NamtanFilm",
+      "MilkLove",
+      "ViewMim"
+    ],
+    "cast": [
+      "Namtan Tipnaree",
+      "Film Rachanun",
+      "Milk Pansa",
+      "Love Pattranite",
+      "View Benyapa",
+      "Mim Yanisa"
+    ],
     "company": "GMMTV",
     "ticket_info": "2026年5月29日 12:00 発売開始",
     "official_link": "https://www.instagram.com/p/DYeBuw3Abp4/",
@@ -526,8 +674,13 @@
     "description": "LingOrmタイ国内ファンミーティングツアー第3弾（最終公演）。チェンマイで開催。この後バンコクでのコンサートへ繋がる。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["LingOrm"],
-    "cast": ["LingLing Kwong", "Orm Kornnaphat"],
+    "pairs": [
+      "LingOrm"
+    ],
+    "cast": [
+      "LingLing Kwong",
+      "Orm Kornnaphat"
+    ],
     "company": "CH3 Thailand",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://www.lingorm.site/fan-meeting",
@@ -545,8 +698,19 @@
     "description": "Girl Rulesの台北ファンミーティング。NamtanFilm、MilkLove、ViewMimが出演。チケットは2026年6月6日正午よりibonで販売。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["NamtanFilm", "MilkLove", "ViewMim"],
-    "cast": ["Namtan Tipnaree", "Film Rachanun", "Milk Pansa", "Love Pattranite", "View Benyapa", "Mim Yanisa"],
+    "pairs": [
+      "NamtanFilm",
+      "MilkLove",
+      "ViewMim"
+    ],
+    "cast": [
+      "Namtan Tipnaree",
+      "Film Rachanun",
+      "Milk Pansa",
+      "Love Pattranite",
+      "View Benyapa",
+      "Mim Yanisa"
+    ],
     "company": "GMMTV",
     "ticket_info": "ibon にて 2026年6月6日 12:00 発売開始",
     "official_link": "https://www.instagram.com/p/DVc8a_8DPHF/",
@@ -564,8 +728,12 @@
     "description": "フィリピンで開催されるタイGL専門フェスティバルの第4回。複数の事務所からGLペアが参加予定。",
     "category": "fan-meeting",
     "color": "#FFC107",
-    "pairs": ["Various"],
-    "cast": ["TBA"],
+    "pairs": [
+      "Various"
+    ],
+    "cast": [
+      "TBA"
+    ],
     "company": "Fan Support Zone Philippines",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://www.instagram.com/p/DUffB8MCM6K/",
@@ -583,11 +751,40 @@
     "description": "LingOrmのタイ国内ファンミーティングツアーの集大成となる大規模コンサート。Impact Arenaで開催予定。「Road to LingOrm Concert」の最終到達点。",
     "category": "concert",
     "color": "#E91E63",
-    "pairs": ["LingOrm"],
-    "cast": ["LingLing Kwong", "Orm Kornnaphat"],
+    "pairs": [
+      "LingOrm"
+    ],
+    "cast": [
+      "LingLing Kwong",
+      "Orm Kornnaphat"
+    ],
     "company": "CH3 Thailand",
     "ticket_info": "詳細は後日発表",
     "official_link": "https://www.instagram.com/reel/DY__X8TPkMd/",
     "status": "confirmed"
+  },
+  {
+    "id": "2026-10-17-under-her-rules-first-ep-screening",
+    "title": "Under Her Rules: THE FIRST TIME WE MEET - 1st EP Screening",
+    "title_ja": "Under Her Rules 第1話先行スクリーニング「THE FIRST TIME WE MEET」",
+    "date": "2026-10-17",
+    "time": "13:00",
+    "timezone": "ICT (タイ時間)",
+    "location": "SF WORLD CINEMA, Central World, バンコク（タイ）",
+    "location_en": "SF WORLD CINEMA, Central World, Bangkok, Thailand",
+    "description": "iQIYI Original の GL シリーズ「Under Her Rules（ใต้เงาจันทรา）」の第 1 話先行上映会。MeenBabe ペア（Meena Rina × Aoom Thaweeporn）主演。放送前にファンが第 1 話を劇場で観られるイベント。",
+    "category": "screening",
+    "color": "#8B5CF6",
+    "pairs": [
+      "MeenBabe"
+    ],
+    "cast": [
+      "Meena Rina",
+      "Aoom Thaweeporn"
+    ],
+    "company": "MGI Beyond × iQIYI Original",
+    "ticket_info": "2,000 バーツ / 1,500 バーツ（販売開始: 2026-10-01 10:00 ICT、grandticket.net）",
+    "official_link": "https://grandticket.net",
+    "status": "upcoming"
   }
 ]

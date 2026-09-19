@@ -100,6 +100,8 @@ export interface UpcomingDrama {
   featured_rank?: number;
   /** 何がなんでも最末尾に固定表示するためのフラグ。 */
   always_last?: boolean;
+  /** 撮影中フラグ。放送日は未確定だが確度が高いため、"2026年予定" 群より上位に表示。 */
+  filming?: boolean;
 }
 
 export interface Company {

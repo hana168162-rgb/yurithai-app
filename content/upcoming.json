@@ -39,10 +39,11 @@
     "cast_pair": "MilkLove",
     "status": "upcoming",
     "announced_for": "2026年予定",
-    "note": "GMMTV 2026 lineup 発表作 / Zezeho 著の同名小説『Ditto』ドラマ化 / MilkLove主演（同名『Rafah』を持つ二人の女性の物語）/ 2026年放送、具体日程は公式未確定（TBA）",
+    "note": "GMMTV 2026 lineup 発表作 / Zezeho 著の同名小説『Ditto』ドラマ化 / MilkLove主演（同名『Rafah』を持つ二人の女性の物語）/ 2026年放送、具体日程は公式未確定（TBA） / **2026 年 9 月時点で撮影中**",
     "cover_image": "/images/dramas/ditto.jpg",
     "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/30LfbsWHCW4"
+    "youtube_teaser": "https://youtu.be/30LfbsWHCW4",
+    "filming": true
   },
   {
     "id": 205,
@@ -100,11 +101,12 @@
     "cast_pair": null,
     "status": "upcoming",
     "announced_for": "2026年予定",
-    "note": "GMMTV × The One Enterprise × Moongdoo Production 共同制作 / タイ語タイトル: ให้รักกังวานในใจ / 主演ペアは 2026 年 8 月時点で変更、詳細続報待ち / 2026 年 8 月時点で撮影開始済み / 具体的な放送日・エピソード数・配信先・新キャストは公式未発表 / 旧予告（JuneMewnich 主演版）は現状の作品と異なるため参照非推奨",
+    "note": "GMMTV × The One Enterprise × Moongdoo Production 共同制作 / タイ語タイトル: ให้รักกังวานในใจ / 主演ペアは 2026 年 8 月時点で変更、詳細続報待ち / 2026 年 8 月時点で撮影開始済み / 具体的な放送日・エピソード数・配信先・新キャストは公式未発表 / 旧予告（JuneMewnich 主演版）は現状の作品と異なるため参照非推奨 / **2026 年 9 月時点で撮影中**",
     "cover_image": null,
     "cover_credit": null,
     "youtube_teaser": null,
-    "pending": true
+    "pending": false,
+    "filming": true
   },
   {
     "id": 212,

@@ -114,15 +114,18 @@ export const upcoming: UpcomingDrama[] = [
 /**
  * 公開予定作品を「公開日が近い順」にソートして返す。
  * トップページと /dramas/upcoming で共通利用する。
- *   優先度 0: 具体的な公開日が判明（announced_for に "YYYY年MM月DD日"）→ 日付昇順
- *   優先度 1: 年/月のみ判明（"2026年内予定" 等）→ 文字列昇順
- *   優先度 2: 未発表 / pending → 末尾
+ *   優先度 -1: featured（featured_rank 昇順、先頭固定）
+ *   優先度 0:  具体的な公開日が判明（announced_for に "YYYY年MM月DD日"）→ 日付昇順
+ *   優先度 1:  filming（撮影中フラグ）→ 日付未確定だが確度高、年/月のみ判明の上に配置
+ *   優先度 2:  年/月のみ判明（"2026年内予定" 等）→ 文字列昇順
+ *   優先度 3:  未発表 / pending → 末尾寄り
+ *   優先度 4:  always_last → 絶対末尾
  */
 export function getUpcomingSortedByDate(): UpcomingDrama[] {
   const priority = (d: UpcomingDrama): [number, number, string] => {
-    // always_last 作品は絶対末尾（優先度 3）
-    if (d.always_last) return [3, 0, d.announced_for || ""];
-    // featured 作品は先頭固定（優先度 -1、featured_rank 昇順）
+    // always_last 作品は絶対末尾
+    if (d.always_last) return [4, 0, d.announced_for || ""];
+    // featured 作品は先頭固定
     if (d.featured) return [-1, d.featured_rank ?? 999, d.announced_for || ""];
     const a = d.announced_for || "";
     const m = a.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
@@ -130,8 +133,10 @@ export function getUpcomingSortedByDate(): UpcomingDrama[] {
       const [, y, mo, day] = m;
       return [0, 0, `${y}-${mo.padStart(2, "0")}-${day.padStart(2, "0")}`];
     }
-    if (d.pending || a === "未発表" || a === "未定") return [2, 0, a];
-    return [1, 0, a];
+    // filming フラグ: 日付は未確定だが撮影中で確度が高い作品
+    if (d.filming) return [1, 0, a];
+    if (d.pending || a === "未発表" || a === "未定") return [3, 0, a];
+    return [2, 0, a];
   };
   return [...upcoming].sort((a, b) => {
     const [pa, ra, ka] = priority(a);

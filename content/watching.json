@@ -1,34 +1,5 @@
 [
   {
-    "id": 209,
-    "slug": "moonshadow",
-    "title_ja": "Moonshadow",
-    "title_en": "Moonshadow",
-    "title_th": "เงาใต้พระจันทร์",
-    "production": "GMMTV",
-    "cast_pair": "Emi Thasorn Klinnium × Bonnie Pattraphus Borattasuwan（EmiBonnie）",
-    "status": "airing",
-    "note": "GMMTV 制作 / 主演: Emi Thasorn Klinnium × Bonnie Pattraphus Borattasuwan（EmiBonnie）/ 共演: Film Rachanun Mahawarn、Jenny Chuthapichai、K Lekssitthichai、A Chayaphon Chutamas、Fig Thongjeo、Suprani Chareonphol、Sarocha Wathitpanit、A-Kasiri Nitiphon、Duangta Kungkamanee ほか / 監督: Fon Kanittha Kwanyoo / プロデューサー: Sopaporn Panichraksapong / 原作: Flower of Memory 著『เงาใต้พระจันทร์』（Hidden Heart 原作者と同じ）/ 役柄: Emi=Jan（破局直後でバー経営に没頭する女性）× Bonnie=Key（歌手・一夜の関係から発展）/ Jan の元恋人役は Film Rachanun / 2025年11月25日 公式パイロット公開、2026 年 7 月 27 日 GMMTV Official Trailer 公開 / 放送: 2026年8月12日〜 毎週水曜 20:30 タイ時間（22:30 JST）GMM25 / 見逃し配信: oneD アプリ 21:30 タイ時間 / ハッシュタグ #MoonshadowSeries",
-    "cover_image": "/images/dramas/moonshadow.jpg",
-    "cover_credit": "GMMTV Official Key Visual (@gmmtv) 2026-07-27",
-    "youtube_teaser": "https://youtu.be/1dZ-Z7kYsE0",
-    "streaming": [
-      {
-        "platform": "iQIYI",
-        "url": "https://www.iq.com/",
-        "note": "国際配信"
-      },
-      {
-        "platform": "YouTube (VPN 必須)",
-        "url": "https://www.youtube.com/@gmmtvofficial",
-        "note": "GMMTV Official YouTube。日本からの視聴は VPN が必要"
-      }
-    ],
-    "start_date": "2026-08-12",
-    "end_date": null,
-    "episodes": null
-  },
-  {
     "id": 213,
     "slug": "pls-love",
     "title_ja": "PLS Love",
@@ -59,8 +30,8 @@
       }
     ],
     "start_date": "2026-09-11",
-    "end_date": null,
-    "episodes": null
+    "end_date": "2026-10-30",
+    "episodes": 8
   },
   {
     "id": 216,
@@ -83,8 +54,8 @@
       }
     ],
     "start_date": "2026-09-07",
-    "end_date": null,
-    "episodes": null
+    "end_date": "2026-11-09",
+    "episodes": 10
   },
   {
     "id": 219,
@@ -95,7 +66,7 @@
     "production": "North Star Entertainment",
     "cast_pair": "Garn Nuttacha × Mimie Bhapat（GarnMimie）",
     "status": "airing",
-    "note": "North Star Entertainment 制作（4 Elements シリーズ制作元）/ 第 4 のホーム GL カップル GarnMimie 初主演 / 主演: Garn Nuttacha（@nhuugarnns）× Mimie Bhapat（@mimiebhapat）/ Garn = Kris 役（4 年前の事故で記憶喪失、現パートナー Nadia と生活再建中）/ Mimie = Sun 役（Kris の過去を揺さぶる謎の女性）/ サブに Piglet Charada が「第三者」として絡む三角関係構造 / 原作: sixnineyuri 著『Third Person（ถ้อยรักคำลวง）』/ 放送開始: 2026-09-12（土）毎週土曜 22:25 タイ時間 Ch3 HD 33ch / UNCUT 見逃し配信: YouTube North Star Entertainment / ハッシュタグ #ThirdPersonTheSeries #NorthStarEntertainment #nhuugarnns #mimiebhapat",
+    "note": "North Star Entertainment 制作（4 Elements シリーズ制作元）/ 第 4 のホーム GL カップル GarnMimie 初主演 / 主演: Garn Nuttacha（@nhuugarnns）× Mimie Bhapat（@mimiebhapat）/ Garn = Kris 役（4 年前の事故で記憶喪失、現パートナー Nadia と生活再建中）/ Mimie = Sun 役（Kris の過去を揺さぶる謎の女性）/ サブに Piglet Charada が「第三者」として絡む三角関係構造 / 原作: sixnineyuri 著『Third Person（ถ้อยรักคำลวง）』/ 放送開始: 2026-09-12（土）毎週土曜 22:25 タイ時間 Ch3 HD 33ch / UNCUT 見逃し配信: YouTube North Star Entertainment / ハッシュタグ #ThirdPersonTheSeries #NorthStarEntertainment #nhuugarnns #mimiebhapat / 2026-11-14（土）は放送休み、11-21（土）が最終話（EP10）",
     "cover_image": "/images/dramas/third-person.jpg",
     "cover_credit": "North Star Entertainment Official Poster (Instagram @northstarentertainth, 2026-08-20)",
     "youtube_teaser": "https://youtu.be/eWVtJtYbZgI",
@@ -112,8 +83,8 @@
       }
     ],
     "start_date": "2026-09-12",
-    "end_date": null,
-    "episodes": null
+    "end_date": "2026-11-21",
+    "episodes": 10
   },
   {
     "id": 228,
@@ -141,8 +112,8 @@
       }
     ],
     "start_date": "2026-09-06",
-    "end_date": "2026-11-08",
-    "episodes": 10
+    "end_date": "2026-11-01",
+    "episodes": 9
   },
   {
     "id": 232,
@@ -180,7 +151,7 @@
       }
     ],
     "start_date": "2026-09-05",
-    "end_date": null,
-    "episodes": null
+    "end_date": "2026-10-24",
+    "episodes": 8
   }
 ]

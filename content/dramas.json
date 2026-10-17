@@ -3968,5 +3968,70 @@
     "youtube_teaser": "https://youtu.be/U2ozG4r_HZw",
     "streaming": [],
     "series": "four-elements"
+  },
+  {
+    "id": 209,
+    "slug": "moonshadow",
+    "title_ja": "Moonshadow",
+    "title_en": "Moonshadow",
+    "title_th": "เงาใต้พระจันทร์",
+    "year": 2026,
+    "production": "GMMTV",
+    "episodes": 10,
+    "status": "completed",
+    "age_rating": null,
+    "cast_pair": "Emi Thasorn Klinnium × Bonnie Pattraphus Borattasuwan（EmiBonnie）",
+    "tags": {
+      "genre": [
+        "ロマンス"
+      ],
+      "relationship": [
+        "歌手×バー経営者",
+        "一夜から始まる関係"
+      ],
+      "tone": [
+        "ドラマチック",
+        "情感"
+      ],
+      "pacing": [],
+      "intimacy": [
+        "キス多め"
+      ],
+      "production_quality": [],
+      "warnings": []
+    },
+    "synopsis": "破局直後でバー経営に没頭する Jan（Emi）と、歌手として現れる Key（Bonnie）── 一夜の関係から始まる、月影の下のロマンス GL。",
+    "review": {
+      "highlights": [
+        "EmiBonnie 主演 2 作目",
+        "GMMTV のシリアス GL"
+      ],
+      "recommend_for": [
+        "ドラマチック GL 好き",
+        "EmiBonnie ファン"
+      ],
+      "caution_for": [],
+      "body_ja": "GMMTV 制作、監督 Fon Kanittha Kwanyoo、プロデューサー Sopaporn Panichraksapong。原作は Flower of Memory（Hidden Heart 原作者と同じ）著『เงาใต้พระจันทร์』。\n\n**EmiBonnie ペア主演 2 作目**（Us 2025 に続く）。Emi が Jan（破局直後でバー経営に没頭する女性）、Bonnie が Key（歌手・一夜の関係から発展）を演じる。Jan の元恋人役は Film Rachanun。\n\n2026-08-12〜10-14 で全 10 話完結。毎週水曜 20:30 タイ時間 GMM25 + oneD アプリ、iQIYI 国際配信。",
+      "reviewer": "yurithai-editor"
+    },
+    "confidence": "H 高",
+    "note": "GMMTV 制作 / 主演: Emi Thasorn Klinnium × Bonnie Pattraphus Borattasuwan（EmiBonnie）/ 共演: Film Rachanun Mahawarn、Jenny Chuthapichai、K Lekssitthichai、A Chayaphon Chutamas、Fig Thongjeo、Suprani Chareonphol、Sarocha Wathitpanit、A-Kasiri Nitiphon、Duangta Kungkamanee ほか / 監督: Fon Kanittha Kwanyoo / プロデューサー: Sopaporn Panichraksapong / 原作: Flower of Memory 著『เงาใต้พระจันทร์』（Hidden Heart 原作者と同じ）/ 役柄: Emi=Jan（破局直後でバー経営に没頭する女性）× Bonnie=Key（歌手・一夜の関係から発展）/ Jan の元恋人役は Film Rachanun / 2025年11月25日 公式パイロット公開、2026 年 7 月 27 日 GMMTV Official Trailer 公開 / 放送: 2026年8月12日〜 毎週水曜 20:30 タイ時間（22:30 JST）GMM25 / 見逃し配信: oneD アプリ 21:30 タイ時間 / ハッシュタグ #MoonshadowSeries",
+    "cover_gradient": null,
+    "cover_image": "/images/dramas/moonshadow.jpg",
+    "cover_credit": "GMMTV Official Key Visual (@gmmtv) 2026-07-27",
+    "instagram_post": null,
+    "youtube_teaser": "https://youtu.be/1dZ-Z7kYsE0",
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "国際配信"
+      },
+      {
+        "platform": "YouTube (VPN 必須)",
+        "url": "https://www.youtube.com/@gmmtvofficial",
+        "note": "GMMTV Official YouTube。日本からの視聴は VPN が必要"
+      }
+    ]
   }
 ]

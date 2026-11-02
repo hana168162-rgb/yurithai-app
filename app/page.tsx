@@ -17,7 +17,8 @@ const upcomingSortedByDate = getUpcomingSortedByDate();
  * ISR (Incremental Static Regeneration) で1時間ごとに再生成。
  * 「今日の放送曜日に応じた pickup のソート」が日々最新化される。
  */
-export const revalidate = 3600;
+// ピックアップに完結済み作品が残らないよう、短めの revalidate で日次変化に追随
+export const revalidate = 300;
 
 const HOME_FAQ = [
   {

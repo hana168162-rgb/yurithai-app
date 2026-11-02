@@ -1039,6 +1039,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Love Bound",
       "Apple My Love",
       "(Your) Apple"
     ],
@@ -1056,6 +1057,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Love Bound",
       "Apple My Love",
       "(Your) Apple"
     ],
@@ -2352,5 +2354,133 @@
     "agency": "GMMTV",
     "instagram": null,
     "notes": "Oxytoxin で Meimei 役。詳細は続報待ち。"
+  },
+  {
+    "id": "pimji",
+    "name_ja": "ピムジ",
+    "name_en": "Pimji Pimpijira",
+    "real_name": "Pimpijira \"Pimji\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Built in Love"
+    ],
+    "agency": "Studio Wabi Sabi",
+    "instagram": null,
+    "notes": "PimjiPineare ペアの Pimji。Studio Wabi Sabi 作品 Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+  },
+  {
+    "id": "payar",
+    "name_ja": "パヤー",
+    "name_en": "Payar Panyin",
+    "real_name": "Panyin \"Payar\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Built in Love"
+    ],
+    "agency": "Studio Wabi Sabi",
+    "instagram": null,
+    "notes": "PimjiPineare ペアの Payar（別名 Pineare）。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+  },
+  {
+    "id": "jara",
+    "name_ja": "ジャラ",
+    "name_en": "Jara Jennifer",
+    "real_name": "Jennifer \"Jara\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Built in Love"
+    ],
+    "agency": "Studio Wabi Sabi",
+    "instagram": null,
+    "notes": "JaraJennie ペアの Jara。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+  },
+  {
+    "id": "jennie-narumol",
+    "name_ja": "ジェニー",
+    "name_en": "Jenny Narumol",
+    "real_name": "Narumol \"Jenny\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Built in Love"
+    ],
+    "agency": "Studio Wabi Sabi",
+    "instagram": null,
+    "notes": "JaraJennie ペアの Jenny。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+  },
+  {
+    "id": "namwa",
+    "name_ja": "ナムワー",
+    "name_en": "Namwa Thapanee",
+    "real_name": "Thapanee \"Namwa\" Suparattanapirak",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Bound"
+    ],
+    "agency": "Kongthup's Production",
+    "instagram": null,
+    "notes": "NamwaRada ペアの Namwa。Kongthup's Production 所属、Love Bound（2026-11-08 プレミア）で Khemkaew（เข็มแก้ว）役。"
+  },
+  {
+    "id": "rada",
+    "name_ja": "ラダ",
+    "name_en": "Rada Chutirada",
+    "real_name": "Chutirada \"Rada\" Junthit",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Bound"
+    ],
+    "agency": "Kongthup's Production",
+    "instagram": null,
+    "notes": "NamwaRada ペアの Rada。Love Bound で Wine（ไวน์）役。"
+  },
+  {
+    "id": "zen",
+    "name_ja": "ゼン",
+    "name_en": "Zen Napat Youngblood",
+    "real_name": "Napat \"Zen\" Youngblood",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Bound"
+    ],
+    "agency": "Kongthup's Production",
+    "instagram": null,
+    "notes": "ZenPat ペアの Zen。Love Bound で Mira（มิรา）役。"
+  },
+  {
+    "id": "pat-apirum",
+    "name_ja": "パット",
+    "name_en": "Pat Apirum",
+    "real_name": "Apirum \"Pat\" Chareonthaitawee",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love Bound"
+    ],
+    "agency": "Kongthup's Production",
+    "instagram": null,
+    "notes": "ZenPat ペアの Pat。Love Bound で Vodka（วอดก้า）役。"
   }
 ]

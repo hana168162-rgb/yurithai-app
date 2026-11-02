@@ -153,5 +153,68 @@
     "start_date": "2026-09-05",
     "end_date": "2026-10-24",
     "episodes": 8
+  },
+  {
+    "id": 239,
+    "slug": "built-in-love",
+    "title_ja": "Built in Love",
+    "title_en": "Built in Love",
+    "title_th": "ก่อร่างสร้างเลิฟ",
+    "production": "Studio Wabi Sabi",
+    "cast_pair": "Pimji Pimpijira × Payar Panyin（PimjiPineare）× Jara Jennifer × Jenny Narumol（JaraJennie）",
+    "status": "airing",
+    "note": "Studio Wabi Sabi 制作（@studiowabisabith）/ **2 ペア 主演の GL** / メインペア: PimjiPineare（Pimji Pimpijira × Payar Panyin）── 役: Soul（โซล、建築家）× Zinzin（ซินซิน、クセ強め風水家）/ サブペア: JaraJennie（Jara Jennifer × Jenny Narumol）/ あらすじ: 原理原則に生きる建築家 Soul と、風水を信じる Zinzin ── 異なる職業・価値観の 2 人が運命で一緒に働くことに。ちぐはぐな関係が「ก่อร่าง（構築）」していく過程で、2 人の心も「ก่อร่างสร้างเลิฟ（愛を構築）」していく。/ タイ語タイトル: ก่อร่างสร้างเลิฟ / 放送期間: 2026-10-21〜 毎週水曜 20:30 タイ時間（22:30 JST）GMM25 + WeTV UNCUT 21:30 独占/ 情報源: Studio Wabi Sabi 公式 2026-09-23 IG 投稿 / 公式 SNS: @builtinlove (X) / @builtinloveseries (IG)/ ハッシュタグ #BuiltinloveSeries #ก่อร่างสร้างเลิฟ #pimjipineare #jarajennie",
+    "cover_image": "/images/dramas/built-in-love.jpg",
+    "cover_credit": "Studio Wabi Sabi Official Poster (Instagram @studiowabisabith, 2026-09-23)",
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "GMM25 (タイ現地)",
+        "url": "https://www.gmm-tv.com/",
+        "note": "毎週水曜 20:30 タイ時間（22:30 JST）"
+      },
+      {
+        "platform": "WeTV UNCUT",
+        "url": "https://wetv.vip/",
+        "note": "UNCUT 版独占 21:30 タイ時間"
+      }
+    ],
+    "start_date": "2026-10-21",
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 240,
+    "slug": "love-bound",
+    "title_ja": "Love Bound",
+    "title_en": "Love Bound",
+    "title_th": "รักนี้ตีตรา",
+    "production": "Kongthup's Production",
+    "cast_pair": "Ormsin × Folk（OrmFolk）× Namwa × Rada（NamwaRada）× Zen × Pat（ZenPat）/ 3 ペア 6 女優",
+    "status": "airing",
+    "note": "Kongthup's Production 制作（@kongthupsproduction）/ **3 ペア 6 女優 主演の GL** / **メインペア**: OrmFolk（Ormsin Supitcha Limsommut = Whisky（วิสกี้）× Folk Sutima Korkiatvanich = Pimphisut（พิมพิสุทธิ์））/ **サブペア 1**: NamwaRada（Namwa Thapanee = Khemkaew（เข็มแก้ว）× Rada Chutirada = Wine（ไวน์））/ **サブペア 2**: ZenPat（Zen Napat Youngblood = Mira（มิรา）× Pat Apirum = Vodka（วอดก้า））/ あらすじ: 「When a stigmatized love becomes the bond that binds their hearts for eternity... or merely a trap from which no one can escape?」── 烙印された愛が永遠に心を縛る絆となるのか、それとも誰も逃げられない罠なのか。/ タイ語タイトル: รักนี้ตีตรา（この愛は烙印） / 放送期間: 2026-11-08〜2026-12-27 全 8 話 / 毎週日曜 22:30 タイ時間（24:30 JST）/ Channel 9（MCOT HD 30、Master Version）/ YouTube Kongthup's Channel（Master Version 翌週〜） / UNCUT Version: Kongthup Family Membership 限定/ OrmFolk は Apple My Love、(your) Apple、My Lady's Bodyguard に続く Kongthup's Production 第 4 作主演/ 情報源: @loveboundofficial + @kongthupsproduction 2026-10-14/19 IG 投稿 / ハッシュタグ #LoveBound #รักนี้ตีตรา #ormfolk #zenpat #namwarada",
+    "cover_image": "/images/dramas/love-bound.jpg",
+    "cover_credit": "Kongthup's Production × Love Bound Official Poster (Instagram @loveboundofficial, 2026-10-14)",
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "Channel 9 / MCOT HD 30 (タイ現地)",
+        "url": "https://www.mcot.net/",
+        "note": "Master Version 毎週日曜 22:30 タイ時間（24:30 JST）"
+      },
+      {
+        "platform": "YouTube Kongthup's Channel",
+        "url": "https://www.youtube.com/@KongthupsOfficial",
+        "note": "Master Version、翌週以降から（11/15〜）"
+      },
+      {
+        "platform": "Kongthup Family Membership",
+        "url": "https://www.youtube.com/@KongthupsOfficial",
+        "note": "UNCUT Version 限定（有料メンバーシップ）"
+      }
+    ],
+    "start_date": "2026-11-08",
+    "end_date": "2026-12-27",
+    "episodes": 8
   }
 ]

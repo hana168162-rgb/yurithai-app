@@ -77,6 +77,7 @@
     "nationality": "Thai (Mon/Danish/Chinese descent)",
     "height_cm": 170,
     "filmography": [
+      "Cherish",
       "23.5",
       "Whale Store xoxo",
       "Girl Rules",
@@ -95,6 +96,7 @@
     "nationality": "Thai (Chinese descent)",
     "height_cm": 155,
     "filmography": [
+      "Cherish",
       "23.5",
       "Whale Store xoxo",
       "Girl Rules",
@@ -113,6 +115,7 @@
     "nationality": "Thai",
     "height_cm": 169,
     "filmography": [
+      "Lost In Your Eyes",
       "Pluto",
       "Girl Rules",
       "Her"
@@ -130,6 +133,7 @@
     "nationality": "Thai",
     "height_cm": 165,
     "filmography": [
+      "Lost In Your Eyes",
       "Pluto",
       "Girl Rules",
       "Her"
@@ -394,6 +398,7 @@
     "nationality": "Thai",
     "height_cm": 165,
     "filmography": [
+      "Be Mine",
       "Why R U?",
       "Girl from Nowhere Season 2",
       "The Whole Truth",
@@ -429,6 +434,7 @@
     "nationality": "Thai",
     "height_cm": 164,
     "filmography": [
+      "Be Mine",
       "High School Frenemy",
       "Us",
       "Me and Thee (2025-2026)",
@@ -627,6 +633,7 @@
     "nationality": "Thai",
     "height_cm": 170,
     "filmography": [
+      "My Beautiful Enemy",
       "SOTUS",
       "Peaceful Property",
       "P.S. I Hate You",
@@ -646,6 +653,7 @@
     "nationality": "Thai (Chinese descent)",
     "height_cm": 173,
     "filmography": [
+      "My Beautiful Enemy",
       "Oxytoxin",
       "App War",
       "Sleepless Society: Insomnia",
@@ -806,7 +814,9 @@
     "age": 24,
     "nationality": "Thai",
     "height_cm": null,
-    "filmography": [],
+    "filmography": [
+      "Love's Echoes"
+    ],
     "agency": "GMMTV",
     "instagram": "mewnich.nannaphas",
     "name_en": "Mewnich"
@@ -820,6 +830,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Kiss me, Stranger",
       "Wish Upon a Star"
     ],
     "agency": "GMMTV",
@@ -835,6 +846,7 @@
     "nationality": "Thai",
     "height_cm": 158,
     "filmography": [
+      "Kiss me, Stranger",
       "Wish Upon a Star"
     ],
     "agency": "GMMTV",
@@ -850,6 +862,7 @@
     "nationality": "Thai",
     "height_cm": 172,
     "filmography": [
+      "Beyond You",
       "Girl Rules",
       "Bake Love Feeling"
     ],
@@ -866,6 +879,7 @@
     "nationality": "Thai",
     "height_cm": 160,
     "filmography": [
+      "Beyond You",
       "Girl Rules",
       "Bake Love Feeling"
     ],
@@ -2285,6 +2299,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Above Her Class",
       "Oxytoxin"
     ],
     "agency": "GMMTV",
@@ -2301,6 +2316,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Above Her Class",
       "Oxytoxin"
     ],
     "agency": "GMMTV",
@@ -2333,6 +2349,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Be Mine",
       "Oxytoxin"
     ],
     "agency": "GMMTV",
@@ -2349,6 +2366,7 @@
     "nationality": "Thai",
     "height_cm": null,
     "filmography": [
+      "Be Mine",
       "Oxytoxin"
     ],
     "agency": "GMMTV",
@@ -2482,5 +2500,133 @@
     "agency": "Kongthup's Production",
     "instagram": null,
     "notes": "ZenPat ペアの Pat。Love Bound で Vodka（วอดก้า）役。"
+  },
+  {
+    "id": "kapook",
+    "name_ja": "カプック",
+    "name_en": "Kapook Ploynira",
+    "real_name": "Ploynira \"Kapook\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Be Mine"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "ciize",
+    "name_ja": "シーゼ",
+    "name_en": "Ciize Rutricha",
+    "real_name": "Rutricha \"Ciize\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Be Mine"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "sangt",
+    "name_ja": "サング",
+    "name_en": "Sangt Sillapinir",
+    "real_name": "Sillapinir \"Sangt\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Be Mine"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "acare",
+    "name_ja": "アケア",
+    "name_en": "Acare Chomphoopuang",
+    "real_name": "Chomphoopuang \"Acare\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Be Mine"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "nycha",
+    "name_ja": "ナイチャ",
+    "name_en": "Nycha Nuttanicha",
+    "real_name": "Nuttanicha \"Nycha\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Safety Flirt"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "prim-c",
+    "name_ja": "プリム",
+    "name_en": "Prim Chanikarn",
+    "real_name": "Chanikarn \"Prim\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Safety Flirt"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "jaoying",
+    "name_ja": "ジャオイン",
+    "name_en": "Jaoying Krongkwan",
+    "real_name": "Krongkwan \"Jaoying\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Love's Echoes"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "piploy",
+    "name_ja": "ピプロイ",
+    "name_en": "Piploy Kanyarat",
+    "real_name": "Kanyarat \"Piploy\"",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Safety Flirt"
+    ],
+    "agency": "GMMTV",
+    "instagram": null,
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
   }
 ]

@@ -2628,5 +2628,37 @@
     "agency": "GMMTV",
     "instagram": null,
     "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+  },
+  {
+    "id": "pei",
+    "name_ja": "ペイ",
+    "name_en": "Pei",
+    "real_name": null,
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "DEBUT My Beat"
+    ],
+    "agency": "XEBIS Entertainment",
+    "instagram": null,
+    "notes": "PeiPyn ペアの Pei。XEBIS Entertainment 所属。DEBUT My Beat（2026-11-14 プレミア、iQIYI 配信）で主演。実名・詳細プロフィールは続報待ち。"
+  },
+  {
+    "id": "pyn",
+    "name_ja": "ピン",
+    "name_en": "Pyn",
+    "real_name": null,
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "DEBUT My Beat"
+    ],
+    "agency": "XEBIS Entertainment",
+    "instagram": null,
+    "notes": "PeiPyn ペアの Pyn。XEBIS Entertainment 所属。DEBUT My Beat（2026-11-14 プレミア、iQIYI 配信）で主演。実名・詳細プロフィールは続報待ち。"
   }
 ]

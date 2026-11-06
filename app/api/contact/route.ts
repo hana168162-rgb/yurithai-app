@@ -90,8 +90,10 @@ export async function POST(req: NextRequest) {
   const web3FormsKey = process.env.WEB3FORMS_ACCESS_KEY;
   const webhook = process.env.CONTACT_WEBHOOK_URL;
 
-  // 受信先メール（固定）
-  const recipient = "yurithai@fumomeru.com";
+  // 受信先メール（環境変数で上書き可能、デフォルトは yurithai@fumomeru.com）
+  // Resend のドメイン未検証状態では、Resend アカウント登録メール宛てのみ送信可能。
+  // その場合は Vercel 環境変数 CONTACT_RECIPIENT_EMAIL に登録メールを設定して回避。
+  const recipient = process.env.CONTACT_RECIPIENT_EMAIL || "yurithai@fumomeru.com";
 
   const summary = {
     topic,

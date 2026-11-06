@@ -84,9 +84,14 @@ export async function POST(req: NextRequest) {
   }
 
   // ---- 転送先決定 ----
+  // 優先度: Resend（推奨、yurithai@fumomeru.com へ直接配信） > Formspree > Web3Forms > Webhook
+  const resendKey = process.env.RESEND_API_KEY;
   const formspree = process.env.FORMSPREE_ENDPOINT;
   const web3FormsKey = process.env.WEB3FORMS_ACCESS_KEY;
   const webhook = process.env.CONTACT_WEBHOOK_URL;
+
+  // 受信先メール（固定）
+  const recipient = "yurithai@fumomeru.com";
 
   const summary = {
     topic,
@@ -101,7 +106,41 @@ export async function POST(req: NextRequest) {
   };
 
   try {
-    if (formspree) {
+    if (resendKey) {
+      // Resend 経由で yurithai@fumomeru.com に直接配信
+      // from アドレスは Resend の検証済みドメインか、未検証なら "onboarding@resend.dev" が使える
+      const fromAddr = process.env.CONTACT_FROM_EMAIL || "YuriThai <onboarding@resend.dev>";
+      const textLines = [
+        `【お問い合わせ内容】${topicLabel}`,
+        `【氏名】${name}`,
+        `【メールアドレス】${email}`,
+      ];
+      if (phone) textLines.push(`【電話番号】${phone}`);
+      if (company) textLines.push(`【会社名】${company}`);
+      textLines.push("", "【本文】", body, "", "----", `受付日時: ${summary.submittedAt}`, "yurithai.jp お問い合わせフォームより");
+      const r = await fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${resendKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          from: fromAddr,
+          to: [recipient],
+          reply_to: email,
+          subject: `[YuriThai] ${topicLabel} - ${name}`,
+          text: textLines.join("\n"),
+        }),
+      });
+      if (!r.ok) {
+        const t = await r.text();
+        console.error("[contact] Resend error:", r.status, t);
+        return NextResponse.json(
+          { error: "送信先サーバーがエラーを返しました" },
+          { status: 502 },
+        );
+      }
+    } else if (formspree) {
       const r = await fetch(formspree, {
         method: "POST",
         headers: {

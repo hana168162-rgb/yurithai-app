@@ -39,7 +39,7 @@ export default function ContactPage() {
           お問い合わせフォーム
         </h2>
         <p className="text-sm text-yuri-muted leading-relaxed mb-5">
-          送信ボタンを押すと、入力内容を本文に反映したメールがお使いのメールクライアント（Gmail／Apple Mail など）で自動的に開きます。そのまま送信してください。3〜5営業日以内にお返事します。
+          3〜5営業日以内にお返事します。
         </p>
         <Suspense fallback={<div className="text-sm text-yuri-muted">読み込み中…</div>}>
           <ContactForm />

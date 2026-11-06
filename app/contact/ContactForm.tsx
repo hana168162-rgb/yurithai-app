@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { OPERATOR } from "@/lib/operator";
 
 type Topic = "drama-edit" | "streaming" | "sponsor" | "other";
 
@@ -59,27 +60,32 @@ export function ContactForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!canSubmit || submitting) return;
+    // ハニーポット：ボットなら送信 UI だけ「成功」のフリをして終了
+    if (website.trim() !== "") {
+      setStatus({ type: "ok" });
+      return;
+    }
     setSubmitting(true);
     setStatus({ type: "idle" });
     try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          topic,
-          topicLabel: TOPIC_LABEL[topic],
-          name: name.trim(),
-          email: email.trim(),
-          phone: phone.trim(),
-          company: company.trim(),
-          body: body.trim(),
-          website, // ハニーポット
-        }),
-      });
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(data?.error || `送信に失敗しました (${res.status})`);
-      }
+      // フォーム内容を本文に整形してユーザーのメールクライアントを開く。
+      // 送信先は OPERATOR.contactEmail（yurithai@fumomeru.com）。
+      const topicLabel = TOPIC_LABEL[topic];
+      const subject = `[YuriThai お問い合わせ] ${topicLabel} - ${name.trim()}`;
+      const lines = [
+        `【お問い合わせ内容】${topicLabel}`,
+        `【氏名】${name.trim()}`,
+        `【メールアドレス】${email.trim()}`,
+      ];
+      if (phone.trim()) lines.push(`【電話番号】${phone.trim()}`);
+      if (company.trim()) lines.push(`【会社名】${company.trim()}`);
+      lines.push("", "【本文】", body.trim(), "", "----", "yurithai.jp お問い合わせフォームより");
+      const mailto =
+        `mailto:${encodeURIComponent(OPERATOR.contactEmail)}` +
+        `?subject=${encodeURIComponent(subject)}` +
+        `&body=${encodeURIComponent(lines.join("\n"))}`;
+      // メールクライアントを開く
+      window.location.href = mailto;
       setStatus({ type: "ok" });
       // フォームをリセット
       setName("");
@@ -88,7 +94,6 @@ export function ContactForm() {
       setCompany("");
       setBody("");
       setAgreed(false);
-      // 上部へスクロール
       if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
     } catch (err) {
       setStatus({
@@ -111,10 +116,15 @@ export function ContactForm() {
     return (
       <div className="bg-yuri-surface border border-yuri-edge rounded-md p-6 text-base leading-relaxed">
         <div className="text-yuri-rose text-lg font-semibold mb-2">
-          ✦ お問い合わせを受け付けました
+          ✦ メールクライアントを開きました
         </div>
         <p className="text-yuri-ink/85">
-          内容を確認のうえ、3〜5営業日以内にご返信します。ありがとうございました。
+          ご入力内容を反映したメールが開いたはずです。
+          <br />
+          そのまま <strong className="font-medium">送信</strong> ボタンを押してお送りください。
+        </p>
+        <p className="text-sm text-yuri-muted mt-3">
+          もし開かなかった場合は、お手数ですが {OPERATOR.contactEmailDisplay} まで直接ご連絡ください。
         </p>
         <a
           href="/"
@@ -289,10 +299,10 @@ export function ContactForm() {
           disabled={!canSubmit || submitting}
           className="inline-flex items-center justify-center gap-2 bg-yuri-navy text-yuri-cream px-7 py-3.5 rounded-full text-base font-medium disabled:opacity-40 disabled:cursor-not-allowed hover:opacity-90 transition-opacity"
         >
-          {submitting ? "送信中…" : "送信する →"}
+          {submitting ? "メールクライアント起動中…" : "メールを作成する →"}
         </button>
         <p className="text-sm text-yuri-muted mt-2">
-          送信前にもう一度内容をご確認ください。
+          送信ボタンを押すと、入力内容を本文に自動挿入してお使いのメールクライアント（Gmail／Apple Mail など）が開きます。開いたメールをそのまま送信してください。
         </p>
       </div>
     </form>

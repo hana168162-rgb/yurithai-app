@@ -1,0 +1,107 @@
+{
+  "_comment": "ユリ隊 Instagram リード自動収集の内部設定。公開しない。ファン/メディアアカウントはリードのみ、公式アカウントで必ずクロスチェック。",
+  "lead_accounts": {
+    "_comment": "ファン/メディアアカウント。候補検知にのみ使用。公開記事のソースとしては使わない。",
+    "accounts": [
+      "https://www.instagram.com/sawadeegl/",
+      "https://www.instagram.com/lesbocine/",
+      "https://www.instagram.com/thaiupdate2019/"
+    ],
+    "posts_per_run": 25
+  },
+  "official_accounts": {
+    "_comment": "公式アカウント。一次情報クロスチェック用。候補にヒットしたら必要なアカウントだけ追加スクレイプ。",
+    "production_companies": {
+      "CHANGE2561": [
+        "https://www.instagram.com/change2561/",
+        "https://www.instagram.com/change2561original/"
+      ],
+      "Star Hunter Entertainment": [
+        "https://www.instagram.com/starhunter_entertainment/",
+        "https://www.instagram.com/hgl3.5/"
+      ],
+      "GMMTV": [
+        "https://www.instagram.com/gmmtv/"
+      ],
+      "FRT Entertainment": [
+        "https://www.instagram.com/frtentertainment/",
+        "https://www.instagram.com/buymybossofficial/"
+      ],
+      "North Star Entertainment": [
+        "https://www.instagram.com/northstarentertainth/",
+        "https://www.instagram.com/copyabangkok/"
+      ],
+      "IDOLFACTORY": [
+        "https://www.instagram.com/idolfactoryth/"
+      ],
+      "Pro Gold": [],
+      "MGI Beyond": [
+        "https://www.instagram.com/mgibeyond/"
+      ],
+      "Monomax Original": [
+        "https://www.instagram.com/monooriginal.th/"
+      ],
+      "S Class Entertainment": [],
+      "ZENSE Entertainment": [
+        "https://www.instagram.com/zense_series/"
+      ],
+      "Kongthup's Production": [
+        "https://www.instagram.com/kongthupsproduction/",
+        "https://www.instagram.com/loveboundofficial/"
+      ],
+      "Studio Wabi Sabi": [
+        "https://www.instagram.com/studiowabisabith/",
+        "https://www.instagram.com/builtinloveseries/"
+      ],
+      "XEBIS Entertainment": [
+        "https://www.instagram.com/xebis_ent/"
+      ],
+      "Channel 3 / BEC World": [
+        "https://www.instagram.com/ch3thailand/",
+        "https://www.instagram.com/lenamiu_ch3/"
+      ],
+      "OPEN LABEL": [],
+      "Motion Minds Entertainment": [],
+      "Mandee Work": [],
+      "Century UU Entertainment (Thailand)": [
+        "https://www.instagram.com/cuuthailand/"
+      ],
+      "Mojo Muse Management": [
+        "https://www.instagram.com/mojo_muse_management/"
+      ],
+      "IDX Entertainment": [],
+      "VelCurve Studio": []
+    },
+    "individual_agencies": {
+      "_comment": "個人事務所。ペア/俳優ベースで管理。",
+      "FreenBecky": {
+        "Freen": "https://www.instagram.com/solenn_entertainment/",
+        "Becky": "https://www.instagram.com/beckyentofficial/"
+      }
+    }
+  },
+  "monitoring_flags": {
+    "_comment": "公式アナウンス待ちで保留中の候補。次回スクレイプで発見したら優先報告。",
+    "pending_verification": [
+      {
+        "title": "FreenBecky 新作 Amarin TV シリーズ (2027年)",
+        "detected_date": "2026-11-19",
+        "detected_via": "DUO ONE FINAL STAGE announcement reported by lesbocine, sawadeegl",
+        "check_accounts": [
+          "https://www.instagram.com/solenn_entertainment/",
+          "https://www.instagram.com/beckyentofficial/",
+          "https://www.instagram.com/amarintvhd/"
+        ],
+        "signals": ["Amarin", "2027", "ซีรีส์", "series", "FreenBecky", "romantic comedy"]
+      }
+    ]
+  },
+  "rules": {
+    "max_posts_per_lead_account": 25,
+    "max_posts_per_official_account": 30,
+    "cross_check_required": true,
+    "publish_without_official_source": false,
+    "credit_format": "情報元: @{official_username}",
+    "no_fan_account_credits_in_public": true
+  }
+}

@@ -216,5 +216,111 @@
     "start_date": "2026-11-08",
     "end_date": "2026-12-27",
     "episodes": 8
+  },
+  {
+    "id": 237,
+    "slug": "love-on-hire",
+    "title_ja": "Love on Hire",
+    "title_en": "Love on Hire",
+    "title_th": "รับจ้างเลิกรัก",
+    "production": "North Star Entertainment × COPY A BANGKOK × WeTV Original",
+    "cast_pair": "Ginny Natnicha Pratipnatsiri × Jayna Angelina Stevens（GinJay）",
+    "status": "airing",
+    "note": "North Star Entertainment × COPY A BANGKOK × WeTV Original 制作 / 主演: Ginny Natnicha Pratipnatsiri（@ginnynatnicha）× Jayna Angelina Stevens（@aangelinaa.ss）= GinJay ペア（Poisonous Love・Lunar Secret 出演の既存ペア）/ タグライン: 「Hired to end a love, never to fall into one.」 / タイ語タイトル: รับจ้างเลิกรัก / 放送期間: 2026-10-22（木、EP1+2 ダブル放送）〜 2026-12-07 最終話 全 10 話 / 毎週木曜 20:00 タイ時間（22:00 JST）WeTV 配信 / UNCUT 版は WeTV 独占 / 情報元: @copyabangkok @northstarentertainth / ハッシュタグ #LoveOnHireTheSeries #รับจ้างเลิกรัก",
+    "cover_image": "/images/dramas/love-on-hire.jpg",
+    "cover_credit": "North Star Entertainment × COPY A BANGKOK × WeTV Original Official Poster",
+    "youtube_teaser": "https://youtu.be/M_ReeGehUP8",
+    "streaming": [
+      {
+        "platform": "WeTV Original",
+        "url": "https://wetv.vip/",
+        "note": "毎週木曜 20:00 タイ時間（22:00 JST）独占配信"
+      }
+    ],
+    "start_date": "2026-10-22",
+    "end_date": "2026-12-07",
+    "episodes": 10
+  },
+  {
+    "id": 233,
+    "slug": "love-me-to-hurt-me",
+    "title_ja": "Love Me to Hurt Me",
+    "title_en": "Love Me to Hurt Me",
+    "title_th": "รัก = ร้าย",
+    "production": "Channel 3 / BEC World Original",
+    "cast_pair": "Tan Duangkaew × Yuyu Ornicha（TanYuyu）",
+    "status": "airing",
+    "note": "Channel 3（CH3 Thailand）× BEC World Original Series 制作 / 主演: Tan Duangkaew Piyaoui（@tanytannn）× Yuyu Ornicha（@yuonc）= TanYuyu / タイ語タイトル: รัก = ร้าย / タイトル直訳「愛と憎しみが同じ重さで」/ 放送開始: 2026-11-06（金）/ 公式配信: Ch3Thailand + 3Plus / 情報元: @Ch3Thailand / ハッシュタグ #TanYuyu #LoveMeToHurtMe #รักเท่ากับร้าย",
+    "cover_image": "/images/dramas/love-me-to-hurt-me.jpg",
+    "cover_credit": "BEC World Original / Channel 3 Official Poster",
+    "youtube_teaser": "https://youtu.be/qawbKsGSPEE",
+    "streaming": [
+      {
+        "platform": "Ch3 HD 33 (タイ現地)",
+        "url": "https://www.ch3plus.com/",
+        "note": "毎週金曜放送"
+      },
+      {
+        "platform": "3Plus",
+        "url": "https://www.ch3plus.com/",
+        "note": "同時配信"
+      }
+    ],
+    "start_date": "2026-11-06",
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 238,
+    "slug": "oxytoxin",
+    "title_ja": "Oxytoxin",
+    "title_en": "Oxytoxin",
+    "title_th": "Oxytoxin จุนใจไอดาว",
+    "production": "GMMTV × G24 × Parbdee",
+    "cast_pair": "Waifha Chanitsiri × Tonkhaw Nonthakarn × Benz Jittanan × Yoghurt Yosita × Pang Sabsima（5 人主演）",
+    "status": "airing",
+    "note": "GMMTV × G24 × Parbdee 制作 / Created by G24 / 監督: Patha Thongpan / Executive Producer: Sataporn Panichraksapong / 主演 5 女優（ペア構造なし、個別主役）: Waifha Chanitsiri = Junjai / Tonkhaw Nonthakarn = Aidao / Benz Jittanan = Gale / Yoghurt Yosita = Chelsea / Pang Sabsima = Meimei / サブキャスト: Jingjing Yu = Padcha / Save Saisawat = Dim / Jaoying Krongkwan = Ploypim / タイ語タイトル: Oxytoxin จุนใจไอดาว / タグライン: 「จะเปลี่ยนดิน ให้แกลมกว่าใคร」/ 放送開始: 2026-11-07（土）/ 毎週土曜 21:30 タイ時間（23:30 JST）GMM25 / 国際配信: Netflix 同時配信 / 情報元: @gmmtv / ハッシュタグ #OxytoxinSeries #GMMTV",
+    "cover_image": "/images/dramas/oxytoxin.jpg",
+    "cover_credit": "GMMTV × G24 × Parbdee Official Poster",
+    "youtube_teaser": "https://youtu.be/whry_7Bh1a8",
+    "streaming": [
+      {
+        "platform": "GMM25 (タイ現地)",
+        "url": "https://www.gmm-tv.com/",
+        "note": "毎週土曜 21:30 タイ時間（23:30 JST）"
+      },
+      {
+        "platform": "Netflix",
+        "url": "https://www.netflix.com/",
+        "note": "国際配信（同時）"
+      }
+    ],
+    "start_date": "2026-11-07",
+    "end_date": null,
+    "episodes": null
+  },
+  {
+    "id": 247,
+    "slug": "debut-my-beat",
+    "title_ja": "DEBUT My Beat",
+    "title_en": "DEBUT My Beat",
+    "title_th": "จังหวะหัวใจกลายเป็นเธอ",
+    "production": "XEBIS Entertainment",
+    "cast_pair": "Pei × Pyn（PeiPyn）/ 複数キャスト ensemble",
+    "status": "airing",
+    "note": "XEBIS Entertainment 制作 / メインペア: PeiPyn（Pei × Pyn）/ 複数キャストの ensemble 構成（男性キャストを含む混合編成）/ テーマ: 「Friendship, Dreams and Love（友情・夢・愛）」/ アイドル／ダンス系 GL / タイ語タイトル: จังหวะหัวใจกลายเป็นเธอ / 放送開始: 2026-11-14 / 配信: iQIYI アプリ オンライン / 情報元: @xebis_ent / ハッシュタグ #DEBUTMYBEATSeries #PEIPYN #XEBISENTERTAINMENT",
+    "cover_image": "/images/dramas/debut-my-beat.jpg",
+    "cover_credit": "XEBIS Entertainment Official Poster",
+    "youtube_teaser": null,
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "iQIYI アプリ オンライン配信"
+      }
+    ],
+    "start_date": "2026-11-14",
+    "end_date": null,
+    "episodes": null
   }
 ]

@@ -10,7 +10,7 @@
     "posts_per_run": 25
   },
   "official_accounts": {
-    "_comment": "公式アカウント。一次情報クロスチェック用。候補にヒットしたら必要なアカウントだけ追加スクレイプ。",
+    "_comment": "公式アカウント。一次情報クロスチェック用。候補にヒットしたら必要なアカウントだけ追加スクレイプ。[2026-11-23] @hgl3.5 は not_found（要差し替え）/ @change2561 は 11/5 以降投稿なし、実運用は @change2561original",
     "production_companies": {
       "CHANGE2561": [
         "https://www.instagram.com/change2561/",
@@ -93,6 +93,22 @@
           "https://www.instagram.com/amarintvhd/"
         ],
         "signals": ["Amarin", "2027", "ซีรีส์", "series", "FreenBecky", "romantic comedy"]
+      },
+      {
+        "title": "SomoPingping 新作GL（タイトル未発表 / K11D House）",
+        "detected_date": "2026-11-23",
+        "detected_via": "workshop start reported by sawadeegl (2026-11-19)",
+        "check_accounts": [],
+        "_note": "K11D House の公式アカウント未検証（@k11d_house は要実在確認）。確認後 check_accounts に追加",
+        "signals": ["K11D", "Somo", "Pingping", "workshop", "GL", "ซีรีส์"]
+      },
+      {
+        "title": "Arhoung × Zara 新作GL（WeTV Always More 2027 で発表見込み）",
+        "detected_date": "2026-11-23",
+        "detected_via": "Arhoung live, reported by sawadeegl (2026-11-21)",
+        "check_accounts": [],
+        "_note": "制作会社不明。2026-11-26 WeTV Always More 2027 の公式発表後に確認",
+        "signals": ["Arhoung", "Zara", "WeTV", "Always More", "2027"]
       }
     ]
   },

@@ -322,5 +322,29 @@
     "start_date": "2026-11-14",
     "end_date": null,
     "episodes": null
+  },
+  {
+    "id": 224,
+    "slug": "under-her-rules",
+    "title_ja": "Under Her Rules",
+    "title_en": "Under Her Rules",
+    "title_th": "ใต้เงาจันทรา",
+    "production": "MGI Beyond × iQIYI Original",
+    "cast_pair": "Meena Rina × Aoom Thaweeporn（MeenBabe）",
+    "status": "airing",
+    "note": "公式制作: MGI Beyond（@mgibeyond）× **iQIYI Original** / 主演: Meena Rina（@meenaxrina）× Aoom Thaweeporn（@aoomtwp）= MeenBabe / タイ語タイトル: ใต้เงาจันทรา / 2026 年 7 月 2 日 Workshop D1 開始 / 2026-10-17 SF WORLD CINEMA 1st EP Screening 実施 / 放送: 毎週土曜 20:00 タイ時間（22:00 JST）iQIYI アプリ・IQ.com で UNCUT 独占配信 / EP3 は 2026-11-21（土）配信（開始日 11-07 は毎週配信から逆算）/ 話数は続報待ち / ハッシュタグ #UnderHerRulesTheSeries #ใต้เงาจันทรา / 情報元: @mgibeyond",
+    "cover_image": "/images/dramas/under-her-rules.jpg",
+    "cover_credit": "MGI Beyond × iQIYI Original Poster (Instagram @mgibeyond, 2026-09)",
+    "youtube_teaser": "https://youtu.be/2IbjmAjpzEs",
+    "streaming": [
+      {
+        "platform": "iQIYI",
+        "url": "https://www.iq.com/",
+        "note": "毎週土曜 20:00 タイ時間（22:00 JST）UNCUT 独占配信"
+      }
+    ],
+    "start_date": "2026-11-07",
+    "end_date": null,
+    "episodes": null
   }
 ]

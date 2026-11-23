@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { UpcomingDrama } from "@/lib/types";
 import { gradientForSlug } from "@/lib/style";
-import { shortPairName } from "@/lib/pair-name";
+import { cardCastLabel } from "@/lib/pair-name";
 
 export function UpcomingCard({
   drama,
@@ -60,9 +60,9 @@ export function UpcomingCard({
             {drama.production ?? "制作元未確認"}
           </p>
         )}
-        {drama.cast_pair && (
+        {cardCastLabel(drama) && (
           <p className="text-[13px] md:text-xs text-yuri-rose truncate">
-            {shortPairName(drama.cast_pair)}
+            {cardCastLabel(drama)}
           </p>
         )}
       </div>

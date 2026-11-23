@@ -1,4 +1,5 @@
 import pairsData from "@/content/pairs.json";
+import type { CastGroup, CastInfo } from "@/lib/types";
 
 const KNOWN_PAIRS = Object.keys(pairsData as Record<string, string[]>);
 
@@ -42,4 +43,35 @@ export function shortPairName(castPair: string): string {
 
   // 4) 最終フォールバック
   return castPair;
+}
+
+/** グループの表示名（ペア名優先、無ければ各人の先頭語を × で連結） */
+export function castGroupName(g: CastGroup): string {
+  if (g.pair) return g.pair;
+  return g.members.map((m) => m.trim().split(/\s+/)[0]).join(" × ");
+}
+
+/**
+ * 一覧カード用の主演ラベル。
+ * - cast_groups が無い作品は従来どおり cast_pair から短縮表記
+ * - pair: メインペア名のみ（サブ・共演は一覧では出さない）
+ * - multi_pair: 「OrmFolk ほか2ペア」
+ * - ensemble: 「5人主演」
+ * 詳細ページでは cast_groups を全員表示する。
+ */
+export function cardCastLabel(
+  d: CastInfo & { cast_pair: string | null }
+): string | null {
+  const mains = (d.cast_groups ?? []).filter((g) => g.role === "main");
+  if (!d.cast_type || mains.length === 0) {
+    return d.cast_pair ? shortPairName(d.cast_pair) : null;
+  }
+  if (d.cast_type === "ensemble") {
+    const n = mains.reduce((sum, g) => sum + g.members.length, 0);
+    return `${n}人主演`;
+  }
+  if (d.cast_type === "multi_pair" && mains.length > 1) {
+    return `${castGroupName(mains[0])} ほか${mains.length - 1}ペア`;
+  }
+  return castGroupName(mains[0]);
 }

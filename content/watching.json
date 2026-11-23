@@ -181,7 +181,26 @@
     ],
     "start_date": "2026-10-21",
     "end_date": null,
-    "episodes": null
+    "episodes": null,
+    "cast_type": "multi_pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "PimjiPineare",
+        "members": [
+          "Pimji Pimpijira",
+          "Payar Panyin"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "JaraJennie",
+        "members": [
+          "Jara Jennifer",
+          "Jenny Narumol"
+        ]
+      }
+    ]
   },
   {
     "id": 240,
@@ -215,7 +234,34 @@
     ],
     "start_date": "2026-11-08",
     "end_date": "2026-12-27",
-    "episodes": 8
+    "episodes": 8,
+    "cast_type": "multi_pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "OrmFolk",
+        "members": [
+          "Ormsin Supitcha",
+          "Folk Sutima"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "NamwaRada",
+        "members": [
+          "Namwa Thapanee",
+          "Rada Chutirada"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "ZenPat",
+        "members": [
+          "Zen Napat",
+          "Pat Apirum"
+        ]
+      }
+    ]
   },
   {
     "id": 237,
@@ -297,7 +343,20 @@
     ],
     "start_date": "2026-11-07",
     "end_date": null,
-    "episodes": null
+    "episodes": null,
+    "cast_type": "ensemble",
+    "cast_groups": [
+      {
+        "role": "main",
+        "members": [
+          "Waifha Chanitsiri",
+          "Tonkhaw Nonthakarn",
+          "Benz Jittanan",
+          "Yoghurt Yosita",
+          "Pang Sabsima"
+        ]
+      }
+    ]
   },
   {
     "id": 247,
@@ -306,7 +365,7 @@
     "title_en": "DEBUT My Beat",
     "title_th": "จังหวะหัวใจกลายเป็นเธอ",
     "production": "XEBIS Entertainment",
-    "cast_pair": "Pei × Pyn（PeiPyn）/ 複数キャスト ensemble",
+    "cast_pair": "Pei × Pyn（PeiPyn）",
     "status": "airing",
     "note": "XEBIS Entertainment 制作 / メインペア: PeiPyn（Pei × Pyn）/ 複数キャストの ensemble 構成（男性キャストを含む混合編成）/ テーマ: 「Friendship, Dreams and Love（友情・夢・愛）」/ アイドル／ダンス系 GL / タイ語タイトル: จังหวะหัวใจกลายเป็นเธอ / 放送開始: 2026-11-14 / 配信: iQIYI アプリ オンライン / 情報元: @xebis_ent / ハッシュタグ #DEBUTMYBEATSeries #PEIPYN #XEBISENTERTAINMENT",
     "cover_image": "/images/dramas/debut-my-beat.jpg",
@@ -321,7 +380,18 @@
     ],
     "start_date": "2026-11-14",
     "end_date": null,
-    "episodes": null
+    "episodes": null,
+    "cast_type": "pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "PeiPyn",
+        "members": [
+          "Pei",
+          "Pyn"
+        ]
+      }
+    ]
   },
   {
     "id": 224,

@@ -5,7 +5,7 @@ import { gradientForSlug } from "@/lib/style";
 import { AgeBadge } from "./AgeBadge";
 import { StatusBadge } from "./StatusBadge";
 import { TagBadge } from "./TagBadge";
-import { shortPairName } from "@/lib/pair-name";
+import { cardCastLabel } from "@/lib/pair-name";
 
 // Pick representative tags for card preview:
 // 1 from genre + 1 from tone + 1 from (relationship or intimacy)
@@ -19,27 +19,10 @@ function selectCardTags(d: Drama): string[] {
   return out.slice(0, 3);
 }
 
-/**
- * カード内のペア表示。
- * - 通常（1〜3ペア）: 1 行で表示（はみ出したら truncate）
- * - 4 ペア以上の群像劇: 全画面サイズで 2 行に分けて表示（途切れさせない）
- */
-function PairLine({ castPair }: { castPair: string }) {
-  const name = shortPairName(castPair);
-  const parts = name.split(" × ");
-  if (parts.length >= 4) {
-    const mid = Math.ceil(parts.length / 2);
-    const top = parts.slice(0, mid).join(" × ");
-    const bottom = parts.slice(mid).join(" × ");
-    return (
-      <p className="text-[13px] md:text-xs text-yuri-rose mb-2 leading-snug">
-        <span className="block">{top}</span>
-        <span className="block">{bottom}</span>
-      </p>
-    );
-  }
+/** カード内の主演表示（複数主演は「ほかNペア」「N人主演」に短縮） */
+function PairLine({ label }: { label: string }) {
   return (
-    <p className="text-[13px] md:text-xs text-yuri-rose mb-2 truncate">{name}</p>
+    <p className="text-[13px] md:text-xs text-yuri-rose mb-2 truncate">{label}</p>
   );
 }
 
@@ -58,6 +41,7 @@ export function DramaCard({
   hideTags?: boolean;
 }) {
   const tags = selectCardTags(drama);
+  const castLabel = cardCastLabel(drama);
   // 年・制作元の連結ライン。両方非表示なら <p> ごと出さない
   const metaParts: string[] = [];
   if (!hideYear) metaParts.push(String(drama.year ?? "—"));
@@ -111,7 +95,7 @@ export function DramaCard({
             {metaLine}
           </p>
         )}
-        {drama.cast_pair && <PairLine castPair={drama.cast_pair} />}
+        {castLabel && <PairLine label={castLabel} />}
         {!hideTags && tags.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {tags.map((t, i) => (

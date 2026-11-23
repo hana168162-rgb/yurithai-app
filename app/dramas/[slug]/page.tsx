@@ -20,7 +20,7 @@ import { ActressProfile } from "@/components/ActressProfile";
 import { WhereToWatch } from "@/components/WhereToWatch";
 import { NordVpnCard } from "@/components/NordVpnCard";
 import { analyzeStreamingAccess } from "@/lib/streaming";
-import { shortPairName } from "@/lib/pair-name";
+import { shortPairName, castGroupName } from "@/lib/pair-name";
 import { RelatedDramas } from "@/components/RelatedDramas";
 
 // end_date を過ぎた作品を自動で「完結」表示にするため、1時間ごとに再生成
@@ -173,7 +173,17 @@ export default function DramaDetailPage({
     : [];
 
   const pairName = extractPairName(drama.cast_pair);
-  const actressList = pairName ? getActressesForPair(pairName) : [];
+  // 複数主演（cast_groups）の場合は全ペア分の女優を集める
+  const groupPairs = (drama.cast_groups ?? [])
+    .map((g) => g.pair)
+    .filter((p): p is string => !!p);
+  const actressList = (() => {
+    const names = groupPairs.length > 0 ? groupPairs : pairName ? [pairName] : [];
+    const seen = new Set<string>();
+    return names
+      .flatMap((n) => getActressesForPair(n))
+      .filter((a) => (seen.has(a.id) ? false : (seen.add(a.id), true)));
+  })();
 
   const streamingLinks =
     "streaming" in drama && drama.streaming && drama.streaming.length > 0
@@ -327,13 +337,47 @@ export default function DramaDetailPage({
               )}
             </p>
 
-            {drama.cast_pair && (
-              <div className="text-[14px] md:text-sm">
-                <span className="text-yuri-muted">出演ペア: </span>
-                <strong className="text-yuri-ink font-semibold">
-                  {shortPairName(drama.cast_pair)}
-                </strong>
+            {drama.cast_groups && drama.cast_groups.length > 0 ? (
+              <div className="text-[14px] md:text-sm space-y-1.5">
+                <p className="text-yuri-muted">
+                  {drama.cast_type === "ensemble"
+                    ? "主演キャスト"
+                    : drama.cast_type === "multi_pair"
+                      ? "主演ペア"
+                      : "出演ペア"}
+                </p>
+                <ul className="space-y-1">
+                  {drama.cast_groups.map((g, i) => (
+                    <li key={i} className="leading-snug">
+                      <span className="inline-block min-w-[3.5em] text-[12px] md:text-xs text-yuri-muted mr-1">
+                        {g.label ??
+                          (g.role === "main"
+                            ? "メイン"
+                            : g.role === "sub"
+                              ? "サブ"
+                              : "共演")}
+                      </span>
+                      {g.pair && (
+                        <strong className="text-yuri-ink font-semibold mr-1">
+                          {castGroupName(g)}
+                        </strong>
+                      )}
+                      <span className="text-yuri-ink/70">
+                        {g.pair ? `（${g.members.join(" × ")}）` : g.members.join("、")}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               </div>
+            ) : (
+              drama.cast_pair && (
+                <div className="text-[14px] md:text-sm">
+                  <span className="text-yuri-muted">出演ペア: </span>
+                  <strong className="text-yuri-ink font-semibold">
+                    {shortPairName(drama.cast_pair)}
+                  </strong>
+                </div>
+              )
             )}
           </div>
           </div>

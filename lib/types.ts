@@ -26,7 +26,32 @@ export interface StreamingLink {
   note?: string | null;      // 例: "VPN必要", "1話のみ無料", "字幕あり" など
 }
 
-export interface Drama {
+/**
+ * 主演の種類。
+ * - pair: メインが1ペア（サブペア・共演がいてもメインは1組）
+ * - multi_pair: メインが複数ペア（群像劇・オムニバス）
+ * - ensemble: 3人以上が主演（ペア単位で分けられない）
+ */
+export type CastType = "pair" | "multi_pair" | "ensemble";
+
+/** 主演・出演者のまとまり（1ペア or 1グループ）。詳細ページで全員表示する。 */
+export interface CastGroup {
+  role: "main" | "sub" | "costar";
+  /** 任意の見出し（オムニバスの各話タイトル等） */
+  label?: string;
+  /** ペア名（"LMSY" 等）。ペアでないグループは省略 */
+  pair?: string;
+  /** フルネーム等の表示名 */
+  members: string[];
+}
+
+/** cast_type / cast_groups を持てる作品共通フィールド */
+export interface CastInfo {
+  cast_type?: CastType;
+  cast_groups?: CastGroup[];
+}
+
+export interface Drama extends CastInfo {
   id: number;
   slug: string;
   title_ja: string;
@@ -52,7 +77,7 @@ export interface Drama {
   series?: string;                  // シリーズキー（同じ値の作品は完結一覧で隣接配置される）
 }
 
-export interface WatchingDrama {
+export interface WatchingDrama extends CastInfo {
   id: number;
   slug: string;
   title_ja: string;
@@ -75,7 +100,7 @@ export interface WatchingDrama {
 
 export type AnyDrama = Drama | WatchingDrama | UpcomingDrama;
 
-export interface UpcomingDrama {
+export interface UpcomingDrama extends CastInfo {
   id: number;
   slug: string;
   title_ja: string;

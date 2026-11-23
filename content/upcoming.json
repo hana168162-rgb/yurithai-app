@@ -196,14 +196,25 @@
     "title_en": "Always Remember",
     "title_th": "รักเธอฝังใจ",
     "production": "ZENSE Entertainment × Nezt Media",
-    "cast_pair": "Grace Budsarin × TBD",
+    "cast_pair": "Grace Budsarin × Whan Chananan（GraceWhan）",
     "status": "upcoming",
     "announced_for": "2026年予定",
     "pending": true,
-    "note": "ZENSE Entertainment × Nezt Media 共同制作 / 主演: Grace Budsarin（Mate の Grace）× 共演者（詳細確認中）/ 公式 IG: @zense_series / 公式ティーザー公開済み（Grace の涙のシーン）/ 具体的な放送日・エピソード数・配信先いずれも公式未発表 / ハッシュタグ #ZENSEMORE #ZENSESeries #NeztMedia #Gracebudsarin",
+    "note": "ZENSE Entertainment × Nezt Media 共同制作 / 主演: Grace Budsarin（Mate の Grace）× 共演者（詳細確認中）/ 公式 IG: @zense_series / 公式ティーザー公開済み（Grace の涙のシーン）/ 具体的な放送日・エピソード数・配信先いずれも公式未発表 / ハッシュタグ #ZENSEMORE #ZENSESeries #NeztMedia #Gracebudsarin / 主演確定: Grace Budsarin × Whan Chananan（GraceWhan）情報元: @zense_series",
     "cover_image": null,
     "cover_credit": null,
-    "youtube_teaser": "https://youtu.be/zpmrwzAUZOc"
+    "youtube_teaser": "https://youtu.be/zpmrwzAUZOc",
+    "cast_type": "pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "GraceWhan",
+        "members": [
+          "Grace Budsarin",
+          "Whan Chananan"
+        ]
+      }
+    ]
   },
   {
     "id": 226,
@@ -293,14 +304,32 @@
     "title_en": "Buy My Boss",
     "title_th": null,
     "production": "FRT Entertainment",
-    "cast_pair": "Ying Anada × Aom Punyawee × Pla Kewalin × Whawha Pimmada（4 人キャスト）",
+    "cast_pair": "Ying Anada × Aom Punyawee（YingAom）",
     "status": "upcoming",
     "announced_for": "2026年12月2日",
     "synopsis": "「You're the boss at work, but not in bed.（職場では君がボス、でもベッドではそうじゃない）」── 4 人の女性を巡る、職場の権力と親密な関係の対比を描く GL。詳細は続報待ち。",
-    "note": "FRT Entertainment 制作（SHADES と同じホームスタジオ）/ 主演: 4 女優キャスト ── Ying Anada、Aom Punyawee、Pla Kewalin、Whawha Pimmada（ペア構成は続報待ち）/ 公式 IG: @buymybossofficial / タグライン: 「You're the boss at work, but not in bed.」（職場では君がボス、でもベッドではそうじゃない）/ プレミア: 2026 年 12 月 2 日（延期）、FRT Entertainment YouTube にて配信 / 情報源: @buymybossofficial 公式ポスター 2026-08-05 公開 / ハッシュタグ #BuyMyBoss #FRTentertainment / 具体的な話数・週次スケジュールは続報待ち",
+    "note": "FRT Entertainment 制作（SHADES と同じホームスタジオ）/ 主演: 4 女優キャスト ── Ying Anada、Aom Punyawee、Pla Kewalin、Whawha Pimmada（ペア構成は続報待ち）/ 公式 IG: @buymybossofficial / タグライン: 「You're the boss at work, but not in bed.」（職場では君がボス、でもベッドではそうじゃない）/ プレミア: 2026 年 12 月 2 日（延期）、FRT Entertainment YouTube にて配信 / 情報源: @buymybossofficial 公式ポスター 2026-08-05 公開 / ハッシュタグ #BuyMyBoss #FRTentertainment / 具体的な話数・週次スケジュールは続報待ち / 主演: Ying Anada（イサラ役）× Aom Punyawee（ม่านฝัน役）= YingAom 情報元: @buymybossofficial",
     "cover_image": "/images/dramas/buy-my-boss.jpg",
     "cover_credit": "FRT Entertainment Official Poster (Instagram @buymybossofficial, 2026-08-05)",
-    "youtube_teaser": null
+    "youtube_teaser": null,
+    "cast_type": "pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "YingAom",
+        "members": [
+          "Ying Anada",
+          "Aom Punyawee"
+        ]
+      },
+      {
+        "role": "costar",
+        "members": [
+          "Pla Kewalin",
+          "Whawha Pimmada"
+        ]
+      }
+    ]
   },
   {
     "id": 235,
@@ -368,7 +397,26 @@
     "cover_image": "/images/dramas/safety-flirt.jpg",
     "cover_credit": "GMMTV × Safety Flirt Official Poster (Instagram @gmmtv, GMMTV NEXT lineup 2026)",
     "youtube_teaser": "https://youtu.be/StQ47CcKciE",
-    "pending": true
+    "pending": true,
+    "cast_type": "pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "NychaPrim",
+        "members": [
+          "Nycha Nuttanicha",
+          "Prim Chanikarn"
+        ]
+      },
+      {
+        "role": "costar",
+        "members": [
+          "New Thitipoom",
+          "Piploy Kanyarat",
+          "AJ Chayapol"
+        ]
+      }
+    ]
   },
   {
     "id": 250,
@@ -385,7 +433,46 @@
     "cover_image": "/images/dramas/be-mine.jpg",
     "cover_credit": "GMMTV × Be Mine Official Poster (Instagram @gmmtv, GMMTV NEXT lineup 2026)",
     "youtube_teaser": "https://youtu.be/59xj48qtdJU",
-    "pending": true
+    "pending": true,
+    "cast_type": "multi_pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "label": "Be My Sugar",
+        "pair": "EmiBonnie",
+        "members": [
+          "Emi Thasorn",
+          "Bonnie Pattraphus"
+        ]
+      },
+      {
+        "role": "main",
+        "label": "Be My Baby!",
+        "pair": "KapookCiize",
+        "members": [
+          "Kapook Ploynira",
+          "Ciize Rutricha"
+        ]
+      },
+      {
+        "role": "main",
+        "label": "Be My Boo",
+        "pair": "SangtAcare",
+        "members": [
+          "Sangt Sillapinir",
+          "Acare Chomphoopuang"
+        ]
+      },
+      {
+        "role": "main",
+        "label": "Mare & More",
+        "pair": "YoghurtPang",
+        "members": [
+          "Yoghurt Yosita",
+          "Pang Sabsima"
+        ]
+      }
+    ]
   },
   {
     "id": 251,
@@ -487,7 +574,26 @@
     "note": "CHANGE2561 ORIGINAL 制作 / LMSY ペア4作目 / 主演: Lookmhee Punyapat（@lmlookmhee）× Sonya Saranphat（@sonyasarann）= LMSY / Lookmhee = Perth 役（元女性捜査官で、探偵事務所を設立し、盗まれた「Paulton Diamond」と宝飾品コレクションの追跡任務に臨む）/ Sonya = Rain 役（可愛らしい外見に鋭い頭脳と狡猾さを隠した若い女性）/ サブペア: Fay Apisara（@fayapis.l）× Gene Ornalin（@ornalin_gene）= FayGene / その他共演: Holly Apsaraa（@hollyholland.ap）、Michael（@michaelkvs）/ 2026-11-12 公式衣装合わせ投稿（LMSY FITTING 4th SERIES）/ ハッシュタグ #LMSY4thSeries #LoveTrapSeries #กับดักร้อยกะรัต / 放送日・話数・配信先いずれも公式未発表 / 情報元: @change2561original",
     "cover_image": null,
     "cover_credit": null,
-    "youtube_teaser": null
+    "youtube_teaser": null,
+    "cast_type": "pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "LMSY",
+        "members": [
+          "Lookmhee Punyapat",
+          "Sonya Saranphat"
+        ]
+      },
+      {
+        "role": "sub",
+        "pair": "FayGene",
+        "members": [
+          "Fay Apisara",
+          "Gene Ornalin"
+        ]
+      }
+    ]
   },
   {
     "id": 257,
@@ -572,7 +678,24 @@
     "note": "Persona Entertainment × BDLMD 共同制作 / 公式専用アカウント @starlightgirls.series で連日投稿（キャラクタービジュアル解禁中）/ 主演: 8名女性トレーニー ensemble 構成（アイドルオーディション × GL テーマ）/ 公式 Pilot YouTube 公開済み / 放送日・話数・配信先は公式未発表 / 情報元: @starlightgirls.series @persona_th_official @bdlmd_official",
     "cover_image": null,
     "cover_credit": null,
-    "youtube_teaser": "https://www.youtube.com/watch?v=fm6Vdcvu8Yw"
+    "youtube_teaser": "https://www.youtube.com/watch?v=fm6Vdcvu8Yw",
+    "cast_type": "ensemble",
+    "cast_groups": [
+      {
+        "role": "main",
+        "label": "トレーニー",
+        "members": [
+          "supremesiry",
+          "oukikk",
+          "ilene.mindy",
+          "canola.s",
+          "jetaimes__",
+          "ton.hxm_",
+          "hongpao.mindy",
+          "praew.mindy"
+        ]
+      }
+    ]
   },
   {
     "id": 262,
@@ -606,6 +729,25 @@
     "note": "Star Hunter Entertainment 制作 / 公式専用アカウント @remaintheseries 運営中 / 主演: Anda Anunta（@anda_anunta）× Lookkaew Kamollak（@lookkaeww_k）= AndaLookkaew（Khom Khlang サブペアからメイン昇格）/ サブペア: Praewa Putticha（@praewa.era）× Noon Thunyaphat（@noonntyp）= NoonPraewa（Hidden Heart メインペアがここでもサブ出演）/ 2026-05-24 บวงสรวง（オープニングセレモニー）実施 / 2026-11-11 Fitting 実施 / 2026-11-22 撮影開始（Q1）/ 放送日・話数・配信先は公式未発表 / 情報元: @starhunter_entertainment @remaintheseries",
     "cover_image": null,
     "cover_credit": null,
-    "youtube_teaser": null
+    "youtube_teaser": null,
+    "cast_type": "pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "AndaLookkaew",
+        "members": [
+          "Anda Anunta",
+          "Lookkaew Kamollak"
+        ]
+      },
+      {
+        "role": "sub",
+        "pair": "NoonPraewa",
+        "members": [
+          "Praewa Putticha",
+          "Noon Thunyaphat"
+        ]
+      }
+    ]
   }
 ]

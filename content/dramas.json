@@ -3183,6 +3183,41 @@
         "url": "https://www.youtube.com/@FRT.Entertainment",
         "note": "先行視聴可能 / 有料メンバーシップ"
       }
+    ],
+    "cast_type": "multi_pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "MookShu",
+        "members": [
+          "Mook",
+          "Shu"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "NikyEngland",
+        "members": [
+          "Niky",
+          "England"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "OpalMint",
+        "members": [
+          "Opal",
+          "Mint"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "PuyfaiPloy",
+        "members": [
+          "Puyfai",
+          "Ploy"
+        ]
+      }
     ]
   },
   {
@@ -3494,6 +3529,33 @@
       {
         "platform": "RakutenTV",
         "url": "https://tv.rakuten.co.jp/"
+      }
+    ],
+    "cast_type": "multi_pair",
+    "cast_groups": [
+      {
+        "role": "main",
+        "pair": "NamtanFilm",
+        "members": [
+          "Namtan Tipnaree",
+          "Film Rachanun"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "MilkLove",
+        "members": [
+          "Milk Pansa",
+          "Love Pattranite"
+        ]
+      },
+      {
+        "role": "main",
+        "pair": "ViewMim",
+        "members": [
+          "View Benyapa",
+          "Mim Rattanawadee"
+        ]
       }
     ]
   },

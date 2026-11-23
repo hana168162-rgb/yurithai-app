@@ -121,10 +121,10 @@ In Love Forever は、**「契約結婚」「家族の体裁」「離婚した�
 ファンタジー × 運命の恋という設定で、**「もう一度、別の形で愛し合う」**という second chance の変奏。
 SF・ファンタジー要素を絡めて、現実とは異なる時間軸で交わる二人を描いた佳作。
 
-### [Remain](/dramas/remain)（2025, Star Hunter Entertainment, AndaPraewa）
+### [Remain](/dramas/remain)（Star Hunter Entertainment, AndaLookkaew／2026年11月撮影開始・放送日未定）
 
-記憶喪失モチーフを核に、**「忘れた恋を、もう一度始める」**という second chance の最もファンタジックな変奏。
-ノスタルジアと不在の感情を、視覚的・音楽的に丁寧に積み上げた佳作です。
+記憶喪失モチーフを核に、**「忘れた恋を、もう一度始める」**という second chance の変奏が描かれる予定の新作。
+事故で記憶を失った女性と鉱山主の出会いから始まる物語で、放送日は公式発表待ちです。
 
 ---
 

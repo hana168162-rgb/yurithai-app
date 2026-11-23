@@ -68,7 +68,7 @@ cover_image: "/images/dramas/petrichor.jpg"
 ### Hidden Heart / Remain — Flower of Memory 原作
 
 Star Hunter Entertainment の **[Hidden Heart](/dramas/hidden-heart)**（NoonPraewa）と
-**[Remain](/dramas/remain)**（AndaPraewa）は、いずれも **Flower of Memory** 名義の小説が原作。
+**[Remain](/dramas/remain)**（AndaLookkaew）は、いずれも **Flower of Memory** 名義の小説が原作。
 
 ### Reverse With Me — Zezeho 原作
 

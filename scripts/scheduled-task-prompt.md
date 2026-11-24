@@ -57,6 +57,13 @@ Python/jq でタイトル・slug・cast_pair を抽出してセットにする�
 watching.json を確認し、today > end_date の作品があれば「完結へ移動候補」として報告。
 upcoming.json を確認し、today >= announced_for で日付確定済みの作品があれば「watching へ移動候補」として報告（1週間ルール: start_date - 7 日 以降なら移動）。
 
+### Step 7b: 女優 birth_date の副次収集（追加コスト不要）
+既存スクレイプの投稿キャプションから "Happy Birthday" / "HBD" / "สุขสันต์วันเกิด" パターンを検出。
+- @IG タグがあれば、そのハンドルで `actresses.json` を照合
+- 一致した actress の `birth_date` が null であれば、投稿タイムスタンプの月日を「birth_date 候補: XX-MM-DD」として報告（年は不明なので別途要確認）
+- 既存の birth_date と月日が一致すれば確認済みとしてサイレント
+- 不一致（タイムゾーン差±1日除く）は要注意として報告
+
 ### Step 8: 報告フォーマット
 Hana のチャットに以下の形式で報告（長くなりすぎないように）：
 

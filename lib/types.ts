@@ -145,7 +145,9 @@ export type QuestionCategory =
   | "genre"
   | "intimacy"
   | "pacing"
-  | "production_quality";
+  | "production_quality"
+  | "cast"       // ペア / 事務所の好み（cast_pair / production をチェック）
+  | "negative";  // 苦手な要素（マッチで大幅減点）
 
 export interface QuestionOption {
   id: string;

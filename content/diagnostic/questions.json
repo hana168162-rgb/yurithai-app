@@ -144,6 +144,74 @@
           "tags": []
         }
       ]
+    },
+    {
+      "id": "q6",
+      "order": 6,
+      "question_ja": "気になるペア・制作スタイルは？（複数選択可）",
+      "category": "cast",
+      "type": "multi",
+      "options": [
+        {
+          "id": "a",
+          "label_ja": "FreenBecky / LMSY / LingOrm などの看板ペア",
+          "tags": ["FreenBecky", "LMSY", "LingOrm"]
+        },
+        {
+          "id": "b",
+          "label_ja": "MilkLove / NamtanFilm など GMMTV の王道ペア",
+          "tags": ["MilkLove", "NamtanFilm", "ViewMim", "JanJingJing"]
+        },
+        {
+          "id": "c",
+          "label_ja": "GMMTV の安定した制作クオリティ",
+          "tags": ["GMMTV"]
+        },
+        {
+          "id": "d",
+          "label_ja": "インディー・個性派制作（Star Hunter / IDOLFACTORY / Change2561 など）",
+          "tags": ["Star Hunter Entertainment", "IDOLFACTORY", "CHANGE2561", "North Star Entertainment"]
+        },
+        {
+          "id": "z",
+          "label_ja": "こだわらない",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "order": 7,
+      "question_ja": "逆に、これはちょっと…という要素は？（複数選択可・任意）",
+      "category": "negative",
+      "type": "multi",
+      "options": [
+        {
+          "id": "a",
+          "label_ja": "三角関係・ドロドロ系",
+          "tags": ["三角関係", "禁断の恋"]
+        },
+        {
+          "id": "b",
+          "label_ja": "重め・ダーク展開",
+          "tags": ["シリアス", "重め", "ダーク"]
+        },
+        {
+          "id": "c",
+          "label_ja": "18+・濃厚描写",
+          "tags": ["18+シーンあり", "濃厚描写あり", "情熱的"]
+        },
+        {
+          "id": "d",
+          "label_ja": "校園・学生が中心",
+          "tags": ["校園もの", "校園", "校園GL"]
+        },
+        {
+          "id": "z",
+          "label_ja": "特になし",
+          "tags": []
+        }
+      ]
     }
   ]
 }

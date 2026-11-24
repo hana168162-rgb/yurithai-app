@@ -108,6 +108,11 @@ export default function BlogPostPage({
         <header className="mb-10 md:mb-12">
           <p className="text-[13px] md:text-xs text-yuri-muted mb-3 tracking-wider">
             {formatDate(post.date)}
+            {post.updated && post.updated !== post.date && (
+              <span className="ml-2 text-yuri-muted/80">
+                （最終更新: {formatDate(post.updated)}）
+              </span>
+            )}
           </p>
           <h1 className="text-[26px] md:text-[34px] font-display font-bold text-yuri-ink leading-[1.45] mb-4">
             {post.title}

@@ -10,7 +10,8 @@ export interface BlogPostMeta {
   slug: string;
   title: string;
   description: string;
-  date: string;          // "YYYY-MM-DD"
+  date: string;          // "YYYY-MM-DD" — 公開日
+  updated: string | null; // "YYYY-MM-DD" — 最終更新日（未設定時は null）
   category: string;
   tags: string[];
   cover_image: string | null;
@@ -33,6 +34,7 @@ function readPostFile(filename: string): BlogPost | null {
     title: (data.title as string) ?? slug,
     description: (data.description as string) ?? "",
     date: (data.date as string) ?? "1970-01-01",
+    updated: (data.updated as string | null) ?? null,
     category: (data.category as string) ?? "other",
     tags: Array.isArray(data.tags) ? (data.tags as string[]) : [],
     cover_image: (data.cover_image as string | null) ?? null,
@@ -52,6 +54,7 @@ export function getAllBlogPosts(): BlogPostMeta[] {
       title: p.title,
       description: p.description,
       date: p.date,
+      updated: p.updated,
       category: p.category,
       tags: p.tags,
       cover_image: p.cover_image,

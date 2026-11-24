@@ -178,9 +178,15 @@ export interface Actress {
   nationality: string | null;   // 国籍（例：Thai, Thai-British）
   height_cm: number | null;     // 身長 cm
   filmography: string[];        // 出演作品
-  agency: string | null;        // 所属
+  agency: string | null;        // 所属（現在）
   instagram: string | null;
   notes?: string | null;        // 補足情報（例：元BNK48、ハーフ、特技 等）
+  /** 所属ペア名（pairs.json から自動補完、例: ["FreenBecky"]）*/
+  pair_names?: string[];
+  /** 過去所属履歴（例: ["IDOLFACTORY (2021-2026)"]）*/
+  past_agencies?: string[];
+  /** 受賞歴（例: ["GQ Men of the Year 2026 - Global Thai Rising Star"]）*/
+  awards?: string[];
 }
 
 // =============================================

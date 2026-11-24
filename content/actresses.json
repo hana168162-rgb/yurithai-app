@@ -16,7 +16,13 @@
     ],
     "agency": "Solenn Entertainment",
     "instagram": "srchafreen",
-    "name_en": "Freen"
+    "name_en": "Freen",
+    "pair_names": [
+      "FreenBecky"
+    ],
+    "past_agencies": [
+      "IDOLFACTORY (〜2026年)"
+    ]
   },
   {
     "id": "becky",
@@ -34,7 +40,13 @@
     ],
     "agency": "Becky Entertainment",
     "instagram": "beccca",
-    "name_en": "Becky"
+    "name_en": "Becky",
+    "pair_names": [
+      "FreenBecky"
+    ],
+    "past_agencies": [
+      "IDOLFACTORY (〜2026年)"
+    ]
   },
   {
     "id": "ling",
@@ -50,7 +62,10 @@
     ],
     "agency": "Channel 3",
     "instagram": "linglingkwong",
-    "name_en": "LingLing"
+    "name_en": "LingLing",
+    "pair_names": [
+      "LingOrm"
+    ]
   },
   {
     "id": "orm",
@@ -66,7 +81,10 @@
     ],
     "agency": "Channel 3",
     "instagram": "orm.kornnaphat",
-    "name_en": "Orm"
+    "name_en": "Orm",
+    "pair_names": [
+      "LingOrm"
+    ]
   },
   {
     "id": "milk",
@@ -85,7 +103,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "panly.v",
-    "name_en": "Milk"
+    "name_en": "Milk",
+    "pair_names": [
+      "MilkLove"
+    ]
   },
   {
     "id": "love",
@@ -104,7 +125,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "loverrukk",
-    "name_en": "Love"
+    "name_en": "Love",
+    "pair_names": [
+      "MilkLove"
+    ]
   },
   {
     "id": "namtan",
@@ -122,7 +146,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "namtan.tipnaree",
-    "name_en": "Namtan"
+    "name_en": "Namtan",
+    "pair_names": [
+      "NamtanFilm"
+    ]
   },
   {
     "id": "film",
@@ -140,7 +167,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "fr.racha",
-    "name_en": "Film"
+    "name_en": "Film",
+    "pair_names": [
+      "NamtanFilm"
+    ]
   },
   {
     "id": "faye",
@@ -158,7 +188,11 @@
     ],
     "agency": "Fabel Entertainment",
     "instagram": "faye",
-    "name_en": "Faye"
+    "name_en": "Faye",
+    "pair_names": [
+      "FayeYoko",
+      "FayeAtom"
+    ]
   },
   {
     "id": "yoko",
@@ -175,7 +209,10 @@
     ],
     "agency": "フリー",
     "instagram": "yoko",
-    "name_en": "Yoko"
+    "name_en": "Yoko",
+    "pair_names": [
+      "FayeYoko"
+    ]
   },
   {
     "id": "lookmhee",
@@ -192,7 +229,10 @@
     ],
     "agency": "CHANGE2561",
     "instagram": "lmlookmhee",
-    "name_en": "Lookmhee"
+    "name_en": "Lookmhee",
+    "pair_names": [
+      "LMSY"
+    ]
   },
   {
     "id": "sonya",
@@ -210,7 +250,10 @@
     ],
     "agency": "CHANGE2561",
     "instagram": "sonyasarann",
-    "name_en": "Sonya"
+    "name_en": "Sonya",
+    "pair_names": [
+      "LMSY"
+    ]
   },
   {
     "id": "engfa",
@@ -229,7 +272,10 @@
     ],
     "agency": "個人事務所",
     "instagram": "fa_engfa8",
-    "name_en": "Engfa"
+    "name_en": "Engfa",
+    "pair_names": [
+      "EngLot"
+    ]
   },
   {
     "id": "charlotte",
@@ -248,7 +294,10 @@
     ],
     "agency": "個人事務所",
     "instagram": "itscharlotty",
-    "name_en": "Charlotte"
+    "name_en": "Charlotte",
+    "pair_names": [
+      "EngLot"
+    ]
   },
   {
     "id": "kao",
@@ -263,7 +312,10 @@
     ],
     "agency": "フリー",
     "instagram": "supassra_sp",
-    "name_en": "Kao"
+    "name_en": "Kao",
+    "pair_names": [
+      "KaoJane"
+    ]
   },
   {
     "id": "jane",
@@ -279,7 +331,10 @@
     "agency": "TB Entertainment",
     "instagram": "janeeyeh",
     "name_en": "Jane",
-    "notes": "2026 年 8 月 TB Entertainment（@tb_entofficial）へ移籍。"
+    "notes": "2026 年 8 月 TB Entertainment（@tb_entofficial）へ移籍。",
+    "pair_names": [
+      "KaoJane"
+    ]
   },
   {
     "id": "grace",
@@ -294,7 +349,10 @@
     ],
     "agency": "フリー",
     "instagram": "gracebudsarin",
-    "name_en": "Grace"
+    "name_en": "Grace",
+    "pair_names": [
+      "GraceOaey"
+    ]
   },
   {
     "id": "oaey",
@@ -309,7 +367,10 @@
     ],
     "agency": "フリー",
     "instagram": "oaey.ponchanok",
-    "name_en": "Oaey"
+    "name_en": "Oaey",
+    "pair_names": [
+      "GraceOaey"
+    ]
   },
   {
     "id": "lena",
@@ -325,7 +386,10 @@
     ],
     "agency": "Channel 3",
     "instagram": "lalinalena",
-    "name_en": "Lena"
+    "name_en": "Lena",
+    "pair_names": [
+      "LenaMiu"
+    ]
   },
   {
     "id": "miu",
@@ -341,7 +405,10 @@
     ],
     "agency": "Channel 3",
     "instagram": "mmiunatshaa",
-    "name_en": "Miu"
+    "name_en": "Miu",
+    "pair_names": [
+      "LenaMiu"
+    ]
   },
   {
     "id": "lilly",
@@ -357,7 +424,10 @@
     ],
     "agency": "CHANGE2561",
     "instagram": "lilly_nicha",
-    "name_en": "Lilly"
+    "name_en": "Lilly",
+    "pair_names": [
+      "LillyBelle"
+    ]
   },
   {
     "id": "atom",
@@ -373,7 +443,10 @@
     ],
     "agency": "Fabel Entertainment",
     "instagram": "atomprys",
-    "name_en": "Atom"
+    "name_en": "Atom",
+    "pair_names": [
+      "FayeAtom"
+    ]
   },
   {
     "id": "belle",
@@ -389,7 +462,10 @@
     ],
     "agency": "CHANGE2561",
     "instagram": "bellejirat",
-    "name_en": "Belle"
+    "name_en": "Belle",
+    "pair_names": [
+      "LillyBelle"
+    ]
   },
   {
     "id": "emi",
@@ -425,7 +501,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "emiamily",
-    "name_en": "Emi"
+    "name_en": "Emi",
+    "pair_names": [
+      "EmiBonnie"
+    ]
   },
   {
     "id": "bonnie",
@@ -444,7 +523,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "beonnnie",
-    "name_en": "Bonnie"
+    "name_en": "Bonnie",
+    "pair_names": [
+      "EmiBonnie"
+    ]
   },
   {
     "id": "apple",
@@ -472,7 +554,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "applelapisara",
-    "name_en": "Apple"
+    "name_en": "Apple",
+    "pair_names": [
+      "AppleMim"
+    ]
   },
   {
     "id": "mim",
@@ -489,7 +574,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "mimu.p",
-    "name_en": "Mim"
+    "name_en": "Mim",
+    "pair_names": [
+      "AppleMim"
+    ]
   },
   {
     "id": "ginny",
@@ -506,7 +594,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "ginnynatnicha",
-    "name_en": "Ginny"
+    "name_en": "Ginny",
+    "pair_names": [
+      "GinJay"
+    ]
   },
   {
     "id": "jayna",
@@ -523,7 +614,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "aangelinaa.ss",
-    "name_en": "Jayna"
+    "name_en": "Jayna",
+    "pair_names": [
+      "GinJay"
+    ]
   },
   {
     "id": "tangkwa",
@@ -538,7 +632,10 @@
     ],
     "agency": "S.NUR Entertainment",
     "instagram": "phinyanech.h",
-    "name_en": "Tangkwa"
+    "name_en": "Tangkwa",
+    "pair_names": [
+      "TKNur"
+    ]
   },
   {
     "id": "nur",
@@ -554,7 +651,10 @@
     ],
     "agency": "S.NUR Entertainment",
     "instagram": "nurdesoraya",
-    "name_en": "Nur"
+    "name_en": "Nur",
+    "pair_names": [
+      "TKNur"
+    ]
   },
   {
     "id": "tan",
@@ -571,7 +671,11 @@
     "agency": null,
     "instagram": "tanytannn",
     "notes": "Channel 3 所属。Play Park（2026）で TanYada ペアとして出演後、Love Me to Hurt Me（2026）で Yuyu と TanYuyu ペア主演。",
-    "name_en": "Tan"
+    "name_en": "Tan",
+    "pair_names": [
+      "TanYada",
+      "TanYuyu"
+    ]
   },
   {
     "id": "yada",
@@ -590,7 +694,10 @@
     "agency": null,
     "instagram": "yadarilya",
     "notes": "Play Park（2026）主演。2026年6月2日、Channel 3公式アナウンスによりTanとのペア活動を双方合意のうえで終了。本人IGで「自分の決断」「良い方向への大切な一歩」と説明。俳優活動は継続",
-    "name_en": "Yada"
+    "name_en": "Yada",
+    "pair_names": [
+      "TanYada"
+    ]
   },
   {
     "id": "oom",
@@ -608,7 +715,10 @@
     ],
     "agency": "Channel 3",
     "instagram": "oomeisaya",
-    "name_en": "Oom"
+    "name_en": "Oom",
+    "pair_names": [
+      "OomBam"
+    ]
   },
   {
     "id": "bam",
@@ -624,7 +734,10 @@
     ],
     "agency": "Channel 3",
     "instagram": "bbam_s",
-    "name_en": "Bam"
+    "name_en": "Bam",
+    "pair_names": [
+      "OomBam"
+    ]
   },
   {
     "id": "jan",
@@ -644,7 +757,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "janhae",
-    "name_en": "Jan"
+    "name_en": "Jan",
+    "pair_names": [
+      "JanJingJing"
+    ]
   },
   {
     "id": "jingjing",
@@ -665,7 +781,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "jingjingyu36",
-    "name_en": "JingJing"
+    "name_en": "JingJing",
+    "pair_names": [
+      "JanJingJing"
+    ]
   },
   {
     "id": "pundao",
@@ -681,7 +800,10 @@
     ],
     "agency": "Motion Minds Entertainment",
     "instagram": "_pundao",
-    "name_en": "Pundao"
+    "name_en": "Pundao",
+    "pair_names": [
+      "ShellyPundao"
+    ]
   },
   {
     "id": "neko",
@@ -722,7 +844,10 @@
     ],
     "agency": "Motion Minds Entertainment",
     "instagram": "shellybenda",
-    "name_en": "Shelly"
+    "name_en": "Shelly",
+    "pair_names": [
+      "ShellyPundao"
+    ]
   },
   {
     "id": "pitcha",
@@ -745,7 +870,10 @@
     ],
     "agency": "Siblings",
     "instagram": "pitchaaaa_s",
-    "name_en": "Pitcha"
+    "name_en": "Pitcha",
+    "pair_names": [
+      "NattPitcha"
+    ]
   },
   {
     "id": "natt",
@@ -762,7 +890,10 @@
     ],
     "agency": "Artist Manager Kedsavara_kob",
     "instagram": "nkwww",
-    "name_en": "Natt"
+    "name_en": "Natt",
+    "pair_names": [
+      "NattPitcha"
+    ]
   },
   {
     "id": "aya",
@@ -777,7 +908,10 @@
     ],
     "agency": "Me Mind Y",
     "instagram": "ayaorapan",
-    "name_en": "Aya"
+    "name_en": "Aya",
+    "pair_names": [
+      "MieAya"
+    ]
   },
   {
     "id": "mie",
@@ -793,7 +927,10 @@
     ],
     "agency": "Me Mind Y",
     "instagram": "miephat",
-    "name_en": "Mie"
+    "name_en": "Mie",
+    "pair_names": [
+      "MieAya"
+    ]
   },
   {
     "id": "june",
@@ -806,7 +943,10 @@
     "filmography": [],
     "agency": "GMMTV",
     "instagram": "junewanwimol19",
-    "name_en": "June"
+    "name_en": "June",
+    "pair_names": [
+      "JuneMewnich"
+    ]
   },
   {
     "id": "mewnich",
@@ -821,7 +961,11 @@
     ],
     "agency": "GMMTV",
     "instagram": "mewnich.nannaphas",
-    "name_en": "Mewnich"
+    "name_en": "Mewnich",
+    "pair_names": [
+      "JuneMewnich",
+      "MewnichJaoying"
+    ]
   },
   {
     "id": "pahn",
@@ -837,7 +981,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "pahnthitta",
-    "name_en": "Pahn"
+    "name_en": "Pahn",
+    "pair_names": [
+      "PahnFond"
+    ]
   },
   {
     "id": "fond",
@@ -853,7 +1000,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "fondnatticha",
-    "name_en": "Fond"
+    "name_en": "Fond",
+    "pair_names": [
+      "PahnFond"
+    ]
   },
   {
     "id": "view",
@@ -870,7 +1020,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "view.benyapa",
-    "name_en": "View"
+    "name_en": "View",
+    "pair_names": [
+      "ViewMim"
+    ]
   },
   {
     "id": "mim-r",
@@ -887,7 +1040,10 @@
     ],
     "agency": "GMMTV",
     "instagram": "mim.rattanawadee",
-    "name_en": "Mim"
+    "name_en": "Mim",
+    "pair_names": [
+      "ViewMim"
+    ]
   },
   {
     "id": "renee",
@@ -902,7 +1058,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "reneeveronicaa",
-    "name_en": "Renee"
+    "name_en": "Renee",
+    "pair_names": [
+      "MewRenee"
+    ]
   },
   {
     "id": "mew",
@@ -917,7 +1076,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "khunmewwww",
-    "name_en": "Mew"
+    "name_en": "Mew",
+    "pair_names": [
+      "MewRenee"
+    ]
   },
   {
     "id": "namneung",
@@ -933,7 +1095,10 @@
     "agency": "IDOLFACTORY × North Star Entertainment",
     "instagram": "milin.dokthian",
     "notes": "元BNK48 1期生",
-    "name_en": "Namneung"
+    "name_en": "Namneung",
+    "pair_names": [
+      "NamneungNoey"
+    ]
   },
   {
     "id": "noey",
@@ -949,7 +1114,10 @@
     "agency": "IDOLFACTORY × North Star Entertainment",
     "instagram": "noeyyyy.kw",
     "notes": "元BNK48 1期生",
-    "name_en": "Noey"
+    "name_en": "Noey",
+    "pair_names": [
+      "NamneungNoey"
+    ]
   },
   {
     "id": "mable",
@@ -965,7 +1133,10 @@
     "agency": "Mine Media Production",
     "instagram": "mable_siriwalee",
     "name_en": "Mable",
-    "notes": "BleJie ペアの Mable。Mine Media Production 所属、ClaireBell（2025）で主演デビュー。"
+    "notes": "BleJie ペアの Mable。Mine Media Production 所属、ClaireBell（2025）で主演デビュー。",
+    "pair_names": [
+      "BleJie"
+    ]
   },
   {
     "id": "pangjie",
@@ -981,7 +1152,10 @@
     "agency": "Mine Media Production",
     "instagram": "pangjiewr",
     "name_en": "Pangjie",
-    "notes": "BleJie ペアの Pangjie。Mine Media Production 所属、ClaireBell（2025）で主演デビュー。"
+    "notes": "BleJie ペアの Pangjie。Mine Media Production 所属、ClaireBell（2025）で主演デビュー。",
+    "pair_names": [
+      "BleJie"
+    ]
   },
   {
     "id": "enjoy",
@@ -996,7 +1170,10 @@
     ],
     "agency": "WeTV / フリー",
     "instagram": "enjoyyotdr",
-    "name_en": "Enjoy"
+    "name_en": "Enjoy",
+    "pair_names": [
+      "EnjoyJune"
+    ]
   },
   {
     "id": "june-n",
@@ -1012,7 +1189,10 @@
     "agency": "WeTV / フリー",
     "instagram": "june_nannirin",
     "notes": "EnjoyJune ペアのジューン。JuneMewnich の June Wanwimol とは別人。",
-    "name_en": "June"
+    "name_en": "June",
+    "pair_names": [
+      "EnjoyJune"
+    ]
   },
   {
     "id": "fay",
@@ -1028,7 +1208,10 @@
     ],
     "agency": "FayMay Entertainment",
     "instagram": "fay_riezz",
-    "name_en": "Fay"
+    "name_en": "Fay",
+    "pair_names": [
+      "FayMay"
+    ]
   },
   {
     "id": "may",
@@ -1044,7 +1227,10 @@
     ],
     "agency": "FayMay Entertainment",
     "instagram": "maywyda",
-    "name_en": "May"
+    "name_en": "May",
+    "pair_names": [
+      "FayMay"
+    ]
   },
   {
     "id": "ormsin",
@@ -1062,7 +1248,10 @@
     "agency": "Two Worlds Production",
     "instagram": "omeormorm",
     "notes": "OrmFolk ペアの Orm。LingOrm の Orm とは別人。",
-    "name_en": "Ormsin"
+    "name_en": "Ormsin",
+    "pair_names": [
+      "OrmFolk"
+    ]
   },
   {
     "id": "folk",
@@ -1079,7 +1268,10 @@
     ],
     "agency": "Two Worlds Production",
     "instagram": "ffolky",
-    "name_en": "Folk"
+    "name_en": "Folk",
+    "pair_names": [
+      "OrmFolk"
+    ]
   },
   {
     "id": "ice",
@@ -1095,7 +1287,10 @@
     "agency": "フリー",
     "instagram": "ice_amena",
     "notes": "PLAYER で GL デビュー。",
-    "name_en": "Ice"
+    "name_en": "Ice",
+    "pair_names": [
+      "IceMemi"
+    ]
   },
   {
     "id": "memi",
@@ -1110,7 +1305,10 @@
     ],
     "agency": "フリー",
     "instagram": "memibae",
-    "name_en": "Memi"
+    "name_en": "Memi",
+    "pair_names": [
+      "IceMemi"
+    ]
   },
   {
     "id": "tungpang",
@@ -1126,7 +1324,10 @@
     ],
     "agency": "Monomax",
     "instagram": "tungpangpl",
-    "name_en": "Tungpang"
+    "name_en": "Tungpang",
+    "pair_names": [
+      "TungpangJessie"
+    ]
   },
   {
     "id": "jessie",
@@ -1142,7 +1343,10 @@
     ],
     "agency": "Monomax",
     "instagram": "jessienatsiya.p",
-    "name_en": "Jessie"
+    "name_en": "Jessie",
+    "pair_names": [
+      "TungpangJessie"
+    ]
   },
   {
     "id": "christine",
@@ -1157,7 +1361,10 @@
     ],
     "agency": "Kantana / Channel 3",
     "instagram": null,
-    "name_en": "Christine"
+    "name_en": "Christine",
+    "pair_names": [
+      "ChristineMae"
+    ]
   },
   {
     "id": "mae",
@@ -1173,7 +1380,10 @@
     "agency": "Kantana / Channel 3",
     "instagram": null,
     "notes": "Reverse 4 You の Mae。FayMay の May とは別人。",
-    "name_en": "Mae"
+    "name_en": "Mae",
+    "pair_names": [
+      "ChristineMae"
+    ]
   },
   {
     "id": "arhoung",
@@ -1188,7 +1398,10 @@
     ],
     "agency": "WeTV / フリー",
     "instagram": "arhoungg",
-    "name_en": "Arhoung"
+    "name_en": "Arhoung",
+    "pair_names": [
+      "ArhoungPam"
+    ]
   },
   {
     "id": "pam",
@@ -1203,7 +1416,10 @@
     ],
     "agency": "WeTV / フリー",
     "instagram": "ppammelar",
-    "name_en": "Pam"
+    "name_en": "Pam",
+    "pair_names": [
+      "ArhoungPam"
+    ]
   },
   {
     "id": "praifah",
@@ -1218,7 +1434,10 @@
     ],
     "agency": "Kongthup Production",
     "instagram": "praifahkrp",
-    "name_en": "Praifah"
+    "name_en": "Praifah",
+    "pair_names": [
+      "PraifahBebell"
+    ]
   },
   {
     "id": "bebell",
@@ -1233,7 +1452,10 @@
     ],
     "agency": "Kongthup Production",
     "instagram": "bebell.q",
-    "name_en": "Bebell"
+    "name_en": "Bebell",
+    "pair_names": [
+      "PraifahBebell"
+    ]
   },
   {
     "id": "nile",
@@ -1248,7 +1470,10 @@
     ],
     "agency": "CHANGE2561",
     "instagram": "nilechanii",
-    "name_en": "Nile"
+    "name_en": "Nile",
+    "pair_names": [
+      "NileNamwan"
+    ]
   },
   {
     "id": "namwan",
@@ -1263,7 +1488,10 @@
     ],
     "agency": "CHANGE2561",
     "instagram": "namwantrbl",
-    "name_en": "Namwan"
+    "name_en": "Namwan",
+    "pair_names": [
+      "NileNamwan"
+    ]
   },
   {
     "id": "praewa",
@@ -1281,7 +1509,11 @@
     "agency": "Star Hunter Entertainment",
     "instagram": "praewa.era",
     "notes": "Star Hunter Entertainment所属。Love Senior（2023）のサブカップル → Hidden Heart（2026）でメイン昇格。NoonPraewaペア。",
-    "name_en": "Praewa"
+    "name_en": "Praewa",
+    "pair_names": [
+      "AndaPraewa",
+      "NoonPraewa"
+    ]
   },
   {
     "id": "noon",
@@ -1298,7 +1530,10 @@
     "agency": "Star Hunter Entertainment",
     "instagram": "noonntyp",
     "notes": "Star Hunter Entertainment所属。Love Senior（2023）のサブカップル → Hidden Heart（2026）でメイン昇格。NoonPraewaペア。",
-    "name_en": "Noon"
+    "name_en": "Noon",
+    "pair_names": [
+      "NoonPraewa"
+    ]
   },
   {
     "id": "aphichaya",
@@ -1347,7 +1582,11 @@
     "agency": "Star Hunter Entertainment",
     "instagram": "anda_anunta",
     "notes": "タイ・ガールズグループ COSMOS（Star Hunter Entertainment所属）メンバー。Love SeniorでGLデビュー。",
-    "name_en": "Anda"
+    "name_en": "Anda",
+    "pair_names": [
+      "AndaLookkaew",
+      "AndaPraewa"
+    ]
   },
   {
     "id": "lookkaew",
@@ -1363,7 +1602,10 @@
     "agency": "Star Hunter Entertainment",
     "instagram": "lookkaeww_k",
     "notes": "タイ・ガールズグループ COSMOS（Star Hunter Entertainment所属）メンバー。Love SeniorでGLデビュー。",
-    "name_en": "Lookkaew"
+    "name_en": "Lookkaew",
+    "pair_names": [
+      "AndaLookkaew"
+    ]
   },
   {
     "id": "mook",
@@ -1380,7 +1622,10 @@
     "agency": "フリー",
     "instagram": "mookyyy_napapach",
     "notes": "I Am Devil で悪役女優ムックマニー役を演じ、MookPinkペアでブレイク。",
-    "name_en": "Mooky"
+    "name_en": "Mooky",
+    "pair_names": [
+      "MookPink"
+    ]
   },
   {
     "id": "pinky",
@@ -1397,7 +1642,10 @@
     "agency": "フリー",
     "instagram": "kyky_gggggggg",
     "notes": "I Am Devil でプランダオ役。MookPinkペア。",
-    "name_en": "Pinky"
+    "name_en": "Pinky",
+    "pair_names": [
+      "MookPink"
+    ]
   },
   {
     "id": "bmine",
@@ -1415,7 +1663,11 @@
     "agency": "フリー",
     "instagram": "maybebmine",
     "notes": "Lucky My Love、Unlock Your Love、Losing Controlで主演級。",
-    "name_en": "B Mine"
+    "name_en": "B Mine",
+    "pair_names": [
+      "BMineMashi",
+      "BMineNear"
+    ]
   },
   {
     "id": "near",
@@ -1432,7 +1684,10 @@
     "agency": "フリー",
     "instagram": null,
     "notes": "BMineNearペアの相方。",
-    "name_en": "Near"
+    "name_en": "Near",
+    "pair_names": [
+      "BMineNear"
+    ]
   },
   {
     "id": "mashi",
@@ -1448,7 +1703,10 @@
     "agency": "K11D HOUSE",
     "instagram": "amekkhala9",
     "notes": "BMineMashiペアでLosing Controlに出演。",
-    "name_en": "Mashi"
+    "name_en": "Mashi",
+    "pair_names": [
+      "BMineMashi"
+    ]
   },
   {
     "id": "mook-w",
@@ -1464,7 +1722,10 @@
     "agency": "FRT Entertainment",
     "instagram": "mookworranit",
     "notes": "SHADESでナリン役。MookPinkyのMookとは別人。",
-    "name_en": "Mook"
+    "name_en": "Mook",
+    "pair_names": [
+      "MookShu"
+    ]
   },
   {
     "id": "shu",
@@ -1480,7 +1741,10 @@
     "agency": "FRT Entertainment",
     "instagram": "shuu.nc",
     "notes": "SHADESでミンク役。",
-    "name_en": "Shu"
+    "name_en": "Shu",
+    "pair_names": [
+      "MookShu"
+    ]
   },
   {
     "id": "kitty",
@@ -1496,7 +1760,10 @@
     "agency": "K11D HOUSE",
     "instagram": "hellokitty_.kt",
     "notes": "KittyPunchペア。K11D HOUSE所属。",
-    "name_en": "Kitty"
+    "name_en": "Kitty",
+    "pair_names": [
+      "KittyPunch"
+    ]
   },
   {
     "id": "punch",
@@ -1512,7 +1779,10 @@
     "agency": "K11D HOUSE",
     "instagram": "punchsmoothie",
     "notes": "KittyPunchペア。K11D HOUSE所属。",
-    "name_en": "Punch"
+    "name_en": "Punch",
+    "pair_names": [
+      "KittyPunch"
+    ]
   },
   {
     "id": "mayyu",
@@ -1528,7 +1798,10 @@
     "agency": "Me Mind Y",
     "instagram": "calledmemyyu.k",
     "notes": "MayyuChanyaペア。AI Girl Series（2026/7/1〜）で Gen 役（内向的な AI 顔デザイナー）として主演デビュー。",
-    "name_en": "Mayyu"
+    "name_en": "Mayyu",
+    "pair_names": [
+      "MayyuChanya"
+    ]
   },
   {
     "id": "chanya",
@@ -1545,7 +1818,10 @@
     "agency": "Me Mind Y",
     "instagram": "chanyaduval",
     "notes": "MayyuChanyaペア。タイ・フランスのミックスルーツ（チェンマイ出身、旧名 Sophie Chanya Thanasinsunthorn）。タイ語とフランス語のバイリンガル。Love Sea（2024）でモデル兼俳優デビュー後、AI Girl Series（2026）で Ai 役（人型AIロボット）に主演。",
-    "name_en": "Chanya"
+    "name_en": "Chanya",
+    "pair_names": [
+      "MayyuChanya"
+    ]
   },
   {
     "id": "diana",
@@ -1565,7 +1841,10 @@
     "agency": "S Class Entertainment",
     "instagram": "dianaflipo",
     "notes": "DianaYoshiペア。タイ・フランスのミックスルーツ（ウドンタニ出身）。双子の兄 Maxim あり。2014年「Samee Tee Tra」でラコーン女優デビューしたベテランで、Hak Na My Boss（2026予定）が GL 主演初挑戦。S Class Entertainment 所属。",
-    "name_en": "Diana"
+    "name_en": "Diana",
+    "pair_names": [
+      "DianaYoshi"
+    ]
   },
   {
     "id": "yoshi",
@@ -1583,7 +1862,10 @@
     "agency": null,
     "instagram": "yoshirinrada",
     "notes": "DianaYoshiペア。ロイエット県出身。Miss Tiffany's Universe 2017（タイ最高峰のトランスジェンダー美の祭典）優勝者として知られるトランス女優。The Sign（2023）、Gen Y（2020）出演を経て、Hak Na My Boss（2026予定）で GL 主演に挑戦。Instagram フォロワー約100万。",
-    "name_en": "Yoshi"
+    "name_en": "Yoshi",
+    "pair_names": [
+      "DianaYoshi"
+    ]
   },
   {
     "id": "nene",
@@ -1599,7 +1881,10 @@
     "agency": "Pro Gold",
     "instagram": "thanchanok_nene",
     "notes": "NeneKhaimookペア。Pro Gold所属の実力派タイ女優（Instagram verified）。Since Norita（2026予定）で Rita-Frey 役の主演 GL に挑戦。",
-    "name_en": "Nene"
+    "name_en": "Nene",
+    "pair_names": [
+      "NeneKhaimook"
+    ]
   },
   {
     "id": "khaimook",
@@ -1615,7 +1900,10 @@
     "agency": "Pro Gold",
     "instagram": "khaimooxs",
     "notes": "NeneKhaimookペア。Since Norita（2026予定）で Phiang Khwan 役（時代パート）に主演。「ไข่มุก」は「真珠」の意味で、タイ女性のニックネームとして一般的。",
-    "name_en": "Khaimook"
+    "name_en": "Khaimook",
+    "pair_names": [
+      "NeneKhaimook"
+    ]
   },
   {
     "id": "bint",
@@ -1631,7 +1919,10 @@
     "agency": "Star Hunter Entertainment",
     "instagram": "bintsireethorn",
     "notes": "Miss Thailand 2019、Miss International 2019 優勝（タイ人初の Miss International 制覇、歴代最長在位）。Mahidol 大学薬剤学部卒の薬剤師出身。俳優としては Star Hunter Entertainment 所属、2026 年 9 月 Khom Khlang（ข่มขลัง）で GL 主演デビュー、Puinoon Warangsiri（@pn.noonn）と PuinoonBint ペア結成。",
-    "name_en": "Bint"
+    "name_en": "Bint",
+    "pair_names": [
+      "PuinoonBint"
+    ]
   },
   {
     "id": "chacha",
@@ -1679,7 +1970,10 @@
     "agency": "COPY A BANGKOK",
     "instagram": "natty_ntm",
     "notes": "NattyYeepun ペアの Natty。Frozen Valentine（2026）で主演。",
-    "name_en": "Natty"
+    "name_en": "Natty",
+    "pair_names": [
+      "NattyYeepun"
+    ]
   },
   {
     "id": "yeepun",
@@ -1695,7 +1989,10 @@
     "agency": "COPY A BANGKOK",
     "instagram": "yeepunns",
     "notes": "NattyYeepun ペアの Yeepun。Frozen Valentine（2026）で主演。",
-    "name_en": "Yeepun"
+    "name_en": "Yeepun",
+    "pair_names": [
+      "NattyYeepun"
+    ]
   },
   {
     "id": "prigkhing",
@@ -1711,7 +2008,10 @@
     "agency": "Channel 3",
     "instagram": "prigkhing_",
     "notes": "PrigkhingFah ペアの Prigkhing。Like A Palette（2025）で大学の『悪役にしか見えない先輩』Dai 役を主演。",
-    "name_en": "Prigkhing"
+    "name_en": "Prigkhing",
+    "pair_names": [
+      "PrigkhingFah"
+    ]
   },
   {
     "id": "tongfa",
@@ -1727,7 +2027,10 @@
     "agency": "フリー",
     "instagram": "fromyourskyy",
     "notes": "PrigkhingFah ペアの Tongfa（ニックネーム『Fah』とも）。Like A Palette（2025）で主人公 Jen 役を主演。",
-    "name_en": "Tongfa"
+    "name_en": "Tongfa",
+    "pair_names": [
+      "PrigkhingFah"
+    ]
   },
   {
     "id": "meena",
@@ -1743,7 +2046,10 @@
     "agency": "MGI Beyond",
     "instagram": "meenaxrina",
     "notes": "MeenBabe ペアの Meena。MGI Beyond 所属。Under Her Rules（2026 workshop 開始）で主演予定。",
-    "name_en": "Meena"
+    "name_en": "Meena",
+    "pair_names": [
+      "MeenBabe"
+    ]
   },
   {
     "id": "aoom",
@@ -1759,7 +2065,10 @@
     "agency": "MGI Beyond",
     "instagram": "aoomtwp",
     "notes": "MeenBabe ペアの Aoom。MGI Beyond 所属。Under Her Rules（2026 workshop 開始）で主演予定。",
-    "name_en": "Aoom"
+    "name_en": "Aoom",
+    "pair_names": [
+      "MeenBabe"
+    ]
   },
   {
     "id": "niky",
@@ -1775,7 +2084,10 @@
     "agency": "FRT Entertainment",
     "instagram": "youknowinever_",
     "notes": "NikyEngland ペアの Niky。SHADES で Belle 役として主演。",
-    "name_en": "Niky"
+    "name_en": "Niky",
+    "pair_names": [
+      "NikyEngland"
+    ]
   },
   {
     "id": "england",
@@ -1791,7 +2103,10 @@
     "agency": "FRT Entertainment",
     "instagram": "eng_lr39",
     "notes": "NikyEngland ペアの England。SHADES で Earn 役として主演。",
-    "name_en": "England"
+    "name_en": "England",
+    "pair_names": [
+      "NikyEngland"
+    ]
   },
   {
     "id": "opal",
@@ -1807,7 +2122,10 @@
     "agency": "FRT Entertainment",
     "instagram": "thepigwipa",
     "notes": "OpalMint ペアの Opal。SHADES で Amy 役として主演。",
-    "name_en": "Opal"
+    "name_en": "Opal",
+    "pair_names": [
+      "OpalMint"
+    ]
   },
   {
     "id": "mint-b",
@@ -1823,7 +2141,10 @@
     "agency": "FRT Entertainment",
     "instagram": "mmint.w",
     "notes": "OpalMint ペアの Mint。SHADES で Sophie 役として主演。",
-    "name_en": "Mint"
+    "name_en": "Mint",
+    "pair_names": [
+      "OpalMint"
+    ]
   },
   {
     "id": "puyfai",
@@ -1839,7 +2160,10 @@
     "agency": "FRT Entertainment",
     "instagram": "puyy_faii",
     "notes": "PuyfaiPloy ペアの Puyfai。SHADES で Jane 役として主演。",
-    "name_en": "Puyfai"
+    "name_en": "Puyfai",
+    "pair_names": [
+      "PuyfaiPloy"
+    ]
   },
   {
     "id": "ploy",
@@ -1855,7 +2179,10 @@
     "agency": "FRT Entertainment",
     "instagram": "jhutaa",
     "notes": "PuyfaiPloy ペアの Ploy。SHADES で Nano 役として主演。",
-    "name_en": "Ploy"
+    "name_en": "Ploy",
+    "pair_names": [
+      "PuyfaiPloy"
+    ]
   },
   {
     "id": "claudine",
@@ -1871,7 +2198,10 @@
     "agency": "Mandee Work",
     "instagram": "claudinecraig",
     "notes": "ClaudinePraew ペアの Claudine。Did You Know（รักครั้งไหนก็ใช่เธอ、2026 予定）で อทิตยา 役として主演。",
-    "name_en": "Claudine"
+    "name_en": "Claudine",
+    "pair_names": [
+      "ClaudinePraew"
+    ]
   },
   {
     "id": "praew",
@@ -1887,7 +2217,10 @@
     "agency": "Mandee Work",
     "instagram": "narupornkamol",
     "notes": "ClaudinePraew ペアの Praew（IG: narupornkamol）。Did You Know で นฤกรกมล 役として主演。AndaPraewa/NoonPraewa の Praewa Putticha とは別人。",
-    "name_en": "Praew"
+    "name_en": "Praew",
+    "pair_names": [
+      "ClaudinePraew"
+    ]
   },
   {
     "id": "anna",
@@ -1903,7 +2236,10 @@
     "agency": "Century UU Entertainment",
     "instagram": "annasnga_1o",
     "notes": "ThisaAnna ペアの Anna（แอนนา เสืองามเอี่ยม）。Love Above The Clouds（ลวงรักเกมเหนือเมฆ、2026 予定）で主演。",
-    "name_en": "Anna"
+    "name_en": "Anna",
+    "pair_names": [
+      "ThisaAnna"
+    ]
   },
   {
     "id": "thisa",
@@ -1919,7 +2255,10 @@
     "agency": "Century UU Entertainment",
     "instagram": "thivaritthisa",
     "notes": "ThisaAnna ペアの Thisa（ฐิสา วริฏฐิสา ลิ้มธรรมมหิศร）。Love Above The Clouds で主演。",
-    "name_en": "Thisa"
+    "name_en": "Thisa",
+    "pair_names": [
+      "ThisaAnna"
+    ]
   },
   {
     "id": "ing",
@@ -1935,7 +2274,10 @@
     "agency": "Mojo Muse Management",
     "instagram": "iingtanatcha",
     "notes": "IngCartoon ペアの Ing。Fairway of Love（รักออกรอบ、2026 予定）で主演。",
-    "name_en": "Ing"
+    "name_en": "Ing",
+    "pair_names": [
+      "IngCartoon"
+    ]
   },
   {
     "id": "cartoon",
@@ -1951,7 +2293,10 @@
     "agency": "Mojo Muse Management",
     "instagram": "cartoonkitty_ya",
     "notes": "IngCartoon ペアの Cartoon。Fairway of Love で主演。IG: @cartoonkitty_ya",
-    "name_en": "Cartoon"
+    "name_en": "Cartoon",
+    "pair_names": [
+      "IngCartoon"
+    ]
   },
   {
     "id": "minagi",
@@ -1967,7 +2312,10 @@
     "agency": "Mojo Muse Management",
     "instagram": "mina_minagi",
     "notes": "MinagiBam ペアの Minagi。Fairway of Love（2026 予定）でサブカップル。",
-    "name_en": "Minagi"
+    "name_en": "Minagi",
+    "pair_names": [
+      "MinagiBam"
+    ]
   },
   {
     "id": "bam-b",
@@ -1983,7 +2331,10 @@
     "agency": "Mojo Muse Management",
     "instagram": "bbbambiie",
     "notes": "MinagiBam ペアの Bam。Fairway of Love でサブカップル。Channel 3 の Bam（OomBam）とは別人。",
-    "name_en": "Bam"
+    "name_en": "Bam",
+    "pair_names": [
+      "MinagiBam"
+    ]
   },
   {
     "id": "ploy-chermarn",
@@ -2015,7 +2366,10 @@
     "agency": "IDX Entertainment",
     "instagram": "mulan.ss",
     "notes": "IDX Entertainment 所属。2025 年の Y Content Awards レッドカーペットで Kaimuk と初共演公式露出、2026 年 7 月に同社が両者をペアとして正式プロモート開始（Sawadee GL 経由）。Final Round（IDX 制作、GL × ムエタイ、2026 年内撮影開始予定）で主演デビュー予定。実名・生年月日など詳細プロフィールは公式未公開。",
-    "name_en": "Mulan"
+    "name_en": "Mulan",
+    "pair_names": [
+      "MulanKaimuk"
+    ]
   },
   {
     "id": "kaimuk",
@@ -2031,7 +2385,10 @@
     "agency": "IDX Entertainment",
     "instagram": "kaimuk.n",
     "notes": "IDX Entertainment 所属。2025 年の Y Content Awards レッドカーペットで Mulan と初共演公式露出、2026 年 7 月に同社が両者をペアとして正式プロモート開始（Sawadee GL 経由）。Final Round（IDX 制作、GL × ムエタイ、2026 年内撮影開始予定）で主演デビュー予定。実名・生年月日など詳細プロフィールは公式未公開。",
-    "name_en": "Kaimuk"
+    "name_en": "Kaimuk",
+    "pair_names": [
+      "MulanKaimuk"
+    ]
   },
   {
     "id": "puinoon",
@@ -2047,7 +2404,10 @@
     "agency": "Star Hunter Entertainment",
     "instagram": "pn.noonn",
     "notes": "PuinoonBint ペアの Puinoon。Star Hunter Entertainment 所属。Khom Khlang（ข่มขลัง）で主演。",
-    "name_en": "Puinoon"
+    "name_en": "Puinoon",
+    "pair_names": [
+      "PuinoonBint"
+    ]
   },
   {
     "id": "palm",
@@ -2064,7 +2424,10 @@
     "agency": "VelCurve Studio",
     "instagram": "ppalm_pr",
     "notes": "FriendPalm ペアの Palm。Love Design（2025）サブキャストから主演昇格予定。",
-    "name_en": "Palm"
+    "name_en": "Palm",
+    "pair_names": [
+      "FriendPalm"
+    ]
   },
   {
     "id": "friend",
@@ -2081,7 +2444,10 @@
     "agency": "VelCurve Studio",
     "instagram": "friend.tf",
     "notes": "FriendPalm ペアの Friend。Love Design（2025）サブキャストから主演昇格予定。",
-    "name_en": "Friend"
+    "name_en": "Friend",
+    "pair_names": [
+      "FriendPalm"
+    ]
   },
   {
     "id": "mingming",
@@ -2097,7 +2463,10 @@
     "agency": "OPEN LABEL",
     "instagram": "mingkanyas",
     "notes": "MingmingNepjune ペアの Mingming。OPEN LABEL 所属。Juliet & Juliet（2026-09-05 プレミア）で主演。",
-    "name_en": "Mingming"
+    "name_en": "Mingming",
+    "pair_names": [
+      "MingmingNepjune"
+    ]
   },
   {
     "id": "nepjune",
@@ -2113,7 +2482,10 @@
     "agency": "OPEN LABEL",
     "instagram": "nepjuneys",
     "notes": "MingmingNepjune ペアの Nepjune。OPEN LABEL 所属。Juliet & Juliet（2026-09-05 プレミア）で主演。",
-    "name_en": "Nepjune"
+    "name_en": "Nepjune",
+    "pair_names": [
+      "MingmingNepjune"
+    ]
   },
   {
     "id": "yuyu",
@@ -2129,7 +2501,10 @@
     "agency": "Channel 3",
     "instagram": "yuonc",
     "notes": "TanYuyu ペアの Yuyu。Channel 3 所属。Love Me to Hurt Me（2026）で主演。実名・生年月日など詳細は続報待ち。",
-    "name_en": "Yuyu"
+    "name_en": "Yuyu",
+    "pair_names": [
+      "TanYuyu"
+    ]
   },
   {
     "id": "ying-anada",
@@ -2209,7 +2584,10 @@
     ],
     "agency": "U Entertainment",
     "instagram": "spriteitsaree",
-    "notes": "SpritePiano ペアの Sprite。U Entertainment 所属。元アイドルグループ Wish Me（ESC Entertainment）メンバー。Bangkok University 出身。I'm Your Moon（2025）で GL 主演。"
+    "notes": "SpritePiano ペアの Sprite。U Entertainment 所属。元アイドルグループ Wish Me（ESC Entertainment）メンバー。Bangkok University 出身。I'm Your Moon（2025）で GL 主演。",
+    "pair_names": [
+      "SpritePiano"
+    ]
   },
   {
     "id": "piano-poranee",
@@ -2225,7 +2603,10 @@
     ],
     "agency": "U Entertainment",
     "instagram": "pianopyn._",
-    "notes": "SpritePiano ペアの Piano。U Entertainment 所属。I'm Your Moon（2025）で GL 主演。"
+    "notes": "SpritePiano ペアの Piano。U Entertainment 所属。I'm Your Moon（2025）で GL 主演。",
+    "pair_names": [
+      "SpritePiano"
+    ]
   },
   {
     "id": "bambam",
@@ -2241,7 +2622,10 @@
     ],
     "agency": "PENNYY Studio",
     "instagram": "doublebammm",
-    "notes": "BambamBaipor ペアの Bambam。PENNYY Studio 所属。Be My Angel（2026、iQIYI Original）で GL 主演。"
+    "notes": "BambamBaipor ペアの Bambam。PENNYY Studio 所属。Be My Angel（2026、iQIYI Original）で GL 主演。",
+    "pair_names": [
+      "BambamBaipor"
+    ]
   },
   {
     "id": "baipor",
@@ -2257,7 +2641,10 @@
     ],
     "agency": "PENNYY Studio",
     "instagram": "bbaiporuary",
-    "notes": "BambamBaipor ペアの Baipor。PENNYY Studio 所属。Be My Angel（2026、iQIYI Original）で GL 主演。"
+    "notes": "BambamBaipor ペアの Baipor。PENNYY Studio 所属。Be My Angel（2026、iQIYI Original）で GL 主演。",
+    "pair_names": [
+      "BambamBaipor"
+    ]
   },
   {
     "id": "garn",
@@ -2273,7 +2660,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "nhuugarnns",
-    "notes": "GarnMimie ペアの Garn。North Star Entertainment 所属。Third Person（2026-09-12 プレミア）で GL 主演デビュー、Kris 役。"
+    "notes": "GarnMimie ペアの Garn。North Star Entertainment 所属。Third Person（2026-09-12 プレミア）で GL 主演デビュー、Kris 役。",
+    "pair_names": [
+      "GarnMimie"
+    ]
   },
   {
     "id": "mimie",
@@ -2289,7 +2679,10 @@
     ],
     "agency": "North Star Entertainment",
     "instagram": "mimiebhapat",
-    "notes": "GarnMimie ペアの Mimie。North Star Entertainment 所属。Third Person（2026-09-12 プレミア）で GL 主演デビュー、Sun 役。"
+    "notes": "GarnMimie ペアの Mimie。North Star Entertainment 所属。Third Person（2026-09-12 プレミア）で GL 主演デビュー、Sun 役。",
+    "pair_names": [
+      "GarnMimie"
+    ]
   },
   {
     "id": "waifha",
@@ -2306,7 +2699,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "Oxytoxin（GMMTV × G24、2026-11-07 プレミア）で Junjai 役。詳細は続報待ち。"
+    "notes": "Oxytoxin（GMMTV × G24、2026-11-07 プレミア）で Junjai 役。詳細は続報待ち。",
+    "pair_names": [
+      "WaifhaTonkhaw"
+    ]
   },
   {
     "id": "tonkhaw",
@@ -2323,7 +2719,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "Oxytoxin で Aidao 役。詳細は続報待ち。"
+    "notes": "Oxytoxin で Aidao 役。詳細は続報待ち。",
+    "pair_names": [
+      "WaifhaTonkhaw"
+    ]
   },
   {
     "id": "benz-jittanan",
@@ -2356,7 +2755,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "Oxytoxin で Chelsea 役。詳細は続報待ち。"
+    "notes": "Oxytoxin で Chelsea 役。詳細は続報待ち。",
+    "pair_names": [
+      "YoghurtPang"
+    ]
   },
   {
     "id": "pang-sabsima",
@@ -2373,7 +2775,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "Oxytoxin で Meimei 役。詳細は続報待ち。"
+    "notes": "Oxytoxin で Meimei 役。詳細は続報待ち。",
+    "pair_names": [
+      "YoghurtPang"
+    ]
   },
   {
     "id": "pimji",
@@ -2389,7 +2794,10 @@
     ],
     "agency": "Studio Wabi Sabi",
     "instagram": null,
-    "notes": "PimjiPineare ペアの Pimji。Studio Wabi Sabi 作品 Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+    "notes": "PimjiPineare ペアの Pimji。Studio Wabi Sabi 作品 Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。",
+    "pair_names": [
+      "PimjiPineare"
+    ]
   },
   {
     "id": "payar",
@@ -2405,7 +2813,10 @@
     ],
     "agency": "Studio Wabi Sabi",
     "instagram": null,
-    "notes": "PimjiPineare ペアの Payar（別名 Pineare）。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+    "notes": "PimjiPineare ペアの Payar（別名 Pineare）。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。",
+    "pair_names": [
+      "PimjiPineare"
+    ]
   },
   {
     "id": "jara",
@@ -2421,7 +2832,10 @@
     ],
     "agency": "Studio Wabi Sabi",
     "instagram": null,
-    "notes": "JaraJennie ペアの Jara。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+    "notes": "JaraJennie ペアの Jara。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。",
+    "pair_names": [
+      "JaraJennie"
+    ]
   },
   {
     "id": "jennie-narumol",
@@ -2437,7 +2851,10 @@
     ],
     "agency": "Studio Wabi Sabi",
     "instagram": null,
-    "notes": "JaraJennie ペアの Jenny。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。"
+    "notes": "JaraJennie ペアの Jenny。Built in Love（2026-10-21 プレミア）で主演。詳細は続報待ち。",
+    "pair_names": [
+      "JaraJennie"
+    ]
   },
   {
     "id": "namwa",
@@ -2453,7 +2870,10 @@
     ],
     "agency": "Kongthup's Production",
     "instagram": null,
-    "notes": "NamwaRada ペアの Namwa。Kongthup's Production 所属、Love Bound（2026-11-08 プレミア）で Khemkaew（เข็มแก้ว）役。"
+    "notes": "NamwaRada ペアの Namwa。Kongthup's Production 所属、Love Bound（2026-11-08 プレミア）で Khemkaew（เข็มแก้ว）役。",
+    "pair_names": [
+      "NamwaRada"
+    ]
   },
   {
     "id": "rada",
@@ -2469,7 +2889,10 @@
     ],
     "agency": "Kongthup's Production",
     "instagram": null,
-    "notes": "NamwaRada ペアの Rada。Love Bound で Wine（ไวน์）役。"
+    "notes": "NamwaRada ペアの Rada。Love Bound で Wine（ไวน์）役。",
+    "pair_names": [
+      "NamwaRada"
+    ]
   },
   {
     "id": "zen",
@@ -2485,7 +2908,10 @@
     ],
     "agency": "Kongthup's Production",
     "instagram": null,
-    "notes": "ZenPat ペアの Zen。Love Bound で Mira（มิรา）役。"
+    "notes": "ZenPat ペアの Zen。Love Bound で Mira（มิรา）役。",
+    "pair_names": [
+      "ZenPat"
+    ]
   },
   {
     "id": "pat-apirum",
@@ -2501,7 +2927,10 @@
     ],
     "agency": "Kongthup's Production",
     "instagram": null,
-    "notes": "ZenPat ペアの Pat。Love Bound で Vodka（วอดก้า）役。"
+    "notes": "ZenPat ペアの Pat。Love Bound で Vodka（วอดก้า）役。",
+    "pair_names": [
+      "ZenPat"
+    ]
   },
   {
     "id": "kapook",
@@ -2517,7 +2946,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。",
+    "pair_names": [
+      "KapookCiize"
+    ]
   },
   {
     "id": "ciize",
@@ -2533,7 +2965,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。",
+    "pair_names": [
+      "KapookCiize"
+    ]
   },
   {
     "id": "sangt",
@@ -2549,7 +2984,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。",
+    "pair_names": [
+      "SangtAcare"
+    ]
   },
   {
     "id": "acare",
@@ -2565,7 +3003,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。",
+    "pair_names": [
+      "SangtAcare"
+    ]
   },
   {
     "id": "nycha",
@@ -2581,7 +3022,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。",
+    "pair_names": [
+      "NychaPrim"
+    ]
   },
   {
     "id": "prim-c",
@@ -2597,7 +3041,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。",
+    "pair_names": [
+      "NychaPrim"
+    ]
   },
   {
     "id": "jaoying",
@@ -2613,7 +3060,10 @@
     ],
     "agency": "GMMTV",
     "instagram": null,
-    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。"
+    "notes": "GMMTV 所属。GMMTV NEXT ラインナップ出演。",
+    "pair_names": [
+      "MewnichJaoying"
+    ]
   },
   {
     "id": "piploy",
@@ -2645,7 +3095,10 @@
     ],
     "agency": "XEBIS Entertainment",
     "instagram": null,
-    "notes": "PeiPyn ペアの Pei。XEBIS Entertainment 所属。DEBUT My Beat（2026-11-14 プレミア、iQIYI 配信）で主演。実名・詳細プロフィールは続報待ち。"
+    "notes": "PeiPyn ペアの Pei。XEBIS Entertainment 所属。DEBUT My Beat（2026-11-14 プレミア、iQIYI 配信）で主演。実名・詳細プロフィールは続報待ち。",
+    "pair_names": [
+      "PeiPyn"
+    ]
   },
   {
     "id": "pyn",
@@ -2661,6 +3114,47 @@
     ],
     "agency": "XEBIS Entertainment",
     "instagram": null,
-    "notes": "PeiPyn ペアの Pyn。XEBIS Entertainment 所属。DEBUT My Beat（2026-11-14 プレミア、iQIYI 配信）で主演。実名・詳細プロフィールは続報待ち。"
+    "notes": "PeiPyn ペアの Pyn。XEBIS Entertainment 所属。DEBUT My Beat（2026-11-14 プレミア、iQIYI 配信）で主演。実名・詳細プロフィールは続報待ち。",
+    "pair_names": [
+      "PeiPyn"
+    ]
+  },
+  {
+    "id": "tita",
+    "name_ja": "ティタ",
+    "real_name": "Chayanit \"Tita\" Chawatanasai",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Villain Star (2027予定)"
+    ],
+    "agency": "iQIYI Thailand",
+    "instagram": "tita_chayanit",
+    "name_en": "Tita",
+    "notes": "iQIYI Thailand 自社 GL アーティストとして公式紹介。Villain Star で Jao-oei 役として主演予定。",
+    "pair_names": [
+      "TitaKarn"
+    ]
+  },
+  {
+    "id": "karn-chony",
+    "name_ja": "カーン",
+    "real_name": "Chonnikarn \"Karn\" Supittayaporn",
+    "birth_date": null,
+    "age": null,
+    "nationality": "Thai",
+    "height_cm": null,
+    "filmography": [
+      "Villain Star (2027予定)"
+    ],
+    "agency": "iQIYI Thailand",
+    "instagram": "kn_chony",
+    "name_en": "Karn",
+    "notes": "iQIYI Thailand 自社 GL アーティストとして公式紹介。Villain Star で Keow 役（ベテランヴィラニス女優）として主演予定。",
+    "pair_names": [
+      "TitaKarn"
+    ]
   }
 ]

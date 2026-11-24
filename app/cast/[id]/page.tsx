@@ -174,7 +174,7 @@ export default function ActressDetailPage({
           {actress.agency && (
             <div className="flex">
               <dt className="w-20 text-yuri-muted shrink-0">所属</dt>
-              <dd>
+              <dd className="flex flex-wrap items-center gap-1.5">
                 <span
                   className="inline-block px-2 py-0.5 rounded-full text-sm font-medium"
                   style={{
@@ -184,10 +184,52 @@ export default function ActressDetailPage({
                 >
                   {actress.agency}
                 </span>
+                {actress.past_agencies && actress.past_agencies.length > 0 && (
+                  <span className="text-xs text-yuri-muted">
+                    ← {actress.past_agencies.join(" / ")}
+                  </span>
+                )}
+              </dd>
+            </div>
+          )}
+          {actress.pair_names && actress.pair_names.length > 0 && (
+            <div className="flex">
+              <dt className="w-20 text-yuri-muted shrink-0">ペア</dt>
+              <dd className="flex flex-wrap gap-1.5">
+                {actress.pair_names.map((p) => (
+                  <span
+                    key={p}
+                    className="inline-block px-2 py-0.5 rounded-full text-sm bg-yuri-lilac/30 text-yuri-navy"
+                  >
+                    {p}
+                  </span>
+                ))}
               </dd>
             </div>
           )}
         </dl>
+
+        {actress.awards && actress.awards.length > 0 && (
+          <div className="mt-4 pt-4 border-t border-yuri-edge">
+            <p className="text-xs text-yuri-muted mb-1.5 tracking-wider uppercase">
+              受賞歴
+            </p>
+            <ul className="text-sm text-yuri-ink space-y-0.5 list-disc list-inside">
+              {actress.awards.map((a, i) => (
+                <li key={i}>{a}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {actress.notes && (
+          <div className="mt-4 pt-4 border-t border-yuri-edge">
+            <p className="text-xs text-yuri-muted mb-1.5 tracking-wider uppercase">
+              備考
+            </p>
+            <p className="text-sm text-yuri-ink leading-relaxed">{actress.notes}</p>
+          </div>
+        )}
 
         {actress.instagram && (
           <a

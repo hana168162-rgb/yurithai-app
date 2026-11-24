@@ -128,6 +128,7 @@ A. 会場周辺で行われる**誕生日カフェ**や**屋外イベント**な
 - [バンコク旅行ガイド](/guide/travel-to-thailand)
 - [タイGL聖地巡礼ガイド](/blog/thai-gl-pilgrimage-guide)
 - [タイGL 推し活用語集](/blog/thai-gl-fandom-glossary)
+- [推し活のお役立ち情報まとめ｜Cal-cha（カルチャ）](https://ticketjam.jp/magazine/entertainment/oshikatsu/134891?utm_source=calcha&utm_medium=cta&utm_content=magazine%2Fcategory%2Fentertainment)（外部メディア）
 
 ---
 
